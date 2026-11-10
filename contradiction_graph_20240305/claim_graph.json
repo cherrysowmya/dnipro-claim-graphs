@@ -1,0 +1,1300 @@
+{
+  "schema_version": "1.1",
+  "event": {
+    "id": "sergei_kotov_attack_20240305",
+    "label": "The reported sinking of Sergei Kotov",
+    "date": "2024-03-05",
+    "description": "Ukraine’s account of an attack on the Russian patrol ship near the Kerch Strait, crew reports and reactions. Multiple outlets mostly repeat the same Ukrainian agency; silence is not a denial or independent confirmation.",
+    "default_topic": "attack",
+    "default_node": "cnn",
+    "graph_scope": "whole_event",
+    "multigraph": true
+  },
+  "topics": [
+    {
+      "id": "attack",
+      "label": "Was the ship destroyed?",
+      "scope_note": "These are attributed Ukrainian claims. Repetition of the same agency is not independent confirmation."
+    },
+    {
+      "id": "method",
+      "label": "How was the attack carried out?",
+      "scope_note": "Keep reported drones, damage, location and cooperating agencies separate from independently verified findings."
+    },
+    {
+      "id": "casualties",
+      "label": "What happened to the crew?",
+      "scope_note": "Early estimates and later preliminary figures need not contradict each other. No final casualty count is established here."
+    },
+    {
+      "id": "reply",
+      "label": "What did Russia say?",
+      "scope_note": "No response at publication time is not a denial, an admission or proof of the underlying claim."
+    },
+    {
+      "id": "impact",
+      "label": "Why might it matter?",
+      "scope_note": "Statements praising the attack, estimated ship value and wider naval consequences are different measures."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "cnn",
+      "label": "CNN",
+      "short_label": "CNN",
+      "country": "United States",
+      "article": {
+        "id": "9bcc22a4-14b0-4013-95a9-f84fdf6e54af",
+        "title": "Ukraine’s drones sink another Russian warship, Kyiv says",
+        "url": "https://www.cnn.com/2024/03/05/europe/russian-warship-destroyed-ukraine-intl-hnk-ml/index.html",
+        "publication_date": "2024-03-05",
+        "text_sha256": "ca4b36d1f0343b804911786cd399b527883c221696e582d1ae742e1435ee6c79"
+      },
+      "attention": "The report leads with Ukraine’s claimed ship attack and places it among earlier Black Sea Fleet losses; technical details largely come from Ukrainian intelligence.",
+      "claims": [
+        {
+          "id": "CNN01",
+          "text": "Ukraine’s military intelligence said its Group 13 unit struck Sergei Kotov with sea drones near the Kerch Strait.",
+          "topics": [
+            "attack",
+            "method"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Ukraine’s military intelligence agency (HUR/DIU)",
+              "role": "Ukrainian Defense Ministry intelligence agency",
+              "country": "Ukraine",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Ukraine’s military intelligence said its Group 13 unit struck Sergei Kotov with sea drones near the Kerch Strait.",
+            "note": ""
+          },
+          "attention": "The report leads with Ukraine’s claimed ship attack and places it among earlier Black Sea Fleet losses; technical details largely come from Ukrainian intelligence. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-03-05 reporting; The reported sinking of Sergei Kotov. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "The Defense Intelligence of Ukraine said maritime drones operated by its Group…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Ukraine’s military intelligence said its Group 13 unit struck Sergei Kotov with sea drones near the Kerch Strait.",
+            "supporting_sentence": "The Defense Intelligence of Ukraine said maritime drones operated by its Group 13 special unit had struck the 1,300-ton Russian patrol ship Sergei Kotov in the Black Sea, near the Kerch Strait that separates occupied Crimea from the coast of southwest Russia.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "The graph records Ukraine’s account, not an independent confirmation.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CNN02",
+          "text": "Yusov said the ship had been hit before but was definitely destroyed this time.",
+          "topics": [
+            "attack"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Andrii Yusov",
+              "role": "Spokesperson for Ukraine’s military intelligence agency",
+              "country": "Ukraine",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Yusov said the ship had been hit before but was definitely destroyed this time.",
+            "note": ""
+          },
+          "attention": "The report leads with Ukraine’s claimed ship attack and places it among earlier Black Sea Fleet losses; technical details largely come from Ukrainian intelligence. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-03-05 reporting; The reported sinking of Sergei Kotov. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "Andriy Yusov, representative of the Defense Intelligence of Ukraine, said in an…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Yusov said the ship had been hit before but was definitely destroyed this time.",
+            "supporting_sentence": "Andriy Yusov, representative of the Defense Intelligence of Ukraine, said in an interview with Radio Free Europe/Radio Liberty that the Sergei Kotov had been targeted and hit before, but “this time the Sergei Kotov has been destroyed for sure.”",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "Certainty belongs to the spokesperson, not to this graph.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CNN03",
+          "text": "The Ukrainian statement said Magura V5 boats damaged the ship’s back and both sides, causing a fire.",
+          "topics": [
+            "method"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Ukraine’s military intelligence agency (HUR/DIU)",
+              "role": "Ukrainian Defense Ministry intelligence agency",
+              "country": "Ukraine",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "The Ukrainian statement said Magura V5 boats damaged the ship’s back and both sides, causing a fire.",
+            "note": ""
+          },
+          "attention": "The report leads with Ukraine’s claimed ship attack and places it among earlier Black Sea Fleet losses; technical details largely come from Ukrainian intelligence. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-03-05 reporting; The reported sinking of Sergei Kotov. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "“As a result of the strike by Magura V5 maritime drones, the…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "The Ukrainian statement said Magura V5 boats damaged the ship’s back and both sides, causing a fire.",
+            "supporting_sentence": "“As a result of the strike by Magura V5 maritime drones, the Russian ship Project 22160 ‘Sergei Kotov’ sustained damage to the stern, starboard and port sides,” sparking a fire aboard the vessel, a statement said.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "Sea drones means unmanned boats carrying explosives. Damage is reported by the attacking side.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CNN04",
+          "text": "Ukraine valued the ship at $65 million.",
+          "topics": [
+            "impact"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Ukraine’s military intelligence agency (HUR/DIU)",
+              "role": "Ukrainian Defense Ministry intelligence agency",
+              "country": "Ukraine",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Ukraine valued the ship at $65 million.",
+            "note": ""
+          },
+          "attention": "The report leads with Ukraine’s claimed ship attack and places it among earlier Black Sea Fleet losses; technical details largely come from Ukrainian intelligence. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-03-05 reporting; The reported sinking of Sergei Kotov. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "Ukraine said it had a price tag of $65 million.",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Ukraine valued the ship at $65 million.",
+            "supporting_sentence": "Ukraine said it had a price tag of $65 million.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "An attributed cost estimate, not a value independently checked for this graph.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "kyivpost",
+      "label": "Kyiv Independent",
+      "short_label": "Kyiv Ind.",
+      "country": "Ukraine",
+      "article": {
+        "id": "937da5e8-d4d1-40c5-8588-d4a4ff1b3e05",
+        "title": "Military intelligence: Russia's Sergey Kotov patrol vessel destroyed near Crimea",
+        "url": "https://kyivindependent.com/media-russias-sergey-kotov-patrol-vessel-hit-near-crimea/",
+        "publication_date": "2024-03-05",
+        "text_sha256": "ab76b4917b794e7d74cad2c48b68dd0d66adf686651fb8a3ad34b5c1113b9797"
+      },
+      "attention": "The article combines the intelligence agency’s account, later preliminary crew figures, an alleged helicopter loss and Shapps’s response, while noting no Russian Defense Ministry comment.",
+      "claims": [
+        {
+          "id": "KI01",
+          "text": "Ukraine’s intelligence agency said it hit and destroyed Sergei Kotov overnight.",
+          "topics": [
+            "attack",
+            "impact"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Ukraine’s military intelligence agency (HUR/DIU)",
+              "role": "Ukrainian Defense Ministry intelligence agency",
+              "country": "Ukraine",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Ukraine’s intelligence agency said it hit and destroyed Sergei Kotov overnight.",
+            "note": ""
+          },
+          "attention": "The article combines the intelligence agency’s account, later preliminary crew figures, an alleged helicopter loss and Shapps’s response, while noting no Russian Defense Ministry comment. (Paragraphs 2.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-03-05 reporting; The reported sinking of Sergei Kotov. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "A patrol ship from Russia's Black Sea Fleet, Sergey Kotov, was hit…",
+            "paragraphs": [
+              2
+            ],
+            "language": "en",
+            "paraphrase": "Ukraine’s intelligence agency said it hit and destroyed Sergei Kotov overnight.",
+            "supporting_sentence": "A patrol ship from Russia's Black Sea Fleet, Sergey Kotov, was hit and destroyed in an overnight attack orchestrated by Ukraine's military intelligence agency (HUR), the agency said on March 5.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "KI02",
+          "text": "The agency’s later early figures were seven sailors killed, six injured and possibly 52 evacuated.",
+          "topics": [
+            "casualties"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Ukraine’s military intelligence agency (HUR/DIU)",
+              "role": "Ukrainian Defense Ministry intelligence agency",
+              "country": "Ukraine",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "The agency’s later early figures were seven sailors killed, six injured and possibly 52 evacuated.",
+            "note": ""
+          },
+          "attention": "The article combines the intelligence agency’s account, later preliminary crew figures, an alleged helicopter loss and Shapps’s response, while noting no Russian Defense Ministry comment. (Paragraphs 10.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-03-05 reporting; The reported sinking of Sergei Kotov. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "Later, Ukrainian military intelligence said that seven Russian sailors were killed, six…",
+            "paragraphs": [
+              10
+            ],
+            "language": "en",
+            "paraphrase": "The agency’s later early figures were seven sailors killed, six injured and possibly 52 evacuated.",
+            "supporting_sentence": "Later, Ukrainian military intelligence said that seven Russian sailors were killed, six injured and 52 crew members could have been evacuated, according to preliminary data.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "These figures are explicitly preliminary, and 52 evacuations were possible rather than confirmed. Do not add these to infer the full crew size.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "KI03",
+          "text": "Kyiv Independent said Russia’s Defense Ministry had not commented on the reported attack.",
+          "topics": [
+            "reply"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "Kyiv Independent article narrator",
+              "role": "Article narrative voice",
+              "country": "Ukraine",
+              "country_basis": "Outlet origin; individual reporter citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Kyiv Independent said Russia’s Defense Ministry had not commented on the reported attack.",
+            "note": ""
+          },
+          "attention": "The article combines the intelligence agency’s account, later preliminary crew figures, an alleged helicopter loss and Shapps’s response, while noting no Russian Defense Ministry comment. (Paragraphs 12.)",
+          "outlet_view": "This is the article narrator’s wording; it is not an outlet-wide policy statement.",
+          "where_when": "2024-03-05 reporting; The reported sinking of Sergei Kotov. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "The Russian Defense Ministry did not comment on the reported attack.",
+            "paragraphs": [
+              12
+            ],
+            "language": "en",
+            "paraphrase": "Kyiv Independent said Russia’s Defense Ministry had not commented on the reported attack.",
+            "supporting_sentence": "The Russian Defense Ministry did not comment on the reported attack.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "Absence of a comment at this reporting time is not a denial or an admission.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "KI04",
+          "text": "Unnamed sources cited by Ukrainska Pravda said a helicopter was destroyed with the ship.",
+          "topics": [
+            "method"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "unnamed_sources_repeated_via_Ukrainska_Pravda",
+          "claimants": [
+            {
+              "name": "Unnamed sources cited by Ukrainska Pravda",
+              "role": "Sources whose identity, office and country are not given here",
+              "country": "Unknown",
+              "country_basis": "The source country is not inferred from the publication citing them."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Unnamed sources cited by Ukrainska Pravda said a helicopter was destroyed with the ship.",
+            "note": ""
+          },
+          "attention": "The article combines the intelligence agency’s account, later preliminary crew figures, an alleged helicopter loss and Shapps’s response, while noting no Russian Defense Ministry comment. (Paragraphs 11.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-03-05 reporting; The reported sinking of Sergei Kotov. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "Ukrainska Pravda reported, citing unnamed sources, that a Russian Ka-29 transport and…",
+            "paragraphs": [
+              11
+            ],
+            "language": "en",
+            "paraphrase": "Unnamed sources cited by Ukrainska Pravda said a helicopter was destroyed with the ship.",
+            "supporting_sentence": "Ukrainska Pravda reported, citing unnamed sources, that a Russian Ka-29 transport and combat helicopter was destroyed along with the vessel.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "The preceding alleged intercepted conversation and this anonymous-source report are separate forms of evidence; neither is independently validated here.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "KI05",
+          "text": "Shapps said the attack showed the Black Sea was not safe for Russia’s navy.",
+          "topics": [
+            "impact"
+          ],
+          "kind": {
+            "label": "Opinion / assessment",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "assessment",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Grant Shapps",
+              "role": "UK defense secretary",
+              "country": "United Kingdom",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Ukraine’s attack on Russia’s navy",
+            "note": ""
+          },
+          "attention": "The article combines the intelligence agency’s account, later preliminary crew figures, an alleged helicopter loss and Shapps’s response, while noting no Russian Defense Ministry comment. (Paragraphs 17.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-03-05 reporting; The reported sinking of Sergei Kotov. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "U.K. Defense Minister Grant Shapps commented on the attack on Sergey Kotov,…",
+            "paragraphs": [
+              17
+            ],
+            "language": "en",
+            "paraphrase": "Shapps said the attack showed the Black Sea was not safe for Russia’s navy.",
+            "supporting_sentence": "U.K. Defense Minister Grant Shapps commented on the attack on Sergey Kotov, saying that \"the Black Sea is not safe for Putin’s Navy.\"",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "KI06",
+          "text": "Yusov initially said there were dead and injured sailors but that some might have escaped.",
+          "topics": [
+            "casualties"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Andrii Yusov",
+              "role": "Spokesperson for Ukraine’s military intelligence agency",
+              "country": "Ukraine",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Yusov initially said there were dead and injured sailors but that some might have escaped.",
+            "note": ""
+          },
+          "attention": "The article combines the intelligence agency’s account, later preliminary crew figures, an alleged helicopter loss and Shapps’s response, while noting no Russian Defense Ministry comment. (Paragraphs 9.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-03-05 reporting; The reported sinking of Sergei Kotov. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "\"There are killed and wounded, but there is a possibility that some…",
+            "paragraphs": [
+              9
+            ],
+            "language": "en",
+            "paraphrase": "Yusov initially said there were dead and injured sailors but that some might have escaped.",
+            "supporting_sentence": "\"There are killed and wounded, but there is a possibility that some of the crew managed to evacuate,\" he noted.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "An earlier broad account before the article’s later preliminary numbers; it does not contradict those numbers.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "europeanpravda",
+      "label": "European Pravda",
+      "short_label": "E. Pravda",
+      "country": "Ukraine",
+      "article": {
+        "id": "53eb7052-0106-46b5-a22c-2f2cda2a9274",
+        "title": "UK Defence Secretary reacts to destruction of Russian Sergei Kotov ship",
+        "url": "https://www.eurointegration.com.ua/eng/news/2024/03/5/7181087/",
+        "publication_date": "2024-03-05",
+        "text_sha256": "41fac92aec767bfc2bb0b7ddbcf7a5024474ef91bcc77fc573692d251e44e0dc"
+      },
+      "attention": "The brief foregrounds Shapps’s response and call for continued Western backing, with Ukrainian reports about the attack and casualties.",
+      "claims": [
+        {
+          "id": "EP01",
+          "text": "Shapps said the Black Sea was no longer safe for Russia’s navy.",
+          "topics": [
+            "impact"
+          ],
+          "kind": {
+            "label": "Opinion / assessment",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "assessment",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Grant Shapps",
+              "role": "UK defense secretary",
+              "country": "United Kingdom",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Ukraine’s ability to attack Russian naval ships",
+            "note": ""
+          },
+          "attention": "The brief foregrounds Shapps’s response and call for continued Western backing, with Ukrainian reports about the attack and casualties. (Paragraphs 3.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-03-05 reporting; The reported sinking of Sergei Kotov. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "Grant Shapps commented on Twitter (X) on the attack on the ship,…",
+            "paragraphs": [
+              3
+            ],
+            "language": "en",
+            "paraphrase": "Shapps said the Black Sea was no longer safe for Russia’s navy.",
+            "supporting_sentence": "Grant Shapps commented on Twitter (X) on the attack on the ship, stating that the Black Sea is no longer \"safe for Putin's Navy\", which had been \"unimaginable\" previously.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "EP02",
+          "text": "Shapps said more Western support could help Ukrainian forces win battles once thought impossible.",
+          "topics": [
+            "impact"
+          ],
+          "kind": {
+            "label": "Opinion / judgement",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "opinion",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Grant Shapps",
+              "role": "UK defense secretary",
+              "country": "United Kingdom",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Continued Western military support to Ukraine",
+            "note": ""
+          },
+          "attention": "The brief foregrounds Shapps’s response and call for continued Western backing, with Ukrainian reports about the attack and casualties. (Paragraphs 4.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-03-05 reporting; The reported sinking of Sergei Kotov. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "\"Now because the West backed Ukraine, it’s undeniable. If we get them…",
+            "paragraphs": [
+              4
+            ],
+            "language": "en",
+            "paraphrase": "Shapps said more Western support could help Ukrainian forces win battles once thought impossible.",
+            "supporting_sentence": "\"Now because the West backed Ukraine, it’s undeniable. If we get them what they need, the bravery & skill of the Ukrainian Armed Forces can unlock victories once thought impossible,\" he wrote.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "EP03",
+          "text": "The article repeats Ukrainian intelligence’s claim that Magura V5 boats sank Sergei Kotov.",
+          "topics": [
+            "attack",
+            "method"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "reported_Ukrainian_intelligence_statement",
+          "claimants": [
+            {
+              "name": "Ukraine’s military intelligence agency (HUR/DIU)",
+              "role": "Ukrainian Defense Ministry intelligence agency",
+              "country": "Ukraine",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "The article repeats Ukrainian intelligence’s claim that Magura V5 boats sank Sergei Kotov.",
+            "note": ""
+          },
+          "attention": "The brief foregrounds Shapps’s response and call for continued Western backing, with Ukrainian reports about the attack and casualties. (Paragraphs 6.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-03-05 reporting; The reported sinking of Sergei Kotov. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "Defence Intelligence of Ukraine confirmed that the Russian Black Sea Fleet patrol…",
+            "paragraphs": [
+              6
+            ],
+            "language": "en",
+            "paraphrase": "The article repeats Ukrainian intelligence’s claim that Magura V5 boats sank Sergei Kotov.",
+            "supporting_sentence": "Defence Intelligence of Ukraine confirmed that the Russian Black Sea Fleet patrol ship Sergei Kotov was sunk as a result of an attack by Ukrainian Magura V5 drones.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "The article’s verb confirmed refers to Ukraine’s statement, not to independent confirmation by this graph.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "EP04",
+          "text": "Yusov said several people were killed and wounded in the attack.",
+          "topics": [
+            "casualties"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Andrii Yusov",
+              "role": "Spokesperson for Ukraine’s military intelligence agency",
+              "country": "Ukraine",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Yusov said several people were killed and wounded in the attack.",
+            "note": ""
+          },
+          "attention": "The brief foregrounds Shapps’s response and call for continued Western backing, with Ukrainian reports about the attack and casualties. (Paragraphs 7.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-03-05 reporting; The reported sinking of Sergei Kotov. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "Andrii Yusov, spokesman for Defence Intelligence of Ukraine, said that several people…",
+            "paragraphs": [
+              7
+            ],
+            "language": "en",
+            "paraphrase": "Yusov said several people were killed and wounded in the attack.",
+            "supporting_sentence": "Andrii Yusov, spokesman for Defence Intelligence of Ukraine, said that several people were killed and injured as a result of the attack.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "No number is supplied here; it is not a separate final casualty count.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "censor",
+      "label": "Censor.NET",
+      "short_label": "Censor.NET",
+      "country": "Ukraine",
+      "article": {
+        "id": "286fc483-3e36-49c7-96a5-0bb8bf89d498",
+        "title": "DIU confirms destruction of Russian patrol ship \"Sergey Kotov\"",
+        "url": "https://censor.net/en/news/3476881/diu_confirms_destruction_of_russian_patrol_ship_sergey_kotov",
+        "publication_date": "2024-03-05",
+        "text_sha256": "80357c082e43d5eaa992ea5f74c63eb90adf70e873178657db445b2358868e51"
+      },
+      "attention": "The short report follows Ukraine’s military-intelligence announcement: attacking unit, cooperating agencies, reported damage and estimated cost.",
+      "claims": [
+        {
+          "id": "CEN01",
+          "text": "Ukraine’s intelligence agency said Group 13 attacked Sergei Kotov overnight on March 4–5.",
+          "topics": [
+            "attack"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "reported_Ukrainian_intelligence_statement",
+          "claimants": [
+            {
+              "name": "Ukraine’s military intelligence agency (HUR/DIU)",
+              "role": "Ukrainian Defense Ministry intelligence agency",
+              "country": "Ukraine",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Ukraine’s intelligence agency said Group 13 attacked Sergei Kotov overnight on March 4–5.",
+            "note": ""
+          },
+          "attention": "The short report follows Ukraine’s military-intelligence announcement: attacking unit, cooperating agencies, reported damage and estimated cost. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-03-05 reporting; The reported sinking of Sergei Kotov. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "On the night of 4-5 March 2024, a special unit of the…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Ukraine’s intelligence agency said Group 13 attacked Sergei Kotov overnight on March 4–5.",
+            "supporting_sentence": "On the night of 4-5 March 2024, a special unit of the Defence Intelligence of Ukraine, \"Group 13\", attacked the patrol ship of the Russian Black Sea Fleet, \"Sergey Kotov\".",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CEN02",
+          "text": "The Ukrainian statement said Magura V5 boats damaged the ship’s back and both sides near Kerch.",
+          "topics": [
+            "method"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Ukraine’s military intelligence agency (HUR/DIU)",
+              "role": "Ukrainian Defense Ministry intelligence agency",
+              "country": "Ukraine",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "The Ukrainian statement said Magura V5 boats damaged the ship’s back and both sides near Kerch.",
+            "note": ""
+          },
+          "attention": "The short report follows Ukraine’s military-intelligence announcement: attacking unit, cooperating agencies, reported damage and estimated cost. (Paragraphs 4.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-03-05 reporting; The reported sinking of Sergei Kotov. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "\"As a result of the strike by 'Magura V5' maritime drones, the…",
+            "paragraphs": [
+              4
+            ],
+            "language": "en",
+            "paraphrase": "The Ukrainian statement said Magura V5 boats damaged the ship’s back and both sides near Kerch.",
+            "supporting_sentence": "\"As a result of the strike by 'Magura V5' maritime drones, the Russian ship of Project 22160, \"Sergey Kotov\", was damaged in the stern, starboard and port sides. The fire damage to the 'Kotov' took place in the territorial waters of Ukraine, near the Kerch Strait,\" the statement said.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "Unmanned explosive boats and reported damage are described by the attacking side.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CEN03",
+          "text": "The agency said the reportedly sunk ship cost about $65 million.",
+          "topics": [
+            "impact"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Ukraine’s military intelligence agency (HUR/DIU)",
+              "role": "Ukrainian Defense Ministry intelligence agency",
+              "country": "Ukraine",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "The agency said the reportedly sunk ship cost about $65 million.",
+            "note": ""
+          },
+          "attention": "The short report follows Ukraine’s military-intelligence announcement: attacking unit, cooperating agencies, reported damage and estimated cost. (Paragraphs 5.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-03-05 reporting; The reported sinking of Sergei Kotov. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "According to the DIU, the cost of the sunken ship is about…",
+            "paragraphs": [
+              5
+            ],
+            "language": "en",
+            "paraphrase": "The agency said the reportedly sunk ship cost about $65 million.",
+            "supporting_sentence": "According to the DIU, the cost of the sunken ship is about $65 million.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "An estimate repeated from Ukraine, not a separately validated financial figure.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CEN04",
+          "text": "The intelligence agency said Ukraine’s navy and digital ministry helped the mission.",
+          "topics": [
+            "method"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Ukraine’s military intelligence agency (HUR/DIU)",
+              "role": "Ukrainian Defense Ministry intelligence agency",
+              "country": "Ukraine",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "The intelligence agency said Ukraine’s navy and digital ministry helped the mission.",
+            "note": ""
+          },
+          "attention": "The short report follows Ukraine’s military-intelligence announcement: attacking unit, cooperating agencies, reported damage and estimated cost. (Paragraphs 3.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-03-05 reporting; The reported sinking of Sergei Kotov. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "As noted, the mission took place in cooperation with the Ukrainian Navy…",
+            "paragraphs": [
+              3
+            ],
+            "language": "en",
+            "paraphrase": "The intelligence agency said Ukraine’s navy and digital ministry helped the mission.",
+            "supporting_sentence": "As noted, the mission took place in cooperation with the Ukrainian Navy and with the support of the Ministry of Digital Transformation of Ukraine.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "china_daily",
+      "label": "China Daily",
+      "short_label": "China Daily",
+      "country": "China",
+      "article": {
+        "id": "7949d683-469d-4ffb-8e0d-213a8e807b0f",
+        "title": "Ukraine says it destroyed Russian patrol ship in Black Sea",
+        "url": "https://www.chinadaily.com.cn/a/202403/05/WS65e727eaa31082fc043bad15.html",
+        "publication_date": "2024-03-05",
+        "text_sha256": "4d0a0520c89f78b6b9e11ee62454b52b46328171d487891a8a2f4c7cf01bdbda"
+      },
+      "attention": "The brief relays Ukraine’s intelligence statement about the ship and drones, ending with the absence of a Russian response.",
+      "claims": [
+        {
+          "id": "CD01",
+          "text": "Ukraine’s intelligence agency said its Group 13 unit destroyed a Russian patrol ship overnight.",
+          "topics": [
+            "attack"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "Ukrainian_Telegram_statement_repeated_by_China_Daily",
+          "claimants": [
+            {
+              "name": "Ukraine’s military intelligence agency (HUR/DIU)",
+              "role": "Ukrainian Defense Ministry intelligence agency",
+              "country": "Ukraine",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Ukraine’s intelligence agency said its Group 13 unit destroyed a Russian patrol ship overnight.",
+            "note": ""
+          },
+          "attention": "The brief relays Ukraine’s intelligence statement about the ship and drones, ending with the absence of a Russian response. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-03-05 reporting; The reported sinking of Sergei Kotov. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "KIEV -- Ukraine's intelligence unit \"Group 13\" destroyed a Russian patrol ship…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Ukraine’s intelligence agency said its Group 13 unit destroyed a Russian patrol ship overnight.",
+            "supporting_sentence": "KIEV -- Ukraine's intelligence unit \"Group 13\" destroyed a Russian patrol ship in the Black Sea overnight Tuesday, the Main Intelligence Directorate of the Ukrainian Defense Ministry said in a Telegram post.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "This is the Ukrainian agency’s account, not independent Chinese confirmation.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CD02",
+          "text": "The agency said Magura V5 boats hit Sergei Kotov near the Kerch Strait.",
+          "topics": [
+            "method"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "Ukrainian_Telegram_statement_repeated_by_China_Daily",
+          "claimants": [
+            {
+              "name": "Ukraine’s military intelligence agency (HUR/DIU)",
+              "role": "Ukrainian Defense Ministry intelligence agency",
+              "country": "Ukraine",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "The agency said Magura V5 boats hit Sergei Kotov near the Kerch Strait.",
+            "note": ""
+          },
+          "attention": "The brief relays Ukraine’s intelligence statement about the ship and drones, ending with the absence of a Russian response. (Paragraphs 2.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-03-05 reporting; The reported sinking of Sergei Kotov. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "The Russian Black Sea fleet ship \"Sergey Kotov\" was hit by Magura…",
+            "paragraphs": [
+              2
+            ],
+            "language": "en",
+            "paraphrase": "The agency said Magura V5 boats hit Sergei Kotov near the Kerch Strait.",
+            "supporting_sentence": "The Russian Black Sea fleet ship \"Sergey Kotov\" was hit by Magura V5 sea drones near the Kerch Strait, it said.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CD03",
+          "text": "China Daily said Russia had not responded to the incident at publication time.",
+          "topics": [
+            "reply"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "China Daily article narrator",
+              "role": "Article narrative voice",
+              "country": "China",
+              "country_basis": "Outlet origin; individual reporter citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "China Daily said Russia had not responded to the incident at publication time.",
+            "note": ""
+          },
+          "attention": "The brief relays Ukraine’s intelligence statement about the ship and drones, ending with the absence of a Russian response. (Paragraphs 4.)",
+          "outlet_view": "This is the article narrator’s wording; it is not an outlet-wide policy statement.",
+          "where_when": "2024-03-05 reporting; The reported sinking of Sergei Kotov. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "Russia has not responded to the incident so far.",
+            "paragraphs": [
+              4
+            ],
+            "language": "en",
+            "paraphrase": "China Daily said Russia had not responded to the incident at publication time.",
+            "supporting_sentence": "Russia has not responded to the incident so far.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "No response is not the same as a Russian denial or confirmation of the sinking.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "E01",
+      "source": "cnn",
+      "target": "kyivpost",
+      "topic": "attack",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CNN02",
+      "target_claim": "KI01",
+      "label": "Same Ukrainian destruction claim",
+      "subtype": "same_original_Ukrainian_account",
+      "reason": "Both report Ukraine’s intelligence agency saying the ship was destroyed. These reports rely on the same original statement.",
+      "caveat": "The original agency and spokesperson overlap. Repeating the claim is not independent confirmation.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E02",
+      "source": "kyivpost",
+      "target": "china_daily",
+      "topic": "attack",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "KI01",
+      "target_claim": "CD01",
+      "label": "Same Group 13 claim",
+      "subtype": "same_original_Ukrainian_account",
+      "reason": "Both relay Ukraine’s statement that its unit destroyed the ship. These reports rely on the same original statement.",
+      "caveat": "China Daily explicitly cites the agency’s Telegram account; this is not a separate Chinese investigation.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E03",
+      "source": "kyivpost",
+      "target": "europeanpravda",
+      "topic": "attack",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "KI01",
+      "target_claim": "EP03",
+      "label": "Same claimed sinking",
+      "subtype": "same_original_Ukrainian_account",
+      "reason": "Both carry Ukraine’s agency account of the ship’s destruction. These reports rely on the same original statement.",
+      "caveat": "The common Ukrainian source is preserved; neither adds an independent Russian confirmation.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E04",
+      "source": "kyivpost",
+      "target": "censor",
+      "topic": "attack",
+      "relation": "supportive",
+      "color": "green",
+      "source_claim": "KI01",
+      "target_claim": "CEN01",
+      "label": "The reported outcome supports the attack component",
+      "subtype": "specified_partial_support",
+      "reason": "Kyiv Independent carries HUR’s claim that the vessel was hit and destroyed in the overnight operation. That more specific outcome claim supports the occurrence-of-an-attack component reported by Censor.NET.",
+      "caveat": "Both reports rely on Ukrainian military intelligence. The arrow records the implication of the stronger reported claim.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": true,
+      "direction": "source_to_target",
+      "support_scope": "The agency’s account of an overnight attack on the ship in CEN01.",
+      "direction_reason": "KI01 supplies the specified support for CEN01.",
+      "unsupported_parts": "Independent verification of the sinking or every operational detail."
+    },
+    {
+      "id": "E05",
+      "source": "cnn",
+      "target": "censor",
+      "topic": "method",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CNN03",
+      "target_claim": "CEN02",
+      "label": "Same reported damage",
+      "subtype": "same_original_Ukrainian_account",
+      "reason": "Both carry the Ukrainian statement about Magura boats damaging the back and both sides. These reports rely on the same original statement.",
+      "caveat": "Same original announcement, not independent inspection of the vessel.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E06",
+      "source": "cnn",
+      "target": "china_daily",
+      "topic": "method",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CNN01",
+      "target_claim": "CD02",
+      "label": "Same reported weapon and location",
+      "subtype": "same_original_Ukrainian_account",
+      "reason": "Both describe sea drones near the Kerch Strait, attributed to Ukrainian intelligence. These reports rely on the same original statement.",
+      "caveat": "Common agency source. Similar technical details do not create independent corroboration.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E07",
+      "source": "censor",
+      "target": "europeanpravda",
+      "topic": "method",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CEN02",
+      "target_claim": "EP03",
+      "label": "Same Magura boat account",
+      "subtype": "same_original_Ukrainian_account",
+      "reason": "Both attribute the use of Magura V5 unmanned boats to Ukrainian intelligence. These reports rely on the same original statement.",
+      "caveat": "The source overlap is explicit; the graph does not verify the weapon independently.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E08",
+      "source": "kyivpost",
+      "target": "europeanpravda",
+      "topic": "casualties",
+      "relation": "supportive",
+      "color": "green",
+      "source_claim": "KI02",
+      "target_claim": "EP04",
+      "label": "Later preliminary figures support the broad casualty account",
+      "subtype": "specified_partial_support",
+      "reason": "Kyiv Independent reports preliminary figures of seven killed and six injured from Ukrainian intelligence. Those figures support the broader claim of several dead and wounded in European Pravda.",
+      "caveat": "The accounts come from the same agency at different update times. The later figures remain preliminary.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": true,
+      "direction": "source_to_target",
+      "support_scope": "The existence of reported fatalities and injuries in EP04.",
+      "direction_reason": "KI02 supplies the specified support for EP04.",
+      "unsupported_parts": "A final casualty total or confirmed evacuation numbers."
+    },
+    {
+      "id": "E09",
+      "source": "kyivpost",
+      "target": "china_daily",
+      "topic": "reply",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "KI03",
+      "target_claim": "CD03",
+      "label": "Neither reports a Russian answer",
+      "subtype": "parallel_accounts_or_interpretations",
+      "reason": "Both articles record no response to the attack at their reporting times. The matching content alone supplies no evidential direction.",
+      "caveat": "Kyiv specifies the Defense Ministry; China Daily says Russia more broadly. This is agreement only on the absence of a reported official answer, not a denial of the sinking.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E10",
+      "source": "kyivpost",
+      "target": "europeanpravda",
+      "topic": "impact",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "KI05",
+      "target_claim": "EP01",
+      "label": "Same Shapps reaction",
+      "subtype": "same_official_statement",
+      "reason": "Both repeat Shapps’s statement that Russia’s navy is unsafe in the Black Sea. These reports rely on the same original statement.",
+      "caveat": "Same social-media statement, not two separate assessments or automatic outlet approval.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E11",
+      "source": "cnn",
+      "target": "censor",
+      "topic": "impact",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CNN04",
+      "target_claim": "CEN03",
+      "label": "Same Ukrainian cost estimate",
+      "subtype": "same_original_Ukrainian_account",
+      "reason": "Both report a value of roughly $65 million attributed to Ukraine. These reports rely on the same original statement.",
+      "caveat": "The shared estimate is not an independent market valuation.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E12",
+      "source": "kyivpost",
+      "target": "europeanpravda",
+      "topic": "impact",
+      "source_claim": "KI01",
+      "target_claim": "EP01",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "relation": "supportive",
+      "color": "green",
+      "directed": true,
+      "direction": "source_to_target",
+      "label": "The reported ship loss supplies a reason for the risk assessment",
+      "subtype": "specified_partial_support",
+      "reason": "The reported destruction of Sergei Kotov is a concrete incident that supplies a reason for Shapps’s assessment that Russian naval ships face danger in the Black Sea.",
+      "support_scope": "The ship-vulnerability assessment quoted in EP01.",
+      "caveat": "The rationale depends on accepting the Ukrainian agency’s reported account of the attack. The source overlap remains visible.",
+      "direction_reason": "KI01 supplies the specified support for EP01.",
+      "unsupported_parts": "A verified sinking, risk to every Russian vessel or conditions everywhere in the Black Sea."
+    }
+  ],
+  "excluded": [
+    {
+      "source": "ft",
+      "outlet": "Financial Times",
+      "reason": "Commentary on Russia’s influence over five post-Soviet neighbors; no Sergei Kotov attack."
+    },
+    {
+      "source": "tass",
+      "outlet": "TASS",
+      "reason": "German investigation of the Taurus-call leak; not the ship sinking."
+    },
+    {
+      "source": "sputnik",
+      "outlet": "Sputnik",
+      "reason": "Radio-show outline about the German leak and other topics; it does not discuss this ship."
+    },
+    {
+      "source": "izvestia",
+      "outlet": "Izvestia",
+      "reason": "Pistorius’s explanation of the German military-call leak; no Sergei Kotov attack."
+    },
+    {
+      "source": "global_times",
+      "outlet": "Global Times",
+      "reason": "German military-call leak and possible escalation; no report of this ship attack."
+    }
+  ],
+  "method": {
+    "country_note": "Outlet countries describe origin. Claimant countries describe an office, organization or stated residence, not assumed citizenship.",
+    "claim_type_note": "A fact claim is a checkable statement, not a fact verified by this graph. Opinions, predictions, legal positions and promises are marked separately.",
+    "edge_note": "Green arrows point from a claim supplying a reason, example or reported statement to the specified part of another claim. Grey comparisons have no assigned evidential direction. Solid red connections mark proposed contradictions between specific claims or assessments. An arrow is used for an explicit rebuttal of a matching claim. Repeated reports of the same statement share a source.",
+    "attention_note": "Attention is a qualitative reading of the saved article, with paragraph locators; it is not a measured share of words.",
+    "endorsement_note": "A quoted speaker’s view is separate from the article narrator’s view. No outlet-wide position is inferred from one article.",
+    "annotation_status": "AI-assisted draft; human review pending",
+    "cleaning_note": "Uses saved recovered text. Kyiv Independent later Most Popular / News Feed material is excluded; original paragraph numbers retained. FT wrapped lines are joined into logical paragraphs."
+  }
+}

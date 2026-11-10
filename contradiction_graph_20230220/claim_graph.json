@@ -1,0 +1,2085 @@
+{
+  "schema_version": "1.1",
+  "event": {
+    "id": "biden_kyiv_visit_20230220",
+    "label": "Biden’s surprise visit to Kyiv",
+    "date": "2023-02-20",
+    "description": "Nine reports cover Biden’s February 20 Kyiv visit, its aid announcements, preparation and interpretations of its purpose. Promises, reported private talks and commentators’ forecasts are kept separate.",
+    "default_topic": "planning",
+    "default_node": "cnn",
+    "graph_scope": "whole_event",
+    "multigraph": true
+  },
+  "topics": [
+    {
+      "id": "planning",
+      "label": "Planning and warning Russia",
+      "scope_note": "Secret preparation and advance notification are separate from a claim that the visit was risk-free."
+    },
+    {
+      "id": "support_message",
+      "label": "The message of continued support",
+      "scope_note": "A president’s promise and an analyst’s interpretation of the visit’s message are different kinds of evidence."
+    },
+    {
+      "id": "military_aid",
+      "label": "New military aid",
+      "scope_note": "An announcement or promise is not proof that equipment or money had already arrived. Repeated accounts may rely on CNN or one White House statement."
+    },
+    {
+      "id": "sanctions",
+      "label": "Further penalties on Russia",
+      "scope_note": "Announced plans for further penalties are separate from measures already in force."
+    },
+    {
+      "id": "purpose",
+      "label": "Why did Biden visit?",
+      "scope_note": "Reassurance, battlefield talks and pressure for progress can coexist. Different accounts of purpose need not be factual contradictions."
+    },
+    {
+      "id": "effects",
+      "label": "What might the visit change?",
+      "scope_note": "Predictions about battlefield effects or Russian reactions are not observed outcomes."
+    },
+    {
+      "id": "war_assessment",
+      "label": "Biden’s view of Russia’s plans",
+      "scope_note": "Biden’s judgments about Putin’s calculations are attributed political assessments, not independent access to Putin’s thoughts."
+    },
+    {
+      "id": "poland",
+      "label": "Travel and meetings after Kyiv",
+      "scope_note": "One report may describe a planned onward trip and another its later departure; that time difference is not a contradiction."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "cnn",
+      "label": "CNN",
+      "short_label": "CNN",
+      "country": "United States",
+      "article": {
+        "id": "829e7ecd-5580-4110-8a20-f6fc16c2682f",
+        "title": "Months of planning and days of secrecy led to Joe Biden’s historic trip to Kyiv",
+        "url": "https://www.cnn.com/2023/02/20/politics/president-biden-kyiv-trip/index.html",
+        "publication_date": "2023-02-20",
+        "text_sha256": "27934ae76be83b96ad466c1a75c0a67157790170242481bf10b16ff8f6d39fec"
+      },
+      "attention": "The recovered body is one long paragraph (P1). Most of it reconstructs secrecy, travel and security; it also describes intended battlefield talks and quotes Biden’s support. Exact sentence excerpts are supplied to avoid treating the entire paragraph as evidence of every claim.",
+      "claims": [
+        {
+          "id": "CNN01",
+          "text": "CNN says a small group of senior aides spent months secretly planning the trip.",
+          "topics": [
+            "planning"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "CNN article narrator",
+              "role": "Article narrative voice",
+              "country": "United States",
+              "country_basis": "Outlet origin; individual reporter citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "CNN says a small group of senior aides spent months secretly planning the trip.",
+            "note": ""
+          },
+          "attention": "The recovered body is one long paragraph (P1). Most of it reconstructs secrecy, travel and security; it also describes intended battlefield talks and quotes Biden’s support. Exact sentence excerpts are supplied to avoid treating the entire paragraph as evidence of every claim. (Paragraphs 1.)",
+          "outlet_view": "This is the article narrator’s wording; it is not an outlet-wide policy statement.",
+          "where_when": "Preparation over months before the February 20 Kyiv visit.",
+          "evidence": {
+            "quote": "Cloaked in secrecy and weighted with history, Biden’s trip was the work…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "CNN says a small group of senior aides spent months secretly planning the trip.",
+            "supporting_sentence": "Cloaked in secrecy and weighted with history, Biden’s trip was the work of months of planning by only a small handful of his senior-most aides, who recognized long ago the symbolic importance of visiting the Ukrainian capital a year after Russia tried to capture it.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "The article’s reporting about planning, not an independent security audit.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CNN02",
+          "text": "CNN says US officials warned Moscow of the visit to avoid a dangerous clash.",
+          "topics": [
+            "planning"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "CNN article narrator",
+              "role": "Article narrative voice",
+              "country": "United States",
+              "country_basis": "Outlet origin; individual reporter citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "CNN says US officials warned Moscow of the visit to avoid a dangerous clash.",
+            "note": ""
+          },
+          "attention": "The recovered body is one long paragraph (P1). Most of it reconstructs secrecy, travel and security; it also describes intended battlefield talks and quotes Biden’s support. Exact sentence excerpts are supplied to avoid treating the entire paragraph as evidence of every claim. (Paragraphs 1.)",
+          "outlet_view": "This is the article narrator’s wording; it is not an outlet-wide policy statement.",
+          "where_when": "Advance notice after the trip was approved and before Biden was on the ground in Kyiv.",
+          "evidence": {
+            "quote": "Once the trip was on, US officials took steps to notify Moscow…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "CNN says US officials warned Moscow of the visit to avoid a dangerous clash.",
+            "supporting_sentence": "Once the trip was on, US officials took steps to notify Moscow of their plans, an attempt at “deconfliction” meant to avoid unthinkable disaster while Biden was on the ground.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "The article reports notification, not Russian approval, a safety guarantee or details of Moscow’s response.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CNN03",
+          "text": "CNN says Biden sought urgent talks with Zelensky about the next stage of the war.",
+          "topics": [
+            "purpose"
+          ],
+          "kind": {
+            "label": "Opinion / assessment",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "assessment",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "CNN article narrator",
+              "role": "Article narrative voice",
+              "country": "United States",
+              "country_basis": "Outlet origin; individual reporter citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "CNN says Biden sought urgent talks with Zelensky about the next stage of the war.",
+            "note": ""
+          },
+          "attention": "The recovered body is one long paragraph (P1). Most of it reconstructs secrecy, travel and security; it also describes intended battlefield talks and quotes Biden’s support. Exact sentence excerpts are supplied to avoid treating the entire paragraph as evidence of every claim. (Paragraphs 1.)",
+          "outlet_view": "This is the narrator’s account of the visit’s purpose and private talks. It is not an explicit CNN policy endorsement.",
+          "where_when": "Talks at the Mariinsky Palace in Kyiv on February 20.",
+          "evidence": {
+            "quote": "In conversations behind closed doors at the Mariinsky Palace on Monday, Biden…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "CNN says Biden sought urgent talks with Zelensky about the next stage of the war.",
+            "supporting_sentence": "In conversations behind closed doors at the Mariinsky Palace on Monday, Biden sought to engage President Volodymyr Zelensky in a detailed and urgent discussion about the next phase of the war, which US officials describe as having arrived at a critical juncture.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "Intended discussion of the war does not prove a particular weapons transfer or attack plan was agreed.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CNN04",
+          "text": "Biden promises continued US support for Ukraine.",
+          "topics": [
+            "support_message"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "reported_us_president",
+          "claimants": [
+            {
+              "name": "Joe Biden",
+              "role": "President of the United States",
+              "country": "United States",
+              "country_basis": "Explicit US state office."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Continued US support for Ukraine",
+            "note": ""
+          },
+          "attention": "The recovered body is one long paragraph (P1). Most of it reconstructs secrecy, travel and security; it also describes intended battlefield talks and quotes Biden’s support. Exact sentence excerpts are supplied to avoid treating the entire paragraph as evidence of every claim. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Biden’s February 20 Kyiv visit; future support promised.",
+          "evidence": {
+            "quote": "How the war advances in the coming months will depend in large…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Biden promises continued US support for Ukraine.",
+            "supporting_sentence": "How the war advances in the coming months will depend in large part on the continued support of the United States, which Biden pledged Monday would be unceasing.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "kyivpost",
+      "label": "Kyiv Independent",
+      "short_label": "Kyiv Ind.",
+      "country": "Ukraine",
+      "article": {
+        "id": "64059a68-2b25-44ab-94fd-2d6c12d58750",
+        "title": "Biden makes surprise visit to Kyiv, meets Zelensky (UPDATES)",
+        "url": "https://kyivindependent.com/biden-makes-surprise-visit-to-kyiv-meets-zelensky/",
+        "publication_date": "2023-02-20",
+        "text_sha256": "2724d57f9b7b1287295b109bc02995d69166231d269240127e7037979974c978"
+      },
+      "attention": "P2–6 describe the visit; P7–18 report aid, talks and advance notification to Russia. P19–23 add history and onward travel. The report flags itself as developing news; old promises from Biden’s December visit are not treated as new ones.",
+      "claims": [
+        {
+          "id": "KI01",
+          "text": "Biden is reported to pledge another $500 million in aid.",
+          "topics": [
+            "military_aid"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "reported_us_president_via_CNN",
+          "claimants": [
+            {
+              "name": "Joe Biden",
+              "role": "President of the United States",
+              "country": "United States",
+              "country_basis": "Explicit US state office."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Additional US military aid to Ukraine",
+            "note": ""
+          },
+          "attention": "P2–6 describe the visit; P7–18 report aid, talks and advance notification to Russia. P19–23 add history and onward travel. The report flags itself as developing news; old promises from Biden’s December visit are not treated as new ones. (Paragraphs 10.)",
+          "outlet_view": "Kyiv Independent explicitly cites CNN for the amount. It is not an independent tally or proof that the aid arrived.",
+          "where_when": "Aid announced during the February 20 visit.",
+          "evidence": {
+            "quote": "Biden pledged an extra $500 million in aid to the country, reports…",
+            "paragraphs": [
+              10
+            ],
+            "language": "en",
+            "paraphrase": "Biden is reported to pledge another $500 million in aid.",
+            "supporting_sentence": "Biden pledged an extra $500 million in aid to the country, reports CNN. The assistance package will consist of more military equipment, such as javelins, howitzers, and artillery ammunition.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "Promise and reported amount; not a completed transfer.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "KI02",
+          "text": "Biden promises ammunition, anti-tank systems and air-surveillance radar.",
+          "topics": [
+            "military_aid"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_white_house_statement",
+          "claimants": [
+            {
+              "name": "Joe Biden",
+              "role": "President of the United States",
+              "country": "United States",
+              "country_basis": "Explicit US state office."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Further US military equipment for Ukraine",
+            "note": ""
+          },
+          "attention": "P2–6 describe the visit; P7–18 report aid, talks and advance notification to Russia. P19–23 add history and onward travel. The report flags itself as developing news; old promises from Biden’s December visit are not treated as new ones. (Paragraphs 8.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "White House statement for the February 20 visit.",
+          "evidence": {
+            "quote": "\"(During the visit) I will announce another delivery of critical equipment, including…",
+            "paragraphs": [
+              8
+            ],
+            "language": "en",
+            "paraphrase": "Biden promises ammunition, anti-tank systems and air-surveillance radar.",
+            "supporting_sentence": "\"(During the visit) I will announce another delivery of critical equipment, including artillery ammunition, anti-armor systems, and air surveillance radars to help protect the Ukrainian people from aerial bombardments,\" the statement reads. \"And I will share that later this week, we will announce additional sanctions against elites and companies that are trying to evade or backfill Russia’s war machine.\"",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "A future delivery is promised; the article does not verify arrival of each item.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "KI03",
+          "text": "Sullivan says Russia was told about the visit hours before Biden left.",
+          "topics": [
+            "planning"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "reported_us_adviser",
+          "claimants": [
+            {
+              "name": "Jake Sullivan",
+              "role": "US national security adviser",
+              "country": "United States",
+              "country_basis": "Explicit US White House office."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Sullivan says Russia was told about the visit hours before Biden left.",
+            "note": ""
+          },
+          "attention": "P2–6 describe the visit; P7–18 report aid, talks and advance notification to Russia. P19–23 add history and onward travel. The report flags itself as developing news; old promises from Biden’s December visit are not treated as new ones. (Paragraphs 17.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Notification before the trip, described at a February 20 press call.",
+          "evidence": {
+            "quote": "According to Sullivan, American officials notified Russia about Biden's visit to Kyiv…",
+            "paragraphs": [
+              17
+            ],
+            "language": "en",
+            "paraphrase": "Sullivan says Russia was told about the visit hours before Biden left.",
+            "supporting_sentence": "According to Sullivan, American officials notified Russia about Biden's visit to Kyiv \"some hours before his departure for de-confliction purposes.\"",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "P18 says Sullivan did not give details of the message or Russia’s reaction.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "KI04",
+          "text": "Sullivan says the leaders discussed battlefield needs for the coming months.",
+          "topics": [
+            "purpose"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "quoted_us_adviser",
+          "claimants": [
+            {
+              "name": "Jake Sullivan",
+              "role": "US national security adviser",
+              "country": "United States",
+              "country_basis": "Explicit US White House office."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Sullivan says the leaders discussed battlefield needs for the coming months.",
+            "note": ""
+          },
+          "attention": "P2–6 describe the visit; P7–18 report aid, talks and advance notification to Russia. P19–23 add history and onward travel. The report flags itself as developing news; old promises from Biden’s December visit are not treated as new ones. (Paragraphs 13.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "February 20 talks, described after the visit.",
+          "evidence": {
+            "quote": "The two leaders discussed “the coming months, in terms of the battlefield,…",
+            "paragraphs": [
+              13
+            ],
+            "language": "en",
+            "paraphrase": "Sullivan says the leaders discussed battlefield needs for the coming months.",
+            "supporting_sentence": "The two leaders discussed “the coming months, in terms of the battlefield, and what capabilities Ukraine will need to succeed,” U.S. National Security Advisor Jake Sullivan said at a joint press call after Biden’s visit.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "P14–15 do not confirm a specific F-16 agreement or make the discussion a weapons-delivery promise.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "KI05",
+          "text": "Biden promises more penalties against those helping Russia’s war effort.",
+          "topics": [
+            "sanctions"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_white_house_statement",
+          "claimants": [
+            {
+              "name": "Joe Biden",
+              "role": "President of the United States",
+              "country": "United States",
+              "country_basis": "Explicit US state office."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Additional US penalties against support for Russia’s war effort",
+            "note": ""
+          },
+          "attention": "P2–6 describe the visit; P7–18 report aid, talks and advance notification to Russia. P19–23 add history and onward travel. The report flags itself as developing news; old promises from Biden’s December visit are not treated as new ones. (Paragraphs 8.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Announcement planned later in the week after February 20.",
+          "evidence": {
+            "quote": "\"(During the visit) I will announce another delivery of critical equipment, including…",
+            "paragraphs": [
+              8
+            ],
+            "language": "en",
+            "paraphrase": "Biden promises more penalties against those helping Russia’s war effort.",
+            "supporting_sentence": "\"(During the visit) I will announce another delivery of critical equipment, including artillery ammunition, anti-armor systems, and air surveillance radars to help protect the Ukrainian people from aerial bombardments,\" the statement reads. \"And I will share that later this week, we will announce additional sanctions against elites and companies that are trying to evade or backfill Russia’s war machine.\"",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "A stated plan for additional sanctions, not evidence that all measures already took effect.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "europeanpravda",
+      "label": "European Pravda",
+      "short_label": "E. Pravda",
+      "country": "Ukraine",
+      "article": {
+        "id": "36d37fce-08ad-4aae-856c-e3721c3fcc45",
+        "title": "Biden Said in Kyiv That Putin's \"War of Conquest\" Failing",
+        "url": "https://www.eurointegration.com.ua/eng/news/2023/02/20/7156506/",
+        "publication_date": "2023-02-20",
+        "text_sha256": "e38261bf7e911ac137de23000e73f7299c435b836bf06faf1f587a998610cb60"
+      },
+      "attention": "The article centers on Biden’s speech and his claim Putin misjudged Ukraine and Western unity (P2–4, P7–12). P5 interprets the visit’s symbolic purpose; P13 notes aid and penalties.",
+      "claims": [
+        {
+          "id": "EP01",
+          "text": "Biden says Putin’s war of conquest is failing.",
+          "topics": [
+            "war_assessment"
+          ],
+          "kind": {
+            "label": "Opinion / assessment",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "assessment",
+          "source_type": "reported_us_president",
+          "claimants": [
+            {
+              "name": "Joe Biden",
+              "role": "President of the United States",
+              "country": "United States",
+              "country_basis": "Explicit US state office."
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Criticizes / opposes",
+            "target": "Russia’s invasion of Ukraine",
+            "note": ""
+          },
+          "attention": "The article centers on Biden’s speech and his claim Putin misjudged Ukraine and Western unity (P2–4, P7–12). P5 interprets the visit’s symbolic purpose; P13 notes aid and penalties. (Paragraphs 2.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Biden’s Kyiv speech on February 20.",
+          "evidence": {
+            "quote": "US President Joe Biden said on Monday in Kyiv that a year…",
+            "paragraphs": [
+              2
+            ],
+            "language": "en",
+            "paraphrase": "Biden says Putin’s war of conquest is failing.",
+            "supporting_sentence": "US President Joe Biden said on Monday in Kyiv that a year after the invasion of Ukraine, \"Putin’s war of conquest is failing.\"",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "This is Biden’s political assessment of the war, not an independently calculated military outcome.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "EP02",
+          "text": "Biden says Americans stand with Ukraine.",
+          "topics": [
+            "support_message"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_us_president",
+          "claimants": [
+            {
+              "name": "Joe Biden",
+              "role": "President of the United States",
+              "country": "United States",
+              "country_basis": "Explicit US state office."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Continued US support for Ukraine",
+            "note": ""
+          },
+          "attention": "The article centers on Biden’s speech and his claim Putin misjudged Ukraine and Western unity (P2–4, P7–12). P5 interprets the visit’s symbolic purpose; P13 notes aid and penalties. (Paragraphs 11.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Biden’s February 20 remarks in Kyiv.",
+          "evidence": {
+            "quote": "\"One year later, Kyiv stands. And Ukraine stands. Democracy stands. The Americans…",
+            "paragraphs": [
+              11
+            ],
+            "language": "en",
+            "paraphrase": "Biden says Americans stand with Ukraine.",
+            "supporting_sentence": "\"One year later, Kyiv stands. And Ukraine stands. Democracy stands. The Americans stand with you and the world stands with you,\" he said.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "His statement does not establish the views of every American or every country.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "EP03",
+          "text": "The article describes the visit as a symbol of lasting American support.",
+          "topics": [
+            "purpose",
+            "support_message"
+          ],
+          "kind": {
+            "label": "Opinion / assessment",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "assessment",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "European Pravda article narrator",
+              "role": "Article narrative voice",
+              "country": "Ukraine",
+              "country_basis": "Outlet origin; individual reporter citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "The article describes the visit as a symbol of lasting American support.",
+            "note": ""
+          },
+          "attention": "The article centers on Biden’s speech and his claim Putin misjudged Ukraine and Western unity (P2–4, P7–12). P5 interprets the visit’s symbolic purpose; P13 notes aid and penalties. (Paragraphs 5.)",
+          "outlet_view": "This symbolic-purpose assessment is the article narrator’s. Describing that message is not automatically endorsing every aid decision.",
+          "where_when": "Interpretation of the February 20 visit.",
+          "evidence": {
+            "quote": "Biden's visit to Ukraine, his first since the invasion, was a highly…",
+            "paragraphs": [
+              5
+            ],
+            "language": "en",
+            "paraphrase": "The article describes the visit as a symbol of lasting American support.",
+            "supporting_sentence": "Biden's visit to Ukraine, his first since the invasion, was a highly symbolic moment meant to demonstrate lasting American support for the country and its people.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "censor",
+      "label": "Censor.NET",
+      "short_label": "Censor.NET",
+      "country": "Ukraine",
+      "article": {
+        "id": "08a6936d-facb-441e-9fca-98dbfa19f629",
+        "title": "Biden on visit to Kyiv: I am meeting with Zelensky for extended discussion on support for Ukraine",
+        "url": "https://censor.net/en/news/3400897/biden_on_visit_to_kyiv_i_am_meeting_with_zelensky_for_extended_discussion_on_support_for_ukraine",
+        "publication_date": "2023-02-20",
+        "text_sha256": "d327a97e9123df8b9b4044586079ff07904030cfac2f75e785a552b6bb030117"
+      },
+      "attention": "Most of the eight paragraphs relay Biden’s White House statement: continued support, Putin’s miscalculation, equipment and penalties. P7 previews Poland; P8 confirms the unannounced arrival.",
+      "claims": [
+        {
+          "id": "C01",
+          "text": "Biden says the visit reaffirms firm US support for Ukraine’s independence and borders.",
+          "topics": [
+            "support_message"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_white_house_statement",
+          "claimants": [
+            {
+              "name": "Joe Biden",
+              "role": "President of the United States",
+              "country": "United States",
+              "country_basis": "Explicit US state office."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Continued US support for Ukraine",
+            "note": ""
+          },
+          "attention": "Most of the eight paragraphs relay Biden’s White House statement: continued support, Putin’s miscalculation, equipment and penalties. P7 previews Poland; P8 confirms the unannounced arrival. (Paragraphs 3.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Biden’s statement for his February 20 visit.",
+          "evidence": {
+            "quote": "\"As the world prepares to mark the anniversary of Russia's brutal invasion…",
+            "paragraphs": [
+              3
+            ],
+            "language": "en",
+            "paraphrase": "Biden says the visit reaffirms firm US support for Ukraine’s independence and borders.",
+            "supporting_sentence": "\"As the world prepares to mark the anniversary of Russia's brutal invasion of Ukraine, I am in Kyiv today to meet with President Zelensky and reaffirm our unwavering commitment to Ukraine's democracy, sovereignty, and territorial integrity.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "C02",
+          "text": "Biden promises ammunition, anti-tank systems and air-surveillance radar.",
+          "topics": [
+            "military_aid"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_white_house_statement",
+          "claimants": [
+            {
+              "name": "Joe Biden",
+              "role": "President of the United States",
+              "country": "United States",
+              "country_basis": "Explicit US state office."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Further US military equipment for Ukraine",
+            "note": ""
+          },
+          "attention": "Most of the eight paragraphs relay Biden’s White House statement: continued support, Putin’s miscalculation, equipment and penalties. P7 previews Poland; P8 confirms the unannounced arrival. (Paragraphs 6.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Equipment announcement tied to the February 20 visit.",
+          "evidence": {
+            "quote": "\"I will announce another delivery of critical equipment, including artillery ammunition, anti-tank…",
+            "paragraphs": [
+              6
+            ],
+            "language": "en",
+            "paraphrase": "Biden promises ammunition, anti-tank systems and air-surveillance radar.",
+            "supporting_sentence": "\"I will announce another delivery of critical equipment, including artillery ammunition, anti-tank systems, and air surveillance radars, to help protect the Ukrainian people from aerial bombardment. ...Also later this week, we will announce additional sanctions against elites and companies that try to circumvent sanctions or support the Russian war machine. Over the past year, the United States has created a coalition of countries from the Atlantic to the Pacific Ocean to help protect Ukraine by providing unprecedented military, economic and humanitarian support - and this support will continue,\" the American leader emphasized.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "The statement promises another delivery, not that every item has arrived.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "C03",
+          "text": "Biden promises further penalties against people and companies supporting Russia’s war.",
+          "topics": [
+            "sanctions"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_white_house_statement",
+          "claimants": [
+            {
+              "name": "Joe Biden",
+              "role": "President of the United States",
+              "country": "United States",
+              "country_basis": "Explicit US state office."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Additional US penalties against support for Russia’s war effort",
+            "note": ""
+          },
+          "attention": "Most of the eight paragraphs relay Biden’s White House statement: continued support, Putin’s miscalculation, equipment and penalties. P7 previews Poland; P8 confirms the unannounced arrival. (Paragraphs 6.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Further sanctions planned later in the week after February 20.",
+          "evidence": {
+            "quote": "\"I will announce another delivery of critical equipment, including artillery ammunition, anti-tank…",
+            "paragraphs": [
+              6
+            ],
+            "language": "en",
+            "paraphrase": "Biden promises further penalties against people and companies supporting Russia’s war.",
+            "supporting_sentence": "\"I will announce another delivery of critical equipment, including artillery ammunition, anti-tank systems, and air surveillance radars, to help protect the Ukrainian people from aerial bombardment. ...Also later this week, we will announce additional sanctions against elites and companies that try to circumvent sanctions or support the Russian war machine. Over the past year, the United States has created a coalition of countries from the Atlantic to the Pacific Ocean to help protect Ukraine by providing unprecedented military, economic and humanitarian support - and this support will continue,\" the American leader emphasized.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "C04",
+          "text": "Biden says Putin was wrong to expect a weak Ukraine and divided West.",
+          "topics": [
+            "war_assessment"
+          ],
+          "kind": {
+            "label": "Opinion / assessment",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "assessment",
+          "source_type": "quoted_white_house_statement",
+          "claimants": [
+            {
+              "name": "Joe Biden",
+              "role": "President of the United States",
+              "country": "United States",
+              "country_basis": "Explicit US state office."
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Criticizes / opposes",
+            "target": "Putin’s invasion and its stated expectations",
+            "note": ""
+          },
+          "attention": "Most of the eight paragraphs relay Biden’s White House statement: continued support, Putin’s miscalculation, equipment and penalties. P7 previews Poland; P8 confirms the unannounced arrival. (Paragraphs 4.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "February 20 statement looking back to the invasion a year earlier.",
+          "evidence": {
+            "quote": "When Putin launched the invasion almost a year ago, he believed that…",
+            "paragraphs": [
+              4
+            ],
+            "language": "en",
+            "paraphrase": "Biden says Putin was wrong to expect a weak Ukraine and divided West.",
+            "supporting_sentence": "When Putin launched the invasion almost a year ago, he believed that Ukraine was weak and the West was divided. He thought he could survive us. But he was deeply mistaken,\" the US president said in a statement.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "Biden’s judgment about Putin’s expectations, not independently proven access to his thoughts.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "tass",
+      "label": "TASS",
+      "short_label": "TASS",
+      "country": "Russia",
+      "article": {
+        "id": "5158d8ff-acca-47aa-a9b1-2d7709a031e9",
+        "title": "Biden’s visit to Ukraine aimed to encourage Kiev to start offensive soon — analyst",
+        "url": "https://tass.com/politics/1578909",
+        "publication_date": "2023-02-20",
+        "text_sha256": "2fb6423cd60b82c392ed2476477e0143a5287cfa6cc53c40e66469b3a85ad512"
+      },
+      "attention": "P1–7 present analyst Dmitry Suslov’s interpretation and speculation about the purpose and possible weapons discussions. P9–10 add visit facts. The analyst’s guesses are not a transcript of private talks.",
+      "claims": [
+        {
+          "id": "T01",
+          "text": "Analyst Suslov says the visit aimed to push Ukraine into an earlier counterattack.",
+          "topics": [
+            "purpose"
+          ],
+          "kind": {
+            "label": "Opinion / assessment",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "assessment",
+          "source_type": "quoted_analyst",
+          "claimants": [
+            {
+              "name": "Dmitry Suslov",
+              "role": "Analyst at the Higher School of Economics, speaking to TASS",
+              "country": "Russia",
+              "country_basis": "Country of the Higher School of Economics institution, not assumed citizenship."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Analyst Suslov says the visit aimed to push Ukraine into an earlier counterattack.",
+            "note": ""
+          },
+          "attention": "P1–7 present analyst Dmitry Suslov’s interpretation and speculation about the purpose and possible weapons discussions. P9–10 add visit facts. The analyst’s guesses are not a transcript of private talks. (Paragraphs 1, 4.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Suslov’s February 20 interpretation of the visit.",
+          "evidence": {
+            "quote": "MOSCOW, February 20. /TASS/. Dmitry Suslov, a deputy director of the Comprehensive…",
+            "paragraphs": [
+              1,
+              4
+            ],
+            "language": "en",
+            "paraphrase": "Analyst Suslov says the visit aimed to push Ukraine into an earlier counterattack.",
+            "supporting_sentence": "MOSCOW, February 20. /TASS/. Dmitry Suslov, a deputy director of the Comprehensive European and International Studies at the Higher School of Economics, on Monday said that US President Joe Biden’s visit to Ukraine was designed to encourage Kiev to start a counteroffensive as soon as possible.\n\"I think Biden's visit is designed to stimulate Kiev to go on the offensive earlier. Second, to signal the United States' commitment to protecting and supporting Ukraine in the medium and long term,\" Suslov added.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "An analyst’s reading of motive, not a confirmed instruction given in private talks.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "T02",
+          "text": "Suslov says the visit signals US support for Ukraine over the long term.",
+          "topics": [
+            "support_message"
+          ],
+          "kind": {
+            "label": "Opinion / assessment",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "assessment",
+          "source_type": "quoted_analyst",
+          "claimants": [
+            {
+              "name": "Dmitry Suslov",
+              "role": "Analyst at the Higher School of Economics, speaking to TASS",
+              "country": "Russia",
+              "country_basis": "Country of the Higher School of Economics institution, not assumed citizenship."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Suslov says the visit signals US support for Ukraine over the long term.",
+            "note": ""
+          },
+          "attention": "P1–7 present analyst Dmitry Suslov’s interpretation and speculation about the purpose and possible weapons discussions. P9–10 add visit facts. The analyst’s guesses are not a transcript of private talks. (Paragraphs 2, 4.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Suslov’s February 20 interpretation.",
+          "evidence": {
+            "quote": "The analyst told TASS that Biden’s visit was meant to underscore the…",
+            "paragraphs": [
+              2,
+              4
+            ],
+            "language": "en",
+            "paraphrase": "Suslov says the visit signals US support for Ukraine over the long term.",
+            "supporting_sentence": "The analyst told TASS that Biden’s visit was meant to underscore the importance of the current moment and reaffirm Washington’s commitment to support Ukraine over a long term.\n\"I think Biden's visit is designed to stimulate Kiev to go on the offensive earlier. Second, to signal the United States' commitment to protecting and supporting Ukraine in the medium and long term,\" Suslov added.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "Identifying a message is not the analyst personally endorsing US aid or proof that aid will continue indefinitely.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "T03",
+          "text": "Suslov suggests the leaders may have discussed longer-range missiles.",
+          "topics": [
+            "military_aid"
+          ],
+          "kind": {
+            "label": "Opinion / assessment",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "assessment",
+          "source_type": "reported_analyst_speculation",
+          "claimants": [
+            {
+              "name": "Dmitry Suslov",
+              "role": "Analyst at the Higher School of Economics, speaking to TASS",
+              "country": "Russia",
+              "country_basis": "Country of the Higher School of Economics institution, not assumed citizenship."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Suslov suggests the leaders may have discussed longer-range missiles.",
+            "note": ""
+          },
+          "attention": "P1–7 present analyst Dmitry Suslov’s interpretation and speculation about the purpose and possible weapons discussions. P9–10 add visit facts. The analyst’s guesses are not a transcript of private talks. (Paragraphs 5.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Speculation on February 20 about private talks.",
+          "evidence": {
+            "quote": "The analyst said it’s possible that some \"sensitive issues\" were discussed during…",
+            "paragraphs": [
+              5
+            ],
+            "language": "en",
+            "paraphrase": "Suslov suggests the leaders may have discussed longer-range missiles.",
+            "supporting_sentence": "The analyst said it’s possible that some \"sensitive issues\" were discussed during the visit, such as providing planes by third countries and donations of longer-range missiles. Suslov also said there’s a chance the sides discussed political and diplomatic settlement.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "The article says \"possible\"; it does not confirm an agreement, shipment, particular missile or official disclosure.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "sputnik",
+      "label": "Sputnik",
+      "short_label": "Sputnik",
+      "country": "Russia",
+      "article": {
+        "id": "42cef60b-319f-4ac5-b8a9-4b2d9c0826dc",
+        "title": "Biden Traveling to Poland After Surprise Visit to Kiev",
+        "url": "https://sputnikglobe.com/20230220/biden-traveling-to-poland-after-surprise-visit-to-kiev-1107643790.html",
+        "publication_date": "2023-02-20",
+        "text_sha256": "d21db52c374390ee5aab0bae813c9449588cf7a2e554044588c2684a098a8cb7"
+      },
+      "attention": "The recovered article is one long paragraph (P1), mainly previewing the Polish part of Biden’s trip after Kyiv through White House spokesman Kirby. Background claims about the wider war are excluded from the matched visit claims.",
+      "claims": [
+        {
+          "id": "S01",
+          "text": "Sputnik says Biden left for Warsaw after his unannounced Kyiv visit.",
+          "topics": [
+            "poland"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "Sputnik article narrator",
+              "role": "Article narrative voice",
+              "country": "Russia",
+              "country_basis": "Outlet origin; individual reporter citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Sputnik says Biden left for Warsaw after his unannounced Kyiv visit.",
+            "note": ""
+          },
+          "attention": "The recovered article is one long paragraph (P1), mainly previewing the Polish part of Biden’s trip after Kyiv through White House spokesman Kirby. Background claims about the wider war are excluded from the matched visit claims. (Paragraphs 1.)",
+          "outlet_view": "This is the article narrator’s wording; it is not an outlet-wide policy statement.",
+          "where_when": "Departure on Monday night, February 20, after Kyiv.",
+          "evidence": {
+            "quote": "Biden departed for Warsaw on Monday night after he made an unannounced…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Sputnik says Biden left for Warsaw after his unannounced Kyiv visit.",
+            "supporting_sentence": "Biden departed for Warsaw on Monday night after he made an unannounced visit to the Ukrainian capital, Kiev, to hold talks with Ukrainian President Volodymyr Zelensky.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "A later trip update can coexist with another article’s earlier plan to travel.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "S02",
+          "text": "Kirby says Biden will discuss support for Ukraine with Poland’s president.",
+          "topics": [
+            "poland"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "reported_white_house_spokesman",
+          "claimants": [
+            {
+              "name": "John Kirby",
+              "role": "US National Security Council spokesman",
+              "country": "United States",
+              "country_basis": "Explicit US White House institution."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Kirby says Biden will discuss support for Ukraine with Poland’s president.",
+            "note": ""
+          },
+          "attention": "The recovered article is one long paragraph (P1), mainly previewing the Polish part of Biden’s trip after Kyiv through White House spokesman Kirby. Background claims about the wider war are excluded from the matched visit claims. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Planned meeting on Tuesday February 21, following the February 20 Kyiv visit.",
+          "evidence": {
+            "quote": "On Tuesday morning, Biden will meet with Duda to discuss bilateral cooperation,…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Kirby says Biden will discuss support for Ukraine with Poland’s president.",
+            "supporting_sentence": "On Tuesday morning, Biden will meet with Duda to discuss bilateral cooperation, collective efforts to support Ukraine, and bolstering NATO's deterrence, White House National Security Council spokesman John Kirby said.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "S03",
+          "text": "Kirby says Biden will repeat that the US will stand with Ukraine as long as needed.",
+          "topics": [
+            "support_message"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "reported_white_house_spokesman",
+          "claimants": [
+            {
+              "name": "John Kirby",
+              "role": "US National Security Council spokesman",
+              "country": "United States",
+              "country_basis": "Explicit US White House institution."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Continued US support for Ukraine",
+            "note": ""
+          },
+          "attention": "The recovered article is one long paragraph (P1), mainly previewing the Polish part of Biden’s trip after Kyiv through White House spokesman Kirby. Background claims about the wider war are excluded from the matched visit claims. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Planned Poland speech on February 21, following the Kyiv visit.",
+          "evidence": {
+            "quote": "On Tuesday evening, Biden will deliver remarks on how the US has…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Kirby says Biden will repeat that the US will stand with Ukraine as long as needed.",
+            "supporting_sentence": "On Tuesday evening, Biden will deliver remarks on how the US has \"rallied the world\" to support Ukraine and reiterate Washington's intention to stand with Ukraine for \"as long as it takes,\" the spokesman said.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "A preview of a future speech is not a transcript proving that exact wording was later used.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "izvestia",
+      "label": "Izvestia",
+      "short_label": "Izvestia",
+      "country": "Russia",
+      "article": {
+        "id": "a250c052-2bc5-4023-9e30-da842fb1ac60",
+        "title": "Белый дом сообщил об уведомлении РФ о визите Байдена в Киев за несколько часов",
+        "url": "https://iz.ru/1473070/2023-02-20/belyi-dom-soobshchil-ob-uvedomlenii-rf-o-vizite-baidena-v-kiev-za-neskolko-chasov",
+        "publication_date": "2023-02-20",
+        "text_sha256": "ba65cdccdb1d0ed4014735181342a3b19f5dad9220663d9c5e43e90890e48c72"
+      },
+      "attention": "P1–2 center on Sullivan’s statement that Russia was warned; P3 adds the aid package, P4 security preparations, and P5 onward travel. P6 is wider-war background, not proof of what the visit achieved.",
+      "claims": [
+        {
+          "id": "I01",
+          "text": "Sullivan says Russia was warned hours before Biden left for Kyiv.",
+          "topics": [
+            "planning"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "quoted_us_adviser",
+          "claimants": [
+            {
+              "name": "Jake Sullivan",
+              "role": "US national security adviser",
+              "country": "United States",
+              "country_basis": "Explicit US White House office."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Sullivan says Russia was warned hours before Biden left for Kyiv.",
+            "note": ""
+          },
+          "attention": "P1–2 center on Sullivan’s statement that Russia was warned; P3 adds the aid package, P4 security preparations, and P5 onward travel. P6 is wider-war background, not proof of what the visit achieved. (Paragraphs 2.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Advance notification described in Sullivan’s February 20 briefing.",
+          "evidence": {
+            "quote": "«Мы уведомили Россию о том, что президент Байден отправится в Киев, за…",
+            "paragraphs": [
+              2
+            ],
+            "language": "ru",
+            "paraphrase": "Sullivan says Russia was warned hours before Biden left for Kyiv.",
+            "supporting_sentence": "«Мы уведомили Россию о том, что президент Байден отправится в Киев, за несколько часов до отправления в целях избежания конфликтной ситуации», — отметил он.",
+            "english_translation": "“We notified Russia that President Biden would go to Kyiv several hours before departure, to avoid a conflict situation,” he noted.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "No Russian consent or detailed response is established.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "I02",
+          "text": "Izvestia reports a $500 million military-aid announcement during the visit.",
+          "topics": [
+            "military_aid"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "Izvestia article narrator",
+              "role": "Article narrative voice",
+              "country": "Russia",
+              "country_basis": "Outlet origin; individual reporter citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Izvestia reports a $500 million military-aid announcement during the visit.",
+            "note": ""
+          },
+          "attention": "P1–2 center on Sullivan’s statement that Russia was warned; P3 adds the aid package, P4 security preparations, and P5 onward travel. P6 is wider-war background, not proof of what the visit achieved. (Paragraphs 3.)",
+          "outlet_view": "This is the article narrator’s wording; it is not an outlet-wide policy statement.",
+          "where_when": "Biden’s February 20 visit; the paragraph also anticipates a later formal announcement.",
+          "evidence": {
+            "quote": "В ходе поездки американский президент объявил о новом пакете военной помощи на…",
+            "paragraphs": [
+              3
+            ],
+            "language": "ru",
+            "paraphrase": "Izvestia reports a $500 million military-aid announcement during the visit.",
+            "supporting_sentence": "В ходе поездки американский президент объявил о новом пакете военной помощи на $500 млн.",
+            "english_translation": "During the trip, the US president announced a new $500 million package of military aid.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "Announced support, not proof of a completed delivery or final package accounting.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "I03",
+          "text": "Izvestia says Biden plans to visit Poland after Kyiv.",
+          "topics": [
+            "poland"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "Izvestia article narrator",
+              "role": "Article narrative voice",
+              "country": "Russia",
+              "country_basis": "Outlet origin; individual reporter citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Izvestia says Biden plans to visit Poland after Kyiv.",
+            "note": ""
+          },
+          "attention": "P1–2 center on Sullivan’s statement that Russia was warned; P3 adds the aid package, P4 security preparations, and P5 onward travel. P6 is wider-war background, not proof of what the visit achieved. (Paragraphs 5.)",
+          "outlet_view": "This is the article narrator’s wording; it is not an outlet-wide policy statement.",
+          "where_when": "An onward-travel plan reported February 20.",
+          "evidence": {
+            "quote": "Известно, что позднее американский лидер намерен посетить в Польшу.",
+            "paragraphs": [
+              5
+            ],
+            "language": "ru",
+            "paraphrase": "Izvestia says Biden plans to visit Poland after Kyiv.",
+            "supporting_sentence": "Известно, что позднее американский лидер намерен посетить в Польшу.",
+            "english_translation": "It is known that the US leader later intends to visit Poland.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "This earlier plan does not deny Sputnik’s report that he later departed.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "china_daily",
+      "label": "China Daily",
+      "short_label": "China Daily",
+      "country": "China",
+      "article": {
+        "id": "af2ada7f-ee07-48c4-87fe-6a059cea3570",
+        "title": "Biden makes surprise trip to Kyiv amid anti-war rally at home",
+        "url": "https://www.chinadaily.com.cn/a/202302/20/WS63f35df3a31057c47ebafca6.html",
+        "publication_date": "2023-02-20",
+        "text_sha256": "3cefcc6f67114bda2ad3a8b48653fef28d9c24dd6c32962da754751ea3de4965"
+      },
+      "attention": "P1–6 cover the visit and aid; P7–11 emphasize an anti-war protest held the previous day. P12 discusses unrelated train accidents. The protest is context, not a direct response to an announcement made later.",
+      "claims": [
+        {
+          "id": "CD01",
+          "text": "China Daily reports Biden announcing another $500 million in military aid.",
+          "topics": [
+            "military_aid"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "China Daily article narrator",
+              "role": "Article narrative voice",
+              "country": "China",
+              "country_basis": "Outlet origin; individual reporter citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "China Daily reports Biden announcing another $500 million in military aid.",
+            "note": ""
+          },
+          "attention": "P1–6 cover the visit and aid; P7–11 emphasize an anti-war protest held the previous day. P12 discusses unrelated train accidents. The protest is context, not a direct response to an announcement made later. (Paragraphs 2.)",
+          "outlet_view": "This is the article narrator’s wording; it is not an outlet-wide policy statement.",
+          "where_when": "Biden’s February 20 Kyiv visit.",
+          "evidence": {
+            "quote": "Biden held talks with his Ukrainian counterpart, Volodymyr Zelensky, about the situation…",
+            "paragraphs": [
+              2
+            ],
+            "language": "en",
+            "paraphrase": "China Daily reports Biden announcing another $500 million in military aid.",
+            "supporting_sentence": "Biden held talks with his Ukrainian counterpart, Volodymyr Zelensky, about the situation on the frontline in Ukraine and announced an additional $500 million in military aid for Ukraine on top of the more than $50 billion already promised, a move that is widely believed to further escalate the Ukraine crisis.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "This records the reported announcement. The same paragraph’s claim of escalation is separated in CD02.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CD02",
+          "text": "The report says the extra military aid is widely expected to worsen the conflict.",
+          "topics": [
+            "effects"
+          ],
+          "kind": {
+            "label": "Opinion / prediction",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "prediction",
+          "source_type": "unattributed_generalized_belief_in_narration",
+          "claimants": [
+            {
+              "name": "Unspecified holders of the belief summarized as \"widely believed\"",
+              "role": "No named source for this prediction in the paragraph",
+              "country": "Unknown",
+              "country_basis": "Do not assign unnamed observers a nationality from the outlet’s country."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "The report says the extra military aid is widely expected to worsen the conflict.",
+            "note": ""
+          },
+          "attention": "P1–6 cover the visit and aid; P7–11 emphasize an anti-war protest held the previous day. P12 discusses unrelated train accidents. The protest is context, not a direct response to an announcement made later. (Paragraphs 2.)",
+          "outlet_view": "The narrator presents an escalation belief without naming its holders. It is not a measured consensus or an observed outcome.",
+          "where_when": "Forecast attached to the February 20 aid announcement.",
+          "evidence": {
+            "quote": "Biden held talks with his Ukrainian counterpart, Volodymyr Zelensky, about the situation…",
+            "paragraphs": [
+              2
+            ],
+            "language": "en",
+            "paraphrase": "The report says the extra military aid is widely expected to worsen the conflict.",
+            "supporting_sentence": "Biden held talks with his Ukrainian counterpart, Volodymyr Zelensky, about the situation on the frontline in Ukraine and announced an additional $500 million in military aid for Ukraine on top of the more than $50 billion already promised, a move that is widely believed to further escalate the Ukraine crisis.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "No method or named source establishes how widespread the belief is; predicting escalation is not the same as a separately stated demand to end aid.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CD03",
+          "text": "The article says the visit is meant to show solidarity with Ukraine.",
+          "topics": [
+            "purpose",
+            "support_message"
+          ],
+          "kind": {
+            "label": "Opinion / assessment",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "assessment",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "China Daily article narrator",
+              "role": "Article narrative voice",
+              "country": "China",
+              "country_basis": "Outlet origin; individual reporter citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "The article says the visit is meant to show solidarity with Ukraine.",
+            "note": ""
+          },
+          "attention": "P1–6 cover the visit and aid; P7–11 emphasize an anti-war protest held the previous day. P12 discusses unrelated train accidents. The protest is context, not a direct response to an announcement made later. (Paragraphs 6.)",
+          "outlet_view": "The narrator identifies the intended message while also highlighting protest and escalation concerns. This is not a blanket endorsement of the trip.",
+          "where_when": "Narrator’s description of the February 20 trip.",
+          "evidence": {
+            "quote": "Biden's trip, which came four days ahead of the first anniversary of…",
+            "paragraphs": [
+              6
+            ],
+            "language": "en",
+            "paraphrase": "The article says the visit is meant to show solidarity with Ukraine.",
+            "supporting_sentence": "Biden's trip, which came four days ahead of the first anniversary of the outbreak of the Russia-Ukraine conflict, is designed to show solidarity with Ukraine.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CD04",
+          "text": "Anti-war rally organizers oppose large US payments to Ukraine and US involvement in the war.",
+          "topics": [
+            "military_aid"
+          ],
+          "kind": {
+            "label": "Opinion / judgement",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "opinion",
+          "source_type": "reported_protest_organizers",
+          "claimants": [
+            {
+              "name": "Anti-war rally organizers, not individually named",
+              "role": "Organizers of the previous day’s Washington protest",
+              "country": "United States (rally location; institution and citizenship not established)",
+              "country_basis": "Location association only, not assumed nationality of all organizers or participants."
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Criticizes / opposes",
+            "target": "Large-scale US funding of Ukraine and involvement in the war",
+            "note": ""
+          },
+          "attention": "P1–6 cover the visit and aid; P7–11 emphasize an anti-war protest held the previous day. P12 discusses unrelated train accidents. The protest is context, not a direct response to an announcement made later. (Paragraphs 9.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Washington rally on February 19, before Biden’s February 20 aid announcement.",
+          "evidence": {
+            "quote": "Organizers said the anti-war rally was planned to protest against massive money…",
+            "paragraphs": [
+              9
+            ],
+            "language": "en",
+            "paraphrase": "Anti-war rally organizers oppose large US payments to Ukraine and US involvement in the war.",
+            "supporting_sentence": "Organizers said the anti-war rally was planned to protest against massive money being funneled into Ukraine, as well as the United States' role in the Russia-Ukraine military conflict.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": true,
+          "uncertainty": "A broader pre-existing protest, not a reaction to the later specific $500 million announcement; no claim that all Americans share this view.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "global_times",
+      "label": "Global Times",
+      "short_label": "Global Times",
+      "country": "China",
+      "article": {
+        "id": "f3040e23-ebc1-4763-a78e-da9a5f535ca5",
+        "title": "Biden’s Kiev visit a ‘symbolic’ gesture to boost Ukraine, likely to ‘trigger fiercer counterstrike from Russia’",
+        "url": "https://www.globaltimes.cn/page/202302/1285851.shtml",
+        "publication_date": "2023-02-20",
+        "text_sha256": "964556e2824109c0a77bf03b9024eae60ef3b6b5a6c44770a001fdc24d008e92"
+      },
+      "attention": "Most paragraphs present Chinese analysts’ views that the trip signals pressure, symbolism or escalation risk (P2–3, P5–11, P14–17). P4 gives travel details and P12–13 report aid and weapons discussions.",
+      "claims": [
+        {
+          "id": "GT01",
+          "text": "Analyst Li says Biden wants Ukrainian battlefield gains to keep Americans supporting aid.",
+          "topics": [
+            "purpose"
+          ],
+          "kind": {
+            "label": "Opinion / assessment",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "assessment",
+          "source_type": "quoted_analyst",
+          "claimants": [
+            {
+              "name": "Li Haidong",
+              "role": "Professor at China Foreign Affairs University",
+              "country": "China",
+              "country_basis": "Explicit country of the named university."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Analyst Li says Biden wants Ukrainian battlefield gains to keep Americans supporting aid.",
+            "note": ""
+          },
+          "attention": "Most paragraphs present Chinese analysts’ views that the trip signals pressure, symbolism or escalation risk (P2–3, P5–11, P14–17). P4 gives travel details and P12–13 report aid and weapons discussions. (Paragraphs 7.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Li’s interpretation of the February 20 visit.",
+          "evidence": {
+            "quote": "Making an unannounced visit to Ukraine on the eve of the first…",
+            "paragraphs": [
+              7
+            ],
+            "language": "en",
+            "paraphrase": "Analyst Li says Biden wants Ukrainian battlefield gains to keep Americans supporting aid.",
+            "supporting_sentence": "Making an unannounced visit to Ukraine on the eve of the first anniversary of the conflict, Biden aims to pressure Ukraine to make progress on the battlefield, so as to convince Americans back home to continue supporting Kiev, Li Haidong, a professor at the Institute of International Relations at the China Foreign Affairs University, told the Global Times.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "A claimed motive, not an authenticated instruction or direct access to private decision-making.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "GT02",
+          "text": "Analyst Wang predicts the visit will bring stronger Russian attacks.",
+          "topics": [
+            "effects"
+          ],
+          "kind": {
+            "label": "Opinion / prediction",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "prediction",
+          "source_type": "reported_analyst",
+          "claimants": [
+            {
+              "name": "Wang Xiaoquan",
+              "role": "Expert at the Chinese Academy of Social Sciences",
+              "country": "China",
+              "country_basis": "Country of the named institution."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Analyst Wang predicts the visit will bring stronger Russian attacks.",
+            "note": ""
+          },
+          "attention": "Most paragraphs present Chinese analysts’ views that the trip signals pressure, symbolism or escalation risk (P2–3, P5–11, P14–17). P4 gives travel details and P12–13 report aid and weapons discussions. (Paragraphs 6.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Wang’s February 20 forecast after the visit.",
+          "evidence": {
+            "quote": "However, he noted that Biden's visit will not only have little impact…",
+            "paragraphs": [
+              6
+            ],
+            "language": "en",
+            "paraphrase": "Analyst Wang predicts the visit will bring stronger Russian attacks.",
+            "supporting_sentence": "However, he noted that Biden's visit will not only have little impact on the battlefield, it will also trigger a more aggressive counterstrike from Russia.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "A forecast, not proof of later Russian attacks or their cause.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "GT03",
+          "text": "Wang predicts the visit will have little effect on the battlefield.",
+          "topics": [
+            "effects"
+          ],
+          "kind": {
+            "label": "Opinion / prediction",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "prediction",
+          "source_type": "reported_analyst",
+          "claimants": [
+            {
+              "name": "Wang Xiaoquan",
+              "role": "Expert at the Chinese Academy of Social Sciences",
+              "country": "China",
+              "country_basis": "Country of the named institution."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Wang predicts the visit will have little effect on the battlefield.",
+            "note": ""
+          },
+          "attention": "Most paragraphs present Chinese analysts’ views that the trip signals pressure, symbolism or escalation risk (P2–3, P5–11, P14–17). P4 gives travel details and P12–13 report aid and weapons discussions. (Paragraphs 6.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Prospective battlefield effects of the February 20 visit.",
+          "evidence": {
+            "quote": "However, he noted that Biden's visit will not only have little impact…",
+            "paragraphs": [
+              6
+            ],
+            "language": "en",
+            "paraphrase": "Wang predicts the visit will have little effect on the battlefield.",
+            "supporting_sentence": "However, he noted that Biden's visit will not only have little impact on the battlefield, it will also trigger a more aggressive counterstrike from Russia.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "Military impact is not defined or measured; this does not deny that the visit occurred or that talks took place.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "GT04",
+          "text": "Analyst Diao doubts the promised aid will change the fighting or arrive quickly.",
+          "topics": [
+            "military_aid"
+          ],
+          "kind": {
+            "label": "Opinion / assessment",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "assessment",
+          "source_type": "quoted_analyst",
+          "claimants": [
+            {
+              "name": "Diao Daming",
+              "role": "Associate professor at Renmin University of China in Beijing",
+              "country": "China",
+              "country_basis": "Institution and location explicitly given in the article."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Analyst Diao doubts the promised aid will change the fighting or arrive quickly.",
+            "note": ""
+          },
+          "attention": "Most paragraphs present Chinese analysts’ views that the trip signals pressure, symbolism or escalation risk (P2–3, P5–11, P14–17). P4 gives travel details and P12–13 report aid and weapons discussions. (Paragraphs 14.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Diao’s forecast about aid announced February 20.",
+          "evidence": {
+            "quote": "Diao said that the aid won't be a game-changer. \"There's long way…",
+            "paragraphs": [
+              14
+            ],
+            "language": "en",
+            "paraphrase": "Analyst Diao doubts the promised aid will change the fighting or arrive quickly.",
+            "supporting_sentence": "Diao said that the aid won't be a game-changer. \"There's long way from announcement to the money being delivered to Ukraine, as it has to pass legislation and may face filibusters from Congress and the House of Representatives. How much will actually be delivered remains a question,\" said Diao.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "Questions about future arrival and impact do not deny the announcement or prove later non-delivery.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "GT05",
+          "text": "The article reports Biden announcing half a billion dollars in assistance.",
+          "topics": [
+            "military_aid"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "reported_us_president",
+          "claimants": [
+            {
+              "name": "Joe Biden",
+              "role": "President of the United States",
+              "country": "United States",
+              "country_basis": "Explicit US state office."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Additional US military equipment for Ukraine",
+            "note": ""
+          },
+          "attention": "Most paragraphs present Chinese analysts’ views that the trip signals pressure, symbolism or escalation risk (P2–3, P5–11, P14–17). P4 gives travel details and P12–13 report aid and weapons discussions. (Paragraphs 12.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Joint remarks with Zelensky in Kyiv on February 20.",
+          "evidence": {
+            "quote": "In joint remarks alongside Zelensky, Biden announced half a billion US dollars…",
+            "paragraphs": [
+              12
+            ],
+            "language": "en",
+            "paraphrase": "The article reports Biden announcing half a billion dollars in assistance.",
+            "supporting_sentence": "In joint remarks alongside Zelensky, Biden announced half a billion US dollars in assistance to Ukraine, saying the package would include more military equipment, including artillery ammunition, more javelins and Howitzers.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "A reported pledge, not confirmation of deliveries or a final audit.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "E01",
+      "source": "izvestia",
+      "target": "cnn",
+      "topic": "planning",
+      "relation": "supportive",
+      "color": "green",
+      "source_claim": "I01",
+      "target_claim": "CNN02",
+      "label": "Sullivan’s reported statement supports the notification account",
+      "subtype": "specified_partial_support",
+      "reason": "Izvestia quotes Sullivan saying Russia was notified hours before departure for deconfliction. That reported official statement supplies specific support for CNN’s general notification account.",
+      "caveat": "This uses a reported statement by Sullivan and CNN’s narrative account.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": true,
+      "direction": "source_to_target",
+      "support_scope": "US officials reporting advance notification of Moscow to reduce the risk of a clash.",
+      "direction_reason": "I01 supplies the specified support for CNN02.",
+      "unsupported_parts": "Russia’s receipt or approval of the message, its contents, or a safety guarantee."
+    },
+    {
+      "id": "E02",
+      "source": "kyivpost",
+      "target": "izvestia",
+      "topic": "planning",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "KI03",
+      "target_claim": "I01",
+      "label": "Same Sullivan statement",
+      "subtype": "repeated_source_position",
+      "reason": "Both attribute the advance-notification account to Jake Sullivan. These reports rely on the same original statement.",
+      "caveat": "One original US official’s account, not two independent confirmations or a Russian acknowledgment.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E03",
+      "source": "kyivpost",
+      "target": "cnn",
+      "topic": "purpose",
+      "relation": "supportive",
+      "color": "green",
+      "source_claim": "KI04",
+      "target_claim": "CNN03",
+      "label": "Sullivan’s account supports the reported discussion topic",
+      "subtype": "specified_partial_support",
+      "reason": "Kyiv Independent reports Sullivan’s post-visit account of discussions about the coming months and battlefield capabilities. That supplies a named official’s account supporting CNN’s description of the meeting.",
+      "caveat": "Sullivan’s post-meeting description is compared with CNN’s account of Biden’s intended discussion.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": true,
+      "direction": "source_to_target",
+      "support_scope": "Discussion of the coming phase of the war in CNN03.",
+      "direction_reason": "KI04 supplies the specified support for CNN03.",
+      "unsupported_parts": "The urgency of the private talks or any specific weapons agreement."
+    },
+    {
+      "id": "E04",
+      "source": "censor",
+      "target": "cnn",
+      "topic": "support_message",
+      "relation": "supportive",
+      "color": "green",
+      "source_claim": "C01",
+      "target_claim": "CNN04",
+      "label": "Biden’s quoted commitment supports the broader support account",
+      "subtype": "specified_partial_support",
+      "reason": "Censor.NET quotes Biden reaffirming an unwavering US commitment to Ukraine. His stated commitment supplies a reason for CNN’s broader description of his support pledge.",
+      "caveat": "The arrow concerns the public pledge and its description.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": true,
+      "direction": "source_to_target",
+      "support_scope": "Biden’s public commitment to continue supporting Ukraine in CNN04.",
+      "direction_reason": "C01 supplies the specified support for CNN04.",
+      "unsupported_parts": "How long future assistance will last or whether every pledge will be fulfilled."
+    },
+    {
+      "id": "E05",
+      "source": "europeanpravda",
+      "target": "censor",
+      "topic": "support_message",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "EP02",
+      "target_claim": "C01",
+      "label": "Same supportive message",
+      "subtype": "repeated_source_position",
+      "reason": "Both quote Biden affirming American support during the visit. These reports rely on the same original statement.",
+      "caveat": "The reports repeat Biden’s public commitment or White House statement. They provide no separate evidence of future implementation.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E06",
+      "source": "tass",
+      "target": "europeanpravda",
+      "topic": "support_message",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "T02",
+      "target_claim": "EP03",
+      "label": "Both read a long-term support message",
+      "subtype": "parallel_accounts_or_interpretations",
+      "reason": "Suslov and European Pravda’s narrator both describe the trip as signaling lasting US support. The matching content alone supplies no evidential direction.",
+      "caveat": "This matches their interpretation of the message, not a shared policy endorsement or proof that future support will be unlimited.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E07",
+      "source": "china_daily",
+      "target": "europeanpravda",
+      "topic": "purpose",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CD03",
+      "target_claim": "EP03",
+      "label": "Same solidarity purpose",
+      "subtype": "parallel_accounts_or_interpretations",
+      "reason": "Both narrators say the visit was intended to demonstrate support for Ukraine. The matching content alone supplies no evidential direction.",
+      "caveat": "Identifying a purpose does not mean either article approves all military aid or agrees on likely effects.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E08",
+      "source": "sputnik",
+      "target": "censor",
+      "topic": "support_message",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "S03",
+      "target_claim": "C01",
+      "label": "Kyiv promise and Poland preview",
+      "subtype": "compatible_different_statement_times",
+      "reason": "Biden’s Kyiv statement promises support; Kirby previews a similar message in a later Poland speech.",
+      "caveat": "Different statement times and forms: an existing statement and a future speech preview.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E09",
+      "source": "kyivpost",
+      "target": "censor",
+      "topic": "military_aid",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "KI02",
+      "target_claim": "C02",
+      "label": "Same equipment promise",
+      "subtype": "repeated_source_position",
+      "reason": "Both carry Biden’s White House statement listing ammunition, anti-tank systems and surveillance radar. These reports rely on the same original statement.",
+      "caveat": "The reports repeat Biden’s public commitment or White House statement. They provide no separate evidence of future implementation.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E10",
+      "source": "kyivpost",
+      "target": "censor",
+      "topic": "sanctions",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "KI05",
+      "target_claim": "C03",
+      "label": "Same planned penalties",
+      "subtype": "repeated_source_position",
+      "reason": "Both report the White House statement promising additional sanctions later that week. These reports rely on the same original statement.",
+      "caveat": "These are plans, not a finding that every sanction had already taken effect.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E11",
+      "source": "kyivpost",
+      "target": "izvestia",
+      "topic": "military_aid",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "KI01",
+      "target_claim": "I02",
+      "label": "Same reported $500 million",
+      "subtype": "parallel_accounts_or_interpretations",
+      "reason": "Both report the same amount announced during the visit. The matching content alone supplies no evidential direction.",
+      "caveat": "Kyiv Independent explicitly relies on CNN; sources for every amount are not independently established. Agreement concerns the report, not completed delivery.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E12",
+      "source": "china_daily",
+      "target": "global_times",
+      "topic": "military_aid",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CD01",
+      "target_claim": "GT05",
+      "label": "Same aid announcement",
+      "subtype": "parallel_accounts_or_interpretations",
+      "reason": "Both report an additional half-billion dollars of aid. The matching content alone supplies no evidential direction.",
+      "caveat": "Matching announced amounts do not establish independent sourcing, final accounting or arrival.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E13",
+      "source": "kyivpost",
+      "target": "global_times",
+      "topic": "military_aid",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "KI01",
+      "target_claim": "GT04",
+      "label": "Promise versus doubts about effect",
+      "subtype": "announcement_vs_future_assessment",
+      "reason": "One report gives the aid pledge; Diao doubts its speed and impact.",
+      "caveat": "A pledge can exist while its delivery or effect remains uncertain; this is not a direct factual contradiction.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E14",
+      "source": "tass",
+      "target": "global_times",
+      "topic": "purpose",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "T01",
+      "target_claim": "GT01",
+      "label": "Both see pressure for battlefield progress",
+      "subtype": "parallel_accounts_or_interpretations",
+      "reason": "Suslov and Li interpret the visit as encouraging earlier or greater Ukrainian military progress. The matching content alone supplies no evidential direction.",
+      "caveat": "The proposed motives overlap; neither commentator independently confirms instructions from the private meeting. They differ in emphasis and domestic-political explanation.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E15",
+      "source": "cnn",
+      "target": "tass",
+      "topic": "purpose",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CNN03",
+      "target_claim": "T01",
+      "label": "Talks and pressure can coexist",
+      "subtype": "compatible_different_emphasis",
+      "reason": "CNN describes urgent war discussions; Suslov interprets the visit as pressure for an earlier counterattack.",
+      "caveat": "Reporting talks does not deny pressure, and an analyst’s motive claim is not a transcript.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E16",
+      "source": "china_daily",
+      "target": "global_times",
+      "topic": "effects",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CD02",
+      "target_claim": "GT02",
+      "label": "Different possible causes of escalation",
+      "subtype": "different_forecast_targets",
+      "reason": "China Daily links escalation risk to additional aid; Wang links stronger Russian attacks to the visit.",
+      "caveat": "Both are negative forecasts, but their immediate triggers and predicted outcomes differ. No red factual dispute or precise causal agreement is established.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E17",
+      "source": "sputnik",
+      "target": "izvestia",
+      "topic": "poland",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "S01",
+      "target_claim": "I03",
+      "label": "Later departure versus earlier plan",
+      "subtype": "chronological_update",
+      "reason": "Sputnik reports departure for Warsaw; Izvestia still describes onward travel as planned.",
+      "caveat": "Different update times, not a contradiction about whether the trip could happen.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E18",
+      "source": "censor",
+      "target": "china_daily",
+      "topic": "military_aid",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "C02",
+      "target_claim": "CD04",
+      "label": "Specific pledge versus earlier protest",
+      "subtype": "different_policy_scope_and_date",
+      "reason": "Biden promises equipment on February 20; rally organizers opposed broad US funding on February 19.",
+      "caveat": "Opposing broad policy preferences are visible, but the protest predates the particular announcement. This event graph does not pretend it was a direct answer to that package.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E19",
+      "source": "censor",
+      "target": "europeanpravda",
+      "topic": "war_assessment",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "C04",
+      "target_claim": "EP01",
+      "label": "Related Biden judgments",
+      "subtype": "related_nonidentical_assessments",
+      "reason": "One statement says Putin misjudged Ukraine and allies; another calls the war of conquest a failure.",
+      "caveat": "Compatible rhetoric, but an assessment of expectations is not identical to a claim about the war’s outcome.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E20",
+      "source": "censor",
+      "target": "europeanpravda",
+      "topic": "support_message",
+      "source_claim": "C01",
+      "target_claim": "EP03",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "relation": "supportive",
+      "color": "green",
+      "directed": true,
+      "direction": "source_to_target",
+      "label": "Biden’s stated purpose supports the symbolic reading",
+      "subtype": "specified_partial_support",
+      "reason": "Censor.NET quotes Biden saying he came to reaffirm US commitment to Ukraine. That statement supplies a stated purpose for European Pravda’s interpretation of the visit as a symbol of lasting support.",
+      "support_scope": "The support-message interpretation in EP03.",
+      "caveat": "A leader’s stated purpose supplies evidence about the public message of the visit.",
+      "direction_reason": "C01 supplies the specified support for EP03.",
+      "unsupported_parts": "His complete private motives or the duration of future support."
+    },
+    {
+      "id": "E21",
+      "source": "censor",
+      "target": "china_daily",
+      "topic": "support_message",
+      "source_claim": "C01",
+      "target_claim": "CD03",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "relation": "supportive",
+      "color": "green",
+      "directed": true,
+      "direction": "source_to_target",
+      "label": "The stated commitment supports the solidarity interpretation",
+      "subtype": "specified_partial_support",
+      "reason": "Biden’s quoted statement in Censor.NET says he is in Kyiv to reaffirm US commitment. That supplies a reason for China Daily’s description of the trip as showing solidarity.",
+      "support_scope": "The solidarity purpose in CD03.",
+      "caveat": "The arrow concerns the public message and the interpretation of that message.",
+      "direction_reason": "C01 supplies the specified support for CD03.",
+      "unsupported_parts": "Every motive for the trip, approval of all aid, or its military effects."
+    }
+  ],
+  "excluded": [],
+  "method": {
+    "country_note": "Outlet countries describe origin. Claimant countries describe an office, organization or stated residence, not assumed citizenship.",
+    "claim_type_note": "A fact claim is a checkable statement, not a fact verified by this graph. Opinions, predictions, legal positions and promises are marked separately.",
+    "edge_note": "Green arrows point from a claim supplying a reason, example or reported statement to the specified part of another claim. Grey comparisons have no assigned evidential direction. Solid red connections mark proposed contradictions between specific claims or assessments. An arrow is used for an explicit rebuttal of a matching claim. Repeated reports of the same statement share a source.",
+    "attention_note": "Attention is a qualitative reading of the saved article, with paragraph locators; it is not a measured share of words.",
+    "endorsement_note": "A quoted speaker’s view is separate from the article narrator’s view. No outlet-wide position is inferred from one article.",
+    "annotation_status": "AI-assisted draft; human review pending",
+    "cleaning_note": "Uses saved recovered text. Kyiv Independent later Most Popular / News Feed material is excluded; original paragraph numbers retained. FT wrapped lines are joined into logical paragraphs. CNN and Sputnik each have one long extracted paragraph; evidence quotes isolate complete relevant sentences instead of duplicating the whole article for each claim."
+  }
+}

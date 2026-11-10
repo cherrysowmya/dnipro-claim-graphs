@@ -1,0 +1,1904 @@
+{
+  "schema_version": "1.1",
+  "event": {
+    "id": "vilnius_nato_summit_20230711",
+    "label": "NATO’s Vilnius summit",
+    "date": "2023-07-11",
+    "description": "The summit’s decisions and debate about Ukraine’s membership, military help, Sweden and links with Asia. A draft statement, a final decision and a speaker’s preference are different things.",
+    "default_topic": "nordic",
+    "default_node": "ft",
+    "graph_scope": "whole_event",
+    "multigraph": true
+  },
+  "topics": [
+    {
+      "id": "membership",
+      "label": "Ukraine’s path into NATO",
+      "scope_note": "An invitation, actual membership and conditions for either are separate. Match the time and draft/final status."
+    },
+    {
+      "id": "assistance",
+      "label": "Long-term help for Ukraine",
+      "scope_note": "Compare the promised support or assessment of it, while keeping the source separate from the outlet."
+    },
+    {
+      "id": "council",
+      "label": "The NATO-Ukraine Council",
+      "scope_note": "A new discussion body does not itself make Ukraine a NATO member."
+    },
+    {
+      "id": "unity",
+      "label": "How united is NATO?",
+      "scope_note": "Overall cooperation can coexist with disagreement on particular policies."
+    },
+    {
+      "id": "asia",
+      "label": "NATO’s role in Asia",
+      "scope_note": "Japan agreeing to host an office is different from all NATO members approving one."
+    },
+    {
+      "id": "nordic",
+      "label": "Sweden and Finland joining",
+      "scope_note": "Assessments may weigh NATO’s military strength and broader regional confrontation differently."
+    },
+    {
+      "id": "arrival",
+      "label": "Zelensky’s summit schedule",
+      "scope_note": "Plans for future meetings and reports of arrival concern different times."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "cnn",
+      "label": "CNN",
+      "short_label": "CNN",
+      "country": "United States",
+      "article": {
+        "id": "c0ea7361-5c90-4705-be61-b9fa2c4c8ef6",
+        "title": "China and Taiwan loom large behind Ukraine at NATO summit",
+        "url": "https://www.cnn.com/2023/07/11/asia/nato-summit-asia-leaders-intl-hnk/index.html",
+        "publication_date": "2023-07-11",
+        "text_sha256": "bba602faa8b73d772af96a8c441deb7305a8d24a8880569d286baf95a276d9c3"
+      },
+      "attention": "Most space concerns China, Taiwan, Asia-Pacific guests and disagreement about a Tokyo NATO office.",
+      "claims": [
+        {
+          "id": "CNN01",
+          "text": "CNN says four Asia-Pacific leaders attending the summit show China is also a major concern.",
+          "topics": [
+            "asia"
+          ],
+          "kind": {
+            "label": "Opinion / assessment",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "assessment",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "CNN article narrator",
+              "role": "Article narrative voice",
+              "country": "United States",
+              "country_basis": "Outlet origin; individual reporter citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "CNN says four Asia-Pacific leaders attending the summit show China is also a major concern.",
+            "note": ""
+          },
+          "attention": "Most space concerns China, Taiwan, Asia-Pacific guests and disagreement about a Tokyo NATO office. (Paragraphs 1.)",
+          "outlet_view": "This is the article narrator’s wording; it is not an outlet-wide policy statement.",
+          "where_when": "2023-07-11 reporting; NATO’s Vilnius summit. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "The presence of four Asia-Pacific leaders at the NATO summit this week…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "CNN says four Asia-Pacific leaders attending the summit show China is also a major concern.",
+            "supporting_sentence": "The presence of four Asia-Pacific leaders at the NATO summit this week suggests that Ukraine is not the only major security issue on the agenda of the European-North American defense alliance.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CNN02",
+          "text": "Stoltenberg said China’s actions challenged NATO’s security, values and interests.",
+          "topics": [
+            "asia"
+          ],
+          "kind": {
+            "label": "Opinion / assessment",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "assessment",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Jens Stoltenberg",
+              "role": "NATO secretary general",
+              "country": "NATO (multiple countries)",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "criticizes",
+            "label": "Criticizes",
+            "target": "China’s behavior affecting NATO interests",
+            "note": ""
+          },
+          "attention": "Most space concerns China, Taiwan, Asia-Pacific guests and disagreement about a Tokyo NATO office. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-11 reporting; NATO’s Vilnius summit. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "“The Chinese government’s increasingly coercive behavior abroad and repressive policies at home…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Stoltenberg said China’s actions challenged NATO’s security, values and interests.",
+            "supporting_sentence": "“The Chinese government’s increasingly coercive behavior abroad and repressive policies at home challenge NATO’s security, values, and interests,” Stoltenberg wrote on the Foreign Affairs website.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CNN03",
+          "text": "NHK reported that Macron opposed a NATO office in Japan.",
+          "topics": [
+            "asia"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "NHK_report_repeated_by_CNN",
+          "claimants": [
+            {
+              "name": "Emmanuel Macron, as reported by NHK",
+              "role": "President of France; opposition reported second-hand",
+              "country": "France",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Criticizes / opposes",
+            "target": "A NATO liaison office in Tokyo",
+            "note": ""
+          },
+          "attention": "Most space concerns China, Taiwan, Asia-Pacific guests and disagreement about a Tokyo NATO office. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-11 reporting; NATO’s Vilnius summit. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "While Stoltenberg and others would like to see NATO open a liaison…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "NHK reported that Macron opposed a NATO office in Japan.",
+            "supporting_sentence": "While Stoltenberg and others would like to see NATO open a liaison office in Japan to enable smoother communications with its Pacific partners, French President Emmanuel Macron is against such a plan, and has informed the secretary general of Paris’ opposition, according to Japanese public broadcaster NHK.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CNN04",
+          "text": "CNN describes NATO countries as closer than at any time since the Cold War.",
+          "topics": [
+            "unity"
+          ],
+          "kind": {
+            "label": "Opinion / assessment",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "assessment",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "CNN article narrator",
+              "role": "Article narrative voice",
+              "country": "United States",
+              "country_basis": "Outlet origin; individual reporter citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "CNN describes NATO countries as closer than at any time since the Cold War.",
+            "note": ""
+          },
+          "attention": "Most space concerns China, Taiwan, Asia-Pacific guests and disagreement about a Tokyo NATO office. (Paragraphs 1.)",
+          "outlet_view": "This is the article narrator’s wording; it is not an outlet-wide policy statement.",
+          "where_when": "2023-07-11 reporting; NATO’s Vilnius summit. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "The war in Ukraine has brought members of the US-led alliance closer…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "CNN describes NATO countries as closer than at any time since the Cold War.",
+            "supporting_sentence": "The war in Ukraine has brought members of the US-led alliance closer than at any time since the Cold War, and on Monday, NATO Secretary General Jens Stoltenberg summed up their collective concerns that what is happening in Ukraine today could occur in Asia tomorrow.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "ft",
+      "label": "Financial Times",
+      "short_label": "FT",
+      "country": "United Kingdom",
+      "article": {
+        "id": "03948b48-33b4-4fdb-a832-7417a844c656",
+        "title": "Nato caution on Ukraine risks emboldening Moscow",
+        "url": "https://www.ft.com/content/fc3a50a8-d846-40de-b9dd-bf00e316ecda",
+        "publication_date": "2023-07-11",
+        "text_sha256": "b111d51bb0c5911d12e1e7b4268902767f309da97d43fd12c88e7414e1f4dbb7"
+      },
+      "attention": "This editorial welcomes progress on Sweden but criticizes vague commitments to Ukraine and calls for stronger long-term support.",
+      "claims": [
+        {
+          "id": "FT01",
+          "text": "The FT editorial says NATO’s words fell short of giving Ukraine a clear route and date for joining.",
+          "topics": [
+            "membership"
+          ],
+          "kind": {
+            "label": "Opinion / judgement",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "opinion",
+          "source_type": "editorial_voice",
+          "claimants": [
+            {
+              "name": "Financial Times article narrator",
+              "role": "Article narrative voice",
+              "country": "United Kingdom",
+              "country_basis": "Outlet origin; individual reporter citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "criticizes",
+            "label": "Criticizes",
+            "target": "The summit’s unclear Ukrainian membership commitment",
+            "note": ""
+          },
+          "attention": "This editorial welcomes progress on Sweden but criticizes vague commitments to Ukraine and calls for stronger long-term support. (Paragraphs 3.)",
+          "outlet_view": "The FT editorial itself criticizes the lack of a clear route and date for Ukraine to join NATO.",
+          "where_when": "2023-07-11 reporting; NATO’s Vilnius summit. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "On Ukraine, however, wording agreed on Tuesday fell well short of giving…",
+            "paragraphs": [
+              3
+            ],
+            "language": "en",
+            "paraphrase": "The FT editorial says NATO’s words fell short of giving Ukraine a clear route and date for joining.",
+            "supporting_sentence": "On Ukraine, however, wording agreed on Tuesday fell well short of giving Kyiv the clear path and timeline to membership that President Volodymyr Zelenskyy has sought.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "FT02",
+          "text": "The editorial says NATO should have invited Ukraine now to prepare for membership after the war.",
+          "topics": [
+            "membership"
+          ],
+          "kind": {
+            "label": "Opinion / judgement",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "opinion",
+          "source_type": "editorial_voice",
+          "claimants": [
+            {
+              "name": "Financial Times article narrator",
+              "role": "Article narrative voice",
+              "country": "United Kingdom",
+              "country_basis": "Outlet origin; individual reporter citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "An immediate invitation leading to membership after the war",
+            "note": ""
+          },
+          "attention": "This editorial welcomes progress on Sweden but criticizes vague commitments to Ukraine and calls for stronger long-term support. (Paragraphs 4.)",
+          "outlet_view": "The FT editorial itself supports inviting Ukraine now to prepare for membership after the war.",
+          "where_when": "2023-07-11 reporting; NATO’s Vilnius summit. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "Yet it would have been preferable to extend an invitation now that…",
+            "paragraphs": [
+              4
+            ],
+            "language": "en",
+            "paraphrase": "The editorial says NATO should have invited Ukraine now to prepare for membership after the war.",
+            "supporting_sentence": "Yet it would have been preferable to extend an invitation now that would have put Kyiv on a path to joining soon after the current conflict has ended.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "FT03",
+          "text": "The editorial urges strong, lasting military and financial help for Ukraine while it remains outside NATO.",
+          "topics": [
+            "assistance"
+          ],
+          "kind": {
+            "label": "Opinion / judgement",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "opinion",
+          "source_type": "editorial_voice",
+          "claimants": [
+            {
+              "name": "Financial Times article narrator",
+              "role": "Article narrative voice",
+              "country": "United Kingdom",
+              "country_basis": "Outlet origin; individual reporter citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Credible long-term support for Ukraine",
+            "note": ""
+          },
+          "attention": "This editorial welcomes progress on Sweden but criticizes vague commitments to Ukraine and calls for stronger long-term support. (Paragraphs 5.)",
+          "outlet_view": "The FT editorial itself calls for strong, lasting military and financial help while Ukraine remains outside NATO.",
+          "where_when": "2023-07-11 reporting; NATO’s Vilnius summit. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "This makes it paramount that allies provide Ukraine with robust and credible…",
+            "paragraphs": [
+              5
+            ],
+            "language": "en",
+            "paraphrase": "The editorial urges strong, lasting military and financial help for Ukraine while it remains outside NATO.",
+            "supporting_sentence": "This makes it paramount that allies provide Ukraine with robust and credible security assurances for as long as it is not a Nato member.\nThat means continuing to provide sufficient military and financial support after the conflict ends to deter new Russian aggression and enable Ukraine to rebuild its economy.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "FT04",
+          "text": "The editorial welcomes progress on Sweden joining and says it will strengthen NATO’s defenses.",
+          "topics": [
+            "nordic"
+          ],
+          "kind": {
+            "label": "Opinion / judgement",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "opinion",
+          "source_type": "editorial_voice",
+          "claimants": [
+            {
+              "name": "Financial Times article narrator",
+              "role": "Article narrative voice",
+              "country": "United Kingdom",
+              "country_basis": "Outlet origin; individual reporter citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Sweden joining NATO",
+            "note": ""
+          },
+          "attention": "This editorial welcomes progress on Sweden but criticizes vague commitments to Ukraine and calls for stronger long-term support. (Paragraphs 2.)",
+          "outlet_view": "The FT editorial itself welcomes progress on Sweden joining and sees stronger NATO defenses as a benefit.",
+          "where_when": "2023-07-11 reporting; NATO’s Vilnius summit. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "Breaking the impasse over admitting Sweden as a member is a clear…",
+            "paragraphs": [
+              2
+            ],
+            "language": "en",
+            "paraphrase": "The editorial welcomes progress on Sweden joining and says it will strengthen NATO’s defenses.",
+            "supporting_sentence": "Breaking the impasse over admitting Sweden as a member is a clear positive.\nBut Swedish accession — coming after Finland joined in April — will bolster Nato’s military capacity, and its ability to defend the entire Baltic region against a revanchist Russia.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "FT05",
+          "text": "The editorial says vague membership terms exposed disagreements among NATO countries.",
+          "topics": [
+            "membership",
+            "unity"
+          ],
+          "kind": {
+            "label": "Opinion / assessment",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "assessment",
+          "source_type": "editorial_voice",
+          "claimants": [
+            {
+              "name": "Financial Times article narrator",
+              "role": "Article narrative voice",
+              "country": "United Kingdom",
+              "country_basis": "Outlet origin; individual reporter citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "The editorial says vague membership terms exposed disagreements among NATO countries.",
+            "note": ""
+          },
+          "attention": "This editorial welcomes progress on Sweden but criticizes vague commitments to Ukraine and calls for stronger long-term support. (Paragraphs 3.)",
+          "outlet_view": "The FT editorial itself says unclear membership terms exposed disagreements among NATO members.",
+          "where_when": "2023-07-11 reporting; NATO’s Vilnius summit. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "But by stating only that Nato would extend an invitation to Kyiv…",
+            "paragraphs": [
+              3
+            ],
+            "language": "en",
+            "paraphrase": "The editorial says vague membership terms exposed disagreements among NATO countries.",
+            "supporting_sentence": "But by stating only that Nato would extend an invitation to Kyiv to join “once allies agree and conditions are met”, it exposed tensions between a cautious US and Germany, and many central and east European members — plus the UK and France — that have pressed for an expedited process.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "kyivpost",
+      "label": "Kyiv Independent",
+      "short_label": "Kyiv Ind.",
+      "country": "Ukraine",
+      "article": {
+        "id": "fbfe0184-f20b-416d-a1ef-7b6b9190a1b9",
+        "title": "Zelensky blasts unclear time frame for NATO invite: 'unprecedented and absurd'",
+        "url": "https://kyivindependent.com/zelensky-blasts-lack-of-timeframe-for-nato-invite/",
+        "publication_date": "2023-07-11",
+        "text_sha256": "f3102b020d920939bc21d6e3f850c5e31c194a8fdc90cba7c0cab865758ac9cc"
+      },
+      "attention": "The brief centers on Zelensky’s criticism of the unclear invitation timetable and reports allies’ reluctance.",
+      "claims": [
+        {
+          "id": "KI01",
+          "text": "Zelensky called the lack of a date for an invitation or membership absurd and criticized vague conditions.",
+          "topics": [
+            "membership"
+          ],
+          "kind": {
+            "label": "Opinion / judgement",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "opinion",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Volodymyr Zelensky",
+              "role": "President of Ukraine",
+              "country": "Ukraine",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "criticizes",
+            "label": "Criticizes",
+            "target": "No clear date for inviting Ukraine to join NATO",
+            "note": ""
+          },
+          "attention": "The brief centers on Zelensky’s criticism of the unclear invitation timetable and reports allies’ reluctance. (Paragraphs 3.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-11 reporting; NATO’s Vilnius summit. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "\"It's unprecedented and absurd when a time frame is not set neither…",
+            "paragraphs": [
+              3
+            ],
+            "language": "en",
+            "paraphrase": "Zelensky called the lack of a date for an invitation or membership absurd and criticized vague conditions.",
+            "supporting_sentence": "\"It's unprecedented and absurd when a time frame is not set neither for the invitation nor for Ukraine's membership. While at the same time vague wording about 'conditions' is added even for inviting Ukraine,\" Zelensky wrote on Twitter.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "KI02",
+          "text": "Lithuania’s NATO ambassador said Ukraine would not receive an invitation at the summit.",
+          "topics": [
+            "membership"
+          ],
+          "kind": {
+            "label": "Opinion / prediction",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "prediction",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Davidas Matulionis",
+              "role": "Lithuania’s ambassador to NATO",
+              "country": "Lithuania",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Lithuania’s NATO ambassador said Ukraine would not receive an invitation at the summit.",
+            "note": ""
+          },
+          "attention": "The brief centers on Zelensky’s criticism of the unclear invitation timetable and reports allies’ reluctance. (Paragraphs 7.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-11 reporting; NATO’s Vilnius summit. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "Davidas Matulionis, Lithuania's ambassador to NATO, said on July 11 that Ukrainian…",
+            "paragraphs": [
+              7
+            ],
+            "language": "en",
+            "paraphrase": "Lithuania’s NATO ambassador said Ukraine would not receive an invitation at the summit.",
+            "supporting_sentence": "Davidas Matulionis, Lithuania's ambassador to NATO, said on July 11 that Ukrainian will not receive an invitation to join the Alliance at the summit. The allies will, however, present conditions under which such as invitation could be granted.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "A pre-decision forecast is not the text of a final invitation.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "KI03",
+          "text": "Zelensky said NATO’s hesitation gave Russia an opportunity to continue its attacks.",
+          "topics": [
+            "membership"
+          ],
+          "kind": {
+            "label": "Opinion / assessment",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "assessment",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Volodymyr Zelensky",
+              "role": "President of Ukraine",
+              "country": "Ukraine",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "criticizes",
+            "label": "Criticizes",
+            "target": "Delay and unclear promises on Ukraine’s membership",
+            "note": ""
+          },
+          "attention": "The brief centers on Zelensky’s criticism of the unclear invitation timetable and reports allies’ reluctance. (Paragraphs 5.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-11 reporting; NATO’s Vilnius summit. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "Zelensky noted that this hesitation provides an opportunity for Russia to continue…",
+            "paragraphs": [
+              5
+            ],
+            "language": "en",
+            "paraphrase": "Zelensky said NATO’s hesitation gave Russia an opportunity to continue its attacks.",
+            "supporting_sentence": "Zelensky noted that this hesitation provides an opportunity for Russia to continue its terror in Ukraine.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "europeanpravda",
+      "label": "European Pravda",
+      "short_label": "E. Pravda",
+      "country": "Ukraine",
+      "article": {
+        "id": "d1bcfe8a-65f9-4653-a313-8425e3d9b387",
+        "title": "NATO Secretary General on Counteroffensive: Don't Forget That War Started Back in 2014",
+        "url": "https://www.eurointegration.com.ua/eng/news/2023/07/11/7165480/",
+        "publication_date": "2023-07-11",
+        "text_sha256": "6fd3533a7819810483b74aea952354602196ae03df5a640aa733ae9bd12d3c43"
+      },
+      "attention": "The reporter covers Stoltenberg’s comments at a summit-side forum on the war’s duration and continued assistance.",
+      "claims": [
+        {
+          "id": "EP01",
+          "text": "Stoltenberg said wars are unpredictable and often last longer than expected.",
+          "topics": [
+            "assistance"
+          ],
+          "kind": {
+            "label": "Opinion / assessment",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "assessment",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Jens Stoltenberg",
+              "role": "NATO secretary general",
+              "country": "NATO (multiple countries)",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Stoltenberg said wars are unpredictable and often last longer than expected.",
+            "note": ""
+          },
+          "attention": "The reporter covers Stoltenberg’s comments at a summit-side forum on the war’s duration and continued assistance. (Paragraphs 4.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-11 reporting; NATO’s Vilnius summit. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "\"Wars are, by nature, unpredictable. Wars tend to last longer than we…",
+            "paragraphs": [
+              4
+            ],
+            "language": "en",
+            "paraphrase": "Stoltenberg said wars are unpredictable and often last longer than expected.",
+            "supporting_sentence": "\"Wars are, by nature, unpredictable. Wars tend to last longer than we expect,\" he said during a discussion at an expert forum on the sidelines of the NATO summit, where a European Pravda reporter is participating.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "A comment at the summit-side forum about the war; not a specific forecast of the next offensive.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "EP02",
+          "text": "Stoltenberg promised Ukraine continued defense help from NATO countries.",
+          "topics": [
+            "assistance"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Jens Stoltenberg",
+              "role": "NATO secretary general",
+              "country": "NATO (multiple countries)",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Continued defense support for Ukraine",
+            "note": ""
+          },
+          "attention": "The reporter covers Stoltenberg’s comments at a summit-side forum on the war’s duration and continued assistance. (Paragraphs 6.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-11 reporting; NATO’s Vilnius summit. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "Stoltenberg also reminded that Russia chose the option of waging a war…",
+            "paragraphs": [
+              6
+            ],
+            "language": "en",
+            "paraphrase": "Stoltenberg promised Ukraine continued defense help from NATO countries.",
+            "supporting_sentence": "Stoltenberg also reminded that Russia chose the option of waging a war of attrition, which further complicates hostilities, but assured that Ukraine will receive defence support from the Alliance states.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "censor",
+      "label": "Censor.NET",
+      "short_label": "Censor.NET",
+      "country": "Ukraine",
+      "article": {
+        "id": "10f55bd9-bab3-4a87-8e4e-2f33775b8be0",
+        "title": "President Zelensky arrived at NATO summit in Vilnius, - media. PHOTO",
+        "url": "https://censor.net/en/news/3430398/president_zelensky_arrived_at_nato_summit_in_vilnius_media_photo",
+        "publication_date": "2023-07-11",
+        "text_sha256": "ab27971586ce8baf48d96e8b70801f360c5ac7910b59769611d920721c2ca5dd"
+      },
+      "attention": "The brief reports Zelensky’s arrival and the planned leaders’ dinner and council meeting.",
+      "claims": [
+        {
+          "id": "CEN01",
+          "text": "Censor.NET reports Zelensky arrived in Vilnius on July 11 aboard a Polish government plane.",
+          "topics": [
+            "arrival"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "LRT_report_with_Ukrainian_spokesman_confirmation",
+          "claimants": [
+            {
+              "name": "LRT, with later confirmation from Serhiy Nikiforov",
+              "role": "Lithuanian broadcaster and Ukrainian presidential spokesman",
+              "country": "Lithuania; Ukraine",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Censor.NET reports Zelensky arrived in Vilnius on July 11 aboard a Polish government plane.",
+            "note": ""
+          },
+          "attention": "The brief reports Zelensky’s arrival and the planned leaders’ dinner and council meeting. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-11 reporting; NATO’s Vilnius summit. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "President of Ukraine Volodymyr Zelensky flew to Vilnius on July 11 for…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Censor.NET reports Zelensky arrived in Vilnius on July 11 aboard a Polish government plane.",
+            "supporting_sentence": "President of Ukraine Volodymyr Zelensky flew to Vilnius on July 11 for the Alliance summit. He arrived on a Polish state plane.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CEN02",
+          "text": "Stoltenberg said Zelensky would join Tuesday’s dinner and the council meeting was set for Wednesday.",
+          "topics": [
+            "arrival",
+            "council"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Jens Stoltenberg",
+              "role": "NATO secretary general",
+              "country": "NATO (multiple countries)",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Stoltenberg said Zelensky would join Tuesday’s dinner and the council meeting was set for Wednesday.",
+            "note": ""
+          },
+          "attention": "The brief reports Zelensky’s arrival and the planned leaders’ dinner and council meeting. (Paragraphs 6.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-11 reporting; NATO’s Vilnius summit. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "It should be noted that NATO Secretary General Jens Stoltenberg stated that…",
+            "paragraphs": [
+              6
+            ],
+            "language": "en",
+            "paraphrase": "Stoltenberg said Zelensky would join Tuesday’s dinner and the council meeting was set for Wednesday.",
+            "supporting_sentence": "It should be noted that NATO Secretary General Jens Stoltenberg stated that Zelensky will only attend the leaders' dinner on Tuesday, while the meeting of the Ukraine-NATO Council is scheduled for Wednesday.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "tass",
+      "label": "TASS",
+      "short_label": "TASS",
+      "country": "Russia",
+      "article": {
+        "id": "0310d0be-103d-45ed-aec8-59c275125125",
+        "title": "NATO agrees on program of military assistance to Kiev, sets up Ukraine-NATO Council",
+        "url": "https://tass.com/world/1645509",
+        "publication_date": "2023-07-11",
+        "text_sha256": "3eeb3ce3ec3e07d65a6911896ec6687ef0ac54bd18ab8872e9a95800a1893241"
+      },
+      "attention": "The report describes Stoltenberg’s new assistance program and NATO-Ukraine Council announcement.",
+      "claims": [
+        {
+          "id": "T01",
+          "text": "Stoltenberg announced several years of military help for Ukraine.",
+          "topics": [
+            "assistance"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Jens Stoltenberg",
+              "role": "NATO secretary general",
+              "country": "NATO (multiple countries)",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "The adopted NATO assistance program",
+            "note": ""
+          },
+          "attention": "The report describes Stoltenberg’s new assistance program and NATO-Ukraine Council announcement. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-11 reporting; NATO’s Vilnius summit. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "VILNIUS, July 11. /TASS/. NATO countries have adopted a long-term program of…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Stoltenberg announced several years of military help for Ukraine.",
+            "supporting_sentence": "VILNIUS, July 11. /TASS/. NATO countries have adopted a long-term program of military assistance to Ukraine and agreed to set up the Ukraine-NATO Council, NATO Secretary General Jens Stoltenberg said on Tuesday.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "T02",
+          "text": "Stoltenberg said the new NATO-Ukraine Council would let members consult and make decisions as equals.",
+          "topics": [
+            "council"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Jens Stoltenberg",
+              "role": "NATO secretary general",
+              "country": "NATO (multiple countries)",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Stoltenberg said the new NATO-Ukraine Council would let members consult and make decisions as equals.",
+            "note": ""
+          },
+          "attention": "The report describes Stoltenberg’s new assistance program and NATO-Ukraine Council announcement. (Paragraphs 3.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-11 reporting; NATO’s Vilnius summit. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "\"Second, a new NATO-Ukraine Council. A forum for crisis consultations and decision-making…",
+            "paragraphs": [
+              3
+            ],
+            "language": "en",
+            "paraphrase": "Stoltenberg said the new NATO-Ukraine Council would let members consult and make decisions as equals.",
+            "supporting_sentence": "\"Second, a new NATO-Ukraine Council. A forum for crisis consultations and decision-making where we will meet as equals.\"",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "The wording describes the council’s intended role, not Ukraine becoming a NATO member.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "T03",
+          "text": "Stoltenberg said Zelensky would attend the first council meeting on Wednesday.",
+          "topics": [
+            "council",
+            "arrival"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Jens Stoltenberg",
+              "role": "NATO secretary general",
+              "country": "NATO (multiple countries)",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Stoltenberg said Zelensky would attend the first council meeting on Wednesday.",
+            "note": ""
+          },
+          "attention": "The report describes Stoltenberg’s new assistance program and NATO-Ukraine Council announcement. (Paragraphs 4.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-11 reporting; NATO’s Vilnius summit. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "He also said that the inaugural meeting of the Council will be…",
+            "paragraphs": [
+              4
+            ],
+            "language": "en",
+            "paraphrase": "Stoltenberg said Zelensky would attend the first council meeting on Wednesday.",
+            "supporting_sentence": "He also said that the inaugural meeting of the Council will be held on Wednesday and Ukrainian President Vladimir Zelensky will take part.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "sputnik",
+      "label": "Sputnik",
+      "short_label": "Sputnik",
+      "country": "Russia",
+      "article": {
+        "id": "0f03c131-9f35-4a12-86ec-35003140b90e",
+        "title": "NATO Summit Final Statement Draft Not Mentioning Steps for Ukraine's Accession - Reports",
+        "url": "https://sputnikglobe.com/20230711/nato-summit-final-statement-draft-not-mentioning-steps-for-ukraines-accession---reports-1111811390.html",
+        "publication_date": "2023-07-11",
+        "text_sha256": "a3cbbfc5316d6fa04165a43aef130368050e223c7cc6938e6501b5f4659e0640"
+      },
+      "attention": "Only a short recovered paragraph remains, describing reported draft wording on membership and conditions.",
+      "claims": [
+        {
+          "id": "S01",
+          "text": "The reported draft NATO statement promised Ukraine a future in NATO but gave no date.",
+          "topics": [
+            "membership"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "reported_draft_statement",
+          "claimants": [
+            {
+              "name": "Unnamed news magazine cited in the recovered text",
+              "role": "Original report about draft NATO wording; publisher not identified in the saved paragraph",
+              "country": "Unknown",
+              "country_basis": "The original magazine and source identities are absent from the recovered excerpt."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "The reported draft NATO statement promised Ukraine a future in NATO but gave no date.",
+            "note": ""
+          },
+          "attention": "Only a short recovered paragraph remains, describing reported draft wording on membership and conditions. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-11 reporting; NATO’s Vilnius summit. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "The current version of the document states that the future of Ukraine…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "The reported draft NATO statement promised Ukraine a future in NATO but gave no date.",
+            "supporting_sentence": "The current version of the document states that the future of Ukraine in NATO — such a promise was made at the Bucharest summit back in 2008 — but the time plan for the admission is not indicated, the news magazine said.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "Only one short paragraph is recovered; a reported draft is not automatically the final statement.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "S02",
+          "text": "The draft reportedly made an invitation depend on all allies agreeing that the conditions were met.",
+          "topics": [
+            "membership"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "reported_draft_statement",
+          "claimants": [
+            {
+              "name": "Unnamed news magazine cited in the recovered text",
+              "role": "Original report about draft NATO wording; publisher not identified in the saved paragraph",
+              "country": "Unknown",
+              "country_basis": "The original magazine and source identities are absent from the recovered excerpt."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "The draft reportedly made an invitation depend on all allies agreeing that the conditions were met.",
+            "note": ""
+          },
+          "attention": "Only a short recovered paragraph remains, describing reported draft wording on membership and conditions. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-11 reporting; NATO’s Vilnius summit. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "The document also says that Ukraine can only be invited if the…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "The draft reportedly made an invitation depend on all allies agreeing that the conditions were met.",
+            "supporting_sentence": "The document also says that Ukraine can only be invited if the members of the alliance agree that all the conditions for this are met.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "izvestia",
+      "label": "Izvestia",
+      "short_label": "Izvestia",
+      "country": "Russia",
+      "article": {
+        "id": "89f11934-ce59-4a46-867b-ec4d40168fa3",
+        "title": "Столтенберг предложил отменить для Украины план действий для вступления в НАТО",
+        "url": "https://iz.ru/1542544/2023-07-11/stoltenberg-predlozhil-otmenit-dlia-ukrainy-plan-deistvii-dlia-vstupleniia-v-nato",
+        "publication_date": "2023-07-11",
+        "text_sha256": "e1f07a3c5f69cc5eb4e01819d8a83ea672300b4496f1c65e0a32b9614c10f6d4"
+      },
+      "attention": "The report explains Stoltenberg’s three-part proposal: support, a new council and skipping a membership step.",
+      "claims": [
+        {
+          "id": "I01",
+          "text": "Stoltenberg proposed letting Ukraine skip the usual Membership Action Plan.",
+          "topics": [
+            "membership"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Jens Stoltenberg",
+              "role": "NATO secretary general",
+              "country": "NATO (multiple countries)",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Stoltenberg proposed letting Ukraine skip the usual Membership Action Plan.",
+            "note": ""
+          },
+          "attention": "The report explains Stoltenberg’s three-part proposal: support, a new council and skipping a membership step. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-11 reporting; NATO’s Vilnius summit. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "Генеральный секретарь НАТО Йенс Столтенберг предложил отказаться от необходимости выполнения Украиной плана…",
+            "paragraphs": [
+              1
+            ],
+            "language": "ru",
+            "paraphrase": "Stoltenberg proposed letting Ukraine skip the usual Membership Action Plan.",
+            "supporting_sentence": "Генеральный секретарь НАТО Йенс Столтенберг предложил отказаться от необходимости выполнения Украиной плана действий по членству в альянсе. Об этом он заявил во вторник, 11 июля, перед началом в Вильнюсе саммита стран НАТО, его слова транслировались на YouTube–канале блока.",
+            "english_translation": "NATO Secretary General Jens Stoltenberg proposed dropping the requirement that Ukraine complete a Membership Action Plan. He said this on July 11 before the Vilnius summit, broadcast on NATO’s YouTube channel.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "This paragraph reports a proposal, not the moment a final decision was adopted.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "I02",
+          "text": "Stoltenberg said long-term help would prepare Ukrainian forces to work with NATO forces.",
+          "topics": [
+            "assistance"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Jens Stoltenberg",
+              "role": "NATO secretary general",
+              "country": "NATO (multiple countries)",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Stoltenberg said long-term help would prepare Ukrainian forces to work with NATO forces.",
+            "note": ""
+          },
+          "attention": "The report explains Stoltenberg’s three-part proposal: support, a new council and skipping a membership step. (Paragraphs 3.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-11 reporting; NATO’s Vilnius summit. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "Многолетний план военной поддержки Киева необходим в том числе для подготовки Вооруженных…",
+            "paragraphs": [
+              3
+            ],
+            "language": "ru",
+            "paraphrase": "Stoltenberg said long-term help would prepare Ukrainian forces to work with NATO forces.",
+            "supporting_sentence": "Многолетний план военной поддержки Киева необходим в том числе для подготовки Вооруженных сил Украины (ВСУ) таким образом, чтобы они могли полностью встроиться в войска НАТО, уточнил генсек альянса.",
+            "english_translation": "The long-term military support plan is needed in part to prepare Ukraine’s armed forces so they can fully work within NATO forces, the secretary general said.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "I03",
+          "text": "Stoltenberg said the new council would strengthen ties and first meet on July 12.",
+          "topics": [
+            "council"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Jens Stoltenberg",
+              "role": "NATO secretary general",
+              "country": "NATO (multiple countries)",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Stoltenberg said the new council would strengthen ties and first meet on July 12.",
+            "note": ""
+          },
+          "attention": "The report explains Stoltenberg’s three-part proposal: support, a new council and skipping a membership step. (Paragraphs 4.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-11 reporting; NATO’s Vilnius summit. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "Создание совета НАТО — Украина, по его словам, призвано усилить политические связи…",
+            "paragraphs": [
+              4
+            ],
+            "language": "ru",
+            "paraphrase": "Stoltenberg said the new council would strengthen ties and first meet on July 12.",
+            "supporting_sentence": "Создание совета НАТО — Украина, по его словам, призвано усилить политические связи между Киевом и альянсом. Первая встреча нового органа должна состояться 12 июля, заявил Столтенберг.",
+            "english_translation": "According to Stoltenberg, the NATO-Ukraine Council is intended to strengthen political ties. The new body’s first meeting should take place on July 12.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "china_daily",
+      "label": "China Daily",
+      "short_label": "China Daily",
+      "country": "China",
+      "article": {
+        "id": "5468edc0-13c7-4c20-a039-30abdeea969a",
+        "title": "NATO expansion alters security dynamics, woefully",
+        "url": "https://www.chinadaily.com.cn/a/202307/11/WS64ad1899a31035260b815cd5.html",
+        "publication_date": "2023-07-11",
+        "text_sha256": "cac8db50abb4191e6f67a508cc0faf24cc840ec8458239fb0977153d0437e45d"
+      },
+      "attention": "A guest opinion piece links the summit and Sweden’s bid to criticism of NATO’s growth in Europe and possible Asian reach.",
+      "claims": [
+        {
+          "id": "CD01",
+          "text": "The guest writer argues Finland and Sweden joining NATO will increase confrontation between Europe and Russia.",
+          "topics": [
+            "nordic"
+          ],
+          "kind": {
+            "label": "Opinion / prediction",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "prediction",
+          "source_type": "guest_opinion",
+          "claimants": [
+            {
+              "name": "Guest author, not named in recovered body",
+              "role": "Dean and professor at Zhejiang International Studies University’s Mediterranean institute",
+              "country": "China",
+              "country_basis": "Country is the university’s location. The article explicitly says the views need not reflect China Daily."
+            }
+          ],
+          "stance": {
+            "value": "criticizes",
+            "label": "Criticizes",
+            "target": "Finland and Sweden joining NATO",
+            "note": ""
+          },
+          "attention": "A guest opinion piece links the summit and Sweden’s bid to criticism of NATO’s growth in Europe and possible Asian reach. (Paragraphs 10.)",
+          "outlet_view": "A guest author argues this. The article explicitly says the views do not necessarily reflect China Daily.",
+          "where_when": "2023-07-11 reporting; NATO’s Vilnius summit. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "Finland's accession to NATO and Sweden's impending membership signal the end of…",
+            "paragraphs": [
+              10
+            ],
+            "language": "en",
+            "paraphrase": "The guest writer argues Finland and Sweden joining NATO will increase confrontation between Europe and Russia.",
+            "supporting_sentence": "Finland's accession to NATO and Sweden's impending membership signal the end of military neutrality for some countries, the complete reconstruction of the Nordic security framework established under the Yalta system, based on the Yalta Conference between Washington, Moscow and London, and the end of \"cold peace\" in the Baltic region. It also means the EU-Russia confrontation will intensify, leading to further fragmentation and division of the continent.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CD02",
+          "text": "The writer says NATO already persuaded Japan to host an office the next year.",
+          "topics": [
+            "asia"
+          ],
+          "kind": {
+            "label": "Opinion / assessment",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "assessment",
+          "source_type": "guest_opinion",
+          "claimants": [
+            {
+              "name": "Guest author, not named in recovered body",
+              "role": "Dean and professor at Zhejiang International Studies University’s Mediterranean institute",
+              "country": "China",
+              "country_basis": "Country is the university’s location. The article explicitly says the views need not reflect China Daily."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "The writer says NATO already persuaded Japan to host an office the next year.",
+            "note": ""
+          },
+          "attention": "A guest opinion piece links the summit and Sweden’s bid to criticism of NATO’s growth in Europe and possible Asian reach. (Paragraphs 13.)",
+          "outlet_view": "This is the guest writer’s assertion, with no cited approval document. China Daily expressly separates the guest’s views from the outlet.",
+          "where_when": "2023-07-11 reporting; NATO’s Vilnius summit. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "In fact, NATO has already persuaded Japan to open a liaison office…",
+            "paragraphs": [
+              13
+            ],
+            "language": "en",
+            "paraphrase": "The writer says NATO already persuaded Japan to host an office the next year.",
+            "supporting_sentence": "In fact, NATO has already persuaded Japan to open a liaison office in Tokyo next year, which will allow the US-led military alliance to become a global military police and geopolitical juggernaut, sparking more geopolitical tensions and security frictions.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CD03",
+          "text": "The writer says further NATO growth toward Asia could bring more conflicts.",
+          "topics": [
+            "asia"
+          ],
+          "kind": {
+            "label": "Opinion / prediction",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "prediction",
+          "source_type": "guest_opinion",
+          "claimants": [
+            {
+              "name": "Guest author, not named in recovered body",
+              "role": "Dean and professor at Zhejiang International Studies University’s Mediterranean institute",
+              "country": "China",
+              "country_basis": "Country is the university’s location. The article explicitly says the views need not reflect China Daily."
+            }
+          ],
+          "stance": {
+            "value": "criticizes",
+            "label": "Criticizes",
+            "target": "NATO’s possible growth toward Asia",
+            "note": ""
+          },
+          "attention": "A guest opinion piece links the summit and Sweden’s bid to criticism of NATO’s growth in Europe and possible Asian reach. (Paragraphs 14.)",
+          "outlet_view": "The guest author makes this prediction; it is not stated as China Daily’s institutional position.",
+          "where_when": "2023-07-11 reporting; NATO’s Vilnius summit. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "This does not bode well for either Europe, Eurasia or the Asia-Pacific,…",
+            "paragraphs": [
+              14
+            ],
+            "language": "en",
+            "paraphrase": "The writer says further NATO growth toward Asia could bring more conflicts.",
+            "supporting_sentence": "This does not bode well for either Europe, Eurasia or the Asia-Pacific, and could increase confrontations and conflicts in the region.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "global_times",
+      "label": "Global Times",
+      "short_label": "Global Times",
+      "country": "China",
+      "article": {
+        "id": "0581b60a-b850-440f-abd3-c208afd2f6c1",
+        "title": "NATO summit kicks off amid ‘rising divergences, potential risks, long-standing challenges’",
+        "url": "https://www.globaltimes.cn/page/202307/1294188.shtml",
+        "publication_date": "2023-07-11",
+        "text_sha256": "aeeb2b30001db2bb99f4b5de0601777b00dd79826a9c4b788442a94259a1a00f"
+      },
+      "attention": "The article emphasizes possible splits over Sweden/Turkey, Ukraine’s membership and NATO’s Asian role, quoting analysts and other news reports.",
+      "claims": [
+        {
+          "id": "GT01",
+          "text": "Analysts quoted by Global Times predict growing divisions behind NATO’s show of unity.",
+          "topics": [
+            "unity"
+          ],
+          "kind": {
+            "label": "Opinion / prediction",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "prediction",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Unnamed experts quoted by Global Times",
+              "role": "Analysts whose identities are not specified in this paragraph",
+              "country": "Unknown",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Analysts quoted by Global Times predict growing divisions behind NATO’s show of unity.",
+            "note": ""
+          },
+          "attention": "The article emphasizes possible splits over Sweden/Turkey, Ukraine’s membership and NATO’s Asian role, quoting analysts and other news reports. (Paragraphs 2.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-11 reporting; NATO’s Vilnius summit. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "The two-day NATO summit kicked off in Vilnius, Lithuania on Tuesday with…",
+            "paragraphs": [
+              2
+            ],
+            "language": "en",
+            "paraphrase": "Analysts quoted by Global Times predict growing divisions behind NATO’s show of unity.",
+            "supporting_sentence": "The two-day NATO summit kicked off in Vilnius, Lithuania on Tuesday with the gathering of Western leaders, but behind the outward scene of solidarity, experts said there are rising divergences among the members and potential risks for the organization that might cause serious splits and disunity, meaning that long-standing challenges like the Ukraine crisis are unlikely to be resolved in the short term, which will continue to worsen the security and economic situation of Europe.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "GT02",
+          "text": "The article reports that Turkey agreed to clear the way for Sweden to join NATO.",
+          "topics": [
+            "nordic"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "reported_news",
+          "claimants": [
+            {
+              "name": "Media reports cited by Global Times",
+              "role": "Original news reports not fully identified in this sentence",
+              "country": "Unknown",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "The article reports that Turkey agreed to clear the way for Sweden to join NATO.",
+            "note": ""
+          },
+          "attention": "The article emphasizes possible splits over Sweden/Turkey, Ukraine’s membership and NATO’s Asian role, quoting analysts and other news reports. (Paragraphs 7.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-11 reporting; NATO’s Vilnius summit. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "Turkey agreed on Monday to clear the way for Sweden to join…",
+            "paragraphs": [
+              7
+            ],
+            "language": "en",
+            "paraphrase": "The article reports that Turkey agreed to clear the way for Sweden to join NATO.",
+            "supporting_sentence": "Turkey agreed on Monday to clear the way for Sweden to join NATO, a sudden reversal just hours after Turkish President Recep Tayyip Erdogan said that the EU should first advance his country's bid to join the union. This is the first time that Erdogan linked Sweden's NATO membership to Turkey's EU accession, media reported.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "GT03",
+          "text": "Unnamed experts say Western promises to Ukraine prolong the fighting rather than end it.",
+          "topics": [
+            "assistance"
+          ],
+          "kind": {
+            "label": "Opinion / judgement",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "opinion",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Unnamed experts quoted by Global Times",
+              "role": "Expert commentators",
+              "country": "Unknown",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "criticizes",
+            "label": "Criticizes",
+            "target": "Western commitments of support to Ukraine",
+            "note": ""
+          },
+          "attention": "The article emphasizes possible splits over Sweden/Turkey, Ukraine’s membership and NATO’s Asian role, quoting analysts and other news reports. (Paragraphs 17.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-11 reporting; NATO’s Vilnius summit. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "Experts said that before the end of Ukraine crisis, there is no…",
+            "paragraphs": [
+              17
+            ],
+            "language": "en",
+            "paraphrase": "Unnamed experts say Western promises to Ukraine prolong the fighting rather than end it.",
+            "supporting_sentence": "Experts said that before the end of Ukraine crisis, there is no hope that NATO will grant membership to Ukraine, and all commitments made by major Western powers are serving to prolong the ongoing conflict, rather than putting an end to the bloodshed as soon as possible.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "GT04",
+          "text": "Nikkei reported NATO was delaying its decision on a Tokyo office until at least autumn.",
+          "topics": [
+            "asia"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "Nikkei_report_repeated_by_Global_Times",
+          "claimants": [
+            {
+              "name": "Nikkei",
+              "role": "Japanese news organization cited by Global Times",
+              "country": "Japan",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Nikkei reported NATO was delaying its decision on a Tokyo office until at least autumn.",
+            "note": ""
+          },
+          "attention": "The article emphasizes possible splits over Sweden/Turkey, Ukraine’s membership and NATO’s Asian role, quoting analysts and other news reports. (Paragraphs 23.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-11 reporting; NATO’s Vilnius summit. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "Japanese media Nikkei reported on Monday that NATO is poised to \"defer…",
+            "paragraphs": [
+              23
+            ],
+            "language": "en",
+            "paraphrase": "Nikkei reported NATO was delaying its decision on a Tokyo office until at least autumn.",
+            "supporting_sentence": "Japanese media Nikkei reported on Monday that NATO is poised to \"defer its decision on establishing a liaison office in Tokyo until autumn or later.\"",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "GT05",
+          "text": "Nikkei reported French opposition made unanimous approval for the office unlikely.",
+          "topics": [
+            "asia"
+          ],
+          "kind": {
+            "label": "Opinion / prediction",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "prediction",
+          "source_type": "Nikkei_report_repeated_by_Global_Times",
+          "claimants": [
+            {
+              "name": "Nikkei",
+              "role": "Japanese news organization cited by Global Times",
+              "country": "Japan",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Nikkei reported French opposition made unanimous approval for the office unlikely.",
+            "note": ""
+          },
+          "attention": "The article emphasizes possible splits over Sweden/Turkey, Ukraine’s membership and NATO’s Asian role, quoting analysts and other news reports. (Paragraphs 24.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-11 reporting; NATO’s Vilnius summit. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "The US-led military alliance initially planned to enshrine the establishment of the…",
+            "paragraphs": [
+              24
+            ],
+            "language": "en",
+            "paraphrase": "Nikkei reported French opposition made unanimous approval for the office unlikely.",
+            "supporting_sentence": "The US-led military alliance initially planned to enshrine the establishment of the Tokyo office in documents to be adopted at the summit, but \"France has opposed the idea, caring for relations with China,\" and the unanimous agreement of all 31 members needed for the decision appears unlikely. The bloc will work to finalize the decision by year-end, Nikkei reported.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "E01",
+      "source": "ft",
+      "target": "kyivpost",
+      "topic": "membership",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "FT01",
+      "target_claim": "KI01",
+      "label": "Both criticize the unclear timetable",
+      "subtype": "parallel_accounts_or_interpretations",
+      "reason": "The FT editorial and Zelensky both object to a lack of a clear route and date. The matching content alone supplies no evidential direction.",
+      "caveat": "This matches their criticism, not every proposal each speaker supports.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E02",
+      "source": "ft",
+      "target": "sputnik",
+      "topic": "membership",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "FT05",
+      "target_claim": "S02",
+      "label": "Shared conditional wording",
+      "subtype": "parallel_accounts_or_interpretations",
+      "reason": "Both describe an invitation depending on allies’ agreement and conditions being met. The matching content alone supplies no evidential direction.",
+      "caveat": "Sputnik describes a reported draft; FT discusses agreed wording. The source document versions and sources differ.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E03",
+      "source": "kyivpost",
+      "target": "sputnik",
+      "topic": "membership",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "KI02",
+      "target_claim": "S01",
+      "label": "No invitation now versus no date",
+      "subtype": "scope_or_certainty_difference",
+      "reason": "A Lithuanian ambassador predicts no summit invitation; a reported draft gives no timetable.",
+      "caveat": "These compatible claims are not identical: absence of a date does not itself rule out an invitation that day.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E04",
+      "source": "tass",
+      "target": "europeanpravda",
+      "topic": "assistance",
+      "relation": "supportive",
+      "color": "green",
+      "source_claim": "T01",
+      "target_claim": "EP02",
+      "label": "The multiyear program gives a concrete support commitment",
+      "subtype": "specified_partial_support",
+      "reason": "TASS reports Stoltenberg announcing adoption of a multiyear assistance program. That is a specific policy commitment supporting the continued-assistance pledge reported by European Pravda.",
+      "caveat": "Stoltenberg is the source for both statements, made at different points in the summit day.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": true,
+      "direction": "source_to_target",
+      "support_scope": "The continued-defense-assistance component of EP02.",
+      "direction_reason": "T01 supplies the specified support for EP02.",
+      "unsupported_parts": "Completed deliveries or the length and content of every future aid package."
+    },
+    {
+      "id": "E05",
+      "source": "tass",
+      "target": "izvestia",
+      "topic": "assistance",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "T01",
+      "target_claim": "I02",
+      "label": "Same support plan, different details",
+      "subtype": "parallel_accounts_or_interpretations",
+      "reason": "Both report Stoltenberg’s long-term support plan. The matching content alone supplies no evidential direction.",
+      "caveat": "One emphasizes adoption, the other the intended preparation of forces; the announcements come at different points during the day.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E06",
+      "source": "ft",
+      "target": "global_times",
+      "topic": "assistance",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "FT03",
+      "target_claim": "GT03",
+      "label": "Different aims and time horizons",
+      "subtype": "different_outcomes_and_time_scope",
+      "reason": "The FT editorial urges lasting help to deter future Russian aggression; Global Times’s experts say present commitments prolong the ongoing fighting.",
+      "caveat": "Future protection and prolonging a current war can coexist. The claims weigh different outcomes and periods; quoted experts are not the outlet’s automatic stance.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E07",
+      "source": "tass",
+      "target": "censor",
+      "topic": "council",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "T03",
+      "target_claim": "CEN02",
+      "label": "Same Wednesday council plan",
+      "subtype": "parallel_accounts_or_interpretations",
+      "reason": "Both report the NATO chief’s schedule for the council meeting. The matching content alone supplies no evidential direction.",
+      "caveat": "Same speaker and planned meeting, not two independent observations of an event already completed.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E08",
+      "source": "tass",
+      "target": "izvestia",
+      "topic": "council",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "T02",
+      "target_claim": "I03",
+      "label": "Same new council proposal",
+      "subtype": "parallel_accounts_or_interpretations",
+      "reason": "Both describe the NATO-Ukraine Council as a body for closer political relations. The matching content alone supplies no evidential direction.",
+      "caveat": "Stoltenberg is the common original source; the intended role does not confer NATO membership.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E09",
+      "source": "censor",
+      "target": "tass",
+      "topic": "arrival",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CEN02",
+      "target_claim": "T03",
+      "label": "Same planned council appearance",
+      "subtype": "parallel_accounts_or_interpretations",
+      "reason": "Both say the first council meeting with Zelensky was scheduled for Wednesday. The matching content alone supplies no evidential direction.",
+      "caveat": "A schedule is not proof that the subsequent meeting occurred.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E10",
+      "source": "cnn",
+      "target": "global_times",
+      "topic": "unity",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CNN04",
+      "target_claim": "GT01",
+      "label": "Cooperation can include divisions",
+      "subtype": "scope_or_certainty_difference",
+      "reason": "CNN stresses broad unity; quoted experts foresee divisions on policies.",
+      "caveat": "An alliance can be closer overall while disagreeing on Ukraine, Turkey or Asia. These are not exact opposites.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E11",
+      "source": "cnn",
+      "target": "global_times",
+      "topic": "asia",
+      "relation": "supportive",
+      "color": "green",
+      "source_claim": "CNN03",
+      "target_claim": "GT05",
+      "label": "Reported French opposition supports the approval obstacle",
+      "subtype": "specified_partial_support",
+      "reason": "CNN reports Macron’s opposition to the Tokyo office. That supplies a reason for the difficulty of unanimous approval described in Global Times.",
+      "caveat": "CNN cites NHK and Global Times cites Nikkei. Independent source access is not established.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": true,
+      "direction": "source_to_target",
+      "support_scope": "The French-opposition obstacle in GT05.",
+      "direction_reason": "CNN03 supplies the specified support for GT05.",
+      "unsupported_parts": "The eventual NATO decision or every reason for France’s position."
+    },
+    {
+      "id": "E12",
+      "source": "china_daily",
+      "target": "global_times",
+      "topic": "asia",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CD02",
+      "target_claim": "GT04",
+      "label": "Hosting a proposal versus NATO approval",
+      "subtype": "scope_or_certainty_difference",
+      "reason": "The guest writer says Japan was persuaded to host an office; Nikkei says NATO’s own decision was delayed.",
+      "caveat": "Host-country willingness and unanimous NATO approval are different decisions. The writer’s broad claim is not validated here.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E13",
+      "source": "ft",
+      "target": "china_daily",
+      "topic": "nordic",
+      "relation": "contradiction",
+      "color": "red",
+      "source_claim": "FT04",
+      "target_claim": "CD01",
+      "label": "Opposing evaluations of Nordic NATO expansion",
+      "subtype": "stance_disagreement",
+      "reason": "The FT editorial welcomes Sweden’s membership progress. The China Daily guest author evaluates Nordic NATO enlargement as harmful to regional stability.",
+      "caveat": "This proposed comparison concerns opposing evaluations. Stronger NATO defenses and more confrontation could occur together, so the factual forecasts need separate review. The guest author’s views remain attributed.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected",
+      "confirmation_status": "proposed",
+      "direction_reason": "The passages present conflicting claims or assessments. Neither explicitly rebuts the matching claim in the other report."
+    },
+    {
+      "id": "E14",
+      "source": "global_times",
+      "target": "ft",
+      "topic": "nordic",
+      "relation": "supportive",
+      "color": "green",
+      "source_claim": "GT02",
+      "target_claim": "FT04",
+      "label": "Turkey’s reported decision supports the progress account",
+      "subtype": "specified_partial_support",
+      "reason": "Global Times reports Turkey agreeing to clear the way for Sweden’s membership. That supplies a concrete step supporting the FT’s account of progress in breaking the impasse.",
+      "caveat": "The arrow supplies an event detail relevant to the editorial’s account.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": true,
+      "direction": "source_to_target",
+      "support_scope": "The membership-progress component of FT04.",
+      "direction_reason": "GT02 supplies the specified support for FT04.",
+      "unsupported_parts": "The FT’s positive evaluation or the predicted effects on NATO defenses."
+    },
+    {
+      "id": "E15",
+      "source": "ft",
+      "target": "global_times",
+      "topic": "unity",
+      "source_claim": "FT05",
+      "target_claim": "GT01",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "relation": "supportive",
+      "color": "green",
+      "directed": true,
+      "direction": "source_to_target",
+      "label": "Named disagreements support the account of divisions",
+      "subtype": "specified_partial_support",
+      "reason": "The FT identifies specific disagreements over Ukraine’s membership among the US, Germany and other allies. Those examples support the present-divisions component of the Global Times account.",
+      "support_scope": "Existing policy disagreements within NATO in GT01.",
+      "caveat": "The FT discusses the membership wording. Global Times also discusses other sources of tension.",
+      "direction_reason": "FT05 supplies the specified support for GT01.",
+      "unsupported_parts": "Future serious splits or an inability to resolve the conflict."
+    }
+  ],
+  "excluded": [],
+  "method": {
+    "country_note": "Outlet countries describe origin. Claimant countries describe an office, organization or stated residence, not assumed citizenship.",
+    "claim_type_note": "A fact claim is a checkable statement, not a fact verified by this graph. Opinions, predictions, legal positions and promises are marked separately.",
+    "edge_note": "Green arrows point from a claim supplying a reason, example or reported statement to the specified part of another claim. Grey comparisons have no assigned evidential direction. Solid red connections mark proposed contradictions between specific claims or assessments. An arrow is used for an explicit rebuttal of a matching claim. Repeated reports of the same statement share a source.",
+    "attention_note": "Attention is a qualitative reading of the saved article, with paragraph locators; it is not a measured share of words.",
+    "endorsement_note": "A quoted speaker’s view is separate from the article narrator’s view. No outlet-wide position is inferred from one article.",
+    "annotation_status": "AI-assisted draft; human review pending",
+    "cleaning_note": "Uses saved recovered text. Kyiv Independent later Most Popular / News Feed material is excluded; original paragraph numbers retained. FT wrapped lines are joined into logical paragraphs."
+  }
+}

@@ -1,0 +1,737 @@
+{
+  "schema_version": "1.1",
+  "event": {
+    "id": "borrell_nuclear_response_20221013",
+    "label": "Borrell’s warning about a nuclear attack",
+    "date": "2022-10-13",
+    "description": "Three articles report Josep Borrell’s October 13 warning about the Western response if Russia used nuclear weapons against Ukraine. The graph separates a reported warning from an actual attack or verified military capability.",
+    "default_topic": "response_force",
+    "default_node": "kyivpost",
+    "graph_scope": "whole_event",
+    "multigraph": true
+  },
+  "topics": [
+    {
+      "id": "response_force",
+      "label": "How strong would the response be?",
+      "scope_note": "A conditional threat or prediction is not an attack that has happened or proof of the promised capability."
+    },
+    {
+      "id": "nuclear_limit",
+      "label": "Would the response use nuclear weapons?",
+      "scope_note": "Borrell describes a non-nuclear response. Macron’s separate statement concerns France only, not a promise on behalf of every NATO member."
+    },
+    {
+      "id": "resolve",
+      "label": "How serious is the warning?",
+      "scope_note": "Matching statements of determination belong to Borrell; repeated reporting is not three independent institutional commitments."
+    },
+    {
+      "id": "diplomacy",
+      "label": "Support and possible talks",
+      "scope_note": "A call to seek diplomacy does not cancel a conditional military warning."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "kyivpost",
+      "label": "Kyiv Independent",
+      "short_label": "Kyiv Ind.",
+      "country": "Ukraine",
+      "article": {
+        "id": "a16e0661-55bb-402c-a53e-f189b4127319",
+        "title": "Borrell: ‘Russian army will be annihilated' in case of nuclear attack against Ukraine",
+        "url": "https://kyivindependent.com/borrell-russian-army-will-be-annihilated-in-case-of-nuclear-attack-against-ukraine/",
+        "publication_date": "2022-10-13",
+        "text_sha256": "023a6078f8351746cd2e13d0d174fa1b0c9399dbf3ee5ec71b1be48835bacf40"
+      },
+      "attention": "The short article centers on Borrell’s warning, its non-nuclear nature and his call for unity (P2–5). The final paragraph recalls Putin’s earlier threats; it does not report a nuclear attack.",
+      "claims": [
+        {
+          "id": "KI01",
+          "text": "Borrell warns that a response to a Russian nuclear attack would be strong enough to destroy Russia’s army.",
+          "topics": [
+            "response_force"
+          ],
+          "kind": {
+            "label": "Opinion / prediction",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "prediction",
+          "source_type": "quoted_eu_official",
+          "claimants": [
+            {
+              "name": "Josep Borrell",
+              "role": "EU High Representative for Foreign Affairs and Security Policy",
+              "country": "European Union (multiple countries)",
+              "country_basis": "Country field records the multinational institution he represents; nationality is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Criticizes / opposes",
+            "target": "Russia using nuclear weapons against Ukraine",
+            "note": "A conditional warning by Borrell, not Kyiv Independent promising to use force."
+          },
+          "attention": "The short article centers on Borrell’s warning, its non-nuclear nature and his call for unity (P2–5). The final paragraph recalls Putin’s earlier threats; it does not report a nuclear attack. (Paragraphs 4.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Borrell’s October 13, 2022 statement; hypothetical Russian nuclear use against Ukraine, not an attack that has occurred.",
+          "evidence": {
+            "quote": "\"Any nuclear attack against Ukraine will create an answer, not a nuclear…",
+            "paragraphs": [
+              4
+            ],
+            "language": "en",
+            "paraphrase": "Borrell warns that a response to a Russian nuclear attack would be strong enough to destroy Russia’s army.",
+            "supporting_sentence": "\"Any nuclear attack against Ukraine will create an answer, not a nuclear answer but such a powerful answer from the military side that the Russian Army will be annihilated, and Putin should not be bluffing,\" Borrell said.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "The graph does not verify military capability or a separately agreed EU/US/NATO plan.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "KI02",
+          "text": "Borrell says that response would not use nuclear weapons.",
+          "topics": [
+            "nuclear_limit"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_eu_official",
+          "claimants": [
+            {
+              "name": "Josep Borrell",
+              "role": "EU High Representative for Foreign Affairs and Security Policy",
+              "country": "European Union (multiple countries)",
+              "country_basis": "Country field records the multinational institution he represents; nationality is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "A non-nuclear response to Russian nuclear use",
+            "note": ""
+          },
+          "attention": "The short article centers on Borrell’s warning, its non-nuclear nature and his call for unity (P2–5). The final paragraph recalls Putin’s earlier threats; it does not report a nuclear attack. (Paragraphs 3.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Borrell’s October 13, 2022 statement; hypothetical Russian nuclear use against Ukraine, not an attack that has occurred.",
+          "evidence": {
+            "quote": "Borrell added that it would not be “a nuclear answer” but still…",
+            "paragraphs": [
+              3
+            ],
+            "language": "en",
+            "paraphrase": "Borrell says that response would not use nuclear weapons.",
+            "supporting_sentence": "Borrell added that it would not be “a nuclear answer” but still a “powerful” one.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "Borrell describes the response; each Western government is not separately quoted agreeing.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "KI03",
+          "text": "Borrell says Ukraine’s Western supporters are not bluffing about their response.",
+          "topics": [
+            "resolve"
+          ],
+          "kind": {
+            "label": "Opinion / assessment",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "assessment",
+          "source_type": "quoted_eu_official",
+          "claimants": [
+            {
+              "name": "Josep Borrell",
+              "role": "EU High Representative for Foreign Affairs and Security Policy",
+              "country": "European Union (multiple countries)",
+              "country_basis": "Country field records the multinational institution he represents; nationality is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Taking the conditional Western warning seriously",
+            "note": ""
+          },
+          "attention": "The short article centers on Borrell’s warning, its non-nuclear nature and his call for unity (P2–5). The final paragraph recalls Putin’s earlier threats; it does not report a nuclear attack. (Paragraphs 2.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Borrell’s October 13, 2022 statement; hypothetical Russian nuclear use against Ukraine, not an attack that has occurred.",
+          "evidence": {
+            "quote": "EU foreign affairs chief Josep Borrell said on Oct. 13 that the…",
+            "paragraphs": [
+              2
+            ],
+            "language": "en",
+            "paraphrase": "Borrell says Ukraine’s Western supporters are not bluffing about their response.",
+            "supporting_sentence": "EU foreign affairs chief Josep Borrell said on Oct. 13 that the people supporting Ukraine, the EU, its member states, the U.S., and NATO are “not bluffing” when speaking about the response in case Russia uses nuclear weapons against Ukraine.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "censor",
+      "label": "Censor.NET",
+      "short_label": "Censor.NET",
+      "country": "Ukraine",
+      "article": {
+        "id": "138f5292-cde6-45ae-a422-78d34ea84919",
+        "title": "Russian army will be destroyed in response to nuclear attack against Ukraine, - Borrell",
+        "url": "https://censor.net/en/news/3373564/russian_army_will_be_destroyed_in_response_to_nuclear_attack_against_ukraine_borrell",
+        "publication_date": "2022-10-13",
+        "text_sha256": "5ba6076ba5eb9191f4e85c56f275d4d4f7b8992d254247614bd9f98c8bdc3b99"
+      },
+      "attention": "The lead and central quote stress Borrell’s warning (P1–3); the final two paragraphs discuss how the war changes Europe and the need for resolve (P4–5).",
+      "claims": [
+        {
+          "id": "C01",
+          "text": "Borrell warns that Western forces could destroy Russia’s army if Russia attacked Ukraine with nuclear weapons.",
+          "topics": [
+            "response_force"
+          ],
+          "kind": {
+            "label": "Opinion / prediction",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "prediction",
+          "source_type": "quoted_eu_official",
+          "claimants": [
+            {
+              "name": "Josep Borrell",
+              "role": "EU High Representative for Foreign Affairs and Security Policy",
+              "country": "European Union (multiple countries)",
+              "country_basis": "Country field records the multinational institution he represents; nationality is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Criticizes / opposes",
+            "target": "Russia using nuclear weapons against Ukraine",
+            "note": ""
+          },
+          "attention": "The lead and central quote stress Borrell’s warning (P1–3); the final two paragraphs discuss how the war changes Europe and the need for resolve (P4–5). (Paragraphs 1, 2, 3.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Borrell’s October 13, 2022 statement; hypothetical Russian nuclear use against Ukraine, not an attack that has occurred.",
+          "evidence": {
+            "quote": "Putin is probably not bluffing when he talks about his nuclear threats…",
+            "paragraphs": [
+              1,
+              2,
+              3
+            ],
+            "language": "en",
+            "paraphrase": "Borrell warns that Western forces could destroy Russia’s army if Russia attacked Ukraine with nuclear weapons.",
+            "supporting_sentence": "Putin is probably not bluffing when he talks about his nuclear threats against Ukraine, but neither is the west bluffing when he says that the Russian military will be annihilated by non-nuclear means in the event of any Russian nuclear attack against Ukraine.\nAs reported by Censor.NET with reference to Ukrinform, EU High Representative Josep Borrell stated this.\n\"Now there is a nuclear threat, and Putin says he's not bluffing. Well, he can't afford to bluff. And it should be clear that the people who support Ukraine, the European Union and its member states, the United States and NATO - they are also not bluffing. Any attack against Ukraine will find its response, not a nuclear response, but such a powerful one that, from a military point of view, the Russian army will be annihilated (destroyed. - Ed.), and Putin will not need to bluff\", - he said.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "The P3 English quote says \"Any attack\"; P1 and the surrounding nuclear discussion supply the nuclear condition. Do not broaden this into a threat after every conventional attack.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "C02",
+          "text": "Borrell says the promised response would not use nuclear weapons.",
+          "topics": [
+            "nuclear_limit"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_eu_official",
+          "claimants": [
+            {
+              "name": "Josep Borrell",
+              "role": "EU High Representative for Foreign Affairs and Security Policy",
+              "country": "European Union (multiple countries)",
+              "country_basis": "Country field records the multinational institution he represents; nationality is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "A non-nuclear response to Russian nuclear use",
+            "note": ""
+          },
+          "attention": "The lead and central quote stress Borrell’s warning (P1–3); the final two paragraphs discuss how the war changes Europe and the need for resolve (P4–5). (Paragraphs 3.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Borrell’s October 13, 2022 statement; hypothetical Russian nuclear use against Ukraine, not an attack that has occurred.",
+          "evidence": {
+            "quote": "\"Now there is a nuclear threat, and Putin says he's not bluffing.…",
+            "paragraphs": [
+              3
+            ],
+            "language": "en",
+            "paraphrase": "Borrell says the promised response would not use nuclear weapons.",
+            "supporting_sentence": "\"Now there is a nuclear threat, and Putin says he's not bluffing. Well, he can't afford to bluff. And it should be clear that the people who support Ukraine, the European Union and its member states, the United States and NATO - they are also not bluffing. Any attack against Ukraine will find its response, not a nuclear response, but such a powerful one that, from a military point of view, the Russian army will be annihilated (destroyed. - Ed.), and Putin will not need to bluff\", - he said.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "P3’s quote is read in the nuclear-attack context set by P1. It is a reported statement, not proof that a response would occur.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "C03",
+          "text": "Borrell says the EU, US and NATO are serious about the warning.",
+          "topics": [
+            "resolve"
+          ],
+          "kind": {
+            "label": "Opinion / assessment",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "assessment",
+          "source_type": "quoted_eu_official",
+          "claimants": [
+            {
+              "name": "Josep Borrell",
+              "role": "EU High Representative for Foreign Affairs and Security Policy",
+              "country": "European Union (multiple countries)",
+              "country_basis": "Country field records the multinational institution he represents; nationality is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Taking the conditional Western warning seriously",
+            "note": ""
+          },
+          "attention": "The lead and central quote stress Borrell’s warning (P1–3); the final two paragraphs discuss how the war changes Europe and the need for resolve (P4–5). (Paragraphs 3.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Borrell’s October 13, 2022 statement; hypothetical Russian nuclear use against Ukraine, not an attack that has occurred.",
+          "evidence": {
+            "quote": "\"Now there is a nuclear threat, and Putin says he's not bluffing.…",
+            "paragraphs": [
+              3
+            ],
+            "language": "en",
+            "paraphrase": "Borrell says the EU, US and NATO are serious about the warning.",
+            "supporting_sentence": "\"Now there is a nuclear threat, and Putin says he's not bluffing. Well, he can't afford to bluff. And it should be clear that the people who support Ukraine, the European Union and its member states, the United States and NATO - they are also not bluffing. Any attack against Ukraine will find its response, not a nuclear response, but such a powerful one that, from a military point of view, the Russian army will be annihilated (destroyed. - Ed.), and Putin will not need to bluff\", - he said.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "izvestia",
+      "label": "Izvestia",
+      "short_label": "Izvestia",
+      "country": "Russia",
+      "article": {
+        "id": "a0a361a7-c230-4787-b30f-ab2ceca6aba7",
+        "title": "Боррель пообещал мощный ответ на возможное применение ядерного оружия на Украине",
+        "url": "https://iz.ru/1409574/2022-10-13/borrel-poobeshchal-moshchnyi-otvet-na-vozmozhnoe-primenenie-iadernogo-oruzhiia-na-ukraine",
+        "publication_date": "2022-10-13",
+        "text_sha256": "6a1be2832ed8e408c992ce5fe944ba27dbe0e06ab7d9475807c2c12578aab1b8"
+      },
+      "attention": "The opening three paragraphs report Borrell’s warning. Later paragraphs add his call for talks, Macron’s separate position and Russian background claims (P4–8). P9 is a promotional line, not evidence.",
+      "claims": [
+        {
+          "id": "I01",
+          "text": "Borrell warns of a strong military response if Russia uses nuclear weapons against Ukraine.",
+          "topics": [
+            "response_force"
+          ],
+          "kind": {
+            "label": "Opinion / prediction",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "prediction",
+          "source_type": "quoted_eu_official",
+          "claimants": [
+            {
+              "name": "Josep Borrell",
+              "role": "EU High Representative for Foreign Affairs and Security Policy",
+              "country": "European Union (multiple countries)",
+              "country_basis": "Country field records the multinational institution he represents; nationality is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Criticizes / opposes",
+            "target": "Russia using nuclear weapons against Ukraine",
+            "note": ""
+          },
+          "attention": "The opening three paragraphs report Borrell’s warning. Later paragraphs add his call for talks, Macron’s separate position and Russian background claims (P4–8). P9 is a promotional line, not evidence. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Borrell’s October 13, 2022 statement; hypothetical Russian nuclear use against Ukraine, not an attack that has occurred.",
+          "evidence": {
+            "quote": "Глава евродипломатии Жозеп Боррель пообещал, что Запад даст мощный военный ответ в…",
+            "paragraphs": [
+              1
+            ],
+            "language": "ru",
+            "paraphrase": "Borrell warns of a strong military response if Russia uses nuclear weapons against Ukraine.",
+            "supporting_sentence": "Глава евродипломатии Жозеп Боррель пообещал, что Запад даст мощный военный ответ в том случае, если Россия применит ядерное оружие против Украины. Об этом он заявил 13 октября в ходе выступления на открытии Европейской дипломатической академии в Брюгге.",
+            "english_translation": "EU foreign-policy chief Josep Borrell promised that the West would give a powerful military response if Russia used nuclear weapons against Ukraine. He said this on October 13 while opening the European Diplomatic Academy in Bruges.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "I02",
+          "text": "Borrell says the response would not be nuclear but would be strong enough to destroy Russia’s army.",
+          "topics": [
+            "response_force",
+            "nuclear_limit"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_eu_official",
+          "claimants": [
+            {
+              "name": "Josep Borrell",
+              "role": "EU High Representative for Foreign Affairs and Security Policy",
+              "country": "European Union (multiple countries)",
+              "country_basis": "Country field records the multinational institution he represents; nationality is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "A strong non-nuclear response to Russian nuclear use",
+            "note": ""
+          },
+          "attention": "The opening three paragraphs report Borrell’s warning. Later paragraphs add his call for talks, Macron’s separate position and Russian background claims (P4–8). P9 is a promotional line, not evidence. (Paragraphs 2.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Borrell’s October 13, 2022 statement; hypothetical Russian nuclear use against Ukraine, not an attack that has occurred.",
+          "evidence": {
+            "quote": "«Ядерное нападение на Украину вызовет ответ ЕС, США и НАТО. Он не…",
+            "paragraphs": [
+              2
+            ],
+            "language": "ru",
+            "paraphrase": "Borrell says the response would not be nuclear but would be strong enough to destroy Russia’s army.",
+            "supporting_sentence": "«Ядерное нападение на Украину вызовет ответ ЕС, США и НАТО. Он не будет ядерным, но его мощь с военной точки зрения будет велика», — отметил он, добавив, что масштабы этого ответа приведут к уничтожению армии РФ.",
+            "english_translation": "“A nuclear attack on Ukraine will bring a response from the EU, US and NATO. It will not be nuclear, but its military power will be great,” he noted, adding that the scale of the response would lead to the destruction of Russia’s army.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "This is Borrell’s reported warning, not an independently verified outcome or a new Izvestia policy position.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "I03",
+          "text": "Borrell says European countries are not bluffing when they warn about nuclear use.",
+          "topics": [
+            "resolve"
+          ],
+          "kind": {
+            "label": "Opinion / assessment",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "assessment",
+          "source_type": "quoted_eu_official",
+          "claimants": [
+            {
+              "name": "Josep Borrell",
+              "role": "EU High Representative for Foreign Affairs and Security Policy",
+              "country": "European Union (multiple countries)",
+              "country_basis": "Country field records the multinational institution he represents; nationality is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Taking the conditional Western warning seriously",
+            "note": ""
+          },
+          "attention": "The opening three paragraphs report Borrell’s warning. Later paragraphs add his call for talks, Macron’s separate position and Russian background claims (P4–8). P9 is a promotional line, not evidence. (Paragraphs 3.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Borrell’s October 13, 2022 statement; hypothetical Russian nuclear use against Ukraine, not an attack that has occurred.",
+          "evidence": {
+            "quote": "Боррель также упомянул о заявлении президента РФ Владимира Путина, в котором тот…",
+            "paragraphs": [
+              3
+            ],
+            "language": "ru",
+            "paraphrase": "Borrell says European countries are not bluffing when they warn about nuclear use.",
+            "supporting_sentence": "Боррель также упомянул о заявлении президента РФ Владимира Путина, в котором тот отметил, что Россия будет защищать свою территорию всеми доступными средствами и «это не блеф». Глава европейской дипломатии подчеркнул, что страны Европы также не блефуют, предупреждая о последствиях за использование ядерного оружия на Украине.",
+            "english_translation": "Borrell also mentioned Putin’s statement that Russia would defend its territory by all available means and that “this is not a bluff.” The EU foreign-policy chief stressed that European countries are also not bluffing when warning about consequences for nuclear use in Ukraine.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "I04",
+          "text": "Macron says France would not answer a Russian nuclear attack on Ukraine with nuclear weapons.",
+          "topics": [
+            "nuclear_limit"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "reported_french_official",
+          "claimants": [
+            {
+              "name": "Emmanuel Macron",
+              "role": "President of France",
+              "country": "France",
+              "country_basis": "Explicit official state role."
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Criticizes / opposes",
+            "target": "French nuclear use in response to a Russian nuclear strike on Ukraine",
+            "note": ""
+          },
+          "attention": "The opening three paragraphs report Borrell’s warning. Later paragraphs add his call for talks, Macron’s separate position and Russian background claims (P4–8). P9 is a promotional line, not evidence. (Paragraphs 6.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Macron’s separately reported October 13 statement; France’s response to hypothetical Russian nuclear use in Ukraine.",
+          "evidence": {
+            "quote": "Ранее 13 октября президент Франции Эммануэль Макрон заявил о том, что Франция…",
+            "paragraphs": [
+              6
+            ],
+            "language": "ru",
+            "paraphrase": "Macron says France would not answer a Russian nuclear attack on Ukraine with nuclear weapons.",
+            "supporting_sentence": "Ранее 13 октября президент Франции Эммануэль Макрон заявил о том, что Франция не будет применять ядерное оружие против России, в случае если та нанесет ядерный удар по Украине, доктрина страны не включает подобные атаки.",
+            "english_translation": "Earlier on October 13, French President Emmanuel Macron said France would not use nuclear weapons against Russia if Russia carried out a nuclear strike on Ukraine; France’s doctrine does not cover such attacks.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "A national position about France; not a promise that all Western responses would be non-nuclear.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "I05",
+          "text": "Borrell says support for Ukraine and a search for possible talks should continue.",
+          "topics": [
+            "diplomacy"
+          ],
+          "kind": {
+            "label": "Opinion / judgement",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "opinion",
+          "source_type": "quoted_eu_official",
+          "claimants": [
+            {
+              "name": "Josep Borrell",
+              "role": "EU High Representative for Foreign Affairs and Security Policy",
+              "country": "European Union (multiple countries)",
+              "country_basis": "Country field records the multinational institution he represents; nationality is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Continued support and efforts to find diplomatic options",
+            "note": ""
+          },
+          "attention": "The opening three paragraphs report Borrell’s warning. Later paragraphs add his call for talks, Macron’s separate position and Russian background claims (P4–8). P9 is a promotional line, not evidence. (Paragraphs 5.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Borrell’s October 13 speech about the ongoing war; a broader call for support and diplomatic options, not conditional on a nuclear strike.",
+          "evidence": {
+            "quote": "«Необходимо продолжать оказывать поддержку и искать дипломатические пути (урегулирования конфликта). Пока что…",
+            "paragraphs": [
+              5
+            ],
+            "language": "ru",
+            "paraphrase": "Borrell says support for Ukraine and a search for possible talks should continue.",
+            "supporting_sentence": "«Необходимо продолжать оказывать поддержку и искать дипломатические пути (урегулирования конфликта). Пока что таковые отсутствуют», — отметил Боррель.",
+            "english_translation": "“It is necessary to continue providing support and seek diplomatic ways [to settle the conflict]. At present there are none,” Borrell noted.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": true,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "E01",
+      "source": "kyivpost",
+      "target": "censor",
+      "topic": "response_force",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "KI01",
+      "target_claim": "C01",
+      "label": "Same conditional warning",
+      "subtype": "repeated_source_position",
+      "reason": "Both report Borrell warning of a response strong enough to destroy Russia’s army after Russian nuclear use. These reports rely on the same original statement.",
+      "caveat": "Both reports repeat Borrell’s warning. Their shared source provides no separate evidence about military capability or a future response.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E02",
+      "source": "kyivpost",
+      "target": "izvestia",
+      "topic": "response_force",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "KI01",
+      "target_claim": "I02",
+      "label": "Same warning, different language",
+      "subtype": "repeated_source_position",
+      "reason": "Both carry Borrell’s claim about the power of a future response; Izvestia reports it in Russian. These reports rely on the same original statement.",
+      "caveat": "Both reports repeat Borrell’s warning. Their shared source provides no separate evidence about military capability or a future response.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E03",
+      "source": "kyivpost",
+      "target": "censor",
+      "topic": "nuclear_limit",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "KI02",
+      "target_claim": "C02",
+      "label": "Same non-nuclear limit",
+      "subtype": "repeated_source_position",
+      "reason": "Both report Borrell specifying that the response would not use nuclear weapons. These reports rely on the same original statement.",
+      "caveat": "Both reports repeat Borrell’s warning. Their shared source provides no separate evidence about military capability or a future response.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E04",
+      "source": "censor",
+      "target": "izvestia",
+      "topic": "nuclear_limit",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "C02",
+      "target_claim": "I02",
+      "label": "Same stated limit",
+      "subtype": "repeated_source_position",
+      "reason": "The articles agree on what Borrell says about non-nuclear means. These reports rely on the same original statement.",
+      "caveat": "Both reports repeat Borrell’s warning. Their shared source provides no separate evidence about military capability or a future response.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E05",
+      "source": "kyivpost",
+      "target": "izvestia",
+      "topic": "resolve",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "KI03",
+      "target_claim": "I03",
+      "label": "Same message of resolve",
+      "subtype": "repeated_source_position",
+      "reason": "Both attribute the statement that Western supporters are not bluffing to Borrell. These reports rely on the same original statement.",
+      "caveat": "Both reports repeat Borrell’s warning. Their shared source provides no separate evidence about military capability or a future response.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E06",
+      "source": "censor",
+      "target": "kyivpost",
+      "topic": "resolve",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "C03",
+      "target_claim": "KI03",
+      "label": "Same speaker, same message",
+      "subtype": "repeated_source_position",
+      "reason": "Censor and Kyiv Independent repeat Borrell’s message that the warning is serious. These reports rely on the same original statement.",
+      "caveat": "Both reports repeat Borrell’s warning. Their shared source provides no separate evidence about military capability or a future response.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E07",
+      "source": "izvestia",
+      "target": "kyivpost",
+      "topic": "nuclear_limit",
+      "relation": "supportive",
+      "color": "green",
+      "source_claim": "I04",
+      "target_claim": "KI02",
+      "label": "France’s stated policy supports a limited part of the warning",
+      "subtype": "specified_partial_support",
+      "reason": "Izvestia quotes Macron saying France would use no nuclear response to a Russian nuclear attack on Ukraine. That supplies one national policy position compatible with the non-nuclear response Borrell describes.",
+      "caveat": "Macron speaks for France. This is limited support from a national position within Borrell’s wider institutional description.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": true,
+      "direction": "source_to_target",
+      "support_scope": "The French component of the broader Western non-nuclear response in KI02.",
+      "direction_reason": "I04 supplies the specified support for KI02.",
+      "unsupported_parts": "The position of every EU or NATO member or the action any state would actually take."
+    }
+  ],
+  "excluded": [
+    {
+      "source": "cnn",
+      "outlet": "CNN",
+      "reason": "Explains attack drones and Ukraine’s air-defense needs, not Borrell’s October 13 nuclear-response warning."
+    },
+    {
+      "source": "europeanpravda",
+      "outlet": "European Pravda",
+      "reason": "Zelensky’s rejection of diplomacy with Russia is a separate statement, not this warning."
+    },
+    {
+      "source": "tass",
+      "outlet": "TASS",
+      "reason": "A Russian official discusses Ukraine joining NATO and a risk of world war; a separate trigger and proposition."
+    },
+    {
+      "source": "sputnik",
+      "outlet": "Sputnik",
+      "reason": "Reports an annual NATO nuclear exercise, explicitly described as unrelated to current events; not the response Borrell threatens."
+    },
+    {
+      "source": "china_daily",
+      "outlet": "China Daily",
+      "reason": "China’s UN representative discusses peace talks and a UN vote; not Borrell’s warning."
+    },
+    {
+      "source": "global_times",
+      "outlet": "Global Times",
+      "reason": "Analyzes NATO exercises and nuclear rhetoric generally; not the specific Borrell statement selected here."
+    }
+  ],
+  "method": {
+    "country_note": "Outlet countries describe origin. Claimant countries describe an office, organization or stated residence, not assumed citizenship.",
+    "claim_type_note": "A fact claim is a checkable statement, not a fact verified by this graph. Opinions, predictions, legal positions and promises are marked separately.",
+    "edge_note": "Green arrows point from a claim supplying a reason, example or reported statement to the specified part of another claim. Grey comparisons have no assigned evidential direction. Solid red connections mark proposed contradictions between specific claims or assessments. An arrow is used for an explicit rebuttal of a matching claim. Repeated reports of the same statement share a source.",
+    "attention_note": "Attention is a qualitative reading of the saved article, with paragraph locators; it is not a measured share of words.",
+    "endorsement_note": "A quoted speaker’s view is separate from the article narrator’s view. No outlet-wide position is inferred from one article.",
+    "annotation_status": "AI-assisted draft; human review pending",
+    "cleaning_note": "Uses saved recovered text. Kyiv Independent later Most Popular / News Feed material is excluded; original paragraph numbers retained. FT wrapped lines are joined into logical paragraphs."
+  }
+}

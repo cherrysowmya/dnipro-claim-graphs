@@ -1,0 +1,1633 @@
+{
+  "schema_version": "1.1",
+  "event": {
+    "id": "f16_coalition_20230519",
+    "label": "F-16 training and possible aircraft supplies",
+    "date": "2023-05-19",
+    "description": "G7 talks and the new US support for training Ukrainian pilots. Training, permission for allies to send jets and actual aircraft deliveries are separate decisions.",
+    "default_topic": "training",
+    "default_node": "cnn",
+    "graph_scope": "whole_event",
+    "multigraph": true
+  },
+  "topics": [
+    {
+      "id": "training",
+      "label": "Support for pilot training",
+      "scope_note": "Compare training commitments, not promises that aircraft have already arrived."
+    },
+    {
+      "id": "approval",
+      "label": "Permission for allies to send jets",
+      "scope_note": "US permission for other countries to send US-built jets differs from the US supplying its own aircraft."
+    },
+    {
+      "id": "delivery",
+      "label": "Which jets, when and from whom?",
+      "scope_note": "Plans and unresolved questions are not completed deliveries."
+    },
+    {
+      "id": "duration",
+      "label": "How long might training take?",
+      "scope_note": "Keep older estimates, different training stages and simulator assessments separate."
+    },
+    {
+      "id": "usefulness",
+      "label": "Expected military value",
+      "scope_note": "A hope that aircraft help and doubts about effectiveness are assessments, not measured outcomes."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "cnn",
+      "label": "CNN",
+      "short_label": "CNN",
+      "country": "United States",
+      "article": {
+        "id": "3b5d35c5-ada3-4917-8ab1-1b4854418d2f",
+        "title": "Biden tells G7 allies the US will support joint F-16 training effort for Ukrainians",
+        "url": "https://www.cnn.com/2023/05/19/politics/biden-g7-f-16-ukraine/index.html",
+        "publication_date": "2023-05-19",
+        "text_sha256": "0c33b72da2b25ede7ca184e7dc996218886dba73bb53c33de0093c92b69278e9"
+      },
+      "attention": "The report leads with Biden’s support for training, then discusses where it may happen, undecided aircraft supplies and Ukraine’s response.",
+      "claims": [
+        {
+          "id": "CNN01",
+          "text": "A US official said Biden backed joint training of Ukrainian pilots on F-16 fighter jets.",
+          "topics": [
+            "training"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Unnamed senior US administration official",
+              "role": "US government official quoted by CNN",
+              "country": "United States",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Allied training of Ukrainian pilots on F-16s",
+            "note": ""
+          },
+          "attention": "The report leads with Biden’s support for training, then discusses where it may happen, undecided aircraft supplies and Ukraine’s response. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-05-19 reporting; F-16 training and possible aircraft supplies. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "President Joe Biden informed G7 leaders on Friday that the US will…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "A US official said Biden backed joint training of Ukrainian pilots on F-16 fighter jets.",
+            "supporting_sentence": "President Joe Biden informed G7 leaders on Friday that the US will support a joint effort with allies and partners to train Ukrainian pilots on fourth generation aircraft, including F-16s, a senior administration official tells CNN.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CNN02",
+          "text": "The official expected training in Europe, with US staff taking part.",
+          "topics": [
+            "training"
+          ],
+          "kind": {
+            "label": "Opinion / prediction",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "prediction",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Unnamed senior US administration official",
+              "role": "US government official quoted by CNN",
+              "country": "United States",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "The official expected training in Europe, with US staff taking part.",
+            "note": ""
+          },
+          "attention": "The report leads with Biden’s support for training, then discusses where it may happen, undecided aircraft supplies and Ukraine’s response. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-05-19 reporting; F-16 training and possible aircraft supplies. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "The training is not expected to happen in the US, the official…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "The official expected training in Europe, with US staff taking part.",
+            "supporting_sentence": "The training is not expected to happen in the US, the official said, and will likely happen entirely in Europe.\nBut US personnel will participate in the training alongside allies and partners in Europe, the official said.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CNN03",
+          "text": "The official said countries had not yet decided when to send jets, how many or who would supply them.",
+          "topics": [
+            "delivery"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Unnamed senior US administration official",
+              "role": "US government official quoted by CNN",
+              "country": "United States",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "The official said countries had not yet decided when to send jets, how many or who would supply them.",
+            "note": ""
+          },
+          "attention": "The report leads with Biden’s support for training, then discusses where it may happen, undecided aircraft supplies and Ukraine’s response. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-05-19 reporting; F-16 training and possible aircraft supplies. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "“As the training takes place over the coming months, our coalition of…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "The official said countries had not yet decided when to send jets, how many or who would supply them.",
+            "supporting_sentence": "“As the training takes place over the coming months, our coalition of countries participating in this effort will decide when to actually provide jets, how many we will provide, and who will provide them,” the official said.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CNN04",
+          "text": "The official expected training to take several months and hoped it would start within weeks.",
+          "topics": [
+            "duration"
+          ],
+          "kind": {
+            "label": "Opinion / prediction",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "prediction",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Unnamed senior US administration official",
+              "role": "US government official quoted by CNN",
+              "country": "United States",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "The official expected training to take several months and hoped it would start within weeks.",
+            "note": ""
+          },
+          "attention": "The report leads with Biden’s support for training, then discusses where it may happen, undecided aircraft supplies and Ukraine’s response. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-05-19 reporting; F-16 training and possible aircraft supplies. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "It is expected to take several months to complete and the official…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "The official expected training to take several months and hoped it would start within weeks.",
+            "supporting_sentence": "It is expected to take several months to complete and the official said the hope is it will begin “in the coming weeks.”",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CNN05",
+          "text": "Zelensky welcomed the training decision and said it would strengthen Ukraine’s air force.",
+          "topics": [
+            "usefulness"
+          ],
+          "kind": {
+            "label": "Opinion / assessment",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "assessment",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Volodymyr Zelensky",
+              "role": "President of Ukraine",
+              "country": "Ukraine",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "The international fighter-jet training effort",
+            "note": ""
+          },
+          "attention": "The report leads with Biden’s support for training, then discusses where it may happen, undecided aircraft supplies and Ukraine’s response. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-05-19 reporting; F-16 training and possible aircraft supplies. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "Ukrainian President Volodymyr Zelensky, who is on his way to the G7…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Zelensky welcomed the training decision and said it would strengthen Ukraine’s air force.",
+            "supporting_sentence": "Ukrainian President Volodymyr Zelensky, who is on his way to the G7 meeting, tweeted to say he welcomed “the historic decision of the United States and @POTUS to support an international fighter jet coalition.”\n“This will greatly enhance our army in the sky. I count on discussing the practical implementation of this decision at the #G7 summit in Hiroshima,” Zelensky added.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CNN06",
+          "text": "CNN’s sources said the US would let European allies send F-16s to Ukraine.",
+          "topics": [
+            "approval"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Sources familiar with US discussions",
+              "role": "Unnamed sources cited by CNN; exact jobs not supplied",
+              "country": "Unknown",
+              "country_basis": "The discussions concern US policy, but the sources’ offices and citizenship are not established."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "CNN’s sources said the US would let European allies send F-16s to Ukraine.",
+            "note": ""
+          },
+          "attention": "The report leads with Biden’s support for training, then discusses where it may happen, undecided aircraft supplies and Ukraine’s response. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-05-19 reporting; F-16 training and possible aircraft supplies. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "CNN reported on Thursday that the Biden administration has signaled to European…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "CNN’s sources said the US would let European allies send F-16s to Ukraine.",
+            "supporting_sentence": "CNN reported on Thursday that the Biden administration has signaled to European allies in recent weeks that the US would allow them to export F-16 fighter jets to Ukraine, sources familiar with the discussions said, as the White House comes under increasing pressure from members of Congress and allies to help Ukraine procure the planes amid intensifying Russian aerial attacks.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "kyivpost",
+      "label": "Kyiv Independent",
+      "short_label": "Kyiv Ind.",
+      "country": "Ukraine",
+      "article": {
+        "id": "6d46541e-8e8f-4591-9bb3-94c56c86bdbc",
+        "title": "CNN: US to support F-16 training initiative for Ukrainian pilots",
+        "url": "https://kyivindependent.com/cnn-us-to-support-f-16-training-initiative-for-ukrainian-pilots/",
+        "publication_date": "2023-05-19",
+        "text_sha256": "244d458436486b30e40ec9756db8c3008976be65b0ef33d42a1a1fd6256657c4"
+      },
+      "attention": "The brief repeats CNN’s training report and adds British/Dutch confirmation, while noting no formal White House announcement.",
+      "claims": [
+        {
+          "id": "KI01",
+          "text": "Kyiv Independent repeats CNN’s report that the US would support F-16 pilot training.",
+          "topics": [
+            "training"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "CNN_report_repeated_by_Kyiv_Independent",
+          "claimants": [
+            {
+              "name": "Unnamed senior US administration official",
+              "role": "US government official quoted by CNN",
+              "country": "United States",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Kyiv Independent repeats CNN’s report that the US would support F-16 pilot training.",
+            "note": ""
+          },
+          "attention": "The brief repeats CNN’s training report and adds British/Dutch confirmation, while noting no formal White House announcement. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-05-19 reporting; F-16 training and possible aircraft supplies. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "U.S. will support a joint allies' initiative to train Ukrainian pilots on…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Kyiv Independent repeats CNN’s report that the US would support F-16 pilot training.",
+            "supporting_sentence": "U.S. will support a joint allies' initiative to train Ukrainian pilots on modern fighter jets, including F-16s, CNN reported, citing a senior U.S. official.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "KI02",
+          "text": "The report says training would probably be in Europe, with US staff taking part.",
+          "topics": [
+            "training"
+          ],
+          "kind": {
+            "label": "Opinion / prediction",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "prediction",
+          "source_type": "CNN_report_repeated_by_Kyiv_Independent",
+          "claimants": [
+            {
+              "name": "Unnamed senior US administration official",
+              "role": "US government official quoted by CNN",
+              "country": "United States",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "The report says training would probably be in Europe, with US staff taking part.",
+            "note": ""
+          },
+          "attention": "The brief repeats CNN’s training report and adds British/Dutch confirmation, while noting no formal White House announcement. (Paragraphs 3.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-05-19 reporting; F-16 training and possible aircraft supplies. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "The training will most likely take place entirely in Europe, CNN wrote,…",
+            "paragraphs": [
+              3
+            ],
+            "language": "en",
+            "paraphrase": "The report says training would probably be in Europe, with US staff taking part.",
+            "supporting_sentence": "The training will most likely take place entirely in Europe, CNN wrote, but American personnel will participate in it alongside European partners.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "KI03",
+          "text": "The US official said decisions about supplying actual aircraft would come later.",
+          "topics": [
+            "delivery"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "CNN_report_repeated_by_Kyiv_Independent",
+          "claimants": [
+            {
+              "name": "Unnamed senior US administration official",
+              "role": "US government official quoted by CNN",
+              "country": "United States",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "The US official said decisions about supplying actual aircraft would come later.",
+            "note": ""
+          },
+          "attention": "The brief repeats CNN’s training report and adds British/Dutch confirmation, while noting no formal White House announcement. (Paragraphs 4.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-05-19 reporting; F-16 training and possible aircraft supplies. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "\"As the training takes place over the coming months, our coalition of…",
+            "paragraphs": [
+              4
+            ],
+            "language": "en",
+            "paraphrase": "The US official said decisions about supplying actual aircraft would come later.",
+            "supporting_sentence": "\"As the training takes place over the coming months, our coalition of countries participating in this effort will decide when to actually provide jets, how many we will provide, and who will provide them,\" the official told the media outlet.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "KI04",
+          "text": "British and Dutch prime ministers confirmed US involvement in the pilot-training effort.",
+          "topics": [
+            "training"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "reported_government_confirmation",
+          "claimants": [
+            {
+              "name": "UK and Netherlands prime ministers",
+              "role": "Rishi Sunak and Mark Rutte, as identified in the article",
+              "country": "United Kingdom; Netherlands",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "British and Dutch prime ministers confirmed US involvement in the pilot-training effort.",
+            "note": ""
+          },
+          "attention": "The brief repeats CNN’s training report and adds British/Dutch confirmation, while noting no formal White House announcement. (Paragraphs 7.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-05-19 reporting; F-16 training and possible aircraft supplies. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "The prime ministers of the U.K. and the Netherlands confirmed Washington's participation…",
+            "paragraphs": [
+              7
+            ],
+            "language": "en",
+            "paraphrase": "British and Dutch prime ministers confirmed US involvement in the pilot-training effort.",
+            "supporting_sentence": "The prime ministers of the U.K. and the Netherlands confirmed Washington's participation in the joint effort to train Ukrainian pilots.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "europeanpravda",
+      "label": "European Pravda",
+      "short_label": "E. Pravda",
+      "country": "Ukraine",
+      "article": {
+        "id": "34dda084-7791-471b-b7bb-85c61a698258",
+        "title": "Supply of F-16 Fighter Jets for Ukraine to Be Discussed at G7 Summit – European Council President",
+        "url": "https://www.eurointegration.com.ua/eng/news/2023/05/19/7162016/",
+        "publication_date": "2023-05-19",
+        "text_sha256": "192ebde2eec2ede2dbe2cc4bdb8edbd11cbdef9ed81bf51e7ea9b8565b621722"
+      },
+      "attention": "The short article focuses on G7 discussion of possible aircraft transfers, with earlier reports about permission and training time.",
+      "claims": [
+        {
+          "id": "EP01",
+          "text": "European Council President Michel said G7 leaders would discuss military help for Ukraine, including F-16s.",
+          "topics": [
+            "delivery"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Charles Michel",
+              "role": "President of the European Council",
+              "country": "European Union (multiple countries)",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "European Council President Michel said G7 leaders would discuss military help for Ukraine, including F-16s.",
+            "note": ""
+          },
+          "attention": "The short article focuses on G7 discussion of possible aircraft transfers, with earlier reports about permission and training time. (Paragraphs 3, 4.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-05-19 reporting; F-16 training and possible aircraft supplies. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "According to him, the Group of Seven (G7) leaders on Friday will…",
+            "paragraphs": [
+              3,
+              4
+            ],
+            "language": "en",
+            "paraphrase": "European Council President Michel said G7 leaders would discuss military help for Ukraine, including F-16s.",
+            "supporting_sentence": "According to him, the Group of Seven (G7) leaders on Friday will discuss increasing military support for Ukraine, including F-16 fighters.\n\"As for military support for Ukraine, today we have the opportunity to discuss this topic with Joe Biden and other G7 members,\" Financial Times quotes Charles Michel, the president of the European Council.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "EP02",
+          "text": "European Pravda repeats CNN’s report that the US would permit allied F-16 transfers.",
+          "topics": [
+            "approval"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "CNN_report_repeated_by_European_Pravda",
+          "claimants": [
+            {
+              "name": "CNN sources",
+              "role": "Original report cited by European Pravda",
+              "country": "Unknown",
+              "country_basis": "The article does not identify the original sources’ offices or nationality."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "European Pravda repeats CNN’s report that the US would permit allied F-16 transfers.",
+            "note": ""
+          },
+          "attention": "The short article focuses on G7 discussion of possible aircraft transfers, with earlier reports about permission and training time. (Paragraphs 5.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-05-19 reporting; F-16 training and possible aircraft supplies. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "Earlier, CNN reported that the administration of President Joe Biden in recent…",
+            "paragraphs": [
+              5
+            ],
+            "language": "en",
+            "paraphrase": "European Pravda repeats CNN’s report that the US would permit allied F-16 transfers.",
+            "supporting_sentence": "Earlier, CNN reported that the administration of President Joe Biden in recent weeks made it clear to European allies that the United States would be allowed to transfer F-16 fighters to Ukraine (Ukr).",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "The saved English sentence has awkward translation; it reports US permission, not US aircraft already delivered.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "EP03",
+          "text": "A reported US Air Force document said Ukrainian F-16 training could take four months.",
+          "topics": [
+            "duration"
+          ],
+          "kind": {
+            "label": "Opinion / prediction",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "prediction",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "US Air Force document reported by Yahoo News",
+              "role": "Document described by European Pravda; not independently examined here",
+              "country": "United States",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "A reported US Air Force document said Ukrainian F-16 training could take four months.",
+            "note": ""
+          },
+          "attention": "The short article focuses on G7 discussion of possible aircraft transfers, with earlier reports about permission and training time. (Paragraphs 6.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-05-19 reporting; F-16 training and possible aircraft supplies. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "In addition, the Yahoo News portal received a document from the US…",
+            "paragraphs": [
+              6
+            ],
+            "language": "en",
+            "paraphrase": "A reported US Air Force document said Ukrainian F-16 training could take four months.",
+            "supporting_sentence": "In addition, the Yahoo News portal received a document from the US Air Force, which states that the training program for Ukrainian F-16 pilots can last for four months (Ukr).",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "censor",
+      "label": "Censor.NET",
+      "short_label": "Censor.NET",
+      "country": "Ukraine",
+      "article": {
+        "id": "98ac9ddf-0de2-480b-90ce-bbebdb41846e",
+        "title": "US will allow partners to transfer F-16 to Ukraine, but no requests have been received yet, - CNN",
+        "url": "https://censor.net/en/news/3419355/us_will_allow_partners_to_transfer_f16_to_ukraine_but_no_requests_have_been_received_yet_cnn",
+        "publication_date": "2023-05-19",
+        "text_sha256": "ab5c1c849eb07d549d0ffd30eccb20825e2fe18475a45505ffe11396e8117e30"
+      },
+      "attention": "The brief focuses on US openness to allied transfers and the lack of formal requests.",
+      "claims": [
+        {
+          "id": "CEN01",
+          "text": "Censor.NET repeats CNN sources saying the US would allow allies to send F-16s to Ukraine.",
+          "topics": [
+            "approval"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "CNN_report_repeated_via_Ukrainska_Pravda",
+          "claimants": [
+            {
+              "name": "CNN sources",
+              "role": "Report relayed through Ukrainska Pravda and Censor.NET",
+              "country": "Unknown",
+              "country_basis": "The source identities are not supplied."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Censor.NET repeats CNN sources saying the US would allow allies to send F-16s to Ukraine.",
+            "note": ""
+          },
+          "attention": "The brief focuses on US openness to allied transfers and the lack of formal requests. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-05-19 reporting; F-16 training and possible aircraft supplies. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "In recent weeks, Joe Biden’s administration has informed European allies that the…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Censor.NET repeats CNN sources saying the US would allow allies to send F-16s to Ukraine.",
+            "supporting_sentence": "In recent weeks, Joe Biden’s administration has informed European allies that the United States will allow them to transfer American F-16 fighter jets to Ukraine.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CEN02",
+          "text": "CNN’s sources said no ally had formally requested permission to transfer F-16s.",
+          "topics": [
+            "approval"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "CNN_report_repeated_by_Censor",
+          "claimants": [
+            {
+              "name": "Unnamed sources behind CNN’s transfer-permission report",
+              "role": "Sources whose specific office is not given in these articles",
+              "country": "Unknown",
+              "country_basis": "The report concerns US policy; a source’s exact job or citizenship is not established by that topic."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "CNN’s sources said no ally had formally requested permission to transfer F-16s.",
+            "note": ""
+          },
+          "attention": "The brief focuses on US openness to allied transfers and the lack of formal requests. (Paragraphs 4.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-05-19 reporting; F-16 training and possible aircraft supplies. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "According to CNN, White House officials are currently unaware of any official…",
+            "paragraphs": [
+              4
+            ],
+            "language": "en",
+            "paraphrase": "CNN’s sources said no ally had formally requested permission to transfer F-16s.",
+            "supporting_sentence": "According to CNN, White House officials are currently unaware of any official requests from any of the allies to transfer F-16s to Ukraine, and US State Department officials, who are usually tasked with processing documents to approve such transfers to third parties, have not been instructed to begin work.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "No formal request is not the same as US refusal or a final decision to send aircraft.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CEN03",
+          "text": "The article says countries need US permission to pass F-16s to another country because they contain sensitive US technology.",
+          "topics": [
+            "approval"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "Censor.NET article narrator",
+              "role": "Article narrative voice",
+              "country": "Ukraine",
+              "country_basis": "Outlet origin; individual reporter citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "The article says countries need US permission to pass F-16s to another country because they contain sensitive US technology.",
+            "note": ""
+          },
+          "attention": "The brief focuses on US openness to allied transfers and the lack of formal requests. (Paragraphs 5.)",
+          "outlet_view": "This is the article narrator’s wording; it is not an outlet-wide policy statement.",
+          "where_when": "2023-05-19 reporting; F-16 training and possible aircraft supplies. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "It is noted that since the F-16s have sensitive technologies, the US…",
+            "paragraphs": [
+              5
+            ],
+            "language": "en",
+            "paraphrase": "The article says countries need US permission to pass F-16s to another country because they contain sensitive US technology.",
+            "supporting_sentence": "It is noted that since the F-16s have sensitive technologies, the US must permit the owners of the fighters to transfer them to third countries.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "tass",
+      "label": "TASS",
+      "short_label": "TASS",
+      "country": "Russia",
+      "article": {
+        "id": "455f7e73-65f8-4e7d-ac37-a1a6a2aefd8e",
+        "title": "Biden administration to authorize allies to supply F-16 fighter jets to Kiev — TV report",
+        "url": "https://tass.com/world/1619787",
+        "publication_date": "2023-05-19",
+        "text_sha256": "38a9e3233f82b7316f729d6189c193f28b8d51e2671fea545072e9a9c94e2212"
+      },
+      "attention": "The report relays CNN’s transfer-permission story but gives extra space to doubts about usefulness and earlier US resistance.",
+      "claims": [
+        {
+          "id": "T01",
+          "text": "TASS repeats CNN sources saying the US intended to allow allied F-16 transfers.",
+          "topics": [
+            "approval"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "CNN_report_repeated_by_TASS",
+          "claimants": [
+            {
+              "name": "Unnamed sources behind CNN’s transfer-permission report",
+              "role": "Sources whose specific office is not given in these articles",
+              "country": "Unknown",
+              "country_basis": "The report concerns US policy; a source’s exact job or citizenship is not established by that topic."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "TASS repeats CNN sources saying the US intended to allow allied F-16 transfers.",
+            "note": ""
+          },
+          "attention": "The report relays CNN’s transfer-permission story but gives extra space to doubts about usefulness and earlier US resistance. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-05-19 reporting; F-16 training and possible aircraft supplies. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "NEW YORK, May 19. /TASS/. The administration of US President Joe Biden…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "TASS repeats CNN sources saying the US intended to allow allied F-16 transfers.",
+            "supporting_sentence": "NEW YORK, May 19. /TASS/. The administration of US President Joe Biden intends to authorize the transfer of F-16 fighter jets by its allies to Kiev, CNN reported on Friday, citing sources.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "T02",
+          "text": "TASS repeats the report that no formal export requests or instructions to prepare transfer papers existed.",
+          "topics": [
+            "approval"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "CNN_report_repeated_by_TASS",
+          "claimants": [
+            {
+              "name": "Unnamed sources behind CNN’s transfer-permission report",
+              "role": "Sources whose specific office is not given in these articles",
+              "country": "Unknown",
+              "country_basis": "The report concerns US policy; a source’s exact job or citizenship is not established by that topic."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "TASS repeats the report that no formal export requests or instructions to prepare transfer papers existed.",
+            "note": ""
+          },
+          "attention": "The report relays CNN’s transfer-permission story but gives extra space to doubts about usefulness and earlier US resistance. (Paragraphs 2.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-05-19 reporting; F-16 training and possible aircraft supplies. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "However, the report notes that the US administration is not currently aware…",
+            "paragraphs": [
+              2
+            ],
+            "language": "en",
+            "paraphrase": "TASS repeats the report that no formal export requests or instructions to prepare transfer papers existed.",
+            "supporting_sentence": "However, the report notes that the US administration is not currently aware of any official requests for the export of such aircraft, and US State Department officials have not yet received any order to draft the necessary documents for their transfer.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "T03",
+          "text": "Unnamed officials cited by CNN doubted how useful F-16s would be against Russian weapons that shoot down aircraft.",
+          "topics": [
+            "usefulness"
+          ],
+          "kind": {
+            "label": "Opinion / assessment",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "assessment",
+          "source_type": "CNN_official_assessment_repeated_by_TASS",
+          "claimants": [
+            {
+              "name": "Unnamed officials cited by CNN",
+              "role": "Officials whose precise posts are not supplied in TASS’s account",
+              "country": "Unknown",
+              "country_basis": "Do not infer a particular office or nationality from the issue being discussed."
+            }
+          ],
+          "stance": {
+            "value": "criticizes",
+            "label": "Criticizes",
+            "target": "Military usefulness of supplying F-16s",
+            "note": ""
+          },
+          "attention": "The report relays CNN’s transfer-permission story but gives extra space to doubts about usefulness and earlier US resistance. (Paragraphs 3.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-05-19 reporting; F-16 training and possible aircraft supplies. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "According to the TV news channel, a number of officials are skeptical…",
+            "paragraphs": [
+              3
+            ],
+            "language": "en",
+            "paraphrase": "Unnamed officials cited by CNN doubted how useful F-16s would be against Russian weapons that shoot down aircraft.",
+            "supporting_sentence": "According to the TV news channel, a number of officials are skeptical about the advisability of delivering the F-16 jets to Kiev. They believe that Russian air defenses are effective against fighter jets, and thus the Ukrainian armed forces are restricted to carrying out a small number of missions using the military airframes already in their fleet.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "T04",
+          "text": "Sullivan said on May 17 that the US still did not plan to supply its own fighter jets.",
+          "topics": [
+            "delivery"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Jake Sullivan",
+              "role": "US national security adviser",
+              "country": "United States",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Sullivan said on May 17 that the US still did not plan to supply its own fighter jets.",
+            "note": ""
+          },
+          "attention": "The report relays CNN’s transfer-permission story but gives extra space to doubts about usefulness and earlier US resistance. (Paragraphs 4.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "May 17 statement repeated May 19; US-owned deliveries, not permission for allies or the newer training decision.",
+          "evidence": {
+            "quote": "On May 17, White House National Security Adviser Jake Sullivan said that…",
+            "paragraphs": [
+              4
+            ],
+            "language": "en",
+            "paraphrase": "Sullivan said on May 17 that the US still did not plan to supply its own fighter jets.",
+            "supporting_sentence": "On May 17, White House National Security Adviser Jake Sullivan said that the US had not changed its plans regarding deliveries of F-16 jets to Ukraine and still does not intend to supply Kiev with fighter jets.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": true,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "sputnik",
+      "label": "Sputnik",
+      "short_label": "Sputnik",
+      "country": "Russia",
+      "article": {
+        "id": "1e137181-39a7-4d38-bbed-b01e1cc77ae0",
+        "title": "Report: US May Be Able to Train Ukrainian Pilots to Fly F-16s in Just 4 Months",
+        "url": "https://sputnikglobe.com/20230519/report-us-may-be-able-to-train-ukrainian-pilots-to-fly-f-16s-in-just-4-months-1110451049.html",
+        "publication_date": "2023-05-19",
+        "text_sha256": "c1ace352b645eb9fe7708eb9ca855c4ec9c329ee005bd2146e8181ee437a93b2"
+      },
+      "attention": "The recovered body describes two Ukrainian pilots’ simulator assessments and training obstacles; the four-month figure appears only in the headline.",
+      "claims": [
+        {
+          "id": "S01",
+          "text": "The report describes tests of two Ukrainian pilots using flight-training computers in Arizona.",
+          "topics": [
+            "training"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "reported_document_assessment",
+          "claimants": [
+            {
+              "name": "Assessments described in an unnamed report",
+              "role": "US Air Force training assessments discussed in the recovered text",
+              "country": "United States",
+              "country_basis": "Institutional association of the assessments; the report’s original publisher is not named in the recovered body."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "The report describes tests of two Ukrainian pilots using flight-training computers in Arizona.",
+            "note": ""
+          },
+          "attention": "The recovered body describes two Ukrainian pilots’ simulator assessments and training obstacles; the four-month figure appears only in the headline. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-05-19 reporting; F-16 training and possible aircraft supplies. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "The documents contain detailed assessments from February and March of this year…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "The report describes tests of two Ukrainian pilots using flight-training computers in Arizona.",
+            "supporting_sentence": "The documents contain detailed assessments from February and March of this year at an Air Force base in Tucson, Arizona, where Ukrainian pilots with experience flying Su-27s and MiG-29s but not any experience with F16s were tested in simulators and assessed by qualified Air Force instructors.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "S02",
+          "text": "The report says English instructions inside the F-16 were a major difficulty for the pilots.",
+          "topics": [
+            "training"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "reported_document_assessment",
+          "claimants": [
+            {
+              "name": "Assessment described in the report",
+              "role": "US Air Force pilot assessment",
+              "country": "United States",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "The report says English instructions inside the F-16 were a major difficulty for the pilots.",
+            "note": ""
+          },
+          "attention": "The recovered body describes two Ukrainian pilots’ simulator assessments and training obstacles; the four-month figure appears only in the headline. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-05-19 reporting; F-16 training and possible aircraft supplies. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "One of the largest hurdles the Ukrainian pilots faced was the fact…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "The report says English instructions inside the F-16 were a major difficulty for the pilots.",
+            "supporting_sentence": "One of the largest hurdles the Ukrainian pilots faced was the fact that F-16s displayed information in English, though the pilots exhibited progress in aptitude over the course of the assessment period.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "S03",
+          "text": "The report contrasts the pilot tests with an earlier Pentagon estimate of 18 months of training.",
+          "topics": [
+            "duration"
+          ],
+          "kind": {
+            "label": "Opinion / prediction",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "prediction",
+          "source_type": "earlier_estimate_repeated_in_report",
+          "claimants": [
+            {
+              "name": "Colin Kahl, as described in the report",
+              "role": "Earlier US undersecretary of defense for policy estimate",
+              "country": "United States",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "The report contrasts the pilot tests with an earlier Pentagon estimate of 18 months of training.",
+            "note": ""
+          },
+          "attention": "The recovered body describes two Ukrainian pilots’ simulator assessments and training obstacles; the four-month figure appears only in the headline. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "February estimate contrasted with assessments from February/March and a May report; training scope may differ.",
+          "evidence": {
+            "quote": "This represents a big shift from the 18 months that Colin Kahl,…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "The report contrasts the pilot tests with an earlier Pentagon estimate of 18 months of training.",
+            "supporting_sentence": "This represents a big shift from the 18 months that Colin Kahl, the former undersecretary of defense for policy, claimed it would take to train Ukrainian pilots to fly F-16s in front of a congressional committee in February, the report added.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "The recovered body does not state the four-month estimate in its headline; it is not imported into this claim.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "izvestia",
+      "label": "Izvestia",
+      "short_label": "Izvestia",
+      "country": "Russia",
+      "article": {
+        "id": "f14031fb-6a30-4864-93df-1f10830fd3d0",
+        "title": "NBC сообщил о намерении США и союзников передать Киеву истребители F-16",
+        "url": "https://iz.ru/1515608/2023-05-19/nbc-soobshchil-o-namerenii-ssha-i-soiuznikov-peredat-kievu-istrebiteli-f-16",
+        "publication_date": "2023-05-19",
+        "text_sha256": "fe265e824e511d026901c5421ef1b9ae9744631df7489cefa6dc2dab4dc510f1"
+      },
+      "attention": "The article leads with NBC’s planned jet-supply report, then describes CNN’s pilot-training report and earlier US reluctance.",
+      "claims": [
+        {
+          "id": "I01",
+          "text": "An official cited by NBC said the US and allies planned to supply F-16s to Ukraine.",
+          "topics": [
+            "delivery"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "NBC_official_report_repeated_by_Izvestia",
+          "claimants": [
+            {
+              "name": "Unnamed senior White House official cited by NBC",
+              "role": "US administration official; report repeated by Izvestia",
+              "country": "United States",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "An official cited by NBC said the US and allies planned to supply F-16s to Ukraine.",
+            "note": ""
+          },
+          "attention": "The article leads with NBC’s planned jet-supply report, then describes CNN’s pilot-training report and earlier US reluctance. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-05-19 reporting; F-16 training and possible aircraft supplies. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "США и их союзники планируют передать Украине истребители F-16. Об этом 19…",
+            "paragraphs": [
+              1
+            ],
+            "language": "ru",
+            "paraphrase": "An official cited by NBC said the US and allies planned to supply F-16s to Ukraine.",
+            "supporting_sentence": "США и их союзники планируют передать Украине истребители F-16. Об этом 19 мая сообщает NBC со ссылкой на высокопоставленного представителя администрации Белого дома.",
+            "english_translation": "The US and its allies plan to provide Ukraine with F-16 fighters. NBC reported this on May 19, citing a senior White House administration official.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "I02",
+          "text": "The official said aircraft might come from other countries rather than the US.",
+          "topics": [
+            "delivery"
+          ],
+          "kind": {
+            "label": "Opinion / prediction",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "prediction",
+          "source_type": "NBC_official_report_repeated_by_Izvestia",
+          "claimants": [
+            {
+              "name": "Unnamed senior White House official cited by NBC",
+              "role": "US administration official; report repeated by Izvestia",
+              "country": "United States",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "The official said aircraft might come from other countries rather than the US.",
+            "note": ""
+          },
+          "attention": "The article leads with NBC’s planned jet-supply report, then describes CNN’s pilot-training report and earlier US reluctance. (Paragraphs 2.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-05-19 reporting; F-16 training and possible aircraft supplies. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "По словам собеседника телеканала, самолеты необязательно будут поступать из Соединенных Штатов, их…",
+            "paragraphs": [
+              2
+            ],
+            "language": "ru",
+            "paraphrase": "The official said aircraft might come from other countries rather than the US.",
+            "supporting_sentence": "По словам собеседника телеканала, самолеты необязательно будут поступать из Соединенных Штатов, их могут предоставить другие страны в рамках долгосрочного сотрудничества по укреплению безопасности Украины.",
+            "english_translation": "According to the channel’s source, the aircraft need not come from the United States; other countries may provide them as part of long-term cooperation to strengthen Ukraine’s security.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "I03",
+          "text": "The official gave no delivery date or suppliers and said the jets would not be used in Ukraine’s expected counterattack.",
+          "topics": [
+            "delivery"
+          ],
+          "kind": {
+            "label": "Opinion / prediction",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "prediction",
+          "source_type": "NBC_official_report_repeated_by_Izvestia",
+          "claimants": [
+            {
+              "name": "Unnamed senior White House official cited by NBC",
+              "role": "US administration official; report repeated by Izvestia",
+              "country": "United States",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "The official gave no delivery date or suppliers and said the jets would not be used in Ukraine’s expected counterattack.",
+            "note": ""
+          },
+          "attention": "The article leads with NBC’s planned jet-supply report, then describes CNN’s pilot-training report and earlier US reluctance. (Paragraphs 3.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-05-19 reporting; F-16 training and possible aircraft supplies. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "При этом чиновник не уточнил, когда Киев получит F-16 и какие страны…",
+            "paragraphs": [
+              3
+            ],
+            "language": "ru",
+            "paraphrase": "The official gave no delivery date or suppliers and said the jets would not be used in Ukraine’s expected counterattack.",
+            "supporting_sentence": "При этом чиновник не уточнил, когда Киев получит F-16 и какие страны их предоставят. Тем не менее он указал, что истребители не будут использоваться во время возможного контрнаступления Украины.",
+            "english_translation": "The official did not specify when Kyiv would receive F-16s or which countries would supply them. He said the fighters would not be used during Ukraine’s possible counteroffensive.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "I04",
+          "text": "Izvestia repeats CNN’s report that Biden backed training Ukrainian pilots on F-16s.",
+          "topics": [
+            "training"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "CNN_report_repeated_by_Izvestia",
+          "claimants": [
+            {
+              "name": "Unnamed senior US administration official",
+              "role": "US government official quoted by CNN",
+              "country": "United States",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Izvestia repeats CNN’s report that Biden backed training Ukrainian pilots on F-16s.",
+            "note": ""
+          },
+          "attention": "The article leads with NBC’s planned jet-supply report, then describes CNN’s pilot-training report and earlier US reluctance. (Paragraphs 4.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-05-19 reporting; F-16 training and possible aircraft supplies. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "Кроме того, источник телеканала CNN сообщил, что американский президент Джо Байден в…",
+            "paragraphs": [
+              4
+            ],
+            "language": "ru",
+            "paraphrase": "Izvestia repeats CNN’s report that Biden backed training Ukrainian pilots on F-16s.",
+            "supporting_sentence": "Кроме того, источник телеканала CNN сообщил, что американский президент Джо Байден в ходе саммита стран «Большой семерки» (G7) в Японии заявил, что Вашингтон поддержит усилия по обучению украинских пилотов управлению современными самолетами, включая F-16.",
+            "english_translation": "A CNN source also said that Biden told the G7 summit in Japan that Washington would support efforts to train Ukrainian pilots on modern aircraft, including F-16s.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "E01",
+      "source": "cnn",
+      "target": "kyivpost",
+      "topic": "training",
+      "relation": "supportive",
+      "color": "green",
+      "source_claim": "CNN01",
+      "target_claim": "KI01",
+      "label": "CNN supports Kyiv Independent’s cited training report",
+      "subtype": "specified_partial_support",
+      "reason": "Kyiv Independent explicitly credits CNN for the training decision. CNN’s selected article carries the official’s statement that Biden supported the training effort.",
+      "caveat": "The source chain is shared. This arrow follows the reported attribution.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": true,
+      "direction": "source_to_target",
+      "support_scope": "The training statement attributed to CNN in KI01.",
+      "direction_reason": "CNN01 supplies the specified support for KI01.",
+      "unsupported_parts": "Independent confirmation of the official’s account or a completed training program."
+    },
+    {
+      "id": "E02",
+      "source": "cnn",
+      "target": "izvestia",
+      "topic": "training",
+      "relation": "supportive",
+      "color": "green",
+      "source_claim": "CNN01",
+      "target_claim": "I04",
+      "label": "CNN supports Izvestia’s cited training report",
+      "subtype": "specified_partial_support",
+      "reason": "Izvestia credits a CNN source for Biden’s training decision. The selected CNN article reports the same official statement.",
+      "caveat": "Izvestia carries a Russian-language account of the CNN report.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": true,
+      "direction": "source_to_target",
+      "support_scope": "The attribution of the training announcement in I04 to CNN.",
+      "direction_reason": "CNN01 supplies the specified support for I04.",
+      "unsupported_parts": "A separate official announcement or evidence of aircraft deliveries."
+    },
+    {
+      "id": "E03",
+      "source": "kyivpost",
+      "target": "cnn",
+      "topic": "training",
+      "relation": "supportive",
+      "color": "green",
+      "source_claim": "KI04",
+      "target_claim": "CNN01",
+      "label": "British and Dutch confirmation supports US participation",
+      "subtype": "specified_partial_support",
+      "reason": "Kyiv Independent reports that the British and Dutch prime ministers confirmed Washington’s participation. That provides a named-official account supporting the US-participation component of CNN’s report.",
+      "caveat": "The confirmations are reported by Kyiv Independent. The articles do not establish how the leaders obtained their information.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": true,
+      "direction": "source_to_target",
+      "support_scope": "US participation in the joint training effort described by CNN01.",
+      "direction_reason": "KI04 supplies the specified support for CNN01.",
+      "unsupported_parts": "Every detail of Biden’s G7 remarks, the training schedule or aircraft deliveries."
+    },
+    {
+      "id": "E04",
+      "source": "cnn",
+      "target": "censor",
+      "topic": "approval",
+      "relation": "supportive",
+      "color": "green",
+      "source_claim": "CNN06",
+      "target_claim": "CEN01",
+      "label": "CNN supports the transfer-permission attribution",
+      "subtype": "specified_partial_support",
+      "reason": "Censor.NET credits CNN via Ukrainska Pravda for the reported willingness to permit allied transfers. The selected CNN article recaps that report.",
+      "caveat": "The selected CNN article recaps Thursday’s reporting. The arrow follows that reported source chain.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": true,
+      "direction": "source_to_target",
+      "support_scope": "The CNN-attributed report of US willingness to permit allied F-16 transfers in CEN01.",
+      "direction_reason": "CNN06 supplies the specified support for CEN01.",
+      "unsupported_parts": "Formal transfer approvals, export paperwork or completed transfers."
+    },
+    {
+      "id": "E05",
+      "source": "censor",
+      "target": "tass",
+      "topic": "approval",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CEN01",
+      "target_claim": "T01",
+      "label": "Both repeat CNN on permission",
+      "subtype": "same_original_report",
+      "reason": "Censor.NET and TASS both relay CNN’s sources about permitting allied transfers. These reports rely on the same original statement.",
+      "caveat": "The original source chain overlaps; this is shared reporting, not proof that transfers occurred.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E06",
+      "source": "censor",
+      "target": "tass",
+      "topic": "approval",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CEN02",
+      "target_claim": "T02",
+      "label": "No formal requests reported",
+      "subtype": "same_original_report",
+      "reason": "Both carry the absence of formal requests or transfer paperwork. These reports rely on the same original statement.",
+      "caveat": "Both trace this to CNN, and it describes the situation at reporting time, not a permanent refusal.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E07",
+      "source": "cnn",
+      "target": "izvestia",
+      "topic": "delivery",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CNN03",
+      "target_claim": "I03",
+      "label": "Delivery details still open",
+      "subtype": "parallel_accounts_or_interpretations",
+      "reason": "Both accounts leave the aircraft suppliers and delivery date unsettled. The matching content alone supplies no evidential direction.",
+      "caveat": "CNN and NBC are different reported source chains. Unsettled details do not mean the policy statements are identical.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E08",
+      "source": "izvestia",
+      "target": "tass",
+      "topic": "delivery",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "I01",
+      "target_claim": "T04",
+      "label": "Different suppliers and dates",
+      "subtype": "different_time_and_actor_scope",
+      "reason": "NBC’s May 19 report covers the US and allies collectively; Sullivan’s May 17 statement concerns US supply.",
+      "caveat": "An older US-only position need not contradict newer plans for allied deliveries.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E09",
+      "source": "europeanpravda",
+      "target": "sputnik",
+      "topic": "duration",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "EP03",
+      "target_claim": "S03",
+      "label": "New document versus older estimate",
+      "subtype": "scope_or_certainty_difference",
+      "reason": "One report gives a possible four months; the other recounts a February estimate of 18 months.",
+      "caveat": "The estimate dates and possible training scope differ; do not label a changed estimate a same-time contradiction.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E10",
+      "source": "cnn",
+      "target": "tass",
+      "topic": "usefulness",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CNN05",
+      "target_claim": "T03",
+      "label": "Hope and doubt from different sources",
+      "subtype": "scope_or_certainty_difference",
+      "reason": "Zelensky expects a stronger air force; unnamed officials doubt usefulness against Russian air defenses.",
+      "caveat": "These are different broad assessments, not matched claims about the same mission or measured effect.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E11",
+      "source": "cnn",
+      "target": "europeanpravda",
+      "topic": "approval",
+      "source_claim": "CNN06",
+      "target_claim": "EP02",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "relation": "supportive",
+      "color": "green",
+      "directed": true,
+      "direction": "source_to_target",
+      "label": "CNN supplies the report cited by European Pravda",
+      "subtype": "specified_partial_support",
+      "reason": "European Pravda explicitly credits CNN for the transfer-permission report. The selected CNN article repeats that report in its recap.",
+      "support_scope": "The attribution to CNN in EP02.",
+      "caveat": "The passage is a recap of CNN’s earlier reporting.",
+      "direction_reason": "CNN06 supplies the specified support for EP02.",
+      "unsupported_parts": "A completed approval procedure or actual transfer of aircraft."
+    },
+    {
+      "id": "E12",
+      "source": "cnn",
+      "target": "tass",
+      "topic": "approval",
+      "source_claim": "CNN06",
+      "target_claim": "T01",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "relation": "supportive",
+      "color": "green",
+      "directed": true,
+      "direction": "source_to_target",
+      "label": "CNN supports TASS’s attributed permission report",
+      "subtype": "specified_partial_support",
+      "reason": "TASS names CNN as its source for the reported intention to permit allied transfers. CNN’s selected article contains the matching recap.",
+      "support_scope": "The attributed report of US willingness to allow allied F-16 transfers in T01.",
+      "caveat": "The articles use different reporting dates for the original CNN account. This compares the matching core statement in the saved passages.",
+      "direction_reason": "CNN06 supplies the specified support for T01.",
+      "unsupported_parts": "Formal export authorization or confirmation that any aircraft were delivered."
+    },
+    {
+      "id": "E13",
+      "source": "cnn",
+      "target": "kyivpost",
+      "topic": "training",
+      "source_claim": "CNN02",
+      "target_claim": "KI02",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "relation": "supportive",
+      "color": "green",
+      "directed": true,
+      "direction": "source_to_target",
+      "label": "CNN supports the cited training-location account",
+      "subtype": "specified_partial_support",
+      "reason": "Kyiv Independent explicitly attributes the likely European training location and US participation to CNN. The selected CNN article reports those details.",
+      "support_scope": "The attribution and details in KI02.",
+      "caveat": "Both articles carry the same reported US official’s account.",
+      "direction_reason": "CNN02 supplies the specified support for KI02.",
+      "unsupported_parts": "An independently observed training location or a final training plan."
+    },
+    {
+      "id": "E14",
+      "source": "cnn",
+      "target": "kyivpost",
+      "topic": "delivery",
+      "source_claim": "CNN03",
+      "target_claim": "KI03",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "relation": "supportive",
+      "color": "green",
+      "directed": true,
+      "direction": "source_to_target",
+      "label": "CNN supplies the statement about later delivery decisions",
+      "subtype": "specified_partial_support",
+      "reason": "Kyiv Independent quotes the official speaking to CNN about future decisions on suppliers, numbers and timing. The original statement appears in the selected CNN article.",
+      "support_scope": "The quotation attributed to CNN’s official in KI03.",
+      "caveat": "The arrow follows the citation.",
+      "direction_reason": "CNN03 supplies the specified support for KI03.",
+      "unsupported_parts": "Any settled supplier list, number of aircraft or delivery date."
+    }
+  ],
+  "excluded": [
+    {
+      "source": "ft",
+      "outlet": "Financial Times",
+      "reason": "Business teaching case about companies leaving Russia; no F-16 training or supply decision."
+    },
+    {
+      "source": "china_daily",
+      "outlet": "China Daily",
+      "reason": "EU oil-sanctions commentary, not the fighter-jet decision."
+    },
+    {
+      "source": "global_times",
+      "outlet": "Global Times",
+      "reason": "Chinese peace mediation commentary, not the F-16 decision."
+    }
+  ],
+  "method": {
+    "country_note": "Outlet countries describe origin. Claimant countries describe an office, organization or stated residence, not assumed citizenship.",
+    "claim_type_note": "A fact claim is a checkable statement, not a fact verified by this graph. Opinions, predictions, legal positions and promises are marked separately.",
+    "edge_note": "Green arrows point from a claim supplying a reason, example or reported statement to the specified part of another claim. Grey comparisons have no assigned evidential direction. Solid red connections mark proposed contradictions between specific claims or assessments. An arrow is used for an explicit rebuttal of a matching claim. Repeated reports of the same statement share a source.",
+    "attention_note": "Attention is a qualitative reading of the saved article, with paragraph locators; it is not a measured share of words.",
+    "endorsement_note": "A quoted speaker’s view is separate from the article narrator’s view. No outlet-wide position is inferred from one article.",
+    "annotation_status": "AI-assisted draft; human review pending",
+    "cleaning_note": "Uses saved recovered text. Kyiv Independent later Most Popular / News Feed material is excluded; original paragraph numbers retained. FT wrapped lines are joined into logical paragraphs."
+  }
+}

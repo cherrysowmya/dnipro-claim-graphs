@@ -1,0 +1,1624 @@
+{
+  "schema_version": "1.1",
+  "event": {
+    "id": "western_troop_debate_20240228",
+    "label": "Macron’s remarks on Western troops",
+    "date": "2024-02-28",
+    "description": "Responses to Macron leaving future Western troop deployments open after the Paris meeting. Present advisers or special forces, future national deployments and NATO combat troops are not the same category.",
+    "default_topic": "reaction",
+    "default_node": "europeanpravda",
+    "graph_scope": "whole_event",
+    "multigraph": true
+  },
+  "topics": [
+    {
+      "id": "deployment",
+      "label": "Will countries send troops?",
+      "scope_note": "Match the country, combat or noncombat role, and present versus future time. Leaving an option open is not a deployment order."
+    },
+    {
+      "id": "roles",
+      "label": "Which troops and which roles?",
+      "scope_note": "Existing special forces or advisers are distinct from a future NATO combat deployment. Anonymous claims remain unverified."
+    },
+    {
+      "id": "reaction",
+      "label": "How are Macron’s remarks judged?",
+      "scope_note": "Compare speakers’ reactions to the remarks, not inferred approval of every troop option."
+    },
+    {
+      "id": "support",
+      "label": "What help does Ukraine need?",
+      "scope_note": "Wanting stronger support does not automatically endorse sending foreign combat soldiers."
+    },
+    {
+      "id": "escalation",
+      "label": "Could the war spread?",
+      "scope_note": "Warnings and predictions are not observed outcomes. Keep combat and noncombat roles separate."
+    },
+    {
+      "id": "diplomacy",
+      "label": "What might the messages achieve?",
+      "scope_note": "Mixed messages could signal resolve, cause confusion or reveal divisions at the same time."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "kyivpost",
+      "label": "Kyiv Independent",
+      "short_label": "Kyiv Ind.",
+      "country": "Ukraine",
+      "article": {
+        "id": "0688d777-0bfa-4cd7-bf4f-5824054f0317",
+        "title": "Zelensky to discuss new ways of strengthening Ukraine's defenses with Macron",
+        "url": "https://kyivindependent.com/zelensky-to-discuss-with-macron/",
+        "publication_date": "2024-02-28",
+        "text_sha256": "e922a72384966e7eaad786d207f68ad56c5bb4c73787ede55e7a5f529d2ec7c2"
+      },
+      "attention": "The brief leads with Zelensky’s planned talks with Macron, then explains the deployment debate and allied rejections.",
+      "claims": [
+        {
+          "id": "KI01",
+          "text": "Macron said sending Western troops to Ukraine was not ruled out in the future.",
+          "topics": [
+            "deployment"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Emmanuel Macron",
+              "role": "President of France",
+              "country": "France",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Keeping possible future Western deployments open",
+            "note": "He leaves an option open; this is not an order, agreed plan or endorsement of every possible military role."
+          },
+          "attention": "The brief leads with Zelensky’s planned talks with Macron, then explains the deployment debate and allied rejections. (Paragraphs 3.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-02-28 reporting; Macron’s remarks on Western troops. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "The French president also said that sending Western troops on the ground…",
+            "paragraphs": [
+              3
+            ],
+            "language": "en",
+            "paraphrase": "Macron said sending Western troops to Ukraine was not ruled out in the future.",
+            "supporting_sentence": "The French president also said that sending Western troops on the ground in Ukraine is not \"ruled out\" in the future.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "KI02",
+          "text": "Zelensky wanted to discuss new ways to strengthen Ukraine’s defenses with Macron.",
+          "topics": [
+            "support"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Volodymyr Zelensky",
+              "role": "President of Ukraine",
+              "country": "Ukraine",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Discussion of new defense support",
+            "note": ""
+          },
+          "attention": "The brief leads with Zelensky’s planned talks with Macron, then explains the deployment debate and allied rejections. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-02-28 reporting; Macron’s remarks on Western troops. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "President Volodymyr Zelensky said at the press conference in Tirana on Feb.…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Zelensky wanted to discuss new ways to strengthen Ukraine’s defenses with Macron.",
+            "supporting_sentence": "President Volodymyr Zelensky said at the press conference in Tirana on Feb. 28 that he wants to discuss new ways of strengthening Ukraine's defenses with French President Emmanuel Macron.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "This is not a direct endorsement of sending foreign troops.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "KI03",
+          "text": "The report says NATO’s chief and several allied leaders rejected sending their troops.",
+          "topics": [
+            "deployment"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "NATO secretary general and named allied leaders",
+              "role": "Stoltenberg and leaders of Germany, the UK and other European NATO states",
+              "country": "NATO countries (multiple countries)",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Criticizes / opposes",
+            "target": "Their own current troop deployments",
+            "note": ""
+          },
+          "attention": "The brief leads with Zelensky’s planned talks with Macron, then explains the deployment debate and allied rejections. (Paragraphs 4.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-02-28 reporting; Macron’s remarks on Western troops. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "NATO Secretary-General Jens Stoltenberg, along with the leaders of Germany, the U.K.,…",
+            "paragraphs": [
+              4
+            ],
+            "language": "en",
+            "paraphrase": "The report says NATO’s chief and several allied leaders rejected sending their troops.",
+            "supporting_sentence": "NATO Secretary-General Jens Stoltenberg, along with the leaders of Germany, the U.K., and other European NATO member states, have rejected deploying their troops to Ukraine in response to Macron's suggestion.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "europeanpravda",
+      "label": "European Pravda",
+      "short_label": "E. Pravda",
+      "country": "Ukraine",
+      "article": {
+        "id": "eb0ffff0-79b8-4fae-b8b7-f613e208d17b",
+        "title": "Talk of Western troops in Ukraine is a signal to Moscow – Estonian general",
+        "url": "https://www.eurointegration.com.ua/eng/news/2024/02/28/7180638/",
+        "publication_date": "2024-02-28",
+        "text_sha256": "9e76ae142b29f9b81c20d7763f50741f41ba86f114daa34685e23dbfafededf0"
+      },
+      "attention": "The report emphasizes an Estonian general’s view of the remarks as a signal, while explaining his preference for weapons and France’s noncombat clarification.",
+      "claims": [
+        {
+          "id": "EP01",
+          "text": "Väli said talk of Western troops was a useful message showing Europe would keep helping Ukraine.",
+          "topics": [
+            "reaction",
+            "diplomacy"
+          ],
+          "kind": {
+            "label": "Opinion / assessment",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "assessment",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Neeme Väli",
+              "role": "Estonian reserve major general",
+              "country": "Estonia",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "The message sent by discussing possible Western troops",
+            "note": ""
+          },
+          "attention": "The report emphasizes an Estonian general’s view of the remarks as a signal, while explaining his preference for weapons and France’s noncombat clarification. (Paragraphs 3.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-02-28 reporting; Macron’s remarks on Western troops. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "\"On the one hand, this message was good for Europeans, who have…",
+            "paragraphs": [
+              3
+            ],
+            "language": "en",
+            "paraphrase": "Väli said talk of Western troops was a useful message showing Europe would keep helping Ukraine.",
+            "supporting_sentence": "\"On the one hand, this message was good for Europeans, who have tended to get complacent with the war. But on the other hand, it is definitely sending a message to Russia as well: That Europe is ready to invest in Ukraine and to continue with its aid,\" Väli said.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "EP02",
+          "text": "Väli said Ukraine needed weapons and equipment more than extra foreign soldiers.",
+          "topics": [
+            "support"
+          ],
+          "kind": {
+            "label": "Opinion / assessment",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "assessment",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Neeme Väli",
+              "role": "Estonian reserve major general",
+              "country": "Estonia",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Giving Ukraine equipment and weapons as the priority",
+            "note": ""
+          },
+          "attention": "The report emphasizes an Estonian general’s view of the remarks as a signal, while explaining his preference for weapons and France’s noncombat clarification. (Paragraphs 4.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-02-28 reporting; Macron’s remarks on Western troops. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "The General believes that Ukraine has enough human resources of its own…",
+            "paragraphs": [
+              4
+            ],
+            "language": "en",
+            "paraphrase": "Väli said Ukraine needed weapons and equipment more than extra foreign soldiers.",
+            "supporting_sentence": "The General believes that Ukraine has enough human resources of its own and they expect help from Europe primarily in terms of weapons and equipment. \"At present, the issue is not that there is an insufficient number of troops, but rather that equipment and weapons are needed,\" Neeme Väli said to Estonian broadcaster ERR.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "EP03",
+          "text": "France’s foreign minister said Western troops would not take part in fighting if they went to Ukraine.",
+          "topics": [
+            "roles"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Stéphane Séjourné",
+              "role": "Foreign minister of France",
+              "country": "France",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "France’s foreign minister said Western troops would not take part in fighting if they went to Ukraine.",
+            "note": ""
+          },
+          "attention": "The report emphasizes an Estonian general’s view of the remarks as a signal, while explaining his preference for weapons and France’s noncombat clarification. (Paragraphs 8.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-02-28 reporting; Macron’s remarks on Western troops. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "French Foreign Minister Stéphane Séjourné later explained that Western troops would not…",
+            "paragraphs": [
+              8
+            ],
+            "language": "en",
+            "paraphrase": "France’s foreign minister said Western troops would not take part in fighting if they went to Ukraine.",
+            "supporting_sentence": "French Foreign Minister Stéphane Séjourné later explained that Western troops would not take part in hostilities if they were to depart for Ukraine, as Emmanuel Macron previously suggested.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "A clarification about contemplated roles, not proof that troops were deployed.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "EP04",
+          "text": "Macron said there was no allied agreement but left future deployments open.",
+          "topics": [
+            "deployment"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Emmanuel Macron",
+              "role": "President of France",
+              "country": "France",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Keeping a future troop option open",
+            "note": ""
+          },
+          "attention": "The report emphasizes an Estonian general’s view of the remarks as a signal, while explaining his preference for weapons and France’s noncombat clarification. (Paragraphs 7.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-02-28 reporting; Macron’s remarks on Western troops. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "French President Emmanuel Macron said after a meeting in Paris on 26…",
+            "paragraphs": [
+              7
+            ],
+            "language": "en",
+            "paraphrase": "Macron said there was no allied agreement but left future deployments open.",
+            "supporting_sentence": "French President Emmanuel Macron said after a meeting in Paris on 26 February that he had not ruled out sending Western troops to Ukraine in the future, although he emphasised that there is currently no consensus among the allies.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "censor",
+      "label": "Censor.NET",
+      "short_label": "Censor.NET",
+      "country": "Ukraine",
+      "article": {
+        "id": "af3d200c-ac7d-44d3-8a21-6c3857cfe395",
+        "title": "Zelenskyy on Macron’s proposal for NATO troops in Ukraine: Any proposals will be good if they strengthen Ukraine",
+        "url": "https://censor.net/en/news/3475935/zelenskyy_on_macrons_proposal_for_nato_troops_in_ukraine_any_proposals_will_be_good_if_they_strengthen",
+        "publication_date": "2024-02-28",
+        "text_sha256": "aaa2d31f1ee08504f688e0ac61ffbf914a896fca920067478d1e810d77df8d42"
+      },
+      "attention": "The article leads with Zelensky’s conditional welcome for ideas that strengthen Ukraine, then summarizes allied refusals and Russian warnings.",
+      "claims": [
+        {
+          "id": "CEN01",
+          "text": "Zelensky said any idea that made Ukraine stronger would be good for the world.",
+          "topics": [
+            "support"
+          ],
+          "kind": {
+            "label": "Opinion / judgement",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "opinion",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Volodymyr Zelensky",
+              "role": "President of Ukraine",
+              "country": "Ukraine",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Ideas that strengthen Ukraine",
+            "note": "This is conditional support for useful initiatives, not an explicit decision to accept NATO combat troops."
+          },
+          "attention": "The article leads with Zelensky’s conditional welcome for ideas that strengthen Ukraine, then summarizes allied refusals and Russian warnings. (Paragraphs 3.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-02-28 reporting; Macron’s remarks on Western troops. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "\"The stronger we are in Ukraine, the weaker Putin will be. As…",
+            "paragraphs": [
+              3
+            ],
+            "language": "en",
+            "paraphrase": "Zelensky said any idea that made Ukraine stronger would be good for the world.",
+            "supporting_sentence": "\"The stronger we are in Ukraine, the weaker Putin will be. As for any initiatives: if they strengthen Ukraine, they will be good for the whole world,\" the president said.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CEN02",
+          "text": "Stoltenberg said NATO had no plans to deploy combat troops in Ukraine.",
+          "topics": [
+            "deployment",
+            "roles"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Jens Stoltenberg",
+              "role": "NATO secretary general",
+              "country": "NATO (multiple countries)",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Criticizes / opposes",
+            "target": "A planned NATO combat deployment in Ukraine",
+            "note": ""
+          },
+          "attention": "The article leads with Zelensky’s conditional welcome for ideas that strengthen Ukraine, then summarizes allied refusals and Russian warnings. (Paragraphs 7.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-02-28 reporting; Macron’s remarks on Western troops. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "NATO Secretary General Jens Stoltenberg said that \"there are no plans to…",
+            "paragraphs": [
+              7
+            ],
+            "language": "en",
+            "paraphrase": "Stoltenberg said NATO had no plans to deploy combat troops in Ukraine.",
+            "supporting_sentence": "NATO Secretary General Jens Stoltenberg said that \"there are no plans to deploy NATO combat troops in Ukraine\".",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "No NATO combat-deployment plan does not deny the possible presence of national advisers or special forces.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CEN03",
+          "text": "Peskov warned that NATO troops in Ukraine would lead to war between Russia and NATO.",
+          "topics": [
+            "escalation"
+          ],
+          "kind": {
+            "label": "Opinion / prediction",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "prediction",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Dmitry Peskov",
+              "role": "Kremlin spokesperson",
+              "country": "Russia",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Peskov warned that NATO troops in Ukraine would lead to war between Russia and NATO.",
+            "note": ""
+          },
+          "attention": "The article leads with Zelensky’s conditional welcome for ideas that strengthen Ukraine, then summarizes allied refusals and Russian warnings. (Paragraphs 8.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-02-28 reporting; Macron’s remarks on Western troops. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "Russian President Putin's spokesman Peskov said that if NATO troops are on…",
+            "paragraphs": [
+              8
+            ],
+            "language": "en",
+            "paraphrase": "Peskov warned that NATO troops in Ukraine would lead to war between Russia and NATO.",
+            "supporting_sentence": "Russian President Putin's spokesman Peskov said that if NATO troops are on the territory of Ukraine, a war between Russia and NATO is inevitable.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "tass",
+      "label": "TASS",
+      "short_label": "TASS",
+      "country": "Russia",
+      "article": {
+        "id": "2141b1b5-5de2-45e9-9671-2c9ee2d9f3e1",
+        "title": "Idea to send troops to Ukraine found no support at Paris meeting, German official says",
+        "url": "https://tass.com/world/1753041",
+        "publication_date": "2024-02-28",
+        "text_sha256": "8e0c36875976acaecc9aa7f2aa3550486d52f945ca852b364d21e3ce3816920b"
+      },
+      "attention": "The report centers on a German spokesman’s account that nobody backed Macron’s idea at the Paris meeting.",
+      "claims": [
+        {
+          "id": "T01",
+          "text": "Germany’s spokesman said nobody at the Paris meeting backed Macron’s suggestion about Western troops.",
+          "topics": [
+            "deployment",
+            "reaction"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Steffen Hebestreit",
+              "role": "German government spokesperson, describing Scholz’s response",
+              "country": "Germany",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Criticizes / opposes",
+            "target": "Macron’s troop proposal as described by the German government",
+            "note": ""
+          },
+          "attention": "The report centers on a German spokesman’s account that nobody backed Macron’s idea at the Paris meeting. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-02-28 reporting; Macron’s remarks on Western troops. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "BERLIN, February 28. /TASS/. No attendees of the meeting in Paris on…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Germany’s spokesman said nobody at the Paris meeting backed Macron’s suggestion about Western troops.",
+            "supporting_sentence": "BERLIN, February 28. /TASS/. No attendees of the meeting in Paris on February 26 showed support for French President Emmanuel Macron's opinion that sending Western troops to Ukraine can’t be ruled out, Germany’s government spokesman Steffen Hebestreit told reporters.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "A German official’s account of other participants’ responses, not independent testimony from every attendee.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "T02",
+          "text": "The spokesman said Scholz considered the troop idea inappropriate.",
+          "topics": [
+            "reaction"
+          ],
+          "kind": {
+            "label": "Opinion / judgement",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "opinion",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Steffen Hebestreit",
+              "role": "German government spokesperson, describing Scholz’s response",
+              "country": "Germany",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Criticizes / opposes",
+            "target": "Macron’s suggestion of Western ground troops",
+            "note": ""
+          },
+          "attention": "The report centers on a German spokesman’s account that nobody backed Macron’s idea at the Paris meeting. (Paragraphs 2.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-02-28 reporting; Macron’s remarks on Western troops. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "\"The French president then made a suggestion, which was made public at…",
+            "paragraphs": [
+              2
+            ],
+            "language": "en",
+            "paraphrase": "The spokesman said Scholz considered the troop idea inappropriate.",
+            "supporting_sentence": "\"The French president then made a suggestion, which was made public at a subsequent news conference, whether other [options] should be contemplated, such as ground troops or something similar,\" Hebeestreit said. \"The chancellor then spoke out quite quickly, assessing the proposal as not very appropriate. Then, during the course of the evening, no one present supported the French proposal, and everyone walked away.\"",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "T03",
+          "text": "Russian spokeswoman Zakharova said Western troops in any role would make the conflict worse.",
+          "topics": [
+            "escalation"
+          ],
+          "kind": {
+            "label": "Opinion / prediction",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "prediction",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Maria Zakharova",
+              "role": "Russian Foreign Ministry spokesperson",
+              "country": "Russia",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Russian spokeswoman Zakharova said Western troops in any role would make the conflict worse.",
+            "note": ""
+          },
+          "attention": "The report centers on a German spokesman’s account that nobody backed Macron’s idea at the Paris meeting. (Paragraphs 6.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-02-28 reporting; Macron’s remarks on Western troops. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "Russian Foreign Ministry Spokesperson Maria Zakharova said that the presence of Western…",
+            "paragraphs": [
+              6
+            ],
+            "language": "en",
+            "paraphrase": "Russian spokeswoman Zakharova said Western troops in any role would make the conflict worse.",
+            "supporting_sentence": "Russian Foreign Ministry Spokesperson Maria Zakharova said that the presence of Western troops in Ukraine in any form would escalate the conflict.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "sputnik",
+      "label": "Sputnik",
+      "short_label": "Sputnik",
+      "country": "Russia",
+      "article": {
+        "id": "6cba09e4-8eb5-4698-ab6b-a90b24e9e6bc",
+        "title": "Europe's Defense Official Says 'There Are Western Special Forces in Ukraine' - Reports",
+        "url": "https://sputnikglobe.com/20240228/europes-defense-official-says-there-are-western-special-forces-in-ukraine---reports-1117027552.html",
+        "publication_date": "2024-02-28",
+        "text_sha256": "038a27b130350e6b04063238e37c83cfb4e482a260a0ac19b547e25abe51c3c4"
+      },
+      "attention": "The recovered text opens with an unnamed official’s claim of Western special forces already present, followed by allied refusals and Russian responses.",
+      "claims": [
+        {
+          "id": "S01",
+          "text": "An unnamed official claimed Western special forces were already in Ukraine without public acknowledgment.",
+          "topics": [
+            "roles"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "anonymous_official_claim",
+          "claimants": [
+            {
+              "name": "Unnamed official",
+              "role": "Described in the article title as a European defense official; not identified in the recovered body",
+              "country": "Unknown",
+              "country_basis": "European location in the title does not establish a country, office or individual citizenship."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "An unnamed official claimed Western special forces were already in Ukraine without public acknowledgment.",
+            "note": ""
+          },
+          "attention": "The recovered text opens with an unnamed official’s claim of Western special forces already present, followed by allied refusals and Russian responses. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-02-28 reporting; Macron’s remarks on Western troops. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "\"Everyone knows there are western special forces in Ukraine — they’ve just…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "An unnamed official claimed Western special forces were already in Ukraine without public acknowledgment.",
+            "supporting_sentence": "\"Everyone knows there are western special forces in Ukraine — they’ve just not acknowledged it officially,\" the official said.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "This is an unverified anonymous-source claim. Roles, countries, troop numbers and locations are not given.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "S02",
+          "text": "The report says several NATO countries stated they would not send ground troops.",
+          "topics": [
+            "deployment"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "reported_national_policy_positions",
+          "claimants": [
+            {
+              "name": "Named NATO governments",
+              "role": "Germany, Italy, Poland, Finland and Hungary as listed in the report",
+              "country": "Germany; Italy; Poland; Finland; Hungary",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Criticizes / opposes",
+            "target": "Their own proposed future ground-troop deployments",
+            "note": ""
+          },
+          "attention": "The recovered text opens with an unnamed official’s claim of Western special forces already present, followed by allied refusals and Russian responses. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-02-28 reporting; Macron’s remarks on Western troops. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "Several NATO countries, including Germany, Italy, Poland, Finland and Hungary, have since…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "The report says several NATO countries stated they would not send ground troops.",
+            "supporting_sentence": "Several NATO countries, including Germany, Italy, Poland, Finland and Hungary, have since distanced themselves from Macron’s comment, emphasizing that they have no intention of deploying troops on the ground in Ukraine.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "S03",
+          "text": "Lavrov said the troop debate followed a lack of visible results from sending Ukraine more weapons.",
+          "topics": [
+            "support"
+          ],
+          "kind": {
+            "label": "Opinion / assessment",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "assessment",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Sergey Lavrov",
+              "role": "Foreign minister of Russia",
+              "country": "Russia",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Lavrov said the troop debate followed a lack of visible results from sending Ukraine more weapons.",
+            "note": ""
+          },
+          "attention": "The recovered text opens with an unnamed official’s claim of Western special forces already present, followed by allied refusals and Russian responses. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-02-28 reporting; Macron’s remarks on Western troops. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "In addition, Russian Foreign Minister Sergey Lavrov said that discussions of the…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Lavrov said the troop debate followed a lack of visible results from sending Ukraine more weapons.",
+            "supporting_sentence": "In addition, Russian Foreign Minister Sergey Lavrov said that discussions of the possibility of sending military personnel to Ukraine were due to the absence of any visible results in increasing assistance in the form of supplies of ammunition and weapons to Kiev.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "The article gives no independent measure of weapons deliveries’ effects or the debate’s causes.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "izvestia",
+      "label": "Izvestia",
+      "short_label": "Izvestia",
+      "country": "Russia",
+      "article": {
+        "id": "98382edf-0953-477c-a373-fca72cccdb10",
+        "title": "Шольц счел идею Макрона об отправке солдат на Украину нецелесообразной",
+        "url": "https://iz.ru/1657163/2024-02-28/sholtc-schel-ideiu-makrona-ob-otpravke-soldat-na-ukrainu-netcelesoobraznoi",
+        "publication_date": "2024-02-28",
+        "text_sha256": "9d4f6ea1f34a23b4bbbfb857f93bacf75e8e3b66ccebefa57c5a780b0645e828"
+      },
+      "attention": "The article leads with Scholz’s skepticism and a German spokesman’s account, then gives Russian statements about advisers and escalation.",
+      "claims": [
+        {
+          "id": "I01",
+          "text": "Germany’s spokesman said Scholz found Macron’s troop proposal inappropriate.",
+          "topics": [
+            "reaction"
+          ],
+          "kind": {
+            "label": "Opinion / judgement",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "opinion",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Steffen Hebestreit",
+              "role": "German government spokesperson, describing Scholz’s response",
+              "country": "Germany",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Criticizes / opposes",
+            "target": "Macron’s suggestion of Western ground troops",
+            "note": ""
+          },
+          "attention": "The article leads with Scholz’s skepticism and a German spokesman’s account, then gives Russian statements about advisers and escalation. (Paragraphs 3.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-02-28 reporting; Macron’s remarks on Western troops. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "По словам Хебештрайта, Шольц довольно быстро оценил предложение и назвал его не…",
+            "paragraphs": [
+              3
+            ],
+            "language": "ru",
+            "paraphrase": "Germany’s spokesman said Scholz found Macron’s troop proposal inappropriate.",
+            "supporting_sentence": "По словам Хебештрайта, Шольц довольно быстро оценил предложение и назвал его не очень целесообразным.",
+            "english_translation": "According to Hebestreit, Scholz quickly considered the proposal and called it not very appropriate.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "I02",
+          "text": "Zakharova claimed NATO-country personnel were already in Ukraine helping use weapons.",
+          "topics": [
+            "roles"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Maria Zakharova",
+              "role": "Russian Foreign Ministry spokesperson",
+              "country": "Russia",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Zakharova claimed NATO-country personnel were already in Ukraine helping use weapons.",
+            "note": ""
+          },
+          "attention": "The article leads with Scholz’s skepticism and a German spokesman’s account, then gives Russian statements about advisers and escalation. (Paragraphs 5.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-02-28 reporting; Macron’s remarks on Western troops. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "Комментируя это заявление, официальный представитель МИД России Мария Захарова сказала, что военнослужащие…",
+            "paragraphs": [
+              5
+            ],
+            "language": "ru",
+            "paraphrase": "Zakharova claimed NATO-country personnel were already in Ukraine helping use weapons.",
+            "supporting_sentence": "Комментируя это заявление, официальный представитель МИД России Мария Захарова сказала, что военнослужащие ряда стран НАТО давно находятся на Украине и активно помогают Вооруженным силам Украины (ВСУ) в эксплуатации вооружений.",
+            "english_translation": "Commenting on the statement, Zakharova said personnel from several NATO countries had long been in Ukraine and were actively helping Ukrainian forces operate weapons.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "An attributed Russian claim with no evidence, numbers or precise roles supplied here; do not turn it into confirmation of a NATO combat deployment.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "I03",
+          "text": "Peskov warned that sending troops would make a Russia-NATO clash unavoidable.",
+          "topics": [
+            "escalation"
+          ],
+          "kind": {
+            "label": "Opinion / prediction",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "prediction",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Dmitry Peskov",
+              "role": "Kremlin spokesperson",
+              "country": "Russia",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Peskov warned that sending troops would make a Russia-NATO clash unavoidable.",
+            "note": ""
+          },
+          "attention": "The article leads with Scholz’s skepticism and a German spokesman’s account, then gives Russian statements about advisers and escalation. (Paragraphs 6.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-02-28 reporting; Macron’s remarks on Western troops. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "Со своей стороны официальный представитель Кремля Дмитрий Песков подчеркнул, что прямое столкновение…",
+            "paragraphs": [
+              6
+            ],
+            "language": "ru",
+            "paraphrase": "Peskov warned that sending troops would make a Russia-NATO clash unavoidable.",
+            "supporting_sentence": "Со своей стороны официальный представитель Кремля Дмитрий Песков подчеркнул, что прямое столкновение стран НАТО с Россией не в интересах государств альянса, и они должны отдавать себе в этом отчет. Оценивая риск эскалации в случае отправки войск на Украину, он отметил, что при таком раскладе столкновение России с НАТО будет неизбежно.",
+            "english_translation": "Peskov said direct confrontation with Russia was not in NATO countries’ interests. He added that sending troops in this situation would make a Russia-NATO clash unavoidable.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "china_daily",
+      "label": "China Daily",
+      "short_label": "China Daily",
+      "country": "China",
+      "article": {
+        "id": "dd0193eb-c724-416b-837d-be6475427254",
+        "title": "German defense minister rules out sending troops to Ukraine",
+        "url": "https://www.chinadaily.com.cn/a/202402/28/WS65de214aa31082fc043b9641.html",
+        "publication_date": "2024-02-28",
+        "text_sha256": "c39586a88e7b8806a212b353045ee5337297cd5d976fc34ac542dd504e3f17ec"
+      },
+      "attention": "The short report focuses on Germany ruling out ground troops and Austria’s concern, while quoting Macron’s open-ended remark.",
+      "claims": [
+        {
+          "id": "CD01",
+          "text": "Pistorius ruled out sending German ground troops to Ukraine.",
+          "topics": [
+            "deployment"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Boris Pistorius",
+              "role": "Defense minister of Germany",
+              "country": "Germany",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Criticizes / opposes",
+            "target": "German ground-troop deployment in Ukraine",
+            "note": ""
+          },
+          "attention": "The short report focuses on Germany ruling out ground troops and Austria’s concern, while quoting Macron’s open-ended remark. (Paragraphs 2.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-02-28 reporting; Macron’s remarks on Western troops. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "\"Boots on the ground is not an option for the Federal Republic…",
+            "paragraphs": [
+              2
+            ],
+            "language": "en",
+            "paraphrase": "Pistorius ruled out sending German ground troops to Ukraine.",
+            "supporting_sentence": "\"Boots on the ground is not an option for the Federal Republic of Germany,\" Pistorius told a press conference after meeting with Austrian Defense Minister Klaudia Tanner in Vienna on Tuesday.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CD02",
+          "text": "Austria’s defense minister called Macron’s comments a worrying signal.",
+          "topics": [
+            "reaction"
+          ],
+          "kind": {
+            "label": "Opinion / judgement",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "opinion",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Klaudia Tanner",
+              "role": "Defense minister of Austria",
+              "country": "Austria",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "criticizes",
+            "label": "Criticizes",
+            "target": "Macron’s remarks about possible Western troops",
+            "note": ""
+          },
+          "attention": "The short report focuses on Germany ruling out ground troops and Austria’s concern, while quoting Macron’s open-ended remark. (Paragraphs 3.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-02-28 reporting; Macron’s remarks on Western troops. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "Tanner also called Macron's remarks \"a worrying signal.\"",
+            "paragraphs": [
+              3
+            ],
+            "language": "en",
+            "paraphrase": "Austria’s defense minister called Macron’s comments a worrying signal.",
+            "supporting_sentence": "Tanner also called Macron's remarks \"a worrying signal.\"",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CD03",
+          "text": "Macron said Western troop deployments should not be ruled out, though leaders had not agreed.",
+          "topics": [
+            "deployment"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Emmanuel Macron",
+              "role": "President of France",
+              "country": "France",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Keeping a future Western troop option open",
+            "note": ""
+          },
+          "attention": "The short report focuses on Germany ruling out ground troops and Austria’s concern, while quoting Macron’s open-ended remark. (Paragraphs 4.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-02-28 reporting; Macron’s remarks on Western troops. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "Macron said at a gathering of European leaders on Monday that while…",
+            "paragraphs": [
+              4
+            ],
+            "language": "en",
+            "paraphrase": "Macron said Western troop deployments should not be ruled out, though leaders had not agreed.",
+            "supporting_sentence": "Macron said at a gathering of European leaders on Monday that while there was no official consensus among European leaders, the possibility of sending Western troops to Ukraine \"should not be ruled out,\" adding that the West will do everything to ensure Russia does not win the ongoing conflict.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "global_times",
+      "label": "Global Times",
+      "short_label": "Global Times",
+      "country": "China",
+      "article": {
+        "id": "cd8ad14d-d687-4185-840e-ad3738165ba4",
+        "title": "‘Western rifts’ exposed as Macron’s remarks on sending troops to Ukraine contradicted by US, allies",
+        "url": "https://www.globaltimes.cn/page/202402/1307863.shtml",
+        "publication_date": "2024-02-28",
+        "text_sha256": "611c3d359c0f676e71478a4f0e4e54975d98a363293b99c8126379a5ceae9a28"
+      },
+      "attention": "The report emphasizes Western disagreements, quoting a Chinese professor on signals, uncertainty and obstacles to peace talks.",
+      "claims": [
+        {
+          "id": "GT01",
+          "text": "Global Times repeats CNN’s report that the US had ruled out sending its troops to fight in Ukraine.",
+          "topics": [
+            "deployment"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "CNN_report_repeated_by_Global_Times",
+          "claimants": [
+            {
+              "name": "US State Department and Pentagon",
+              "role": "US institutions reiterating President Biden’s policy, according to CNN",
+              "country": "United States",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Criticizes / opposes",
+            "target": "US troops fighting in Ukraine",
+            "note": ""
+          },
+          "attention": "The report emphasizes Western disagreements, quoting a Chinese professor on signals, uncertainty and obstacles to peace talks. (Paragraphs 4.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-02-28 reporting; Macron’s remarks on Western troops. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "Following Macron's remarks, the US State Department and the Pentagon both reiterated…",
+            "paragraphs": [
+              4
+            ],
+            "language": "en",
+            "paraphrase": "Global Times repeats CNN’s report that the US had ruled out sending its troops to fight in Ukraine.",
+            "supporting_sentence": "Following Macron's remarks, the US State Department and the Pentagon both reiterated that President Joe Biden had ruled out sending US troops to fight in Ukraine, CNN reported.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "GT02",
+          "text": "Cui said the differing responses to Macron showed divisions among Western countries.",
+          "topics": [
+            "reaction",
+            "diplomacy"
+          ],
+          "kind": {
+            "label": "Opinion / assessment",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "assessment",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Cui Hongjian",
+              "role": "Professor at Beijing Foreign Studies University",
+              "country": "China",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Cui said the differing responses to Macron showed divisions among Western countries.",
+            "note": ""
+          },
+          "attention": "The report emphasizes Western disagreements, quoting a Chinese professor on signals, uncertainty and obstacles to peace talks. (Paragraphs 7.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-02-28 reporting; Macron’s remarks on Western troops. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "The US and several European countries' contrasting remarks with Macron's reflected the…",
+            "paragraphs": [
+              7
+            ],
+            "language": "en",
+            "paraphrase": "Cui said the differing responses to Macron showed divisions among Western countries.",
+            "supporting_sentence": "The US and several European countries' contrasting remarks with Macron's reflected the current internal divisions within the West on the issue of Ukraine, Cui Hongjian, a professor with the Academy of Regional and Global Governance at Beijing Foreign Studies University, told the Global Times on Wednesday, adding that NATO is unlikely to directly involve itself in the conflict, as adopting practices that minimize harm to its own interests while still gaining some strategic benefits is in its best interests.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "GT03",
+          "text": "Cui said mixed messages might leave Russia unsure of Western plans.",
+          "topics": [
+            "diplomacy"
+          ],
+          "kind": {
+            "label": "Opinion / prediction",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "prediction",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Cui Hongjian",
+              "role": "Professor at Beijing Foreign Studies University",
+              "country": "China",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Cui said mixed messages might leave Russia unsure of Western plans.",
+            "note": ""
+          },
+          "attention": "The report emphasizes Western disagreements, quoting a Chinese professor on signals, uncertainty and obstacles to peace talks. (Paragraphs 9.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-02-28 reporting; Macron’s remarks on Western troops. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "\"The different voices expressed by the US and European leaders may also…",
+            "paragraphs": [
+              9
+            ],
+            "language": "en",
+            "paraphrase": "Cui said mixed messages might leave Russia unsure of Western plans.",
+            "supporting_sentence": "\"The different voices expressed by the US and European leaders may also have achieved the so-called 'strategic ambiguity' that Macron wanted to create, causing some confusion for the Russian side regarding the current situation in the West,\" the expert said.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "The source’s term strategic ambiguity is explained as uncertainty about plans; this is not proof that Russia was actually confused.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "GT04",
+          "text": "Cui argued that both sides lacked the trust and willingness needed for peace talks.",
+          "topics": [
+            "diplomacy"
+          ],
+          "kind": {
+            "label": "Opinion / assessment",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "assessment",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Cui Hongjian",
+              "role": "Professor at Beijing Foreign Studies University",
+              "country": "China",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Cui argued that both sides lacked the trust and willingness needed for peace talks.",
+            "note": ""
+          },
+          "attention": "The report emphasizes Western disagreements, quoting a Chinese professor on signals, uncertainty and obstacles to peace talks. (Paragraphs 12.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2024-02-28 reporting; Macron’s remarks on Western troops. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "Cui said that the Russian side is giving the West the impression…",
+            "paragraphs": [
+              12
+            ],
+            "language": "en",
+            "paraphrase": "Cui argued that both sides lacked the trust and willingness needed for peace talks.",
+            "supporting_sentence": "Cui said that the Russian side is giving the West the impression that it has no intention of halting the war, and in response, Europe will definitely not show weakness, as it is now moving to establish consensus aimed at preventing a Russian victory. \"Therefore, it seems that there is a lack of a basis for peace talks, given that at least one party needs to show some sincerity to pave the way for peace talks,\" the expert said.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "E01",
+      "source": "kyivpost",
+      "target": "europeanpravda",
+      "topic": "deployment",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "KI01",
+      "target_claim": "EP04",
+      "label": "Same open-ended French position",
+      "subtype": "same_official_position",
+      "reason": "Both report Macron leaving future Western deployments open without an agreed plan. These reports rely on the same original statement.",
+      "caveat": "Same original speaker; not independent evidence that a deployment was ordered.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E02",
+      "source": "kyivpost",
+      "target": "china_daily",
+      "topic": "deployment",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "KI01",
+      "target_claim": "CD03",
+      "label": "Same Macron statement",
+      "subtype": "same_official_position",
+      "reason": "Both describe the option remaining open despite no consensus. These reports rely on the same original statement.",
+      "caveat": "The statement is not a commitment by France or all NATO countries to send combat soldiers.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E03",
+      "source": "china_daily",
+      "target": "sputnik",
+      "topic": "deployment",
+      "relation": "supportive",
+      "color": "green",
+      "source_claim": "CD01",
+      "target_claim": "S02",
+      "label": "Germany’s stated refusal supports one part of the list",
+      "subtype": "specified_partial_support",
+      "reason": "China Daily directly quotes Pistorius ruling out German ground troops. That provides a named national statement supporting the Germany component of Sputnik’s wider list.",
+      "caveat": "Sputnik lists several countries. The supporting passage concerns Germany.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": true,
+      "direction": "source_to_target",
+      "support_scope": "The German national position in S02.",
+      "direction_reason": "CD01 supplies the specified support for S02.",
+      "unsupported_parts": "The policies of every listed country or a denial of all personnel already in Ukraine."
+    },
+    {
+      "id": "E04",
+      "source": "censor",
+      "target": "kyivpost",
+      "topic": "deployment",
+      "relation": "supportive",
+      "color": "green",
+      "source_claim": "CEN02",
+      "target_claim": "KI03",
+      "label": "The quoted NATO statement supports the broad account",
+      "subtype": "specified_partial_support",
+      "reason": "Censor.NET quotes Stoltenberg specifying no plans for NATO combat troops. That supports the NATO-chief component of Kyiv Independent’s report of responses to Macron.",
+      "caveat": "The direct quotation is narrower than the general deployment wording in KI03.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": true,
+      "direction": "source_to_target",
+      "support_scope": "The NATO combat-deployment-plan component of KI03.",
+      "direction_reason": "CEN02 supplies the specified support for KI03.",
+      "unsupported_parts": "Every member state’s policy, all future options or the absence of existing national personnel."
+    },
+    {
+      "id": "E05",
+      "source": "kyivpost",
+      "target": "china_daily",
+      "topic": "deployment",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "KI01",
+      "target_claim": "CD01",
+      "label": "Different governments’ options",
+      "subtype": "scope_or_certainty_difference",
+      "reason": "Macron leaves future Western options open; Germany refuses to send its own ground forces.",
+      "caveat": "France keeping an option open and Germany rejecting its own participation can coexist; these are different decision-makers.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E06",
+      "source": "sputnik",
+      "target": "censor",
+      "topic": "roles",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "S01",
+      "target_claim": "CEN02",
+      "label": "Existing special forces versus future combat troops",
+      "subtype": "scope_or_certainty_difference",
+      "reason": "An anonymous source claims special forces are already there; Stoltenberg says NATO has no combat-deployment plan.",
+      "caveat": "Different roles, institutions and times; no direct contradiction and no confirmation of the anonymous claim.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E07",
+      "source": "sputnik",
+      "target": "izvestia",
+      "topic": "roles",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "S01",
+      "target_claim": "I02",
+      "label": "Two claims with unclear roles",
+      "subtype": "scope_or_certainty_difference",
+      "reason": "One unnamed official alleges special forces; Zakharova alleges personnel helping operate weapons.",
+      "caveat": "The people, countries, roles and dates are not matched. Similar allegations are not independent corroboration of the same unit.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E08",
+      "source": "europeanpravda",
+      "target": "izvestia",
+      "topic": "roles",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "EP03",
+      "target_claim": "I02",
+      "label": "Possible noncombat role versus alleged presence",
+      "subtype": "scope_or_certainty_difference",
+      "reason": "France discusses a possible future noncombat role; Zakharova claims personnel already help with weapons.",
+      "caveat": "Contemplated future deployments and alleged present advisers are different claims.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E09",
+      "source": "europeanpravda",
+      "target": "china_daily",
+      "topic": "reaction",
+      "relation": "contradiction",
+      "color": "red",
+      "source_claim": "EP01",
+      "target_claim": "CD02",
+      "label": "Useful signal versus worrying signal",
+      "subtype": "stance_disagreement",
+      "reason": "Väli evaluates the troop discussion as a useful message of support. Tanner calls Macron’s remarks a worrying signal. Their evaluations of the remarks point in different directions.",
+      "caveat": "This proposed narrative comparison concerns the speakers’ evaluations. A message could be useful in one respect and worrying in another. Review should compare the reasons and scope before deciding on a contradiction.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected",
+      "confirmation_status": "proposed",
+      "direction_reason": "The passages present conflicting claims or assessments. Neither explicitly rebuts the matching claim in the other report."
+    },
+    {
+      "id": "E10",
+      "source": "tass",
+      "target": "izvestia",
+      "topic": "reaction",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "T02",
+      "target_claim": "I01",
+      "label": "Same German account of Scholz’s view",
+      "subtype": "same_official_statement",
+      "reason": "Both carry Hebestreit’s description of Scholz’s negative reaction. These reports rely on the same original statement.",
+      "caveat": "Same German government source translated by different outlets, not two independent accounts of every attendee.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E11",
+      "source": "europeanpravda",
+      "target": "global_times",
+      "topic": "diplomacy",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "EP01",
+      "target_claim": "GT02",
+      "label": "Message of resolve and signs of division",
+      "subtype": "scope_or_certainty_difference",
+      "reason": "Väli sees a useful signal; Cui sees disagreement among governments.",
+      "caveat": "A debate can signal commitment while exposing disagreement, so the assessments need not be incompatible.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E12",
+      "source": "kyivpost",
+      "target": "censor",
+      "topic": "support",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "KI02",
+      "target_claim": "CEN01",
+      "label": "Talks versus conditional welcome",
+      "subtype": "scope_or_certainty_difference",
+      "reason": "Zelensky wants new defense ideas and separately welcomes ideas that strengthen Ukraine.",
+      "caveat": "Neither sentence explicitly approves a NATO combat deployment. They describe related but distinct remarks.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E13",
+      "source": "europeanpravda",
+      "target": "sputnik",
+      "topic": "support",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "EP02",
+      "target_claim": "S03",
+      "label": "What is needed versus claimed lack of results",
+      "subtype": "scope_or_certainty_difference",
+      "reason": "Väli argues weapons are Ukraine’s priority; Lavrov alleges more weapons have brought no visible results.",
+      "caveat": "The first is a recommendation about needs; the second is a Russian official’s causal assessment. No matched measurement of the same supplies is given.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E14",
+      "source": "censor",
+      "target": "izvestia",
+      "topic": "escalation",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CEN03",
+      "target_claim": "I03",
+      "label": "Same Peskov warning",
+      "subtype": "same_official_statement",
+      "reason": "Both relay Peskov’s prediction of a Russia-NATO confrontation. These reports rely on the same original statement.",
+      "caveat": "Same source, not independent proof that war would follow.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E15",
+      "source": "censor",
+      "target": "tass",
+      "topic": "escalation",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CEN03",
+      "target_claim": "T03",
+      "label": "Both Russian officials warn of escalation",
+      "subtype": "parallel_accounts_or_interpretations",
+      "reason": "Peskov predicts direct conflict; Zakharova says Western troops in any form worsen the war. The matching content alone supplies no evidential direction.",
+      "caveat": "This matches a broad warning, not an identical prediction: the officials specify different outcomes and troop-role scopes.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E16",
+      "source": "tass",
+      "target": "global_times",
+      "topic": "reaction",
+      "source_claim": "T02",
+      "target_claim": "GT02",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "relation": "supportive",
+      "color": "green",
+      "directed": true,
+      "direction": "source_to_target",
+      "label": "Scholz’s reported objection supports the division account",
+      "subtype": "specified_partial_support",
+      "reason": "TASS quotes Germany’s spokesman describing Scholz’s objection to Macron’s proposal. That supplies a specific government disagreement supporting Cui’s interpretation of divisions in the West.",
+      "support_scope": "The differing-government-positions component of GT02.",
+      "caveat": "The arrow uses a reported German reaction to support a specific part of the analyst’s reading.",
+      "direction_reason": "T02 supplies the specified support for GT02.",
+      "unsupported_parts": "Every Western government’s view or Cui’s prediction that NATO will avoid direct involvement."
+    }
+  ],
+  "excluded": [
+    {
+      "source": "cnn",
+      "outlet": "CNN",
+      "reason": "Pentagon funding and ammunition report; it does not discuss Macron’s remarks or Western troop deployments."
+    }
+  ],
+  "method": {
+    "country_note": "Outlet countries describe origin. Claimant countries describe an office, organization or stated residence, not assumed citizenship.",
+    "claim_type_note": "A fact claim is a checkable statement, not a fact verified by this graph. Opinions, predictions, legal positions and promises are marked separately.",
+    "edge_note": "Green arrows point from a claim supplying a reason, example or reported statement to the specified part of another claim. Grey comparisons have no assigned evidential direction. Solid red connections mark proposed contradictions between specific claims or assessments. An arrow is used for an explicit rebuttal of a matching claim. Repeated reports of the same statement share a source.",
+    "attention_note": "Attention is a qualitative reading of the saved article, with paragraph locators; it is not a measured share of words.",
+    "endorsement_note": "A quoted speaker’s view is separate from the article narrator’s view. No outlet-wide position is inferred from one article.",
+    "annotation_status": "AI-assisted draft; human review pending",
+    "cleaning_note": "Uses saved recovered text. Kyiv Independent later Most Popular / News Feed material is excluded; original paragraph numbers retained. FT wrapped lines are joined into logical paragraphs."
+  }
+}

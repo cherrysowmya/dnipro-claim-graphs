@@ -1,0 +1,1827 @@
+{
+  "schema_version": "1.1",
+  "event": {
+    "id": "claimed_incorporation_20220930",
+    "label": "Russia claims four Ukrainian regions",
+    "date": "2022-09-30",
+    "description": "Claims about Russia’s September 30 signing ceremony, asserted incorporation of four Ukrainian regions, rejection of that claim and proposed responses. Signing documents, claiming sovereignty and physically controlling land are separate propositions.",
+    "default_topic": "legality",
+    "default_node": "cnn",
+    "graph_scope": "whole_event",
+    "multigraph": true
+  },
+  "topics": [
+    {
+      "id": "signing",
+      "label": "What happened at the ceremony?",
+      "scope_note": "Reporting signatures does not recognize the claimed legal effect of the documents."
+    },
+    {
+      "id": "legality",
+      "label": "Legality and recognition",
+      "scope_note": "Compare the same incorporation act. Opposed legal and policy positions are not a judicial ruling by this graph."
+    },
+    {
+      "id": "choice",
+      "label": "Do the votes show a free choice?",
+      "scope_note": "Announced numbers and political claims of consent are not independently checked results or proof of free voting."
+    },
+    {
+      "id": "control",
+      "label": "Claims versus physical control",
+      "scope_note": "Claiming an entire region is different from controlling it on the ground."
+    },
+    {
+      "id": "responses",
+      "label": "Proposed economic and military responses",
+      "scope_note": "Promises, recommendations and completed measures retain their different times and status."
+    },
+    {
+      "id": "negotiation",
+      "label": "Conditions for talks",
+      "scope_note": "A call for talks can coexist with conditions that other parties reject. Different preconditions are not proof negotiations occurred."
+    },
+    {
+      "id": "framing",
+      "label": "How the event is described",
+      "scope_note": "Quoted praise and article-narrator criticism remain separate; celebratory ceremony reporting is not automatic endorsement."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "cnn",
+      "label": "CNN",
+      "short_label": "CNN",
+      "country": "United States",
+      "article": {
+        "id": "e20bf87d-8609-4b80-97e7-31b3b079eeb5",
+        "title": "Putin announces annexation of Ukrainian regions in defiance of international law",
+        "url": "https://www.cnn.com/2022/09/30/europe/putin-russia-ukraine-annexation-intl/index.html",
+        "publication_date": "2022-09-30",
+        "text_sha256": "58e33707748c365c003b28e50937291f0a9b6aa938a0ab3d325d1b53e8f95efb"
+      },
+      "attention": "The recovered paragraph reports the claimed incorporation, legal condemnation, Western responses, Ukrainian resistance and Putin’s refusal to negotiate the regions’ sovereignty. Exact excerpts keep these separate.",
+      "claims": [
+        {
+          "id": "CNN01",
+          "text": "CNN says Russia’s claimed incorporation of the four regions is illegal under international law.",
+          "topics": [
+            "legality"
+          ],
+          "kind": {
+            "label": "Legal claim — not checked here",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "legal_interpretation",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "CNN article narrator",
+              "role": "Article narrative voice",
+              "country": "United States",
+              "country_basis": "Outlet origin; individual reporter citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Criticizes / opposes",
+            "target": "Legality of Russia claiming four Ukrainian regions as Russian territory",
+            "note": ""
+          },
+          "attention": "The recovered paragraph reports the claimed incorporation, legal condemnation, Western responses, Ukrainian resistance and Putin’s refusal to negotiate the regions’ sovereignty. Exact excerpts keep these separate. (Paragraphs 1.)",
+          "outlet_view": "This is the article narrator’s wording; it is not an outlet-wide policy statement.",
+          "where_when": "Statement in the selected article for 2022-09-30; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "Under the annexation process, which is illegal under international law, Moscow will…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "CNN says Russia’s claimed incorporation of the four regions is illegal under international law.",
+            "supporting_sentence": "Under the annexation process, which is illegal under international law, Moscow will recognize four Ukrainian regions as Russian territory: Luhansk and Donetsk – home to two Russian-backed breakaway republics where fighting has been ongoing since 2014 – as well as Kherson and Zaporizhzhia, two areas in southern Ukraine that have been occupied by Russian forces since shortly after the invasion began.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "This records the article’s legal characterization rather than conducting a separate legal determination.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CNN02",
+          "text": "G 7 governments and the EU say they will never recognize Russian sovereignty over the four regions.",
+          "topics": [
+            "legality"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "G7 governments and European Union",
+              "role": "Government/institutional response quoted collectively",
+              "country": "Canada, France, Germany, Italy, Japan, United Kingdom, United States and EU",
+              "country_basis": "Stated official/institutional affiliation; citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Criticizes / opposes",
+            "target": "Recognizing Russia’s claimed sovereignty over the four Ukrainian regions",
+            "note": ""
+          },
+          "attention": "The recovered paragraph reports the claimed incorporation, legal condemnation, Western responses, Ukrainian resistance and Putin’s refusal to negotiate the regions’ sovereignty. Exact excerpts keep these separate. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Statement in the selected article for 2022-09-30; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "Members of the G7 – Canada, France, Germany, Italy, Japan, the United…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "G7 governments and the EU say they will never recognize Russian sovereignty over the four regions.",
+            "supporting_sentence": "Members of the G7 – Canada, France, Germany, Italy, Japan, the United Kingdom and the United States – and the European Union have vowed to never recognize Russian sovereignty over the regions and to impose sanctions on Russia.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CNN03",
+          "text": "The same Western governments promise economic restrictions on Russia in response.",
+          "topics": [
+            "responses"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "G7 governments and European Union",
+              "role": "Government/institutional response quoted collectively",
+              "country": "G7 countries and European Union",
+              "country_basis": "Stated official/institutional affiliation; citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Economic restrictions responding to the territorial claim",
+            "note": ""
+          },
+          "attention": "The recovered paragraph reports the claimed incorporation, legal condemnation, Western responses, Ukrainian resistance and Putin’s refusal to negotiate the regions’ sovereignty. Exact excerpts keep these separate. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Statement in the selected article for 2022-09-30; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "Members of the G7 – Canada, France, Germany, Italy, Japan, the United…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "The same Western governments promise economic restrictions on Russia in response.",
+            "supporting_sentence": "Members of the G7 – Canada, France, Germany, Italy, Japan, the United Kingdom and the United States – and the European Union have vowed to never recognize Russian sovereignty over the regions and to impose sanctions on Russia.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CNN04",
+          "text": "Zelensky says Ukraine will recover all its territory.",
+          "topics": [
+            "control",
+            "responses"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Volodymyr Zelensky",
+              "role": "Ukraine’s president",
+              "country": "Ukraine",
+              "country_basis": "Stated official/institutional affiliation; citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Ukraine recovering its internationally claimed territory",
+            "note": ""
+          },
+          "attention": "The recovered paragraph reports the claimed incorporation, legal condemnation, Western responses, Ukrainian resistance and Putin’s refusal to negotiate the regions’ sovereignty. Exact excerpts keep these separate. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Statement in the selected article for 2022-09-30; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "Ukraine President Volodymyr Zelensky called the move a “farce” in a pre-recorded…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Zelensky says Ukraine will recover all its territory.",
+            "supporting_sentence": "Ukraine President Volodymyr Zelensky called the move a “farce” in a pre-recorded video statement released shortly after Putin’s speech and vowed that “the entire territory of our country will be liberated.”",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CNN05",
+          "text": "CNN reports Ukraine still controls about 40 percent of Donetsk.",
+          "topics": [
+            "control"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "CNN article narrator",
+              "role": "Article narrative voice",
+              "country": "United States",
+              "country_basis": "Outlet origin; individual reporter citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "CNN reports Ukraine still controls about40percent of Donetsk.",
+            "note": ""
+          },
+          "attention": "The recovered paragraph reports the claimed incorporation, legal condemnation, Western responses, Ukrainian resistance and Putin’s refusal to negotiate the regions’ sovereignty. Exact excerpts keep these separate. (Paragraphs 1.)",
+          "outlet_view": "This is the article narrator’s wording; it is not an outlet-wide policy statement.",
+          "where_when": "Statement in the selected article for 2022-09-30; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "Kyiv now controls about 40% of Donetsk, though many towns and cities…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "CNN reports Ukraine still controls about40percent of Donetsk.",
+            "supporting_sentence": "Kyiv now controls about 40% of Donetsk, though many towns and cities bear scars of war that will take years to heal.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "This is a reported territorial-control estimate for Donetsk, not a percentage for all four regions.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CNN06",
+          "text": "Putin says he is willing to talk, but the four regions’ sovereignty is not negotiable.",
+          "topics": [
+            "negotiation",
+            "legality"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Vladimir Putin",
+              "role": "Russian president",
+              "country": "Russia",
+              "country_basis": "Stated official/institutional affiliation; citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Keeping Russia’s claimed sovereignty over the four regions outside negotiations",
+            "note": ""
+          },
+          "attention": "The recovered paragraph reports the claimed incorporation, legal condemnation, Western responses, Ukrainian resistance and Putin’s refusal to negotiate the regions’ sovereignty. Exact excerpts keep these separate. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Statement in the selected article for 2022-09-30; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "Putin said Friday that while he was willing to negotiate with Ukraine,…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Putin says he is willing to talk, but the four regions’ sovereignty is not negotiable.",
+            "supporting_sentence": "Putin said Friday that while he was willing to negotiate with Ukraine, the sovereignty of those four regions would not be on the table.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "A stated negotiating position, not this graph recognizing Russia’s territorial claim.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "ft",
+      "label": "Financial Times",
+      "short_label": "FT",
+      "country": "United Kingdom",
+      "article": {
+        "id": "fa1824c1-b44c-4523-8d9b-a0ad3cdf9168",
+        "title": "Vladimir Putin unleashes a new phase of war",
+        "url": "https://www.ft.com/content/b64a497c-450f-4da9-a4d9-cd0310b63413",
+        "publication_date": "2022-09-30",
+        "text_sha256": "7464dea08ae839bc684325face8bbc2b177222826dd3027dd72c57f816bc6376"
+      },
+      "attention": "This is an editorial criticizing the land claim and recommending continued pressure and aid (P 1,5–9). Its separate Nord Stream allegation in P 3 is not mixed into this event graph.",
+      "claims": [
+        {
+          "id": "FT01",
+          "text": "The FT editorial calls Russia’s territorial claim an illegal land grab and says the West must not accept it.",
+          "topics": [
+            "legality",
+            "framing"
+          ],
+          "kind": {
+            "label": "Opinion / judgement",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "opinion",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "Financial Times article narrator",
+              "role": "Article narrative voice",
+              "country": "United Kingdom",
+              "country_basis": "Outlet origin; individual reporter citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Criticizes / opposes",
+            "target": "Acceptance of Russia’s claimed incorporation of Ukrainian land",
+            "note": ""
+          },
+          "attention": "This is an editorial criticizing the land claim and recommending continued pressure and aid (P 1,5–9). Its separate Nord Stream allegation in P 3 is not mixed into this event graph. (Paragraphs 1.)",
+          "outlet_view": "This is the FT editorial’s own explicit judgement and recommendation, scoped to this editorial.",
+          "where_when": "Statement in the selected article for 2022-09-30; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "Yet for western allies to allow this illegal land grab to stand…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "The FT editorial calls Russia’s territorial claim an illegal land grab and says the West must not accept it.",
+            "supporting_sentence": "Yet for western allies to allow this illegal land grab to stand would set a further, devastating precedent.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "FT02",
+          "text": "The FT editorial says the regions were claimed through military force and sham votes.",
+          "topics": [
+            "choice",
+            "framing"
+          ],
+          "kind": {
+            "label": "Framing / words used",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "framing",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "Financial Times article narrator",
+              "role": "Article narrative voice",
+              "country": "United Kingdom",
+              "country_basis": "Outlet origin; individual reporter citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Criticizes / opposes",
+            "target": "Treating the votes as a legitimate basis for taking the regions",
+            "note": ""
+          },
+          "attention": "This is an editorial criticizing the land claim and recommending continued pressure and aid (P 1,5–9). Its separate Nord Stream allegation in P 3 is not mixed into this event graph. (Paragraphs 1.)",
+          "outlet_view": "This is the editorial narrator’s explicit description, not a quoted official’s words.",
+          "where_when": "Statement in the selected article for 2022-09-30; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "Eight years after Russia annexed Crimea, it has claimed sovereignty over an…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "The FT editorial says the regions were claimed through military force and sham votes.",
+            "supporting_sentence": "Eight years after Russia annexed Crimea, it has claimed sovereignty over an even larger chunk of Ukrainian territory through military force and sham “votes”.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "FT03",
+          "text": "The FT editorial urges tougher economic restrictions and more weapons and financial help for Ukraine.",
+          "topics": [
+            "responses"
+          ],
+          "kind": {
+            "label": "Opinion / judgement",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "opinion",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "Financial Times article narrator",
+              "role": "Article narrative voice",
+              "country": "United Kingdom",
+              "country_basis": "Outlet origin; individual reporter citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Continued aid to Ukraine and economic pressure on Russia",
+            "note": ""
+          },
+          "attention": "This is an editorial criticizing the land claim and recommending continued pressure and aid (P 1,5–9). Its separate Nord Stream allegation in P 3 is not mixed into this event graph. (Paragraphs 6.)",
+          "outlet_view": "These are the editorial’s recommendations, not reports that every suggested measure has already happened.",
+          "where_when": "Statement in the selected article for 2022-09-30; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "Beyond that, western countries need to maintain a strategy of support for…",
+            "paragraphs": [
+              6
+            ],
+            "language": "en",
+            "paraphrase": "The FT editorial urges tougher economic restrictions and more weapons and financial help for Ukraine.",
+            "supporting_sentence": "Beyond that, western countries need to maintain a strategy of support for Ukraine and pressure on Russia that aims ultimately to deprive Moscow of the capability to continue its war. They should step up sanctions to squeeze its economy, and better enforce existing measures. They should provide Kyiv with more of the weaponry it seeks, including air defence systems. Financial support is as important as military aid.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "FT04",
+          "text": "The FT editorial says Ukraine and the West cannot accept Putin’s imposed terms.",
+          "topics": [
+            "negotiation",
+            "legality"
+          ],
+          "kind": {
+            "label": "Opinion / judgement",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "opinion",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "Financial Times article narrator",
+              "role": "Article narrative voice",
+              "country": "United Kingdom",
+              "country_basis": "Outlet origin; individual reporter citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Criticizes / opposes",
+            "target": "Accepting the territorial and political terms Putin seeks to impose",
+            "note": ""
+          },
+          "attention": "This is an editorial criticizing the land claim and recommending continued pressure and aid (P 1,5–9). Its separate Nord Stream allegation in P 3 is not mixed into this event graph. (Paragraphs 9.)",
+          "outlet_view": "This is the editorial’s own recommendation, not a government policy announcement.",
+          "where_when": "Statement in the selected article for 2022-09-30; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "But Ukraine and the west cannot accept the terms Putin is now…",
+            "paragraphs": [
+              9
+            ],
+            "language": "en",
+            "paraphrase": "The FT editorial says Ukraine and the West cannot accept Putin’s imposed terms.",
+            "supporting_sentence": "But Ukraine and the west cannot accept the terms Putin is now trying to impose — even if further turning the tables and regaining ground will be a longer and more onerous task than Kyiv’s recent advances had briefly allowed them to hope.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "kyivpost",
+      "label": "Kyiv Independent",
+      "short_label": "Kyiv Ind.",
+      "country": "Ukraine",
+      "article": {
+        "id": "fe2389fc-ea38-4658-82b6-21861234f4b2",
+        "title": "Kuleba: ‘Nothing changes for Ukraine’ following Russia’s illegal annexations",
+        "url": "https://kyivindependent.com/kuleba-nothing-changes-for-ukraine-following-russias-illegal-annexations/",
+        "publication_date": "2022-09-30",
+        "text_sha256": "aed5a8ec6d4d0f80138ef5a90da7694525c2fc738cedbc040ecf6660c807c432"
+      },
+      "attention": "The one-paragraph brief reports Kuleba’s unchanged territorial claims and the gap between Russia’s claims and its physical control.",
+      "claims": [
+        {
+          "id": "KI01",
+          "text": "Kuleba says Ukraine will keep recovering its land and people despite Russia’s announcement.",
+          "topics": [
+            "control",
+            "responses",
+            "legality"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Dmytro Kuleba",
+              "role": "Ukraine’s foreign minister",
+              "country": "Ukraine",
+              "country_basis": "Stated official/institutional affiliation; citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Ukraine restoring its territorial integrity",
+            "note": ""
+          },
+          "attention": "The one-paragraph brief reports Kuleba’s unchanged territorial claims and the gap between Russia’s claims and its physical control. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Statement in the selected article for 2022-09-30; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "Foreign Minister Dmytro Kuleba said Ukraine will “continue liberating our land and…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Kuleba says Ukraine will keep recovering its land and people despite Russia’s announcement.",
+            "supporting_sentence": "Foreign Minister Dmytro Kuleba said Ukraine will “continue liberating our land and our people, restoring our territorial integrity” despite Russia’s condemned actions.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "KI02",
+          "text": "Kuleba says Putin is trying to claim land Russia does not physically control.",
+          "topics": [
+            "control"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Dmytro Kuleba",
+              "role": "Ukraine’s foreign minister",
+              "country": "Ukraine",
+              "country_basis": "Stated official/institutional affiliation; citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Kuleba says Putin is trying to claim land Russia does not physically control.",
+            "note": ""
+          },
+          "attention": "The one-paragraph brief reports Kuleba’s unchanged territorial claims and the gap between Russia’s claims and its physical control. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Statement in the selected article for 2022-09-30; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "He noted that, in trying to annex Ukraine’s Donetsk, Luhansk, Zaporizhzhia, and…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Kuleba says Putin is trying to claim land Russia does not physically control.",
+            "supporting_sentence": "He noted that, in trying to annex Ukraine’s Donetsk, Luhansk, Zaporizhzhia, and Kherson oblasts, “Putin tries to grab territories he doesn’t even physically control on the ground.”",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "europeanpravda",
+      "label": "European Pravda",
+      "short_label": "E. Pravda",
+      "country": "Ukraine",
+      "article": {
+        "id": "77b6ac42-c153-4232-b6c1-25434b50af2b",
+        "title": "Putin's Annexation Does Not Change Anything for Ukraine - Kuleba",
+        "url": "https://www.eurointegration.com.ua/eng/news/2022/09/30/7147849/",
+        "publication_date": "2022-09-30",
+        "text_sha256": "d30cb0ae94aaaaf5c74e92a991c7e2c056bee4df60313d664788ba0a70803ef3"
+      },
+      "attention": "The article repeats Kuleba’s tweet (P 2–5), then records the ceremony, EU condemnation and new economic restrictions (P 6–8). The duplicated tweet is not independent evidence.",
+      "claims": [
+        {
+          "id": "EP01",
+          "text": "Kuleba says the announcement changes nothing and Ukraine will keep recovering its territory.",
+          "topics": [
+            "control",
+            "responses",
+            "legality"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Dmytro Kuleba",
+              "role": "Ukraine’s foreign minister",
+              "country": "Ukraine",
+              "country_basis": "Stated official/institutional affiliation; citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Ukraine restoring its territorial integrity",
+            "note": ""
+          },
+          "attention": "The article repeats Kuleba’s tweet (P 2–5), then records the ceremony, EU condemnation and new economic restrictions (P 6–8). The duplicated tweet is not independent evidence. (Paragraphs 3.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Statement in the selected article for 2022-09-30; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "\"By attempting to annex Ukraine's Donetsk, Luhansk, Zaporizhzhia and Kherson regions, Putin…",
+            "paragraphs": [
+              3
+            ],
+            "language": "en",
+            "paraphrase": "Kuleba says the announcement changes nothing and Ukraine will keep recovering its territory.",
+            "supporting_sentence": "\"By attempting to annex Ukraine's Donetsk, Luhansk, Zaporizhzhia and Kherson regions, Putin tries to grab territories he doesn't even physically control on the ground. Nothing changes for Ukraine: we continue liberating our land and our people, restoring our territorial integrity,\" Kuleba wrote on Twitter.\"",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "This is the same Kuleba tweet repeated by Kyiv Independent; paragraphs 3–4 also duplicate it within this article.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "EP02",
+          "text": "The EU’s leaders reject and condemn Russia’s claimed incorporation as illegal.",
+          "topics": [
+            "legality"
+          ],
+          "kind": {
+            "label": "Legal claim — not checked here",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "legal_interpretation",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "European Union member-state leaders",
+              "role": "Leaders issuing a joint statement",
+              "country": "European Union (multiple countries)",
+              "country_basis": "Stated official/institutional affiliation; citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Criticizes / opposes",
+            "target": "Legality and recognition of Russia’s claimed incorporation of the four regions",
+            "note": ""
+          },
+          "attention": "The article repeats Kuleba’s tweet (P 2–5), then records the ceremony, EU condemnation and new economic restrictions (P 6–8). The duplicated tweet is not independent evidence. (Paragraphs 7.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Statement in the selected article for 2022-09-30; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "The leaders of all the countries of the European Union published a…",
+            "paragraphs": [
+              7
+            ],
+            "language": "en",
+            "paraphrase": "The EU’s leaders reject and condemn Russia’s claimed incorporation as illegal.",
+            "supporting_sentence": "The leaders of all the countries of the European Union published a joint statement in which they strongly rejected and unconditionally condemned Russia's illegal annexation of the Donetsk, Luhansk, Zaporizhzhia, and Kherson regions of Ukraine.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "EP03",
+          "text": "European Pravda reports new US, UK and Canadian restrictions on Russia.",
+          "topics": [
+            "responses"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "European Pravda article narrator",
+              "role": "Article narrative voice",
+              "country": "Ukraine",
+              "country_basis": "Outlet origin; individual reporter citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "European Pravda reports new US, UK and Canadian restrictions on Russia.",
+            "note": ""
+          },
+          "attention": "The article repeats Kuleba’s tweet (P 2–5), then records the ceremony, EU condemnation and new economic restrictions (P 6–8). The duplicated tweet is not independent evidence. (Paragraphs 8.)",
+          "outlet_view": "This is the article narrator’s wording; it is not an outlet-wide policy statement.",
+          "where_when": "Statement in the selected article for 2022-09-30; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "The USA, the UK, and Canada have introduced additional sanctions against Russia.",
+            "paragraphs": [
+              8
+            ],
+            "language": "en",
+            "paraphrase": "European Pravda reports new US, UK and Canadian restrictions on Russia.",
+            "supporting_sentence": "The USA, the UK, and Canada have introduced additional sanctions against Russia.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "A report of introduced measures, not merely the FT editorial’s recommendation for further measures.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "censor",
+      "label": "Censor.NET",
+      "short_label": "Censor.NET",
+      "country": "Ukraine",
+      "article": {
+        "id": "3ae2bc68-28ff-459c-8ff6-4f0c5342098a",
+        "title": "Russia announced accession of Donetsk, Luhansk, Kherson and Zaporizhzhia regions",
+        "url": "https://censor.net/en/news/3370706/russia_announced_accession_of_donetsk_luhansk_kherson_and_zaporizhzhia_regions",
+        "publication_date": "2022-09-30",
+        "text_sha256": "e3afb453d9b4185006d8fe344db341ff7b87543a30d68914e8696b1fa9f2d791"
+      },
+      "attention": "The focus is signing, Russian-appointed signatories and the difference between claimed and physical control (P 1–6), followed by Putin’s and Western governments’ positions (P 9–10).",
+      "claims": [
+        {
+          "id": "C01",
+          "text": "Censor.NET reports Putin signed documents claiming to incorporate the four Ukrainian regions.",
+          "topics": [
+            "signing"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "Censor.NET article narrator",
+              "role": "Article narrative voice",
+              "country": "Ukraine",
+              "country_basis": "Outlet origin; individual reporter citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Censor.NET reports Putin signed documents claiming to incorporate the four Ukrainian regions.",
+            "note": ""
+          },
+          "attention": "The focus is signing, Russian-appointed signatories and the difference between claimed and physical control (P 1–6), followed by Putin’s and Western governments’ positions (P 9–10). (Paragraphs 4.)",
+          "outlet_view": "This is the article narrator’s wording; it is not an outlet-wide policy statement.",
+          "where_when": "Statement in the selected article for 2022-09-30; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "Russian President Vladimir Putin signed \"agreements on the incorporation of new subjects…",
+            "paragraphs": [
+              4
+            ],
+            "language": "en",
+            "paraphrase": "Censor.NET reports Putin signed documents claiming to incorporate the four Ukrainian regions.",
+            "supporting_sentence": "Russian President Vladimir Putin signed \"agreements on the incorporation of new subjects into the Russian Federation\" - occupied Ukrainian territories, namely the Donetsk, Luhansk, Kherson and Zaporizhzhia regions.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "Reporting document signatures does not recognize their legal effect or say Russia controls every claimed area.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "C02",
+          "text": "Censor.NET says Russia does not fully control any of the four regions it claims.",
+          "topics": [
+            "control"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "Censor.NET article narrator",
+              "role": "Article narrative voice",
+              "country": "Ukraine",
+              "country_basis": "Outlet origin; individual reporter citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Censor.NET says Russia does not fully control any of the four regions it claims.",
+            "note": ""
+          },
+          "attention": "The focus is signing, Russian-appointed signatories and the difference between claimed and physical control (P 1–6), followed by Putin’s and Western governments’ positions (P 9–10). (Paragraphs 6.)",
+          "outlet_view": "This is the article narrator’s wording; it is not an outlet-wide policy statement.",
+          "where_when": "Statement in the selected article for 2022-09-30; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "It is worth pointing out that the Russians at all levels are…",
+            "paragraphs": [
+              6
+            ],
+            "language": "en",
+            "paraphrase": "Censor.NET says Russia does not fully control any of the four regions it claims.",
+            "supporting_sentence": "It is worth pointing out that the Russians at all levels are declaring the annexation of Donetsk, Luhansk, Zaporizhzhia and Kherson, although the Russian Federation does not fully control any of these regions.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "This is about incomplete physical control, not the separate signing event.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "C03",
+          "text": "Putin says Russia will remain in the claimed Ukrainian territories forever.",
+          "topics": [
+            "legality",
+            "framing"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Vladimir Putin",
+              "role": "Russian president",
+              "country": "Russia",
+              "country_basis": "Stated official/institutional affiliation; citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Permanent Russian claim over the Ukrainian territories",
+            "note": ""
+          },
+          "attention": "The focus is signing, Russian-appointed signatories and the difference between claimed and physical control (P 1–6), followed by Putin’s and Western governments’ positions (P 9–10). (Paragraphs 9.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Statement in the selected article for 2022-09-30; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "Before the signing of the \"accession agreements\" on September 30, Putin made…",
+            "paragraphs": [
+              9
+            ],
+            "language": "en",
+            "paraphrase": "Putin says Russia will remain in the claimed Ukrainian territories forever.",
+            "supporting_sentence": "Before the signing of the \"accession agreements\" on September 30, Putin made an address. He said that the Russian Federation is in the annexed territories of Ukraine \"forever\".",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "Records Putin’s permanence claim, not proof of permanent control or international recognition.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "C04",
+          "text": "Western governments say the claimed incorporation is illegal and will not be recognized.",
+          "topics": [
+            "legality"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Western governments described collectively",
+              "role": "Government responses; not individually named in this passage",
+              "country": "unknown; Western governments not individually specified",
+              "country_basis": "Stated official/institutional affiliation; citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Criticizes / opposes",
+            "target": "Recognition of Russia’s claimed incorporation",
+            "note": ""
+          },
+          "attention": "The focus is signing, Russian-appointed signatories and the difference between claimed and physical control (P 1–6), followed by Putin’s and Western governments’ positions (P 9–10). (Paragraphs 10.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Statement in the selected article for 2022-09-30; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "Even during Putin's speech, criticism from Western countries began to appear and…",
+            "paragraphs": [
+              10
+            ],
+            "language": "en",
+            "paraphrase": "Western governments say the claimed incorporation is illegal and will not be recognized.",
+            "supporting_sentence": "Even during Putin's speech, criticism from Western countries began to appear and statements that the illegal annexation will not be recognized and will not change anything.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "tass",
+      "label": "TASS",
+      "short_label": "TASS",
+      "country": "Russia",
+      "article": {
+        "id": "043f812b-f1c0-4292-9389-8cf747f646cf",
+        "title": "Treaties on accession of Donbass and other liberated territories to Russia signed",
+        "url": "https://tass.com/politics/1516023",
+        "publication_date": "2022-09-30",
+        "text_sha256": "a7ebff2c3450b5a34b0d185bc4ce177d53d9e3be615837f68ca90d370eb26901"
+      },
+      "attention": "The short report is about the signing ceremony and its staging (P 1–4); it calls the documents historic but does not set out an independent legal argument.",
+      "claims": [
+        {
+          "id": "T01",
+          "text": "TASS reports Putin and four regional leaders signed treaties to unite the territories with Russia.",
+          "topics": [
+            "signing"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "TASS article narrator",
+              "role": "Article narrative voice",
+              "country": "Russia",
+              "country_basis": "Outlet origin; individual reporter citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "TASS reports Putin and four regional leaders signed treaties to unite the territories with Russia.",
+            "note": ""
+          },
+          "attention": "The short report is about the signing ceremony and its staging (P 1–4); it calls the documents historic but does not set out an independent legal argument. (Paragraphs 1.)",
+          "outlet_view": "This is the article narrator’s wording; it is not an outlet-wide policy statement.",
+          "where_when": "Statement in the selected article for 2022-09-30; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "MOSCOW, September 30. /TASS/. Russian President Vladimir Putin and the heads of…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "TASS reports Putin and four regional leaders signed treaties to unite the territories with Russia.",
+            "supporting_sentence": "MOSCOW, September 30. /TASS/. Russian President Vladimir Putin and the heads of the Donetsk and Lugansk People's Republics and the Zaporozhye and Kherson Regions have signed treaties on uniting these territories with Russia.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "The signature event and Russia’s claimed legal effect must stay distinct; the graph does not recognize that claimed effect.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "T02",
+          "text": "TASS describes the signed documents as historic.",
+          "topics": [
+            "framing"
+          ],
+          "kind": {
+            "label": "Framing / words used",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "framing",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "TASS article narrator",
+              "role": "Article narrative voice",
+              "country": "Russia",
+              "country_basis": "Outlet origin; individual reporter citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Description of the signing documents",
+            "note": ""
+          },
+          "attention": "The short report is about the signing ceremony and its staging (P 1–4); it calls the documents historic but does not set out an independent legal argument. (Paragraphs 2.)",
+          "outlet_view": "Historic is the article narrator’s word. A positive-sounding descriptor alone is not coded as an explicit political endorsement.",
+          "where_when": "Statement in the selected article for 2022-09-30; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "The ceremony took place on Friday in the Grand Kremlin Palace's St.…",
+            "paragraphs": [
+              2
+            ],
+            "language": "en",
+            "paraphrase": "TASS describes the signed documents as historic.",
+            "supporting_sentence": "The ceremony took place on Friday in the Grand Kremlin Palace's St. George's Hall. Before signing the historic documents, Putin delivered a speech about these territories joining Russia.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "T03",
+          "text": "TASS reports the ceremony audience applauded and chanted Russia after the signing.",
+          "topics": [
+            "signing",
+            "framing"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "TASS article narrator",
+              "role": "Article narrative voice",
+              "country": "Russia",
+              "country_basis": "Outlet origin; individual reporter citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "TASS reports the ceremony audience applauded and chanted Russia after the signing.",
+            "note": ""
+          },
+          "attention": "The short report is about the signing ceremony and its staging (P 1–4); it calls the documents historic but does not set out an independent legal argument. (Paragraphs 4.)",
+          "outlet_view": "This is the article narrator’s wording; it is not an outlet-wide policy statement.",
+          "where_when": "Statement in the selected article for 2022-09-30; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "After that the politicians stood up and gathered in the middle of…",
+            "paragraphs": [
+              4
+            ],
+            "language": "en",
+            "paraphrase": "TASS reports the ceremony audience applauded and chanted Russia after the signing.",
+            "supporting_sentence": "After that the politicians stood up and gathered in the middle of the room for a joint handshake and a photo session. The entire St. George's Hall, where the entire political leadership of the country, including the cabinet of ministers and governors, gathered, applauded them. Rising from their seats, the ceremony participants began applauding and chanting \"Russia.\" Putin, smiling, cheered them on and joined the chant.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "Describes ceremony participants’ reaction, not the views of all residents or the outlet.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "sputnik",
+      "label": "Sputnik",
+      "short_label": "Sputnik",
+      "country": "Russia",
+      "article": {
+        "id": "29ecfcb1-6c0c-48bc-9916-64235390d9e2",
+        "title": "'People Have Made Their Choice': Putin Marks Support for Four New Regions' Entry Into Russia",
+        "url": "https://sputnikglobe.com/20220930/people-have-made-their-choice-putin-announces-support-for-recognition-of-4-new-regions-of-russia-1101369245.html",
+        "publication_date": "2022-09-30",
+        "text_sha256": "272e0897449cb1106a5768db86112b7b194a1abb682114d38e8b5a1df61b9432"
+      },
+      "attention": "The long recovered paragraph largely reproduces Putin’s speech, then reports announced voting figures. Event-matched claims are separated from the speech’s unrelated historical and geopolitical allegations.",
+      "claims": [
+        {
+          "id": "S01",
+          "text": "Putin says the voters made an unequivocal choice to join Russia.",
+          "topics": [
+            "choice",
+            "framing"
+          ],
+          "kind": {
+            "label": "Opinion / judgement",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "opinion",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Vladimir Putin",
+              "role": "Russian president",
+              "country": "Russia",
+              "country_basis": "Stated official/institutional affiliation; citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Treating the votes as a clear mandate to join Russia",
+            "note": ""
+          },
+          "attention": "The long recovered paragraph largely reproduces Putin’s speech, then reports announced voting figures. Event-matched claims are separated from the speech’s unrelated historical and geopolitical allegations. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Statement in the selected article for 2022-09-30; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "People have made their choice, an unequivocal choice,\" Putin said, speaking at…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Putin says the voters made an unequivocal choice to join Russia.",
+            "supporting_sentence": "People have made their choice, an unequivocal choice,\" Putin said, speaking at a ceremony in the Kremlin on Friday.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "Putin’s political claim of consent is not an independently verified finding of free voting.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "S02",
+          "text": "Putin fully supports incorporating the four regions into Russia.",
+          "topics": [
+            "legality"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Vladimir Putin",
+              "role": "Russian president",
+              "country": "Russia",
+              "country_basis": "Stated official/institutional affiliation; citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Accepting Russia’s claimed incorporation of the four Ukrainian regions",
+            "note": ""
+          },
+          "attention": "The long recovered paragraph largely reproduces Putin’s speech, then reports announced voting figures. Event-matched claims are separated from the speech’s unrelated historical and geopolitical allegations. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Statement in the selected article for 2022-09-30; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "Vladimir Putin has expressed his full support for the incorporation of the…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Putin fully supports incorporating the four regions into Russia.",
+            "supporting_sentence": "Vladimir Putin has expressed his full support for the incorporation of the Donbass and the Kherson and Zaporozhye regions into Russia, and signed a decree to that effect.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "This is Putin’s policy position. Supporting an act does not by itself establish its international legality.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "S03",
+          "text": "Putin says Ukraine should respect the announced choice and Russia will defend its claimed territories by all available means.",
+          "topics": [
+            "control",
+            "responses"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Vladimir Putin",
+              "role": "Russian president",
+              "country": "Russia",
+              "country_basis": "Stated official/institutional affiliation; citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Russia defending territories it claims after the votes",
+            "note": ""
+          },
+          "attention": "The long recovered paragraph largely reproduces Putin’s speech, then reports announced voting figures. Event-matched claims are separated from the speech’s unrelated historical and geopolitical allegations. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Statement in the selected article for 2022-09-30; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "The president called on Ukraine's authorities to respect the choice made by…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Putin says Ukraine should respect the announced choice and Russia will defend its claimed territories by all available means.",
+            "supporting_sentence": "The president called on Ukraine's authorities to respect the choice made by the residents of the Donbass, Kherson and Zaporozhye, and warned that Russia would protect its territories using all available means.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "This is the Russian president’s territorial claim and intended response, not a finding that the land is legally Russian.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "S04",
+          "text": "Sputnik reports announced support of 99.23 percent in Donetsk,98.42 in Luhansk,87.05 in Kherson and 93.11 in Zaporizhzhia.",
+          "topics": [
+            "choice"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "Sputnik article narrator",
+              "role": "Article narrative voice",
+              "country": "Russia",
+              "country_basis": "Outlet origin; individual reporter citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Sputnik reports announced support of99.23percent in Donetsk,98.42in Luhansk,87.05in Kherson and93.11in Zaporizhzhia.",
+            "note": ""
+          },
+          "attention": "The long recovered paragraph largely reproduces Putin’s speech, then reports announced voting figures. Event-matched claims are separated from the speech’s unrelated historical and geopolitical allegations. (Paragraphs 1.)",
+          "outlet_view": "This is the article narrator’s wording; it is not an outlet-wide policy statement.",
+          "where_when": "Statement in the selected article for 2022-09-30; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "The results of the referenda showed overwhelming majority support for joining Russia,…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Sputnik reports announced support of99.23percent in Donetsk,98.42in Luhansk,87.05in Kherson and93.11in Zaporizhzhia.",
+            "supporting_sentence": "The results of the referenda showed overwhelming majority support for joining Russia, including 99.23 percent support in the DPR, 98.42 percent in the LPR, 87.05 percent in Kherson and 93.11 percent in Zaporozhye.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "These are the article’s reported announced figures, not independently audited support levels or proof of free voting.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "S05",
+          "text": "Putin promises to rebuild damaged homes, public buildings, industry and infrastructure in the regions.",
+          "topics": [
+            "responses"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Vladimir Putin",
+              "role": "Russian president",
+              "country": "Russia",
+              "country_basis": "Stated official/institutional affiliation; citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Rebuilding areas Russia claims after the votes",
+            "note": ""
+          },
+          "attention": "The long recovered paragraph largely reproduces Putin’s speech, then reports announced voting figures. Event-matched claims are separated from the speech’s unrelated historical and geopolitical allegations. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Statement in the selected article for 2022-09-30; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "Putin also promised that the cities and settlements, housing stock, schools, hospitals,…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Putin promises to rebuild damaged homes, public buildings, industry and infrastructure in the regions.",
+            "supporting_sentence": "Putin also promised that the cities and settlements, housing stock, schools, hospitals, theatres and museums damaged in fighting would be restored, as would industry and infrastructure.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "A promise, not proof that rebuilding has occurred.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "izvestia",
+      "label": "Izvestia",
+      "short_label": "Izvestia",
+      "country": "Russia",
+      "article": {
+        "id": "55836cd8-aa2d-4825-a700-e1bd3df065a1",
+        "title": "Путин призвал Киев немедленно прекратить боевые действия",
+        "url": "https://iz.ru/1403666/2022-09-30/putin-prizval-kiev-nemedlenno-prekratit-boevye-deistviia",
+        "publication_date": "2022-09-30",
+        "text_sha256": "895139c32cde67d5d2a19d516c28933c671801711282fac5ef06ad4781633b64"
+      },
+      "attention": "The article leads with Putin’s ceasefire/talks call at the same ceremony (P 1–2), then recaps Russian and Ukrainian negotiation conditions (P 3–5). These are statements, not proof of completed talks.",
+      "claims": [
+        {
+          "id": "I01",
+          "text": "Putin calls for an immediate ceasefire and a return to negotiations at the same ceremony.",
+          "topics": [
+            "negotiation"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Vladimir Putin",
+              "role": "Russian president",
+              "country": "Russia",
+              "country_basis": "Stated official/institutional affiliation; citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Ukraine stopping fighting and returning to negotiations",
+            "note": ""
+          },
+          "attention": "The article leads with Putin’s ceasefire/talks call at the same ceremony (P 1–2), then recaps Russian and Ukrainian negotiation conditions (P 3–5). These are statements, not proof of completed talks. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Statement in the selected article for 2022-09-30; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "Президент России Владимир Путин в пятницу, 30 сентября, призвал Киев немедленно прекратить…",
+            "paragraphs": [
+              1
+            ],
+            "language": "ru",
+            "paraphrase": "Putin calls for an immediate ceasefire and a return to negotiations at the same ceremony.",
+            "supporting_sentence": "Президент России Владимир Путин в пятницу, 30 сентября, призвал Киев немедленно прекратить боевые действия и вернуться за стол переговоров. Такое заявление он сделал во время своего обращения в Кремле по итогам референдумов в ДНР, ЛНР, Херсонской и Запорожской областях.",
+            "english_translation": "On September 30 Putin called on Kyiv to stop fighting immediately and return to negotiations, during his Kremlin address following the votes in the four regions.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "I02",
+          "text": "Peskov says Ukraine is moving away from talks, so Russia is concentrating on its war aims.",
+          "topics": [
+            "negotiation"
+          ],
+          "kind": {
+            "label": "Opinion / assessment",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "assessment",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Dmitry Peskov",
+              "role": "Kremlin spokesman",
+              "country": "Russia",
+              "country_basis": "Stated official/institutional affiliation; citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "criticizes",
+            "label": "Criticizes",
+            "target": "Ukraine’s alleged move away from negotiations",
+            "note": ""
+          },
+          "attention": "The article leads with Putin’s ceasefire/talks call at the same ceremony (P 1–2), then recaps Russian and Ukrainian negotiation conditions (P 3–5). These are statements, not proof of completed talks. (Paragraphs 3.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Statement in the selected article for 2022-09-30; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "Ранее в пятницу пресс-секретарь президента РФ Дмитрий Песков отметил, что украинская сторона…",
+            "paragraphs": [
+              3
+            ],
+            "language": "ru",
+            "paraphrase": "Peskov says Ukraine is moving away from talks, so Russia is concentrating on its war aims.",
+            "supporting_sentence": "Ранее в пятницу пресс-секретарь президента РФ Дмитрий Песков отметил, что украинская сторона отходит от переговорного процесса, в связи с чем Россия делает акцент на достижении целей спецоперации по защите Донбасса.",
+            "english_translation": "Earlier Friday Peskov said the Ukrainian side was moving away from negotiations, so Russia was emphasizing achievement of its military-operation goals.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "Russia’s account of responsibility for the talks stalling, not an independently determined cause.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "I03",
+          "text": "Zelensky says talks are possible only after Russian troops leave territory taken since February 24.",
+          "topics": [
+            "negotiation"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Volodymyr Zelensky",
+              "role": "Ukraine’s president",
+              "country": "Ukraine",
+              "country_basis": "Stated official/institutional affiliation; citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Negotiations conditional on Russian withdrawal from territory taken since February24",
+            "note": ""
+          },
+          "attention": "The article leads with Putin’s ceasefire/talks call at the same ceremony (P 1–2), then recaps Russian and Ukrainian negotiation conditions (P 3–5). These are statements, not proof of completed talks. (Paragraphs 5.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Statement in the selected article for 2022-09-30; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "В свою очередь, украинский лидер Владимир Зеленский сказал, что переговоры с Москвой…",
+            "paragraphs": [
+              5
+            ],
+            "language": "ru",
+            "paraphrase": "Zelensky says talks are possible only after Russian troops leave territory taken since February24.",
+            "supporting_sentence": "В свою очередь, украинский лидер Владимир Зеленский сказал, что переговоры с Москвой возможны лишь после того, как российские войска покинут занятые ими после 24 февраля территории.",
+            "english_translation": "Zelensky said talks with Moscow are possible only after Russian troops leave territories occupied since February 24.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "The article recaps a Ukrainian condition without dating the original statement; do not call it a newly issued September 30 condition.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "E01",
+      "source": "censor",
+      "target": "tass",
+      "topic": "signing",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "C01",
+      "target_claim": "T01",
+      "label": "Same signing ceremony",
+      "subtype": "parallel_accounts_or_interpretations",
+      "reason": "Both report Putin and regional leaders signing incorporation documents on September 30. The matching content alone supplies no evidential direction.",
+      "caveat": "Agreement about signatures does not imply agreement about legality or recognition.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E02",
+      "source": "kyivpost",
+      "target": "europeanpravda",
+      "topic": "responses",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "KI01",
+      "target_claim": "EP01",
+      "label": "Same Kuleba tweet",
+      "subtype": "shared_original_source",
+      "reason": "Both carry Kuleba’s promise to continue recovering Ukrainian land and people. These reports rely on the same original statement.",
+      "caveat": "Shared original tweet, not independent evidence.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E03",
+      "source": "censor",
+      "target": "kyivpost",
+      "topic": "control",
+      "relation": "supportive",
+      "color": "green",
+      "source_claim": "C02",
+      "target_claim": "KI02",
+      "label": "A broader control claim supports Kuleba’s point",
+      "subtype": "specified_partial_support",
+      "reason": "Censor.NET says Russia lacks full control of every claimed region. That stronger territorial claim supports Kuleba’s broader statement that the claimed territory includes land Russia does not hold.",
+      "caveat": "Censor.NET supplies a reported assertion. The comparison records its logical implication.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": true,
+      "direction": "source_to_target",
+      "support_scope": "The claim in KI02 that the territorial claim extends beyond Russia’s physical control.",
+      "direction_reason": "C02 supplies the specified support for KI02.",
+      "unsupported_parts": "An independently established map of control or the exact amount of land held."
+    },
+    {
+      "id": "E04",
+      "source": "cnn",
+      "target": "censor",
+      "topic": "control",
+      "relation": "supportive",
+      "color": "green",
+      "source_claim": "CNN05",
+      "target_claim": "C02",
+      "label": "Donetsk’s reported control split supports one part",
+      "subtype": "specified_partial_support",
+      "reason": "CNN’s estimate that Ukraine controls about 40 percent of Donetsk supplies a concrete reason for the Donetsk part of Censor.NET’s claim.",
+      "caveat": "CNN’s percentage is a reported estimate for Donetsk.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": true,
+      "direction": "source_to_target",
+      "support_scope": "The Donetsk part of C02 about incomplete Russian control.",
+      "direction_reason": "CNN05 supplies the specified support for C02.",
+      "unsupported_parts": "Control of the other three regions."
+    },
+    {
+      "id": "E05",
+      "source": "cnn",
+      "target": "ft",
+      "topic": "legality",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CNN01",
+      "target_claim": "FT01",
+      "label": "Same rejection of legality",
+      "subtype": "parallel_accounts_or_interpretations",
+      "reason": "CNN’s narrator calls incorporation illegal; the FT editorial calls it an illegal land grab. The matching content alone supplies no evidential direction.",
+      "caveat": "A report narrator and an editorial have different genres; this is not a new legal ruling.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E06",
+      "source": "cnn",
+      "target": "europeanpravda",
+      "topic": "legality",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CNN02",
+      "target_claim": "EP02",
+      "label": "EU rejection repeated",
+      "subtype": "shared_original_source",
+      "reason": "Both report EU rejection of Russia’s claimed sovereignty/incorporation. These reports rely on the same original statement.",
+      "caveat": "Shared institutional position, not separate judicial findings.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E07",
+      "source": "cnn",
+      "target": "sputnik",
+      "topic": "legality",
+      "relation": "contradiction",
+      "color": "red",
+      "source_claim": "CNN02",
+      "target_claim": "S02",
+      "label": "Opposed recognition policies",
+      "subtype": "opposed_policy_positions",
+      "reason": "The G7 and EU reject Russian sovereignty over the four regions. Putin endorses their incorporation into Russia. These are opposing recognition positions on the same claim.",
+      "caveat": "The speakers’ recognition positions oppose each other. Reports that each speaker holds that position can both be accurate. Human review should distinguish a narrative or policy conflict from a factual contradiction.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected",
+      "confirmation_status": "proposed",
+      "direction_reason": "The passages present conflicting claims or assessments. Neither explicitly rebuts the matching claim in the other report."
+    },
+    {
+      "id": "E08",
+      "source": "censor",
+      "target": "europeanpravda",
+      "topic": "legality",
+      "relation": "contradiction",
+      "color": "red",
+      "source_claim": "C03",
+      "target_claim": "EP02",
+      "label": "Permanent claim versus rejection",
+      "subtype": "opposed_territorial_positions",
+      "reason": "Putin asserts a permanent Russian territorial claim while EU leaders reject the incorporation. The comparison proposes a conflict over the legitimacy and acceptance of that claim.",
+      "caveat": "These are opposing territorial positions attributed to different actors. The comparison requires review as a normative conflict and says nothing about permanent physical control.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected",
+      "confirmation_status": "proposed",
+      "direction_reason": "The passages present conflicting claims or assessments. Neither explicitly rebuts the matching claim in the other report."
+    },
+    {
+      "id": "E09",
+      "source": "ft",
+      "target": "sputnik",
+      "topic": "choice",
+      "relation": "contradiction",
+      "color": "red",
+      "source_claim": "FT02",
+      "target_claim": "S01",
+      "label": "Sham votes versus clear mandate",
+      "subtype": "opposed_voting_legitimacy_assessments",
+      "reason": "The FT editorial rejects the votes as sham; Putin presents the same votes as an unequivocal choice legitimizing joining Russia.",
+      "caveat": "The FT’s sham-vote assessment conflicts with Putin’s use of the vote as a public mandate. Human review must compare the intended meaning of free choice and legitimacy in each passage.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected",
+      "confirmation_status": "proposed",
+      "direction_reason": "The passages present conflicting claims or assessments. Neither explicitly rebuts the matching claim in the other report."
+    },
+    {
+      "id": "E10",
+      "source": "cnn",
+      "target": "ft",
+      "topic": "responses",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CNN03",
+      "target_claim": "FT03",
+      "label": "Same pressure direction",
+      "subtype": "parallel_accounts_or_interpretations",
+      "reason": "Western governments promise restrictions and the FT editorial recommends stronger pressure and aid. The matching content alone supplies no evidential direction.",
+      "caveat": "This matches policy direction; a government intention and editorial recommendation are different kinds of statements.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E11",
+      "source": "cnn",
+      "target": "europeanpravda",
+      "topic": "responses",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CNN03",
+      "target_claim": "EP03",
+      "label": "Promise versus reported measures",
+      "subtype": "scope_or_certainty_difference",
+      "reason": "One claim reports a promise of restrictions; the other says some measures were introduced.",
+      "caveat": "Different temporal status and country lists; do not flatten intentions into completed acts.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E12",
+      "source": "kyivpost",
+      "target": "sputnik",
+      "topic": "control",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "KI01",
+      "target_claim": "S03",
+      "label": "Competing military intentions",
+      "subtype": "scope_or_certainty_difference",
+      "reason": "Ukraine intends to recover the land; Russia intends to defend areas it claims.",
+      "caveat": "Both intentions can exist simultaneously. Adversarial aims are not a logical factual contradiction.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E13",
+      "source": "cnn",
+      "target": "izvestia",
+      "topic": "negotiation",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CNN06",
+      "target_claim": "I01",
+      "label": "Same Putin call for talks",
+      "subtype": "parallel_accounts_or_interpretations",
+      "reason": "CNN reports willingness to negotiate and Izvestia reports the ceasefire/talks call at the ceremony. The matching content alone supplies no evidential direction.",
+      "caveat": "CNN adds the territorial-sovereignty limitation. A call for talks is not proof of unconditional willingness or agreement.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E14",
+      "source": "cnn",
+      "target": "izvestia",
+      "topic": "negotiation",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CNN06",
+      "target_claim": "I03",
+      "label": "Different negotiating conditions",
+      "subtype": "scope_or_certainty_difference",
+      "reason": "Putin excludes sovereignty from talks; the article’s recap of Zelensky requires Russian withdrawal first.",
+      "caveat": "These are different actors’ conditions, and the Ukrainian original statement is not dated here. They need not be presented as mutually exclusive observations.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E15",
+      "source": "cnn",
+      "target": "kyivpost",
+      "topic": "control",
+      "source_claim": "CNN05",
+      "target_claim": "KI02",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "relation": "supportive",
+      "color": "green",
+      "directed": true,
+      "direction": "source_to_target",
+      "label": "Donetsk supplies an example of land outside Russian control",
+      "subtype": "specified_partial_support",
+      "reason": "CNN’s reported Ukrainian share of Donetsk is one example supporting Kuleba’s point that Russia claims territory it does not physically hold.",
+      "support_scope": "The existence of claimed land outside Russian physical control.",
+      "caveat": "The arrow uses CNN’s reported estimate and the territory named by Kuleba.",
+      "direction_reason": "CNN05 supplies the specified support for KI02.",
+      "unsupported_parts": "The control situation throughout every claimed region."
+    },
+    {
+      "id": "E16",
+      "source": "europeanpravda",
+      "target": "censor",
+      "topic": "legality",
+      "source_claim": "EP02",
+      "target_claim": "C04",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "relation": "supportive",
+      "color": "green",
+      "directed": true,
+      "direction": "source_to_target",
+      "label": "The EU statement gives a specific Western rejection",
+      "subtype": "specified_partial_support",
+      "reason": "European Pravda identifies a joint rejection by all EU leaders. That supplies a specific instance of the Western rejection described by Censor.NET.",
+      "support_scope": "The EU part of C04’s account of rejection of the claimed incorporation.",
+      "caveat": "The comparison uses the reported EU statement and Censor.NET’s broader description.",
+      "direction_reason": "EP02 supplies the specified support for C04.",
+      "unsupported_parts": "The position of every Western government or a judicial determination."
+    }
+  ],
+  "excluded": [
+    {
+      "source": "china_daily",
+      "outlet": "China Daily",
+      "reason": "The selected article is primarily about Nord Stream damage and responsibility, a separate event. Global Times briefly mentions the four regions as context; that does not justify importing its pipeline allegations into this graph."
+    },
+    {
+      "source": "global_times",
+      "outlet": "Global Times",
+      "reason": "The selected article is primarily about Nord Stream damage and responsibility, a separate event. Global Times briefly mentions the four regions as context; that does not justify importing its pipeline allegations into this graph."
+    }
+  ],
+  "method": {
+    "country_note": "Outlet countries describe origin. Claimant countries describe an office, organization or stated residence, not assumed citizenship.",
+    "claim_type_note": "A fact claim is a checkable statement, not a fact verified by this graph. Opinions, predictions, legal positions and promises are marked separately.",
+    "edge_note": "Green arrows point from a claim supplying a reason, example or reported statement to the specified part of another claim. Grey comparisons have no assigned evidential direction. Solid red connections mark proposed contradictions between specific claims or assessments. An arrow is used for an explicit rebuttal of a matching claim. Repeated reports of the same statement share a source.",
+    "attention_note": "Attention is a qualitative reading of the saved article, with paragraph locators; it is not a measured share of words.",
+    "endorsement_note": "A quoted speaker’s view is separate from the article narrator’s view. No outlet-wide position is inferred from one article.",
+    "annotation_status": "AI-assisted draft; human review pending",
+    "cleaning_note": "Uses saved recovered text. Kyiv Independent later Most Popular / News Feed material is excluded; original paragraph numbers retained. FT wrapped lines are joined into logical paragraphs. CNN and Sputnik are single long recovered paragraphs; exact event-matched excerpts are used. FT is an editorial. Sputnik’s historical genocide/coup/pipeline allegations are not promoted into this event graph. The duplicated Kuleba tweet is marked."
+  },
+  "within_article_relations": []
+}

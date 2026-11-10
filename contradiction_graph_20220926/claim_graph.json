@@ -1,0 +1,1307 @@
+{
+  "schema_version": "1.1",
+  "event": {
+    "id": "nuclear_warnings_20220926",
+    "label": "Nuclear warnings and possible responses",
+    "date": "2022-09-26",
+    "description": "How selected articles describe Russian nuclear threats, US warnings, possible responses and escalation risks. These are statements and forecasts, not reports that a nuclear weapon has been used.",
+    "default_topic": "us_warning",
+    "default_node": "cnn",
+    "graph_scope": "whole_event",
+    "multigraph": true
+  },
+  "topics": [
+    {
+      "id": "us_warning",
+      "label": "US warnings and response plans",
+      "scope_note": "The same Blinken interview may be repeated by several outlets. An undisclosed plan and an anonymous report about possible responses can coexist."
+    },
+    {
+      "id": "risk",
+      "label": "How serious is the danger?",
+      "scope_note": "Future risk is different from observed preparations; no public report is not proof that no preparations exist."
+    },
+    {
+      "id": "doctrine",
+      "label": "Russia’s stated nuclear policy",
+      "scope_note": "An unchanged doctrine does not itself deny threatening rhetoric or rule out use under that doctrine."
+    },
+    {
+      "id": "support_ukraine",
+      "label": "Support for Ukraine under nuclear pressure",
+      "scope_note": "Compare stated policy recommendations, not a permanent outlet stance."
+    },
+    {
+      "id": "blame",
+      "label": "Who is blamed for escalation?",
+      "scope_note": "Several causes may coexist. Blaming Washington or Putin is not automatically a logical contradiction."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "cnn",
+      "label": "CNN",
+      "short_label": "CNN",
+      "country": "United States",
+      "article": {
+        "id": "735645a8-565a-4986-b3bf-d3be290889a9",
+        "title": "US warnings against Putin’s nuclear threats mark a sobering moment for the world",
+        "url": "https://www.cnn.com/2022/09/26/politics/us-warns-putin-nuclear-weapons-analysis/index.html",
+        "publication_date": "2022-09-26",
+        "text_sha256": "99ae9ecde5ac083e4a184bb33f08d697f3f35881c07c59a4e0ef1616a75f6262"
+      },
+      "attention": "One long recovered paragraph contains an analysis of risk, US deterrence warnings, no public reports of nuclear preparations and European leaders’ responses. Exact sentence excerpts avoid treating the whole paragraph as one claim.",
+      "claims": [
+        {
+          "id": "CNN01",
+          "text": "Sullivan warns Russia of catastrophic consequences and a decisive US response if it uses nuclear weapons.",
+          "topics": [
+            "us_warning"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Jake Sullivan",
+              "role": "US national security adviser",
+              "country": "United States",
+              "country_basis": "Stated official/institutional affiliation; individual citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Criticizes / opposes",
+            "target": "Russian use of nuclear weapons",
+            "note": ""
+          },
+          "attention": "One long recovered paragraph contains an analysis of risk, US deterrence warnings, no public reports of nuclear preparations and European leaders’ responses. Exact sentence excerpts avoid treating the whole paragraph as one claim. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "US warning on Sunday September 25, reported September 26; conditional on Russian nuclear use.",
+          "evidence": {
+            "quote": "“If Russia crosses this line, there will be catastrophic consequences for Russia.…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Sullivan warns Russia of catastrophic consequences and a decisive US response if it uses nuclear weapons.",
+            "supporting_sentence": "“If Russia crosses this line, there will be catastrophic consequences for Russia. The United States will respond decisively,” Sullivan said on NBC’s “Meet the Press.”",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CNN02",
+          "text": "CNN says there are no public reports that Russia is preparing battlefield nuclear weapons or changing its strategic missile posture.",
+          "topics": [
+            "risk"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "CNN article narrator",
+              "role": "Article narrative voice",
+              "country": "United States",
+              "country_basis": "Outlet origin; individual reporter citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "CNN says there are no public reports that Russia is preparing battlefield nuclear weapons or changing its strategic missile posture.",
+            "note": ""
+          },
+          "attention": "One long recovered paragraph contains an analysis of risk, US deterrence warnings, no public reports of nuclear preparations and European leaders’ responses. Exact sentence excerpts avoid treating the whole paragraph as one claim. (Paragraphs 1.)",
+          "outlet_view": "This is the article narrator’s wording; it is not an outlet-wide policy statement.",
+          "where_when": "Statement in the selected article for 2022-09-26; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "There are no public reports that the Kremlin is readying its stock…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "CNN says there are no public reports that Russia is preparing battlefield nuclear weapons or changing its strategic missile posture.",
+            "supporting_sentence": "There are no public reports that the Kremlin is readying its stock of battlefield nuclear weapons for use or that it has changed the posture of its international strategic missiles.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "A statement about public reporting, not an intelligence finding that no preparations exist.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CNN03",
+          "text": "CNN says Washington has privately warned Russia against nuclear use for several months.",
+          "topics": [
+            "us_warning"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "CNN article narrator",
+              "role": "Article narrative voice",
+              "country": "United States",
+              "country_basis": "Outlet origin; individual reporter citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "CNN says Washington has privately warned Russia against nuclear use for several months.",
+            "note": ""
+          },
+          "attention": "One long recovered paragraph contains an analysis of risk, US deterrence warnings, no public reports of nuclear preparations and European leaders’ responses. Exact sentence excerpts avoid treating the whole paragraph as one claim. (Paragraphs 1.)",
+          "outlet_view": "This is the article narrator’s wording; it is not an outlet-wide policy statement.",
+          "where_when": "Statement in the selected article for 2022-09-26; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "CNN has reported that the US has privately been warning Russia against…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "CNN says Washington has privately warned Russia against nuclear use for several months.",
+            "supporting_sentence": "CNN has reported that the US has privately been warning Russia against any use of a nuclear device for several months.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CNN04",
+          "text": "Liz Truss says the West should ignore Putin’s threatening talk and keep supporting Ukraine.",
+          "topics": [
+            "support_ukraine"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Liz Truss",
+              "role": "UK prime minister",
+              "country": "United Kingdom",
+              "country_basis": "Stated official/institutional affiliation; individual citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Continued Western support for Ukraine despite nuclear threats",
+            "note": ""
+          },
+          "attention": "One long recovered paragraph contains an analysis of risk, US deterrence warnings, no public reports of nuclear preparations and European leaders’ responses. Exact sentence excerpts avoid treating the whole paragraph as one claim. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Statement in the selected article for 2022-09-26; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "And she warned the West must continue “to be resolute,” adding, “We…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Liz Truss says the West should ignore Putin’s threatening talk and keep supporting Ukraine.",
+            "supporting_sentence": "And she warned the West must continue “to be resolute,” adding, “We don’t listen to the saber-rattling that we’re hearing from Putin, and we continue to back the Ukrainians to the hilt.”",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CNN05",
+          "text": "CNN’s analysis says the need for US nuclear warnings shows how dangerous the war has become.",
+          "topics": [
+            "risk"
+          ],
+          "kind": {
+            "label": "Opinion / judgement",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "opinion",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "CNN article narrator",
+              "role": "Article narrative voice",
+              "country": "United States",
+              "country_basis": "Outlet origin; individual reporter citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "CNN’s analysis says the need for US nuclear warnings shows how dangerous the war has become.",
+            "note": ""
+          },
+          "attention": "One long recovered paragraph contains an analysis of risk, US deterrence warnings, no public reports of nuclear preparations and European leaders’ responses. Exact sentence excerpts avoid treating the whole paragraph as one claim. (Paragraphs 1.)",
+          "outlet_view": "This is the analysis narrator’s assessment in this article, not a verified future outcome or an outlet-wide doctrine.",
+          "where_when": "Statement in the selected article for 2022-09-26; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "That the United States should be forced to warn Russia publicly, and…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "CNN’s analysis says the need for US nuclear warnings shows how dangerous the war has become.",
+            "supporting_sentence": "That the United States should be forced to warn Russia publicly, and in more strident terms privately, not to use nuclear weapons is a mark of how dangerous the battle for Ukraine has become – and how much more risky it might get.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "ft",
+      "label": "Financial Times",
+      "short_label": "FT",
+      "country": "United Kingdom",
+      "article": {
+        "id": "ac444c35-f4f3-4f68-aea5-84196d782633",
+        "title": "Putin’s nuclear threats cannot be ignored",
+        "url": "https://www.ft.com/content/25862f8d-d6de-48c7-a892-091e5f909734",
+        "publication_date": "2022-09-26",
+        "text_sha256": "546091d04167471a03d1d1c7b2c1fded7f5fdc1e20ef88fb5582cc8148efe323"
+      },
+      "attention": "This opinion column urges taking the danger seriously (P 3–9) and discusses supporting Ukraine while avoiding nuclear war. It is commentary, not independently verified prediction.",
+      "claims": [
+        {
+          "id": "FT01",
+          "text": "Sullivan says Putin’s nuclear warnings must be taken very seriously.",
+          "topics": [
+            "risk",
+            "us_warning"
+          ],
+          "kind": {
+            "label": "Opinion / judgement",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "opinion",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Jake Sullivan",
+              "role": "US national security adviser",
+              "country": "United States",
+              "country_basis": "Stated official/institutional affiliation; individual citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Sullivan says Putin’s nuclear warnings must be taken very seriously.",
+            "note": ""
+          },
+          "attention": "This opinion column urges taking the danger seriously (P 3–9) and discusses supporting Ukraine while avoiding nuclear war. It is commentary, not independently verified prediction. (Paragraphs 4.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Statement in the selected article for 2022-09-26; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "This weekend Jake Sullivan, US President Joe Biden’s national security adviser, reiterated…",
+            "paragraphs": [
+              4
+            ],
+            "language": "en",
+            "paraphrase": "Sullivan says Putin’s nuclear warnings must be taken very seriously.",
+            "supporting_sentence": "This weekend Jake Sullivan, US President Joe Biden’s national security adviser, reiterated that the Kremlin’s nuclear warnings are “a matter that we have to take deadly seriously”.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "FT02",
+          "text": "Rachman argues that a cornered Putin might use a nuclear weapon as a last option rather than accept defeat.",
+          "topics": [
+            "risk"
+          ],
+          "kind": {
+            "label": "Opinion / prediction",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "prediction",
+          "source_type": "columnist_voice",
+          "claimants": [
+            {
+              "name": "Gideon Rachman",
+              "role": "Financial Times opinion writer",
+              "country": "United Kingdom (outlet affiliation)",
+              "country_basis": "Stated official/institutional affiliation; individual citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Rachman argues that a cornered Putin might use a nuclear weapon as a last option rather than accept defeat.",
+            "note": ""
+          },
+          "attention": "This opinion column urges taking the danger seriously (P 3–9) and discusses supporting Ukraine while avoiding nuclear war. It is commentary, not independently verified prediction. (Paragraphs 7.)",
+          "outlet_view": "This is Gideon Rachman’s own opinion in his FT column. He describes a possible risk, not a decision that nuclear use is planned or certain.",
+          "where_when": "Statement in the selected article for 2022-09-26; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "But it might be his last roll of the dice — if…",
+            "paragraphs": [
+              7
+            ],
+            "language": "en",
+            "paraphrase": "Rachman argues that a cornered Putin might use a nuclear weapon as a last option rather than accept defeat.",
+            "supporting_sentence": "But it might be his last roll of the dice — if the alternative was humiliation and defeat.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "The preceding sentence says nuclear use is not Putin’s first choice. Preserve might and the if condition.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "FT03",
+          "text": "Western policymakers want to keep helping Ukraine without letting nuclear threats force them to stop.",
+          "topics": [
+            "support_ukraine"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Unnamed Western policymakers",
+              "role": "Policymakers described collectively in the column",
+              "country": "unknown (Western group not individually identified)",
+              "country_basis": "Stated official/institutional affiliation; individual citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Continuing support for Ukraine while avoiding nuclear escalation",
+            "note": ""
+          },
+          "attention": "This opinion column urges taking the danger seriously (P 3–9) and discusses supporting Ukraine while avoiding nuclear war. It is commentary, not independently verified prediction. (Paragraphs 9.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Statement in the selected article for 2022-09-26; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "Even those western policymakers who take Putin’s nuclear threats very seriously remain…",
+            "paragraphs": [
+              9
+            ],
+            "language": "en",
+            "paraphrase": "Western policymakers want to keep helping Ukraine without letting nuclear threats force them to stop.",
+            "supporting_sentence": "Even those western policymakers who take Putin’s nuclear threats very seriously remain determined that Russia must not be allowed to use nuclear blackmail to force an end to western support for Ukraine.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "kyivpost",
+      "label": "Kyiv Independent",
+      "short_label": "Kyiv Ind.",
+      "country": "Ukraine",
+      "article": {
+        "id": "3cc3c9ed-bee6-4974-935a-57c914b8373f",
+        "title": "Blinken: US has plan in place if Russia uses nuclear weapons against Ukraine",
+        "url": "https://kyivindependent.com/blinken-us-has-plan-in-place-if-russia-uses-nuclear-weapons-against-ukraine/",
+        "publication_date": "2022-09-26",
+        "text_sha256": "3043510cd60b32cc09048cb58972e30bad1fdee2dd4eb9836164af3608f2a950"
+      },
+      "attention": "Only the opening article paragraph is used: Blinken’s warning and response plan. Later feed/sidebar text is excluded by the supplied extraction.",
+      "claims": [
+        {
+          "id": "KI01",
+          "text": "Blinken says Russia has been warned that nuclear use would have horrific consequences.",
+          "topics": [
+            "us_warning"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Antony Blinken",
+              "role": "US secretary of state",
+              "country": "United States",
+              "country_basis": "Stated official/institutional affiliation; individual citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Criticizes / opposes",
+            "target": "Russian use of nuclear weapons against Ukraine",
+            "note": ""
+          },
+          "attention": "Only the opening article paragraph is used: Blinken’s warning and response plan. Later feed/sidebar text is excluded by the supplied extraction. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Statement in the selected article for 2022-09-26; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "U.S. Secretary of State Antony Blinken told CBS News on Sept. 25…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Blinken says Russia has been warned that nuclear use would have horrific consequences.",
+            "supporting_sentence": "U.S. Secretary of State Antony Blinken told CBS News on Sept. 25 that the U.S. has made it clear to Russia that the consequences of using nuclear weapons would be “horrific.”",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "KI02",
+          "text": "Blinken says Washington has a response plan but does not reveal it.",
+          "topics": [
+            "us_warning"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Antony Blinken",
+              "role": "US secretary of state",
+              "country": "United States",
+              "country_basis": "Stated official/institutional affiliation; individual citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Blinken says Washington has a response plan but does not reveal it.",
+            "note": ""
+          },
+          "attention": "Only the opening article paragraph is used: Blinken’s warning and response plan. Later feed/sidebar text is excluded by the supplied extraction. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Statement in the selected article for 2022-09-26; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "Blinken did not share how the U.S. would respond if Russia used…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Blinken says Washington has a response plan but does not reveal it.",
+            "supporting_sentence": "Blinken did not share how the U.S. would respond if Russia used nuclear weapons against Ukraine, but said the administration has a plan.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "The content and future implementation of the plan are not established.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "censor",
+      "label": "Censor.NET",
+      "short_label": "Censor.NET",
+      "country": "Ukraine",
+      "article": {
+        "id": "f9dc80ac-5d72-4138-b643-a3ae4be9b919",
+        "title": "USA has action plan in case of use of nuclear weapons by Russian Federation, - Blinken",
+        "url": "https://censor.net/en/news/3369527/usa_has_action_plan_in_case_of_use_of_nuclear_weapons_by_russian_federation_blinken",
+        "publication_date": "2022-09-26",
+        "text_sha256": "e70d659cbbc598fcfb3e92f6ed330f21f4101f849c2f50df9ebc9b7bb9f66fe0"
+      },
+      "attention": "The focus is Blinken’s undisclosed response plan and his doubts about checks on Putin’s decisions (P 1–5).",
+      "claims": [
+        {
+          "id": "C01",
+          "text": "Blinken says the Biden administration has a plan for possible Russian nuclear use.",
+          "topics": [
+            "us_warning"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Antony Blinken",
+              "role": "US secretary of state",
+              "country": "United States",
+              "country_basis": "Stated official/institutional affiliation; individual citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Blinken says the Biden administration has a plan for possible Russian nuclear use.",
+            "note": ""
+          },
+          "attention": "The focus is Blinken’s undisclosed response plan and his doubts about checks on Putin’s decisions (P 1–5). (Paragraphs 1, 2.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Statement in the selected article for 2022-09-26; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "The administration of US President Joe Biden has a plan for how…",
+            "paragraphs": [
+              1,
+              2
+            ],
+            "language": "en",
+            "paraphrase": "Blinken says the Biden administration has a plan for possible Russian nuclear use.",
+            "supporting_sentence": "The administration of US President Joe Biden has a plan for how to act in the event of the use of nuclear weapons by Russia.\nThis was reported by US Secretary of State Anthony Blinken on CBS, Censor.NET reports.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "Paragraph 2 attributes paragraph 1 to Blinken on CBS; this is the same interview carried by other outlets.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "C02",
+          "text": "Blinken says Washington has publicly and privately told Russia to stop talking about nuclear weapons.",
+          "topics": [
+            "us_warning"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Antony Blinken",
+              "role": "US secretary of state",
+              "country": "United States",
+              "country_basis": "Stated official/institutional affiliation; individual citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Criticizes / opposes",
+            "target": "Russian nuclear threatening talk",
+            "note": ""
+          },
+          "attention": "The focus is Blinken’s undisclosed response plan and his doubts about checks on Putin’s decisions (P 1–5). (Paragraphs 3.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Statement in the selected article for 2022-09-26; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "Blinken declined to share specifics, but noted that \"we have spoken very…",
+            "paragraphs": [
+              3
+            ],
+            "language": "en",
+            "paraphrase": "Blinken says Washington has publicly and privately told Russia to stop talking about nuclear weapons.",
+            "supporting_sentence": "Blinken declined to share specifics, but noted that \"we have spoken very clearly with the Russians, publicly and privately, to stop talking about nuclear weapons.\"",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "C03",
+          "text": "Blinken says it is unclear whether anyone in the Kremlin could say no to a Putin nuclear-launch decision.",
+          "topics": [
+            "risk"
+          ],
+          "kind": {
+            "label": "Opinion / assessment",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "assessment",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Antony Blinken",
+              "role": "US secretary of state",
+              "country": "United States",
+              "country_basis": "Stated official/institutional affiliation; individual citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Blinken says it is unclear whether anyone in the Kremlin could say no to a Putin nuclear-launch decision.",
+            "note": ""
+          },
+          "attention": "The focus is Blinken’s undisclosed response plan and his doubts about checks on Putin’s decisions (P 1–5). (Paragraphs 4.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Statement in the selected article for 2022-09-26; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "According to him, it is not known whether anyone in the Kremlin…",
+            "paragraphs": [
+              4
+            ],
+            "language": "en",
+            "paraphrase": "Blinken says it is unclear whether anyone in the Kremlin could say no to a Putin nuclear-launch decision.",
+            "supporting_sentence": "According to him, it is not known whether anyone in the Kremlin will say \"no\" to Russian President Vladimir Putin if he decides to launch nuclear weapons.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "Uncertainty about internal decision-making, not proof that a launch decision exists.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "tass",
+      "label": "TASS",
+      "short_label": "TASS",
+      "country": "Russia",
+      "article": {
+        "id": "549c48a9-3d01-4d74-acfe-c45ef2db0ec6",
+        "title": "Senior diplomat says Russia didn’t change its doctrinal approaches to nuclear weapons",
+        "url": "https://tass.com/politics/1513565",
+        "publication_date": "2022-09-26",
+        "text_sha256": "9366987cf64cc54a5675d5d6a02505d85dc8fe279ce157203b69aecccf5ab1a8"
+      },
+      "attention": "The short article carries Ryabkov’s unchanged-doctrine statement and his accusation that Washington is increasing danger (P 1–3).",
+      "claims": [
+        {
+          "id": "T01",
+          "text": "Ryabkov says Russia’s nuclear doctrine and policy have not changed.",
+          "topics": [
+            "doctrine"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Sergei Ryabkov",
+              "role": "Russian deputy foreign minister",
+              "country": "Russia",
+              "country_basis": "Stated official/institutional affiliation; individual citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Ryabkov says Russia’s nuclear doctrine and policy have not changed.",
+            "note": ""
+          },
+          "attention": "The short article carries Ryabkov’s unchanged-doctrine statement and his accusation that Washington is increasing danger (P 1–3). (Paragraphs 2.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Statement in the selected article for 2022-09-26; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "\"As we have repeatedly noted both publicly and in contacts with the…",
+            "paragraphs": [
+              2
+            ],
+            "language": "en",
+            "paraphrase": "Ryabkov says Russia’s nuclear doctrine and policy have not changed.",
+            "supporting_sentence": "\"As we have repeatedly noted both publicly and in contacts with the Americans: there have been no changes in Russian doctrinal approaches to this topic. Everything remains in the same and within the same framework as set forth in our military doctrine and the foundations of the state policy in the area of nuclear deterrence,\" the senior diplomat said.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "An unchanged written policy can coexist with threatening rhetoric or a changing assessment of risk.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "T02",
+          "text": "Ryabkov blames what he calls Washington’s aggressive course for bringing everyone closer to danger.",
+          "topics": [
+            "blame",
+            "risk"
+          ],
+          "kind": {
+            "label": "Opinion / judgement",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "opinion",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Sergei Ryabkov",
+              "role": "Russian deputy foreign minister",
+              "country": "Russia",
+              "country_basis": "Stated official/institutional affiliation; individual citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "criticizes",
+            "label": "Criticizes",
+            "target": "Washington’s course toward Russia",
+            "note": ""
+          },
+          "attention": "The short article carries Ryabkov’s unchanged-doctrine statement and his accusation that Washington is increasing danger (P 1–3). (Paragraphs 3.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Statement in the selected article for 2022-09-26; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "However, according to Ryabkov, the irresponsible, extremely aggressive, extremely pushy course that…",
+            "paragraphs": [
+              3
+            ],
+            "language": "en",
+            "paraphrase": "Ryabkov blames what he calls Washington’s aggressive course for bringing everyone closer to danger.",
+            "supporting_sentence": "However, according to Ryabkov, the irresponsible, extremely aggressive, extremely pushy course that Washington is pursuing is bringing everyone closer to a dangerous line. \"We warn against continuing this line,\" he added.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "The phrase course is broad and does not identify one particular US warning as the sole cause.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "sputnik",
+      "label": "Sputnik",
+      "short_label": "Sputnik",
+      "country": "Russia",
+      "article": {
+        "id": "280c5117-2222-4a88-9de7-5dc8aa2554fb",
+        "title": "Kremlin Not Commenting on US Threats of \"Consequential Response\" to Use of Nuclear Weapons",
+        "url": "https://sputnikglobe.com/20220926/kremlin-not-commenting-on-us-threats-of-consequential-response-to-use-of-nuclear-weapons-1101232788.html",
+        "publication_date": "2022-09-26",
+        "text_sha256": "702c2ef69dc3bebf8a7fed42d91edc1195c93353637e47d84967aa1b4ab32187"
+      },
+      "attention": "The short recovered body repeats Biden and Blinken warnings. It does not contain evidence for the headline’s separate Kremlin-no-comment claim.",
+      "claims": [
+        {
+          "id": "S01",
+          "text": "Biden warned on September 17 that Russian nuclear use would bring a consequential US response.",
+          "topics": [
+            "us_warning"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Joe Biden",
+              "role": "US president",
+              "country": "United States",
+              "country_basis": "Stated official/institutional affiliation; individual citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Criticizes / opposes",
+            "target": "Russian nuclear use",
+            "note": ""
+          },
+          "attention": "The short recovered body repeats Biden and Blinken warnings. It does not contain evidence for the headline’s separate Kremlin-no-comment claim. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "September 17 warning quoted as background on September 26.",
+          "evidence": {
+            "quote": "On September 17, US President Joe Biden said that Washington's response to…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Biden warned on September17 that Russian nuclear use would bring a consequential US response.",
+            "supporting_sentence": "On September 17, US President Joe Biden said that Washington's response to the allegedly possible use of nuclear weapons by Moscow would be \"consequential.\"",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "S02",
+          "text": "Blinken says Washington has a plan if Russia uses nuclear weapons.",
+          "topics": [
+            "us_warning"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Antony Blinken",
+              "role": "US secretary of state",
+              "country": "United States",
+              "country_basis": "Stated official/institutional affiliation; individual citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Blinken says Washington has a plan if Russia uses nuclear weapons.",
+            "note": ""
+          },
+          "attention": "The short recovered body repeats Biden and Blinken warnings. It does not contain evidence for the headline’s separate Kremlin-no-comment claim. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Statement in the selected article for 2022-09-26; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "Last Sunday, US Secretary of State Antony Blinken also told the CBS…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Blinken says Washington has a plan if Russia uses nuclear weapons.",
+            "supporting_sentence": "Last Sunday, US Secretary of State Antony Blinken also told the CBS News broadcaster that Washington had developed a plan of actions in the event that Russia uses nuclear weapons.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "The recovered text supplies no plan details and no substantive Kremlin response.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "izvestia",
+      "label": "Izvestia",
+      "short_label": "Izvestia",
+      "country": "Russia",
+      "article": {
+        "id": "be17c0a4-cb72-45cb-aadc-928407ba3745",
+        "title": "FT сообщила об ответе Запада в случае нанесения Россией ядерного удара",
+        "url": "https://iz.ru/1401231/2022-09-26/ft-soobshchila-ob-otvete-zapada-v-sluchae-naneseniia-rossiei-iadernogo-udara",
+        "publication_date": "2022-09-26",
+        "text_sha256": "9addc57ad72f82470ee611cb71cec43b70c8716fd2c63ed8c63a084c2c2cdd73"
+      },
+      "attention": "The opening describes an FT report about possible non-nuclear responses, then repeats US warnings and Russian officials’ counter-accusations (P 1–7).",
+      "claims": [
+        {
+          "id": "I01",
+          "text": "Unnamed Western officials quoted by the FT expect a Russian nuclear strike to bring a non-nuclear military response.",
+          "topics": [
+            "us_warning"
+          ],
+          "kind": {
+            "label": "Opinion / prediction",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "prediction",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Two unnamed Western officials, via Financial Times",
+              "role": "Officials quoted in an FT report, then repeated by Izvestia",
+              "country": "unknown",
+              "country_basis": "Stated official/institutional affiliation; individual citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Unnamed Western officials quoted by the FT expect a Russian nuclear strike to bring a non-nuclear military response.",
+            "note": ""
+          },
+          "attention": "The opening describes an FT report about possible non-nuclear responses, then repeats US warnings and Russian officials’ counter-accusations (P 1–7). (Paragraphs 1, 2.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Statement in the selected article for 2022-09-26; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "Страны Запада ответят применением обычных вооружений в случае нанесения Россией ядерного удара…",
+            "paragraphs": [
+              1,
+              2
+            ],
+            "language": "ru",
+            "paraphrase": "Unnamed Western officials quoted by the FT expect a Russian nuclear strike to bring a non-nuclear military response.",
+            "supporting_sentence": "Страны Запада ответят применением обычных вооружений в случае нанесения Россией ядерного удара по Украине. Об этом 25 сентября сообщила Financial Times.\n«Два западных чиновника заявили, что ядерный удар по Украине вряд ли вызовет возмездие, а вместо этого вызовет обычные военные ответные действия западных государств с целью наказать Россию», — сообщило издание.",
+            "english_translation": "Izvestia says the FT reported on September 25 that the West would use conventional weapons after a Russian nuclear strike on Ukraine. It quotes two Western officials saying a strike would be unlikely to trigger retaliation and would instead cause conventional military responses to punish Russia.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "The Russian quotation has awkward wording about retaliation; the clear stated alternative is conventional military action. These are unnamed sources’ expectations, not a public US decision.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "I02",
+          "text": "Unnamed Western officials say allies are preparing emergency plans and sending Moscow private warnings.",
+          "topics": [
+            "us_warning"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Five unnamed Western officials, via Financial Times",
+              "role": "Officials described in the FT report",
+              "country": "unknown",
+              "country_basis": "Stated official/institutional affiliation; individual citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Unnamed Western officials say allies are preparing emergency plans and sending Moscow private warnings.",
+            "note": ""
+          },
+          "attention": "The opening describes an FT report about possible non-nuclear responses, then repeats US warnings and Russian officials’ counter-accusations (P 1–7). (Paragraphs 3.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Statement in the selected article for 2022-09-26; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "По словам пяти источников среди западных официальных лиц, союзники Киева усиливают ядерную…",
+            "paragraphs": [
+              3
+            ],
+            "language": "ru",
+            "paraphrase": "Unnamed Western officials say allies are preparing emergency plans and sending Moscow private warnings.",
+            "supporting_sentence": "По словам пяти источников среди западных официальных лиц, союзники Киева усиливают ядерную бдительность и сдерживание. Собеседники газеты отметили, что Запад разрабатывает план на случай непредвиденных обстоятельств и отправляет в Кремль частные предупреждения о возможных последствиях.",
+            "english_translation": "According to five Western official sources, Kyiv’s allies are increasing nuclear vigilance and deterrence. They say the West is preparing a contingency plan and sending the Kremlin private warnings about possible consequences.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "I03",
+          "text": "Blinken says Washington has a plan for possible Russian nuclear use.",
+          "topics": [
+            "us_warning"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Antony Blinken",
+              "role": "US secretary of state",
+              "country": "United States",
+              "country_basis": "Stated official/institutional affiliation; individual citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Blinken says Washington has a plan for possible Russian nuclear use.",
+            "note": ""
+          },
+          "attention": "The opening describes an FT report about possible non-nuclear responses, then repeats US warnings and Russian officials’ counter-accusations (P 1–7). (Paragraphs 4.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Statement in the selected article for 2022-09-26; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "Ранее, 25 сентября, госсекретарь США Энтони Блинкен заявил, что у Вашингтона есть…",
+            "paragraphs": [
+              4
+            ],
+            "language": "ru",
+            "paraphrase": "Blinken says Washington has a plan for possible Russian nuclear use.",
+            "supporting_sentence": "Ранее, 25 сентября, госсекретарь США Энтони Блинкен заявил, что у Вашингтона есть план на случай гипотетического применения Россией ядерного оружия. Он отметил, что любое его применение имело бы катастрофические последствия как для страны, использующей его, так и для многих других.",
+            "english_translation": "Earlier on September 25, Blinken said Washington has a plan for hypothetical Russian use of nuclear weapons. He said any use would have catastrophic consequences for the user and many others.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "I04",
+          "text": "Putin accused Western countries of nuclear blackmail in his September 21 remarks.",
+          "topics": [
+            "blame"
+          ],
+          "kind": {
+            "label": "Opinion / judgement",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "opinion",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Vladimir Putin",
+              "role": "Russian president",
+              "country": "Russia",
+              "country_basis": "Stated official/institutional affiliation; individual citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "criticizes",
+            "label": "Criticizes",
+            "target": "Alleged Western nuclear blackmail",
+            "note": ""
+          },
+          "attention": "The opening describes an FT report about possible non-nuclear responses, then repeats US warnings and Russian officials’ counter-accusations (P 1–7). (Paragraphs 7.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "September 21 statement quoted in a September 26 article.",
+          "evidence": {
+            "quote": "21 сентября президент РФ Владимир Путин обратил внимание на то, что США,…",
+            "paragraphs": [
+              7
+            ],
+            "language": "ru",
+            "paraphrase": "Putin accused Western countries of nuclear blackmail in his September21 remarks.",
+            "supporting_sentence": "21 сентября президент РФ Владимир Путин обратил внимание на то, что США, Великобритания и Евросоюз подталкивают Украину к переносу военных действий на территорию России. Он уточнил, что со стороны Запада в ход пошел и ядерный шантаж: некоторые представители государств говорят о допустимости применения против России ядерного оружия. При этом Путин напомнил, что РФ также располагает различными средствами поражения.",
+            "english_translation": "On September 21 Putin said the US, UK and EU were pushing Ukraine to bring fighting onto Russian territory. He accused the West of nuclear blackmail and said some representatives spoke about possible nuclear use against Russia, while noting Russia also has various weapons.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "This is Putin’s allegation about the West, not an independently established Western nuclear plan.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "E01",
+      "source": "kyivpost",
+      "target": "censor",
+      "topic": "us_warning",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "KI02",
+      "target_claim": "C01",
+      "label": "Both reports cite the same Blinken interview",
+      "subtype": "repeated_original_source",
+      "reason": "Kyiv Independent and Censor.NET both attribute the existence of a plan to Blinken’s CBS interview.",
+      "caveat": "Both rely on the same speaker and interview; neither provides separate evidence about the plan.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E02",
+      "source": "kyivpost",
+      "target": "sputnik",
+      "topic": "us_warning",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "KI02",
+      "target_claim": "S02",
+      "label": "Both reports cite the same Blinken interview",
+      "subtype": "repeated_original_source",
+      "reason": "Kyiv Independent and Sputnik repeat Blinken’s statement to CBS that Washington has a plan.",
+      "caveat": "The same interview is the basis for both reports, and neither describes the plan.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E03",
+      "source": "kyivpost",
+      "target": "izvestia",
+      "topic": "us_warning",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "KI02",
+      "target_claim": "I03",
+      "label": "Same statement by Blinken on September 25",
+      "subtype": "repeated_original_source",
+      "reason": "Kyiv Independent and Izvestia carry Blinken’s statement that Washington has a plan.",
+      "caveat": "Repeating Blinken’s statement adds no separate evidence that the plan exists or what it contains.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E04",
+      "source": "cnn",
+      "target": "kyivpost",
+      "topic": "us_warning",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CNN01",
+      "target_claim": "KI01",
+      "label": "Two US officials warn of severe consequences",
+      "subtype": "parallel_warnings",
+      "reason": "CNN quotes Sullivan and Kyiv Independent quotes Blinken. Both warn about the consequences of Russian nuclear use.",
+      "caveat": "Each report documents a separate statement. Neither verifies the other statement or establishes what the US would do.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E05",
+      "source": "cnn",
+      "target": "sputnik",
+      "topic": "us_warning",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CNN01",
+      "target_claim": "S01",
+      "label": "Similar warnings on different dates",
+      "subtype": "parallel_warnings",
+      "reason": "CNN quotes Sullivan’s September 25 warning; Sputnik quotes Biden’s September 17 warning. Both signal serious consequences.",
+      "caveat": "Different speakers, dates and wording. Neither warning verifies the other or describes a specific response.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E06",
+      "source": "cnn",
+      "target": "izvestia",
+      "topic": "us_warning",
+      "relation": "supportive",
+      "color": "green",
+      "source_claim": "CNN03",
+      "target_claim": "I02",
+      "label": "A specific example of private warnings",
+      "subtype": "specific_example",
+      "reason": "CNN reports that the US privately warned Russia against nuclear use. That gives a specific example of the private warnings from Ukraine’s allies described by officials quoted via the FT in Izvestia.",
+      "caveat": "The articles do not establish whether their information came from independent sources.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "support_scope": "The part of I02 that says Ukraine’s allies sent private warnings to Moscow about nuclear use.",
+      "unsupported_parts": "The claim about emergency plans, the actions of other allies, or the exact message and timing of every warning.",
+      "directed": true,
+      "direction": "source_to_target",
+      "direction_reason": "CNN03 supplies the specified reason or example for I02."
+    },
+    {
+      "id": "E07",
+      "source": "cnn",
+      "target": "ft",
+      "topic": "support_ukraine",
+      "relation": "supportive",
+      "color": "green",
+      "source_claim": "CNN04",
+      "target_claim": "FT03",
+      "label": "Truss gives a specific example of continued support",
+      "subtype": "specific_example",
+      "reason": "CNN quotes UK Prime Minister Liz Truss saying the West should keep backing Ukraine despite Putin’s threats. Her public statement is one concrete example of the position attributed to Western policymakers in the FT.",
+      "caveat": "The arrow compares stated policy positions, not the news outlets’ own views.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "support_scope": "The part of FT03 that says Western policymakers want to keep supporting Ukraine despite nuclear threats.",
+      "unsupported_parts": "The views of every Western policymaker, the identities of the FT’s sources, or whether aid was delivered.",
+      "directed": true,
+      "direction": "source_to_target",
+      "direction_reason": "CNN04 supplies the specified reason or example for FT03."
+    },
+    {
+      "id": "E08",
+      "source": "cnn",
+      "target": "ft",
+      "topic": "risk",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CNN02",
+      "target_claim": "FT02",
+      "label": "No public preparations versus future risk",
+      "subtype": "scope_or_certainty_difference",
+      "reason": "CNN describes what was publicly reported at the time; Rachman argues that future use might be possible under a specific condition.",
+      "caveat": "The absence of public reports of preparation does not rule out future use.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E09",
+      "source": "kyivpost",
+      "target": "izvestia",
+      "topic": "us_warning",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "KI02",
+      "target_claim": "I01",
+      "label": "Undisclosed US plan versus a possible Western response",
+      "subtype": "scope_or_certainty_difference",
+      "reason": "Blinken does not disclose the US plan; unnamed Western officials discuss a possible conventional response.",
+      "caveat": "The officials do not identify their forecast as the US plan, and Blinken does not deny that forecast.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E10",
+      "source": "cnn",
+      "target": "tass",
+      "topic": "risk",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CNN05",
+      "target_claim": "T02",
+      "label": "Different sources of danger emphasized",
+      "subtype": "causal_focus_difference",
+      "reason": "CNN’s analysis treats the need for US warnings as a sign of danger. Ryabkov, quoted by TASS, blames Washington’s course for increasing danger.",
+      "caveat": "The passages do not rule out other sources of risk or directly deny each other’s claim.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E11",
+      "source": "cnn",
+      "target": "ft",
+      "topic": "us_warning",
+      "source_claim": "CNN01",
+      "target_claim": "FT01",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "relation": "supportive",
+      "color": "green",
+      "label": "Sullivan’s response warning illustrates his stated concern",
+      "subtype": "concrete_statement_supports_assessment",
+      "reason": "CNN quotes Sullivan promising a decisive US response if Russia uses a nuclear weapon. That concrete warning supports the FT’s report that Sullivan publicly treated Putin’s nuclear threats as serious.",
+      "support_scope": "The assessment in FT01 that Sullivan publicly treated Putin’s nuclear threats as serious.",
+      "unsupported_parts": "Independent verification of the exact words quoted by the FT, what the US would do, or whether Russia would use a nuclear weapon.",
+      "caveat": "Both claims are attributed to Sullivan. The arrow compares what his statements show, not whether the reports had independent sources.",
+      "directed": true,
+      "direction": "source_to_target",
+      "direction_reason": "CNN01 supplies the specified reason or example for FT01."
+    }
+  ],
+  "excluded": [
+    {
+      "source": "europeanpravda",
+      "outlet": "European Pravda",
+      "reason": "The article concerns a US funding bill, not nuclear warnings or responses."
+    },
+    {
+      "source": "china_daily",
+      "outlet": "China Daily",
+      "reason": "The selected commentary concerns energy profits, not this nuclear-warning event."
+    },
+    {
+      "source": "global_times",
+      "outlet": "Global Times",
+      "reason": "The selected article mainly concerns Lavrov at the UN and a general confrontation forecast; its brief nuclear reference does not address the September 25 US warnings or concrete response plans."
+    }
+  ],
+  "method": {
+    "country_note": "Outlet countries describe origin. Claimant countries describe an office, organization or stated residence, not assumed citizenship.",
+    "claim_type_note": "A fact claim is a checkable statement, not a fact verified by this graph. Opinions, predictions, legal positions and promises are marked separately.",
+    "edge_note": "Connections compare specific claims across the event. A green arrow points from a claim that supports a specified part of another claim. Grey marks comparisons with no assigned direction. A solid red connection would mark a proposed contradiction, with an arrow only for an explicit rebuttal. Repeating the same interview does not establish independent support.",
+    "attention_note": "Attention is a qualitative reading of the saved article, with paragraph locators; it is not a measured share of words.",
+    "endorsement_note": "A quoted speaker’s view is separate from the article narrator’s view. No outlet-wide position is inferred from one article.",
+    "annotation_status": "AI-assisted draft; human review pending",
+    "cleaning_note": "Uses saved recovered text. Kyiv Independent later Most Popular / News Feed material is excluded; original paragraph numbers retained. FT wrapped lines are joined into logical paragraphs. CNN is one long recovered paragraph: exact sentence excerpts are supplied. Sputnik’s missing headline-related Kremlin response is not invented."
+  },
+  "within_article_relations": []
+}

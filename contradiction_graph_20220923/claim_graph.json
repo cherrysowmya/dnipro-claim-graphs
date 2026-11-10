@@ -1,0 +1,2856 @@
+{
+  "schema_version": "1.1",
+  "event": {
+    "id": "referendums_20220923",
+    "label": "Votes on joining Russia",
+    "date": "2022-09-23",
+    "description": "Start of the September 23–27 votes organized in Russian-controlled parts of Donetsk, Luhansk, Zaporizhzhia and Kherson. This graph compares article claims, not independently verified voting outcomes.",
+    "graph_scope": "whole_event",
+    "multigraph": true
+  },
+  "topics": [
+    {
+      "id": "legality",
+      "label": "Are the votes lawful?",
+      "scope_note": "Compare the same legal act. Holding votes and later taking Ukrainian land into Russia are separate acts. Red marks opposing legal claims, not a ruling by this graph."
+    },
+    {
+      "id": "free_choice",
+      "label": "Can people choose freely?",
+      "scope_note": "Keep cities, speakers and times separate. A promise of safe voting is not proof that voting was safe; a calm scene does not prove free choice."
+    },
+    {
+      "id": "voting_process",
+      "label": "How is voting carried out?",
+      "scope_note": "Compare voting arrangements and assessments of their quality. Home visits alone do not prove threats; in-person voting is not automatically the same as polling-station voting."
+    },
+    {
+      "id": "public_support",
+      "label": "Support, turnout and results",
+      "scope_note": "A poll answer, turning out to vote and an announced result are different measures. A majority intending to vote yes is not proof of a free vote."
+    },
+    {
+      "id": "consequences",
+      "label": "What could happen next?",
+      "scope_note": "These claims describe possible future actions after Russia claims the land. They are not reports that those later events already happened."
+    },
+    {
+      "id": "sanctions",
+      "label": "Threats of economic penalties",
+      "scope_note": "Preparing new penalties is different from judging whether older penalties worked. Agreement concerns the named sources’ policy direction, not the whole outlet."
+    },
+    {
+      "id": "framing",
+      "label": "Words used for the votes",
+      "scope_note": "Opposing descriptions such as occupied and liberated are coded as framing clashes, not proof that a factual question has been settled. A quoted view is separate from the outlet’s own wording."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "cnn",
+      "label": "CNN",
+      "short_label": "CNN",
+      "country": "United States",
+      "article": {
+        "id": "3899593d-d94e-4136-8d25-b0d04b2ebc2b",
+        "title": "Occupied parts of Ukraine vote on joining Russia in ‘sham’ referendums",
+        "url": "https://www.cnn.com/2022/09/23/europe/occupied-ukraine-referendum-russia-intl-hnk/index.html",
+        "publication_date": "2022-09-23",
+        "text_sha256": "f2c42e8a69769925d0b0d94dcef0a943eb258909c0d044c42389b268d55eeb5e"
+      },
+      "attention": "Most space goes to claims about pressure on voters, weak turnout and whether the votes can be fair. The article also discusses Western rejection and Russia’s possible response after claiming the land.",
+      "claims": [
+        {
+          "id": "CNN01",
+          "text": "CNN says the votes are illegal under international law.",
+          "topics": [
+            "legality"
+          ],
+          "kind": {
+            "label": "Legal claim — not checked here",
+            "status": "The source states a legal position. This graph records the disagreement without independently checking that legal claim."
+          },
+          "claim_type": "legal_interpretation",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "CNN article narrator",
+              "role": "News article narrative voice",
+              "country": "United States",
+              "country_basis": "Outlet origin; individual reporter nationality not inferred",
+              "nationality": "not inferred"
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Rejects legality",
+            "target": "Legality of the September 23–27 votes on joining Russia",
+            "note": "Stance belongs to the identified claimant, not automatically to the outlet or everyone in their country.",
+            "basis": "source_statement"
+          },
+          "attention": "legality (Paragraphs 2.)",
+          "outlet_view": "CNN’s own narrative sentence directly calls the votes illegal under international law. This legal characterization is not merely a quoted resident’s view. This article, not an outlet-wide policy statement.",
+          "where_when": "Four occupied Ukrainian regions; Voting began September 23, 2022; statement about voting under way",
+          "evidence": {
+            "quote": "illegal under international law",
+            "paragraphs": [
+              2
+            ],
+            "language": "en",
+            "paraphrase": "CNN says the votes are illegal under international law.",
+            "supporting_sentence": "The referendums, which are illegal under international law and dismissed as \"a sham\" by Western governments and Kyiv, could pave the way for Russian annexation of the areas, allowing Moscow to frame the ongoing Ukrainian counteroffensive as an attack on Russia itself.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "The task records CNN’s legal assertion; it does not perform an independent legal determination.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CNN02",
+          "text": "Mariupol’s Ukrainian mayoral adviser says armed teams going door to door force people to vote. CNN could not independently check this account.",
+          "topics": [
+            "free_choice",
+            "voting_process"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A checkable statement by a source, not a fact verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "quoted_ukrainian_official",
+          "claimants": [
+            {
+              "name": "Petro Andriushchenko",
+              "role": "Adviser to Mariupol’s Ukrainian mayor; not in the city",
+              "country": "Ukraine",
+              "country_basis": "Explicit Ukrainian official affiliation",
+              "nationality": "not inferred"
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Says people are forced to vote",
+            "target": "Whether voting in Mariupol is voluntary",
+            "note": "Stance belongs to the identified claimant, not automatically to the outlet or everyone in their country.",
+            "basis": "source_statement"
+          },
+          "attention": "coercion/free_choice; voting_process (Paragraphs 17, 18.)",
+          "outlet_view": "This node is Andriushchenko’s allegation. CNN separately uses at-gunpoint language in its own narration at paragraph 6, but paragraph 19 expressly limits verification. This article, not an outlet-wide policy statement.",
+          "where_when": "Mariupol, Donetsk region; September 23, 2022; statement about voting under way",
+          "evidence": {
+            "quote": "In Mariupol, which is in the Donetsk region, \"the main means of…",
+            "paragraphs": [
+              17,
+              18
+            ],
+            "language": "en",
+            "paraphrase": "Mariupol’s Ukrainian mayoral adviser says armed teams going door to door force people to vote. CNN could not independently check this account.",
+            "supporting_sentence": "In Mariupol, which is in the Donetsk region, \"the main means of coercion for voting is door-to-door canvassing,\" said Petro Andriushchenko, an adviser to Mariupol's Ukrainian mayor, on Telegram.\n\"The commission consists of two people with a ballot box and ballots, and two armed men,\" he said.\nIn fact, they offer to say 'yes' or 'no' directly into the barrel of a gun.\"",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "Paragraph 19: Andriushchenko is outside Mariupol; CNN says it cannot independently verify his and other characterizations.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CNN03",
+          "text": "Luhansk’s Ukrainian governor says Russia will choose whatever voting result suits it.",
+          "topics": [
+            "voting_process",
+            "public_support"
+          ],
+          "kind": {
+            "label": "Opinion / judgement",
+            "status": "An interpretation, judgement, intention or prediction; not proof that an outcome happened."
+          },
+          "claim_type": "opinion",
+          "source_type": "quoted_ukrainian_official",
+          "claimants": [
+            {
+              "name": "Serhii Hayday (Serhiy Haidai)",
+              "role": "Ukrainian governor of Luhansk region",
+              "country": "Ukraine",
+              "country_basis": "Explicit Ukrainian office",
+              "nationality": "not inferred"
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Predicts Russia will fabricate a favorable result",
+            "target": "Whether announced results will reflect voters’ choices",
+            "note": "Stance belongs to the identified claimant, not automatically to the outlet or everyone in their country.",
+            "basis": "source_statement"
+          },
+          "attention": "voting_process; public_support (Paragraphs 15.)",
+          "outlet_view": "The article carries this speaker’s claim. Quotation alone is not outlet endorsement. This article, not an outlet-wide policy statement.",
+          "where_when": "Luhansk region; Claim made September 23 about results still to come; Prediction about future announced results",
+          "evidence": {
+            "quote": "The Ukrainian governor of Ukraine's Luhansk region on Friday said \"Russians will…",
+            "paragraphs": [
+              15
+            ],
+            "language": "en",
+            "paraphrase": "Luhansk’s Ukrainian governor says Russia will choose whatever voting result suits it.",
+            "supporting_sentence": "The Ukrainian governor of Ukraine's Luhansk region on Friday said \"Russians will calculate and draw any result that is favorable to them\" in what he described as a \"pseudo-referendum.\"",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "An allegation/prediction by a Ukrainian official, not an independently checked count. CNN’s paragraph 19 gives a broader caution about unverified Ukrainian officials’ characterizations.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CNN04",
+          "text": "Putin promises Russia will provide safe conditions for people to express their choice.",
+          "topics": [
+            "free_choice",
+            "framing"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "An interpretation, judgement, intention or prediction; not proof that an outcome happened."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_russian_official",
+          "claimants": [
+            {
+              "name": "Vladimir Putin",
+              "role": "President of Russia",
+              "country": "Russia",
+              "country_basis": "Official state role",
+              "nationality": "not inferred"
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports the votes and promises safe conditions",
+            "target": "Safety and expression of choice during the votes",
+            "note": "Stance belongs to the identified claimant, not automatically to the outlet or everyone in their country.",
+            "basis": "source_statement"
+          },
+          "attention": "coercion/free_choice; framing (Paragraphs 8.)",
+          "outlet_view": "CNN quotes Putin’s promise, without adopting it. Elsewhere the narrator calls the voting illegal and held at gunpoint. This article, not an outlet-wide policy statement.",
+          "where_when": "Donetsk, Luhansk, Kherson and Zaporizhzhia regions; Statement on Wednesday September 21, before voting began; Promise about future conduct",
+          "evidence": {
+            "quote": "They have asked Russia to support this step, and we stressed that…",
+            "paragraphs": [
+              8
+            ],
+            "language": "en",
+            "paraphrase": "Putin promises Russia will provide safe conditions for people to express their choice.",
+            "supporting_sentence": "They have asked Russia to support this step, and we stressed that we will do everything to ensure the safe conditions for people to express their will,\" he said.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "A promise of safe conditions is not proof that voting was free, nor a direct denial of each later report of coercion.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CNN05",
+          "text": "A Kherson council official says very few people are turning out to vote.",
+          "topics": [
+            "public_support",
+            "voting_process"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A checkable statement by a source, not a fact verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "quoted_ukrainian_official",
+          "claimants": [
+            {
+              "name": "Yurii Sobolevskyi",
+              "role": "Deputy head of the Kherson Regional Council",
+              "country": "Ukraine",
+              "country_basis": "Ukrainian regional council office",
+              "nationality": "not inferred"
+            }
+          ],
+          "stance": {
+            "value": "unclear",
+            "label": "Reports very low turnout",
+            "target": "Turnout in the Kherson vote",
+            "note": "Stance belongs to the identified claimant, not automatically to the outlet or everyone in their country.",
+            "basis": "not_stated"
+          },
+          "attention": "public_support; voting_process (Paragraphs 21.)",
+          "outlet_view": "The article carries this speaker’s claim. Quotation alone is not outlet endorsement. This article, not an outlet-wide policy statement.",
+          "where_when": "Kherson region; September 23, first voting day; statement about voting under way",
+          "evidence": {
+            "quote": "Yurii Sobolevskyi, deputy head of the Kherson Regional Council, told CNN that…",
+            "paragraphs": [
+              21
+            ],
+            "language": "en",
+            "paraphrase": "A Kherson council official says very few people are turning out to vote.",
+            "supporting_sentence": "Yurii Sobolevskyi, deputy head of the Kherson Regional Council, told CNN that the effort being carried out in his region has shown very little turnout.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "No independently verified turnout number is provided. Low turnout is not the same proposition as low support among those who do vote.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CNN06",
+          "text": "The EU says it is preparing a new package of economic restrictions on Russia.",
+          "topics": [
+            "sanctions"
+          ],
+          "kind": {
+            "label": "Reported policy plan",
+            "status": "A checkable statement by a source, not a fact verified by this graph."
+          },
+          "claim_type": "intention",
+          "source_type": "attributed_institutional_position",
+          "claimants": [
+            {
+              "name": "European Union",
+              "role": "Multinational political institutions; individual speaker not identified",
+              "country": "European Union (multiple countries)",
+              "country_basis": "Institutional affiliation is multinational, not one national government",
+              "nationality": "not inferred"
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports further economic pressure",
+            "target": "Preparing new economic restrictions on Russia",
+            "note": "Stance belongs to the identified claimant, not automatically to the outlet or everyone in their country.",
+            "basis": "institutional_policy_plan"
+          },
+          "attention": "sanctions; legality (Paragraphs 6.)",
+          "outlet_view": "The article carries this speaker’s claim. Quotation alone is not outlet endorsement. This article, not an outlet-wide policy statement.",
+          "where_when": "European Union; response to votes in four Ukrainian regions; As reported September 23, 2022; Reported policy intention",
+          "evidence": {
+            "quote": "The European Union has said it won't recognize the results and has…",
+            "paragraphs": [
+              6
+            ],
+            "language": "en",
+            "paraphrase": "The EU says it is preparing a new package of economic restrictions on Russia.",
+            "supporting_sentence": "The European Union has said it won't recognize the results and has indicated it is preparing a new package of sanctions against Russia.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "Reports an announced intention, not proof that a particular new package has already taken effect.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CNN07",
+          "text": "Peskov says Ukrainian attempts to retake the regions would count as attacks on Russia after they join it.",
+          "topics": [
+            "consequences"
+          ],
+          "kind": {
+            "label": "Opinion / prediction",
+            "status": "An interpretation, judgement, intention or prediction; not proof that an outcome happened."
+          },
+          "claim_type": "prediction",
+          "source_type": "quoted_russian_official",
+          "claimants": [
+            {
+              "name": "Dmitry Peskov",
+              "role": "Kremlin spokesperson",
+              "country": "Russia",
+              "country_basis": "Official Russian state role",
+              "nationality": "not inferred"
+            }
+          ],
+          "stance": {
+            "value": "unclear",
+            "label": "Says such attacks would be treated as attacks on Russian territory",
+            "target": "How Russia would classify Ukrainian attempts to regain the regions after claimed incorporation",
+            "note": "Stance belongs to the identified claimant, not automatically to the outlet or everyone in their country.",
+            "basis": "not_stated"
+          },
+          "attention": "consequences (Paragraphs 31.)",
+          "outlet_view": "The article carries this speaker’s claim. Quotation alone is not outlet endorsement. This article, not an outlet-wide policy statement.",
+          "where_when": "Four regions, if Russia claims to incorporate them; September 23 statement about a possible later development; Conditional future Russian position",
+          "evidence": {
+            "quote": "When asked if that would mean any attempt of Ukraine to regain…",
+            "paragraphs": [
+              31
+            ],
+            "language": "en",
+            "paraphrase": "Peskov says Ukrainian attempts to retake the regions would count as attacks on Russia after they join it.",
+            "supporting_sentence": "When asked if that would mean any attempt of Ukraine to regain the territories would be regarded as an attack on Russian territory, Peskov said: \"Of course.\"",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "This is Moscow’s proposed treatment of future attacks, not CNN recognizing Russian sovereignty over the regions.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CNN08",
+          "text": "CNN calls the areas holding the votes Russian-occupied parts of Ukraine.",
+          "topics": [
+            "framing"
+          ],
+          "kind": {
+            "label": "Framing / words used",
+            "status": "An interpretation, judgement, intention or prediction; not proof that an outcome happened."
+          },
+          "claim_type": "framing",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "CNN narration",
+              "role": "The article’s own wording",
+              "country": "United States",
+              "country_basis": "Outlet origin, not the citizenship of an individual writer."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Occupation wording; approval not stated",
+            "target": "Russian control of the Ukrainian voting areas",
+            "note": "The occupation label describes control. It does not, by itself, prove political approval or condemnation.",
+            "basis": "wording_only"
+          },
+          "attention": "This passage discusses the way the votes are described or carried out. (Paragraphs 1.)",
+          "outlet_view": "Uses occupation wording in its own narration. No separate political approval or condemnation is inferred from that word alone.",
+          "where_when": "The September 23–27 votes in Russian-controlled Ukrainian regions; article published September 23.",
+          "evidence": {
+            "quote": "Russian-occupied areas of Ukraine",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "CNN calls the areas holding the votes Russian-occupied parts of Ukraine.",
+            "supporting_sentence": "(CNN)Four Russian-occupied areas of Ukraine began voting in referendums on joining Russia, according to their separatist leaders, in a move that raises the stakes of Moscow's invasion seven months after fighting began.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CNN09",
+          "text": "The EU says it will not recognize the voting results.",
+          "topics": [
+            "public_support",
+            "framing"
+          ],
+          "kind": {
+            "label": "Reported policy plan",
+            "status": "A checkable statement by a source, not a fact verified by this graph."
+          },
+          "claim_type": "intention",
+          "source_type": "attributed_institutional_position",
+          "claimants": [
+            {
+              "name": "European Union",
+              "role": "Multinational political institutions; individual speaker not identified",
+              "country": "European Union (multiple countries)",
+              "country_basis": "Institutional affiliation is multinational, not one national government",
+              "nationality": "not inferred"
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Rejects recognition of the results",
+            "target": "Recognizing the Russia-organized voting results",
+            "note": "Stance belongs to the identified claimant, not automatically to the outlet or everyone in their country.",
+            "basis": "institutional_policy_statement"
+          },
+          "attention": "The early discussion of Western responses records the EU’s refusal to recognize the results. (Paragraph 6.)",
+          "outlet_view": "The article carries this speaker’s claim. Quotation alone is not outlet endorsement. This article, not an outlet-wide policy statement.",
+          "where_when": "European Union; response to votes in four Ukrainian regions; As reported September 23, 2022; Reported policy intention",
+          "evidence": {
+            "quote": "The European Union has said it won't recognize the results and has…",
+            "paragraphs": [
+              6
+            ],
+            "language": "en",
+            "paraphrase": "The EU says it will not recognize the voting results.",
+            "supporting_sentence": "The European Union has said it won't recognize the results and has indicated it is preparing a new package of sanctions against Russia.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "Reports an announced intention, not proof that a particular new package has already taken effect.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "ft",
+      "label": "Financial Times",
+      "short_label": "FT",
+      "country": "United Kingdom",
+      "article": {
+        "id": "fcda373f-e0c5-45c6-be27-e7e16021c7b9",
+        "title": "‘A propaganda show’: Ukrainians scorn pro-Russia referendums",
+        "url": "https://www.ft.com/content/210d97ca-846e-4428-b48b-e21c2193afbd",
+        "publication_date": "2022-09-23",
+        "text_sha256": "dd525d655b074bb9676f0e69ade86e3c25feae34148cff46c0d092e2c9127e3d"
+      },
+      "attention": "Most space goes to residents’ accounts, free choice, voting methods and fear of forced military service. Russian-appointed officials’ positive accounts appear alongside the narrator’s criticism; uncertainty about public opinion is also acknowledged.",
+      "claims": [
+        {
+          "id": "FT01",
+          "text": "Berdyansk’s Russia-appointed leader says the vote lets people freely choose a future with Russia.",
+          "topics": [
+            "free_choice",
+            "framing"
+          ],
+          "kind": {
+            "label": "Opinion / judgement",
+            "status": "An interpretation, judgement, intention or prediction; not proof that an outcome happened."
+          },
+          "claim_type": "opinion",
+          "source_type": "quoted_russian_appointed_official",
+          "claimants": [
+            {
+              "name": "Alexander Saulenko",
+              "role": "Russia-appointed head of Berdyansk in occupied Zaporizhzhia region",
+              "country": "Ukraine (Russia-installed administration)",
+              "country_basis": "The office is in occupied Ukraine and was installed by Russia. Personal citizenship is not established.",
+              "nationality": "not inferred"
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Praises the vote as free choice and supports joining Russia",
+            "target": "Whether this vote expresses free choice",
+            "note": "Stance belongs to the identified claimant, not automatically to the outlet or everyone in their country.",
+            "basis": "source_statement"
+          },
+          "attention": "coercion/free_choice; framing (Paragraphs 3.)",
+          "outlet_view": "This is Saulenko’s praise, not FT endorsement. The next paragraph directly rejects free-will framing for many people living under occupation. This article, not an outlet-wide policy statement.",
+          "where_when": "Berdyansk, Zaporizhzhia region; Statement after votes were announced, reported September 23; Promotional assessment of the announced vote",
+          "evidence": {
+            "quote": "“This is a historic event where we can express our free will…",
+            "paragraphs": [
+              3
+            ],
+            "language": "en",
+            "paraphrase": "Berdyansk’s Russia-appointed leader says the vote lets people freely choose a future with Russia.",
+            "supporting_sentence": "“This is a historic event where we can express our free will and make a choice that will benefit not just us but also our children and grandchildren, choosing a happy and bright future, which absolutely must tie us to the Russian Federation,” said Alexander Saulenko, the Russia-appointed head of the port city of Berdyansk in the Zaporizhzhia region, after the vote was announced.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "A broad promotional claim, without independent evidence in this quotation that all residents can choose freely.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "FT02",
+          "text": "The FT says many people under Russian occupation cannot freely choose in this vote.",
+          "topics": [
+            "free_choice",
+            "framing"
+          ],
+          "kind": {
+            "label": "Framing / words used",
+            "status": "An interpretation, judgement, intention or prediction; not proof that an outcome happened."
+          },
+          "claim_type": "framing",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "Financial Times article narrator",
+              "role": "News article narrative voice",
+              "country": "United Kingdom",
+              "country_basis": "Outlet origin; individual reporter nationality not inferred",
+              "nationality": "not inferred"
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Rejects free-choice portrayal for many residents",
+            "target": "Whether the vote expresses free choice for people under occupation",
+            "note": "Stance belongs to the identified claimant, not automatically to the outlet or everyone in their country.",
+            "basis": "source_statement"
+          },
+          "attention": "coercion/free_choice; framing (Paragraphs 4.)",
+          "outlet_view": "This is the article narrator’s explicit negative assessment of voting freedom, immediately following Saulenko’s quotation. This article, not an outlet-wide policy statement.",
+          "where_when": "Russian-occupied voting areas in Ukraine; Voting began September 23, 2022; statement about voting under way",
+          "evidence": {
+            "quote": "But for many living under Russian occupation and repression the vote is…",
+            "paragraphs": [
+              4
+            ],
+            "language": "en",
+            "paraphrase": "The FT says many people under Russian occupation cannot freely choose in this vote.",
+            "supporting_sentence": "But for many living under Russian occupation and repression the vote is about as far as possible from an expression of free will.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "The sentence says many, not every resident. It is an evaluative portrayal, not an independently measured count of coerced voters.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "FT03",
+          "text": "The FT says Russia controls the vote and the result is already certain.",
+          "topics": [
+            "voting_process",
+            "public_support"
+          ],
+          "kind": {
+            "label": "Opinion / judgement",
+            "status": "An interpretation, judgement, intention or prediction; not proof that an outcome happened."
+          },
+          "claim_type": "opinion",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "Financial Times article narrator",
+              "role": "News article narrative voice",
+              "country": "United Kingdom",
+              "country_basis": "Outlet origin; individual reporter nationality not inferred",
+              "nationality": "not inferred"
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Calls the result a foregone conclusion",
+            "target": "Whether the voting result remains genuinely open",
+            "note": "Stance belongs to the identified claimant, not automatically to the outlet or everyone in their country.",
+            "basis": "source_statement"
+          },
+          "attention": "voting_process; public_support (Paragraphs 10.)",
+          "outlet_view": "This assessment is in the article’s own voice. The later Skabeyeva quotation is a different speaker and is not merged into this claim. This article, not an outlet-wide policy statement.",
+          "where_when": "Four occupied Ukrainian voting regions; September 23, before voting finishes; Narrator prediction/assessment of future result",
+          "evidence": {
+            "quote": "With the vote under Russia’s complete control, the result is a foregone…",
+            "paragraphs": [
+              10
+            ],
+            "language": "en",
+            "paraphrase": "The FT says Russia controls the vote and the result is already certain.",
+            "supporting_sentence": "With the vote under Russia’s complete control, the result is a foregone conclusion.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "Predicting an outcome is not by itself proof that ballots are fabricated. A confident pro-Russia prediction can agree on outcome while disagreeing about the process.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "FT04",
+          "text": "A retired Donetsk businessman expects a vote to be counted for him even if he does not vote.",
+          "topics": [
+            "voting_process"
+          ],
+          "kind": {
+            "label": "Opinion / prediction",
+            "status": "An interpretation, judgement, intention or prediction; not proof that an outcome happened."
+          },
+          "claim_type": "prediction",
+          "source_type": "quoted_resident",
+          "claimants": [
+            {
+              "name": "Unnamed retired businessman in Donetsk",
+              "role": "Resident interviewed by the Financial Times",
+              "country": "Ukraine (residence)",
+              "country_basis": "The article places the resident in Donetsk or Kherson. Citizenship is not given.",
+              "nationality": "not inferred"
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Expects his vote to be counted without participation",
+            "target": "Whether his own participation matters to the count",
+            "note": "Stance belongs to the identified claimant, not automatically to the outlet or everyone in their country.",
+            "basis": "source_statement"
+          },
+          "attention": "voting_process (Paragraphs 15.)",
+          "outlet_view": "This is an unnamed resident’s expectation. The outlet reports it; the quotation alone does not independently establish ballot fabrication. This article, not an outlet-wide policy statement.",
+          "where_when": "Donetsk; Interview reported September 23; voting still under way; Personal expectation, not an observed audited count",
+          "evidence": {
+            "quote": "“Even if I don’t vote it will be counted. It will change…",
+            "paragraphs": [
+              15
+            ],
+            "language": "en",
+            "paraphrase": "A retired Donetsk businessman expects a vote to be counted for him even if he does not vote.",
+            "supporting_sentence": "“Even if I don’t vote it will be counted. It will change nothing,” said a retired businessman in Donetsk.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "Two complete consecutive sentences are quoted together as printed. This resident’s account cannot automatically represent all voters.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "FT05",
+          "text": "Zaporizhzhia’s Russia-appointed leader says voting teams will visit homes with police, calling this protection for residents.",
+          "topics": [
+            "voting_process",
+            "free_choice"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A checkable statement by a source, not a fact verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "quoted_russian_appointed_official",
+          "claimants": [
+            {
+              "name": "Evgeny Balitsky",
+              "role": "Russia-appointed head of Zaporizhzhia province",
+              "country": "Ukraine (Russia-installed administration)",
+              "country_basis": "The office is in occupied Ukraine and was installed by Russia. Personal citizenship is not established.",
+              "nationality": "not inferred"
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Presents police accompaniment as protection rather than coercion",
+            "target": "Police-accompanied home voting teams",
+            "note": "Stance belongs to the identified claimant, not automatically to the outlet or everyone in their country.",
+            "basis": "source_statement"
+          },
+          "attention": "voting_process; coercion/free_choice (Paragraphs 17.)",
+          "outlet_view": "Balitsky’s protective justification is distinct from the FT narrator and residents’ criticism. The quoted hostile label for Ukrainian forces remains his language. This article, not an outlet-wide policy statement.",
+          "where_when": "Zaporizhzhia region; Plans reported September 23 for the five-day vote; Stated planned procedure and official justification",
+          "evidence": {
+            "quote": "“Many people will be visited by our team of people, which will…",
+            "paragraphs": [
+              17
+            ],
+            "language": "en",
+            "paraphrase": "Zaporizhzhia’s Russia-appointed leader says voting teams will visit homes with police, calling this protection for residents.",
+            "supporting_sentence": "“Many people will be visited by our team of people, which will consist of members of the commission accompanied by police officers so that there are no incidents, and people will be invited to vote by address,” he added.\n“In this way, we protect residents from gathering in places where the Nazis [Ukrainian forces] can launch rocket attacks or plant explosive devices.”",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "Police accompaniment can be a shared description even when speakers disagree over whether it protects or pressures voters. Agreement on police presence is not a contradiction.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "FT06",
+          "text": "A Kherson teacher fears people could be forced to fight for Russia after the votes.",
+          "topics": [
+            "consequences"
+          ],
+          "kind": {
+            "label": "Opinion / prediction",
+            "status": "An interpretation, judgement, intention or prediction; not proof that an outcome happened."
+          },
+          "claim_type": "prediction",
+          "source_type": "quoted_resident",
+          "claimants": [
+            {
+              "name": "Unnamed teacher in her fifties from Kherson",
+              "role": "Resident interviewed by the Financial Times",
+              "country": "Ukraine (residence)",
+              "country_basis": "The article places the resident in Donetsk or Kherson. Citizenship is not given.",
+              "nationality": "not inferred"
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Fears and condemns possible forced service",
+            "target": "Possible forced military service following claimed incorporation into Russia",
+            "note": "Stance belongs to the identified claimant, not automatically to the outlet or everyone in their country.",
+            "basis": "source_statement"
+          },
+          "attention": "consequences (Paragraphs 20.)",
+          "outlet_view": "The article carries this speaker’s claim. Quotation alone is not outlet endorsement. This article, not an outlet-wide policy statement.",
+          "where_when": "Kherson; September 23 interview about possible consequences after the votes; Fear about a future possibility, not a report that it has already happened",
+          "evidence": {
+            "quote": "“The consequences are hard to imagine, but everyone is worried about possible…",
+            "paragraphs": [
+              20
+            ],
+            "language": "en",
+            "paraphrase": "A Kherson teacher fears people could be forced to fight for Russia after the votes.",
+            "supporting_sentence": "“The consequences are hard to imagine, but everyone is worried about possible forced mobilisation, which is in itself criminal,” said a teacher in her fifties from Kherson.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "The word possible must remain: the teacher expresses fear rather than establishing that this outcome will occur.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "FT07",
+          "text": "The FT says public opinion is hard to measure, but many residents who remain favor Moscow.",
+          "topics": [
+            "public_support"
+          ],
+          "kind": {
+            "label": "Opinion / assessment",
+            "status": "An interpretation, judgement, intention or prediction; not proof that an outcome happened."
+          },
+          "claim_type": "assessment",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "Financial Times article narrator",
+              "role": "News article narrative voice",
+              "country": "United Kingdom",
+              "country_basis": "Outlet origin; individual reporter nationality not inferred",
+              "nationality": "not inferred"
+            }
+          ],
+          "stance": {
+            "value": "unclear",
+            "label": "Reports some pro-Moscow sympathies while stressing uncertainty",
+            "target": "Public opinion among residents remaining in the occupied areas",
+            "note": "Stance belongs to the identified claimant, not automatically to the outlet or everyone in their country.",
+            "basis": "not_stated"
+          },
+          "attention": "public_support (Paragraphs 23.)",
+          "outlet_view": "The narrator acknowledges pro-Moscow sympathies among many remaining residents. Describing those sympathies does not endorse Russia’s actions. This article, not an outlet-wide policy statement.",
+          "where_when": "Four occupied regions; specifically residents who remain after others fled; As reported September 23, 2022; Qualified current assessment",
+          "evidence": {
+            "quote": "an accurate picture of public opinion is difficult to gauge",
+            "paragraphs": [
+              23
+            ],
+            "language": "en",
+            "paraphrase": "The FT says public opinion is hard to measure, but many residents who remain favor Moscow.",
+            "supporting_sentence": "Though an accurate picture of public opinion is difficult to gauge, the sympathies of many of those who remain lie with Moscow.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "No percentage is given; many is not most, all, or a verified majority. Political sympathy does not establish willingness to vote, free voting, or legality.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "FT08",
+          "text": "The FT says Donetsk and Luhansk polling stations open only on the last voting day, after four days of ballot-box visits.",
+          "topics": [
+            "voting_process"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A checkable statement by a source, not a fact verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "Financial Times narration",
+              "role": "The article’s own wording",
+              "country": "United Kingdom",
+              "country_basis": "Outlet origin, not the citizenship of an individual writer."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "The particular voting claim",
+            "note": "",
+            "basis": "not_stated"
+          },
+          "attention": "This passage discusses the way the votes are described or carried out. (Paragraphs 14.)",
+          "outlet_view": "The article makes this statement in its own narration.",
+          "where_when": "The September 23–27 votes in Russian-controlled Ukrainian regions; article published September 23.",
+          "evidence": {
+            "quote": "open in polling stations only on the last",
+            "paragraphs": [
+              14
+            ],
+            "language": "en",
+            "paraphrase": "The FT says Donetsk and Luhansk polling stations open only on the last voting day, after four days of ballot-box visits.",
+            "supporting_sentence": "In the Donbas regions of Donetsk and Luhansk, where Russia first fomented an armed conflict in 2014, ballot boxes will be brought to housing blocs and courtyards for the first four days and open in polling stations only on the last.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "FT09",
+          "text": "The FT says the voting methods fall far short of normal democratic standards.",
+          "topics": [
+            "voting_process",
+            "free_choice"
+          ],
+          "kind": {
+            "label": "Opinion / judgement",
+            "status": "An interpretation, judgement, intention or prediction; not proof that an outcome happened."
+          },
+          "claim_type": "opinion",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "Financial Times narration",
+              "role": "The article’s own wording",
+              "country": "United Kingdom",
+              "country_basis": "Outlet origin, not the citizenship of an individual writer."
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Criticizes / opposes",
+            "target": "Quality of the voting process",
+            "note": "This is the article narrator’s assessment, not an independently completed election audit.",
+            "basis": "source_statement"
+          },
+          "attention": "This passage discusses the way the votes are described or carried out. (Paragraphs 13.)",
+          "outlet_view": "The article makes this statement in its own narration.",
+          "where_when": "The September 23–27 votes in Russian-controlled Ukrainian regions; article published September 23.",
+          "evidence": {
+            "quote": "fall well short of normal democratic standards",
+            "paragraphs": [
+              13
+            ],
+            "language": "en",
+            "paraphrase": "The FT says the voting methods fall far short of normal democratic standards.",
+            "supporting_sentence": "But the impromptu methods fall well short of normal democratic standards.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "kyivpost",
+      "label": "Kyiv Independent",
+      "short_label": "Kyiv Independent",
+      "country": "Ukraine",
+      "article": {
+        "id": "f357fca1-cecc-4c0e-ac76-6cd2b221721b",
+        "title": "White House: US ready to impose 'severe economic costs' on Russia",
+        "url": "https://kyivindependent.com/white-house-us-ready-to-impose-severe-economic-costs-on-russia/",
+        "publication_date": "2022-09-23",
+        "text_sha256": "a5654b0e8ed83d144a4f9c812b90667dd596ab1b999f358e07e79272dbd4d5eb"
+      },
+      "attention": "The actual article is one short paragraph: a US warning about economic penalties and rejection of expected results. Later news-feed entries are excluded.",
+      "claims": [
+        {
+          "id": "KI01",
+          "text": "The White House said the US and its partners were ready to impose more economic penalties if Russia took the occupied regions into Russia.",
+          "topics": [
+            "sanctions",
+            "consequences"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "An interpretation, judgement, intention or prediction; not proof that an outcome happened."
+          },
+          "claim_type": "intention",
+          "source_type": "official_statement",
+          "claimants": [
+            {
+              "name": "Karine Jean-Pierre",
+              "role": "White House press secretary",
+              "country": "United States",
+              "country_basis": "Country identifies the government she represents, not a separate finding about citizenship."
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Criticizes / opposes",
+            "target": "Russia taking occupied Ukrainian territories into Russia",
+            "note": "A conditional policy warning; the sentence does not say new penalties had already been imposed.",
+            "basis": "source_statement"
+          },
+          "attention": "The opening sentence focuses on threatened economic penalties, rather than how voting is carried out. (Paragraphs 1.)",
+          "outlet_view": "Reports the White House warning. Reporting a promised penalty is not proof that it happened or a separate recommendation from the outlet.",
+          "where_when": "Statement reported September 23, 2022; concerns possible annexation of occupied Ukrainian territories.",
+          "evidence": {
+            "quote": "The White House, along with its allies and partners, is ready to…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "The White House said the US and its partners were ready to impose more economic penalties if Russia took the occupied regions into Russia.",
+            "supporting_sentence": "The White House, along with its allies and partners, is ready to \"impose additional swift and severe economic costs on Russia\" if it moves forward with the annexation of occupied territories of Ukraine, White House press secretary Karine Jean-Pierre said on Sept. 23.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "KI02",
+          "text": "Jean-Pierre said the US would reject any results Russia announced, calling them made up.",
+          "topics": [
+            "public_support",
+            "framing"
+          ],
+          "kind": {
+            "label": "Opinion / judgement",
+            "status": "An interpretation, judgement, intention or prediction; not proof that an outcome happened."
+          },
+          "claim_type": "opinion",
+          "source_type": "official_statement",
+          "claimants": [
+            {
+              "name": "Karine Jean-Pierre",
+              "role": "White House press secretary",
+              "country": "United States",
+              "country_basis": "Country identifies the White House/government she represents."
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Criticizes / opposes",
+            "target": "Treating the Russia-organized votes as valid expressions of residents’ wishes",
+            "note": "The claim is a judgment about the expected results and a statement of US policy, not independently established evidence of how every person voted.",
+            "basis": "source_statement"
+          },
+          "attention": "The second and final article sentence emphasizes rejection of the results and their credibility. (Paragraphs 1.)",
+          "outlet_view": "The narrator also calls the votes sham referenda, showing similar wording. This does not turn the official’s assessment into independently checked evidence.",
+          "where_when": "US position stated September 23 while voting was beginning; no final results are reported.",
+          "evidence": {
+            "quote": "Jean-Pierre reiterated that the U.S. will reject “whatever fabricated outcomes Russia announces”…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Jean-Pierre said the US would reject any results Russia announced, calling them made up.",
+            "supporting_sentence": "Jean-Pierre reiterated that the U.S. will reject “whatever fabricated outcomes Russia announces” on the sham referenda.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "censor",
+      "label": "Censor.NET",
+      "short_label": "Censor.NET",
+      "country": "Ukraine",
+      "article": {
+        "id": "3ed33c31-3150-49e3-bc6a-27be3d576ad6",
+        "title": "Occupiers report start of \"referendums\" in captured territories of Donbas and Melitopol",
+        "url": "https://censor.net/en/news/3369058/occupiers_report_start_of_referendums_in_captured_territories_of_donbas_and_melitopol",
+        "publication_date": "2022-09-23",
+        "text_sha256": "3ca93d96a3eb4a56acea8304c60e42dccc021af4eacd7057cc2f3f683d69d0d5"
+      },
+      "attention": "Three of five paragraphs describe voting arrangements and visits to homes. The opening uses strongly critical labels. The brief does not supply its own evidence of threats to voters.",
+      "claims": [
+        {
+          "id": "CEN01",
+          "text": "Russian-installed authorities said voting on joining Russia had begun in occupied Donetsk, Luhansk and Melitopol.",
+          "topics": [
+            "voting_process"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A checkable statement by a source, not a fact verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "reported_authority_statement_via_RIA",
+          "claimants": [
+            {
+              "name": "Russian-installed authorities in Donetsk, Luhansk and Melitopol",
+              "role": "Authorities controlling occupied Ukrainian territory; reports relayed through RIA News",
+              "country": "Ukraine",
+              "country_basis": "Country records the locations in Ukraine; their Russian-backed affiliation is stated in the role and does not imply Ukrainian-government authority."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "The reported start of voting",
+            "note": "Reporting that authorities announced voting does not itself establish whether the vote is legal or freely chosen.",
+            "basis": "not_stated"
+          },
+          "attention": "The lead focuses on announcements that voting has started; it names these locations rather than explicitly listing all four regions. (Paragraphs 1.)",
+          "outlet_view": "The article reports the announcement through RIA News, while its own lead uses critical language about the organizers.",
+          "where_when": "Reported September 23, 2022; occupied Donetsk and Luhansk regions and Melitopol, in Zaporizhzhia region.",
+          "evidence": {
+            "quote": "The Russian occupiers and their puppets in the occupied territories of Donetsk,…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Russian-installed authorities said voting on joining Russia had begun in occupied Donetsk, Luhansk and Melitopol.",
+            "supporting_sentence": "The Russian occupiers and their puppets in the occupied territories of Donetsk, Luhansk regions and Melitopol have announced that they have started a so-called \"referendum\" on joining Russia.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CEN02",
+          "text": "The Russian-backed Donetsk authorities said voting was happening across the territory they controlled.",
+          "topics": [
+            "voting_process"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A checkable statement by a source, not a fact verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "reported_authority_statement_via_RIA",
+          "claimants": [
+            {
+              "name": "Authorities calling themselves the Donetsk People’s Republic",
+              "role": "Russian-backed administration in occupied Donetsk",
+              "country": "Ukraine",
+              "country_basis": "Geographic location in occupied Ukrainian territory; not recognition of a separate country or association with Ukraine’s government."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Where voting was taking place",
+            "note": "No position on legality or free choice is inferred from this administrative claim.",
+            "basis": "not_stated"
+          },
+          "attention": "A short paragraph presents the claimed territorial reach of voting. (Paragraphs 3.)",
+          "outlet_view": "Reports the authorities’ statement and places quotation marks around voting and the claimed republic’s name.",
+          "where_when": "September 23, 2022; parts of Donetsk region held by Russian-backed forces.",
+          "evidence": {
+            "quote": "The so-called \"DPR\" reported that the \"voting\" is taking place throughout the…",
+            "paragraphs": [
+              3
+            ],
+            "language": "en",
+            "paraphrase": "The Russian-backed Donetsk authorities said voting was happening across the territory they controlled.",
+            "supporting_sentence": "The so-called \"DPR\" reported that the \"voting\" is taking place throughout the territory controlled by the occupiers.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CEN03",
+          "text": "The Russian-backed Luhansk authorities said ballots had arrived at polling places.",
+          "topics": [
+            "voting_process"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A checkable statement by a source, not a fact verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "reported_authority_statement_via_RIA",
+          "claimants": [
+            {
+              "name": "Authorities calling themselves the Luhansk People’s Republic",
+              "role": "Russian-backed administration in occupied Luhansk",
+              "country": "Ukraine",
+              "country_basis": "Geographic location in occupied Ukrainian territory; not recognition of a separate country or association with Ukraine’s government."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Availability of ballot papers",
+            "note": "This is a claim about voting arrangements, not evidence that voters had a free choice.",
+            "basis": "not_stated"
+          },
+          "attention": "The paragraph gives practical details about ballot delivery and the announced opening time. (Paragraphs 4.)",
+          "outlet_view": "Reports the authorities’ claim through RIA News, using quotation marks around ballots and the administration’s name.",
+          "where_when": "September 23, 2022; occupied Luhansk region; the same sentence mentions an 8 a.m. start for outside-premises voting.",
+          "evidence": {
+            "quote": "The so-called \"LPR\" said that all the \"ballots\" were delivered to the…",
+            "paragraphs": [
+              4
+            ],
+            "language": "en",
+            "paraphrase": "The Russian-backed Luhansk authorities said ballots had arrived at polling places.",
+            "supporting_sentence": "The so-called \"LPR\" said that all the \"ballots\" were delivered to the polling stations, \"from 8 in the morning the polling stations outside the premises start their work.\"",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CEN04",
+          "text": "The report says people collecting signatures in Melitopol began going to residents’ addresses.",
+          "topics": [
+            "voting_process"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A checkable statement by a source, not a fact verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "outlet_narration_based_on_RIA",
+          "claimants": [
+            {
+              "name": "Censor.NET narrative voice",
+              "role": "Narrator in an article sourced to RIA News; no individual witness identified",
+              "country": "Ukraine",
+              "country_basis": "Country is the publishing outlet’s institutional location, not an identified witness’s citizenship."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Visits to residents during the voting process",
+            "note": "The sentence does not state whether residents were threatened, whether visits were voluntary or whether signatures were equivalent to completed ballots.",
+            "basis": "not_stated"
+          },
+          "attention": "The closing sentence shifts from polling places to visits at residents’ addresses. (Paragraphs 5.)",
+          "outlet_view": "Presents the address visits as part of the reported voting arrangements without explaining free choice or pressure.",
+          "where_when": "Reported September 23, 2022; Russian-controlled Melitopol.",
+          "evidence": {
+            "quote": "In turn, Melitopol began to go to the addresses of citizens to…",
+            "paragraphs": [
+              5
+            ],
+            "language": "en",
+            "paraphrase": "The report says people collecting signatures in Melitopol began going to residents’ addresses.",
+            "supporting_sentence": "In turn, Melitopol began to go to the addresses of citizens to collect signatures.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CEN05",
+          "text": "Censor.NET calls the organizers occupiers and their puppets, and calls the vote a so-called referendum.",
+          "topics": [
+            "framing"
+          ],
+          "kind": {
+            "label": "Framing / words used",
+            "status": "An interpretation, judgement, intention or prediction; not proof that an outcome happened."
+          },
+          "claim_type": "framing",
+          "source_type": "outlet_narration",
+          "claimants": [
+            {
+              "name": "Censor.NET narrative voice",
+              "role": "Article narrator",
+              "country": "Ukraine",
+              "country_basis": "Country identifies the publishing outlet, not the nationality of every author or quoted source."
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Criticizes / opposes",
+            "target": "The claimed independence and legitimacy of the vote organizers",
+            "note": "This is observable critical wording. It does not amount to a separate, detailed legal ruling or prove how each voter behaved.",
+            "basis": "source_statement"
+          },
+          "attention": "Critical descriptions of the organizers appear in the lead and quotation marks recur in later paragraphs. (Paragraphs 1.)",
+          "outlet_view": "The critical wording belongs to the article’s narrator, unlike the quoted practical claims from the Russian-backed authorities.",
+          "where_when": "Narrative framing of the voting beginning September 23 in occupied Donetsk, Luhansk and Melitopol.",
+          "evidence": {
+            "quote": "Russian occupiers and their puppets",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Censor.NET calls the organizers occupiers and their puppets, and calls the vote a so-called referendum.",
+            "supporting_sentence": "The Russian occupiers and their puppets in the occupied territories of Donetsk, Luhansk regions and Melitopol have announced that they have started a so-called \"referendum\" on joining Russia.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "tass",
+      "label": "TASS",
+      "short_label": "TASS",
+      "country": "Russia",
+      "article": {
+        "id": "d4c3ce37-b32c-4b2d-926c-3189f100b9ae",
+        "title": "Referendums in Donbass and liberated territories comply with UN charter — top senator",
+        "url": "https://tass.com/politics/1512099",
+        "publication_date": "2022-09-23",
+        "text_sha256": "0be66a44ac37d90f9e7ea62e948f8729e91723b24b154a9ed81ac0fdaf898fab"
+      },
+      "attention": "Legal legitimacy leads the article and the first quotation. Other space goes to criticism of Western rejection, praise for preparations and observers, and a promise of quick parliamentary action.",
+      "claims": [
+        {
+          "id": "T01",
+          "text": "Matviyenko says the votes follow international rules and the UN Charter.",
+          "topics": [
+            "legality"
+          ],
+          "kind": {
+            "label": "Legal claim — not checked here",
+            "status": "The source states a legal position. This graph records the disagreement without independently checking that legal claim."
+          },
+          "claim_type": "legal_interpretation",
+          "source_type": "quoted_official",
+          "claimants": [
+            {
+              "name": "Valentina Matviyenko",
+              "role": "Speaker of Russia’s Federation Council (upper house of parliament)",
+              "country": "Russia",
+              "country_basis": "Country of the named government institution; not a separate citizenship inference"
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Legal legitimacy of the September 23–27 votes in the four regions",
+            "note": "",
+            "basis": "source_statement"
+          },
+          "attention": "Legal legitimacy leads the article and is repeated in the first quote. (Paragraphs 1, 2.)",
+          "outlet_view": "The lead attributes the legal conclusion to Matviyenko. TASS reporting this statement is distinct from an independently established legal ruling.",
+          "where_when": "Statement reported September 23; votes in Donetsk, Luhansk and Russian-controlled parts of Zaporizhzhia and Kherson.",
+          "evidence": {
+            "quote": "in accordance with international norms and the UN Charter",
+            "paragraphs": [
+              1,
+              2
+            ],
+            "language": "en",
+            "paraphrase": "Matviyenko says the votes follow international rules and the UN Charter.",
+            "supporting_sentence": "MOSCOW, September 23. /TASS/. Referendums in the Donetsk and Lugansk People’s Republics (DPR and LPR) and liberated territories on becoming part of Russia comply with international norms and the UN charter, Russian Federation Council Speaker Valentina Matviyenko told reporters on Friday.\nThe expression of will takes place in accordance with international norms and the UN Charter.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "Treat this as an attributed legal interpretation, not a verified event fact or a conclusive application of international law.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "T02",
+          "text": "Matviyenko says residents have a legal right to hold these votes.",
+          "topics": [
+            "legality"
+          ],
+          "kind": {
+            "label": "Legal claim — not checked here",
+            "status": "The source states a legal position. This graph records the disagreement without independently checking that legal claim."
+          },
+          "claim_type": "legal_interpretation",
+          "source_type": "quoted_official",
+          "claimants": [
+            {
+              "name": "Valentina Matviyenko",
+              "role": "Speaker of Russia’s Federation Council (upper house of parliament)",
+              "country": "Russia",
+              "country_basis": "Country of the named government institution; not a separate citizenship inference"
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Residents’ claimed right to vote on joining Russia",
+            "note": "",
+            "basis": "source_statement"
+          },
+          "attention": "The first quoted paragraph links voting rights to the right to life. (Paragraphs 2.)",
+          "outlet_view": "A Russian official makes the rights claim; the article quotes it without a separate counterargument.",
+          "where_when": "Four regions; Matviyenko’s September 23 comments.",
+          "evidence": {
+            "quote": "The residents of the DPR, LPR, and other liberated territories have this…",
+            "paragraphs": [
+              2
+            ],
+            "language": "en",
+            "paraphrase": "Matviyenko says residents have a legal right to hold these votes.",
+            "supporting_sentence": "The residents of the DPR, LPR, and other liberated territories have this right, a legal right.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "A claim about legal entitlement does not show that every resident freely chose or participated.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "T03",
+          "text": "Matviyenko says the voting preparations are excellent, with nothing to complain about and everything open and transparent.",
+          "topics": [
+            "voting_process"
+          ],
+          "kind": {
+            "label": "Opinion / judgement",
+            "status": "An interpretation, judgement, intention or prediction; not proof that an outcome happened."
+          },
+          "claim_type": "opinion",
+          "source_type": "official_relaying_colleagues",
+          "claimants": [
+            {
+              "name": "Valentina Matviyenko",
+              "role": "Speaker of Russia’s Federation Council (upper house of parliament)",
+              "country": "Russia",
+              "country_basis": "Country of the named government institution; not a separate citizenship inference"
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Quality and openness of the arrangements for these votes",
+            "note": "",
+            "basis": "source_statement"
+          },
+          "attention": "A full paragraph praises preparation, organization and openness. (Paragraphs 4.)",
+          "outlet_view": "TASS attributes the praise to Matviyenko, who partly repeats colleagues’ assessments. This is not an independent election audit by the outlet.",
+          "where_when": "Arrangements for the September 23–27 votes; statement reported on the opening day.",
+          "evidence": {
+            "quote": "Everything has been done to ensure transparency and openness",
+            "paragraphs": [
+              4
+            ],
+            "language": "en",
+            "paraphrase": "Matviyenko says the voting preparations are excellent, with nothing to complain about and everything open and transparent.",
+            "supporting_sentence": "She added that everything has been prepared for the voting at the referendums at the highest level and international observers have been invited. Russian senators are also working as observers. \"As my colleagues say, in terms of organization, objectively there is simply nothing to complain about. Everything has been done to ensure transparency and openness,\" the politician noted.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "The exact sentence includes the closing quote and attribution as printed in the article. This is a broad quality assessment; do not translate it into proof that no coercion occurred anywhere. Matviyenko introduces part of the assessment as what her colleagues say.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "T04",
+          "text": "Matviyenko says international observers were invited to watch the votes.",
+          "topics": [
+            "voting_process"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A checkable statement by a source, not a fact verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "reported_official",
+          "claimants": [
+            {
+              "name": "Valentina Matviyenko",
+              "role": "Speaker of Russia’s Federation Council (upper house of parliament)",
+              "country": "Russia",
+              "country_basis": "Country of the named government institution; not a separate citizenship inference"
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Invitation of international observers; this procedural assertion alone does not approve or validate the votes",
+            "note": "",
+            "basis": "not_stated"
+          },
+          "attention": "Observers appear in the paragraph on preparation and openness. (Paragraphs 4.)",
+          "outlet_view": "The invitation claim is explicitly introduced as something she added; it is not a separate TASS finding about observers’ independence.",
+          "where_when": "Invitations before or by September 23; four-region votes.",
+          "evidence": {
+            "quote": "She added that everything has been prepared for the voting at the…",
+            "paragraphs": [
+              4
+            ],
+            "language": "en",
+            "paraphrase": "Matviyenko says international observers were invited to watch the votes.",
+            "supporting_sentence": "She added that everything has been prepared for the voting at the referendums at the highest level and international observers have been invited.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "An invitation does not establish who attended, what they observed, independence, or free voting.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "T05",
+          "text": "Matviyenko says Europe and the US do not care what residents think.",
+          "topics": [
+            "public_support",
+            "framing"
+          ],
+          "kind": {
+            "label": "Opinion / judgement",
+            "status": "An interpretation, judgement, intention or prediction; not proof that an outcome happened."
+          },
+          "claim_type": "opinion",
+          "source_type": "quoted_official",
+          "claimants": [
+            {
+              "name": "Valentina Matviyenko",
+              "role": "Speaker of Russia’s Federation Council (upper house of parliament)",
+              "country": "Russia",
+              "country_basis": "Country of the named government institution; not a separate citizenship inference"
+            }
+          ],
+          "stance": {
+            "value": "criticizes",
+            "label": "Criticizes",
+            "target": "Western rejection of the votes before they began",
+            "note": "",
+            "basis": "source_statement"
+          },
+          "attention": "An entire paragraph challenges Western governments’ motives. (Paragraphs 3.)",
+          "outlet_view": "The criticism belongs to Matviyenko; the paragraph introduces it as her response to Western non-recognition.",
+          "where_when": "Western statements made before the September 23 opening of voting.",
+          "evidence": {
+            "quote": "That is how Europe and the US confirmed their cynicism and proved…",
+            "paragraphs": [
+              3
+            ],
+            "language": "en",
+            "paraphrase": "Matviyenko says Europe and the US do not care what residents think.",
+            "supporting_sentence": "That is how Europe and the US confirmed their cynicism and proved that they are not interested in the opinion of citizens of these regions.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "This is a judgment about motives, not survey evidence about residents or proof of Western intent.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "T06",
+          "text": "Matviyenko predicts Western criticism and threats will not change residents’ views.",
+          "topics": [
+            "public_support",
+            "consequences"
+          ],
+          "kind": {
+            "label": "Opinion / prediction",
+            "status": "An interpretation, judgement, intention or prediction; not proof that an outcome happened."
+          },
+          "claim_type": "prediction",
+          "source_type": "quoted_official",
+          "claimants": [
+            {
+              "name": "Valentina Matviyenko",
+              "role": "Speaker of Russia’s Federation Council (upper house of parliament)",
+              "country": "Russia",
+              "country_basis": "Country of the named government institution; not a separate citizenship inference"
+            }
+          ],
+          "stance": {
+            "value": "unclear",
+            "label": "Not stated in this prediction",
+            "target": "The claimed influence of Western rejection or threats on residents’ positions",
+            "note": "The claim predicts no effect on residents’ views. Matviyenko’s criticism of the West is coded separately.",
+            "basis": "not_stated"
+          },
+          "attention": "Her response to Western criticism ends with a prediction about residents. (Paragraphs 3.)",
+          "outlet_view": "The prediction is quoted from Matviyenko, not demonstrated through subsequent voting or polling.",
+          "where_when": "A forecast on September 23 about people’s positions during the votes.",
+          "evidence": {
+            "quote": "I have no doubt that these statements, already with outright threats, will…",
+            "paragraphs": [
+              3
+            ],
+            "language": "en",
+            "paraphrase": "Matviyenko predicts Western criticism and threats will not change residents’ views.",
+            "supporting_sentence": "I have no doubt that these statements, already with outright threats, will have no effect on people's position,\" said Matvienko.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "The article does not identify or measure the alleged threats or their actual effects.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "T07",
+          "text": "Matviyenko says Russia’s upper house will act quickly if the reported results favor joining Russia.",
+          "topics": [
+            "consequences"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "An interpretation, judgement, intention or prediction; not proof that an outcome happened."
+          },
+          "claim_type": "intention",
+          "source_type": "reported_official_intention",
+          "claimants": [
+            {
+              "name": "Valentina Matviyenko",
+              "role": "Speaker of Russia’s Federation Council (upper house of parliament)",
+              "country": "Russia",
+              "country_basis": "Country of the named government institution; not a separate citizenship inference"
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Rapid Russian parliamentary action after a favorable reported result",
+            "note": "",
+            "basis": "source_statement"
+          },
+          "attention": "The penultimate paragraph explains what Russia’s upper house would do. (Paragraphs 5.)",
+          "outlet_view": "TASS reports a conditional promise by the parliamentary leader, not a completed action.",
+          "where_when": "Future action after the September 23–27 votes, conditional on reported favorable results.",
+          "evidence": {
+            "quote": "Matviyenko specified that if the referendums in the DPR, LPR and liberated…",
+            "paragraphs": [
+              5
+            ],
+            "language": "en",
+            "paraphrase": "Matviyenko says Russia’s upper house will act quickly if the reported results favor joining Russia.",
+            "supporting_sentence": "Matviyenko specified that if the referendums in the DPR, LPR and liberated territories show the residents’ desire to become part of Russia as subjects, the Federation Council \"will not hesitate.\" \"Legally and technically, the procedure is very clear, we have fully worked it out. Everything necessary from our side will follow as soon as possible,\" she said.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "The promise depends on declared results; do not assume those results would measure free popular consent.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "sputnik",
+      "label": "Sputnik",
+      "short_label": "Sputnik",
+      "country": "Russia",
+      "article": {
+        "id": "4d92879e-b062-412b-b04b-6b289502a8ff",
+        "title": "Facts and Figures: Donbass, Zaporozhye and Kherson Regions Hold Referendums",
+        "url": "https://sputnikglobe.com/20220923/regions-holding-referendums-in-facts-and-figures-1101140049.html",
+        "publication_date": "2022-09-23",
+        "text_sha256": "3037e324e0cc8309f30c6a0507e285cef0c88f56bfaba95a3a70373363926572"
+      },
+      "attention": "The saved text is only an infographic introduction about a poll. It gives no numerical chart breakdown, turnout figures or completed voting results.",
+      "claims": [
+        {
+          "id": "S01",
+          "text": "A survey cited by Sputnik says most interviewed residents in four regions planned to vote for joining Russia.",
+          "topics": [
+            "public_support"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A checkable statement by a source, not a fact verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "reported_poll_presented_by_second_institution",
+          "claimants": [
+            {
+              "name": "Expert Institute for Social Research (EIS)",
+              "role": "Survey conductor named in Sputnik’s introduction",
+              "country": "Unknown from the recovered introduction",
+              "country_basis": "The recovered introduction names EIS but does not state its country; no external lookup performed"
+            },
+            {
+              "name": "Russian Public Opinion Research Center (VTsIOM)",
+              "role": "Institution said to have presented the survey",
+              "country": "Russia",
+              "country_basis": "Institutional association is explicit in the name; the separate survey conductor’s country is not stated in this introduction."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Survey respondents’ stated voting intentions, not a completed vote or proven free choice",
+            "note": "",
+            "basis": "not_stated"
+          },
+          "attention": "The entire recovered article is one short paragraph introducing a survey and linking to an infographic. (Paragraphs 1.)",
+          "outlet_view": "Sputnik summarizes an EIS survey presented by the Russian Public Opinion Research Center (VTsIOM). The short introduction itself gives no percentages or methods.",
+          "where_when": "Interviewed residents of the DPR, LPR, Zaporizhzhia and Kherson; survey dates not given in the saved introduction.",
+          "evidence": {
+            "quote": "majority of the interviewed residents",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "A survey cited by Sputnik says most interviewed residents in four regions planned to vote for joining Russia.",
+            "supporting_sentence": "According to a survey conducted by the Expert Institute for Social Research (EIS) and presented by the Russian Public Opinion Research Center (VTsIOM), a majority of the interviewed residents of the DPR, LPR, and Zaporozhye and Kherson regions declared their intention to vote “Yes” in the referendums on joining Russia.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "No percentages, totals, turnout, sample sizes, final vote figures or survey methods appear in the 365-character recovered text. The claim covers interviewed residents, not all residents or all eligible voters. Reported intent to vote yes does not show that a vote was free or that people actually voted.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "izvestia",
+      "label": "Izvestia",
+      "short_label": "Izvestia",
+      "country": "Russia",
+      "article": {
+        "id": "d542e697-7fcd-4908-82e4-804901825282",
+        "title": "Первый день референдума стартовал в Донбассе, Запорожской и Херсонской областях",
+        "url": "https://iz.ru/1399851/2022-09-23/pervyi-den-referenduma-startoval-v-donbasse-zaporozhskoi-i-khersonskoi-oblastiakh",
+        "publication_date": "2022-09-23",
+        "text_sha256": "46222fbf982ff7a411789bd052036c1e1ba593cb0daa1e96875f9f51eb6fc779"
+      },
+      "attention": "Most paragraphs explain voting dates, formats, security, Russian assistance and observers. The article also highlights favorable poll figures and Putin’s support.",
+      "claims": [
+        {
+          "id": "I01",
+          "text": "Izvestia says voting on joining Russia began in four regions on September 23 and would end on September 27.",
+          "topics": [
+            "voting_process"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A checkable statement by a source, not a fact verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "outlet_narration",
+          "claimants": [
+            {
+              "name": "Izvestia narrator",
+              "role": "The article’s own reporting voice",
+              "country": "Russia",
+              "country_basis": "Country of the outlet institution, not an inferred individual nationality"
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Start and planned end dates of voting",
+            "note": "",
+            "basis": "not_stated"
+          },
+          "attention": "The opening paragraph sets out the event and dates. (Paragraphs 1.)",
+          "outlet_view": "These dates are given in the article’s own narration; reporting a schedule alone is not approval.",
+          "where_when": "Donetsk, Luhansk, Kherson and Russian-held Zaporizhzhia; September 23–27, 2022.",
+          "evidence": {
+            "quote": "Референдумы по вопросу вхождения в качестве субъектов в состав Российской Федерации стартовали…",
+            "paragraphs": [
+              1
+            ],
+            "language": "ru",
+            "paraphrase": "Izvestia says voting on joining Russia began in four regions on September 23 and would end on September 27.",
+            "supporting_sentence": "Референдумы по вопросу вхождения в качестве субъектов в состав Российской Федерации стартовали в пятницу, 23 сентября, в Донецкой и Луганской народных республиках (ДНР и ЛНР), в Херсонской области и на освобожденных территориях Запорожской области. Завершится голосование 27 сентября.",
+            "english_translation": "Referendums on joining the Russian Federation as constituent entities began on Friday, September 23, in the Donetsk and Luhansk People’s Republics (DPR and LPR), in the Kherson region and in the liberated territories of the Zaporizhzhia region. Voting will end on September 27.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "The translation preserves the source’s wording \"liberated\"; it is not this analysis’s geographic or legal finding.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "I02",
+          "text": "Izvestia says a large majority of residents support holding the votes.",
+          "topics": [
+            "public_support"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A checkable statement by a source, not a fact verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "outlet_narration",
+          "claimants": [
+            {
+              "name": "Izvestia narrator",
+              "role": "The article’s own reporting voice",
+              "country": "Russia",
+              "country_basis": "Country of the outlet institution, not an inferred individual nationality"
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Reported resident support for holding the votes; descriptive claim rather than explicit approval",
+            "note": "",
+            "basis": "not_stated"
+          },
+          "attention": "A public-support assertion leads the second paragraph. (Paragraphs 2.)",
+          "outlet_view": "The article directly asserts broad public support. The following sentences cite a poll about joining Russia, which is a related but different question.",
+          "where_when": "Residents of the four regions, as described on September 23; no survey dates or population coverage supplied.",
+          "evidence": {
+            "quote": "Подавляющее большинство жителей ДНР и ЛНР, а также Запорожья и Херсонщины поддерживают…",
+            "paragraphs": [
+              2
+            ],
+            "language": "ru",
+            "paraphrase": "Izvestia says a large majority of residents support holding the votes.",
+            "supporting_sentence": "Подавляющее большинство жителей ДНР и ЛНР, а также Запорожья и Херсонщины поддерживают проведение референдума.",
+            "english_translation": "An overwhelming majority of residents of the DPR and LPR, as well as Zaporizhzhia and Kherson, support holding the referendum.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "Support for holding a vote is different from support for joining Russia. A narrator’s broad assertion must not silently become proven opinion of every eligible resident, turnout, or evidence of freedom from pressure.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "I03",
+          "text": "The cited poll says 94% of Donetsk respondents willing to vote favored joining Russia. It also lists 93% in Luhansk, 87% in Zaporizhzhia and 80% in Kherson.",
+          "topics": [
+            "public_support"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A checkable statement by a source, not a fact verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "reported_poll",
+          "claimants": [
+            {
+              "name": "РИПСИ poll, as named by Izvestia",
+              "role": "Poll source identified only by abbreviation in the saved article",
+              "country": "Unknown from the saved article",
+              "country_basis": "The article does not expand this institution’s name or establish its country; do not substitute Sputnik’s EIS/VTsIOM poll"
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Reported poll answers on joining Russia, not proof of a free completed vote",
+            "note": "",
+            "basis": "not_stated"
+          },
+          "attention": "The second paragraph gives four support percentages. (Paragraphs 2.)",
+          "outlet_view": "Izvestia relays poll results; it does not provide enough sampling information to validate them here.",
+          "where_when": "Survey figures reported September 23, before completion of the votes. The figures are not announced vote results.",
+          "evidence": {
+            "quote": "94% от готовых принять участие",
+            "paragraphs": [
+              2
+            ],
+            "language": "ru",
+            "paraphrase": "The cited poll says 94% of Donetsk respondents willing to vote favored joining Russia. It also lists 93% in Luhansk, 87% in Zaporizhzhia and 80% in Kherson.",
+            "supporting_sentence": "Согласно результатам опроса РИПСИ, в ДНР за вхождение республики в состав России высказались 94% от готовых принять участие в референдуме респондентов.\nВ ЛНР поддерживают такой вариант 93% опрошенных граждан, в Запорожской области готовы поддержать 87%, а в Херсонской — 80%.",
+            "english_translation": "According to the RIPSI poll results, 94% of DPR respondents who were ready to take part in the referendum spoke in favor of the republic joining Russia.\nIn the LPR, 93% of surveyed citizens support that option; in the Zaporizhzhia region, 87% are ready to support it, and in Kherson, 80%.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "The 94% figure explicitly concerns respondents ready to vote. The wording does not establish identical denominators for all four figures. No sample size, fieldwork date, method, nonresponse data or margin of error is given. These are reported opinions or intentions, not final results, actual turnout, or proof that respondents could speak freely. The 94% Donetsk figure applies to respondents willing to participate. Other regional figures also describe survey respondents, not every resident. Sampling details are not provided.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "I04",
+          "text": "Izvestia says Donetsk would allow remote voting for five days and in-person voting during the first day.",
+          "topics": [
+            "voting_process"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A checkable statement by a source, not a fact verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "outlet_narration_about_planned_procedure",
+          "claimants": [
+            {
+              "name": "Izvestia narrator",
+              "role": "The article’s own reporting voice",
+              "country": "Russia",
+              "country_basis": "Country of the outlet institution, not an inferred individual nationality"
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Planned Donetsk voting schedule and formats",
+            "note": "",
+            "basis": "not_stated"
+          },
+          "attention": "A separate paragraph describes Donetsk’s planned voting format. (Paragraphs 5.)",
+          "outlet_view": "The article presents this procedure in its own narration. It is an announcement, not an observation that all voting followed that plan.",
+          "where_when": "Donetsk vote scheduled September 23–27; \"first day\" apparently September 23.",
+          "evidence": {
+            "quote": "очное голосование будет длиться в течение первого дня референдума",
+            "paragraphs": [
+              5
+            ],
+            "language": "ru",
+            "paraphrase": "Izvestia says Donetsk would allow remote voting for five days and in-person voting during the first day.",
+            "supporting_sentence": "Формат голосования в ДНР будет смешанным: дистанционный формат будет доступен все пять дней, очное голосование будет длиться в течение первого дня референдума.",
+            "english_translation": "The voting format in the DPR will be mixed: remote voting will be available for all five days, while in-person voting will last during the first day of the referendum.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "Preserve the source’s surprising \"first day\" wording; do not silently correct it to the final day. The text does not define whether remote means online, off-site, mobile, or another format; do not invent that meaning.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "I05",
+          "text": "Putin says residents genuinely want to decide their own future and Russia must respond.",
+          "topics": [
+            "free_choice",
+            "framing"
+          ],
+          "kind": {
+            "label": "Opinion / judgement",
+            "status": "An interpretation, judgement, intention or prediction; not proof that an outcome happened."
+          },
+          "claim_type": "opinion",
+          "source_type": "reported_official",
+          "claimants": [
+            {
+              "name": "Vladimir Putin",
+              "role": "President of Russia",
+              "country": "Russia",
+              "country_basis": "Explicit official role"
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Russia backing the votes as a response to residents’ stated wishes",
+            "note": "",
+            "basis": "source_statement"
+          },
+          "attention": "The presidential statement appears after regional voting arrangements. (Paragraphs 9.)",
+          "outlet_view": "This is Putin’s explanation of motives, explicitly attributed to him, rather than an independently established finding about consent.",
+          "where_when": "Statement to Russians and residents of the four regions before the September 23 vote.",
+          "evidence": {
+            "quote": "Он отметил, что Россия не может не откликнуться на искреннее стремление жителей…",
+            "paragraphs": [
+              9
+            ],
+            "language": "ru",
+            "paraphrase": "Putin says residents genuinely want to decide their own future and Russia must respond.",
+            "supporting_sentence": "Он отметил, что Россия не может не откликнуться на искреннее стремление жителей этих регионов определять свою жизнь.",
+            "english_translation": "He noted that Russia could not fail to respond to the sincere wish of residents of these regions to determine their own lives.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "A claim of sincere wishes is not a measured level of support or proof that all residents freely participate.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "I06",
+          "text": "Putin promises Russia will do everything to make the votes safe.",
+          "topics": [
+            "voting_process",
+            "consequences"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "An interpretation, judgement, intention or prediction; not proof that an outcome happened."
+          },
+          "claim_type": "intention",
+          "source_type": "reported_official_intention",
+          "claimants": [
+            {
+              "name": "Vladimir Putin",
+              "role": "President of Russia",
+              "country": "Russia",
+              "country_basis": "Explicit official role"
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Russian provision of security for the votes",
+            "note": "",
+            "basis": "source_statement"
+          },
+          "attention": "The presidential statement links Russian assistance to security. (Paragraphs 9.)",
+          "outlet_view": "The promise is attributed to Putin. It does not establish actual safety, transparency or lack of coercion.",
+          "where_when": "Future security arrangements for the September 23–27 votes in Russian-controlled territories.",
+          "evidence": {
+            "quote": "Президент также заверил, что Россия сделает всё, чтобы обеспечить безопасные условия для…",
+            "paragraphs": [
+              9
+            ],
+            "language": "ru",
+            "paraphrase": "Putin promises Russia will do everything to make the votes safe.",
+            "supporting_sentence": "Президент также заверил, что Россия сделает всё, чтобы обеспечить безопасные условия для референдумов по вхождению в состав РФ освобожденных территорий.",
+            "english_translation": "The president also assured that Russia would do everything to provide safe conditions for referendums on the liberated territories joining the Russian Federation.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "The translation retains the article’s \"liberated\" label without endorsing it. Safe conditions as promised are not logically identical to freedom from coercion.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "I07",
+          "text": "Izvestia calls Russian-held parts of Zaporizhzhia “liberated territories” in its own opening sentence.",
+          "topics": [
+            "framing"
+          ],
+          "kind": {
+            "label": "Framing / words used",
+            "status": "An interpretation, judgement, intention or prediction; not proof that an outcome happened."
+          },
+          "claim_type": "framing",
+          "source_type": "outlet_narration",
+          "claimants": [
+            {
+              "name": "Izvestia narrator",
+              "role": "The article’s own reporting voice",
+              "country": "Russia",
+              "country_basis": "Country of the outlet institution, not an inferred individual nationality"
+            }
+          ],
+          "stance": {
+            "value": "supports_in_wording",
+            "label": "Supportive wording",
+            "target": "Russian control of the Zaporizhzhia territory where voting is held",
+            "note": "",
+            "basis": "inferred_from_liberation_wording"
+          },
+          "attention": "The liberation label appears in the lead and again in the presidential-statement paragraph. (Paragraphs 1, 9.)",
+          "outlet_view": "The positive liberation label appears in the narrator’s lead, rather than only in a source’s direct quote. This identifies article-level wording, not every outlet policy or a legal ruling.",
+          "where_when": "Russian-held Zaporizhzhia in the opening; wider territories in paragraph 9.",
+          "evidence": {
+            "quote": "на освобожденных территориях Запорожской области",
+            "paragraphs": [
+              1
+            ],
+            "language": "ru",
+            "paraphrase": "Izvestia calls Russian-held parts of Zaporizhzhia “liberated territories” in its own opening sentence.",
+            "supporting_sentence": "Референдумы по вопросу вхождения в качестве субъектов в состав Российской Федерации стартовали в пятницу, 23 сентября, в Донецкой и Луганской народных республиках (ДНР и ЛНР), в Херсонской области и на освобожденных территориях Запорожской области. Завершится голосование 27 сентября.",
+            "english_translation": "Referendums on joining the Russian Federation as constituent entities began on Friday, September 23, in the Donetsk and Luhansk People’s Republics (DPR and LPR), in the Kherson region and in the liberated territories of the Zaporizhzhia region. Voting will end on September 27.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "The region’s full territory and its Russian-held parts are not interchangeable. Positive wording about control does not independently establish legality or a free voting process.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "I08",
+          "text": "Izvestia says Russian organizations, election officials and foreign representatives will observe voting for five days.",
+          "topics": [
+            "voting_process"
+          ],
+          "kind": {
+            "label": "Opinion / prediction",
+            "status": "An interpretation, judgement, intention or prediction; not proof that an outcome happened."
+          },
+          "claim_type": "prediction",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "Izvestia narration",
+              "role": "The article’s own wording",
+              "country": "Russia",
+              "country_basis": "Outlet origin, not the citizenship of an individual writer."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "The particular voting claim",
+            "note": "",
+            "basis": "not_stated"
+          },
+          "attention": "This passage discusses the way the votes are described or carried out. (Paragraphs 11.)",
+          "outlet_view": "The article makes this statement in its own narration.",
+          "where_when": "The September 23–27 votes in Russian-controlled Ukrainian regions; article published September 23.",
+          "evidence": {
+            "quote": "За ходом референдума будут следить наблюдатели российских общественных организаций, Центризбиркома РФ и…",
+            "paragraphs": [
+              11
+            ],
+            "language": "ru",
+            "paraphrase": "Izvestia says Russian organizations, election officials and foreign representatives will observe voting for five days.",
+            "supporting_sentence": "За ходом референдума будут следить наблюдатели российских общественных организаций, Центризбиркома РФ и регионов, а также представители из других стран на протяжении пяти дней.",
+            "english_translation": "Representatives of Russian public organizations, the Russian election commission and regions, as well as other countries, will observe the voting over five days.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "global_times",
+      "label": "Global Times",
+      "short_label": "Global Times",
+      "country": "China",
+      "article": {
+        "id": "0b099913-a734-41a0-8c0c-53c991e44b89",
+        "title": "Ukrainian regions' referenda bring conflict into new phase; EU to swallow bitter fruit if keeps binding itself to US",
+        "url": "https://www.globaltimes.cn/page/202209/1275977.shtml",
+        "publication_date": "2022-09-23",
+        "text_sha256": "924169c8f80a99a8a80e3f8217ce2c0cb6804821d842c14a635ee48c273875b7"
+      },
+      "attention": "The article first contrasts Western rejection with Russian officials’ defenses of the votes. Much of the later discussion concerns predicted escalation, Russian gas leverage and costs to Europe rather than interviews with voters.",
+      "claims": [
+        {
+          "id": "GT01",
+          "text": "TASS said the first day of voting was calm.",
+          "topics": [
+            "voting_process",
+            "free_choice"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A checkable statement by a source, not a fact verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "news_agency_report_via_TASS",
+          "claimants": [
+            {
+              "name": "TASS",
+              "role": "Russian state news agency, quoted by Global Times",
+              "country": "Russia",
+              "country_basis": "Country identifies the institution that supplied this account."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Security and conditions around the first day of voting",
+            "note": "Calm and guarded do not prove voters were free to refuse; guards can exist with or without threats. Do not directly contradict reports of coercion on this sentence alone.",
+            "basis": "not_stated"
+          },
+          "attention": "An early paragraph highlights a calm first day and security around polling places. (Paragraphs 3.)",
+          "outlet_view": "Clearly attributes this account to TASS, rather than claiming Global Times checked voting conditions itself.",
+          "where_when": "First day of voting, September 23, 2022; the four Russian-controlled Ukrainian regions discussed by the article.",
+          "evidence": {
+            "quote": "According to TASS, the first day of the referenda proceeded calmly, and…",
+            "paragraphs": [
+              3
+            ],
+            "language": "en",
+            "paraphrase": "TASS said the first day of voting was calm.",
+            "supporting_sentence": "According to TASS, the first day of the referenda proceeded calmly, and combat readiness has been beefed up for the referenda and all polling stations are being guarded.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "GT02",
+          "text": "G7 ministers said taking Ukrainian land into Russia would break Ukraine’s sovereignty and the UN Charter.",
+          "topics": [
+            "legality"
+          ],
+          "kind": {
+            "label": "Legal claim — not checked here",
+            "status": "The source states a legal position. This graph records the disagreement without independently checking that legal claim."
+          },
+          "claim_type": "legal_interpretation",
+          "source_type": "joint_official_statement_via_US_State_Department",
+          "claimants": [
+            {
+              "name": "G7 foreign ministers",
+              "role": "Ministers making a joint statement, relayed through the US State Department",
+              "country": "Canada, France, Germany, Italy, Japan, United Kingdom, United States",
+              "country_basis": "Member-government association, not a claim about anyone’s citizenship."
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Criticizes / opposes",
+            "target": "Russia’s possible annexation of Ukrainian territory",
+            "note": "The precise legal target is annexation. It should not silently be rewritten as an otherwise identical claim about the legal act of holding a vote.",
+            "basis": "source_statement"
+          },
+          "attention": "The paragraph presents Western objections about sovereignty and the UN Charter, followed by calls not to recognize the results. (Paragraphs 8.)",
+          "outlet_view": "Attributes the legal assessment to the G7; the same article also includes the Russian parliamentary speaker’s opposing defense of the votes.",
+          "where_when": "G7 statement made Thursday, September 22 and reported September 23; refers to prospective annexation of occupied Ukrainian regions.",
+          "evidence": {
+            "quote": "They added that any annexation of Ukrainian territory would be a gross…",
+            "paragraphs": [
+              8
+            ],
+            "language": "en",
+            "paraphrase": "G7 ministers said taking Ukrainian land into Russia would break Ukraine’s sovereignty and the UN Charter.",
+            "supporting_sentence": "They added that any annexation of Ukrainian territory would be a gross violation of Ukraine's sovereignty and the UN Charter, and called on all states to unequivocally condemn any referendum and not to recognize the results.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "GT03",
+          "text": "Russian parliamentary speaker Valentina Matviyenko said the votes followed international rules and the UN Charter.",
+          "topics": [
+            "legality"
+          ],
+          "kind": {
+            "label": "Legal claim — not checked here",
+            "status": "The source states a legal position. This graph records the disagreement without independently checking that legal claim."
+          },
+          "claim_type": "legal_interpretation",
+          "source_type": "official_statement_via_TASS",
+          "claimants": [
+            {
+              "name": "Valentina Matviyenko",
+              "role": "Speaker of Russia’s Federation Council",
+              "country": "Russia",
+              "country_basis": "Country identifies her Russian state office."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Legality of the four regions’ votes on becoming part of Russia",
+            "note": "This is the official’s legal assessment, not a legal finding established by the graph. Its target is the votes, while GT02’s precise legal proposition concerns annexation.",
+            "basis": "source_statement"
+          },
+          "attention": "This paragraph gives the Russian official’s legal defense after the G7 criticism. (Paragraphs 9.)",
+          "outlet_view": "Reports her defense through TASS; inclusion of the quote is not proof that the narrator endorses or independently verifies it.",
+          "where_when": "Statement reported Friday, September 23, 2022; Donetsk, Luhansk, Kherson and Zaporizhzhia voting.",
+          "evidence": {
+            "quote": "comply with international norms and the UN charter",
+            "paragraphs": [
+              9
+            ],
+            "language": "en",
+            "paraphrase": "Russian parliamentary speaker Valentina Matviyenko said the votes followed international rules and the UN Charter.",
+            "supporting_sentence": "Referenda in the four regions on becoming part of Russia comply with international norms and the UN charter, Russian Federation Council Speaker Valentina Matviyenko told reporters on Friday, TASS reported.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "GT04",
+          "text": "An unnamed expert said Russia might use any military or political means after the regions joined Russia if they were later attacked.",
+          "topics": [
+            "consequences"
+          ],
+          "kind": {
+            "label": "Opinion / prediction",
+            "status": "An interpretation, judgement, intention or prediction; not proof that an outcome happened."
+          },
+          "claim_type": "prediction",
+          "source_type": "anonymous_expert_assessment",
+          "claimants": [
+            {
+              "name": "Unnamed Beijing-based expert",
+              "role": "Expert quoted without a name or institution",
+              "country": "China (reported location)",
+              "country_basis": "The article says Beijing-based. The expert’s name, institution and citizenship are unknown."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Possible Russian response to later attacks on regions if Russia annexed them",
+            "note": "A conditional prediction, not a claim that annexation had already happened or that later attacks automatically justified a Russian response.",
+            "basis": "not_stated"
+          },
+          "attention": "The paragraph presents the votes as changing the possible military and political consequences of later attacks. (Paragraphs 17.)",
+          "outlet_view": "Attributes this forecast to an anonymous expert. The narrator does not supply independent evidence of Russia’s future decisions.",
+          "where_when": "Forecast published September 23; conditional on future annexation and subsequent attacks, with no specific later date.",
+          "evidence": {
+            "quote": "If these regions finally join Russia, any future actions or attacks against…",
+            "paragraphs": [
+              17
+            ],
+            "language": "en",
+            "paraphrase": "An unnamed expert said Russia might use any military or political means after the regions joined Russia if they were later attacked.",
+            "supporting_sentence": "If these regions finally join Russia, any future actions or attacks against them may prompt Russia to use every possible military and political means based on its constitution and laws, a Beijing-based expert who asked for anonymity told the Global Times.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "GT05",
+          "text": "The article’s narrator says EU energy penalties against Russia weakened agreement among EU countries.",
+          "topics": [
+            "sanctions",
+            "framing"
+          ],
+          "kind": {
+            "label": "Opinion / judgement",
+            "status": "An interpretation, judgement, intention or prediction; not proof that an outcome happened."
+          },
+          "claim_type": "opinion",
+          "source_type": "outlet_narration",
+          "claimants": [
+            {
+              "name": "Global Times narrative voice",
+              "role": "Article narrator making an assessment of energy sanctions",
+              "country": "China",
+              "country_basis": "Country identifies the publishing outlet’s institutional origin."
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Criticizes / opposes",
+            "target": "Effectiveness and European costs of EU energy sanctions on Russia",
+            "note": "This is an assessment of broader sanctions, not proof that the newly promised vote-related sanctions had already failed.",
+            "basis": "source_statement"
+          },
+          "attention": "The later section shifts from the votes to European energy costs and disagreement over sanctions. (Paragraphs 24.)",
+          "outlet_view": "This sentence is presented directly by the narrator without a source attached to that sentence. Nearby paragraphs attribute similar views to analysts and an anonymous expert.",
+          "where_when": "General energy-sanctions assessment as of September 23; broader context, not a measured outcome of new penalties announced over these votes.",
+          "evidence": {
+            "quote": "The EU's energy sanctions against Russia have not defeated the country, but…",
+            "paragraphs": [
+              24
+            ],
+            "language": "en",
+            "paraphrase": "The article’s narrator says EU energy penalties against Russia weakened agreement among EU countries.",
+            "supporting_sentence": "The EU's energy sanctions against Russia have not defeated the country, but have instead shaken the unity of the bloc itself.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": true,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "GT06",
+          "text": "G7 ministers call the votes fake and say other countries should not recognize the results.",
+          "topics": [
+            "public_support",
+            "framing"
+          ],
+          "kind": {
+            "label": "Opinion / judgement",
+            "status": "An interpretation, judgement, intention or prediction; not proof that an outcome happened."
+          },
+          "claim_type": "opinion",
+          "source_type": "quoted_statement",
+          "claimants": [
+            {
+              "name": "G7 foreign ministers",
+              "role": "Ministers making a joint statement, relayed through the US State Department",
+              "country": "Canada, France, Germany, Italy, Japan, United Kingdom, United States",
+              "country_basis": "Member-government association, not a claim about anyone’s citizenship."
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Criticizes / opposes",
+            "target": "Accepting these votes as genuine expressions of residents’ wishes",
+            "note": "",
+            "basis": "source_statement"
+          },
+          "attention": "This passage discusses the way the votes are described or carried out. (Paragraphs 8.)",
+          "outlet_view": "Reports this source’s position; quoting it is not a separate statement of agreement by the outlet.",
+          "where_when": "The September 23–27 votes in Russian-controlled Ukrainian regions; article published September 23.",
+          "evidence": {
+            "quote": "sham referenda on sovereign Ukrainian territory",
+            "paragraphs": [
+              8
+            ],
+            "language": "en",
+            "paraphrase": "G7 ministers call the votes fake and say other countries should not recognize the results.",
+            "supporting_sentence": "According to the US Department of State, the G7 Foreign Ministers strongly condemned Russia's \"sham referenda on sovereign Ukrainian territory,\" which is temporarily under Russian control. They added that any annexation of Ukrainian territory would be a gross violation of Ukraine's sovereignty and the UN Charter, and called on all states to unequivocally condemn any referendum and not to recognize the results. The G7 will also pursue further targeted sanctions and are committed to sustained economic and political pressure on Russia.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "GT07",
+          "text": "Global Times calls Kherson and Zaporizhzhia Russian-occupied areas in its own narration.",
+          "topics": [
+            "framing"
+          ],
+          "kind": {
+            "label": "Framing / words used",
+            "status": "An interpretation, judgement, intention or prediction; not proof that an outcome happened."
+          },
+          "claim_type": "framing",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "Global Times narration",
+              "role": "The article’s own wording",
+              "country": "China",
+              "country_basis": "Outlet origin, not the citizenship of an individual writer."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Occupation wording; approval not stated",
+            "target": "Russian control of Kherson and Zaporizhzhia",
+            "note": "The occupation label describes control. It does not, by itself, prove political approval or condemnation.",
+            "basis": "wording_only"
+          },
+          "attention": "This passage discusses the way the votes are described or carried out. (Paragraphs 6.)",
+          "outlet_view": "Uses occupation wording in its own narration. No separate political approval or condemnation is inferred from that word alone.",
+          "where_when": "The September 23–27 votes in Russian-controlled Ukrainian regions; article published September 23.",
+          "evidence": {
+            "quote": "Russia-occupied Kherson and Zaporizhzhia",
+            "paragraphs": [
+              6
+            ],
+            "language": "en",
+            "paraphrase": "Global Times calls Kherson and Zaporizhzhia Russian-occupied areas in its own narration.",
+            "supporting_sentence": "Two Ukrainian eastern regions which have declared \"independence,\" Donetsk and Luhansk, as well as Russia-occupied Kherson and Zaporizhzhia oblasts, announced on Tuesday that they would hold referenda from Friday to September 27 to join Russia.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "E01",
+      "source": "cnn",
+      "target": "tass",
+      "topic": "legality",
+      "relation": "contradiction",
+      "color": "red",
+      "source_claim": "CNN01",
+      "target_claim": "T01",
+      "label": "Opposite legal positions",
+      "subtype": "opposed_legal_interpretations",
+      "reason": "CNN’s narrator calls the same votes illegal under international law; Matviyenko, quoted by TASS, says they follow international norms and the UN Charter.",
+      "caveat": "Red marks incompatible legal positions on holding these votes. It does not establish a court ruling or identify one article as false.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "direction_reason": "The named claims oppose each other on the compared issue. Neither passage explicitly rebuts the other.",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E02",
+      "source": "cnn",
+      "target": "global_times",
+      "topic": "legality",
+      "relation": "contradiction",
+      "color": "red",
+      "source_claim": "CNN01",
+      "target_claim": "GT03",
+      "label": "Same legal dispute, quoted",
+      "subtype": "opposed_legal_interpretations",
+      "reason": "CNN’s own legal statement opposes Matviyenko’s legal statement carried by Global Times.",
+      "caveat": "The supportive legal view belongs to Matviyenko, not automatically to Global Times. This is the same Russian statement as in TASS, not a new independent source.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "direction_reason": "The named claims oppose each other on the compared issue. Neither passage explicitly rebuts the other.",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E03",
+      "source": "tass",
+      "target": "global_times",
+      "topic": "legality",
+      "relation": "supportive",
+      "color": "green",
+      "source_claim": "T01",
+      "target_claim": "GT03",
+      "label": "Original TASS attribution",
+      "subtype": "original_source_attribution",
+      "reason": "TASS directly attributes the legal position to Matviyenko. Global Times explicitly credits TASS for the same statement, so the original report supports that attribution.",
+      "caveat": "Both accounts carry the same speaker’s legal position. The arrow traces the cited source.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "support_scope": "The attribution of the international-norms and UN Charter statement to Matviyenko.",
+      "unsupported_parts": "Whether the votes complied with international law.",
+      "directed": true,
+      "direction": "source_to_target",
+      "direction_reason": "T01 supplies a specific part of the support for GT03."
+    },
+    {
+      "id": "E04",
+      "source": "cnn",
+      "target": "global_times",
+      "topic": "legality",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CNN01",
+      "target_claim": "GT02",
+      "label": "Vote versus taking land",
+      "subtype": "different_legal_acts",
+      "reason": "CNN01 concerns the legality of holding the votes; the G7 passage in Global Times concerns later annexation of Ukrainian territory.",
+      "caveat": "These are related but different legal acts. Do not treat them as an identical proposition just because both mention international law.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E05",
+      "source": "cnn",
+      "target": "ft",
+      "topic": "free_choice",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CNN02",
+      "target_claim": "FT01",
+      "label": "Different cities and speakers",
+      "subtype": "spatial_scope_mismatch",
+      "reason": "A Ukrainian adviser alleges coercion in Mariupol; the Russia-appointed Berdyansk leader praises free choice.",
+      "caveat": "The specific places differ. The statements suggest opposing accounts but do not directly test the same local situation. CNN could not independently verify its source’s account.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E06",
+      "source": "cnn",
+      "target": "ft",
+      "topic": "free_choice",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CNN04",
+      "target_claim": "FT02",
+      "label": "Promise versus reported acts",
+      "subtype": "intention_vs_conditions",
+      "reason": "Putin promises safe conditions for choice; the FT narrator says many residents cannot freely choose.",
+      "caveat": "A promise and a description of actual conditions are not logical opposites: a promise can go unfulfilled. The article’s own opposing voices also remain separate in its claim sections.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E07",
+      "source": "global_times",
+      "target": "cnn",
+      "topic": "free_choice",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "GT01",
+      "target_claim": "CNN02",
+      "label": "Calm does not mean free",
+      "subtype": "different_properties",
+      "reason": "Global Times relays TASS’s calm-first-day account; CNN carries a coercion allegation.",
+      "caveat": "A calm scene can still involve pressure. The reports do not establish the same place and moment, and guards alone do not prove either freedom or coercion.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E08",
+      "source": "ft",
+      "target": "tass",
+      "topic": "voting_process",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "FT09",
+      "target_claim": "T03",
+      "label": "Different standards being judged",
+      "subtype": "contrasting_assessments_different_criteria",
+      "reason": "The FT criticizes democratic standards; Matviyenko praises organization and transparency, partly relaying colleagues’ views.",
+      "caveat": "These assessments contrast, but organizational preparation and democratic fairness are not identical tests. The graph does not force this into a strict contradiction.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E09",
+      "source": "ft",
+      "target": "izvestia",
+      "topic": "voting_process",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "FT08",
+      "target_claim": "I04",
+      "label": "First day versus last day",
+      "subtype": "procedure_definition_needs_review",
+      "reason": "Izvestia describes Donetsk in-person voting during the first day; FT describes polling stations opening only on the last day.",
+      "caveat": "The words in-person and polling station may cover different formats. This is a candidate discrepancy, not yet a confirmed contradiction.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E10",
+      "source": "censor",
+      "target": "ft",
+      "topic": "voting_process",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CEN04",
+      "target_claim": "FT05",
+      "label": "Reports of household visits",
+      "subtype": "compatible_procedure_reports",
+      "reason": "Censor.NET reports visits to Melitopol residents; the Zaporizhzhia official quoted by FT describes home teams accompanied by police.",
+      "caveat": "Melitopol is within the wider Zaporizhzhia setting, but the exact teams, visits and times are not matched. Censor’s sentence does not itself report threats.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E11",
+      "source": "tass",
+      "target": "izvestia",
+      "topic": "voting_process",
+      "relation": "supportive",
+      "color": "green",
+      "source_claim": "T04",
+      "target_claim": "I08",
+      "label": "Invitations support the observer plan",
+      "subtype": "partial_procedural_support",
+      "reason": "Matviyenko’s account in TASS identifies an invitation to international observers. That reported step supports the foreign-observer part of Izvestia’s plan for observing the votes.",
+      "caveat": "Inviting observers is evidence of a reported preparation. Attendance and five-day coverage require separate evidence.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "support_scope": "Preparations for possible participation by foreign observers.",
+      "unsupported_parts": "Which observers actually attended, how long they watched, their independence, and the fairness of the vote.",
+      "directed": true,
+      "direction": "source_to_target",
+      "direction_reason": "T04 supplies a specific part of the support for I08."
+    },
+    {
+      "id": "E12",
+      "source": "cnn",
+      "target": "ft",
+      "topic": "public_support",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CNN03",
+      "target_claim": "FT03",
+      "label": "Results seen as predetermined",
+      "subtype": "parallel_positions",
+      "reason": "Haidai, quoted by CNN, predicts Russia will create a favorable result. The FT narrator says Russia controls the vote and the result is already certain.",
+      "caveat": "This is agreement in assessment, not verification that every result was fabricated. The speakers differ: a Ukrainian official versus the FT narrator.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "direction_reason": "The reports express parallel views or positions without supplying evidence for each other.",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E13",
+      "source": "kyivpost",
+      "target": "global_times",
+      "topic": "public_support",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "KI02",
+      "target_claim": "GT06",
+      "label": "Both reject expected results",
+      "subtype": "parallel_positions",
+      "reason": "The White House statement in Kyiv Independent and the G7 statement in Global Times reject the votes as genuine and refuse to recognize their results.",
+      "caveat": "These are the reported institutions’ positions, not automatically the outlets’ opinions. The United States is part of the G7, so the positions are not fully independent.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "direction_reason": "The reports express parallel views or positions without supplying evidence for each other.",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E14",
+      "source": "sputnik",
+      "target": "izvestia",
+      "topic": "public_support",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "S01",
+      "target_claim": "I03",
+      "label": "Different polls and samples",
+      "subtype": "polls_not_sample_matched",
+      "reason": "Both articles cite favorable survey intentions toward joining Russia.",
+      "caveat": "They cite different named sources, with no matched samples or methods. Sputnik’s saved introduction contains no percentages. Poll intentions are not completed vote counts. The relationship between the differently named poll sources is not established here.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E15",
+      "source": "cnn",
+      "target": "sputnik",
+      "topic": "public_support",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CNN05",
+      "target_claim": "S01",
+      "label": "Turnout is not voting intention",
+      "subtype": "different_measures",
+      "reason": "CNN’s Ukrainian source reports low early turnout in Kherson; Sputnik’s survey reports majority yes intentions across four regions.",
+      "caveat": "Early turnout and earlier poll intentions measure different things, with different geographic and population scopes. They can coexist.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E16",
+      "source": "cnn",
+      "target": "global_times",
+      "topic": "consequences",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CNN07",
+      "target_claim": "GT04",
+      "label": "Official warning and forecast",
+      "subtype": "conditional_policy_vs_prediction",
+      "reason": "Peskov says Ukrainian retaking attempts would count as attacks on Russia after incorporation; the expert quoted by Global Times predicts wider Russian responses to such attacks.",
+      "caveat": "One is a Russian policy warning; the other is an unnamed expert’s prediction. Neither proves what Russia would actually do, and neither is a separate outlet endorsement.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E17",
+      "source": "cnn",
+      "target": "kyivpost",
+      "topic": "sanctions",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CNN06",
+      "target_claim": "KI01",
+      "label": "Both plan more penalties",
+      "subtype": "parallel_positions",
+      "reason": "The EU account in CNN and the White House warning in Kyiv Independent both propose further economic pressure on Russia.",
+      "caveat": "The US warning is conditional on annexation; the EU is preparing a package. This matches the policy direction, not identical measures or proof that they were imposed.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "direction_reason": "The reports express parallel views or positions without supplying evidence for each other.",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E18",
+      "source": "cnn",
+      "target": "global_times",
+      "topic": "sanctions",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CNN06",
+      "target_claim": "GT05",
+      "label": "New plans versus older effects",
+      "subtype": "different_time_and_policy_scope",
+      "reason": "CNN reports preparations for new EU penalties; Global Times’s narrator criticizes the effect of broader, existing EU energy penalties.",
+      "caveat": "Planning new restrictions does not contradict criticism of older ones. The sanctions packages, time periods and exact propositions differ.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E19",
+      "source": "cnn",
+      "target": "censor",
+      "topic": "framing",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CNN08",
+      "target_claim": "CEN05",
+      "label": "Shared occupation wording",
+      "subtype": "parallel_positions",
+      "reason": "Both articles’ own narration describes Russian control through occupation language.",
+      "caveat": "This matches a frame, not every factual claim or policy position. The code concerns these articles, not all reporting by either outlet.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "direction_reason": "The reports express parallel views or positions without supplying evidence for each other.",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E20",
+      "source": "cnn",
+      "target": "global_times",
+      "topic": "framing",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CNN08",
+      "target_claim": "GT07",
+      "label": "Same occupied-area description",
+      "subtype": "parallel_positions",
+      "reason": "CNN and Global Times both use occupation wording for the relevant Ukrainian areas, including Kherson and Zaporizhzhia.",
+      "caveat": "Global Times also quotes a Russian official supporting the votes. Different voices within one article must not be collapsed into a single national position.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "direction_reason": "The reports express parallel views or positions without supplying evidence for each other.",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E21",
+      "source": "cnn",
+      "target": "izvestia",
+      "topic": "framing",
+      "relation": "contradiction",
+      "color": "red",
+      "source_claim": "CNN08",
+      "target_claim": "I07",
+      "label": "Occupied versus liberated",
+      "subtype": "opposed_territorial_framing",
+      "reason": "CNN describes the voting areas as Russian-occupied Ukrainian territory; Izvestia’s own opening calls the Russian-held Zaporizhzhia areas liberated.",
+      "caveat": "Red marks opposing interpretations of Russian control over the overlapping Zaporizhzhia territory. It is a framing clash, not a new factual verdict issued by the graph.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "direction_reason": "The named claims oppose each other on the compared issue. Neither passage explicitly rebuts the other.",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E22",
+      "source": "global_times",
+      "target": "izvestia",
+      "topic": "framing",
+      "relation": "contradiction",
+      "color": "red",
+      "source_claim": "GT07",
+      "target_claim": "I07",
+      "label": "Occupied versus liberated",
+      "subtype": "opposed_territorial_framing",
+      "reason": "Global Times’s own narration says Russia-occupied Zaporizhzhia, while Izvestia’s own narration says liberated Zaporizhzhia territories.",
+      "caveat": "This comparison is between narrator wording, rather than borrowed official quotations. It is an opposed frame, not proof of an outlet-wide policy.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "direction_reason": "The named claims oppose each other on the compared issue. Neither passage explicitly rebuts the other.",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E23",
+      "source": "global_times",
+      "target": "censor",
+      "topic": "framing",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "GT06",
+      "target_claim": "CEN05",
+      "label": "Both question vote legitimacy",
+      "subtype": "parallel_positions",
+      "reason": "G7 ministers quoted by Global Times call the votes sham; Censor.NET’s own lead calls them so-called referendums run by occupiers and puppets.",
+      "caveat": "The critical frame aligns, but the first speaker is the G7 and the second is the article narrator. Do not label this as Global Times explicitly endorsing the G7.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "direction_reason": "The reports express parallel views or positions without supplying evidence for each other.",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E24",
+      "source": "cnn",
+      "target": "kyivpost",
+      "topic": "public_support",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CNN09",
+      "target_claim": "KI02",
+      "label": "Both refuse to accept results",
+      "subtype": "parallel_positions",
+      "reason": "The EU statement in CNN and the White House statement in Kyiv Independent both refuse to recognize the Russia-organized voting results.",
+      "caveat": "This matches the reported institutions’ policies. It does not establish the outlets’ own opinions or independently prove how the votes were counted.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "direction_reason": "The reports express parallel views or positions without supplying evidence for each other.",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E25",
+      "source": "cnn",
+      "target": "ft",
+      "source_claim": "CNN02",
+      "target_claim": "FT02",
+      "topic": "free_choice",
+      "label": "Mariupol allegation supports the free-choice concern",
+      "subtype": "partial_local_allegation_support",
+      "reason": "The Mariupol mayoral adviser quoted by CNN alleges armed door-to-door pressure. If accurate, that is a specific example of the restriction on free choice described more broadly by the FT.",
+      "support_scope": "A reported instance of pressure on residents in Mariupol.",
+      "unsupported_parts": "How widespread coercion was and whether residents elsewhere faced the same conditions.",
+      "caveat": "CNN says it could not independently verify the adviser’s account. One local allegation cannot establish prevalence across the voting areas.",
+      "relation": "supportive",
+      "color": "green",
+      "directed": true,
+      "direction": "source_to_target",
+      "direction_reason": "CNN02 supplies a specific part of the support for FT02.",
+      "review_status": "AI-assisted proposed comparison; human review pending"
+    }
+  ],
+  "within_article_relations": [
+    {
+      "outlet": "ft",
+      "source_claim": "FT01",
+      "target_claim": "FT02",
+      "topic": "free_choice",
+      "relation": "opposed_views_in_one_article",
+      "note": "The article quotes a Russia-appointed official’s free-choice claim, then its narrator disputes free choice for many residents. Kept as separate sections, not one averaged outlet stance."
+    }
+  ],
+  "excluded": [
+    {
+      "outlet": "European Pravda",
+      "reason": "The selected article concerns a war-crimes accountability meeting, not these votes."
+    },
+    {
+      "outlet": "China Daily",
+      "reason": "The selected article reports general peace and security comments at the UN, without discussing these votes."
+    }
+  ],
+  "method": {
+    "country_note": "Outlet country means origin. A source’s country means stated office, institution or residence; citizenship is not guessed. Russia-appointed offices in Ukrainian cities are identified as such.",
+    "claim_type_note": "A fact claim is a statement that could be checked, not a fact verified by this graph. Legal interpretations, opinions, promises and framing are separate types.",
+    "edge_note": "Green arrows point from a source passage to the specific part of another claim it supports. Red links show two-way opposition in legal positions or territorial framing. Grey links preserve parallel positions, scope differences, and unresolved comparisons. Shared sources are one attribution, and all comparisons remain proposed.",
+    "attention_note": "Attention is judged from the saved article text and paragraph allocation, not as an outlet-wide bias score.",
+    "endorsement_note": "Quoted officials, residents and narrators have separate claim sections. Repeated TASS/Matviyenko statements are marked as shared sources, not independent findings.",
+    "annotation_status": "AI-assisted proposed research graph; human review pending.",
+    "cleaning_note": "Only paragraph 1 of the Kyiv Independent saved text belongs to this article; later news-feed paragraphs were excluded. Sputnik’s introduction is not treated as if its missing infographic figures were recovered."
+  }
+}

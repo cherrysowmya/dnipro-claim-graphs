@@ -1,0 +1,1468 @@
+{
+  "schema_version": "1.1",
+  "event": {
+    "id": "ukraine_energy_attacks_20230210",
+    "label": "Russian attacks on Ukraine’s power system",
+    "date": "2023-02-10",
+    "description": "Reports about the February 10 missile and drone attacks on Ukraine’s energy sites, their effects and missiles crossing Moldova. Sputnik’s selected liveblog includes a Russian statement published February 11 about the February 10 attack.",
+    "default_topic": "damage",
+    "default_node": "kyivpost",
+    "graph_scope": "whole_event",
+    "multigraph": true
+  },
+  "topics": [
+    {
+      "id": "damage",
+      "label": "Which power sites were damaged?",
+      "scope_note": "Regional damage claims concern different places and waves of attack; they are not automatically independent confirmation of one identical strike."
+    },
+    {
+      "id": "power_system",
+      "label": "Did the wider system keep working?",
+      "scope_note": "Keeping the grid connected does not mean no facilities were hit or no power cuts occurred."
+    },
+    {
+      "id": "military_effect",
+      "label": "Russia’s claims about military effects",
+      "scope_note": "Claims that targets were hit or military supplies interrupted are attributed to Russia’s defense ministry and not independently verified."
+    },
+    {
+      "id": "missile_path",
+      "label": "Where did missiles fly?",
+      "scope_note": "A confirmed Moldovan violation is not confirmation of entry into Romanian airspace. One missile confirmed is not necessarily a denial that two flew."
+    },
+    {
+      "id": "airspace_response",
+      "label": "Moldova’s response",
+      "scope_note": "Condemning a violation and ordering a diplomatic summons are related actions by different Moldovan institutions."
+    },
+    {
+      "id": "statement_timing",
+      "label": "When did Russia comment?",
+      "scope_note": "No confirmation yet on February 10 is not a denial or a contradiction of a statement published February 11."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "kyivpost",
+      "label": "Kyiv Independent",
+      "short_label": "Kyiv Ind.",
+      "country": "Ukraine",
+      "article": {
+        "id": "d74d1c83-c843-4649-ae8f-f315df68367a",
+        "title": "Energy minister: Russia’s Feb. 10 mass strike hits energy infrastructure in 6 oblasts",
+        "url": "https://kyivindependent.com/energy-minister-russias-feb-10-mass-strike-hits-energy-infrastructure-in-6-oblasts/",
+        "publication_date": "2023-02-10",
+        "text_sha256": "b2abb1bdf539d484b27dc6e3a44b67bcbaa4ae9871daa411e33ea8f8d0088afc"
+      },
+      "attention": "P2–5 focus on damage in six regions and preservation of the overall power system. P6–10 add local damage, injuries and explosions. P7 and P9 repeat the same eight-injured report and are not counted as separate casualty events.",
+      "claims": [
+        {
+          "id": "KI01",
+          "text": "Ukraine’s energy minister says power sites were hit in six regions.",
+          "topics": [
+            "damage"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "reported_ukrainian_energy_minister",
+          "claimants": [
+            {
+              "name": "Herman Halushchenko",
+              "role": "Energy minister of Ukraine",
+              "country": "Ukraine",
+              "country_basis": "Explicit Ukrainian state office."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Ukraine’s energy minister says power sites were hit in six regions.",
+            "note": ""
+          },
+          "attention": "P2–5 focus on damage in six regions and preservation of the overall power system. P6–10 add local damage, injuries and explosions. P7 and P9 repeat the same eight-injured report and are not counted as separate casualty events. (Paragraphs 2, 3.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Halushchenko’s February 10 account of that day’s missile and drone attacks on Ukrainian energy facilities.",
+          "evidence": {
+            "quote": "According to Energy Minister Herman Halushchenko, energy infrastructure was hit in six…",
+            "paragraphs": [
+              2,
+              3
+            ],
+            "language": "en",
+            "paraphrase": "Ukraine’s energy minister says power sites were hit in six regions.",
+            "supporting_sentence": "According to Energy Minister Herman Halushchenko, energy infrastructure was hit in six Ukrainian oblasts as Russia unleashed its 14th mass missile attack across Ukraine on the morning of Feb.10.\nThe minister said that thermal and hydroelectric power plants, as well as other high-voltage infrastructure in six regions have been impacted.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "KI02",
+          "text": "The minister says Zaporizhzhia, Kharkiv and Khmelnytskyi face the worst situation.",
+          "topics": [
+            "damage"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "reported_ukrainian_energy_minister",
+          "claimants": [
+            {
+              "name": "Herman Halushchenko",
+              "role": "Energy minister of Ukraine",
+              "country": "Ukraine",
+              "country_basis": "Explicit Ukrainian state office."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "The minister says Zaporizhzhia, Kharkiv and Khmelnytskyi face the worst situation.",
+            "note": ""
+          },
+          "attention": "P2–5 focus on damage in six regions and preservation of the overall power system. P6–10 add local damage, injuries and explosions. P7 and P9 repeat the same eight-injured report and are not counted as separate casualty events. (Paragraphs 4.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Halushchenko’s February 10 account of that day’s missile and drone attacks on Ukrainian energy facilities.",
+          "evidence": {
+            "quote": "Halushchenko added that the most difficult situation was observed in Zaporizhzhia, Kharkiv,…",
+            "paragraphs": [
+              4
+            ],
+            "language": "en",
+            "paraphrase": "The minister says Zaporizhzhia, Kharkiv and Khmelnytskyi face the worst situation.",
+            "supporting_sentence": "Halushchenko added that the most difficult situation was observed in Zaporizhzhia, Kharkiv, and Khmelnytskyi oblasts.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "KI03",
+          "text": "The minister says air defenses and earlier safety steps kept the wider power system intact.",
+          "topics": [
+            "power_system"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "reported_ukrainian_energy_minister",
+          "claimants": [
+            {
+              "name": "Herman Halushchenko",
+              "role": "Energy minister of Ukraine",
+              "country": "Ukraine",
+              "country_basis": "Explicit Ukrainian state office."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "The minister says air defenses and earlier safety steps kept the wider power system intact.",
+            "note": ""
+          },
+          "attention": "P2–5 focus on damage in six regions and preservation of the overall power system. P6–10 add local damage, injuries and explosions. P7 and P9 repeat the same eight-injured report and are not counted as separate casualty events. (Paragraphs 5.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Halushchenko’s February 10 account of that day’s missile and drone attacks on Ukrainian energy facilities.",
+          "evidence": {
+            "quote": "“Thanks to the successful work of the Air Defense Forces and early…",
+            "paragraphs": [
+              5
+            ],
+            "language": "en",
+            "paraphrase": "The minister says air defenses and earlier safety steps kept the wider power system intact.",
+            "supporting_sentence": "“Thanks to the successful work of the Air Defense Forces and early technical measures, it was possible to preserve the energy system’s integrity,” the minister wrote on Telegram, adding that the emergency services are working round-the-clock to repair the damages.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "Integrity means the wider system remained connected; it does not mean no damage or outages.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "KI04",
+          "text": "Kharkiv’s governor says eight people were injured in the missile attack.",
+          "topics": [
+            "damage"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "reported_regional_official",
+          "claimants": [
+            {
+              "name": "Oleh Syniehubov",
+              "role": "Governor of Kharkiv region",
+              "country": "Ukraine",
+              "country_basis": "Ukrainian regional government role."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Kharkiv’s governor says eight people were injured in the missile attack.",
+            "note": ""
+          },
+          "attention": "P2–5 focus on damage in six regions and preservation of the overall power system. P6–10 add local damage, injuries and explosions. P7 and P9 repeat the same eight-injured report and are not counted as separate casualty events. (Paragraphs 7.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Kharkiv region, February 10.",
+          "evidence": {
+            "quote": "In the northeastern Kharkiv Oblast, eight people were injured following a mass…",
+            "paragraphs": [
+              7
+            ],
+            "language": "en",
+            "paraphrase": "Kharkiv’s governor says eight people were injured in the missile attack.",
+            "supporting_sentence": "In the northeastern Kharkiv Oblast, eight people were injured following a mass missile strike, Oleh Syniehubov, the oblast governor, said.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "P9 repeats the same report; this graph does not add the two mentions into sixteen injuries.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "censor",
+      "label": "Censor.NET",
+      "short_label": "Censor.NET",
+      "country": "Ukraine",
+      "article": {
+        "id": "127cba5c-25fa-4a82-894a-7d97d68f1728",
+        "title": "Energy facilities have been hit in six regions, worst situation is in Zaporizhzhia, Kharkiv, and Khmelnytsky regions, - Halushchenko",
+        "url": "https://censor.net/en/news/3399004/energy_facilities_have_been_hit_in_six_regions_worst_situation_is_in_zaporizhzhia_kharkiv_and_khmelnytsky",
+        "publication_date": "2023-02-10",
+        "text_sha256": "d7d38f41d145149650bbcf8bc06ee844b61e827975c1053aacacd93b100d9b17"
+      },
+      "attention": "P1–3 describe the attack and affected regions; P4 says the wider system held together and crews are restoring power. All claims are tied to the energy minister’s account.",
+      "claims": [
+        {
+          "id": "C01",
+          "text": "The minister says thermal, hydroelectric and high-voltage power sites were hit in six regions.",
+          "topics": [
+            "damage"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "reported_ukrainian_energy_minister",
+          "claimants": [
+            {
+              "name": "Herman Halushchenko",
+              "role": "Energy minister of Ukraine",
+              "country": "Ukraine",
+              "country_basis": "Explicit Ukrainian state office."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "The minister says thermal, hydroelectric and high-voltage power sites were hit in six regions.",
+            "note": ""
+          },
+          "attention": "P1–3 describe the attack and affected regions; P4 says the wider system held together and crews are restoring power. All claims are tied to the energy minister’s account. (Paragraphs 3.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Halushchenko’s February 10 account of that day’s missile and drone attacks on Ukrainian energy facilities.",
+          "evidence": {
+            "quote": "\"Thermal and hydro-generation facilities, as well as high-voltage infrastructure, have been hit…",
+            "paragraphs": [
+              3
+            ],
+            "language": "en",
+            "paraphrase": "The minister says thermal, hydroelectric and high-voltage power sites were hit in six regions.",
+            "supporting_sentence": "\"Thermal and hydro-generation facilities, as well as high-voltage infrastructure, have been hit in six regions. Emergency shutdowns have been implemented in many regions. The most difficult situation is in the Zaporizhzhia, Kharkiv, and Khmelnytsky regions,\" the message says.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "C02",
+          "text": "The minister says emergency power cuts were introduced in many regions.",
+          "topics": [
+            "power_system"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "reported_ukrainian_energy_minister",
+          "claimants": [
+            {
+              "name": "Herman Halushchenko",
+              "role": "Energy minister of Ukraine",
+              "country": "Ukraine",
+              "country_basis": "Explicit Ukrainian state office."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "The minister says emergency power cuts were introduced in many regions.",
+            "note": ""
+          },
+          "attention": "P1–3 describe the attack and affected regions; P4 says the wider system held together and crews are restoring power. All claims are tied to the energy minister’s account. (Paragraphs 3.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Halushchenko’s February 10 account of that day’s missile and drone attacks on Ukrainian energy facilities.",
+          "evidence": {
+            "quote": "\"Thermal and hydro-generation facilities, as well as high-voltage infrastructure, have been hit…",
+            "paragraphs": [
+              3
+            ],
+            "language": "en",
+            "paraphrase": "The minister says emergency power cuts were introduced in many regions.",
+            "supporting_sentence": "\"Thermal and hydro-generation facilities, as well as high-voltage infrastructure, have been hit in six regions. Emergency shutdowns have been implemented in many regions. The most difficult situation is in the Zaporizhzhia, Kharkiv, and Khmelnytsky regions,\" the message says.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "C03",
+          "text": "The minister says air defenses and earlier safety steps kept the wider power system intact.",
+          "topics": [
+            "power_system"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "reported_ukrainian_energy_minister",
+          "claimants": [
+            {
+              "name": "Herman Halushchenko",
+              "role": "Energy minister of Ukraine",
+              "country": "Ukraine",
+              "country_basis": "Explicit Ukrainian state office."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "The minister says air defenses and earlier safety steps kept the wider power system intact.",
+            "note": ""
+          },
+          "attention": "P1–3 describe the attack and affected regions; P4 says the wider system held together and crews are restoring power. All claims are tied to the energy minister’s account. (Paragraphs 4.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Halushchenko’s February 10 account of that day’s missile and drone attacks on Ukrainian energy facilities.",
+          "evidence": {
+            "quote": "Halushchenko noted that thanks to the successful work of the Air Defense…",
+            "paragraphs": [
+              4
+            ],
+            "language": "en",
+            "paraphrase": "The minister says air defenses and earlier safety steps kept the wider power system intact.",
+            "supporting_sentence": "Halushchenko noted that thanks to the successful work of the Air Defense Forces and early technical measures, it was possible to preserve the integrity of Ukraine's energy system. Energy workers are working non-stop to restore the energy supply.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "This is a system-level claim, not a denial of damaged facilities or emergency outages.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "C04",
+          "text": "The minister says the worst problems are in Zaporizhzhia, Kharkiv and Khmelnytskyi.",
+          "topics": [
+            "damage"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "reported_ukrainian_energy_minister",
+          "claimants": [
+            {
+              "name": "Herman Halushchenko",
+              "role": "Energy minister of Ukraine",
+              "country": "Ukraine",
+              "country_basis": "Explicit Ukrainian state office."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "The minister says the worst problems are in Zaporizhzhia, Kharkiv and Khmelnytskyi.",
+            "note": ""
+          },
+          "attention": "P1–3 describe the attack and affected regions; P4 says the wider system held together and crews are restoring power. All claims are tied to the energy minister’s account. (Paragraphs 3.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Halushchenko’s February 10 account of that day’s missile and drone attacks on Ukrainian energy facilities.",
+          "evidence": {
+            "quote": "\"Thermal and hydro-generation facilities, as well as high-voltage infrastructure, have been hit…",
+            "paragraphs": [
+              3
+            ],
+            "language": "en",
+            "paraphrase": "The minister says the worst problems are in Zaporizhzhia, Kharkiv and Khmelnytskyi.",
+            "supporting_sentence": "\"Thermal and hydro-generation facilities, as well as high-voltage infrastructure, have been hit in six regions. Emergency shutdowns have been implemented in many regions. The most difficult situation is in the Zaporizhzhia, Kharkiv, and Khmelnytsky regions,\" the message says.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "tass",
+      "label": "TASS",
+      "short_label": "TASS",
+      "country": "Russia",
+      "article": {
+        "id": "86c53871-670d-4526-8cf2-870a4b0e58a2",
+        "title": "Critical infrastructure facilities damaged in Ukrainian regions — authorities",
+        "url": "https://tass.com/politics/1574423",
+        "publication_date": "2023-02-10",
+        "text_sha256": "a8a4e3c3f049aac7389f646000fb3de860a49486393f8582a3cfc553f5a6b115"
+      },
+      "attention": "The four-paragraph report centers on Ukrainian regional officials’ damage accounts: Khmelnytskyi, Dnipropetrovsk, Kharkiv and Zaporizhzhia. It does not independently verify these statements.",
+      "claims": [
+        {
+          "id": "T01",
+          "text": "A Ukrainian regional official says a critical site in Khmelnytskyi was hit and a fire put out.",
+          "topics": [
+            "damage"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "reported_ukrainian_regional_official",
+          "claimants": [
+            {
+              "name": "Sergey Gamaliy (Serhii Hamalii)",
+              "role": "Head of Khmelnytskyi regional military administration",
+              "country": "Ukraine",
+              "country_basis": "Ukrainian regional government office; transliteration follows the report."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "A Ukrainian regional official says a critical site in Khmelnytskyi was hit and a fire put out.",
+            "note": ""
+          },
+          "attention": "The four-paragraph report centers on Ukrainian regional officials’ damage accounts: Khmelnytskyi, Dnipropetrovsk, Kharkiv and Zaporizhzhia. It does not independently verify these statements. (Paragraphs 1, 2.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Shepetivka district, around 04:00 as reported on February 10.",
+          "evidence": {
+            "quote": "KIEV, February 10. /TASS/. A critical infrastructure facility was damaged in the…",
+            "paragraphs": [
+              1,
+              2
+            ],
+            "language": "en",
+            "paraphrase": "A Ukrainian regional official says a critical site in Khmelnytskyi was hit and a fire put out.",
+            "supporting_sentence": "KIEV, February 10. /TASS/. A critical infrastructure facility was damaged in the Khmelnitsky region in western Ukraine on Friday morning with a fire breaking out, head of the local military administration Sergey Gamaliy said.\n\"About 04:00 in the morning (05:00 Moscow time - TASS) there was a strike on a critical infrastructure facility in the Shepetovsky district,\" he wrote on his Telegram channel, specifying that the blaze had been extinguished.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "An early-morning local strike; not established as the exact same wave or missile as a later airspace report.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "T02",
+          "text": "Dnipropetrovsk’s regional head says an energy site near Kryvyi Rih suffered major destruction.",
+          "topics": [
+            "damage"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "reported_ukrainian_regional_official",
+          "claimants": [
+            {
+              "name": "Sergey Lysak (Serhii Lysak)",
+              "role": "Head of Dnipropetrovsk regional administration",
+              "country": "Ukraine",
+              "country_basis": "Ukrainian regional government institution."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Dnipropetrovsk’s regional head says an energy site near Kryvyi Rih suffered major destruction.",
+            "note": ""
+          },
+          "attention": "The four-paragraph report centers on Ukrainian regional officials’ damage accounts: Khmelnytskyi, Dnipropetrovsk, Kharkiv and Zaporizhzhia. It does not independently verify these statements. (Paragraphs 3.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Kryvyi Rih district, February 10.",
+          "evidence": {
+            "quote": "An energy infrastructure facility was seriously damaged following explosions in the Dnepropetrovsk…",
+            "paragraphs": [
+              3
+            ],
+            "language": "en",
+            "paraphrase": "Dnipropetrovsk’s regional head says an energy site near Kryvyi Rih suffered major destruction.",
+            "supporting_sentence": "An energy infrastructure facility was seriously damaged following explosions in the Dnepropetrovsk region, head of the regional administration Sergey Lysak reported. \"In the Krivorozhsky district, an energy infrastructure facility has been hit. There is major destruction,\" he wrote on his Telegram channel.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "T03",
+          "text": "Kharkiv’s authorities report damaged critical sites and power cuts after ten explosions.",
+          "topics": [
+            "damage",
+            "power_system"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "reported_regional_authorities",
+          "claimants": [
+            {
+              "name": "Kharkiv regional authorities",
+              "role": "Regional officials, unnamed in this sentence",
+              "country": "Ukraine",
+              "country_basis": "Institutional association with Ukraine’s Kharkiv region."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Kharkiv’s authorities report damaged critical sites and power cuts after ten explosions.",
+            "note": ""
+          },
+          "attention": "The four-paragraph report centers on Ukrainian regional officials’ damage accounts: Khmelnytskyi, Dnipropetrovsk, Kharkiv and Zaporizhzhia. It does not independently verify these statements. (Paragraphs 4.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Kharkiv region, February 10.",
+          "evidence": {
+            "quote": "The Kharkov region’s authorities reported 10 explosions resulting in damage to critical…",
+            "paragraphs": [
+              4
+            ],
+            "language": "en",
+            "paraphrase": "Kharkiv’s authorities report damaged critical sites and power cuts after ten explosions.",
+            "supporting_sentence": "The Kharkov region’s authorities reported 10 explosions resulting in damage to critical infrastructure facilities and blackouts.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "izvestia",
+      "label": "Izvestia",
+      "short_label": "Izvestia",
+      "country": "Russia",
+      "article": {
+        "id": "8ea3943e-849f-4f12-8500-69519b7157b2",
+        "title": "В «Укрэнерго» сообщили о значительном дефиците в энергосистеме Украины",
+        "url": "https://iz.ru/1468375/2023-02-10/v-ukrenergo-soobshchili-o-znachitelnom-defitcite-v-energosisteme-ukrainy",
+        "publication_date": "2023-02-10",
+        "text_sha256": "d89c4f661f88c0168d62af09025867fcbed99cebd7843cecdd79068981530733"
+      },
+      "attention": "P1–5 emphasize shortages, air alerts and damaged energy sites. P6 records the absence of a Russian military confirmation at that reporting point; P7–8 give wider-war background and P9 is promotional.",
+      "claims": [
+        {
+          "id": "I01",
+          "text": "Ukrenergo says Ukraine faces a major electricity shortage.",
+          "topics": [
+            "power_system"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "reported_ukrainian_power_company",
+          "claimants": [
+            {
+              "name": "Ukrenergo",
+              "role": "Ukraine’s national electricity transmission company",
+              "country": "Ukraine",
+              "country_basis": "Named national electricity institution."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Ukrenergo says Ukraine faces a major electricity shortage.",
+            "note": ""
+          },
+          "attention": "P1–5 emphasize shortages, air alerts and damaged energy sites. P6 records the absence of a Russian military confirmation at that reporting point; P7–8 give wider-war background and P9 is promotional. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Ukrenergo statement dated February 10.",
+          "evidence": {
+            "quote": "В энергосистеме Украины наблюдается значительный дефицит электроэнергии, сообщила 10 февраля национальная компания…",
+            "paragraphs": [
+              1
+            ],
+            "language": "ru",
+            "paraphrase": "Ukrenergo says Ukraine faces a major electricity shortage.",
+            "supporting_sentence": "В энергосистеме Украины наблюдается значительный дефицит электроэнергии, сообщила 10 февраля национальная компания «Укрэнерго» в своем Telegram-канале.",
+            "english_translation": "Ukraine’s energy system has a significant shortage of electricity, the national company Ukrenergo reported on February 10 on its Telegram channel.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "I02",
+          "text": "Ukrenergo says Kharkiv has the hardest situation and continuing emergency power cuts.",
+          "topics": [
+            "power_system"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "reported_ukrainian_power_company",
+          "claimants": [
+            {
+              "name": "Ukrenergo",
+              "role": "Ukraine’s national electricity transmission company",
+              "country": "Ukraine",
+              "country_basis": "Named national electricity institution."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Ukrenergo says Kharkiv has the hardest situation and continuing emergency power cuts.",
+            "note": ""
+          },
+          "attention": "P1–5 emphasize shortages, air alerts and damaged energy sites. P6 records the absence of a Russian military confirmation at that reporting point; P7–8 give wider-war background and P9 is promotional. (Paragraphs 2.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Kharkiv region, as reported February 10.",
+          "evidence": {
+            "quote": "Там также отметили, что самая сложная ситуация сейчас в Харьковской области, где…",
+            "paragraphs": [
+              2
+            ],
+            "language": "ru",
+            "paraphrase": "Ukrenergo says Kharkiv has the hardest situation and continuing emergency power cuts.",
+            "supporting_sentence": "Там также отметили, что самая сложная ситуация сейчас в Харьковской области, где продолжаются аварийные отключения.",
+            "english_translation": "It also noted that the most difficult situation was currently in Kharkiv region, where emergency power cuts continued.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "This statement singles out Kharkiv; it does not deny severe problems in the other regions named by the minister.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "I03",
+          "text": "Ukraine’s energy minister says missile strikes damaged power sites in six regions.",
+          "topics": [
+            "damage"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "reported_ukrainian_energy_minister",
+          "claimants": [
+            {
+              "name": "Herman Halushchenko",
+              "role": "Energy minister of Ukraine",
+              "country": "Ukraine",
+              "country_basis": "Explicit Ukrainian state office."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Ukraine’s energy minister says missile strikes damaged power sites in six regions.",
+            "note": ""
+          },
+          "attention": "P1–5 emphasize shortages, air alerts and damaged energy sites. P6 records the absence of a Russian military confirmation at that reporting point; P7–8 give wider-war background and P9 is promotional. (Paragraphs 5.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Halushchenko’s February 10 account of that day’s missile and drone attacks on Ukrainian energy facilities.",
+          "evidence": {
+            "quote": "По словам министра энергетики Украины Германа Галущенко, вследствие ракетного удара в шести…",
+            "paragraphs": [
+              5
+            ],
+            "language": "ru",
+            "paraphrase": "Ukraine’s energy minister says missile strikes damaged power sites in six regions.",
+            "supporting_sentence": "По словам министра энергетики Украины Германа Галущенко, вследствие ракетного удара в шести областях страны были повреждены объекты тепловой и гидрогенерации, а также высоковольтная инфраструктура.",
+            "english_translation": "According to Ukraine’s energy minister Herman Halushchenko, a missile strike damaged thermal and hydroelectric generation facilities, as well as high-voltage infrastructure, in six regions of the country.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "I04",
+          "text": "Izvestia says Russia’s defense ministry had not yet confirmed the explosions or possible strikes.",
+          "topics": [
+            "statement_timing"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "Izvestia article narrator",
+              "role": "Article narrative voice",
+              "country": "Russia",
+              "country_basis": "Outlet origin; individual reporter citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Izvestia says Russia’s defense ministry had not yet confirmed the explosions or possible strikes.",
+            "note": ""
+          },
+          "attention": "P1–5 emphasize shortages, air alerts and damaged energy sites. P6 records the absence of a Russian military confirmation at that reporting point; P7–8 give wider-war background and P9 is promotional. (Paragraphs 6.)",
+          "outlet_view": "This is the article narrator’s wording; it is not an outlet-wide policy statement.",
+          "where_when": "At Izvestia’s February 10 reporting point; exact article time not established here.",
+          "evidence": {
+            "quote": "В Минобороны РФ взрывы и возможные удары по инфраструктуре не подтверждали.",
+            "paragraphs": [
+              6
+            ],
+            "language": "ru",
+            "paraphrase": "Izvestia says Russia’s defense ministry had not yet confirmed the explosions or possible strikes.",
+            "supporting_sentence": "В Минобороны РФ взрывы и возможные удары по инфраструктуре не подтверждали.",
+            "english_translation": "The Russian Defence Ministry had not confirmed the explosions or possible strikes on infrastructure.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "This reports the absence of confirmation then, not an explicit Russian denial and not a claim that no later statement would follow.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "europeanpravda",
+      "label": "European Pravda",
+      "short_label": "E. Pravda",
+      "country": "Ukraine",
+      "article": {
+        "id": "7dd515ee-f930-4693-8652-62e8e90b8fa3",
+        "title": "Two Russian Missiles Launched over Ukraine Crossed into Romanian Air Space - Zaluzhnyi",
+        "url": "https://www.eurointegration.com.ua/eng/news/2023/02/10/7155921/",
+        "publication_date": "2023-02-10",
+        "text_sha256": "40d2b27385b6c588c5e366d5e553c333329d5397e729144630db98d6bb4f6706"
+      },
+      "attention": "P2–5 report Zaluzhnyi’s flight-path account; P6–7 add Moldovan confirmation and condemnation. P8–9 concern earlier incidents and possible laws, rather than confirmation of Romania’s airspace.",
+      "claims": [
+        {
+          "id": "EP01",
+          "text": "Zaluzhnyi says two Russian Kalibr missiles crossed into Moldova at 10:18.",
+          "topics": [
+            "missile_path"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "quoted_ukrainian_military_commander",
+          "claimants": [
+            {
+              "name": "Valerii Zaluzhnyi",
+              "role": "Commander-in-chief of Ukraine’s armed forces",
+              "country": "Ukraine",
+              "country_basis": "Explicit Ukrainian military institution."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Zaluzhnyi says two Russian Kalibr missiles crossed into Moldova at 10:18.",
+            "note": ""
+          },
+          "attention": "P2–5 report Zaluzhnyi’s flight-path account; P6–7 add Moldovan confirmation and condemnation. P8–9 concern earlier incidents and possible laws, rather than confirmation of Romania’s airspace. (Paragraphs 3.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Zaluzhnyi’s February 10 account; local times reproduced as stated, without aligning every report’s timezone.",
+          "evidence": {
+            "quote": "\"Two Russian Kalibr cruise missiles crossed the state border of Ukraine and…",
+            "paragraphs": [
+              3
+            ],
+            "language": "en",
+            "paraphrase": "Zaluzhnyi says two Russian Kalibr missiles crossed into Moldova at 10:18.",
+            "supporting_sentence": "\"Two Russian Kalibr cruise missiles crossed the state border of Ukraine and the Republic of Moldova on 10 February at 10:18.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "This is Ukraine’s account of two missiles. Moldova’s separate confirmation speaks of a missile and does not establish the complete count.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "EP02",
+          "text": "Zaluzhnyi says the missiles entered Romanian airspace and then returned to Ukraine.",
+          "topics": [
+            "missile_path"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "quoted_ukrainian_military_commander",
+          "claimants": [
+            {
+              "name": "Valerii Zaluzhnyi",
+              "role": "Commander-in-chief of Ukraine’s armed forces",
+              "country": "Ukraine",
+              "country_basis": "Explicit Ukrainian military institution."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Zaluzhnyi says the missiles entered Romanian airspace and then returned to Ukraine.",
+            "note": ""
+          },
+          "attention": "P2–5 report Zaluzhnyi’s flight-path account; P6–7 add Moldovan confirmation and condemnation. P8–9 concern earlier incidents and possible laws, rather than confirmation of Romania’s airspace. (Paragraphs 4.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Zaluzhnyi’s February 10 account; local times reproduced as stated, without aligning every report’s timezone.",
+          "evidence": {
+            "quote": "At approximately 10:33, these missiles crossed into Romanian air space. After this,…",
+            "paragraphs": [
+              4
+            ],
+            "language": "en",
+            "paraphrase": "Zaluzhnyi says the missiles entered Romanian airspace and then returned to Ukraine.",
+            "supporting_sentence": "At approximately 10:33, these missiles crossed into Romanian air space. After this, the said air targets re-entered Ukrainian airspace where the borders of the three states meet. At the moment, this target is being monitored, and measures to shoot it down are also being taken.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "The selected article gives no Romanian confirmation or denial. Moldovan confirmation cannot be extended to Romania.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "EP03",
+          "text": "Moldova’s defense ministry confirms that a missile crossed Moldovan airspace.",
+          "topics": [
+            "missile_path"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "reported_moldovan_defence_ministry",
+          "claimants": [
+            {
+              "name": "Ministry of Defence of Moldova",
+              "role": "Moldovan government ministry",
+              "country": "Moldova",
+              "country_basis": "Explicit institutional country."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Moldova’s defense ministry confirms that a missile crossed Moldovan airspace.",
+            "note": ""
+          },
+          "attention": "P2–5 report Zaluzhnyi’s flight-path account; P6–7 add Moldovan confirmation and condemnation. P8–9 concern earlier incidents and possible laws, rather than confirmation of Romania’s airspace. (Paragraphs 6.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Moldovan airspace on February 10; the article reports a 10:18 crossing.",
+          "evidence": {
+            "quote": "The Ministry of Defence of Moldova later confirmed the violation of the…",
+            "paragraphs": [
+              6
+            ],
+            "language": "en",
+            "paraphrase": "Moldova’s defense ministry confirms that a missile crossed Moldovan airspace.",
+            "supporting_sentence": "The Ministry of Defence of Moldova later confirmed the violation of the airspace of Moldova at 10:18. The missile flew over the village of Mokra (Rybnytsky District, Transnistria) and then over Kosautsy (Sorok District).",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "Confirms Moldova only, not Romania or every detail in Zaluzhnyi’s account.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "EP04",
+          "text": "Moldova’s defense ministry condemns the violation of its airspace.",
+          "topics": [
+            "airspace_response"
+          ],
+          "kind": {
+            "label": "Opinion / judgement",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "opinion",
+          "source_type": "quoted_moldovan_defence_ministry",
+          "claimants": [
+            {
+              "name": "Ministry of Defence of Moldova",
+              "role": "Moldovan government ministry",
+              "country": "Moldova",
+              "country_basis": "Explicit institutional country."
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Criticizes / opposes",
+            "target": "Violation of Moldova’s airspace by a missile",
+            "note": ""
+          },
+          "attention": "P2–5 report Zaluzhnyi’s flight-path account; P6–7 add Moldovan confirmation and condemnation. P8–9 concern earlier incidents and possible laws, rather than confirmation of Romania’s airspace. (Paragraphs 7.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Moldovan official response on February 10.",
+          "evidence": {
+            "quote": "\"The Ministry of Defence, together with the responsible structures of the country,…",
+            "paragraphs": [
+              7
+            ],
+            "language": "en",
+            "paraphrase": "Moldova’s defense ministry condemns the violation of its airspace.",
+            "supporting_sentence": "\"The Ministry of Defence, together with the responsible structures of the country, is closely monitoring the situation in the region and strongly condemns the violation of the airspace of the Republic of Moldova,\" the Ministry said.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "sputnik",
+      "label": "Sputnik",
+      "short_label": "Sputnik",
+      "country": "Russia",
+      "article": {
+        "id": "d64b236e-9154-4e2f-bd5f-c1370a75f4de",
+        "title": "LIVE UPDATES: Russian Forces Conduct Massive Strike on Ukraine's Energy Facilities - MoD",
+        "url": "https://sputnikglobe.com/20230210/live-updates-russia-may-consider-ukraines-proposals-if-kiev-heeds-to-moscows-position-envoy-says-1107289352.html",
+        "publication_date": "2023-02-10",
+        "text_sha256": "a7c939e901686f581bc816a7ce439db00dfb022fc1b4ff7c2af296e57c26fe09"
+      },
+      "attention": "This is a multi-day liveblog. P18–20 carry the Russian defense ministry’s February 11 statement about February 10 strikes; P69 and P73 carry Moldovan accounts from February 10. Other updates concern unrelated fronts, weapons or diplomacy.",
+      "claims": [
+        {
+          "id": "S01",
+          "text": "Russia’s defense ministry says its February 10 missile and drone strikes hit every intended energy target.",
+          "topics": [
+            "damage",
+            "military_effect",
+            "statement_timing",
+            "power_system"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "reported_russian_defence_ministry",
+          "claimants": [
+            {
+              "name": "Russian Defence Ministry",
+              "role": "Russia’s national defense ministry",
+              "country": "Russia",
+              "country_basis": "Explicit Russian state institution."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Russia’s defense ministry says its February 10 missile and drone strikes hit every intended energy target.",
+            "note": ""
+          },
+          "attention": "This is a multi-day liveblog. P18–20 carry the Russian defense ministry’s February 11 statement about February 10 strikes; P69 and P73 carry Moldovan accounts from February 10. Other updates concern unrelated fronts, weapons or diplomacy. (Paragraphs 18.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Russian statement at 12:15 GMT on February 11, describing attacks carried out February 10; liveblog timestamp at P16.",
+          "evidence": {
+            "quote": "MOSCOW (Sputnik) - The Russian armed forces conducted a massive strike at…",
+            "paragraphs": [
+              18
+            ],
+            "language": "en",
+            "paraphrase": "Russia’s defense ministry says its February 10 missile and drone strikes hit every intended energy target.",
+            "supporting_sentence": "MOSCOW (Sputnik) - The Russian armed forces conducted a massive strike at Ukrainian energy facilities with the use of missiles and drones on February 10, hitting all targets, the Russian Defense Ministry said on Saturday.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "A Russian military claim, not independently checked. Statement date differs from the February 10 article label.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "S02",
+          "text": "Russia’s ministry says the strikes stopped energy-heavy military production.",
+          "topics": [
+            "military_effect"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "reported_russian_defence_ministry",
+          "claimants": [
+            {
+              "name": "Russian Defence Ministry",
+              "role": "Russia’s national defense ministry",
+              "country": "Russia",
+              "country_basis": "Explicit Russian state institution."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Russia’s ministry says the strikes stopped energy-heavy military production.",
+            "note": ""
+          },
+          "attention": "This is a multi-day liveblog. P18–20 carry the Russian defense ministry’s February 11 statement about February 10 strikes; P69 and P73 carry Moldovan accounts from February 10. Other updates concern unrelated fronts, weapons or diplomacy. (Paragraphs 19.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Russian statement at 12:15 GMT on February 11, describing attacks carried out February 10; liveblog timestamp at P16.",
+          "evidence": {
+            "quote": "All the targeted facilities were hit and the work of energy-intensive production…",
+            "paragraphs": [
+              19
+            ],
+            "language": "en",
+            "paraphrase": "Russia’s ministry says the strikes stopped energy-heavy military production.",
+            "supporting_sentence": "All the targeted facilities were hit and the work of energy-intensive production facilities of Ukraine's military-industrial complex was suspended, the ministry added.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "A Russian military claim, not independently checked. Statement date differs from the February 10 article label.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "S03",
+          "text": "Russia’s ministry says the strikes blocked rail transfers of foreign weapons and military supplies.",
+          "topics": [
+            "military_effect"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "reported_russian_defence_ministry",
+          "claimants": [
+            {
+              "name": "Russian Defence Ministry",
+              "role": "Russia’s national defense ministry",
+              "country": "Russia",
+              "country_basis": "Explicit Russian state institution."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Russia’s ministry says the strikes blocked rail transfers of foreign weapons and military supplies.",
+            "note": ""
+          },
+          "attention": "This is a multi-day liveblog. P18–20 carry the Russian defense ministry’s February 11 statement about February 10 strikes; P69 and P73 carry Moldovan accounts from February 10. Other updates concern unrelated fronts, weapons or diplomacy. (Paragraphs 20.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Russian statement at 12:15 GMT on February 11, describing attacks carried out February 10; liveblog timestamp at P16.",
+          "evidence": {
+            "quote": "\"The transfer of foreign weapons, ammunition and reserves by rail to combat…",
+            "paragraphs": [
+              20
+            ],
+            "language": "en",
+            "paraphrase": "Russia’s ministry says the strikes blocked rail transfers of foreign weapons and military supplies.",
+            "supporting_sentence": "\"The transfer of foreign weapons, ammunition and reserves by rail to combat areas has also been blocked,\" the ministry said.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "A Russian military claim, not independently checked. Statement date differs from the February 10 article label.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "S04",
+          "text": "Moldova’s defense ministry confirms that a missile heading toward Ukraine crossed Moldovan airspace.",
+          "topics": [
+            "missile_path"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "quoted_moldovan_defence_ministry",
+          "claimants": [
+            {
+              "name": "Ministry of Defence of Moldova",
+              "role": "Moldovan government ministry",
+              "country": "Moldova",
+              "country_basis": "Explicit institutional country."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Moldova’s defense ministry confirms that a missile heading toward Ukraine crossed Moldovan airspace.",
+            "note": ""
+          },
+          "attention": "This is a multi-day liveblog. P18–20 carry the Russian defense ministry’s February 11 statement about February 10 strikes; P69 and P73 carry Moldovan accounts from February 10. Other updates concern unrelated fronts, weapons or diplomacy. (Paragraphs 73.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Liveblog entry 10:14 GMT February 10; the ministry account says 10:18 local time, 08:18 GMT.",
+          "evidence": {
+            "quote": "The Moldovan Defense Ministry confirmed on Friday that a missile heading towards…",
+            "paragraphs": [
+              73
+            ],
+            "language": "en",
+            "paraphrase": "Moldova’s defense ministry confirms that a missile heading toward Ukraine crossed Moldovan airspace.",
+            "supporting_sentence": "The Moldovan Defense Ministry confirmed on Friday that a missile heading towards Ukraine has violated Moldova's airspace. A source in the ministry told Sputnik earlier in the day that the ministry was verifying media reports claiming that several Russian missiles allegedly violated the airspace of Moldova. \"The responsible ... [authorities] discovered at 10:18 [local time, 08:18 GMT] a rocket that crossed the airspace of Moldova over the city of Mocra in the Transnistrian region, and then over the city of Cosauti ... The missile was heading towards Ukraine,\" the ministry said. Moldova is closely monitoring the situation in the region and strongly condemns the violation of its airspace, the ministry added.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "Does not confirm Romanian airspace entry or independently establish two missiles. Reported times are preserved, not silently reconciled.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "S05",
+          "text": "Moldova’s foreign ministry calls the crossing unacceptable and orders Russia’s ambassador summoned.",
+          "topics": [
+            "airspace_response"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "reported_moldovan_foreign_ministry",
+          "claimants": [
+            {
+              "name": "Daniel Voda, relaying Nicu Popescu’s order",
+              "role": "Spokesperson for Moldova’s Foreign Ministry; Popescu is the foreign minister",
+              "country": "Moldova",
+              "country_basis": "Explicit Moldovan state offices."
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Criticizes / opposes",
+            "target": "Russian missile crossing of Moldova’s airspace",
+            "note": ""
+          },
+          "attention": "This is a multi-day liveblog. P18–20 carry the Russian defense ministry’s February 11 statement about February 10 strikes; P69 and P73 carry Moldovan accounts from February 10. Other updates concern unrelated fronts, weapons or diplomacy. (Paragraphs 69.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Moldovan response in liveblog entry 10:52 GMT February 10.",
+          "evidence": {
+            "quote": "The Moldovan Foreign Ministry has summoned Russian Ambassador to Kishinev Oleg Vasnetsov…",
+            "paragraphs": [
+              69
+            ],
+            "language": "en",
+            "paraphrase": "Moldova’s foreign ministry calls the crossing unacceptable and orders Russia’s ambassador summoned.",
+            "supporting_sentence": "The Moldovan Foreign Ministry has summoned Russian Ambassador to Kishinev Oleg Vasnetsov in connection with the reports about the violation of Moldova's airspace by a missile, the ministry spokesman Daniel Voda said on Friday. Earlier in the day, the Moldovan Defense Ministry confirmed that a missile heading towards Ukraine had violated Moldova's airspace. \"The head of Moldovan diplomacy, Nicu Popescu, ordered that Russian Ambassador in Chisinau Oleg Vasnetsov be urgently summoned to the Foreign Ministry to point out to the Russian side an unacceptable violation of our airspace in the form of a Russian missile flying over the sovereign territory of Moldova,\" Voda told reporters.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "An order or announced summons is not evidence of what was discussed at a later diplomatic meeting.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "E01",
+      "source": "kyivpost",
+      "target": "censor",
+      "topic": "damage",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "KI01",
+      "target_claim": "C01",
+      "label": "Same six-region account",
+      "subtype": "repeated_source_position",
+      "reason": "Both repeat Halushchenko’s statement about power sites hit in six regions. These reports rely on the same original statement.",
+      "caveat": "Same Ukrainian minister’s report, not independent counts of six different strikes.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E02",
+      "source": "censor",
+      "target": "izvestia",
+      "topic": "damage",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "C01",
+      "target_claim": "I03",
+      "label": "Same minister in Russian and English",
+      "subtype": "repeated_source_position",
+      "reason": "Both attribute the six-region damage claim to Halushchenko. These reports rely on the same original statement.",
+      "caveat": "This is repeated source material; neither report independently validates all facilities hit.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E03",
+      "source": "kyivpost",
+      "target": "censor",
+      "topic": "damage",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "KI02",
+      "target_claim": "C04",
+      "label": "Same three worst-hit regions",
+      "subtype": "repeated_source_position",
+      "reason": "Both reproduce the energy minister’s assessment of the three most difficult regions. These reports rely on the same original statement.",
+      "caveat": "These reports repeat the same original speaker. They are not independent military findings or separate promises from every Western government.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E04",
+      "source": "kyivpost",
+      "target": "censor",
+      "topic": "power_system",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "KI03",
+      "target_claim": "C03",
+      "label": "Same claim that the grid held together",
+      "subtype": "repeated_source_position",
+      "reason": "Both quote the minister crediting air defenses and preventive steps for keeping the overall system intact. These reports rely on the same original statement.",
+      "caveat": "This does not mean no damage or outages, and is not independent corroboration.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E05",
+      "source": "censor",
+      "target": "izvestia",
+      "topic": "power_system",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "C02",
+      "target_claim": "I01",
+      "label": "Power cuts and shortages",
+      "subtype": "compatible_different_effects",
+      "reason": "Censor reports emergency shutdowns; Izvestia quotes a major electricity shortage.",
+      "caveat": "These are compatible, related system effects, not exactly the same measurement or an opposed evaluation.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E06",
+      "source": "tass",
+      "target": "izvestia",
+      "topic": "power_system",
+      "relation": "supportive",
+      "color": "green",
+      "source_claim": "T03",
+      "target_claim": "I02",
+      "label": "Regional reports support the Kharkiv outage component",
+      "subtype": "specified_partial_support",
+      "reason": "TASS reports regional authorities describing Kharkiv blackouts after explosions. That supplies a local account supporting the outage component of Ukrenergo’s report carried by Izvestia.",
+      "caveat": "The reports use different authorities and may describe different reporting times.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": true,
+      "direction": "source_to_target",
+      "support_scope": "The occurrence of power cuts in Kharkiv in I02.",
+      "direction_reason": "T03 supplies the specified support for I02.",
+      "unsupported_parts": "The claim that Kharkiv had the worst situation or the duration of each outage."
+    },
+    {
+      "id": "E07",
+      "source": "kyivpost",
+      "target": "tass",
+      "topic": "damage",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "KI01",
+      "target_claim": "T01",
+      "label": "Regional detail within a wider attack",
+      "subtype": "regional_and_national_scope",
+      "reason": "The minister reports six affected regions; TASS quotes a local official about one early-morning site.",
+      "caveat": "A local strike is not a competing six-region total or proof that it belongs to the same wave as each later report.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E08",
+      "source": "europeanpravda",
+      "target": "sputnik",
+      "topic": "missile_path",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "EP03",
+      "target_claim": "S04",
+      "label": "Same Moldovan confirmation",
+      "subtype": "repeated_source_position",
+      "reason": "Both relay Moldova’s defense ministry confirming a missile crossing. These reports rely on the same original statement.",
+      "caveat": "The same institutional account is repeated. It does not verify the Romanian crossing or Ukraine’s two-missile count.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E09",
+      "source": "sputnik",
+      "target": "europeanpravda",
+      "topic": "missile_path",
+      "relation": "supportive",
+      "color": "green",
+      "source_claim": "S04",
+      "target_claim": "EP01",
+      "label": "Moldova confirms part of the reported route",
+      "subtype": "specified_partial_support",
+      "reason": "Sputnik quotes Moldova’s defense ministry reporting a missile in Moldovan airspace at 10:18. That provides a local authority’s account supporting the Moldovan-crossing part of Zaluzhnyi’s report in European Pravda.",
+      "caveat": "Moldova confirms a missile. The accounts use different national authorities.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": true,
+      "direction": "source_to_target",
+      "support_scope": "At least one missile crossing Moldovan airspace at 10:18 on February 10.",
+      "direction_reason": "S04 supplies the specified support for EP01.",
+      "unsupported_parts": "The total of two missiles, their type, their origin, or a crossing into Romania."
+    },
+    {
+      "id": "E10",
+      "source": "europeanpravda",
+      "target": "sputnik",
+      "topic": "airspace_response",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "EP04",
+      "target_claim": "S05",
+      "label": "Moldovan institutions reject the crossing",
+      "subtype": "repeated_source_position",
+      "reason": "The defense ministry condemns the violation and the foreign ministry calls it unacceptable. These reports rely on the same original statement.",
+      "caveat": "Different Moldovan offices take compatible positions; the diplomatic order is an additional action, not the same quotation.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E11",
+      "source": "izvestia",
+      "target": "sputnik",
+      "topic": "statement_timing",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "I04",
+      "target_claim": "S01",
+      "label": "Later confirmation is not a denial",
+      "subtype": "chronological_update",
+      "reason": "Izvestia has no Russian confirmation at its February 10 reporting point; Sputnik carries a February 11 ministry statement.",
+      "caveat": "Different reporting times explain the difference. Do not mark an absence of confirmation as a contradictory military denial.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E12",
+      "source": "kyivpost",
+      "target": "sputnik",
+      "topic": "power_system",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "KI03",
+      "target_claim": "S01",
+      "label": "Hits and a working system can coexist",
+      "subtype": "compatible_different_outcome_measures",
+      "reason": "Ukraine’s minister says the wider system stayed intact; Russia’s ministry says all intended targets were hit.",
+      "caveat": "Grid integrity does not mean no damaged sites. Different outcome measures and reporting dates prevent a factual contradiction.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E13",
+      "source": "tass",
+      "target": "kyivpost",
+      "topic": "damage",
+      "source_claim": "T02",
+      "target_claim": "KI01",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "relation": "supportive",
+      "color": "green",
+      "directed": true,
+      "direction": "source_to_target",
+      "label": "A regional energy-site report supports the damage account",
+      "subtype": "specified_partial_support",
+      "reason": "TASS quotes Dnipropetrovsk’s regional head describing major destruction at an energy facility near Kryvyi Rih. That supplies a specific February 10 example supporting the general account of energy infrastructure being hit.",
+      "support_scope": "The energy-infrastructure damage component of KI01.",
+      "caveat": "The minister’s six regions are not enumerated in the quoted claim, and the local report may concern an earlier wave that day.",
+      "direction_reason": "T02 supplies the specified support for KI01.",
+      "unsupported_parts": "The number of six affected regions, inclusion in a specific morning wave, or damage to every named type of generating site."
+    }
+  ],
+  "excluded": [
+    {
+      "source": "cnn",
+      "outlet": "CNN",
+      "reason": "Russia’s oil-output reduction and sanctions; not the February 10 missile and energy-site attacks."
+    },
+    {
+      "source": "ft",
+      "outlet": "Financial Times",
+      "reason": "A trader’s view of Europe’s gas prices and Russia’s leverage; a different energy story."
+    },
+    {
+      "source": "china_daily",
+      "outlet": "China Daily",
+      "reason": "Commentary on alleged US involvement in the 2022 Nord Stream explosions; not these attacks."
+    },
+    {
+      "source": "global_times",
+      "outlet": "Global Times",
+      "reason": "China’s response to a Nord Stream allegation; a different event."
+    }
+  ],
+  "method": {
+    "country_note": "Outlet countries describe origin. Claimant countries describe an office, organization or stated residence, not assumed citizenship.",
+    "claim_type_note": "A fact claim is a checkable statement, not a fact verified by this graph. Opinions, predictions, legal positions and promises are marked separately.",
+    "edge_note": "Green arrows point from a claim supplying a reason, example or reported statement to the specified part of another claim. Grey comparisons have no assigned evidential direction. Solid red connections mark proposed contradictions between specific claims or assessments. An arrow is used for an explicit rebuttal of a matching claim. Repeated reports of the same statement share a source.",
+    "attention_note": "Attention is a qualitative reading of the saved article, with paragraph locators; it is not a measured share of words.",
+    "endorsement_note": "A quoted speaker’s view is separate from the article narrator’s view. No outlet-wide position is inferred from one article.",
+    "annotation_status": "AI-assisted draft; human review pending",
+    "cleaning_note": "Uses saved recovered text. Kyiv Independent later Most Popular / News Feed material is excluded; original paragraph numbers retained. FT wrapped lines are joined into logical paragraphs. Sputnik entry timestamps are retained in where_when fields; February 11 military updates are not mislabeled as February 10 statements."
+  }
+}

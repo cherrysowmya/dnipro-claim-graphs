@@ -1,0 +1,1659 @@
+{
+  "schema_version": "1.1",
+  "event": {
+    "id": "black_sea_grain_withdrawal_20230718",
+    "label": "Russia leaves the Black Sea grain deal",
+    "date": "2023-07-18",
+    "description": "The end of Russia’s participation in the grain-shipping agreement, arguments about responsibility, possible alternatives and expected food-price effects.",
+    "default_topic": "responsibility",
+    "default_node": "cnn",
+    "graph_scope": "whole_event",
+    "multigraph": true
+  },
+  "topics": [
+    {
+      "id": "responsibility",
+      "label": "Who is blamed for the breakdown?",
+      "scope_note": "Keep alleged reasons for withdrawal separate from claims about its effects. A reported accusation is not independently verified."
+    },
+    {
+      "id": "resumption",
+      "label": "Can the deal restart?",
+      "scope_note": "Predictions, conditions and calls to restart are different kinds of statements."
+    },
+    {
+      "id": "shipping",
+      "label": "Routes and shipping risks",
+      "scope_note": "A proposed route, a security warning and a claim that a route is used militarily are separate."
+    },
+    {
+      "id": "prices",
+      "label": "Food prices and food supply",
+      "scope_note": "Global price forecasts and China-specific risks do not measure the same thing. Forecasts are not observed final impacts."
+    },
+    {
+      "id": "response",
+      "label": "How others plan to respond",
+      "scope_note": "Promises to help exports are not proof that shipments actually left."
+    },
+    {
+      "id": "agreement_date",
+      "label": "When was the original agreement brokered?",
+      "scope_note": "Historical context for the same grain agreement. Compare the milestone meant by each article separately from the July 2023 withdrawal."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "cnn",
+      "label": "CNN",
+      "short_label": "CNN",
+      "country": "United States",
+      "article": {
+        "id": "7fe37626-3ebd-4101-9f5e-6f5922ba55b9",
+        "title": "Putin’s ruthless power play may not preclude a revival of Ukraine grain deal",
+        "url": "https://www.cnn.com/2023/07/18/politics/vladimir-putin-ukraine-grain/index.html",
+        "publication_date": "2023-07-18",
+        "text_sha256": "7681714433e9f2d02d21c67a7230541358dd153285b621062aad4222caeddedb"
+      },
+      "attention": "The analysis stresses global hunger, prices and Putin’s possible political aims, while exploring a restart through Turkish talks.",
+      "claims": [
+        {
+          "id": "CNN01",
+          "text": "CNN’s analysis predicts Russia’s withdrawal could worsen hunger in Africa and push up food prices elsewhere.",
+          "topics": [
+            "prices"
+          ],
+          "kind": {
+            "label": "Opinion / prediction",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "prediction",
+          "source_type": "analysis_narration",
+          "claimants": [
+            {
+              "name": "CNN article narrator",
+              "role": "Article narrative voice",
+              "country": "United States",
+              "country_basis": "Outlet origin; individual reporter citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "CNN’s analysis predicts Russia’s withdrawal could worsen hunger in Africa and push up food prices elsewhere.",
+            "note": ""
+          },
+          "attention": "The analysis stresses global hunger, prices and Putin’s possible political aims, while exploring a restart through Turkish talks. (Paragraphs 1.)",
+          "outlet_view": "This is the CNN writer’s own analysis: Russia’s withdrawal could worsen hunger and increase food prices. It is a prediction, not an observed result.",
+          "where_when": "2023-07-18 reporting; Russia leaves the Black Sea grain deal. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "Russia’s suspension of a deal allowing the export of Ukrainian grain from…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "CNN’s analysis predicts Russia’s withdrawal could worsen hunger in Africa and push up food prices elsewhere.",
+            "supporting_sentence": "Russia’s suspension of a deal allowing the export of Ukrainian grain from a region fabled as the world’s bread basket threatens to cause severe food shortages in Africa and send prices spiraling in supermarkets in the developed world.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CNN02",
+          "text": "The analysis suggests Putin may be using food-price pressure to weaken Western support for Ukraine.",
+          "topics": [
+            "responsibility"
+          ],
+          "kind": {
+            "label": "Opinion / assessment",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "assessment",
+          "source_type": "analysis_narration",
+          "claimants": [
+            {
+              "name": "CNN article narrator",
+              "role": "Article narrative voice",
+              "country": "United States",
+              "country_basis": "Outlet origin; individual reporter citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "The analysis suggests Putin may be using food-price pressure to weaken Western support for Ukraine.",
+            "note": ""
+          },
+          "attention": "The analysis stresses global hunger, prices and Putin’s possible political aims, while exploring a restart through Turkish talks. (Paragraphs 1.)",
+          "outlet_view": "This is the CNN writer’s own reading of Putin’s possible aim. The article does not prove his private intentions.",
+          "where_when": "2023-07-18 reporting; Russia leaves the Black Sea grain deal. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "By refusing to renew it, Putin appears again to be seeking to…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "The analysis suggests Putin may be using food-price pressure to weaken Western support for Ukraine.",
+            "supporting_sentence": "By refusing to renew it, Putin appears again to be seeking to impose a cost on the West, in return for the sanctions strangling the Russian economy.\nHe may reason that a food inflation crisis might help splinter political support in NATO nations for the prolonged and expensive effort to save Ukraine.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "A proposed explanation of motive, not direct evidence of Putin’s private intentions.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CNN03",
+          "text": "Professor Michael Kimmage thought the deal might restart even before Putin and Erdogan’s planned meeting.",
+          "topics": [
+            "resumption"
+          ],
+          "kind": {
+            "label": "Opinion / prediction",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "prediction",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Michael Kimmage",
+              "role": "Catholic University of America professor; former US State Department policy-planning official",
+              "country": "United States",
+              "country_basis": "Country identifies his reported workplace, not independently established citizenship."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Professor Michael Kimmage thought the deal might restart even before Putin and Erdogan’s planned meeting.",
+            "note": ""
+          },
+          "attention": "The analysis stresses global hunger, prices and Putin’s possible political aims, while exploring a restart through Turkish talks. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-18 reporting; Russia leaves the Black Sea grain deal. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "“I think it’s very possible that even before the Putin-Erdogan meeting there…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Professor Michael Kimmage thought the deal might restart even before Putin and Erdogan’s planned meeting.",
+            "supporting_sentence": "“I think it’s very possible that even before the Putin-Erdogan meeting there could be a resumption of the grain deal because that keeps Russia to a degree in the good graces of the international community,” Kimmage said.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CNN04",
+          "text": "John Kirby said the US was not actively pursuing an attempt to break Russia’s Black Sea blockade.",
+          "topics": [
+            "shipping"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "John Kirby",
+              "role": "US National Security Council spokesperson",
+              "country": "United States",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "John Kirby said the US was not actively pursuing an attempt to break Russia’s Black Sea blockade.",
+            "note": ""
+          },
+          "attention": "The analysis stresses global hunger, prices and Putin’s possible political aims, while exploring a restart through Turkish talks. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-18 reporting; Russia leaves the Black Sea grain deal. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "While the White House is fueling a sense of moral outrage over…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "John Kirby said the US was not actively pursuing an attempt to break Russia’s Black Sea blockade.",
+            "supporting_sentence": "While the White House is fueling a sense of moral outrage over Russia’s move, it quickly dismissed another potential response – an attempt to bust a Russian blockade in the Black Sea.\n“That’s not an option that’s being actively pursued,” John Kirby, the coordinator for strategic communications at the National Security Council,  said Monday in a comment that was in line with Biden’s goal of avoiding any direct NATO clash with Russia, a nuclear superpower.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "The preceding sentence identifies the rejected option as an attempt to break the blockade; no claim about all other export support is implied.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CNN05",
+          "text": "Ukraine’s grain association leader said land and river routes could soften the effects for only two or three weeks.",
+          "topics": [
+            "shipping"
+          ],
+          "kind": {
+            "label": "Opinion / prediction",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "prediction",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Nicolay Gorbachov",
+              "role": "President of the Ukrainian Grain Association",
+              "country": "Ukraine",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Ukraine’s grain association leader said land and river routes could soften the effects for only two or three weeks.",
+            "note": ""
+          },
+          "attention": "The analysis stresses global hunger, prices and Putin’s possible political aims, while exploring a restart through Turkish talks. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-18 reporting; Russia leaves the Black Sea grain deal. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "Nicolay Gorbachov, the President of the Ukrainian Grain Association, told Isa Soares…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Ukraine’s grain association leader said land and river routes could soften the effects for only two or three weeks.",
+            "supporting_sentence": "Nicolay Gorbachov, the President of the Ukrainian Grain Association, told Isa Soares on CNN International on Monday that exports by road, rail and river could mitigate the most damaging effects of the collapse of the deal for two or three weeks, even if such transportation methods lacked the volume of shipborne cargoes.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "kyivpost",
+      "label": "Kyiv Independent",
+      "short_label": "Kyiv Ind.",
+      "country": "Ukraine",
+      "article": {
+        "id": "b04460d4-15c6-4103-83c1-7be521935f38",
+        "title": "EU appeals to Russia to resume grain deal",
+        "url": "https://kyivindependent.com/eu-appeals-to-russia/",
+        "publication_date": "2023-07-18",
+        "text_sha256": "6d70bf7b0e96c6c03119a176bd2d5a8d8c35637741500010c07d34e7534b1dbb"
+      },
+      "attention": "The brief reports Borrell’s condemnation and appeal to restore the agreement, with figures on exports and a promise of other routes.",
+      "claims": [
+        {
+          "id": "KI01",
+          "text": "Borrell urged Russia to rejoin the grain deal.",
+          "topics": [
+            "resumption"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Josep Borrell",
+              "role": "EU foreign-policy chief speaking for the European Union",
+              "country": "European Union (multiple countries)",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Restoring Russia’s participation in the grain agreement",
+            "note": ""
+          },
+          "attention": "The brief reports Borrell’s condemnation and appeal to restore the agreement, with figures on exports and a promise of other routes. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-18 reporting; Russia leaves the Black Sea grain deal. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "The EU's chief diplomat Josep Borrell appealed to Russia on July 17…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Borrell urged Russia to rejoin the grain deal.",
+            "supporting_sentence": "The EU's chief diplomat Josep Borrell appealed to Russia on July 17 to resume its participation in the Black Sea Grain Initiative.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "KI02",
+          "text": "Borrell accused Russia of using food as a weapon and causing grain-delivery problems and higher prices.",
+          "topics": [
+            "responsibility"
+          ],
+          "kind": {
+            "label": "Opinion / assessment",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "assessment",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Josep Borrell",
+              "role": "EU foreign-policy chief speaking for the European Union",
+              "country": "European Union (multiple countries)",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "criticizes",
+            "label": "Criticizes",
+            "target": "Russia’s withdrawal and its effect on food supplies",
+            "note": ""
+          },
+          "attention": "The brief reports Borrell’s condemnation and appeal to restore the agreement, with figures on exports and a promise of other routes. (Paragraphs 6.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-18 reporting; Russia leaves the Black Sea grain deal. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "The EU official denounced Russia for \"weaponizing food\" and for solely causing…",
+            "paragraphs": [
+              6
+            ],
+            "language": "en",
+            "paraphrase": "Borrell accused Russia of using food as a weapon and causing grain-delivery problems and higher prices.",
+            "supporting_sentence": "The EU official denounced Russia for \"weaponizing food\" and for solely causing disruptions of grain deliveries and food price inflation worldwide.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "KI03",
+          "text": "Borrell said the deal had allowed nearly 33 million tonnes of food exports to 45 countries.",
+          "topics": [
+            "prices"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Josep Borrell",
+              "role": "EU foreign-policy chief speaking for the European Union",
+              "country": "European Union (multiple countries)",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Borrell said the deal had allowed nearly 33 million tonnes of food exports to 45 countries.",
+            "note": ""
+          },
+          "attention": "The brief reports Borrell’s condemnation and appeal to restore the agreement, with figures on exports and a promise of other routes. (Paragraphs 5.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-18 reporting; Russia leaves the Black Sea grain deal. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "The grain deal helped to bring food prices down by 23% from…",
+            "paragraphs": [
+              5
+            ],
+            "language": "en",
+            "paraphrase": "Borrell said the deal had allowed nearly 33 million tonnes of food exports to 45 countries.",
+            "supporting_sentence": "The grain deal helped to bring food prices down by 23% from their peak in March 2022 and allowed the export of nearly 33 million tonnes of grain and foodstuffs to 45 countries, Borrell specified.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "The sentence also mentions a 23% fall from peak food prices; it does not independently establish how much of the change was caused by the agreement alone.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "KI04",
+          "text": "Borrell promised continued EU help moving goods through other routes between Ukraine and Europe.",
+          "topics": [
+            "response"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Josep Borrell",
+              "role": "EU foreign-policy chief speaking for the European Union",
+              "country": "European Union (multiple countries)",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Alternative routes for Ukrainian exports",
+            "note": ""
+          },
+          "attention": "The brief reports Borrell’s condemnation and appeal to restore the agreement, with figures on exports and a promise of other routes. (Paragraphs 7.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-18 reporting; Russia leaves the Black Sea grain deal. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "\"The EU will spare no efforts to continue to support the timely…",
+            "paragraphs": [
+              7
+            ],
+            "language": "en",
+            "paraphrase": "Borrell promised continued EU help moving goods through other routes between Ukraine and Europe.",
+            "supporting_sentence": "\"The EU will spare no efforts to continue to support the timely and stable delivery of all goods, especially agricultural products to global markets through EU-Ukraine 'Solidarity Lanes.' The EU will continue to work with affected partner countries in its comprehensive Team Europe response to address global food insecurity,\" Borrell said.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "KI05",
+          "text": "Kyiv Independent says Turkey and the UN brokered the grain initiative in July 2022.",
+          "topics": [
+            "agreement_date"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A checkable historical date reported in the saved article."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "Kyiv Independent article narrator",
+              "role": "Article narrative voice",
+              "country": "Ukraine",
+              "country_basis": "Outlet origin."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Date of the original grain agreement",
+            "note": ""
+          },
+          "attention": "Background about the original agreement in paragraph 8.",
+          "outlet_view": "The date appears in the article’s narrative account.",
+          "where_when": "Historical context about the original 2022 grain agreement, reported July 18, 2023.",
+          "evidence": {
+            "quote": "The grain initiative was brokered by Turkey and the U.N. in July 2022 and has been extended several times.",
+            "paragraphs": [
+              8
+            ],
+            "language": "en",
+            "paraphrase": "Kyiv Independent says Turkey and the UN brokered the grain initiative in July 2022.",
+            "supporting_sentence": "The grain initiative was brokered by Turkey and the U.N. in July 2022 and has been extended several times.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": true,
+          "uncertainty": "The wording needs review to determine whether both dates refer to the same milestone in negotiations and the agreement.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "europeanpravda",
+      "label": "European Pravda",
+      "short_label": "E. Pravda",
+      "country": "Ukraine",
+      "article": {
+        "id": "fc51cab0-4456-4a2b-ae16-fb59cf31cdf0",
+        "title": "EU Appeals to Russia over \"Grain Deal\" Termination",
+        "url": "https://www.eurointegration.com.ua/eng/news/2023/07/18/7165976/",
+        "publication_date": "2023-07-18",
+        "text_sha256": "2db016c6fce621cdbcf0dc877a80794839de5e242cb21955fbda2b56eedd70fa"
+      },
+      "attention": "The article reports the same EU appeal, alternatives and Ukraine’s proposal to keep the corridor without Russia.",
+      "claims": [
+        {
+          "id": "EP01",
+          "text": "The EU called on Russia to restart the grain agreement immediately.",
+          "topics": [
+            "resumption"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Josep Borrell",
+              "role": "EU foreign-policy chief speaking for the European Union",
+              "country": "European Union (multiple countries)",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Restoring the Black Sea Grain Initiative",
+            "note": ""
+          },
+          "attention": "The article reports the same EU appeal, alternatives and Ukraine’s proposal to keep the corridor without Russia. (Paragraphs 5.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-18 reporting; Russia leaves the Black Sea grain deal. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "\"The EU urges Russia to reconsider its decision and immediately resume implementation…",
+            "paragraphs": [
+              5
+            ],
+            "language": "en",
+            "paraphrase": "The EU called on Russia to restart the grain agreement immediately.",
+            "supporting_sentence": "\"The EU urges Russia to reconsider its decision and immediately resume implementation of the Black Sea Grain Initiative,\" the statement said.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "EP02",
+          "text": "Borrell blamed Russia for blocking a major grain route and causing worldwide supply problems and higher prices.",
+          "topics": [
+            "responsibility"
+          ],
+          "kind": {
+            "label": "Opinion / assessment",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "assessment",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Josep Borrell",
+              "role": "EU foreign-policy chief speaking for the European Union",
+              "country": "European Union (multiple countries)",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "criticizes",
+            "label": "Criticizes",
+            "target": "Russia’s withdrawal from the grain agreement",
+            "note": ""
+          },
+          "attention": "The article reports the same EU appeal, alternatives and Ukraine’s proposal to keep the corridor without Russia. (Paragraphs 4.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-18 reporting; Russia leaves the Black Sea grain deal. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "Borrell added that by tearing up the agreements, Russia is single-handedly blocking…",
+            "paragraphs": [
+              4
+            ],
+            "language": "en",
+            "paraphrase": "Borrell blamed Russia for blocking a major grain route and causing worldwide supply problems and higher prices.",
+            "supporting_sentence": "Borrell added that by tearing up the agreements, Russia is single-handedly blocking one of the important main routes for grain exports from Ukraine and is solely responsible for disruptions in grain supplies around the world and rising food prices.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "EP03",
+          "text": "The EU promised to help keep goods moving through alternative routes connecting Ukraine and Europe.",
+          "topics": [
+            "response"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Josep Borrell",
+              "role": "EU foreign-policy chief speaking for the European Union",
+              "country": "European Union (multiple countries)",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Alternative routes for Ukrainian exports",
+            "note": ""
+          },
+          "attention": "The article reports the same EU appeal, alternatives and Ukraine’s proposal to keep the corridor without Russia. (Paragraphs 6.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-18 reporting; Russia leaves the Black Sea grain deal. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "The EU will make every effort to continue to support the timely…",
+            "paragraphs": [
+              6
+            ],
+            "language": "en",
+            "paraphrase": "The EU promised to help keep goods moving through alternative routes connecting Ukraine and Europe.",
+            "supporting_sentence": "The EU will make every effort to continue to support the timely and stable delivery of all goods, especially agricultural products, to world markets through the Solidarity Lanes between the EU and Ukraine.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "EP04",
+          "text": "Ukraine proposed continuing the grain corridor with Turkey and the UN but without Russia.",
+          "topics": [
+            "shipping"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Ukraine’s government",
+              "role": "Proposal reported without a named official in this sentence",
+              "country": "Ukraine",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Continuing the grain corridor without Russian participation",
+            "note": ""
+          },
+          "attention": "The article reports the same EU appeal, alternatives and Ukraine’s proposal to keep the corridor without Russia. (Paragraphs 9.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-18 reporting; Russia leaves the Black Sea grain deal. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "Ukraine has proposed to Türkiye and the UN that the grain corridor…",
+            "paragraphs": [
+              9
+            ],
+            "language": "en",
+            "paraphrase": "Ukraine proposed continuing the grain corridor with Turkey and the UN but without Russia.",
+            "supporting_sentence": "Ukraine has proposed to Türkiye and the UN that the grain corridor under the Black Sea Grain Initiative should continue to function without Russia, which withdrew from the agreements.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "censor",
+      "label": "Censor.NET",
+      "short_label": "Censor.NET",
+      "country": "Ukraine",
+      "article": {
+        "id": "75105909-5294-4453-8ebb-849f0f200f5c",
+        "title": "Zelensky held meeting of Headquarters: Number one issue is sea export of grain and port security",
+        "url": "https://censor.net/en/news/3431872/zelensky_held_meeting_of_headquarters_number_one_issue_is_sea_export_of_grain_and_port_security",
+        "publication_date": "2023-07-18",
+        "text_sha256": "2f558334739d21df9b7c3bae6ff0bc1e091f3a97af3e9d6f937ab706a353d5cd"
+      },
+      "attention": "The report leads with Zelensky’s grain-export and port-security meeting, then supplies earlier US and Russian statements.",
+      "claims": [
+        {
+          "id": "CEN01",
+          "text": "Zelensky said grain exports by sea and port security were the main issues at his military leaders’ meeting.",
+          "topics": [
+            "response"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Volodymyr Zelensky",
+              "role": "President of Ukraine",
+              "country": "Ukraine",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Zelensky said grain exports by sea and port security were the main issues at his military leaders’ meeting.",
+            "note": ""
+          },
+          "attention": "The report leads with Zelensky’s grain-export and port-security meeting, then supplies earlier US and Russian statements. (Paragraphs 3.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-18 reporting; Russia leaves the Black Sea grain deal. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "According to him, the number one issue at today's Headquarters is the…",
+            "paragraphs": [
+              3
+            ],
+            "language": "en",
+            "paraphrase": "Zelensky said grain exports by sea and port security were the main issues at his military leaders’ meeting.",
+            "supporting_sentence": "According to him, the number one issue at today's Headquarters is the sea export of grain and port security. Deputy Prime Minister Kubrakov, commander of the Neizhpapa Navy - logistics of supply and protection of the coastal region reported.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CEN02",
+          "text": "Blinken said the US would help Ukraine export goods after Russia left the agreement.",
+          "topics": [
+            "response"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Antony Blinken",
+              "role": "US secretary of state",
+              "country": "United States",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Help for Ukrainian exports after Russia’s withdrawal",
+            "note": ""
+          },
+          "attention": "The report leads with Zelensky’s grain-export and port-security meeting, then supplies earlier US and Russian statements. (Paragraphs 7.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-18 reporting; Russia leaves the Black Sea grain deal. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "Earlier, the US Secretary of State Anthony Blinken noted that the US…",
+            "paragraphs": [
+              7
+            ],
+            "language": "en",
+            "paraphrase": "Blinken said the US would help Ukraine export goods after Russia left the agreement.",
+            "supporting_sentence": "Earlier, the US Secretary of State Anthony Blinken noted that the US will help Ukraine with exports after the withdrawal of the Russian Federation from the \"grain agreement\".",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "CEN03",
+          "text": "Peskov said Russia would return as soon as the agreements concerning Russia were fulfilled.",
+          "topics": [
+            "resumption"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Dmitry Peskov",
+              "role": "Kremlin spokesperson",
+              "country": "Russia",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Peskov said Russia would return as soon as the agreements concerning Russia were fulfilled.",
+            "note": ""
+          },
+          "attention": "The report leads with Zelensky’s grain-export and port-security meeting, then supplies earlier US and Russian statements. (Paragraphs 9.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-18 reporting; Russia leaves the Black Sea grain deal. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "According to Peskov, the Russian Federation \"will immediately return to the \"grain…",
+            "paragraphs": [
+              9
+            ],
+            "language": "en",
+            "paraphrase": "Peskov said Russia would return as soon as the agreements concerning Russia were fulfilled.",
+            "supporting_sentence": "According to Peskov, the Russian Federation \"will immediately return to the \"grain agreement\" as soon as the agreements concerning it are fulfilled.\"",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "The report does not list or evaluate those conditions; this is a conditional promise, not an announcement of return.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "tass",
+      "label": "TASS",
+      "short_label": "TASS",
+      "country": "Russia",
+      "article": {
+        "id": "0e19ef11-18de-4c81-a9d7-27b98d8b6f0a",
+        "title": "Kremlin warns about risks to continue grain deal without Russia",
+        "url": "https://tass.com/politics/1648429",
+        "publication_date": "2023-07-18",
+        "text_sha256": "a45a826fe65a16d49bab93a185ca21d9a400ae605305f651d4e794d7d8b60e1b"
+      },
+      "attention": "The short report emphasizes Peskov’s security warning and his claim of Ukrainian military use of the corridor.",
+      "claims": [
+        {
+          "id": "T01",
+          "text": "Peskov warned that continuing grain shipments without Russia would be risky near the fighting.",
+          "topics": [
+            "shipping"
+          ],
+          "kind": {
+            "label": "Opinion / prediction",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "prediction",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Dmitry Peskov",
+              "role": "Kremlin spokesperson",
+              "country": "Russia",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Peskov warned that continuing grain shipments without Russia would be risky near the fighting.",
+            "note": ""
+          },
+          "attention": "The short report emphasizes Peskov’s security warning and his claim of Ukrainian military use of the corridor. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-18 reporting; Russia leaves the Black Sea grain deal. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "MOSCOW, July 18. /TASS/. Attempts to continue the grain deal without Russia’s…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Peskov warned that continuing grain shipments without Russia would be risky near the fighting.",
+            "supporting_sentence": "MOSCOW, July 18. /TASS/. Attempts to continue the grain deal without Russia’s participation will lead to risks because the grain corridor is close to the combat operations zone, Kremlin Spokesman Dmitry Peskov told reporters.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "T02",
+          "text": "Peskov claimed Ukraine used the grain corridor for military purposes.",
+          "topics": [
+            "responsibility"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Dmitry Peskov",
+              "role": "Kremlin spokesperson",
+              "country": "Russia",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "criticizes",
+            "label": "Criticizes",
+            "target": "Alleged Ukrainian military use of the shipping corridor",
+            "note": ""
+          },
+          "attention": "The short report emphasizes Peskov’s security warning and his claim of Ukrainian military use of the corridor. (Paragraphs 3.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-18 reporting; Russia leaves the Black Sea grain deal. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "\"Even if we take this zone of implementing the grain deal, there…",
+            "paragraphs": [
+              3
+            ],
+            "language": "en",
+            "paraphrase": "Peskov claimed Ukraine used the grain corridor for military purposes.",
+            "supporting_sentence": "\"Even if we take this zone of implementing the grain deal, there is no secret for anyone anymore; this is an obvious fact that the Kiev regime uses this zone for combat purposes. This is a very important aspect that also should not be forgotten,\" the Kremlin Spokesman added.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "The article supplies no supporting evidence for this accusation.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "sputnik",
+      "label": "Sputnik",
+      "short_label": "Sputnik",
+      "country": "Russia",
+      "article": {
+        "id": "33206bf7-2173-4742-a3b6-4ae475c01acf",
+        "title": "Ukraine Uses Grain Deal For Military Purposes - Kremlin",
+        "url": "https://sputnikglobe.com/20230718/ukraine-uses-grain-deal-for-military-purposes---kremlin-1111961053.html",
+        "publication_date": "2023-07-18",
+        "text_sha256": "bd098b35ced4e31b31b09892b140c6e99f8ff4d19c52e0d3dd6d467b179d631c"
+      },
+      "attention": "The recovered paragraph presents Peskov’s defense of withdrawal, alleged unmet terms and claimed military misuse.",
+      "claims": [
+        {
+          "id": "S01",
+          "text": "Peskov said Russia had met its obligations but the agreement’s terms concerning Russia had not been carried out.",
+          "topics": [
+            "responsibility"
+          ],
+          "kind": {
+            "label": "Opinion / assessment",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "assessment",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Dmitry Peskov",
+              "role": "Kremlin spokesperson",
+              "country": "Russia",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "criticizes",
+            "label": "Criticizes",
+            "target": "European handling of the grain agreement",
+            "note": ""
+          },
+          "attention": "The recovered paragraph presents Peskov’s defense of withdrawal, alleged unmet terms and claimed military misuse. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-18 reporting; Russia leaves the Black Sea grain deal. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "\"Russia fulfilled its obligations and extended this deal several times, despite the…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Peskov said Russia had met its obligations but the agreement’s terms concerning Russia had not been carried out.",
+            "supporting_sentence": "\"Russia fulfilled its obligations and extended this deal several times, despite the fact that the terms of this deal with respect to Russia were not implemented. And in this case, the position of the European states should probably be called unscrupulous,\" Peskov said, commenting on the remark by US Secretary of State Antony Blinken that Russia allegedly \"is responsible for the refusal to supply food to the needy and for the potential increase in the price of grain.\"",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "This is Russia’s account of prior obligations, not an independent audit of the agreement or proof that withdrawal caused no harm.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "S02",
+          "text": "Peskov claimed Ukraine used the grain deal for military purposes.",
+          "topics": [
+            "responsibility"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Dmitry Peskov",
+              "role": "Kremlin spokesperson",
+              "country": "Russia",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Peskov claimed Ukraine used the grain deal for military purposes.",
+            "note": ""
+          },
+          "attention": "The recovered paragraph presents Peskov’s defense of withdrawal, alleged unmet terms and claimed military misuse. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-18 reporting; Russia leaves the Black Sea grain deal. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "Kiev uses the grain deal for military purposes, the official said, adding…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Peskov claimed Ukraine used the grain deal for military purposes.",
+            "supporting_sentence": "Kiev uses the grain deal for military purposes, the official said, adding that this fact should not be neglected.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "No supporting evidence for the allegation is supplied in the recovered paragraph.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "S03",
+          "text": "Peskov warned of security risks if the grain deal continued without Russia.",
+          "topics": [
+            "shipping"
+          ],
+          "kind": {
+            "label": "Opinion / prediction",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "prediction",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Dmitry Peskov",
+              "role": "Kremlin spokesperson",
+              "country": "Russia",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Peskov warned of security risks if the grain deal continued without Russia.",
+            "note": ""
+          },
+          "attention": "The recovered paragraph presents Peskov’s defense of withdrawal, alleged unmet terms and claimed military misuse. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-18 reporting; Russia leaves the Black Sea grain deal. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "Kremlin spokesman also noted that there are some security risks for the…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Peskov warned of security risks if the grain deal continued without Russia.",
+            "supporting_sentence": "Kremlin spokesman also noted that there are some security risks for the grain deal without Russia's participation that should be taken into account.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "global_times",
+      "label": "Global Times",
+      "short_label": "Global Times",
+      "country": "China",
+      "article": {
+        "id": "4bfaee5c-696a-4dc7-8c1e-1dfac630a028",
+        "title": "Russia’s suspension of Black Sea grain deal has 'limited' impact on China",
+        "url": "https://www.globaltimes.cn/page/202307/1294622.shtml",
+        "publication_date": "2023-07-18",
+        "text_sha256": "56678398a7ea57217981773cb9785fd8edeb8f4128fbdde9469877b91fb9068b"
+      },
+      "attention": "The report focuses on food prices and why named analysts expect a smaller effect on China than on other buyers.",
+      "claims": [
+        {
+          "id": "GT01",
+          "text": "Jiao Shanwei predicted tighter world food supplies and rising prices after the deal stopped.",
+          "topics": [
+            "prices"
+          ],
+          "kind": {
+            "label": "Opinion / prediction",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "prediction",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Jiao Shanwei",
+              "role": "Editor-in-chief of Chinese grain-industry website cngrain.com",
+              "country": "China",
+              "country_basis": "Country is the reported publication’s institutional location; personal citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Jiao Shanwei predicted tighter world food supplies and rising prices after the deal stopped.",
+            "note": ""
+          },
+          "attention": "The report focuses on food prices and why named analysts expect a smaller effect on China than on other buyers. (Paragraphs 10.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-18 reporting; Russia leaves the Black Sea grain deal. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "\"Amid persisting global inflation, the suspension will stretch global agricultural supplies and…",
+            "paragraphs": [
+              10
+            ],
+            "language": "en",
+            "paraphrase": "Jiao Shanwei predicted tighter world food supplies and rising prices after the deal stopped.",
+            "supporting_sentence": "\"Amid persisting global inflation, the suspension will stretch global agricultural supplies and fuel a price rally,\" Jiao Shanwei, editor-in-chief of industry news website cngrain.com, told the Global Times on Tuesday. He noted that Ukraine mainly exports to the Middle East, North Africa and certain EU countries, which could be most affected.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "GT02",
+          "text": "Jiao expected a smaller shock than before because countries had found other suppliers and built food stocks.",
+          "topics": [
+            "prices"
+          ],
+          "kind": {
+            "label": "Opinion / prediction",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "prediction",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Jiao Shanwei",
+              "role": "Editor-in-chief of Chinese grain-industry website cngrain.com",
+              "country": "China",
+              "country_basis": "Country is the reported publication’s institutional location; personal citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Jiao expected a smaller shock than before because countries had found other suppliers and built food stocks.",
+            "note": ""
+          },
+          "attention": "The report focuses on food prices and why named analysts expect a smaller effect on China than on other buyers. (Paragraphs 11.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-18 reporting; Russia leaves the Black Sea grain deal. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "But agricultural trade routes have shifted in the past year, with the…",
+            "paragraphs": [
+              11
+            ],
+            "language": "en",
+            "paraphrase": "Jiao expected a smaller shock than before because countries had found other suppliers and built food stocks.",
+            "supporting_sentence": "But agricultural trade routes have shifted in the past year, with the traditional buyers of Ukraine grain turning to suppliers in the US and Canada, and some countries have built up stockpiles. \"So the impact won't be so drastic this time,\" Jiao said.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "A comparison with the earlier shock, not a claim that prices would not rise.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "GT03",
+          "text": "Zhang Hong said China’s stored grain and stable supplies would limit the impact on China.",
+          "topics": [
+            "prices"
+          ],
+          "kind": {
+            "label": "Opinion / prediction",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "prediction",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Zhang Hong",
+              "role": "Research fellow at the Chinese Academy of Social Sciences",
+              "country": "China",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Zhang Hong said China’s stored grain and stable supplies would limit the impact on China.",
+            "note": ""
+          },
+          "attention": "The report focuses on food prices and why named analysts expect a smaller effect on China than on other buyers. (Paragraphs 13.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-18 reporting; Russia leaves the Black Sea grain deal. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "Speaking of food security, China has abundant grain reserves and stable supplies,…",
+            "paragraphs": [
+              13
+            ],
+            "language": "en",
+            "paraphrase": "Zhang Hong said China’s stored grain and stable supplies would limit the impact on China.",
+            "supporting_sentence": "Speaking of food security, China has abundant grain reserves and stable supplies, so the suspension of the Black Sea grain deal won't have much impact, said Zhang.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "The geographic scope is China, not the world or food-importing African countries.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "GT04",
+          "text": "Zhang said Ukraine’s limited land transport could not replace its grain-export ports.",
+          "topics": [
+            "shipping",
+            "prices"
+          ],
+          "kind": {
+            "label": "Opinion / assessment",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "assessment",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Zhang Hong",
+              "role": "Research fellow at the Chinese Academy of Social Sciences",
+              "country": "China",
+              "country_basis": "Country identifies the named office or organization; individual citizenship is not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Zhang said Ukraine’s limited land transport could not replace its grain-export ports.",
+            "note": ""
+          },
+          "attention": "The report focuses on food prices and why named analysts expect a smaller effect on China than on other buyers. (Paragraphs 7.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "2023-07-18 reporting; Russia leaves the Black Sea grain deal. Any earlier or future time in the statement is preserved.",
+          "evidence": {
+            "quote": "The suspension of the deal would directly affect Ukraine's 30 million tons…",
+            "paragraphs": [
+              7
+            ],
+            "language": "en",
+            "paraphrase": "Zhang said Ukraine’s limited land transport could not replace its grain-export ports.",
+            "supporting_sentence": "The suspension of the deal would directly affect Ukraine's 30 million tons of annual grain exports, because the country has no other similar ports and its land transport capacity is limited, Zhang Hong, a research fellow at the Chinese Academy of Social Sciences, told the Global Times on Tuesday.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "GT05",
+          "text": "Global Times says the UN and Turkey brokered the Black Sea grain deal in June 2022.",
+          "topics": [
+            "agreement_date"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A checkable historical date reported in the saved article."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "Global Times article narrator",
+              "role": "Article narrative voice",
+              "country": "China",
+              "country_basis": "Outlet origin."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Date of the original grain agreement",
+            "note": ""
+          },
+          "attention": "Background about the original agreement in paragraph 4.",
+          "outlet_view": "The date appears in the article’s narrative account.",
+          "where_when": "Historical context about the original 2022 grain agreement, reported July 18, 2023.",
+          "evidence": {
+            "quote": "The Black Sea grain deal, which was brokered by the UN and Turkey in June 2022, allows Ukraine to export grain via the Black Sea.",
+            "paragraphs": [
+              4
+            ],
+            "language": "en",
+            "paraphrase": "Global Times says the UN and Turkey brokered the Black Sea grain deal in June 2022.",
+            "supporting_sentence": "The Black Sea grain deal, which was brokered by the UN and Turkey in June 2022, allows Ukraine to export grain via the Black Sea.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": true,
+          "uncertainty": "The wording needs review to determine whether both dates refer to the same milestone in negotiations and the agreement.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "E01",
+      "source": "kyivpost",
+      "target": "europeanpravda",
+      "topic": "resumption",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "KI01",
+      "target_claim": "EP01",
+      "label": "Same EU appeal to restart",
+      "subtype": "same_official_statement",
+      "reason": "Both report Borrell’s call for Russia to resume participation. These reports rely on the same original statement.",
+      "caveat": "Same EU statement repeated by two outlets; not independent confirmation of Russia’s willingness to return.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E02",
+      "source": "kyivpost",
+      "target": "europeanpravda",
+      "topic": "responsibility",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "KI02",
+      "target_claim": "EP02",
+      "label": "Same EU account of blame",
+      "subtype": "same_official_statement",
+      "reason": "Both carry Borrell’s accusation that Russia’s action disrupts supplies and raises prices. These reports rely on the same original statement.",
+      "caveat": "The same speaker’s causal assessment is repeated; this is not an independently measured price effect.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E03",
+      "source": "tass",
+      "target": "sputnik",
+      "topic": "responsibility",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "T02",
+      "target_claim": "S02",
+      "label": "Same military-use accusation",
+      "subtype": "same_official_statement",
+      "reason": "Both repeat Peskov’s accusation about Ukraine’s use of the corridor. These reports rely on the same original statement.",
+      "caveat": "Neither article provides evidence for it. Repeated accusations are not corroboration.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E04",
+      "source": "europeanpravda",
+      "target": "sputnik",
+      "topic": "responsibility",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "EP02",
+      "target_claim": "S01",
+      "label": "Different parts of the dispute",
+      "subtype": "scope_or_certainty_difference",
+      "reason": "Borrell blames the withdrawal for food disruption; Peskov says earlier terms for Russia were not fulfilled.",
+      "caveat": "An alleged reason for leaving and an allegation about its consequences can both be asserted without being exact logical negations.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E05",
+      "source": "cnn",
+      "target": "censor",
+      "topic": "resumption",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CNN03",
+      "target_claim": "CEN03",
+      "label": "Forecast versus a condition",
+      "subtype": "scope_or_certainty_difference",
+      "reason": "A professor thinks a restart is possible; Peskov makes return conditional on Russian demands.",
+      "caveat": "Neither claim proves a deal would restart or rules out the other statement.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E06",
+      "source": "tass",
+      "target": "sputnik",
+      "topic": "shipping",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "T01",
+      "target_claim": "S03",
+      "label": "Same warning about shipping risks",
+      "subtype": "same_official_statement",
+      "reason": "Both carry Peskov’s warning about continuing without Russia. These reports rely on the same original statement.",
+      "caveat": "Same original speaker; not a separate maritime-risk assessment.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E07",
+      "source": "europeanpravda",
+      "target": "tass",
+      "topic": "shipping",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "EP04",
+      "target_claim": "T01",
+      "label": "A proposal and a risk warning",
+      "subtype": "scope_or_certainty_difference",
+      "reason": "Ukraine proposes keeping the corridor; Peskov warns it would be risky.",
+      "caveat": "Proposing an action does not deny that the action could be risky.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E08",
+      "source": "cnn",
+      "target": "global_times",
+      "topic": "shipping",
+      "relation": "supportive",
+      "color": "green",
+      "source_claim": "CNN05",
+      "target_claim": "GT04",
+      "label": "A short mitigation window supports limited route capacity",
+      "subtype": "specified_partial_support",
+      "reason": "CNN quotes Ukraine’s grain-association leader saying alternative routes can soften the effects for only two or three weeks and have less capacity than sea transport. That supplies a concrete account supporting the land-capacity limitation described by Zhang in Global Times.",
+      "caveat": "The sources give assessments of transport capacity with different detail.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": true,
+      "direction": "source_to_target",
+      "support_scope": "The limited-capacity component of GT04.",
+      "direction_reason": "CNN05 supplies the specified support for GT04.",
+      "unsupported_parts": "The annual export figure, the absence of other similar ports or the precise capacity of every route."
+    },
+    {
+      "id": "E09",
+      "source": "cnn",
+      "target": "global_times",
+      "topic": "prices",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CNN01",
+      "target_claim": "GT01",
+      "label": "Both predict price pressure",
+      "subtype": "parallel_accounts_or_interpretations",
+      "reason": "CNN’s analysis and Jiao both expect higher food prices after withdrawal. The matching content alone supplies no evidential direction.",
+      "caveat": "Direction of expected prices matches; exact scale, regions and time periods are not identical.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E10",
+      "source": "cnn",
+      "target": "global_times",
+      "topic": "prices",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CNN01",
+      "target_claim": "GT03",
+      "label": "Global harm versus China-specific buffers",
+      "subtype": "scope_or_certainty_difference",
+      "reason": "CNN warns about Africa and wider prices; Zhang expects China’s reserves to soften its own impact.",
+      "caveat": "Different countries and measures: China being buffered does not disprove severe harm elsewhere.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E11",
+      "source": "cnn",
+      "target": "global_times",
+      "topic": "prices",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "CNN01",
+      "target_claim": "GT02",
+      "label": "Severe effects versus a smaller repeat shock",
+      "subtype": "scope_or_certainty_difference",
+      "reason": "CNN warns of serious harm; Jiao predicts less disruption than in 2022.",
+      "caveat": "A shock can still be serious while smaller than a previous one. The comparison baseline differs.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E12",
+      "source": "kyivpost",
+      "target": "europeanpravda",
+      "topic": "response",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "KI04",
+      "target_claim": "EP03",
+      "label": "Same EU promise of other routes",
+      "subtype": "same_official_statement",
+      "reason": "Both relay the EU promise to help exports through land connections. These reports rely on the same original statement.",
+      "caveat": "Both trace to Borrell’s statement; a promise is not proof of completed shipments.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E13",
+      "source": "kyivpost",
+      "target": "censor",
+      "topic": "response",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "KI04",
+      "target_claim": "CEN02",
+      "label": "Both offer help with exports",
+      "subtype": "parallel_accounts_or_interpretations",
+      "reason": "The EU and US statements both promise help for Ukrainian exports after withdrawal. The matching content alone supplies no evidential direction.",
+      "caveat": "Different institutions and unspecified measures; shared policy direction, not identical operations.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E14",
+      "source": "kyivpost",
+      "target": "global_times",
+      "topic": "agreement_date",
+      "source_claim": "KI05",
+      "target_claim": "GT05",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "relation": "contradiction",
+      "color": "red",
+      "directed": false,
+      "direction": "undirected",
+      "confirmation_status": "proposed",
+      "direction_reason": "The passages present conflicting claims or assessments. Neither explicitly rebuts the matching claim in the other report.",
+      "label": "July 2022 versus June 2022",
+      "reason": "Kyiv Independent says the initiative was brokered in July 2022. Global Times describes the same UN-Turkey-brokered deal as dating from June 2022. The reported month differs.",
+      "caveat": "This is historical background to the shared grain-deal event. Human review should establish whether the authors mean the same agreement milestone, or whether one passage refers to earlier negotiations.",
+      "subtype": "opposed_reported_agreement_dates"
+    },
+    {
+      "id": "E15",
+      "source": "kyivpost",
+      "target": "cnn",
+      "topic": "prices",
+      "source_claim": "KI03",
+      "target_claim": "CNN01",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "relation": "supportive",
+      "color": "green",
+      "directed": true,
+      "direction": "source_to_target",
+      "label": "Reported export scale supports the food-supply risk",
+      "subtype": "specified_partial_support",
+      "reason": "Borrell’s reported figure of nearly 33 million tonnes reaching 45 countries describes the deal’s scale. That supplies a reason for CNN’s assessment that losing the route threatens food supplies.",
+      "support_scope": "The food-supply-risk component of CNN01.",
+      "caveat": "The figures are Borrell’s reported account of exports under the deal.",
+      "direction_reason": "KI03 supplies the specified support for CNN01.",
+      "unsupported_parts": "The severity of shortages in Africa or the size of future supermarket price rises."
+    },
+    {
+      "id": "E16",
+      "source": "global_times",
+      "target": "cnn",
+      "topic": "prices",
+      "source_claim": "GT04",
+      "target_claim": "CNN01",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "relation": "supportive",
+      "color": "green",
+      "directed": true,
+      "direction": "source_to_target",
+      "label": "Limited alternatives support the supply-risk assessment",
+      "subtype": "specified_partial_support",
+      "reason": "Zhang’s assessment that land transport cannot replace the ports supplies a logistical reason for CNN’s warning about food-supply pressure after the withdrawal.",
+      "support_scope": "The supply-pressure component of CNN01.",
+      "caveat": "This comparison uses Zhang’s assessment as a proposed reason in the analyst’s inference.",
+      "direction_reason": "GT04 supplies the specified support for CNN01.",
+      "unsupported_parts": "The exact price increase, regional impact or duration of any shortage."
+    }
+  ],
+  "excluded": [
+    {
+      "source": "ft",
+      "outlet": "Financial Times",
+      "reason": "Opinion about the previous NATO summit and Ukraine’s membership; no grain-deal withdrawal discussion."
+    },
+    {
+      "source": "china_daily",
+      "outlet": "China Daily",
+      "reason": "Opinion about South Korean military aid and Russian warnings; no grain-deal discussion."
+    },
+    {
+      "source": "izvestia",
+      "outlet": "Izvestia",
+      "reason": "Russian military account of strikes near Odesa/Mykolaiv; no reference to the grain deal, grain exports or Russia’s withdrawal. Geographic proximity alone is insufficient."
+    }
+  ],
+  "method": {
+    "country_note": "Outlet countries describe origin. Claimant countries describe an office, organization or stated residence, not assumed citizenship.",
+    "claim_type_note": "A fact claim is a checkable statement, not a fact verified by this graph. Opinions, predictions, legal positions and promises are marked separately.",
+    "edge_note": "Green arrows point from a claim supplying a reason, example or reported statement to the specified part of another claim. Grey comparisons have no assigned evidential direction. Solid red connections mark proposed contradictions between specific claims or assessments. An arrow is used for an explicit rebuttal of a matching claim. Repeated reports of the same statement share a source.",
+    "attention_note": "Attention is a qualitative reading of the saved article, with paragraph locators; it is not a measured share of words.",
+    "endorsement_note": "A quoted speaker’s view is separate from the article narrator’s view. No outlet-wide position is inferred from one article.",
+    "annotation_status": "AI-assisted draft; human review pending",
+    "cleaning_note": "Uses saved recovered text. Kyiv Independent later Most Popular / News Feed material is excluded; original paragraph numbers retained. FT wrapped lines are joined into logical paragraphs."
+  }
+}

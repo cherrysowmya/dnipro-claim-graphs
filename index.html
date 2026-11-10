@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>15 days of article claim graphs</title>
+  <style>
+    :root {
+      color-scheme: light only;
+      --background: #faf9f5;
+      --foreground: #24231e;
+      --secondary: #f4f2eb;
+      --muted-foreground: #67655d;
+      --border: #d8d5ca;
+      --ring: #a6543c;
+      background: var(--background);
+      color: var(--foreground);
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      line-height: 1.55;
+      background: var(--background);
+    }
+    main { max-width: 1160px; padding: 0 40px 56px; margin: 0 auto; }
+    .event-hero { padding: 48px 0 30px; }
+    .eyebrow { margin: 0 0 16px; color: #8a503a; font-size: 12px; letter-spacing: 1.25px; text-transform: uppercase; }
+    h1 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(36px, 5.5vw, 62px);
+      line-height: 1.07;
+      font-weight: 400;
+      letter-spacing: -2px;
+      max-width: 900px;
+      margin: 0;
+    }
+    .event-caption { color: #56544c; font-size: 17px; max-width: 70ch; margin: 21px 0 0; }
+    .section-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 16px 30px; flex-wrap: wrap; padding: 24px 0; border-top: 1px solid var(--border); }
+    h2 { font-family: Georgia, "Times New Roman", serif; font-size: 28px; font-weight: 400; letter-spacing: -0.5px; line-height: 1.25; margin: 0; }
+    a { color: #7b4936; text-decoration-color: #b39b8e; text-underline-offset: 3px; }
+    a:hover { color: var(--foreground); text-decoration-color: currentColor; }
+    a:focus-visible { outline: 2px solid var(--ring); outline-offset: 4px; }
+    table { width: 100%; border-collapse: collapse; margin: 0 0 32px; }
+    th, td { text-align: left; padding: 22px 16px; border-bottom: 1px solid var(--border); vertical-align: middle; }
+    th { font-size: 12px; font-weight: 500; color: var(--muted-foreground); padding-top: 0; padding-bottom: 14px; }
+    th:first-child, td:first-child { padding-left: 0; width: 140px; }
+    th:last-child, td:last-child { padding-right: 0; width: 96px; text-align: right; }
+    td:first-child { font-size: 13px; color: var(--muted-foreground); white-space: nowrap; font-variant-numeric: tabular-nums; }
+    tbody tr:hover { background: var(--secondary); }
+    td:nth-child(2) > a { font-family: Georgia, "Times New Roman", serif; font-size: 21px; line-height: 1.35; }
+    .counts { display: block; color: var(--muted-foreground); font-size: 12px; margin-top: 8px; }
+    .data {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 44px;
+      padding: 10px 16px;
+      color: var(--foreground);
+      background: var(--background);
+      border: 1px solid var(--border);
+      border-radius: 7px;
+      font-size: 13px;
+      line-height: 1.35;
+      text-decoration: none;
+      transition: background-color 120ms ease, border-color 120ms ease;
+    }
+    .data:hover { background: #eeece3; border-color: #aba79a; }
+    .scope-note { padding: 28px 30px; background: var(--secondary); border-radius: 8px; }
+    .scope-note h2 { font-size: 25px; }
+    .scope-note p { margin: 12px 0 0; font-size: 14px; line-height: 1.65; max-width: 85ch; }
+    @media (max-width: 650px) {
+      main { padding: 0 20px 32px; }
+      .event-hero { padding: 32px 0 24px; }
+      h1 { letter-spacing: -1.15px; }
+      .event-caption { font-size: 15px; margin-top: 17px; }
+      .section-heading { padding: 22px 0; }
+      .section-heading h2 { font-size: 25px; }
+      table, tbody, tr, td { display: block; }
+      thead { display: none; }
+      tr { padding: 20px 0; border-bottom: 1px solid var(--border); }
+      tr:first-child { border-top: 1px solid var(--border); }
+      td, td:first-child, td:last-child { width: auto; padding: 0; border: 0; text-align: left; }
+      td:first-child { margin-bottom: 8px; }
+      td:last-child { margin-top: 14px; }
+      td:nth-child(2) > a { font-size: 20px; }
+      .counts { margin-top: 7px; }
+      .scope-note { padding: 22px 18px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .data { transition: none; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <header class="event-hero">
+    <p class="eyebrow">DNIPRO Dataset</p>
+    <h1>15 days of article claim graphs</h1>
+    <p class="event-caption">Open a day to compare news outlets covering one shared event. Select an outlet for its claims, or a connection to compare claims and their supporting sentences.</p>
+  </header>
+  <section aria-labelledby="days-heading">
+  <div class="section-heading">
+    <h2 id="days-heading">Choose a day</h2>
+  </div>
+  <table aria-labelledby="days-heading">
+    <thead><tr><th scope="col">Day</th><th scope="col">Event and graph</th><th scope="col">Claim data</th></tr></thead>
+    <tbody id="graph-days">
+<tr><td>2022-05-25</td><td><a href="contradiction_graph_20220525/sievierodonetsk-claim-graph.html">Sievierodonetsk offensive</a><span class="counts">4 outlets · 25 claims · 13 comparisons</span></td><td><a class="data" href="contradiction_graph_20220525/claim_graph.json">JSON</a></td></tr>
+<tr><td>2022-09-05</td><td><a href="contradiction_graph_20220905/claim-graph.html">Zaporizhzhia power and safety</a><span class="counts">4 outlets · 15 claims · 8 comparisons</span></td><td><a class="data" href="contradiction_graph_20220905/claim_graph.json">JSON</a></td></tr>
+<tr><td>2022-09-23</td><td><a href="contradiction_graph_20220923/referendum-claim-graph.html">Votes on joining Russia</a><span class="counts">8 outlets · 48 claims · 25 comparisons</span></td><td><a class="data" href="contradiction_graph_20220923/claim_graph.json">JSON</a></td></tr>
+<tr><td>2022-09-26</td><td><a href="contradiction_graph_20220926/claim-graph.html">Nuclear warnings and possible responses</a><span class="counts">7 outlets · 21 claims · 11 comparisons</span></td><td><a class="data" href="contradiction_graph_20220926/claim_graph.json">JSON</a></td></tr>
+<tr><td>2022-09-28</td><td><a href="contradiction_graph_20220928/claim-graph.html">Nord Stream leaks and investigation</a><span class="counts">5 outlets · 29 claims · 14 comparisons</span></td><td><a class="data" href="contradiction_graph_20220928/claim_graph.json">JSON</a></td></tr>
+<tr><td>2022-09-30</td><td><a href="contradiction_graph_20220930/claim-graph.html">Russia claims four Ukrainian regions</a><span class="counts">8 outlets · 30 claims · 16 comparisons</span></td><td><a class="data" href="contradiction_graph_20220930/claim_graph.json">JSON</a></td></tr>
+<tr><td>2022-10-13</td><td><a href="contradiction_graph_20221013/claim-graph.html">Borrell’s warning about a nuclear attack</a><span class="counts">3 outlets · 11 claims · 7 comparisons</span></td><td><a class="data" href="contradiction_graph_20221013/claim_graph.json">JSON</a></td></tr>
+<tr><td>2023-01-27</td><td><a href="contradiction_graph_20230127/claim-graph.html">Poland’s additional tank pledge</a><span class="counts">4 outlets · 15 claims · 14 comparisons</span></td><td><a class="data" href="contradiction_graph_20230127/claim_graph.json">JSON</a></td></tr>
+<tr><td>2023-02-10</td><td><a href="contradiction_graph_20230210/claim-graph.html">Russian attacks on Ukraine’s power system</a><span class="counts">6 outlets · 24 claims · 13 comparisons</span></td><td><a class="data" href="contradiction_graph_20230210/claim_graph.json">JSON</a></td></tr>
+<tr><td>2023-02-20</td><td><a href="contradiction_graph_20230220/claim-graph.html">Biden’s surprise visit to Kyiv</a><span class="counts">9 outlets · 34 claims · 21 comparisons</span></td><td><a class="data" href="contradiction_graph_20230220/claim_graph.json">JSON</a></td></tr>
+<tr><td>2023-05-19</td><td><a href="contradiction_graph_20230519/claim-graph.html">F-16 training and possible aircraft supplies</a><span class="counts">7 outlets · 27 claims · 14 comparisons</span></td><td><a class="data" href="contradiction_graph_20230519/claim_graph.json">JSON</a></td></tr>
+<tr><td>2023-07-11</td><td><a href="contradiction_graph_20230711/claim-graph.html">NATO’s Vilnius summit</a><span class="counts">10 outlets · 32 claims · 15 comparisons</span></td><td><a class="data" href="contradiction_graph_20230711/claim_graph.json">JSON</a></td></tr>
+<tr><td>2023-07-18</td><td><a href="contradiction_graph_20230718/claim-graph.html">Russia leaves the Black Sea grain deal</a><span class="counts">7 outlets · 27 claims · 16 comparisons</span></td><td><a class="data" href="contradiction_graph_20230718/claim_graph.json">JSON</a></td></tr>
+<tr><td>2024-02-28</td><td><a href="contradiction_graph_20240228/claim-graph.html">Macron’s remarks on Western troops</a><span class="counts">8 outlets · 26 claims · 16 comparisons</span></td><td><a class="data" href="contradiction_graph_20240228/claim_graph.json">JSON</a></td></tr>
+<tr><td>2024-03-05</td><td><a href="contradiction_graph_20240305/claim-graph.html">The reported sinking of Sergei Kotov</a><span class="counts">5 outlets · 21 claims · 12 comparisons</span></td><td><a class="data" href="contradiction_graph_20240305/claim_graph.json">JSON</a></td></tr>
+    </tbody>
+  </table>
+  </section>
+  <aside class="scope-note" aria-labelledby="scope-heading">
+    <h2 id="scope-heading">Scope and attribution</h2>
+    <p>Only articles discussing the selected event appear as nodes. Each graph lists the other articles and why they were left out under “Scope and attribution.” Outlet countries describe origin; a quoted source’s country is shown separately.</p>
+    <p>Connections are proposed claim comparisons for human review. Each comparison shows its supporting passages, reasoning and limits.</p>
+  </aside>
+</main>
+</body>
+</html>

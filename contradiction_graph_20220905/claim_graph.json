@@ -1,0 +1,967 @@
+{
+  "schema_version": "1.1",
+  "event": {
+    "id": "zaporizhzhia_safety_20220905",
+    "label": "Zaporizhzhia power and safety",
+    "date": "2022-09-05",
+    "description": "Claims about power connections, control and nuclear safety at the Zaporizhzhia plant. Only event-matched articles are included; earlier August statements are clearly marked as historical context.",
+    "default_topic": "power",
+    "default_node": "kyivpost",
+    "graph_scope": "whole_event",
+    "multigraph": true
+  },
+  "topics": [
+    {
+      "id": "power",
+      "label": "Power connection",
+      "scope_note": "A last grid connection, reactor output and electricity for the plant itself are different things."
+    },
+    {
+      "id": "shelling",
+      "label": "Who is blamed for shelling?",
+      "scope_note": "Compare only matching incidents and dates; September 1 and September 5 allegations are not the same incident."
+    },
+    {
+      "id": "withdrawal",
+      "label": "Should Russian forces leave?",
+      "scope_note": "Separate explicit calls for withdrawal from descriptions of specialists helping with safety. Earlier statements retain their dates."
+    },
+    {
+      "id": "operations",
+      "label": "Who runs the plant?",
+      "scope_note": "Operational control by Energoatom is different from physical military control or national sovereignty."
+    },
+    {
+      "id": "safety",
+      "label": "Safety concerns",
+      "scope_note": "Risk forecasts and opinions are not proof a disaster occurred."
+    },
+    {
+      "id": "iaea",
+      "label": "International inspectors",
+      "scope_note": "Plans for permanent presence differ from proof of safety or a completed permanent deployment."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "kyivpost",
+      "label": "Kyiv Independent",
+      "short_label": "Kyiv Ind.",
+      "country": "Ukraine",
+      "article": {
+        "id": "43d0db7b-9d64-4f45-ad48-e9a02a409495",
+        "title": "Energy Minister: World on ‘brink of nuclear disaster’ due to Russian occupation of Zaporizhzhia nuclear plant",
+        "url": "https://kyivindependent.com/energy-minister-world-on-brink-of-nuclear-disaster-due-to-russian-occupation-of-zaporizhzhia-nuclear-plant/",
+        "publication_date": "2022-09-05",
+        "text_sha256": "506273ed2041d015a9024c46016d8e380b10dbec63b3fea68dcdca5957af39bc"
+      },
+      "attention": "The short body reports the lost power line and the Ukrainian energy minister’s call to remove troops; all three claims are in paragraph 2.",
+      "claims": [
+        {
+          "id": "KI01",
+          "text": "Energoatom says Russian shelling cut the plant’s last working power line.",
+          "topics": [
+            "power",
+            "shelling"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Energoatom",
+              "role": "Ukraine’s state nuclear operator",
+              "country": "Ukraine",
+              "country_basis": "Stated official or institutional affiliation; citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Energoatom says Russian shelling cut the plant’s last working power line.",
+            "note": ""
+          },
+          "attention": "The short body reports the lost power line and the Ukrainian energy minister’s call to remove troops; all three claims are in paragraph 2. (Paragraphs 2.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Statement in the selected article for 2022-09-05; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "Earlier, Ukraine’s state nuclear operator Energoatom reported that Russian shelling disconnected the…",
+            "paragraphs": [
+              2
+            ],
+            "language": "en",
+            "paraphrase": "Energoatom says Russian shelling cut the plant’s last working power line.",
+            "supporting_sentence": "Earlier, Ukraine’s state nuclear operator Energoatom reported that Russian shelling disconnected the last working power line at the Zaporizhzhia Nuclear Power Plant.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "Attribution to Energoatom is recorded; neither cause nor connection status is independently checked here.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "KI02",
+          "text": "Ukraine’s energy minister says fighting makes repairs impossible.",
+          "topics": [
+            "power",
+            "safety"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Herman Halushchenko",
+              "role": "Ukraine’s energy minister",
+              "country": "Ukraine",
+              "country_basis": "Stated official or institutional affiliation; citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Ukraine’s energy minister says fighting makes repairs impossible.",
+            "note": ""
+          },
+          "attention": "The short body reports the lost power line and the Ukrainian energy minister’s call to remove troops; all three claims are in paragraph 2. (Paragraphs 2.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Statement in the selected article for 2022-09-05; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "Energy Minister Herman Halushchenko said any repair work is impossible due to…",
+            "paragraphs": [
+              2
+            ],
+            "language": "en",
+            "paraphrase": "Ukraine’s energy minister says fighting makes repairs impossible.",
+            "supporting_sentence": "Energy Minister Herman Halushchenko said any repair work is impossible due to ongoing hostilities.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "KI03",
+          "text": "Ukraine’s energy minister says removing Russian troops and keeping troops away from the plant is the only way to make it safe.",
+          "topics": [
+            "withdrawal",
+            "safety"
+          ],
+          "kind": {
+            "label": "Opinion / judgement",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "opinion",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Herman Halushchenko",
+              "role": "Ukraine’s energy minister",
+              "country": "Ukraine",
+              "country_basis": "Stated official or institutional affiliation; citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Russian withdrawal and a demilitarized zone around Zaporizhzhia",
+            "note": ""
+          },
+          "attention": "The short body reports the lost power line and the Ukrainian energy minister’s call to remove troops; all three claims are in paragraph 2. (Paragraphs 2.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Statement in the selected article for 2022-09-05; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "“Deoccupying the plant and creating a demilitarized zone around it is the…",
+            "paragraphs": [
+              2
+            ],
+            "language": "en",
+            "paraphrase": "Ukraine’s energy minister says removing Russian troops and keeping troops away from the plant is the only way to make it safe.",
+            "supporting_sentence": "“Deoccupying the plant and creating a demilitarized zone around it is the only way to ensure nuclear safety,” he said.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "censor",
+      "label": "Censor.NET",
+      "short_label": "Censor.NET",
+      "country": "Ukraine",
+      "article": {
+        "id": "6bf41b75-20f8-4d48-8072-72a334a0dc70",
+        "title": "Last line connecting plant to energy system of Ukraine, \"Energoatom\", was disconnected at ZNPP",
+        "url": "https://censor.net/en/news/3365212/last_line_connecting_plant_to_energy_system_of_ukraine_energoatom_was_disconnected_at_znpp",
+        "publication_date": "2022-09-05",
+        "text_sha256": "06b47cdc16ec5ada36039d58b6fa5e2b07ebca69cf3b124098780ef595295635"
+      },
+      "attention": "The article reproduces Energoatom’s account of damaged lines, shelling and reactor 6 supplying the plant’s own electricity needs (P 1–5).",
+      "claims": [
+        {
+          "id": "C01",
+          "text": "Energoatom says a shelling-related fire cut the Ferosplavna line on September 5.",
+          "topics": [
+            "power",
+            "shelling"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Energoatom",
+              "role": "Ukraine’s state nuclear operator",
+              "country": "Ukraine",
+              "country_basis": "Stated official or institutional affiliation; citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Energoatom says a shelling-related fire cut the Ferosplavna line on September5.",
+            "note": ""
+          },
+          "attention": "The article reproduces Energoatom’s account of damaged lines, shelling and reactor 6 supplying the plant’s own electricity needs (P 1–5). (Paragraphs 4.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Statement in the selected article for 2022-09-05; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "It is noted that today, September 5, 2022, as a result of…",
+            "paragraphs": [
+              4
+            ],
+            "language": "en",
+            "paraphrase": "Energoatom says a shelling-related fire cut the Ferosplavna line on September5.",
+            "supporting_sentence": "It is noted that today, September 5, 2022, as a result of a fire that occurred due to shelling, the 330 kV transmission line of ZTPP – Ferosplavna was disconnected.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "The passage names the last grid connection in the larger nuclear/thermal complex; do not silently equate every named damaged line.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "C02",
+          "text": "Energoatom blames Russian forces for three days of shelling around the nuclear plant.",
+          "topics": [
+            "shelling"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Energoatom",
+              "role": "Ukraine’s state nuclear operator",
+              "country": "Ukraine",
+              "country_basis": "Stated official or institutional affiliation; citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Energoatom blames Russian forces for three days of shelling around the nuclear plant.",
+            "note": ""
+          },
+          "attention": "The article reproduces Energoatom’s account of damaged lines, shelling and reactor 6 supplying the plant’s own electricity needs (P 1–5). (Paragraphs 3.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Statement in the selected article for 2022-09-05; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "\"For the past three days, the Russian occupying forces have continued intensive…",
+            "paragraphs": [
+              3
+            ],
+            "language": "en",
+            "paraphrase": "Energoatom blames Russian forces for three days of shelling around the nuclear plant.",
+            "supporting_sentence": "\"For the past three days, the Russian occupying forces have continued intensive shelling of the area around the Zaporizhzhia NPP. As a result, the 750 kV power transmission lines (PTL) of the ZNPP – Dniprovska, the 330 kV ZTPP – Kakhovska and the 330 kV ZTPP – Melitopol power transmission lines were damaged and disconnected. Also damaged was JSC 750 /330 kV ZNPP. Other lines of the ZNPP/ZTPP node were damaged even earlier,\" the message says.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "This allegation concerns the days leading up to September 5; a different source’s September 1 allegation is not the same incident.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "C03",
+          "text": "Energoatom says reactor 6 was disconnected from the grid and is supplying the plant’s own power needs.",
+          "topics": [
+            "power"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Energoatom",
+              "role": "Ukraine’s state nuclear operator",
+              "country": "Ukraine",
+              "country_basis": "Stated official or institutional affiliation; citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Energoatom says reactor6 was disconnected from the grid and is supplying the plant’s own power needs.",
+            "note": ""
+          },
+          "attention": "The article reproduces Energoatom’s account of damaged lines, shelling and reactor 6 supplying the plant’s own electricity needs (P 1–5). (Paragraphs 5.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Statement in the selected article for 2022-09-05; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "\"This is the last line that connected the ZNPP/ZTPP node with the…",
+            "paragraphs": [
+              5
+            ],
+            "language": "en",
+            "paraphrase": "Energoatom says reactor6 was disconnected from the grid and is supplying the plant’s own power needs.",
+            "supporting_sentence": "\"This is the last line that connected the ZNPP/ZTPP node with the energy system of Ukraine! As a result, power unit No. 6 was unloaded and disconnected from the network, which now supplies the ZNPP's own needs\", - emphasized in \"Energoatom\".",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "Disconnected from the national grid does not mean the reactor or plant has no electricity at all.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "tass",
+      "label": "TASS",
+      "short_label": "TASS",
+      "country": "Russia",
+      "article": {
+        "id": "79a59d33-bde2-487b-af45-7561c1ddf3a0",
+        "title": "Energoatom controls Zaporozhye NPP as Russian specialists help with safety — expert",
+        "url": "https://tass.com/politics/1502753",
+        "publication_date": "2022-09-05",
+        "text_sha256": "cd81750556cbdef7fee14267672644e128c10499e2c4212c73dca1aa61674569"
+      },
+      "attention": "The focus is a Russian expert’s account of operational control and Russian safety assistance, with a short note on the IAEA visit (P 1–3).",
+      "claims": [
+        {
+          "id": "T01",
+          "text": "Karchaa says Ukraine’s Energoatom still controls the plant’s operations.",
+          "topics": [
+            "operations"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Renat Karchaa",
+              "role": "Russian nuclear expert accompanying the IAEA visit",
+              "country": "Russia",
+              "country_basis": "Stated official or institutional affiliation; citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Karchaa says Ukraine’s Energoatom still controls the plant’s operations.",
+            "note": ""
+          },
+          "attention": "The focus is a Russian expert’s account of operational control and Russian safety assistance, with a short note on the IAEA visit (P 1–3). (Paragraphs 2.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Statement in the selected article for 2022-09-05; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "\"The staff formally answers to the Ukrainian operator. In fact, Ukraine’s national…",
+            "paragraphs": [
+              2
+            ],
+            "language": "en",
+            "paraphrase": "Karchaa says Ukraine’s Energoatom still controls the plant’s operations.",
+            "supporting_sentence": "\"The staff formally answers to the Ukrainian operator. In fact, Ukraine’s national operator Energoatom is effectively still in control of operations. Our team [of Russian specialists] is providing assistance mainly with the plant’s safety,\" he said.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "This is a claim about staff and operating control, not a denial of Russian military presence.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "T02",
+          "text": "Karchaa says Russian specialists mainly help with the plant’s safety.",
+          "topics": [
+            "safety",
+            "withdrawal"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Renat Karchaa",
+              "role": "Russian nuclear expert accompanying the IAEA visit",
+              "country": "Russia",
+              "country_basis": "Stated official or institutional affiliation; citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Karchaa says Russian specialists mainly help with the plant’s safety.",
+            "note": ""
+          },
+          "attention": "The focus is a Russian expert’s account of operational control and Russian safety assistance, with a short note on the IAEA visit (P 1–3). (Paragraphs 2.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Statement in the selected article for 2022-09-05; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "Our team [of Russian specialists] is providing assistance mainly with the plant’s…",
+            "paragraphs": [
+              2
+            ],
+            "language": "en",
+            "paraphrase": "Karchaa says Russian specialists mainly help with the plant’s safety.",
+            "supporting_sentence": "Our team [of Russian specialists] is providing assistance mainly with the plant’s safety,\" he said.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "Saying specialists provide assistance is not the same as proving the plant is safe or explicitly opposing troop withdrawal.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "T03",
+          "text": "Grossi says the IAEA hopes to maintain a permanent presence at the plant.",
+          "topics": [
+            "iaea"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Rafael Grossi",
+              "role": "Director general of the International Atomic Energy Agency",
+              "country": "IAEA (international organization)",
+              "country_basis": "Stated official or institutional affiliation; citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Grossi says the IAEA hopes to maintain a permanent presence at the plant.",
+            "note": ""
+          },
+          "attention": "The focus is a Russian expert’s account of operational control and Russian safety assistance, with a short note on the IAEA visit (P 1–3). (Paragraphs 3.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Statement in the selected article for 2022-09-05; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "According to the Director General, they were able to get key data…",
+            "paragraphs": [
+              3
+            ],
+            "language": "en",
+            "paraphrase": "Grossi says the IAEA hopes to maintain a permanent presence at the plant.",
+            "supporting_sentence": "According to the Director General, they were able to get key data regarding the situation at the plant and are hoping to have a permanent presence at the site.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "izvestia",
+      "label": "Izvestia",
+      "short_label": "Izvestia",
+      "country": "Russia",
+      "article": {
+        "id": "a9d31c85-98dd-4262-9f40-16034f97c588",
+        "title": "Макрон назвал вывод российских войск с ЗАЭС путем к ее безопасности",
+        "url": "https://iz.ru/1390797/2022-09-05/makron-nazval-vyvod-rossiiskikh-voisk-s-zaes-putem-k-ee-bezopasnosti",
+        "publication_date": "2022-09-05",
+        "text_sha256": "6008a73c5b1f3645326ec486bff9ee7544d5c99732160689e216fd98f2787075"
+      },
+      "attention": "The opening covers Macron’s withdrawal proposal (P 1–3); later paragraphs recount the IAEA visit, Russian allegations and older August objections to withdrawal (P 4–10).",
+      "claims": [
+        {
+          "id": "I01",
+          "text": "Macron says Russian troops must leave the plant to restore its safety.",
+          "topics": [
+            "withdrawal",
+            "safety"
+          ],
+          "kind": {
+            "label": "Opinion / judgement",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "opinion",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Emmanuel Macron / Élysée Palace",
+              "role": "French president; presidency statement",
+              "country": "France",
+              "country_basis": "Stated official or institutional affiliation; citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Withdrawal of Russian troops from Zaporizhzhia plant",
+            "note": ""
+          },
+          "attention": "The opening covers Macron’s withdrawal proposal (P 1–3); later paragraphs recount the IAEA visit, Russian allegations and older August objections to withdrawal (P 4–10). (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Statement in the selected article for 2022-09-05; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "Вывод российских войск с Запорожской АЭС является «единственным способом» восстановить безопасность на…",
+            "paragraphs": [
+              1
+            ],
+            "language": "ru",
+            "paraphrase": "Macron says Russian troops must leave the plant to restore its safety.",
+            "supporting_sentence": "Вывод российских войск с Запорожской АЭС является «единственным способом» восстановить безопасность на станции, заявил 5 сентября президент Франции Эммануэль Макрон в ходе телефонного разговора с украинским коллегой Владимиром Зеленским.",
+            "english_translation": "French President Emmanuel Macron said on September 5, during a call with Zelensky, that withdrawal of Russian troops from Zaporizhzhia was the only way to restore safety at the plant.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "I02",
+          "text": "Nebenzya warned on August 11 that Russian troops leaving the plant could cause a catastrophe.",
+          "topics": [
+            "withdrawal",
+            "safety"
+          ],
+          "kind": {
+            "label": "Opinion / prediction",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "prediction",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Vasily Nebenzya",
+              "role": "Russian representative at the United Nations",
+              "country": "Russia",
+              "country_basis": "Stated official or institutional affiliation; citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Criticizes / opposes",
+            "target": "Withdrawal of Russian troops from Zaporizhzhia plant",
+            "note": ""
+          },
+          "attention": "The opening covers Macron’s withdrawal proposal (P 1–3); later paragraphs recount the IAEA visit, Russian allegations and older August objections to withdrawal (P 4–10). (Paragraphs 9.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Zaporizhzhia plant; August 11 statement quoted as background in the September 5 article.",
+          "evidence": {
+            "quote": "11 августа постоянный представитель России при Организации Объединенных Наций Василий Небензя отметил,…",
+            "paragraphs": [
+              9
+            ],
+            "language": "ru",
+            "paraphrase": "Nebenzya warned on August11 that Russian troops leaving the plant could cause a catastrophe.",
+            "supporting_sentence": "11 августа постоянный представитель России при Организации Объединенных Наций Василий Небензя отметил, что уход российских военных с объекта может обернуться катастрофой, так как Киев может использовать станцию для чудовищных провокаций.",
+            "english_translation": "On August 11, Russia’s UN representative Vasily Nebenzya said Russian military withdrawal could cause a catastrophe because Kyiv could use the station for terrible provocations.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": true,
+          "uncertainty": "An earlier Russian warning, not a verified catastrophe or a fresh September 5 statement.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "I03",
+          "text": "Nebenzya called Western demands to remove troops from the plant area irresponsible on August 23.",
+          "topics": [
+            "withdrawal",
+            "safety"
+          ],
+          "kind": {
+            "label": "Opinion / judgement",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "opinion",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Vasily Nebenzya",
+              "role": "Russian representative at the United Nations",
+              "country": "Russia",
+              "country_basis": "Stated official or institutional affiliation; citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "opposes",
+            "label": "Criticizes / opposes",
+            "target": "Demilitarizing the area around Zaporizhzhia plant",
+            "note": ""
+          },
+          "attention": "The opening covers Macron’s withdrawal proposal (P 1–3); later paragraphs recount the IAEA visit, Russian allegations and older August objections to withdrawal (P 4–10). (Paragraphs 10.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Zaporizhzhia plant; August 23 statement quoted as background.",
+          "evidence": {
+            "quote": "Позднее, 23 августа, Небензя сообщил, что ситуация с ядерной безопасностью на ЗАЭС…",
+            "paragraphs": [
+              10
+            ],
+            "language": "ru",
+            "paraphrase": "Nebenzya called Western demands to remove troops from the plant area irresponsible on August23.",
+            "supporting_sentence": "Позднее, 23 августа, Небензя сообщил, что ситуация с ядерной безопасностью на ЗАЭС деградировала. Он также назвал безответственными призывы Запада о демилитаризации зоны вокруг станции, так как в них не учитывается необходимость поддержания условий для безопасного функционирования ЗАЭС.",
+            "english_translation": "On August 23 Nebenzya said nuclear safety had worsened and called Western demilitarization appeals irresponsible because they did not account for conditions needed to operate the plant safely.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": true,
+          "uncertainty": "Historical policy position; not assumed to be a new statement on September 5.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "I04",
+          "text": "Izvestia reports allegations that Ukrainian shells landed near a reactor during the September 1 IAEA visit.",
+          "topics": [
+            "shelling"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "Izvestia article narrator",
+              "role": "Article narrative voice",
+              "country": "Russia",
+              "country_basis": "Outlet origin; individual reporter citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Izvestia reports allegations that Ukrainian shells landed near a reactor during the September1 IAEA visit.",
+            "note": ""
+          },
+          "attention": "The opening covers Macron’s withdrawal proposal (P 1–3); later paragraphs recount the IAEA visit, Russian allegations and older August objections to withdrawal (P 4–10). (Paragraphs 4.)",
+          "outlet_view": "This is the article narrator’s wording; it is not an outlet-wide policy statement.",
+          "where_when": "Zaporizhzhia plant; September 1 IAEA visit, recounted September 5.",
+          "evidence": {
+            "quote": "Миссия МАГАТЭ прибыла на территорию ЗАЭС днем 1 сентября. В день визита…",
+            "paragraphs": [
+              4
+            ],
+            "language": "ru",
+            "paraphrase": "Izvestia reports allegations that Ukrainian shells landed near a reactor during the September1 IAEA visit.",
+            "supporting_sentence": "Миссия МАГАТЭ прибыла на территорию ЗАЭС днем 1 сентября. В день визита специалистов Вооруженные силы Украины усилили боевые действия в районе станции. Сообщалось, что четыре украинских снаряда разорвались на удалении 400 м от первого энергоблока, а украинский десант попытался захватить станцию.",
+            "english_translation": "The IAEA arrived on September 1. The article says Ukrainian forces intensified fighting that day and that four Ukrainian shells exploded 400 metres from the first reactor; it also reports an attempted Ukrainian landing.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "The paragraph says it was reported but does not identify the original source for every allegation. This is September 1, not the September 5 fire described by Energoatom.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "I05",
+          "text": "Grossi says the plant’s physical integrity was damaged, without deciding whether missing elements were accidental or deliberate.",
+          "topics": [
+            "safety",
+            "iaea"
+          ],
+          "kind": {
+            "label": "Fact claim — not checked here",
+            "status": "A source statement recorded for comparison, not independently verified by this graph."
+          },
+          "claim_type": "fact_claim",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Rafael Grossi",
+              "role": "Director general of the International Atomic Energy Agency",
+              "country": "IAEA (international organization)",
+              "country_basis": "Stated official or institutional affiliation; citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Grossi says the plant’s physical integrity was damaged, without deciding whether missing elements were accidental or deliberate.",
+            "note": ""
+          },
+          "attention": "The opening covers Macron’s withdrawal proposal (P 1–3); later paragraphs recount the IAEA visit, Russian allegations and older August objections to withdrawal (P 4–10). (Paragraphs 7.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Statement in the selected article for 2022-09-05; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "Руководитель МАГАТЭ также отметил нарушение целостности Запорожской АЭС и добавил, что нельзя…",
+            "paragraphs": [
+              7
+            ],
+            "language": "ru",
+            "paraphrase": "Grossi says the plant’s physical integrity was damaged, without deciding whether missing elements were accidental or deliberate.",
+            "supporting_sentence": "Руководитель МАГАТЭ также отметил нарушение целостности Запорожской АЭС и добавил, что нельзя дать оценку, случайно отсутствуют необходимые элементы или намеренно.",
+            "english_translation": "The IAEA head also noted a breach of the Zaporizhzhia plant’s integrity and said it was impossible to assess whether necessary elements were missing accidentally or intentionally.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "Does not attribute the damage to either army.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "I06",
+          "text": "Russia’s envoy says Moscow welcomes a permanent IAEA presence at the plant.",
+          "topics": [
+            "iaea"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_source",
+          "claimants": [
+            {
+              "name": "Mikhail Ulyanov",
+              "role": "Russian representative to international organizations in Vienna",
+              "country": "Russia",
+              "country_basis": "Stated official or institutional affiliation; citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Permanent IAEA presence at Zaporizhzhia",
+            "note": ""
+          },
+          "attention": "The opening covers Macron’s withdrawal proposal (P 1–3); later paragraphs recount the IAEA visit, Russian allegations and older August objections to withdrawal (P 4–10). (Paragraphs 8.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Statement in the selected article for 2022-09-05; preserve the source’s stated event time.",
+          "evidence": {
+            "quote": "Постоянный представитель РФ при международных организациях в Вене Михаил Ульянов заявил о…",
+            "paragraphs": [
+              8
+            ],
+            "language": "ru",
+            "paraphrase": "Russia’s envoy says Moscow welcomes a permanent IAEA presence at the plant.",
+            "supporting_sentence": "Постоянный представитель РФ при международных организациях в Вене Михаил Ульянов заявил о том, что Москва приветствует постоянное присутствие членов МАГАТЭ на ЗАЭС. По его словам, это поможет развеять многочисленные спекуляции, так как никто из миссии не уполномочен давать заключения политического характера.",
+            "english_translation": "Russian envoy Mikhail Ulyanov said Moscow welcomes a permanent IAEA presence. He said this would dispel speculation because mission members are not authorized to draw political conclusions.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "E01",
+      "source": "censor",
+      "target": "kyivpost",
+      "topic": "power",
+      "relation": "supportive",
+      "color": "green",
+      "source_claim": "C01",
+      "target_claim": "KI01",
+      "label": "Names the line and explains the outage",
+      "subtype": "shared_source_detail_support",
+      "reason": "Censor.NET carries Energoatom’s more specific account. It names the Ferosplavna line and says a fire caused by shelling disconnected it on September 5. This supplies the outage mechanism for Kyiv Independent’s summary.",
+      "caveat": "Both reports rely on Energoatom. The added detail is from the same operator and provides no independent corroboration.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": true,
+      "direction": "source_to_target",
+      "direction_reason": "C01 supplies a specific part of the evidence reported in KI01. Both articles cite Energoatom.",
+      "support_scope": "The shelling-related loss of a power connection on September 5.",
+      "unsupported_parts": "Who fired the shells and whether this was the last grid connection. C03 addresses the last-connection detail separately."
+    },
+    {
+      "id": "E02",
+      "source": "censor",
+      "target": "kyivpost",
+      "topic": "power",
+      "relation": "supportive",
+      "color": "green",
+      "source_claim": "C03",
+      "target_claim": "KI01",
+      "label": "Identifies the last grid connection",
+      "subtype": "shared_source_detail_support",
+      "reason": "Censor.NET quotes Energoatom identifying the disconnected line as the last connection to Ukraine’s grid and reporting that reactor 6 then supplied the plant’s own needs. This supports the last-line part of Kyiv Independent’s summary.",
+      "caveat": "This is added detail from the same Energoatom account. Reactor 6 supplying the plant’s needs is consistent with losing the external grid connection.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": true,
+      "direction": "source_to_target",
+      "direction_reason": "C03 supplies a specific part of the evidence reported in KI01. Both articles cite Energoatom.",
+      "support_scope": "Loss of the last link between the plant complex and Ukraine’s national grid.",
+      "unsupported_parts": "Who fired the shells and whether the plant lost its own electricity supply."
+    },
+    {
+      "id": "E03",
+      "source": "kyivpost",
+      "target": "izvestia",
+      "topic": "withdrawal",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "KI03",
+      "target_claim": "I01",
+      "label": "Aligned withdrawal recommendations",
+      "subtype": "aligned_recommendations",
+      "reason": "Macron and Halushchenko both recommend Russian troop withdrawal. Their statements give aligned policy positions. Macron’s statement supplies no separate evidence that withdrawal or a demilitarized zone is the only way to ensure safety.",
+      "caveat": "The positions belong to the quoted officials. The reports do not show either statement responding to the other.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E04",
+      "source": "kyivpost",
+      "target": "izvestia",
+      "topic": "withdrawal",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "KI03",
+      "target_claim": "I02",
+      "label": "Opposite policies, different statement dates",
+      "subtype": "dated_policy_difference",
+      "reason": "The Ukrainian minister supports withdrawal; Nebenzya’s August 11 warning presents withdrawal as dangerous.",
+      "caveat": "An older conditional warning and a September 5 recommendation are not two observations of identical current conditions.",
+      "review_status": "AI-assisted proposed comparison; human review pending"
+    },
+    {
+      "id": "E05",
+      "source": "kyivpost",
+      "target": "tass",
+      "topic": "safety",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "KI03",
+      "target_claim": "T02",
+      "label": "Safety assistance versus necessary withdrawal",
+      "subtype": "scope_or_certainty_difference",
+      "reason": "Karchaa describes assistance; Halushchenko says troop withdrawal is necessary.",
+      "caveat": "Providing some safety help does not assert that the plant is safe enough without withdrawal. Do not force a logical contradiction.",
+      "review_status": "AI-assisted proposed comparison; human review pending"
+    },
+    {
+      "id": "E06",
+      "source": "censor",
+      "target": "izvestia",
+      "topic": "shelling",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "C02",
+      "target_claim": "I04",
+      "label": "Different shelling dates",
+      "subtype": "temporal_scope_difference",
+      "reason": "Energoatom blames Russian shelling in the days before September 5; Izvestia recounts allegations of Ukrainian shelling on September 1.",
+      "caveat": "Opposite blamed actors do not make these the same incident.",
+      "review_status": "AI-assisted proposed comparison; human review pending"
+    },
+    {
+      "id": "E07",
+      "source": "tass",
+      "target": "izvestia",
+      "topic": "iaea",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "T03",
+      "target_claim": "I06",
+      "label": "IAEA objective and Russia’s welcome",
+      "subtype": "aligned_inspector_positions",
+      "reason": "Grossi expresses the IAEA’s objective of a permanent presence. Ulyanov reports Russia’s welcome for that objective. His statement concerns Moscow’s position and supplies no evidence for what the IAEA intended.",
+      "caveat": "Both statements concern a possible permanent presence. They do not establish a completed deployment or plant safety.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E08",
+      "source": "kyivpost",
+      "target": "izvestia",
+      "topic": "safety",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "KI02",
+      "target_claim": "I05",
+      "label": "Different safety concerns",
+      "subtype": "scope_or_certainty_difference",
+      "reason": "One statement concerns repairs being blocked by fighting; the other concerns physical integrity and uncertainty about missing elements.",
+      "caveat": "Related risk assessments, not opposing claims.",
+      "review_status": "AI-assisted proposed comparison; human review pending"
+    }
+  ],
+  "excluded": [
+    {
+      "source": "cnn",
+      "outlet": "CNN",
+      "reason": "The selected article concerns European gas/oil supplies and economic restrictions, not the Zaporizhzhia plant event."
+    },
+    {
+      "source": "ft",
+      "outlet": "Financial Times",
+      "reason": "The selected article concerns European gas/oil supplies and economic restrictions, not the Zaporizhzhia plant event."
+    },
+    {
+      "source": "sputnik",
+      "outlet": "Sputnik",
+      "reason": "The selected article concerns European gas/oil supplies and economic restrictions, not the Zaporizhzhia plant event."
+    },
+    {
+      "source": "china_daily",
+      "outlet": "China Daily",
+      "reason": "The selected article concerns the Eastern Economic Forum and trade, not nuclear-plant safety."
+    },
+    {
+      "source": "global_times",
+      "outlet": "Global Times",
+      "reason": "The selected article concerns the Eastern Economic Forum and trade, not nuclear-plant safety."
+    },
+    {
+      "source": "europeanpravda",
+      "outlet": "European Pravda",
+      "reason": "The selected article concerns protests over support for Ukraine, not the nuclear plant."
+    }
+  ],
+  "method": {
+    "country_note": "Outlet countries describe origin. Claimant countries describe an office, organization or stated residence, not assumed citizenship.",
+    "claim_type_note": "A fact claim is a checkable statement, not a fact verified by this graph. Opinions, predictions, legal positions and promises are marked separately.",
+    "edge_note": "Green arrows point from a claim that supplies a specific detail to the claim it supports. Both arrows draw on Energoatom’s account. Grey lines compare claims without assigning a direction. None of these comparisons establishes a contradiction or an explicit rebuttal.",
+    "attention_note": "Attention is a qualitative reading of the saved article, with paragraph locators; it is not a measured share of words.",
+    "endorsement_note": "A quoted speaker’s view is separate from the article narrator’s view. No outlet-wide position is inferred from one article.",
+    "annotation_status": "AI-assisted draft; human review pending",
+    "cleaning_note": "Uses saved recovered text. Kyiv Independent later Most Popular / News Feed material is excluded; original paragraph numbers retained. FT wrapped lines are joined into logical paragraphs."
+  },
+  "within_article_relations": [
+    {
+      "outlet": "izvestia",
+      "source_claim": "I01",
+      "target_claim": "I02",
+      "topic": "withdrawal",
+      "relation": "opposed_policy_views_with_different_dates",
+      "note": "Macron’s September 5 withdrawal recommendation is presented alongside Nebenzya’s older August 11 warning. These are distinct speakers and dates, not one averaged outlet view."
+    }
+  ]
+}

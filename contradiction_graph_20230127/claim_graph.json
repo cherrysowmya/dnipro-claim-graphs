@@ -1,0 +1,1074 @@
+{
+  "schema_version": "1.1",
+  "event": {
+    "id": "polish_tank_pledge_20230127",
+    "label": "Poland’s additional tank pledge",
+    "date": "2023-01-27",
+    "description": "Four reports discuss Poland’s January 27 pledge of 60 additional tanks plus 14 Leopards. They disagree about how many of the 60 are PT-91s. The graph compares reported promises, not completed deliveries.",
+    "default_topic": "pt91_count",
+    "default_node": "censor",
+    "graph_scope": "whole_event",
+    "multigraph": true
+  },
+  "topics": [
+    {
+      "id": "total_pledge",
+      "label": "How many additional tanks?",
+      "scope_note": "The 60-tank pledge is separate from the previously announced 14 Leopards; a pledge is not a confirmed delivery."
+    },
+    {
+      "id": "pt91_count",
+      "label": "How many are PT-91 models?",
+      "scope_note": "Sixty tanks in total and sixty PT-91 tanks are different propositions. Red records incompatible model counts for the reported pledge, without choosing the correct figure."
+    },
+    {
+      "id": "leopards",
+      "label": "What about the 14 Leopards?",
+      "scope_note": "These are additional to the 60-tank package and were pledged earlier; the articles do not say all tanks have already arrived."
+    },
+    {
+      "id": "support",
+      "label": "Should aid continue?",
+      "scope_note": "Quoted support belongs to the named official, not automatically to the reporting outlet."
+    },
+    {
+      "id": "deployment",
+      "label": "How quickly could they help?",
+      "scope_note": "An assessment of familiar Polish tanks is different from delivery forecasts for new Western models."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "kyivpost",
+      "label": "Kyiv Independent",
+      "short_label": "Kyiv Ind.",
+      "country": "Ukraine",
+      "article": {
+        "id": "217a76d3-a8fe-4f2d-b3f7-ef034eb849d7",
+        "title": "President's Office: Poland to deliver 60 modernized tanks to Ukraine",
+        "url": "https://kyivindependent.com/presidents-office-poland-to-deliver-60-pt-91-twardy-tanks-to-ukraine/",
+        "publication_date": "2023-01-27",
+        "text_sha256": "e71d71152260b8def33e3c2fabef1e9b00c6d0414e73818f8f82946a3b12d471"
+      },
+      "attention": "P1–3 describe the pledge and distinguish the total from PT-91 numbers. P4–8 give model and aid background; P9 argues the familiar models could be used quickly.",
+      "claims": [
+        {
+          "id": "KI01",
+          "text": "Yermak says Poland will send 60 more updated tanks, including PT-91s.",
+          "topics": [
+            "total_pledge"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "reported_ukrainian_official",
+          "claimants": [
+            {
+              "name": "Andrii Yermak (Andrey Yermak in Russian text)",
+              "role": "Head of the Ukrainian president’s office",
+              "country": "Ukraine",
+              "country_basis": "Explicit Ukrainian government institution."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "The 60-tank Polish pledge",
+            "note": ""
+          },
+          "attention": "P1–3 describe the pledge and distinguish the total from PT-91 numbers. P4–8 give model and aid background; P9 argues the familiar models could be used quickly. (Paragraphs 1.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Yermak’s January 27 Telegram statement; promised future delivery.",
+          "evidence": {
+            "quote": "Poland will deliver 60 modernised tanks to Ukraine in the near future,…",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "Yermak says Poland will send 60 more updated tanks, including PT-91s.",
+            "supporting_sentence": "Poland will deliver 60 modernised tanks to Ukraine in the near future, including locally-made PT-91 Twardy models, Ukrainian presidential office head Andrii Yermak wrote on Telegram on Jan. 27.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "The number is a promise, not an observation of delivered tanks. This sentence does not say all 60 are PT-91s.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "KI02",
+          "text": "The article says these 60 tanks are in addition to 14 Leopards promised earlier.",
+          "topics": [
+            "leopards"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "Kyiv Independent article narrator",
+              "role": "Article narrative voice",
+              "country": "Ukraine",
+              "country_basis": "Outlet origin; individual reporter citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "The article says these 60 tanks are in addition to 14 Leopards promised earlier.",
+            "note": ""
+          },
+          "attention": "P1–3 describe the pledge and distinguish the total from PT-91 numbers. P4–8 give model and aid background; P9 argues the familiar models could be used quickly. (Paragraphs 2.)",
+          "outlet_view": "This is the article narrator’s wording; it is not an outlet-wide policy statement.",
+          "where_when": "Poland’s January 27 package compared with its January 11 Leopard pledge.",
+          "evidence": {
+            "quote": "The tanks will be delivered on top of the fourteen German-built Leopard…",
+            "paragraphs": [
+              2
+            ],
+            "language": "en",
+            "paraphrase": "The article says these 60 tanks are in addition to 14 Leopards promised earlier.",
+            "supporting_sentence": "The tanks will be delivered on top of the fourteen German-built Leopard 2 tanks that Warsaw pledged to Ukraine on Jan. 11, the transfer of which was only recently officially approved by Berlin.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "Narrator explains the relationship between the packages; no actual arrival date is established.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "KI03",
+          "text": "Morawiecki says 30 of the 60 tanks would be PT-91s.",
+          "topics": [
+            "pt91_count"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_polish_official",
+          "claimants": [
+            {
+              "name": "Mateusz Morawiecki",
+              "role": "Prime Minister of Poland, quoted from a CTV interview or relayed account",
+              "country": "Poland",
+              "country_basis": "Explicit Polish state office; no citizenship inference."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "PT-91 count within the Polish pledge",
+            "note": ""
+          },
+          "attention": "P1–3 describe the pledge and distinguish the total from PT-91 numbers. P4–8 give model and aid background; P9 argues the familiar models could be used quickly. (Paragraphs 3.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Poland’s January 27, 2023 additional tank pledge; delivery still prospective.",
+          "evidence": {
+            "quote": "In an interview with Canadian television channel CTV news, Polish Prime Minister…",
+            "paragraphs": [
+              3
+            ],
+            "language": "en",
+            "paraphrase": "Morawiecki says 30 of the 60 tanks would be PT-91s.",
+            "supporting_sentence": "In an interview with Canadian television channel CTV news, Polish Prime Minister Mateusz Morawiecki said that 30 of the tanks would be PT-91 Twardy models, with the remainder understood to be upgraded Soviet-built T-72 tank.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "The article says the rest are understood to be upgraded T-72s; it does not present completed deliveries.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "KI04",
+          "text": "The article argues the familiar Polish tanks would need little training or transport time.",
+          "topics": [
+            "deployment"
+          ],
+          "kind": {
+            "label": "Opinion / assessment",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "assessment",
+          "source_type": "outlet_narrator",
+          "claimants": [
+            {
+              "name": "Kyiv Independent article narrator",
+              "role": "Article narrative voice",
+              "country": "Ukraine",
+              "country_basis": "Outlet origin; individual reporter citizenship not inferred."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Speed of using the promised Polish tanks",
+            "note": ""
+          },
+          "attention": "P1–3 describe the pledge and distinguish the total from PT-91 numbers. P4–8 give model and aid background; P9 argues the familiar models could be used quickly. (Paragraphs 9.)",
+          "outlet_view": "This is the article narrator’s wording; it is not an outlet-wide policy statement.",
+          "where_when": "Prospective comparison with new Western tank models.",
+          "evidence": {
+            "quote": "Unlike these new Western tanks, the Polish Twardy tanks come with the…",
+            "paragraphs": [
+              9
+            ],
+            "language": "en",
+            "paraphrase": "The article argues the familiar Polish tanks would need little training or transport time.",
+            "supporting_sentence": "Unlike these new Western tanks, the Polish Twardy tanks come with the advantage of needing very little time for transport and training, allowing them to swiftly boost the armored muscle of Ukrainian units in the field.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "This is the article’s assessment, not a verified delivery timetable or a recommendation to send every tank model.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "europeanpravda",
+      "label": "European Pravda",
+      "short_label": "E. Pravda",
+      "country": "Ukraine",
+      "article": {
+        "id": "123c4a03-2797-437e-9f15-e27a68b15a4f",
+        "title": "Poland Plans to Send Ukraine Another 60 Tanks in Addition to Leopard 2",
+        "url": "https://www.eurointegration.com.ua/eng/news/2023/01/27/7154984/",
+        "publication_date": "2023-01-27",
+        "text_sha256": "4121948ec3d9f18bff749f50545c10f998e282f57b14909f725f8acc16607734"
+      },
+      "attention": "P2–4 set out the pledge and the 30 PT-91 count. Much of P5–8 presents Morawiecki’s argument for further support; P9–10 add model and prior-delivery background.",
+      "claims": [
+        {
+          "id": "EP01",
+          "text": "Morawiecki says Poland is ready to send 60 more updated tanks.",
+          "topics": [
+            "total_pledge"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_polish_official",
+          "claimants": [
+            {
+              "name": "Mateusz Morawiecki",
+              "role": "Prime Minister of Poland, quoted from a CTV interview or relayed account",
+              "country": "Poland",
+              "country_basis": "Explicit Polish state office; no citizenship inference."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Poland sending the promised additional tanks",
+            "note": ""
+          },
+          "attention": "P2–4 set out the pledge and the 30 PT-91 count. Much of P5–8 presents Morawiecki’s argument for further support; P9–10 add model and prior-delivery background. (Paragraphs 4.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Poland’s January 27, 2023 additional tank pledge; delivery still prospective.",
+          "evidence": {
+            "quote": "\"Poland sent 250 tanks as the first country half a year ago…",
+            "paragraphs": [
+              4
+            ],
+            "language": "en",
+            "paraphrase": "Morawiecki says Poland is ready to send 60 more updated tanks.",
+            "supporting_sentence": "\"Poland sent 250 tanks as the first country half a year ago or even more than that. Right now, we are ready to send 60 of our modernised tanks, 30 of them PT-91. And on top of those tanks, 14 tanks, Leopard 2 tanks, from our possession,\" said Mateusz Morawiecki, Prime Minister of Poland, in an interview with the Canadian outlet CTV News",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "EP02",
+          "text": "Morawiecki says 30 of those 60 tanks are PT-91s.",
+          "topics": [
+            "pt91_count"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_polish_official",
+          "claimants": [
+            {
+              "name": "Mateusz Morawiecki",
+              "role": "Prime Minister of Poland, quoted from a CTV interview or relayed account",
+              "country": "Poland",
+              "country_basis": "Explicit Polish state office; no citizenship inference."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "PT-91 count within the Polish pledge",
+            "note": ""
+          },
+          "attention": "P2–4 set out the pledge and the 30 PT-91 count. Much of P5–8 presents Morawiecki’s argument for further support; P9–10 add model and prior-delivery background. (Paragraphs 4.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Poland’s January 27, 2023 additional tank pledge; delivery still prospective.",
+          "evidence": {
+            "quote": "\"Poland sent 250 tanks as the first country half a year ago…",
+            "paragraphs": [
+              4
+            ],
+            "language": "en",
+            "paraphrase": "Morawiecki says 30 of those 60 tanks are PT-91s.",
+            "supporting_sentence": "\"Poland sent 250 tanks as the first country half a year ago or even more than that. Right now, we are ready to send 60 of our modernised tanks, 30 of them PT-91. And on top of those tanks, 14 tanks, Leopard 2 tanks, from our possession,\" said Mateusz Morawiecki, Prime Minister of Poland, in an interview with the Canadian outlet CTV News",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "EP03",
+          "text": "Morawiecki says 14 Leopards will be sent on top of the other tanks.",
+          "topics": [
+            "leopards"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_polish_official",
+          "claimants": [
+            {
+              "name": "Mateusz Morawiecki",
+              "role": "Prime Minister of Poland, quoted from a CTV interview or relayed account",
+              "country": "Poland",
+              "country_basis": "Explicit Polish state office; no citizenship inference."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Poland adding 14 Leopards to its support",
+            "note": ""
+          },
+          "attention": "P2–4 set out the pledge and the 30 PT-91 count. Much of P5–8 presents Morawiecki’s argument for further support; P9–10 add model and prior-delivery background. (Paragraphs 4.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Poland’s January 27, 2023 additional tank pledge; delivery still prospective.",
+          "evidence": {
+            "quote": "\"Poland sent 250 tanks as the first country half a year ago…",
+            "paragraphs": [
+              4
+            ],
+            "language": "en",
+            "paraphrase": "Morawiecki says 14 Leopards will be sent on top of the other tanks.",
+            "supporting_sentence": "\"Poland sent 250 tanks as the first country half a year ago or even more than that. Right now, we are ready to send 60 of our modernised tanks, 30 of them PT-91. And on top of those tanks, 14 tanks, Leopard 2 tanks, from our possession,\" said Mateusz Morawiecki, Prime Minister of Poland, in an interview with the Canadian outlet CTV News",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "EP04",
+          "text": "Morawiecki argues allies must give Ukraine strong support so it can survive.",
+          "topics": [
+            "support"
+          ],
+          "kind": {
+            "label": "Opinion / judgement",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "opinion",
+          "source_type": "quoted_or_reported_polish_official",
+          "claimants": [
+            {
+              "name": "Mateusz Morawiecki",
+              "role": "Prime Minister of Poland, quoted from a CTV interview or relayed account",
+              "country": "Poland",
+              "country_basis": "Explicit Polish state office; no citizenship inference."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Continued substantial military support for Ukraine",
+            "note": ""
+          },
+          "attention": "P2–4 set out the pledge and the 30 PT-91 count. Much of P5–8 presents Morawiecki’s argument for further support; P9–10 add model and prior-delivery background. (Paragraphs 5.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Poland’s January 27, 2023 additional tank pledge; delivery still prospective.",
+          "evidence": {
+            "quote": "He has pointed out that Russia might have thousands of tanks -…",
+            "paragraphs": [
+              5
+            ],
+            "language": "en",
+            "paraphrase": "Morawiecki argues allies must give Ukraine strong support so it can survive.",
+            "supporting_sentence": "He has pointed out that Russia might have thousands of tanks - \"several thousands, or some say even more than 15,000, of the tanks in their stores\", and if the allies truly want to help Ukraine survive, their support should be significant.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "censor",
+      "label": "Censor.NET",
+      "short_label": "Censor.NET",
+      "country": "Ukraine",
+      "article": {
+        "id": "8303d460-8eda-4031-b196-d79c66e9513f",
+        "title": "Poland is now ready to hand over 60 PT-91 and 14 Leopard-2 tanks to Ukraine, - Morawiecki",
+        "url": "https://censor.net/en/news/3396035/poland_is_now_ready_to_hand_over_60_pt91_and_14_leopard2_tanks_to_ukraine_morawiecki",
+        "publication_date": "2023-01-27",
+        "text_sha256": "b41ef946897aadb00ebdfb7e033172f414abc97af7af920125e3241eac97b868"
+      },
+      "attention": "All five paragraphs concern the Polish pledge and Morawiecki’s reasons for support. P1 and P3 call all 60 tanks PT-91s; this wording is preserved.",
+      "claims": [
+        {
+          "id": "C01",
+          "text": "Censor quotes Morawiecki as promising 60 PT-91 tanks, not just 60 tanks of mixed models.",
+          "topics": [
+            "total_pledge",
+            "pt91_count"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_polish_official",
+          "claimants": [
+            {
+              "name": "Mateusz Morawiecki",
+              "role": "Prime Minister of Poland, quoted from a CTV interview or relayed account",
+              "country": "Poland",
+              "country_basis": "Explicit Polish state office; no citizenship inference."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "The reported Polish tank pledge",
+            "note": ""
+          },
+          "attention": "All five paragraphs concern the Polish pledge and Morawiecki’s reasons for support. P1 and P3 call all 60 tanks PT-91s; this wording is preserved. (Paragraphs 3.)",
+          "outlet_view": "Censor presents the 60-PT-91 figure both in the lead and in the quoted statement, attributed to Morawiecki via Ukrinform. It is not silently corrected to 30 here.",
+          "where_when": "Poland’s January 27, 2023 additional tank pledge; delivery still prospective.",
+          "evidence": {
+            "quote": "\"Poland was the first country to deliver 250 tanks (to Ukraine. -…",
+            "paragraphs": [
+              3
+            ],
+            "language": "en",
+            "paraphrase": "Censor quotes Morawiecki as promising 60 PT-91 tanks, not just 60 tanks of mixed models.",
+            "supporting_sentence": "\"Poland was the first country to deliver 250 tanks (to Ukraine. - Ed.) Now we are ready to send 60 of our modernized PT-91 tanks, as well as 14 Leopard 2 tanks,\" he said.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "This is incompatible with the 30-PT-91 wording elsewhere if the same pledge is meant. The graph does not independently establish the correct count.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "C02",
+          "text": "Censor quotes Morawiecki promising 14 Leopards alongside the PT-91 tanks.",
+          "topics": [
+            "leopards"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_polish_official",
+          "claimants": [
+            {
+              "name": "Mateusz Morawiecki",
+              "role": "Prime Minister of Poland, quoted from a CTV interview or relayed account",
+              "country": "Poland",
+              "country_basis": "Explicit Polish state office; no citizenship inference."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Poland sending the previously named 14 Leopards",
+            "note": ""
+          },
+          "attention": "All five paragraphs concern the Polish pledge and Morawiecki’s reasons for support. P1 and P3 call all 60 tanks PT-91s; this wording is preserved. (Paragraphs 3.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Poland’s January 27, 2023 additional tank pledge; delivery still prospective.",
+          "evidence": {
+            "quote": "\"Poland was the first country to deliver 250 tanks (to Ukraine. -…",
+            "paragraphs": [
+              3
+            ],
+            "language": "en",
+            "paraphrase": "Censor quotes Morawiecki promising 14 Leopards alongside the PT-91 tanks.",
+            "supporting_sentence": "\"Poland was the first country to deliver 250 tanks (to Ukraine. - Ed.) Now we are ready to send 60 of our modernized PT-91 tanks, as well as 14 Leopard 2 tanks,\" he said.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "C03",
+          "text": "Morawiecki says allies should keep giving Ukraine strong support to prevent its defeat.",
+          "topics": [
+            "support"
+          ],
+          "kind": {
+            "label": "Opinion / judgement",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "opinion",
+          "source_type": "quoted_or_reported_polish_official",
+          "claimants": [
+            {
+              "name": "Mateusz Morawiecki",
+              "role": "Prime Minister of Poland, quoted from a CTV interview or relayed account",
+              "country": "Poland",
+              "country_basis": "Explicit Polish state office; no citizenship inference."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Continued substantial military support for Ukraine",
+            "note": ""
+          },
+          "attention": "All five paragraphs concern the Polish pledge and Morawiecki’s reasons for support. P1 and P3 call all 60 tanks PT-91s; this wording is preserved. (Paragraphs 5.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Poland’s January 27, 2023 additional tank pledge; delivery still prospective.",
+          "evidence": {
+            "quote": "\"If we don't want Ukraine to lose, we have to be very…",
+            "paragraphs": [
+              5
+            ],
+            "language": "en",
+            "paraphrase": "Morawiecki says allies should keep giving Ukraine strong support to prevent its defeat.",
+            "supporting_sentence": "\"If we don't want Ukraine to lose, we have to be very open and persistent in our support,\" the head of the Polish government added.",
+            "english_translation": null,
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    },
+    {
+      "id": "izvestia",
+      "label": "Izvestia",
+      "short_label": "Izvestia",
+      "country": "Russia",
+      "article": {
+        "id": "9f192e92-f232-408a-aea5-9637a4c83d71",
+        "title": "В Киеве заявили о грядущей поставке 60 танков PT-91 Twardy из Польши",
+        "url": "https://iz.ru/1461018/2023-01-27/v-kieve-zaiavili-o-griadushchei-postavke-60-tankov-pt-91-twardy-iz-polshi",
+        "publication_date": "2023-01-27",
+        "text_sha256": "d03f408624886370eb0d18d26f7bb12063c23fe02fb7cb061323e7f44c8767e2"
+      },
+      "attention": "The first five paragraphs report the Polish package but give two different PT-91 counts to different speakers. P6–11 widen to Western tank policy and Russian background claims; P12 is promotional.",
+      "claims": [
+        {
+          "id": "I01",
+          "text": "Izvestia quotes Yermak saying Poland will send 60 PT-91s plus 14 Leopards.",
+          "topics": [
+            "pt91_count",
+            "total_pledge",
+            "leopards"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_ukrainian_official",
+          "claimants": [
+            {
+              "name": "Andrii Yermak (Andrey Yermak in Russian text)",
+              "role": "Head of the Ukrainian president’s office",
+              "country": "Ukraine",
+              "country_basis": "Explicit Ukrainian government institution."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "Reported quantities in Poland’s pledge",
+            "note": ""
+          },
+          "attention": "The first five paragraphs report the Polish package but give two different PT-91 counts to different speakers. P6–11 widen to Western tank policy and Russian background claims; P12 is promotional. (Paragraphs 2.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Yermak’s January 27 statement as quoted by Izvestia.",
+          "evidence": {
+            "quote": "«Польша отправит на Украину 60 танков PT-91 Twardy вместе с ранее анонсированными…",
+            "paragraphs": [
+              2
+            ],
+            "language": "ru",
+            "paraphrase": "Izvestia quotes Yermak saying Poland will send 60 PT-91s plus 14 Leopards.",
+            "supporting_sentence": "«Польша отправит на Украину 60 танков PT-91 Twardy вместе с ранее анонсированными 14 танками Leopard 2», — написал он в своем Telegram-канале.",
+            "english_translation": "“Poland will send Ukraine 60 PT-91 Twardy tanks together with the previously announced 14 Leopard 2 tanks,” he wrote on his Telegram channel.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "Later in this same article Morawiecki is quoted saying only 30 of the 60 are PT-91s. Both are preserved, not averaged.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "I02",
+          "text": "Izvestia quotes Morawiecki saying 30 of the 60 updated tanks are PT-91s.",
+          "topics": [
+            "pt91_count",
+            "total_pledge"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_polish_official",
+          "claimants": [
+            {
+              "name": "Mateusz Morawiecki",
+              "role": "Prime Minister of Poland, quoted from a CTV interview or relayed account",
+              "country": "Poland",
+              "country_basis": "Explicit Polish state office; no citizenship inference."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "PT-91 count within the Polish pledge",
+            "note": ""
+          },
+          "attention": "The first five paragraphs report the Polish package but give two different PT-91 counts to different speakers. P6–11 widen to Western tank policy and Russian background claims; P12 is promotional. (Paragraphs 5.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Poland’s January 27, 2023 additional tank pledge; delivery still prospective.",
+          "evidence": {
+            "quote": "«В настоящее время мы готовы отправить 60 наших модернизированных танков, из них…",
+            "paragraphs": [
+              5
+            ],
+            "language": "ru",
+            "paraphrase": "Izvestia quotes Morawiecki saying 30 of the 60 updated tanks are PT-91s.",
+            "supporting_sentence": "«В настоящее время мы готовы отправить 60 наших модернизированных танков, из них — 30 ПТ-91», — сказал Моравецкий, отметив, что Польша старается быть примером для других стран в поставках оружия Украине.",
+            "english_translation": "“At present we are ready to send 60 of our modernized tanks, of which 30 are PT-91s,” Morawiecki said, noting that Poland tries to set an example for other countries in supplying weapons to Ukraine.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "This differs from the 60-PT-91 claim attributed to Yermak in P2 of the same article.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "I03",
+          "text": "Izvestia says Morawiecki’s pledge includes 14 Leopards in addition to 30 PT-91s.",
+          "topics": [
+            "leopards"
+          ],
+          "kind": {
+            "label": "Reported promise or intention",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "quoted_or_reported_polish_official",
+          "claimants": [
+            {
+              "name": "Mateusz Morawiecki",
+              "role": "Prime Minister of Poland, quoted from a CTV interview or relayed account",
+              "country": "Poland",
+              "country_basis": "Explicit Polish state office; no citizenship inference."
+            }
+          ],
+          "stance": {
+            "value": "not_stated",
+            "label": "Not stated",
+            "target": "The 14 Leopards in the reported Polish package",
+            "note": ""
+          },
+          "attention": "The first five paragraphs report the Polish package but give two different PT-91 counts to different speakers. P6–11 widen to Western tank policy and Russian background claims; P12 is promotional. (Paragraphs 4.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Poland’s January 27, 2023 additional tank pledge; delivery still prospective.",
+          "evidence": {
+            "quote": "В этот же день премьер-министр Польши Матеуш Моравецкий со своей стороны заявил,…",
+            "paragraphs": [
+              4
+            ],
+            "language": "ru",
+            "paraphrase": "Izvestia says Morawiecki’s pledge includes 14 Leopards in addition to 30 PT-91s.",
+            "supporting_sentence": "В этот же день премьер-министр Польши Матеуш Моравецкий со своей стороны заявил, что помимо 14 танков Leopard 2 Варшава также предоставит Киеву 30 танков PT-91.",
+            "english_translation": "That same day, Polish Prime Minister Mateusz Morawiecki said for his part that, in addition to 14 Leopard 2 tanks, Warsaw would also provide Kyiv with 30 PT-91 tanks.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "",
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "I04",
+          "text": "Yermak thanks Ukraine’s allies for their military help.",
+          "topics": [
+            "support"
+          ],
+          "kind": {
+            "label": "Opinion / judgement",
+            "status": "A judgement, legal position, prediction or intention, not proof of a completed outcome."
+          },
+          "claim_type": "opinion",
+          "source_type": "reported_ukrainian_official",
+          "claimants": [
+            {
+              "name": "Andrii Yermak (Andrey Yermak in Russian text)",
+              "role": "Head of the Ukrainian president’s office",
+              "country": "Ukraine",
+              "country_basis": "Explicit Ukrainian government institution."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports",
+            "target": "Military support for Ukraine, including the Polish pledge",
+            "note": ""
+          },
+          "attention": "The first five paragraphs report the Polish package but give two different PT-91 counts to different speakers. P6–11 widen to Western tank policy and Russian background claims; P12 is promotional. (Paragraphs 3.)",
+          "outlet_view": "The article reports this source’s claim. Quoting it does not by itself show agreement by the outlet.",
+          "where_when": "Yermak’s reaction reported January 27.",
+          "evidence": {
+            "quote": "Ермак также поблагодарил союзников Украины за предоставляемую военную помощь.",
+            "paragraphs": [
+              3
+            ],
+            "language": "ru",
+            "paraphrase": "Yermak thanks Ukraine’s allies for their military help.",
+            "supporting_sentence": "Ермак также поблагодарил союзников Украины за предоставляемую военную помощь.",
+            "english_translation": "Yermak also thanked Ukraine’s allies for the military assistance they were providing.",
+            "source_basis": "Saved recovered article text in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "uncertainty": "His thanks are not the same as Izvestia taking a policy position or a promise of more support.",
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "E01",
+      "source": "europeanpravda",
+      "target": "kyivpost",
+      "topic": "total_pledge",
+      "relation": "supportive",
+      "color": "green",
+      "source_claim": "EP01",
+      "target_claim": "KI01",
+      "label": "Morawiecki’s breakdown supports the broader package account",
+      "subtype": "specified_partial_support",
+      "reason": "European Pravda quotes Morawiecki specifying 60 modernised tanks, with 30 PT-91s. That first-person breakdown supports the package described more broadly in Kyiv Independent’s account attributed to Yermak.",
+      "caveat": "Both officials discuss the same planned package. The arrow compares the detailed pledge with the broader description.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": true,
+      "direction": "source_to_target",
+      "support_scope": "The pledged total of 60 and the inclusion of PT-91 models in KI01.",
+      "direction_reason": "EP01 supplies the specified support for KI01.",
+      "unsupported_parts": "A completed delivery, the final model mix, or the exact words used by Yermak."
+    },
+    {
+      "id": "E02",
+      "source": "europeanpravda",
+      "target": "izvestia",
+      "topic": "total_pledge",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "EP01",
+      "target_claim": "I02",
+      "label": "Same total package",
+      "subtype": "repeated_source_position",
+      "reason": "Both quote Morawiecki’s 60-tank total. These reports rely on the same original statement.",
+      "caveat": "This repeats a reported Polish promise, not two independent shipment counts.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E03",
+      "source": "europeanpravda",
+      "target": "kyivpost",
+      "topic": "pt91_count",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "EP02",
+      "target_claim": "KI03",
+      "label": "Same 30-PT-91 figure",
+      "subtype": "repeated_source_position",
+      "reason": "Both report Morawiecki specifying that 30 of the 60 tanks are PT-91s. These reports rely on the same original statement.",
+      "caveat": "Both reports use Morawiecki’s statement about the planned package. The comparison provides no separate delivery evidence.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E04",
+      "source": "europeanpravda",
+      "target": "izvestia",
+      "topic": "pt91_count",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "EP02",
+      "target_claim": "I02",
+      "label": "Same model breakdown",
+      "subtype": "repeated_source_position",
+      "reason": "The English and Russian articles report the same 30-of-60 model breakdown. These reports rely on the same original statement.",
+      "caveat": "Both reports use Morawiecki’s statement about the planned package. The comparison provides no separate delivery evidence.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E05",
+      "source": "censor",
+      "target": "izvestia",
+      "topic": "pt91_count",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "C01",
+      "target_claim": "I01",
+      "label": "Both print 60 PT-91s",
+      "subtype": "repeated_source_position",
+      "reason": "Censor’s Morawiecki quote and Izvestia’s Yermak quote both call all 60 tanks PT-91s. These reports rely on the same original statement.",
+      "caveat": "This is agreement in the printed claim, not confirmation that it is correct. Izvestia also carries a different count from Morawiecki.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E06",
+      "source": "censor",
+      "target": "europeanpravda",
+      "topic": "pt91_count",
+      "relation": "contradiction",
+      "color": "red",
+      "source_claim": "C01",
+      "target_claim": "EP02",
+      "label": "60 PT-91s versus 30",
+      "subtype": "opposed_reported_pledge_figures",
+      "reason": "Censor quotes 60 PT-91s; European Pravda quotes Morawiecki saying 30 of the 60 tanks are PT-91s.",
+      "caveat": "Both appear to concern the same January 27 pledge. Red marks incompatible reported model counts, not proof of which quote is accurate or what was eventually delivered.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected",
+      "confirmation_status": "proposed",
+      "direction_reason": "The passages present conflicting claims or assessments. Neither explicitly rebuts the matching claim in the other report."
+    },
+    {
+      "id": "E07",
+      "source": "censor",
+      "target": "kyivpost",
+      "topic": "pt91_count",
+      "relation": "contradiction",
+      "color": "red",
+      "source_claim": "C01",
+      "target_claim": "KI03",
+      "label": "Same pledge, different model count",
+      "subtype": "opposed_reported_pledge_figures",
+      "reason": "Censor reports 60 PT-91s while Kyiv Independent reports 30 PT-91s within 60 total tanks.",
+      "caveat": "The discrepancy concerns the printed statements, not a verified inventory of delivered tanks.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected",
+      "confirmation_status": "proposed",
+      "direction_reason": "The passages present conflicting claims or assessments. Neither explicitly rebuts the matching claim in the other report."
+    },
+    {
+      "id": "E08",
+      "source": "izvestia",
+      "target": "europeanpravda",
+      "topic": "pt91_count",
+      "relation": "contradiction",
+      "color": "red",
+      "source_claim": "I01",
+      "target_claim": "EP02",
+      "label": "Yermak’s 60 versus the PM’s 30",
+      "subtype": "opposed_reported_pledge_figures",
+      "reason": "Izvestia quotes Yermak saying 60 PT-91s; European Pravda quotes the prime minister specifying 30 PT-91s.",
+      "caveat": "Different speakers may be relaying or rendering the package differently. Izvestia itself also quotes the prime minister’s 30-PT-91 figure.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected",
+      "confirmation_status": "proposed",
+      "direction_reason": "The passages present conflicting claims or assessments. Neither explicitly rebuts the matching claim in the other report."
+    },
+    {
+      "id": "E09",
+      "source": "censor",
+      "target": "europeanpravda",
+      "topic": "leopards",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "C02",
+      "target_claim": "EP03",
+      "label": "Same 14 Leopards",
+      "subtype": "repeated_source_position",
+      "reason": "Both quotes include 14 Leopards alongside the additional tank package. These reports rely on the same original statement.",
+      "caveat": "Both reports use Morawiecki’s statement about the planned package. The comparison provides no separate delivery evidence.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E10",
+      "source": "kyivpost",
+      "target": "izvestia",
+      "topic": "leopards",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "KI02",
+      "target_claim": "I03",
+      "label": "Same separate Leopard pledge",
+      "subtype": "repeated_source_position",
+      "reason": "Both identify 14 Leopards in addition to the other tanks. These reports rely on the same original statement.",
+      "caveat": "Matching package structure is not a completed delivery and does not resolve the separate PT-91 count dispute.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E11",
+      "source": "censor",
+      "target": "europeanpravda",
+      "topic": "support",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "C03",
+      "target_claim": "EP04",
+      "label": "Same call for continued support",
+      "subtype": "repeated_source_position",
+      "reason": "Both report Morawiecki arguing that allies must keep supporting Ukraine. These reports rely on the same original statement.",
+      "caveat": "The supportive view belongs to Morawiecki. It does not make every outlet’s narrator pro-Ukrainian.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E12",
+      "source": "europeanpravda",
+      "target": "izvestia",
+      "topic": "support",
+      "relation": "neutral",
+      "color": "grey",
+      "source_claim": "EP04",
+      "target_claim": "I04",
+      "label": "Call for help versus thanks",
+      "subtype": "compatible_different_speech_acts",
+      "reason": "Morawiecki urges continued assistance; Yermak thanks allies for help already announced.",
+      "caveat": "Both are supportive, but the speaker and action differ: a recommendation is not the same proposition as gratitude.",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "directed": false,
+      "direction": "undirected"
+    },
+    {
+      "id": "E13",
+      "source": "censor",
+      "target": "izvestia",
+      "topic": "pt91_count",
+      "source_claim": "C01",
+      "target_claim": "I02",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "relation": "contradiction",
+      "color": "red",
+      "directed": false,
+      "direction": "undirected",
+      "confirmation_status": "proposed",
+      "direction_reason": "The passages present conflicting claims or assessments. Neither explicitly rebuts the matching claim in the other report.",
+      "label": "Censor’s 60 PT-91s versus Izvestia’s 30",
+      "reason": "Censor.NET quotes Morawiecki offering 60 PT-91s. Izvestia quotes the same prime minister specifying 30 PT-91s among 60 tanks.",
+      "caveat": "The proposed conflict concerns the printed counts for the January 27 pledge. The accurate wording and package composition require review.",
+      "subtype": "opposed_reported_pledge_figures"
+    },
+    {
+      "id": "E14",
+      "source": "izvestia",
+      "target": "kyivpost",
+      "topic": "pt91_count",
+      "source_claim": "I01",
+      "target_claim": "KI03",
+      "review_status": "AI-assisted proposed comparison; human review pending",
+      "relation": "contradiction",
+      "color": "red",
+      "directed": false,
+      "direction": "undirected",
+      "confirmation_status": "proposed",
+      "direction_reason": "The passages present conflicting claims or assessments. Neither explicitly rebuts the matching claim in the other report.",
+      "label": "Izvestia’s Yermak quotation versus the 30-tank account",
+      "reason": "Izvestia quotes Yermak specifying 60 PT-91s. Kyiv Independent reports Morawiecki specifying 30 PT-91s within the same total of 60 tanks.",
+      "caveat": "The reports attribute the figures to different speakers. Izvestia also prints Morawiecki’s 30-PT-91 figure.",
+      "subtype": "opposed_reported_pledge_figures"
+    }
+  ],
+  "excluded": [
+    {
+      "source": "cnn",
+      "outlet": "CNN",
+      "reason": "General training, repair and delivery issues for Western tanks; no claim about the additional 60 Polish tanks or their PT-91 breakdown."
+    },
+    {
+      "source": "ft",
+      "outlet": "Financial Times",
+      "reason": "Cultural heritage and jewelry, unrelated to this tank pledge."
+    },
+    {
+      "source": "tass",
+      "outlet": "TASS",
+      "reason": "A Kremlin response to US and Western tank policy generally, not Poland’s additional 60-tank announcement."
+    },
+    {
+      "source": "sputnik",
+      "outlet": "Sputnik",
+      "reason": "A radio-show synopsis about US Abrams tanks, without substantive analysis of Poland’s additional package."
+    },
+    {
+      "source": "china_daily",
+      "outlet": "China Daily",
+      "reason": "US and German tank commitments and Russian reactions, not the additional Polish package."
+    },
+    {
+      "source": "global_times",
+      "outlet": "Global Times",
+      "reason": "European political divisions over US/German tank aid, not the specific Polish pledge."
+    }
+  ],
+  "method": {
+    "country_note": "Outlet countries describe origin. Claimant countries describe an office, organization or stated residence, not assumed citizenship.",
+    "claim_type_note": "A fact claim is a checkable statement, not a fact verified by this graph. Opinions, predictions, legal positions and promises are marked separately.",
+    "edge_note": "Green arrows point from a claim supplying a reason, example or reported statement to the specified part of another claim. Grey comparisons have no assigned evidential direction. Solid red connections mark proposed contradictions between specific claims or assessments. An arrow is used for an explicit rebuttal of a matching claim. Repeated reports of the same statement share a source.",
+    "attention_note": "Attention is a qualitative reading of the saved article, with paragraph locators; it is not a measured share of words.",
+    "endorsement_note": "A quoted speaker’s view is separate from the article narrator’s view. No outlet-wide position is inferred from one article.",
+    "annotation_status": "AI-assisted draft; human review pending",
+    "cleaning_note": "Uses saved recovered text. Kyiv Independent later Most Popular / News Feed material is excluded; original paragraph numbers retained. FT wrapped lines are joined into logical paragraphs."
+  },
+  "within_article_relations": [
+    {
+      "outlet": "izvestia",
+      "source_claim": "I01",
+      "target_claim": "I02",
+      "topic": "pt91_count",
+      "relation": "opposed_reported_counts_in_one_article",
+      "note": "P2 quotes Yermak saying 60 PT-91s; P5 quotes Morawiecki saying 30 PT-91s within 60 total tanks. Both sections remain separate. The graph does not choose the accurate number."
+    }
+  ]
+}

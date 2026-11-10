@@ -1,0 +1,1508 @@
+{
+  "schema_version": "1.2",
+  "event": {
+    "id": "sievierodonetsk_20220525",
+    "label": "Sievierodonetsk offensive",
+    "date": "2022-05-25",
+    "description": "Russian attacks and the risk of Ukrainian troops being cut off around Sievierodonetsk and Lysychansk. May 25 is the article date; some claims describe earlier days.",
+    "place_aliases": {
+      "Sievierodonetsk": [
+        "Severodonetsk",
+        "Северодонецк",
+        "Сєвєродонецьк"
+      ],
+      "Lysychansk": [
+        "Лисичанск",
+        "Лисичанськ"
+      ]
+    },
+    "graph_scope": "whole_event",
+    "multigraph": true,
+    "selection_scope": "Selecting an outlet or claim connection highlights it; all event connections remain visible."
+  },
+  "topics": [
+    {
+      "id": "encirclement",
+      "label": "Risk of being surrounded",
+      "scope_note": "The city, a wider pocket and the two-city area are different places. A route under fire is not the same as every route being physically blocked."
+    },
+    {
+      "id": "shelling",
+      "label": "Attacks on the city",
+      "scope_note": "Russian attacks on Sievierodonetsk. A report of attacks is not approval of them."
+    },
+    {
+      "id": "routes",
+      "label": "Roads and escape routes",
+      "scope_note": "The highway, a smaller road and an unnamed bridge cannot be assumed to be the same route."
+    },
+    {
+      "id": "reinforcement",
+      "label": "Troops, weapons and leadership",
+      "scope_note": "A shortage can give a reason for more support. It does not automatically establish a command failure or prove the recommendation will work."
+    },
+    {
+      "id": "resolve",
+      "label": "Will Ukrainian troops keep fighting?",
+      "scope_note": "Different speakers, dates and military units may explain different accounts."
+    },
+    {
+      "id": "framing",
+      "label": "Words used for Russia’s role",
+      "scope_note": "Matching occupation wording can be compared. Izvestia’s protective language concerns the wider war, so that contrast stays grey here."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "ft",
+      "label": "Financial Times",
+      "country": "United Kingdom",
+      "article": {
+        "id": "dfc3b684-c85e-4212-ba7c-abbb2dee461b",
+        "title": "Military briefing: battle for Sievierodonetsk shows Russian strategy in Donbas",
+        "url": "https://www.ft.com/content/551a56d8-8cce-480d-b222-b0ef137bbacd",
+        "publication_date": "2022-05-25",
+        "text_sha256": "170329f3ebc4e18ff7c941949ce6a286b3aba8337bc32809393d325e43c20b64"
+      },
+      "attention": "Most space goes to troops, losses, weapons and whether either side can keep fighting. The risk of being surrounded leads the article; civilian deaths appear in one paragraph.",
+      "claims": [
+        {
+          "id": "FT01",
+          "text": "The report says a 25 km gap remains before Russian forces can fully surround the Ukrainian-held pocket.",
+          "topics": [
+            "encirclement"
+          ],
+          "kind": {
+            "label": "Fact claim — not verified here",
+            "status": "A claim in the article, not an independently checked battlefield fact."
+          },
+          "claim_type": "fact",
+          "source_type": "outlet_narration",
+          "claimants": [
+            {
+              "name": "Financial Times narrative voice",
+              "role": "Article reporting/analysis; individual byline not present in extracted body",
+              "country": "United Kingdom",
+              "country_basis": "Institutional country is the outlet’s origin; not an inferred individual nationality"
+            }
+          ],
+          "stance": {
+            "value": "unclear",
+            "label": "Not stated",
+            "target": "Russian advance near Sievierodonetsk",
+            "note": "Describing a military situation does not by itself show approval or criticism."
+          },
+          "attention": "This is the opening claim. It stresses the remaining gap rather than a completed encirclement.",
+          "outlet_view": "Reports this claim without a separate statement of approval or criticism. Reporting a claim is not the same as agreeing with it.",
+          "where_when": "Wider Ukrainian-held pocket near Sievierodonetsk; reported May 25.",
+          "evidence": {
+            "quote": "Just 25km",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "The report says 25 km of terrain remains before Russia can completely encircle the Ukrainian-held pocket near Sievierodonetsk.",
+            "locator_note": "Paragraph numbers refer to the saved, extracted article body. FT uses blank-line blocks; other articles use adapter paragraphs.",
+            "supporting_sentence": "Just 25km of terrain remains before Russia completely encircles a fiercely contested pocket of Ukrainian resistance in the eastern Donbas region, where Moscow has stepped up its offensive over the past month.",
+            "english_translation": null,
+            "source_basis": "Saved article text supplied in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "FT02",
+          "text": "Russian shelling has weakened Ukrainian defenses around Sievierodonetsk, the report says.",
+          "topics": [
+            "shelling"
+          ],
+          "kind": {
+            "label": "Fact claim — not verified here",
+            "status": "A claim in the article, not an independently checked battlefield fact."
+          },
+          "claim_type": "fact",
+          "source_type": "outlet_narration",
+          "claimants": [
+            {
+              "name": "Financial Times narrative voice",
+              "role": "Article reporting/analysis; individual byline not present in extracted body",
+              "country": "United Kingdom",
+              "country_basis": "Institutional country is the outlet’s origin; not an inferred individual nationality"
+            }
+          ],
+          "stance": {
+            "value": "unclear",
+            "label": "Not stated",
+            "target": "Russian advance near Sievierodonetsk",
+            "note": "Describing a military situation does not by itself show approval or criticism."
+          },
+          "attention": "The second paragraph focuses on the pressure from Russian guns.",
+          "outlet_view": "Reports this claim without a separate statement of approval or criticism. Reporting a claim is not the same as agreeing with it.",
+          "where_when": "Sievierodonetsk; shelling over several days before publication.",
+          "evidence": {
+            "quote": "artillery strikes",
+            "paragraphs": [
+              2
+            ],
+            "language": "en",
+            "paraphrase": "The report says Russian artillery strikes have weakened Ukrainian defenses around Sievierodonetsk.",
+            "locator_note": "Paragraph numbers refer to the saved, extracted article body. FT uses blank-line blocks; other articles use adapter paragraphs.",
+            "supporting_sentence": "For days, punishing artillery strikes have crumbled Ukrainian defences around the city of Sievierodonetsk, the area where “the greatest activity of hostilities is taking place”, according to the Ukrainian army.",
+            "english_translation": null,
+            "source_basis": "Saved article text supplied in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "FT04",
+          "text": "If Russia surrounds the troops, the report says this would give Moscow an important symbolic gain.",
+          "topics": [
+            "encirclement"
+          ],
+          "kind": {
+            "label": "Opinion / prediction",
+            "status": "An interpretation, intention or recommendation; not proof of an outcome."
+          },
+          "claim_type": "prediction",
+          "source_type": "outlet_narration",
+          "claimants": [
+            {
+              "name": "Financial Times narrative voice",
+              "role": "Article reporting/analysis; individual byline not present in extracted body",
+              "country": "United Kingdom",
+              "country_basis": "Institutional country is the outlet’s origin; not an inferred individual nationality"
+            }
+          ],
+          "stance": {
+            "value": "unclear",
+            "label": "Not stated",
+            "target": "Russian advance near Sievierodonetsk",
+            "note": "Describing a military situation does not by itself show approval or criticism."
+          },
+          "attention": "The article compares a possible encirclement with Mariupol and considers what Russia could gain.",
+          "outlet_view": "Reports this claim without a separate statement of approval or criticism. Reporting a claim is not the same as agreeing with it.",
+          "where_when": "A possible future outcome near Sievierodonetsk, not a completed action.",
+          "evidence": {
+            "quote": "If",
+            "paragraphs": [
+              3
+            ],
+            "language": "en",
+            "paraphrase": "Surrounding the Ukrainian troops is framed as a future possibility, which the report says would give Moscow another encirclement with symbolic significance.",
+            "locator_note": "Paragraph numbers refer to the saved, extracted article body. FT uses blank-line blocks; other articles use adapter paragraphs.",
+            "supporting_sentence": "If the occupying forces succeed in surrounding the Ukrainian troops there, it would be Russia’s second successful military encirclement — the first came at the port of Mariupol, which fell last week after a three-month siege — and so would have symbolic significance for Moscow.",
+            "english_translation": null,
+            "source_basis": "Saved article text supplied in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "FT05",
+          "text": "Officials and analysts expect a long, costly fight shaped by troop numbers and available weapons.",
+          "topics": [
+            "reinforcement"
+          ],
+          "kind": {
+            "label": "Opinion / prediction",
+            "status": "An interpretation, intention or recommendation; not proof of an outcome."
+          },
+          "claim_type": "prediction",
+          "source_type": "external_source",
+          "claimants": [
+            {
+              "name": "Unnamed Western officials and analysts",
+              "role": "Officials and analysts cited collectively",
+              "country": "not individually identified",
+              "country_basis": "Western is a regional description, not a single country"
+            }
+          ],
+          "stance": {
+            "value": "unclear",
+            "label": "Not stated",
+            "target": "Russian advance near Sievierodonetsk",
+            "note": "Describing a military situation does not by itself show approval or criticism."
+          },
+          "attention": "Troop strength and weapons receive much of the article’s space.",
+          "outlet_view": "Reports this claim without a separate statement of approval or criticism. Reporting a claim is not the same as agreeing with it.",
+          "where_when": "Sievierodonetsk and the expected direction of fighting over the summer.",
+          "evidence": {
+            "quote": "attrition",
+            "paragraphs": [
+              5
+            ],
+            "language": "en",
+            "paraphrase": "Unnamed Western officials and analysts expect continued grinding attrition in which troop numbers and equipment matter.",
+            "locator_note": "Paragraph numbers refer to the saved, extracted article body. FT uses blank-line blocks; other articles use adapter paragraphs.",
+            "supporting_sentence": "The battle for Sievierodonetsk illustrates the way the fighting is likely to continue over the summer: a grinding war of attrition where the decisive factors will be the size of each force and how well equipped they are, western officials and analysts said.",
+            "english_translation": null,
+            "source_basis": "Saved article text supplied in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "FT06",
+          "text": "Ukrainian governor Serhiy Haidai accuses Russia of trying to destroy Sievierodonetsk.",
+          "topics": [
+            "shelling"
+          ],
+          "kind": {
+            "label": "Opinion / military assessment",
+            "status": "An interpretation, intention or recommendation; not proof of an outcome."
+          },
+          "claim_type": "assessment",
+          "source_type": "external_source",
+          "claimants": [
+            {
+              "name": "Serhiy Haidai",
+              "role": "Ukraine’s military governor of Luhansk",
+              "country": "Ukraine",
+              "country_basis": "Country of official role explicitly identified in article"
+            }
+          ],
+          "stance": {
+            "value": "criticizes",
+            "label": "Criticizes Russian attacks",
+            "target": "Russian attacks on Sievierodonetsk",
+            "note": "The negative judgement is Haidai’s, not a separately declared FT view."
+          },
+          "attention": "One paragraph discusses destructive tactics and civilian harm.",
+          "outlet_view": "Reports this claim without a separate statement of approval or criticism. Reporting a claim is not the same as agreeing with it.",
+          "where_when": "Sievierodonetsk; a statement made over the preceding weekend.",
+          "evidence": {
+            "quote": "scorched-earth",
+            "paragraphs": [
+              6
+            ],
+            "language": "en",
+            "paraphrase": "Haidai says Russia’s tactics seek to destroy Sievierodonetsk.",
+            "locator_note": "Paragraph numbers refer to the saved, extracted article body. FT uses blank-line blocks; other articles use adapter paragraphs.",
+            "supporting_sentence": "Serhiy Haidai, Ukraine’s military governor of Luhansk, told local television over the weekend that Russia’s “scorched-earth tactics” sought to “wipe Sievierodonetsk off the face of the earth”.",
+            "english_translation": null,
+            "source_basis": "Saved article text supplied in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "FT07",
+          "text": "Haidai says Russian shelling killed four civilians at the Azot plant and four elsewhere in the city.",
+          "topics": [
+            "shelling"
+          ],
+          "kind": {
+            "label": "Fact claim — not verified here",
+            "status": "A claim in the article, not an independently checked battlefield fact."
+          },
+          "claim_type": "fact",
+          "source_type": "external_source",
+          "claimants": [
+            {
+              "name": "Serhiy Haidai",
+              "role": "Ukraine’s military governor of Luhansk",
+              "country": "Ukraine",
+              "country_basis": "Country of official role explicitly identified in article"
+            }
+          ],
+          "stance": {
+            "value": "unclear",
+            "label": "Not stated",
+            "target": "Russian advance near Sievierodonetsk",
+            "note": "Describing a military situation does not by itself show approval or criticism."
+          },
+          "attention": "The civilian-death account occupies part of the same paragraph, not most of the article.",
+          "outlet_view": "Reports this claim without a separate statement of approval or criticism. Reporting a claim is not the same as agreeing with it.",
+          "where_when": "Sievierodonetsk; the deaths are reported as occurring Monday, May 23.",
+          "evidence": {
+            "quote": "four civilians",
+            "paragraphs": [
+              6
+            ],
+            "language": "en",
+            "paraphrase": "Haidai reports four civilian deaths at the Azot plant and four more in the city from Russian shelling on Monday.",
+            "locator_note": "Paragraph numbers refer to the saved, extracted article body. FT uses blank-line blocks; other articles use adapter paragraphs.",
+            "supporting_sentence": "Russian shelling killed four civilians in bomb shelters at the Azot chemical plant on Monday and four more in the city itself, Haidai said.",
+            "english_translation": null,
+            "source_basis": "Saved article text supplied in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "FT09",
+          "text": "The article argues that Ukrainian troops holding their positions buy time for more Western weapons to arrive.",
+          "topics": [
+            "reinforcement",
+            "resolve"
+          ],
+          "kind": {
+            "label": "Opinion / military assessment",
+            "status": "An interpretation, intention or recommendation; not proof of an outcome."
+          },
+          "claim_type": "assessment",
+          "source_type": "outlet_narration",
+          "claimants": [
+            {
+              "name": "Financial Times narrative voice",
+              "role": "Article reporting/analysis; individual byline not present in extracted body",
+              "country": "United Kingdom",
+              "country_basis": "Institutional country is the outlet’s origin; not an inferred individual nationality"
+            }
+          ],
+          "stance": {
+            "value": "unclear",
+            "label": "Not stated",
+            "target": "Russian advance near Sievierodonetsk",
+            "note": "Describing a military situation does not by itself show approval or criticism."
+          },
+          "attention": "The article explains the military value of holding out while weapons and training catch up.",
+          "outlet_view": "Reports this claim without a separate statement of approval or criticism. Reporting a claim is not the same as agreeing with it.",
+          "where_when": "Ukrainian defensive positions near Sievierodonetsk; current fighting.",
+          "evidence": {
+            "quote": "buying time",
+            "paragraphs": [
+              10
+            ],
+            "language": "en",
+            "paraphrase": "The report says continued Ukrainian resistance buys time for Western weapons to arrive.",
+            "locator_note": "Paragraph numbers refer to the saved, extracted article body. FT uses blank-line blocks; other articles use adapter paragraphs.",
+            "supporting_sentence": "Yet by holding back the Russians instead of retreating, these troops are buying time for the rest of Ukraine’s forces to be supplied with western weaponry, including long-range artillery that would allow them to shell Russian artillery positions behind the front lines.",
+            "english_translation": null,
+            "source_basis": "Saved article text supplied in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "FT10",
+          "text": "Russia-based analyst Pavel Luzin argues that capturing the city would not change the war very much.",
+          "topics": [
+            "encirclement"
+          ],
+          "kind": {
+            "label": "Opinion / military assessment",
+            "status": "An interpretation, intention or recommendation; not proof of an outcome."
+          },
+          "claim_type": "assessment",
+          "source_type": "external_source",
+          "claimants": [
+            {
+              "name": "Pavel Luzin",
+              "role": "Russia-based military analyst",
+              "country": "Russia",
+              "country_basis": "Article says Russian-based; country is workplace/location association, not proof of citizenship"
+            }
+          ],
+          "stance": {
+            "value": "unclear",
+            "label": "Not stated",
+            "target": "Russian advance near Sievierodonetsk",
+            "note": "Describing a military situation does not by itself show approval or criticism."
+          },
+          "attention": "The final paragraph questions the wider importance of a Russian victory in the city.",
+          "outlet_view": "Reports this claim without a separate statement of approval or criticism. Reporting a claim is not the same as agreeing with it.",
+          "where_when": "A hypothetical future capture of Sievierodonetsk.",
+          "evidence": {
+            "quote": "Strategically, it changes little",
+            "paragraphs": [
+              21
+            ],
+            "language": "en",
+            "paraphrase": "Pavel Luzin argues a Russian capture of Sievierodonetsk would change little strategically.",
+            "locator_note": "Paragraph numbers refer to the saved, extracted article body. FT uses blank-line blocks; other articles use adapter paragraphs.",
+            "supporting_sentence": "“Strategically, it changes little . . . [and] most of the Russian army’s artillery range is less than 25km. So [Russian president Vladimir] Putin can’t destroy all of Ukraine’s cities, everywhere.”",
+            "english_translation": null,
+            "source_basis": "Saved article text supplied in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "FT11",
+          "text": "Ukrainian and Western officials say Ukraine lacks enough heavy weapons to launch an effective counterattack.",
+          "topics": [
+            "reinforcement"
+          ],
+          "kind": {
+            "label": "Opinion / military assessment",
+            "status": "An interpretation, intention or recommendation; not proof of an outcome."
+          },
+          "claim_type": "assessment",
+          "source_type": "external_source",
+          "claimants": [
+            {
+              "name": "Unnamed Ukrainian and Western officials",
+              "role": "Officials warning about Ukraine’s heavy-weapons shortage",
+              "country": "Ukraine; Western countries not specified",
+              "country_basis": "The article identifies groups, not individual countries for the Western sources."
+            }
+          ],
+          "stance": {
+            "value": "unclear",
+            "label": "Not stated",
+            "target": "Russian advance near Sievierodonetsk",
+            "note": "Describing a military situation does not by itself show approval or criticism."
+          },
+          "attention": "The closing discussion returns to weapons shortages and the need to strengthen Ukraine’s forces.",
+          "outlet_view": "Reports this claim without a separate statement of approval or criticism. Reporting a claim is not the same as agreeing with it.",
+          "where_when": "Ukraine’s ability to respond to the Donbas offensive; reported May 25.",
+          "evidence": {
+            "quote": "lacks enough heavy weapons",
+            "paragraphs": [
+              20
+            ],
+            "language": "en",
+            "paraphrase": "Ukrainian and Western officials say Ukraine does not have enough heavy weapons to counterattack effectively.",
+            "locator_note": "Paragraph numbers refer to the saved, extracted article body. FT uses blank-line blocks; other articles use adapter paragraphs.",
+            "source_basis": "Saved article text supplied in the user’s DNIPRO workspace.",
+            "supporting_sentence": "But while Russian forces may struggle to sustain the offensive, analysts say, western and Ukrainian officials warn that Kyiv lacks enough heavy weapons to counter-attack effectively."
+          },
+          "context_only": false,
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "FT12",
+          "text": "The article calls the Russian troops “occupying forces” in its own narration.",
+          "topics": [
+            "framing"
+          ],
+          "kind": {
+            "label": "Framing / interpretation",
+            "status": "An interpretation, intention or recommendation; not proof of an outcome."
+          },
+          "claim_type": "framing",
+          "source_type": "outlet_narration",
+          "claimants": [
+            {
+              "name": "Financial Times narration",
+              "role": "The outlet’s own wording, outside a source quotation",
+              "country": "United Kingdom",
+              "country_basis": "Outlet origin, not a claim about a journalist’s citizenship."
+            }
+          ],
+          "stance": {
+            "value": "criticizes",
+            "label": "Critical wording",
+            "target": "Russian military presence",
+            "note": "This codes the occupation label. It is not a finding about every FT policy position."
+          },
+          "attention": "This wording appears in the early explanation of what surrounding the troops would mean.",
+          "outlet_view": "Uses an occupation frame in its own wording. It does not separately recommend a policy on the tactical claim.",
+          "where_when": "Russian forces in the possible Sievierodonetsk encirclement.",
+          "evidence": {
+            "quote": "occupying forces",
+            "paragraphs": [
+              3
+            ],
+            "language": "en",
+            "paraphrase": "The article’s own narration calls Russian troops occupying forces.",
+            "locator_note": "Paragraph numbers refer to the saved, extracted article body. FT uses blank-line blocks; other articles use adapter paragraphs.",
+            "source_basis": "Saved article text supplied in the user’s DNIPRO workspace.",
+            "supporting_sentence": "If the occupying forces succeed in surrounding the Ukrainian troops there, it would be Russia’s second successful military encirclement — the first came at the port of Mariupol, which fell last week after a three-month siege — and so would have symbolic significance for Moscow."
+          },
+          "context_only": false,
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ],
+      "short_label": "FT"
+    },
+    {
+      "id": "kyivpost",
+      "label": "Kyiv Independent",
+      "country": "Ukraine",
+      "article": {
+        "id": "ef6dfdab-22bb-4631-a691-7306e4ad21b4",
+        "title": "General Staff: Russia attempts to advance towards Bakhmut, Lyman in Donetsk Oblast.",
+        "url": "https://kyivindependent.com/general-staff-russia-attempts-to-advance-towards-bakhmut-lyman-in-donetsk-oblast/",
+        "publication_date": "2022-05-25",
+        "text_sha256": "d464d60eadda00417baa09c9d539e14d28ce0c122ab308fcb7d8112ab010df46"
+      },
+      "attention": "One short body paragraph lists places being attacked and the weapons used. It gives no assessment of whether the city is surrounded.",
+      "claims": [
+        {
+          "id": "KI04",
+          "text": "Ukraine’s General Staff says Russia is attacking Sievierodonetsk and Novozvanivka with shelling and airstrikes.",
+          "topics": [
+            "shelling"
+          ],
+          "kind": {
+            "label": "Fact claim — not verified here",
+            "status": "A claim in the article, not an independently checked battlefield fact."
+          },
+          "claim_type": "fact",
+          "source_type": "external_source",
+          "claimants": [
+            {
+              "name": "Ukraine’s General Staff",
+              "role": "Senior Ukrainian military command; institutional source",
+              "country": "Ukraine",
+              "country_basis": "Explicit institutional affiliation in supporting article"
+            }
+          ],
+          "stance": {
+            "value": "unclear",
+            "label": "Not stated",
+            "target": "Russian advance near Sievierodonetsk",
+            "note": "Describing a military situation does not by itself show approval or criticism."
+          },
+          "attention": "The whole short report lists attack locations and methods. It does not discuss encirclement or the road.",
+          "outlet_view": "Attributes the claim to Ukraine’s military. It uses the word occupiers, but gives no separate view on this tactical claim.",
+          "where_when": "Sievierodonetsk and Novozvanivka; reported May 25.",
+          "evidence": {
+            "quote": "artillery and airstrikes",
+            "paragraphs": [
+              2
+            ],
+            "language": "en",
+            "paraphrase": "Ukraine’s General Staff says Russian forces are attacking Sievierodonetsk and Novozvanivka with artillery and airstrikes.",
+            "locator_note": "Paragraph numbers refer to the saved, extracted article body. FT uses blank-line blocks; other articles use adapter paragraphs.",
+            "supporting_sentence": "Russian forces are attacking Lyman and Komyshuvakha in Donetsk Oblast, as well as Sievierodonetsk and Novozvanivka in Luhansk Oblast, with artillery and airstrikes, the General Staff said.",
+            "english_translation": null,
+            "source_basis": "Saved article text supplied in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ],
+      "short_label": "Kyiv Ind."
+    },
+    {
+      "id": "censor",
+      "label": "Censor.NET",
+      "country": "Ukraine",
+      "article": {
+        "id": "b0dadda0-1180-4181-b632-0f782833bb1c",
+        "title": "Russian troops went on route Bakhmut - Lysychansk and seek to create operational environment, but our soldiers aren't going to hand over Luhansk region, - Butusov",
+        "url": "https://censor.net/en/news/3343700/russian_troops_went_on_route_bakhmut_lysychansk_and_seek_to_create_operational_environment_but_our_soldiers",
+        "publication_date": "2022-05-25",
+        "text_sha256": "b2bb42602d5c0387285ce54780b621c824c59b0c567695a0dd49b7b62af3b209"
+      },
+      "attention": "Four of eight paragraphs cover the road advance and the risk of being cut off. Three cover Ukrainian resolve, reassurance, leadership and reinforcements.",
+      "claims": [
+        {
+          "id": "C1",
+          "text": "Butusov says Russian troops reached the Bakhmut–Lysychansk road near Nahirne and Bilohorivka the previous day.",
+          "topics": [
+            "routes"
+          ],
+          "kind": {
+            "label": "Fact claim — not verified here",
+            "status": "A claim in the article, not an independently checked battlefield fact."
+          },
+          "claim_type": "fact",
+          "source_type": "outlet_editor",
+          "claimants": [
+            {
+              "name": "Yurii Butusov",
+              "role": "Censor.NET editor-in-chief, quoted from his Facebook post",
+              "country": "Ukraine",
+              "country_basis": "Country of his newsroom affiliation, not a citizenship check."
+            }
+          ],
+          "stance": {
+            "value": "unclear",
+            "label": "Not stated",
+            "target": "Russian advance near Sievierodonetsk",
+            "note": "Describing a military situation does not by itself show approval or criticism."
+          },
+          "attention": "The road advance and its locations receive the opening four paragraphs.",
+          "outlet_view": "Presented as its editor’s view in a quoted post. This is not labeled a formal editorial.",
+          "where_when": "The highway near Nahirne and the road-side Bilohorivka; May 24.",
+          "evidence": {
+            "quote": "yesterday",
+            "paragraphs": [
+              3
+            ],
+            "language": "en",
+            "paraphrase": "Russian troops reached the Bakhmut–Lysychansk highway near Nahirne and the road-side Bilohorivka on the previous day.",
+            "locator_note": "Paragraph numbers refer to the saved, extracted article body. FT uses blank-line blocks; other articles use adapter paragraphs.",
+            "supporting_sentence": "\"Russian troops passed on the Bakhmut-Lysychansk highway near the villages of Nagirne and Belogorivka yesterday (this is the second Belogorivka village on the highway, as opposed to Belogorivka on the banks of the Seversky Donets).",
+            "english_translation": null,
+            "source_basis": "Saved article text supplied in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "C2",
+          "text": "Butusov warns that if Russian troops hold their new position, Ukrainian troops near both cities could be cut off.",
+          "topics": [
+            "encirclement"
+          ],
+          "kind": {
+            "label": "Opinion / prediction",
+            "status": "An interpretation, intention or recommendation; not proof of an outcome."
+          },
+          "claim_type": "prediction",
+          "source_type": "outlet_editor",
+          "claimants": [
+            {
+              "name": "Yurii Butusov",
+              "role": "Censor.NET editor-in-chief, quoted from his Facebook post",
+              "country": "Ukraine",
+              "country_basis": "Country of his newsroom affiliation, not a citizenship check."
+            }
+          ],
+          "stance": {
+            "value": "unclear",
+            "label": "Not stated",
+            "target": "Russian advance near Sievierodonetsk",
+            "note": "Describing a military situation does not by itself show approval or criticism."
+          },
+          "attention": "The main warning concerns a future risk to troops around two cities, not a claim that the city is already fully surrounded.",
+          "outlet_view": "Presented as its editor’s view in a quoted post. This is not labeled a formal editorial.",
+          "where_when": "Troops in the Sievierodonetsk and Lysychansk districts; conditional future risk.",
+          "evidence": {
+            "quote": "If the enemy can gain a foothold",
+            "paragraphs": [
+              4
+            ],
+            "language": "en",
+            "paraphrase": "If Russian forces establish a foothold in the road breakthrough area, Ukrainian troops in the Sievierodonetsk and Lysychansk districts will be operationally encircled.",
+            "locator_note": "Paragraph numbers refer to the saved, extracted article body. FT uses blank-line blocks; other articles use adapter paragraphs.",
+            "supporting_sentence": "If the enemy can gain a foothold, it will mean an operational encirclement of our troops in the districts of Severodonetsk and Lysychansk,\" the journalist said.",
+            "english_translation": null,
+            "source_basis": "Saved article text supplied in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "C3",
+          "text": "Butusov says the predicted ring would be incomplete, leaving one smaller route.",
+          "topics": [
+            "encirclement",
+            "routes"
+          ],
+          "kind": {
+            "label": "Opinion / prediction",
+            "status": "An interpretation, intention or recommendation; not proof of an outcome."
+          },
+          "claim_type": "prediction",
+          "source_type": "outlet_editor",
+          "claimants": [
+            {
+              "name": "Yurii Butusov",
+              "role": "Censor.NET editor-in-chief, quoted from his Facebook post",
+              "country": "Ukraine",
+              "country_basis": "Country of his newsroom affiliation, not a citizenship check."
+            }
+          ],
+          "stance": {
+            "value": "unclear",
+            "label": "Not stated",
+            "target": "Russian advance near Sievierodonetsk",
+            "note": "Describing a military situation does not by itself show approval or criticism."
+          },
+          "attention": "A separate paragraph qualifies the warning by noting a possible remaining route.",
+          "outlet_view": "Presented as its editor’s view in a quoted post. This is not labeled a formal editorial.",
+          "where_when": "The predicted encirclement of troops around the two cities; route unnamed.",
+          "evidence": {
+            "quote": "one secondary way",
+            "paragraphs": [
+              5
+            ],
+            "language": "en",
+            "paraphrase": "The predicted encirclement would be incomplete, leaving one secondary route.",
+            "locator_note": "Paragraph numbers refer to the saved, extracted article body. FT uses blank-line blocks; other articles use adapter paragraphs.",
+            "supporting_sentence": "According to Butusov, the environment will be incomplete - but there will be only one secondary way.",
+            "english_translation": null,
+            "source_basis": "Saved article text supplied in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "C4",
+          "text": "Butusov says daily Russian attacks on Sievierodonetsk have been pushed back with heavy Russian losses.",
+          "topics": [
+            "shelling",
+            "resolve"
+          ],
+          "kind": {
+            "label": "Fact claim — not verified here",
+            "status": "A claim in the article, not an independently checked battlefield fact."
+          },
+          "claim_type": "fact",
+          "source_type": "outlet_editor",
+          "claimants": [
+            {
+              "name": "Yurii Butusov",
+              "role": "Censor.NET editor-in-chief, quoted from his Facebook post",
+              "country": "Ukraine",
+              "country_basis": "Country of his newsroom affiliation, not a citizenship check."
+            }
+          ],
+          "stance": {
+            "value": "unclear",
+            "label": "Not stated",
+            "target": "Russian advance near Sievierodonetsk",
+            "note": "Describing a military situation does not by itself show approval or criticism."
+          },
+          "attention": "The article stresses Ukrainian resistance, alongside its warning about the road. The losses are not counted.",
+          "outlet_view": "Presented as its editor’s view in a quoted post. This is not labeled a formal editorial.",
+          "where_when": "Sievierodonetsk; earlier attacks, with no exact day-by-day period stated.",
+          "evidence": {
+            "quote": "repulsed with heavy losses",
+            "paragraphs": [
+              7
+            ],
+            "language": "en",
+            "paraphrase": "Daily Russian attacks on Sievierodonetsk had been repelled with heavy Russian losses.",
+            "locator_note": "Paragraph numbers refer to the saved, extracted article body. FT uses blank-line blocks; other articles use adapter paragraphs.",
+            "supporting_sentence": "Our troops in Severodonetsk and Lysychansk will hold their ground, and all attempts at daily attacks on Severodonetsk have been repulsed with heavy losses for Russian troops.",
+            "english_translation": null,
+            "source_basis": "Saved article text supplied in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "C5",
+          "text": "Butusov says Ukrainian soldiers do not intend to surrender the Luhansk region.",
+          "topics": [
+            "resolve"
+          ],
+          "kind": {
+            "label": "Reported intention",
+            "status": "An interpretation, intention or recommendation; not proof of an outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "outlet_editor",
+          "claimants": [
+            {
+              "name": "Yurii Butusov",
+              "role": "Censor.NET editor-in-chief, quoted from his Facebook post",
+              "country": "Ukraine",
+              "country_basis": "Country of his newsroom affiliation, not a citizenship check."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports continued Ukrainian defense",
+            "target": "Ukraine defending the Luhansk region",
+            "note": "His stated resolve is not proof that a future battle will be won."
+          },
+          "attention": "Three paragraphs stress resolve, reassure readers and reject panic.",
+          "outlet_view": "Presented as its editor’s view in a quoted post. This is not labeled a formal editorial.",
+          "where_when": "Ukrainian soldiers in the Luhansk region; forward-looking statement.",
+          "evidence": {
+            "quote": "not going to surrender",
+            "paragraphs": [
+              7
+            ],
+            "language": "en",
+            "paraphrase": "Ukrainian soldiers intend not to surrender the Luhansk region.",
+            "locator_note": "Paragraph numbers refer to the saved, extracted article body. FT uses blank-line blocks; other articles use adapter paragraphs.",
+            "supporting_sentence": "Our soldiers are not going to surrender the Luhansk region.",
+            "english_translation": null,
+            "source_basis": "Saved article text supplied in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "C6",
+          "text": "Butusov calls for reinforcements and better decisions by commanders.",
+          "topics": [
+            "reinforcement"
+          ],
+          "kind": {
+            "label": "Opinion / recommendation",
+            "status": "An interpretation, intention or recommendation; not proof of an outcome."
+          },
+          "claim_type": "recommendation",
+          "source_type": "outlet_editor",
+          "claimants": [
+            {
+              "name": "Yurii Butusov",
+              "role": "Censor.NET editor-in-chief, quoted from his Facebook post",
+              "country": "Ukraine",
+              "country_basis": "Country of his newsroom affiliation, not a citizenship check."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports more help for Ukrainian troops",
+            "target": "Reinforcements and competent command",
+            "note": "This is a recommendation by the outlet’s editor."
+          },
+          "attention": "The article’s closing argument stresses practical help and leadership rather than panic.",
+          "outlet_view": "Presented as its editor’s view in a quoted post. This is not labeled a formal editorial.",
+          "where_when": "Ukraine’s response in the Sievierodonetsk–Lysychansk area; immediate recommendation.",
+          "evidence": {
+            "quote": "reinforcement is needed",
+            "paragraphs": [
+              7
+            ],
+            "language": "en",
+            "paraphrase": "Ukrainian forces need prudent action and reinforcements.",
+            "locator_note": "Paragraph numbers refer to the saved, extracted article body. FT uses blank-line blocks; other articles use adapter paragraphs.",
+            "supporting_sentence": "Therefore, prudent action is needed, and reinforcement is needed.",
+            "english_translation": null,
+            "source_basis": "Saved article text supplied in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "C7",
+          "text": "The article calls the advancing Russian forces occupiers.",
+          "topics": [
+            "framing"
+          ],
+          "kind": {
+            "label": "Framing / interpretation",
+            "status": "An interpretation, intention or recommendation; not proof of an outcome."
+          },
+          "claim_type": "framing",
+          "source_type": "outlet_narration",
+          "claimants": [
+            {
+              "name": "Censor.NET narration",
+              "role": "The article’s own opening sentence",
+              "country": "Ukraine",
+              "country_basis": "Outlet origin."
+            }
+          ],
+          "stance": {
+            "value": "criticizes",
+            "label": "Critical wording",
+            "target": "Russian military presence and advance",
+            "note": "The negative label appears in the article’s own lead."
+          },
+          "attention": "The label appears in the opening sentence, before the quoted post.",
+          "outlet_view": "Its own lead frames the advance as occupation. This is article-level wording, not a general finding about the whole outlet.",
+          "where_when": "Russian forces trying to take the Bakhmut–Lysychansk road.",
+          "evidence": {
+            "quote": "occupiers",
+            "paragraphs": [
+              1
+            ],
+            "language": "en",
+            "paraphrase": "The article calls the advancing Russian forces \"occupiers\".",
+            "locator_note": "Paragraph numbers refer to the saved, extracted article body. FT uses blank-line blocks; other articles use adapter paragraphs.",
+            "supporting_sentence": "The occupiers have been trying for a week to break through the defenses of the Armed Forces and intercept the Bakhmut-Lysychansk route.",
+            "english_translation": null,
+            "source_basis": "Saved article text supplied in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ],
+      "short_label": "Censor.NET"
+    },
+    {
+      "id": "izvestia",
+      "label": "Izvestia",
+      "country": "Russia",
+      "article": {
+        "id": "a2972671-141b-4cea-bb88-95b56ca50b38",
+        "title": "В ЛНР сообщили о взятии в оперативное окружение Северодонецка",
+        "url": "https://iz.ru/1339817/2022-05-25/v-lnr-soobshchili-o-vziatii-v-operativnoe-okruzhenie-severodonetcka",
+        "publication_date": "2022-05-25",
+        "text_sha256": "8be6566d1b716195abcc2945d1aad1b7748fea94d6b866cdf28b36c57321c3af"
+      },
+      "attention": "Three of eight news paragraphs cover the claimed encirclement and bridge; two describe soldiers’ complaints; two give wider-war background. A promotional footer is excluded.",
+      "claims": [
+        {
+          "id": "I1",
+          "text": "Marochko says Sievierodonetsk is already cut off in an operational sense.",
+          "topics": [
+            "encirclement"
+          ],
+          "kind": {
+            "label": "Fact claim — not verified here",
+            "status": "A claim in the article, not an independently checked battlefield fact."
+          },
+          "claim_type": "fact",
+          "source_type": "external_source",
+          "claimants": [
+            {
+              "name": "Andrey Marochko",
+              "role": "Officer of the Russia-backed Luhansk forces, speaking on Russian television",
+              "country": "Not stated",
+              "country_basis": "His forces operate in Luhansk, Ukraine. The article does not establish his citizenship."
+            }
+          ],
+          "stance": {
+            "value": "unclear",
+            "label": "Not stated",
+            "target": "Russian advance near Sievierodonetsk",
+            "note": "Describing a military situation does not by itself show approval or criticism."
+          },
+          "attention": "The claimed encirclement is the headline and opening focus. It is a participant-side claim, not independent confirmation.",
+          "outlet_view": "Reports this claim without a separate statement of approval or criticism. Reporting a claim is not the same as agreeing with it.",
+          "where_when": "The city of Sievierodonetsk; a May 25 statement, exact broadcast time unknown.",
+          "evidence": {
+            "quote": "в оперативном окружении",
+            "paragraphs": [
+              3
+            ],
+            "language": "ru",
+            "paraphrase": "Sievierodonetsk is currently in operational encirclement.",
+            "locator_note": "Paragraph numbers refer to the saved, extracted article body. FT uses blank-line blocks; other articles use adapter paragraphs.",
+            "supporting_sentence": "«Поэтому на данный момент можно говорить, что город Северодонецк находится в оперативном окружении», — сказал он в эфире Первого канала.",
+            "english_translation": "“Therefore, at this moment one can say that the city of Sievierodonetsk is in operational encirclement,” he said on Channel One.",
+            "source_basis": "Saved article text supplied in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "I2",
+          "text": "The article says the city is tightly blocked on three sides.",
+          "topics": [
+            "encirclement"
+          ],
+          "kind": {
+            "label": "Fact claim — not verified here",
+            "status": "A claim in the article, not an independently checked battlefield fact."
+          },
+          "claim_type": "fact",
+          "source_type": "contextual_attribution",
+          "claimants": [
+            {
+              "name": "Izvestia narration, apparently elaborating Marochko’s account",
+              "role": "The paragraph does not name a speaker",
+              "country": "Russia (outlet)",
+              "country_basis": "The source attribution is suggested by context, rather than explicitly repeated."
+            }
+          ],
+          "stance": {
+            "value": "unclear",
+            "label": "Not stated",
+            "target": "Russian advance near Sievierodonetsk",
+            "note": "Describing a military situation does not by itself show approval or criticism."
+          },
+          "attention": "This detail is offered to support the encirclement claim.",
+          "outlet_view": "Reports this claim without a separate statement of approval or criticism. Reporting a claim is not the same as agreeing with it.",
+          "where_when": "Three sides of Sievierodonetsk; reported present situation.",
+          "evidence": {
+            "quote": "с трех сторон",
+            "paragraphs": [
+              2
+            ],
+            "language": "ru",
+            "paraphrase": "Sievierodonetsk is tightly blocked on three sides.",
+            "locator_note": "Paragraph numbers refer to the saved, extracted article body. FT uses blank-line blocks; other articles use adapter paragraphs.",
+            "supporting_sentence": "Уточняется, что Северодонецк плотно закрыт с трех сторон, а перемещение осуществляется только по одному единственному мосту, который также находится под огневым контролем.",
+            "english_translation": "It is specified that Sievierodonetsk is tightly blocked on three sides, while movement takes place over just one bridge, which is also under fire control.",
+            "source_basis": "Saved article text supplied in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "I3",
+          "text": "The article says movement uses one bridge that Russian/Luhansk forces can control by firing on it.",
+          "topics": [
+            "routes",
+            "encirclement"
+          ],
+          "kind": {
+            "label": "Fact claim — not verified here",
+            "status": "A claim in the article, not an independently checked battlefield fact."
+          },
+          "claim_type": "fact",
+          "source_type": "contextual_attribution",
+          "claimants": [
+            {
+              "name": "Izvestia narration, apparently elaborating Marochko’s account",
+              "role": "The paragraph does not name a speaker",
+              "country": "Russia (outlet)",
+              "country_basis": "The source attribution is suggested by context, rather than explicitly repeated."
+            }
+          ],
+          "stance": {
+            "value": "unclear",
+            "label": "Not stated",
+            "target": "Russian advance near Sievierodonetsk",
+            "note": "Describing a military situation does not by itself show approval or criticism."
+          },
+          "attention": "The bridge is used as evidence of danger. Under fire does not necessarily mean physically closed or destroyed.",
+          "outlet_view": "Reports this claim without a separate statement of approval or criticism. Reporting a claim is not the same as agreeing with it.",
+          "where_when": "An unnamed bridge serving Sievierodonetsk; reported present situation.",
+          "evidence": {
+            "quote": "под огневым контролем",
+            "paragraphs": [
+              2
+            ],
+            "language": "ru",
+            "paraphrase": "Movement is possible over only one bridge, and that bridge is under fire control.",
+            "locator_note": "Paragraph numbers refer to the saved, extracted article body. FT uses blank-line blocks; other articles use adapter paragraphs.",
+            "supporting_sentence": "Уточняется, что Северодонецк плотно закрыт с трех сторон, а перемещение осуществляется только по одному единственному мосту, который также находится под огневым контролем.",
+            "english_translation": "It is specified that Sievierodonetsk is tightly blocked on three sides, while movement takes place over just one bridge, which is also under fire control.",
+            "source_basis": "Saved article text supplied in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "I4",
+          "text": "Izvestia describes a May 19 video as showing some Ukrainian soldiers refusing to defend the city without better support.",
+          "topics": [
+            "resolve",
+            "reinforcement"
+          ],
+          "kind": {
+            "label": "Fact claim — not verified here",
+            "status": "A claim in the article, not an independently checked battlefield fact."
+          },
+          "claim_type": "fact",
+          "source_type": "nested_report",
+          "claimants": [
+            {
+              "name": "Izvestia narrator describing an alleged soldiers’ video",
+              "role": "A report of what unnamed Ukrainian soldiers supposedly said",
+              "country": "Russia (outlet); Ukraine (reported soldiers)",
+              "country_basis": "The outlet is Russian; the soldiers’ identities and military unit are not established here."
+            }
+          ],
+          "stance": {
+            "value": "unclear",
+            "label": "Not stated",
+            "target": "Russian advance near Sievierodonetsk",
+            "note": "Describing a military situation does not by itself show approval or criticism."
+          },
+          "attention": "Two paragraphs discuss troop complaints. The article then says the soldiers were not refusing to defend their homeland.",
+          "outlet_view": "Reports an unverified video account. It is not evidence that all Ukrainian troops refused to defend the city.",
+          "where_when": "A video reportedly published May 19; unnamed soldiers and unknown recording time.",
+          "evidence": {
+            "quote": "отсутствия подкрепления",
+            "paragraphs": [
+              5
+            ],
+            "language": "ru",
+            "paraphrase": "A video published May 19 reportedly showed Ukrainian servicemen refusing to defend Sievierodonetsk because they lacked reinforcements and heavy equipment.",
+            "locator_note": "Paragraph numbers refer to the saved, extracted article body. FT uses blank-line blocks; other articles use adapter paragraphs.",
+            "supporting_sentence": "19 мая в YouTube было опубликовано видео, в котором военнослужащие ВСУ обратились к президенту Украины Владимиру Зеленскому с отказом оборонять Северодонецк из-за отсутствия подкрепления и тяжелой техники.",
+            "english_translation": "On May 19 a video was published on YouTube in which Ukrainian Armed Forces servicemen addressed Ukrainian President Volodymyr Zelensky, refusing to defend Sievierodonetsk because of a lack of reinforcements and heavy equipment.",
+            "source_basis": "Saved article text supplied in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "I5",
+          "text": "The quoted soldiers say they still want to defend their homeland, but need proper support and command.",
+          "topics": [
+            "reinforcement",
+            "resolve"
+          ],
+          "kind": {
+            "label": "Reported intention",
+            "status": "An interpretation, intention or recommendation; not proof of an outcome."
+          },
+          "claim_type": "intention",
+          "source_type": "nested_report",
+          "claimants": [
+            {
+              "name": "Unnamed Ukrainian soldiers",
+              "role": "People described in a video reportedly published on May 19",
+              "country": "Ukraine",
+              "country_basis": "Military affiliation claimed in the report; identities and video are not independently checked."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports defense with better conditions",
+            "target": "Defending Ukraine with adequate support and leadership",
+            "note": "This is the reported soldiers’ view, not Izvestia’s stated policy."
+          },
+          "attention": "This qualification follows the reported refusal and keeps the soldiers’ position from becoming a blanket refusal to fight.",
+          "outlet_view": "Reports this claim without a separate statement of approval or criticism. Reporting a claim is not the same as agreeing with it.",
+          "where_when": "Unnamed Ukrainian soldiers; May 19 video as described by Izvestia.",
+          "evidence": {
+            "quote": "не отказываются защищать Родину",
+            "paragraphs": [
+              6
+            ],
+            "language": "ru",
+            "paraphrase": "The servicemen said they were not refusing to defend their homeland, but wanted adequate support behind them and adequate command.",
+            "locator_note": "Paragraph numbers refer to the saved, extracted article body. FT uses blank-line blocks; other articles use adapter paragraphs.",
+            "supporting_sentence": "При этом военные подчеркнули, что «не отказываются защищать Родину», но хотят иметь «надлежащий тыл и надлежащее командование».",
+            "english_translation": "At the same time, the servicemen emphasized that they “were not refusing to defend the homeland,” but wanted “proper support behind them and proper command.”",
+            "source_basis": "Saved article text supplied in the user’s DNIPRO workspace."
+          },
+          "context_only": false,
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "I6",
+          "text": "In its wider-war background, the article describes Russia’s operation as protecting Donbas.",
+          "topics": [
+            "framing"
+          ],
+          "kind": {
+            "label": "Framing / interpretation",
+            "status": "An interpretation, intention or recommendation; not proof of an outcome."
+          },
+          "claim_type": "framing",
+          "source_type": "outlet_narration",
+          "claimants": [
+            {
+              "name": "Izvestia narration",
+              "role": "Wider-war background in the article’s own voice",
+              "country": "Russia",
+              "country_basis": "Outlet origin."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supportive protective-purpose wording",
+            "target": "Russia’s wider operation in Donbas",
+            "note": "Broader than the May 25 tactical event. It does not prove the operation protects people."
+          },
+          "attention": "Two closing news paragraphs give a wider Russian justification and background.",
+          "outlet_view": "Uses protective language in its own narration. This is not an explicit judgement that the specific siege claim is true or justified.",
+          "where_when": "Donbas-wide war background, not a precise judgement about this city’s encirclement.",
+          "evidence": {
+            "quote": "по защите Донбасса",
+            "paragraphs": [
+              7
+            ],
+            "language": "ru",
+            "paraphrase": "The article describes Russia’s continuing military operation as an operation \"to protect Donbas\".",
+            "locator_note": "Paragraph numbers refer to the saved, extracted article body. FT uses blank-line blocks; other articles use adapter paragraphs.",
+            "supporting_sentence": "Россия продолжает спецоперацию по защите Донбасса, о начале которой президент Владимир Путин объявил 24 февраля.",
+            "english_translation": "Russia continues the special operation to protect Donbas, whose beginning President Vladimir Putin announced on February 24.",
+            "source_basis": "Saved article text supplied in the user’s DNIPRO workspace."
+          },
+          "context_only": true,
+          "annotation_status": "AI-assisted draft; human review pending"
+        },
+        {
+          "id": "I7",
+          "text": "The Kremlin says Russia’s stated war aims are necessary for Russian security.",
+          "topics": [
+            "framing"
+          ],
+          "kind": {
+            "label": "Opinion / military assessment",
+            "status": "An interpretation, intention or recommendation; not proof of an outcome."
+          },
+          "claim_type": "assessment",
+          "source_type": "external_source",
+          "claimants": [
+            {
+              "name": "The Kremlin",
+              "role": "Office of the Russian president",
+              "country": "Russia",
+              "country_basis": "Explicit government affiliation."
+            }
+          ],
+          "stance": {
+            "value": "supports",
+            "label": "Supports Russia’s operation",
+            "target": "Russia’s wider war aims",
+            "note": "The necessity claim is explicitly attributed to the Kremlin."
+          },
+          "attention": "A security justification is included in the wider-war background.",
+          "outlet_view": "Reports this claim without a separate statement of approval or criticism. Reporting a claim is not the same as agreeing with it.",
+          "where_when": "Russia’s wider war aims; background, not the May 25 road or city claim.",
+          "evidence": {
+            "quote": "безопасности российского государства и народа",
+            "paragraphs": [
+              7
+            ],
+            "language": "ru",
+            "paraphrase": "The Kremlin says the stated military goals are necessary for the security of the Russian state and people.",
+            "locator_note": "Paragraph numbers refer to the saved, extracted article body. FT uses blank-line blocks; other articles use adapter paragraphs.",
+            "supporting_sentence": "Это необходимо для обеспечения безопасности российского государства и народа, уточнили в Кремле.",
+            "english_translation": "This is necessary to ensure the security of the Russian state and people, the Kremlin specified.",
+            "source_basis": "Saved article text supplied in the user’s DNIPRO workspace."
+          },
+          "context_only": true,
+          "annotation_status": "AI-assisted draft; human review pending"
+        }
+      ],
+      "short_label": "Izvestia"
+    }
+  ],
+  "edges": [
+    {
+      "id": "E01",
+      "source": "ft",
+      "target": "censor",
+      "topic": "encirclement",
+      "relation": "neutral",
+      "color": "grey",
+      "subtype": "different_scope",
+      "label": "Similar risk; different area",
+      "source_claim": "FT01",
+      "target_claim": "C2",
+      "reason": "Both discuss a possible surrounding of Ukrainian forces. FT describes a remaining gap in a wider pocket; Butusov gives a conditional warning about troops around two cities.",
+      "caveat": "No shared measurement, identical area or exact observation time is established. Neither statement is an explicit opinion approving the action.",
+      "review_status": "AI-assisted proposed claim relation; human review pending",
+      "directed": false,
+      "direction": "undirected",
+      "direction_reason": "This comparison records a relation between two claims without assigning an evidential direction."
+    },
+    {
+      "id": "E02",
+      "source": "ft",
+      "target": "izvestia",
+      "topic": "encirclement",
+      "relation": "neutral",
+      "color": "grey",
+      "subtype": "candidate_conflict_unresolved",
+      "label": "Apparent conflict needs checking",
+      "source_claim": "FT01",
+      "target_claim": "I1",
+      "reason": "FT says complete encirclement has not happened; Marochko says the city is operationally encircled.",
+      "caveat": "Fire control around a city can coexist with an incomplete wider physical ring. Definitions, area and exact times must match before calling this a contradiction.",
+      "review_status": "AI-assisted proposed claim relation; human review pending",
+      "directed": false,
+      "direction": "undirected",
+      "direction_reason": "This comparison records a relation between two claims without assigning an evidential direction."
+    },
+    {
+      "id": "E03",
+      "source": "censor",
+      "target": "izvestia",
+      "topic": "encirclement",
+      "relation": "neutral",
+      "color": "grey",
+      "subtype": "candidate_conflict_unresolved",
+      "label": "Condition versus current claim",
+      "source_claim": "C2",
+      "target_claim": "I1",
+      "reason": "Butusov warns what could happen if Russian troops hold a position; Marochko says the city is already operationally encircled.",
+      "caveat": "Two districts versus one city, conditional versus current wording, and unknown observation times prevent a confirmed contradiction.",
+      "review_status": "AI-assisted proposed claim relation; human review pending",
+      "directed": false,
+      "direction": "undirected",
+      "direction_reason": "This comparison records a relation between two claims without assigning an evidential direction."
+    },
+    {
+      "id": "E04",
+      "source": "ft",
+      "target": "kyivpost",
+      "topic": "shelling",
+      "relation": "supportive",
+      "color": "green",
+      "subtype": "partial_factual_support",
+      "label": "Supports the city-shelling part",
+      "source_claim": "FT02",
+      "target_claim": "KI04",
+      "reason": "FT’s report that artillery damaged defenses around Sievierodonetsk supports the Sievierodonetsk artillery component of the General Staff’s broader attack report.",
+      "caveat": "Partial support only. FT02 does not establish KI04’s separate airstrike claim, attacks on Novozvanivka, or an identical observation time. Both may draw on Ukrainian military information; this is not independent verification.",
+      "review_status": "AI-assisted proposed claim relation; human review pending",
+      "directed": true,
+      "direction": "source_to_target",
+      "direction_reason": "FT02 supplies a reason for the specified part of KI04. The arrow describes the analyst’s reasoning; it does not mean either article responds to or endorses the other.",
+      "support_scope": "Russian artillery attacks around Sievierodonetsk.",
+      "unsupported_parts": "Airstrikes, the other named locations, and an exact shared attack or time."
+    },
+    {
+      "id": "E05",
+      "source": "censor",
+      "target": "ft",
+      "topic": "resolve",
+      "relation": "supportive",
+      "color": "green",
+      "subtype": "partial_premise_support",
+      "label": "Supports the holding-ground premise",
+      "source_claim": "C4",
+      "target_claim": "FT09",
+      "reason": "Butusov’s report that Russian assaults were repelled supports the premise in FT’s analysis that Ukrainian troops are holding positions rather than retreating.",
+      "caveat": "Partial support only. Repelling some attacks does not establish every unit’s position or prove that the defense caused extra time for Western weapon deliveries. The passages do not establish identical attacks or observation times.",
+      "review_status": "AI-assisted proposed claim relation; human review pending",
+      "directed": true,
+      "direction": "source_to_target",
+      "direction_reason": "C4 supplies a reason for the specified part of FT09. The arrow describes the analyst’s reasoning; it does not mean either article responds to or endorses the other.",
+      "support_scope": "The holding-ground premise of FT09.",
+      "unsupported_parts": "The claimed effect on weapon-delivery time or the status of every Ukrainian unit."
+    },
+    {
+      "id": "E06",
+      "source": "censor",
+      "target": "izvestia",
+      "topic": "routes",
+      "relation": "neutral",
+      "color": "grey",
+      "subtype": "route_identity_unknown",
+      "label": "Road and bridge are not matched",
+      "source_claim": "C3",
+      "target_claim": "I3",
+      "reason": "Butusov allows for one smaller road; Izvestia describes one bridge under fire.",
+      "caveat": "Neither route is named clearly enough to identify them as the same exit. Under fire is not the same as physically closed.",
+      "review_status": "AI-assisted proposed claim relation; human review pending",
+      "directed": false,
+      "direction": "undirected",
+      "direction_reason": "This comparison records a relation between two claims without assigning an evidential direction."
+    },
+    {
+      "id": "E07",
+      "source": "izvestia",
+      "target": "censor",
+      "topic": "reinforcement",
+      "relation": "supportive",
+      "color": "green",
+      "subtype": "historical_contextual_support",
+      "label": "Shortages give a reason for help",
+      "source_claim": "I4",
+      "target_claim": "C6",
+      "reason": "The reported lack of reinforcements and heavy equipment in the video gives historical context for Butusov’s later recommendation to send reinforcements.",
+      "caveat": "Contextual support only. Izvestia describes a video published May19; its recording time, unit and authenticity are not checked here. A reported earlier shortage does not prove a current shortage across the whole area or a need for different commanders.",
+      "review_status": "AI-assisted proposed claim relation; human review pending",
+      "directed": true,
+      "direction": "source_to_target",
+      "direction_reason": "I4 supplies a reason for the specified part of C6. The arrow describes the analyst’s reasoning; it does not mean either article responds to or endorses the other.",
+      "support_scope": "The reinforcement part of Butusov’s recommendation.",
+      "unsupported_parts": "The command-quality recommendation, current shortages in every unit, and verification of the video."
+    },
+    {
+      "id": "E08",
+      "source": "ft",
+      "target": "censor",
+      "topic": "reinforcement",
+      "relation": "supportive",
+      "color": "green",
+      "subtype": "contextual_reason_support",
+      "label": "Weapon shortage supports more help",
+      "source_claim": "FT11",
+      "target_claim": "C6",
+      "reason": "The heavy-weapons shortage reported by Ukrainian and Western officials gives a reason for the reinforcement part of Butusov’s recommendation.",
+      "caveat": "Contextual reasoning, not a proved cause. A shortage for counterattacks does not establish every local defensive need, the right kind of reinforcement, or poor command. The quoted officials’ view is distinct from an FT policy recommendation.",
+      "review_status": "AI-assisted proposed claim relation; human review pending",
+      "directed": true,
+      "direction": "source_to_target",
+      "direction_reason": "FT11 supplies a reason for the specified part of C6. The arrow describes the analyst’s reasoning; it does not mean either article responds to or endorses the other.",
+      "support_scope": "A reason to consider additional weapons or support.",
+      "unsupported_parts": "The specific command changes, personnel needs, or whether reinforcements would solve the tactical problem."
+    },
+    {
+      "id": "E09",
+      "source": "censor",
+      "target": "izvestia",
+      "topic": "resolve",
+      "relation": "neutral",
+      "color": "grey",
+      "subtype": "speakers_dates_units_differ",
+      "label": "Different soldiers and dates",
+      "source_claim": "C5",
+      "target_claim": "I4",
+      "reason": "Butusov describes a will to defend Luhansk. Izvestia describes some soldiers’ reported refusal to defend the city without support.",
+      "caveat": "The video is dated May 19; the unit and recording time are unknown. Some soldiers’ complaint does not negate all soldiers’ resolve.",
+      "review_status": "AI-assisted proposed claim relation; human review pending",
+      "directed": false,
+      "direction": "undirected",
+      "direction_reason": "This comparison records a relation between two claims without assigning an evidential direction."
+    },
+    {
+      "id": "E10",
+      "source": "censor",
+      "target": "izvestia",
+      "topic": "resolve",
+      "relation": "neutral",
+      "color": "grey",
+      "subtype": "intent_scope_differs",
+      "label": "Related resolve, different target",
+      "source_claim": "C5",
+      "target_claim": "I5",
+      "reason": "Both speakers express willingness to defend, but one names the Luhansk region and the other their homeland with better support.",
+      "caveat": "The specific action, unit and date are not identical. Shared broad sentiment does not establish the same tactical position.",
+      "review_status": "AI-assisted proposed claim relation; human review pending",
+      "directed": false,
+      "direction": "undirected",
+      "direction_reason": "This comparison records a relation between two claims without assigning an evidential direction."
+    },
+    {
+      "id": "E11",
+      "source": "ft",
+      "target": "censor",
+      "topic": "framing",
+      "relation": "neutral",
+      "color": "grey",
+      "subtype": "shared_wording_only",
+      "label": "Same wording; no evidence direction",
+      "source_claim": "FT12",
+      "target_claim": "C7",
+      "reason": "FT and Censor.NET both use occupation language for Russian forces. Matching a label is a wording similarity; one article’s label does not establish the truth of the other article’s characterization.",
+      "caveat": "This is a symmetric wording comparison. It is not a supportive evidence arrow, proof of occupation, or agreement on every factual or policy claim.",
+      "review_status": "AI-assisted proposed claim relation; human review pending",
+      "directed": false,
+      "direction": "undirected",
+      "direction_reason": "This comparison records a relation between two claims without assigning an evidential direction."
+    },
+    {
+      "id": "E12",
+      "source": "censor",
+      "target": "izvestia",
+      "topic": "framing",
+      "relation": "neutral",
+      "color": "grey",
+      "subtype": "framing_contrast_scope_differs",
+      "label": "Different wording; scope differs",
+      "source_claim": "C7",
+      "target_claim": "I6",
+      "reason": "Censor.NET calls forces occupiers in its road-advance lead. Izvestia calls Russia’s wider operation protective in background text.",
+      "caveat": "This is a useful framing contrast, but the stance targets differ. It is not a confirmed contradiction about the city battle.",
+      "review_status": "AI-assisted proposed claim relation; human review pending",
+      "directed": false,
+      "direction": "undirected",
+      "direction_reason": "This comparison records a relation between two claims without assigning an evidential direction."
+    },
+    {
+      "id": "E13",
+      "source": "ft",
+      "target": "izvestia",
+      "topic": "framing",
+      "relation": "neutral",
+      "color": "grey",
+      "subtype": "framing_contrast_scope_differs",
+      "label": "Battle wording versus war background",
+      "source_claim": "FT12",
+      "target_claim": "I6",
+      "reason": "FT uses occupation language about the potential encirclement. Izvestia uses protective-purpose language about the wider Donbas operation.",
+      "caveat": "A separate, broader-war comparison could examine opposing frames. This event graph keeps the scope mismatch visible instead of marking a red factual contradiction.",
+      "review_status": "AI-assisted proposed claim relation; human review pending",
+      "directed": false,
+      "direction": "undirected",
+      "direction_reason": "This comparison records a relation between two claims without assigning an evidential direction."
+    }
+  ],
+  "excluded": [
+    {
+      "outlet": "CNN",
+      "reason": "Cloudflare and SAP leaving Russia: technology and sanctions, not this battle."
+    },
+    {
+      "outlet": "European Pravda",
+      "reason": "An editorial about territorial concessions, not the specific city offensive."
+    },
+    {
+      "outlet": "TASS",
+      "reason": "Conditions for peace talks, not this battle."
+    },
+    {
+      "outlet": "Sputnik",
+      "reason": "A general radio-show outline; no specific city or road claim in the saved text."
+    },
+    {
+      "outlet": "China Daily",
+      "reason": "Shoigu’s general war aims; no specific Sievierodonetsk or road account."
+    },
+    {
+      "outlet": "Global Times",
+      "reason": "Hungary’s emergency powers, not this battle."
+    }
+  ],
+  "method": {
+    "country_note": "Outlet country means origin. Source country means stated institutional/location association, not assumed citizenship. Unknown remains unknown.",
+    "claim_type_note": "Fact claim means a checkable assertion, not an independently verified fact. Opinions, predictions, intentions and wording are separate.",
+    "edge_note": "All 13 claim connections for the event are shown together. Topics remain descriptions, not filters. Green arrows mean a source claim supplies a reason or partial support for a target claim; the stated limits are part of the relation. Grey comparisons are undirected. The 25 claims do not establish a direct contradiction, so this event has no red edges.",
+    "attention_note": "Attention is judged from the saved article body and paragraph allocation; it is not an outlet-wide bias score.",
+    "endorsement_note": "Quoting a speaker is not endorsement. Outlet view is stated, inferred from wording, or not stated.",
+    "annotation_status": "AI-assisted research example; proposed claim relations need human review.",
+    "excluded_claims": "Other Donbas locations in the Kyiv brief and Izvestia’s mid-February blame claim are outside the narrow event comparison.",
+    "support_note": "Support is an analyst-assigned relation between specific propositions, not political approval, article-to-article endorsement, verified truth, or proof of independent corroboration. An arrow may support only a named part of a compound claim. The reverse arrow is not implied.",
+    "direction_note": "Supportive links use source claim → target claim. Logical contradiction is symmetric: if A and B cannot both be true under matching definitions, time and place, the incompatibility holds both ways. A one-way red challenge is appropriate only when a source explicitly denies or rebuts the matching target claim. None is established in this sample; no arbitrary red arrow is added.",
+    "scope_note": "One event can contain different places, dates and claim types. Keep the city, wider pocket, two-city area, highway and bridge separate. Operational encirclement or a route under fire can coexist with an incomplete physical ring. An event-wide display does not remove these claim-level limits.",
+    "multigraph_note": "Several distinct claim relations may join the same two outlet nodes. Each keeps its own ID, claim endpoints, direction, reason and limits. A link never summarizes the whole outlet."
+  }
+}
