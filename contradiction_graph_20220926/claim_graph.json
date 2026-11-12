@@ -1207,23 +1207,6 @@
     },
     {
       "id": "E08",
-      "source": "cnn",
-      "target": "ft",
-      "topic": "risk",
-      "relation": "neutral",
-      "color": "grey",
-      "source_claim": "CNN02",
-      "target_claim": "FT02",
-      "label": "No public preparations versus future risk",
-      "subtype": "scope_or_certainty_difference",
-      "reason": "CNN describes what was publicly reported at the time; Rachman argues that future use might be possible under a specific condition.",
-      "caveat": "The absence of public reports of preparation does not rule out future use.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
-      "directed": false,
-      "direction": "undirected"
-    },
-    {
-      "id": "E09",
       "source": "kyivpost",
       "target": "izvestia",
       "topic": "us_warning",
@@ -1240,7 +1223,7 @@
       "direction": "undirected"
     },
     {
-      "id": "E10",
+      "id": "E09",
       "source": "cnn",
       "target": "tass",
       "topic": "risk",
@@ -1257,7 +1240,7 @@
       "direction": "undirected"
     },
     {
-      "id": "E11",
+      "id": "E10",
       "source": "cnn",
       "target": "ft",
       "topic": "us_warning",
