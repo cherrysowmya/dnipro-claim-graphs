@@ -1512,9 +1512,9 @@
   },
   "framing_network": {
     "id": "sievierodonetsk_20220525_framing",
-    "label": "Framing / lensing contradictions",
-    "description": "Opposing lenses on Russian military action and Ukrainian defense around Sievierodonetsk.",
-    "definition": "A framing comparison examines the labels, value, agency or consequences foregrounded in the selected passages. Different roles, dates and places remain explicit for review.",
+    "label": "Framing / lensing network",
+    "description": "Shared and contrasting lenses within Sievierodonetsk offensive.",
+    "definition": "A framing comparison examines how selected passages assign meaning, agency, value, certainty or attention. Supportive links reinforce the specified framing; red links mark proposed framing contradictions. Original speakers, evidence and uncertainty remain attached to each claim.",
     "topics": [
       {
         "id": "lens_military_role",
@@ -1535,6 +1535,11 @@
         "id": "lens_meaning_of_continued_defense",
         "label": "Meaning of continued defense",
         "scope_note": "This comparison concerns the lens applied to the selected passages. Review its shared focus, source attribution and claim-specific limits."
+      },
+      {
+        "id": "lens_support_needed_for_continued_defense",
+        "label": "Support needed for continued defense",
+        "scope_note": "Compare the selected passages’ framing only. Preserve their speakers, setting, uncertainty and the limited support named in the connection."
       }
     ],
     "edges": [
@@ -1657,6 +1662,81 @@
         "direction_reason": "FT09 is proposed to contradict the framing in I4. Direction follows the analyst-assigned comparison order.",
         "framing_basis": "Analyst interpretation of the selected source passages.",
         "review_status": "AI-assisted proposed framing comparison; human review pending"
+      },
+      {
+        "id": "F06",
+        "source": "izvestia",
+        "target": "censor",
+        "source_claim": "I5",
+        "target_claim": "C5",
+        "topic": "lens_defenders_resolve",
+        "relation": "supportive",
+        "color": "green",
+        "directed": true,
+        "direction": "source_to_target",
+        "label": "Willingness to defend despite demands for better support supports Determination not to surrender",
+        "subtype": "framing_or_lensing_support",
+        "framing_dimension": "Defenders’ resolve",
+        "source_lens": "Willingness to defend despite demands for better support",
+        "target_lens": "Determination not to surrender",
+        "shared_focus": "How Ukrainian soldiers’ willingness to continue defending is presented",
+        "reason": "The soldiers quoted in Izvestia say they are not refusing to defend their homeland. That statement reinforces the willingness-to-defend part of Butusov’s account in Censor.NET, while adding conditions about support and command.",
+        "support_scope": "The limited willingness-to-defend lens, rather than a guarantee that every position will be held.",
+        "caveat": "The speakers and units are not established as the same. Defending the homeland is broader than holding every position in Luhansk. This does not establish an unconditional promise to defend Sievierodonetsk or prove that no soldiers withdrew.",
+        "confirmation_status": "proposed",
+        "direction_reason": "I5 reinforces the named part of C5’s framing. Direction records the analyst’s proposed support relation, not a response between articles.",
+        "framing_basis": "Analyst interpretation of the selected source passages.",
+        "review_status": "AI-assisted proposed framing relation; human review pending"
+      },
+      {
+        "id": "F07",
+        "source": "izvestia",
+        "target": "censor",
+        "source_claim": "I5",
+        "target_claim": "C6",
+        "topic": "lens_support_needed_for_continued_defense",
+        "relation": "supportive",
+        "color": "green",
+        "directed": true,
+        "direction": "source_to_target",
+        "label": "Soldiers tie continued defense to proper support and command supports Defense requires reinforcement and better decisions",
+        "subtype": "framing_or_lensing_support",
+        "framing_dimension": "Support needed for continued defense",
+        "source_lens": "Soldiers tie continued defense to proper support and command",
+        "target_lens": "Defense requires reinforcement and better decisions",
+        "shared_focus": "The importance of support and command for continued Ukrainian defense",
+        "reason": "The soldiers’ request for proper support and command in Izvestia supplies a concrete example of needs that reinforce Butusov’s support-and-command lens in Censor.NET.",
+        "support_scope": "The need to consider support and command when describing continued defense.",
+        "caveat": "The quoted soldiers and Butusov are different speakers, and their units and remedies are not established as identical. The soldiers’ request does not prove Butusov’s particular reinforcements or command changes would succeed. Reporting the request does not establish Izvestia’s endorsement.",
+        "confirmation_status": "proposed",
+        "direction_reason": "I5 reinforces the named part of C6’s framing. Direction records the analyst’s proposed support relation, not a response between articles.",
+        "framing_basis": "Analyst interpretation of the selected source passages.",
+        "review_status": "AI-assisted proposed framing relation; human review pending"
+      },
+      {
+        "id": "F08",
+        "source": "ft",
+        "target": "censor",
+        "source_claim": "FT11",
+        "target_claim": "C6",
+        "topic": "lens_support_needed_for_continued_defense",
+        "relation": "supportive",
+        "color": "green",
+        "directed": true,
+        "direction": "source_to_target",
+        "label": "Military options constrained by shortages of heavy weapons supports Defense requires reinforcement and better decisions",
+        "subtype": "framing_or_lensing_support",
+        "framing_dimension": "Support needed for continued defense",
+        "source_lens": "Military options constrained by shortages of heavy weapons",
+        "target_lens": "Defense requires reinforcement and better decisions",
+        "shared_focus": "The importance of adequate resources for Ukrainian military action",
+        "reason": "The officials’ warning in FT makes equipment shortages central to Ukraine’s military limits. It supplies a reason for the material-support part of Butusov’s call in Censor.NET for reinforcement, reinforcing a resource-dependent defense lens.",
+        "support_scope": "The material-support part of C6, rather than its separate judgment about command decisions.",
+        "caveat": "FT11 concerns effective counterattacks; C6 concerns the defense around Sievierodonetsk and Lysychansk. Heavy weapons are only part of reinforcement. This cross-task comparison does not establish the success of any particular remedy.",
+        "confirmation_status": "proposed",
+        "direction_reason": "FT11 reinforces the named part of C6’s framing. Direction records the analyst’s proposed support relation, not a response between articles.",
+        "framing_basis": "Analyst interpretation of the selected source passages.",
+        "review_status": "AI-assisted proposed framing relation; human review pending"
       }
     ]
   }

@@ -1291,9 +1291,9 @@
   "within_article_relations": [],
   "framing_network": {
     "id": "nuclear_warnings_20220926_framing",
-    "label": "Framing / lensing contradictions",
-    "description": "Contrasting lenses on deterrence, nuclear blackmail and escalation responsibility.",
-    "definition": "A framing comparison examines the labels, value, agency or consequences foregrounded in the selected passages. Different roles, dates and places remain explicit for review.",
+    "label": "Framing / lensing network",
+    "description": "Shared and contrasting lenses within Nuclear warnings and possible responses.",
+    "definition": "A framing comparison examines how selected passages assign meaning, agency, value, certainty or attention. Supportive links reinforce the specified framing; red links mark proposed framing contradictions. Original speakers, evidence and uncertainty remain attached to each claim.",
     "topics": [
       {
         "id": "lens_escalation_responsibility",
@@ -1314,6 +1314,16 @@
         "id": "lens_how_to_treat_the_threats",
         "label": "How to treat the threats",
         "scope_note": "This comparison concerns the lens applied to the selected passages. Review its shared focus, source attribution and claim-specific limits."
+      },
+      {
+        "id": "lens_seriousness_of_nuclear_danger",
+        "label": "Seriousness of nuclear danger",
+        "scope_note": "Compare the selected passages’ framing only. Preserve their speakers, setting, uncertainty and the limited support named in the connection."
+      },
+      {
+        "id": "lens_resistance_to_nuclear_coercion",
+        "label": "Resistance to nuclear coercion",
+        "scope_note": "Compare the selected passages’ framing only. Preserve their speakers, setting, uncertainty and the limited support named in the connection."
       }
     ],
     "edges": [
@@ -1412,6 +1422,81 @@
         "direction_reason": "CNN04 is proposed to contradict the framing in FT01. Direction follows the analyst-assigned comparison order.",
         "framing_basis": "Analyst interpretation of the selected source passages.",
         "review_status": "AI-assisted proposed framing comparison; human review pending"
+      },
+      {
+        "id": "F05",
+        "source": "ft",
+        "target": "cnn",
+        "source_claim": "FT02",
+        "target_claim": "CNN05",
+        "topic": "lens_seriousness_of_nuclear_danger",
+        "relation": "supportive",
+        "color": "green",
+        "directed": true,
+        "direction": "source_to_target",
+        "label": "A possible last-resort nuclear gamble supports A dangerous war with rising nuclear risk",
+        "subtype": "framing_or_lensing_support",
+        "framing_dimension": "Seriousness of nuclear danger",
+        "source_lens": "A possible last-resort nuclear gamble",
+        "target_lens": "A dangerous war with rising nuclear risk",
+        "shared_focus": "How to understand the danger behind Russia’s nuclear warnings",
+        "reason": "Rachman’s conditional scenario—Putin might use a nuclear weapon rather than accept humiliation and defeat—provides a possible mechanism reinforcing CNN’s broader assessment that the war has become dangerously risky.",
+        "support_scope": "The danger lens and a possible mechanism behind it.",
+        "caveat": "FT02 is a columnist’s prediction, with might and if conditions. This does not establish that Russia has decided to use nuclear weapons or that such use is likely.",
+        "confirmation_status": "proposed",
+        "direction_reason": "FT02 reinforces the named part of CNN05’s framing. Direction records the analyst’s proposed support relation, not a response between articles.",
+        "framing_basis": "Analyst interpretation of the selected source passages.",
+        "review_status": "AI-assisted proposed framing relation; human review pending"
+      },
+      {
+        "id": "F06",
+        "source": "cnn",
+        "target": "ft",
+        "source_claim": "CNN05",
+        "target_claim": "FT01",
+        "topic": "lens_seriousness_of_nuclear_danger",
+        "relation": "supportive",
+        "color": "green",
+        "directed": true,
+        "direction": "source_to_target",
+        "label": "Public and private warnings signal heightened danger supports Nuclear warnings must be taken very seriously",
+        "subtype": "framing_or_lensing_support",
+        "framing_dimension": "Seriousness of nuclear danger",
+        "source_lens": "Public and private warnings signal heightened danger",
+        "target_lens": "Nuclear warnings must be taken very seriously",
+        "shared_focus": "The seriousness attached to Russian nuclear warnings",
+        "reason": "CNN’s analysis interprets the need for unusually strong US warnings as a sign of danger. This gives an interpretive reason supporting the seriousness Sullivan urges in the FT passage.",
+        "support_scope": "The selected assessment that the warnings deserve serious attention.",
+        "caveat": "The source is CNN’s analysis and the target is Sullivan’s quoted judgment. This does not establish nuclear preparations or independent corroboration of US intelligence. Related US warnings inform the passages.",
+        "confirmation_status": "proposed",
+        "direction_reason": "CNN05 reinforces the named part of FT01’s framing. Direction records the analyst’s proposed support relation, not a response between articles.",
+        "framing_basis": "Analyst interpretation of the selected source passages.",
+        "review_status": "AI-assisted proposed framing relation; human review pending"
+      },
+      {
+        "id": "F07",
+        "source": "cnn",
+        "target": "ft",
+        "source_claim": "CNN04",
+        "target_claim": "FT03",
+        "topic": "lens_resistance_to_nuclear_coercion",
+        "relation": "supportive",
+        "color": "green",
+        "directed": true,
+        "direction": "source_to_target",
+        "label": "Remain resolute and keep backing Ukraine supports Do not let nuclear blackmail end support for Ukraine",
+        "subtype": "framing_or_lensing_support",
+        "framing_dimension": "Resistance to nuclear coercion",
+        "source_lens": "Remain resolute and keep backing Ukraine",
+        "target_lens": "Do not let nuclear blackmail end support for Ukraine",
+        "shared_focus": "Whether nuclear threats should change Western support for Ukraine",
+        "reason": "Truss’s stated resolve to keep backing Ukraine despite Putin’s threatening language is a concrete example reinforcing the broader FT portrayal of Western policymakers refusing to let nuclear pressure stop their support.",
+        "support_scope": "The shared resolve to continue support despite nuclear pressure.",
+        "caveat": "CNN quotes Truss; FT describes Western policymakers collectively. This is not proof that all Western governments hold identical policies. Taking danger seriously can coexist with continuing support. Quoting these positions does not establish either outlet’s endorsement.",
+        "confirmation_status": "proposed",
+        "direction_reason": "CNN04 reinforces the named part of FT03’s framing. Direction records the analyst’s proposed support relation, not a response between articles.",
+        "framing_basis": "Analyst interpretation of the selected source passages.",
+        "review_status": "AI-assisted proposed framing relation; human review pending"
       }
     ]
   }
