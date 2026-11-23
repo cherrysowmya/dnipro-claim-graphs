@@ -1236,10 +1236,10 @@
       "reason": "CNN treats the need for US warnings against Russian nuclear use as a sign of the danger of the war. Ryabkov, quoted by TASS, frames Washington’s course as aggressive and as bringing everyone closer to danger. The red comparison flags contrasting responsibility narratives around the US role in escalation.",
       "caveat": "CNN does not say US policy can never add risk, and Ryabkov discusses Washington’s broader course. These explanations can coexist as causes. This is a proposed blame-framing conflict, not a matched denial of a single cause.",
       "review_status": "AI-assisted proposed claim relation; human review pending",
-      "directed": false,
-      "direction": "undirected",
+      "directed": true,
+      "direction": "source_to_target",
       "confirmation_status": "proposed",
-      "direction_reason": "This comparison flags a possible conflict symmetrically. Neither exact passage explicitly rebuts the other."
+      "direction_reason": "Analyst-assigned comparison: CNN05 is proposed to contradict T02. The arrow follows this source-to-target order."
     },
     {
       "id": "E10",
@@ -1282,7 +1282,7 @@
   "method": {
     "country_note": "Outlet countries describe origin. Claimant countries describe an office, organization or stated residence, not assumed citizenship.",
     "claim_type_note": "A fact claim is a checkable statement, not a fact verified by this graph. Opinions, predictions, legal positions and promises are marked separately.",
-    "edge_note": "Green arrows identify support for specified parts of claims. Grey comparisons have no assigned support or conflict. Solid red connections flag proposed conflicts in claims, assessments, policies or framing. Each red comparison retains the scope or timing differences that may resolve it during human review.",
+    "edge_note": "Green arrows point from a supporting claim to the claim receiving support. Grey comparisons have no assigned direction. Solid red arrows point from a source claim to a target claim it is proposed to contradict. Red direction follows the analyst-assigned comparison order. Every proposed conflict retains its reasoning and scope limits for human review.",
     "attention_note": "Attention is a qualitative reading of the saved article, with paragraph locators; it is not a measured share of words.",
     "endorsement_note": "A quoted speaker’s view is separate from the article narrator’s view. No outlet-wide position is inferred from one article.",
     "annotation_status": "AI-assisted draft; human review pending",

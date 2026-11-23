@@ -1637,10 +1637,10 @@
       "subtype": "environmental_scope_tension",
       "reason": "CNN’s reported account says effects would be limited to where the gas plumes were located. China Daily quotes an environmental campaigner who says methane contributes to warming after it reaches the atmosphere. A literal local-only reading conflicts with that broader effect.",
       "caveat": "CNN’s passage may concern immediate local hazards, while the campaigner discusses a broader effect over time. The overlap in scope needs review.",
-      "directed": false,
-      "direction": "undirected",
+      "directed": true,
+      "direction": "source_to_target",
       "confirmation_status": "proposed",
-      "direction_reason": "Neither passage directly denies or rebuts the other claim."
+      "direction_reason": "Analyst-assigned comparison: CNN07 is proposed to contradict CD03. The arrow follows this source-to-target order."
     },
     {
       "id": "E14",
@@ -1656,10 +1656,10 @@
       "subtype": "event_timing_discrepancy",
       "reason": "China Daily reports bubbles near the Nord Stream 2 leak by Monday, September 26. Global Times places the leaks on the last day of voting, September 27. If that sentence dates the start of the leaks, the accounts disagree.",
       "caveat": "Global Times also says in paragraph 5 that two leaks began on Monday. The final-day reference could describe when the event drew attention or continued. The September 23 sample supplies the voting timetable.",
-      "directed": false,
-      "direction": "undirected",
+      "directed": true,
+      "direction": "source_to_target",
       "confirmation_status": "proposed",
-      "direction_reason": "Neither passage directly denies or rebuts the other claim."
+      "direction_reason": "Analyst-assigned comparison: CD05 is proposed to contradict GT09. The arrow follows this source-to-target order."
     }
   ],
   "excluded": [
@@ -1692,7 +1692,7 @@
   "method": {
     "country_note": "Outlet countries describe origin. Claimant countries describe an office, organization or stated residence, not assumed citizenship.",
     "claim_type_note": "A fact claim is a checkable statement, not a fact verified by this graph. Opinions, predictions, legal positions and promises are marked separately.",
-    "edge_note": "Green arrows point from a claim that supplies a specific example, premise or attribution to the claim it supports. Grey comparisons have no evidential direction. A solid red line marks a proposed contradiction. It gets an arrow only if a speaker explicitly rebuts the same claim. Repeated reporting from the same source is not independent evidence.",
+    "edge_note": "Green arrows point from a supporting claim to the claim receiving support. Grey comparisons have no assigned direction. Solid red arrows point from a source claim to a target claim it is proposed to contradict. Red direction follows the analyst-assigned comparison order. Every proposed conflict retains its reasoning and scope limits for human review.",
     "attention_note": "Attention is a qualitative reading of the saved article, with paragraph locators; it is not a measured share of words.",
     "endorsement_note": "A quoted speaker’s view is separate from the article narrator’s view. No outlet-wide position is inferred from one article.",
     "annotation_status": "AI-assisted draft; human review pending",

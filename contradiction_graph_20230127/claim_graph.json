@@ -870,10 +870,10 @@
       "reason": "Censor quotes 60 PT-91s; European Pravda quotes Morawiecki saying 30 of the 60 tanks are PT-91s.",
       "caveat": "Both appear to concern the same January 27 pledge. Red marks incompatible reported model counts, not proof of which quote is accurate or what was eventually delivered.",
       "review_status": "AI-assisted proposed comparison; human review pending",
-      "directed": false,
-      "direction": "undirected",
+      "directed": true,
+      "direction": "source_to_target",
       "confirmation_status": "proposed",
-      "direction_reason": "The passages present conflicting claims or assessments. Neither explicitly rebuts the matching claim in the other report."
+      "direction_reason": "Analyst-assigned comparison: C01 is proposed to contradict EP02. The arrow follows this source-to-target order."
     },
     {
       "id": "E07",
@@ -889,10 +889,10 @@
       "reason": "Censor reports 60 PT-91s while Kyiv Independent reports 30 PT-91s within 60 total tanks.",
       "caveat": "The discrepancy concerns the printed statements, not a verified inventory of delivered tanks.",
       "review_status": "AI-assisted proposed comparison; human review pending",
-      "directed": false,
-      "direction": "undirected",
+      "directed": true,
+      "direction": "source_to_target",
       "confirmation_status": "proposed",
-      "direction_reason": "The passages present conflicting claims or assessments. Neither explicitly rebuts the matching claim in the other report."
+      "direction_reason": "Analyst-assigned comparison: C01 is proposed to contradict KI03. The arrow follows this source-to-target order."
     },
     {
       "id": "E08",
@@ -908,10 +908,10 @@
       "reason": "Izvestia quotes Yermak saying 60 PT-91s; European Pravda quotes the prime minister specifying 30 PT-91s.",
       "caveat": "Different speakers may be relaying or rendering the package differently. Izvestia itself also quotes the prime minister’s 30-PT-91 figure.",
       "review_status": "AI-assisted proposed comparison; human review pending",
-      "directed": false,
-      "direction": "undirected",
+      "directed": true,
+      "direction": "source_to_target",
       "confirmation_status": "proposed",
-      "direction_reason": "The passages present conflicting claims or assessments. Neither explicitly rebuts the matching claim in the other report."
+      "direction_reason": "Analyst-assigned comparison: I01 is proposed to contradict EP02. The arrow follows this source-to-target order."
     },
     {
       "id": "E09",
@@ -991,10 +991,10 @@
       "review_status": "AI-assisted proposed comparison; human review pending",
       "relation": "contradiction",
       "color": "red",
-      "directed": false,
-      "direction": "undirected",
+      "directed": true,
+      "direction": "source_to_target",
       "confirmation_status": "proposed",
-      "direction_reason": "The passages present conflicting claims or assessments. Neither explicitly rebuts the matching claim in the other report.",
+      "direction_reason": "Analyst-assigned comparison: C01 is proposed to contradict I02. The arrow follows this source-to-target order.",
       "label": "Censor’s 60 PT-91s versus Izvestia’s 30",
       "reason": "Censor.NET quotes Morawiecki offering 60 PT-91s. Izvestia quotes the same prime minister specifying 30 PT-91s among 60 tanks.",
       "caveat": "The proposed conflict concerns the printed counts for the January 27 pledge. The accurate wording and package composition require review.",
@@ -1010,10 +1010,10 @@
       "review_status": "AI-assisted proposed comparison; human review pending",
       "relation": "contradiction",
       "color": "red",
-      "directed": false,
-      "direction": "undirected",
+      "directed": true,
+      "direction": "source_to_target",
       "confirmation_status": "proposed",
-      "direction_reason": "The passages present conflicting claims or assessments. Neither explicitly rebuts the matching claim in the other report.",
+      "direction_reason": "Analyst-assigned comparison: I01 is proposed to contradict KI03. The arrow follows this source-to-target order.",
       "label": "Izvestia’s Yermak quotation versus the 30-tank account",
       "reason": "Izvestia quotes Yermak specifying 60 PT-91s. Kyiv Independent reports Morawiecki specifying 30 PT-91s within the same total of 60 tanks.",
       "caveat": "The reports attribute the figures to different speakers. Izvestia also prints Morawiecki’s 30-PT-91 figure.",
@@ -1055,7 +1055,7 @@
   "method": {
     "country_note": "Outlet countries describe origin. Claimant countries describe an office, organization or stated residence, not assumed citizenship.",
     "claim_type_note": "A fact claim is a checkable statement, not a fact verified by this graph. Opinions, predictions, legal positions and promises are marked separately.",
-    "edge_note": "Green arrows point from a claim supplying a reason, example or reported statement to the specified part of another claim. Grey comparisons have no assigned evidential direction. Solid red connections mark proposed contradictions between specific claims or assessments. An arrow is used for an explicit rebuttal of a matching claim. Repeated reports of the same statement share a source.",
+    "edge_note": "Green arrows point from a supporting claim to the claim receiving support. Grey comparisons have no assigned direction. Solid red arrows point from a source claim to a target claim it is proposed to contradict. Red direction follows the analyst-assigned comparison order. Every proposed conflict retains its reasoning and scope limits for human review.",
     "attention_note": "Attention is a qualitative reading of the saved article, with paragraph locators; it is not a measured share of words.",
     "endorsement_note": "A quoted speaker’s view is separate from the article narrator’s view. No outlet-wide position is inferred from one article.",
     "annotation_status": "AI-assisted draft; human review pending",

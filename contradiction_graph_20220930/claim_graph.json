@@ -1633,10 +1633,10 @@
       "reason": "The G7 and EU reject Russian sovereignty over the four regions. Putin endorses their incorporation into Russia. These are opposing recognition positions on the same claim.",
       "caveat": "The speakers’ recognition positions oppose each other. Reports that each speaker holds that position can both be accurate. Human review should distinguish a narrative or policy conflict from a factual contradiction.",
       "review_status": "AI-assisted proposed comparison; human review pending",
-      "directed": false,
-      "direction": "undirected",
+      "directed": true,
+      "direction": "source_to_target",
       "confirmation_status": "proposed",
-      "direction_reason": "The passages present conflicting claims or assessments. Neither explicitly rebuts the matching claim in the other report."
+      "direction_reason": "Analyst-assigned comparison: CNN02 is proposed to contradict S02. The arrow follows this source-to-target order."
     },
     {
       "id": "E08",
@@ -1652,10 +1652,10 @@
       "reason": "Putin asserts a permanent Russian territorial claim while EU leaders reject the incorporation. The comparison proposes a conflict over the legitimacy and acceptance of that claim.",
       "caveat": "These are opposing territorial positions attributed to different actors. The comparison requires review as a normative conflict and says nothing about permanent physical control.",
       "review_status": "AI-assisted proposed comparison; human review pending",
-      "directed": false,
-      "direction": "undirected",
+      "directed": true,
+      "direction": "source_to_target",
       "confirmation_status": "proposed",
-      "direction_reason": "The passages present conflicting claims or assessments. Neither explicitly rebuts the matching claim in the other report."
+      "direction_reason": "Analyst-assigned comparison: C03 is proposed to contradict EP02. The arrow follows this source-to-target order."
     },
     {
       "id": "E09",
@@ -1671,10 +1671,10 @@
       "reason": "The FT editorial rejects the votes as sham; Putin presents the same votes as an unequivocal choice legitimizing joining Russia.",
       "caveat": "The FT’s sham-vote assessment conflicts with Putin’s use of the vote as a public mandate. Human review must compare the intended meaning of free choice and legitimacy in each passage.",
       "review_status": "AI-assisted proposed comparison; human review pending",
-      "directed": false,
-      "direction": "undirected",
+      "directed": true,
+      "direction": "source_to_target",
       "confirmation_status": "proposed",
-      "direction_reason": "The passages present conflicting claims or assessments. Neither explicitly rebuts the matching claim in the other report."
+      "direction_reason": "Analyst-assigned comparison: FT02 is proposed to contradict S01. The arrow follows this source-to-target order."
     },
     {
       "id": "E10",
@@ -1724,10 +1724,10 @@
       "reason": "Kuleba says Ukraine will continue recovering its land and restoring territorial integrity. Putin demands respect for the announced choice and says Russia will defend the territories it claims. Their positions assert opposing territorial objectives over the claimed regions.",
       "caveat": "Both actors can simultaneously hold these intentions. The proposed contradiction concerns political and territorial positions, rather than whether either speaker made the statement or whether a military outcome occurred.",
       "review_status": "AI-assisted proposed claim relation; human review pending",
-      "directed": false,
-      "direction": "undirected",
+      "directed": true,
+      "direction": "source_to_target",
       "confirmation_status": "proposed",
-      "direction_reason": "This comparison flags a possible conflict symmetrically. Neither exact passage explicitly rebuts the other."
+      "direction_reason": "Analyst-assigned comparison: KI01 is proposed to contradict S03. The arrow follows this source-to-target order."
     },
     {
       "id": "E13",
@@ -1760,10 +1760,10 @@
       "reason": "Putin excludes sovereignty over the four regions from negotiations. Zelensky’s position, recounted by Izvestia, requires Russian withdrawal from territory taken since February 24 before talks. The comparison flags potentially incompatible territorial starting positions for negotiations.",
       "caveat": "Izvestia does not date the recounted Ukrainian statement. Withdrawal and legal sovereignty are different propositions. Review their timing and territorial coverage before deciding whether the conditions are mutually incompatible.",
       "review_status": "AI-assisted proposed claim relation; human review pending",
-      "directed": false,
-      "direction": "undirected",
+      "directed": true,
+      "direction": "source_to_target",
       "confirmation_status": "proposed",
-      "direction_reason": "This comparison flags a possible conflict symmetrically. Neither exact passage explicitly rebuts the other."
+      "direction_reason": "Analyst-assigned comparison: CNN06 is proposed to contradict I03. The arrow follows this source-to-target order."
     },
     {
       "id": "E15",
@@ -1821,7 +1821,7 @@
   "method": {
     "country_note": "Outlet countries describe origin. Claimant countries describe an office, organization or stated residence, not assumed citizenship.",
     "claim_type_note": "A fact claim is a checkable statement, not a fact verified by this graph. Opinions, predictions, legal positions and promises are marked separately.",
-    "edge_note": "Green arrows identify support for specified parts of claims. Grey comparisons have no assigned support or conflict. Solid red connections flag proposed conflicts in claims, assessments, policies or framing. Each red comparison retains the scope or timing differences that may resolve it during human review.",
+    "edge_note": "Green arrows point from a supporting claim to the claim receiving support. Grey comparisons have no assigned direction. Solid red arrows point from a source claim to a target claim it is proposed to contradict. Red direction follows the analyst-assigned comparison order. Every proposed conflict retains its reasoning and scope limits for human review.",
     "attention_note": "Attention is a qualitative reading of the saved article, with paragraph locators; it is not a measured share of words.",
     "endorsement_note": "A quoted speaker’s view is separate from the article narrator’s view. No outlet-wide position is inferred from one article.",
     "annotation_status": "AI-assisted draft; human review pending",

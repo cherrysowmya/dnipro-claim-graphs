@@ -1503,10 +1503,10 @@
       "reason": "European Pravda reports a possible four-month F-16 training program. Sputnik recounts an earlier Pentagon estimate of eighteen months while describing a shift in expectations. The reported estimates differ substantially for training Ukrainian F-16 pilots.",
       "caveat": "Sputnik explicitly describes the eighteen-month estimate as an earlier February assessment. A revision over time or a difference in proficiency standards may explain the discrepancy. The red comparison is a proposed temporal-estimate conflict, not a same-time factual denial.",
       "review_status": "AI-assisted proposed claim relation; human review pending",
-      "directed": false,
-      "direction": "undirected",
+      "directed": true,
+      "direction": "source_to_target",
       "confirmation_status": "proposed",
-      "direction_reason": "This comparison flags a possible conflict symmetrically. Neither exact passage explicitly rebuts the other."
+      "direction_reason": "Analyst-assigned comparison: EP03 is proposed to contradict S03. The arrow follows this source-to-target order."
     },
     {
       "id": "E10",
@@ -1522,10 +1522,10 @@
       "reason": "Zelensky says the fighter-jet coalition will greatly enhance Ukraine’s air force. Officials quoted through CNN in TASS question the advisability of F-16 deliveries because of Russian air defenses. The comparison flags opposing assessments of the expected value of the aircraft initiative.",
       "caveat": "One statement welcomes a wider coalition and training decision, while the other assesses aircraft use against air defenses. Improved capability and limited missions can coexist. Review the missions, timeline and degree of improvement meant.",
       "review_status": "AI-assisted proposed claim relation; human review pending",
-      "directed": false,
-      "direction": "undirected",
+      "directed": true,
+      "direction": "source_to_target",
       "confirmation_status": "proposed",
-      "direction_reason": "This comparison flags a possible conflict symmetrically. Neither exact passage explicitly rebuts the other."
+      "direction_reason": "Analyst-assigned comparison: CNN05 is proposed to contradict T03. The arrow follows this source-to-target order."
     },
     {
       "id": "E11",
@@ -1628,7 +1628,7 @@
   "method": {
     "country_note": "Outlet countries describe origin. Claimant countries describe an office, organization or stated residence, not assumed citizenship.",
     "claim_type_note": "A fact claim is a checkable statement, not a fact verified by this graph. Opinions, predictions, legal positions and promises are marked separately.",
-    "edge_note": "Green arrows identify support for specified parts of claims. Grey comparisons have no assigned support or conflict. Solid red connections flag proposed conflicts in claims, assessments, policies or framing. Each red comparison retains the scope or timing differences that may resolve it during human review.",
+    "edge_note": "Green arrows point from a supporting claim to the claim receiving support. Grey comparisons have no assigned direction. Solid red arrows point from a source claim to a target claim it is proposed to contradict. Red direction follows the analyst-assigned comparison order. Every proposed conflict retains its reasoning and scope limits for human review.",
     "attention_note": "Attention is a qualitative reading of the saved article, with paragraph locators; it is not a measured share of words.",
     "endorsement_note": "A quoted speaker’s view is separate from the article narrator’s view. No outlet-wide position is inferred from one article.",
     "annotation_status": "AI-assisted draft; human review pending",

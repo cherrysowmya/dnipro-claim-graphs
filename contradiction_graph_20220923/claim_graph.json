@@ -2392,9 +2392,10 @@
       "reason": "CNN’s narrator calls the same votes illegal under international law; Matviyenko, quoted by TASS, says they follow international norms and the UN Charter.",
       "caveat": "Red marks incompatible legal positions on holding these votes. It does not establish a court ruling or identify one article as false.",
       "review_status": "AI-assisted proposed comparison; human review pending",
-      "direction_reason": "The named claims oppose each other on the compared issue. Neither passage explicitly rebuts the other.",
-      "directed": false,
-      "direction": "undirected"
+      "direction_reason": "Analyst-assigned comparison: CNN01 is proposed to contradict T01. The arrow follows this source-to-target order.",
+      "directed": true,
+      "direction": "source_to_target",
+      "confirmation_status": "proposed"
     },
     {
       "id": "E02",
@@ -2410,9 +2411,10 @@
       "reason": "CNN’s own legal statement opposes Matviyenko’s legal statement carried by Global Times.",
       "caveat": "The supportive legal view belongs to Matviyenko, not automatically to Global Times. This is the same Russian statement as in TASS, not a new independent source.",
       "review_status": "AI-assisted proposed comparison; human review pending",
-      "direction_reason": "The named claims oppose each other on the compared issue. Neither passage explicitly rebuts the other.",
-      "directed": false,
-      "direction": "undirected"
+      "direction_reason": "Analyst-assigned comparison: CNN01 is proposed to contradict GT03. The arrow follows this source-to-target order.",
+      "directed": true,
+      "direction": "source_to_target",
+      "confirmation_status": "proposed"
     },
     {
       "id": "E03",
@@ -2465,10 +2467,10 @@
       "reason": "CNN quotes a Ukrainian adviser alleging armed coercion in door-to-door voting. The FT quotes a Russian-appointed official presenting the votes as an expression of free will. The comparison flags opposing accounts of voters’ freedom.",
       "caveat": "The allegation concerns Mariupol and the official speaks from Berdyansk. CNN could not independently verify the allegation. Human review must decide whether the statements generalize to the same voting process or describe separate local conditions.",
       "review_status": "AI-assisted proposed claim relation; human review pending",
-      "directed": false,
-      "direction": "undirected",
+      "directed": true,
+      "direction": "source_to_target",
       "confirmation_status": "proposed",
-      "direction_reason": "This comparison flags a possible conflict symmetrically. Neither exact passage explicitly rebuts the other."
+      "direction_reason": "Analyst-assigned comparison: CNN02 is proposed to contradict FT01. The arrow follows this source-to-target order."
     },
     {
       "id": "E06",
@@ -2484,10 +2486,10 @@
       "reason": "Putin promises safe conditions for people to express their will. The FT says many people under Russian occupation and repression cannot freely choose. The comparison flags the conflict between the promised voting conditions and the reported experience.",
       "caveat": "A promise can coexist with failure to fulfill it. This is a proposed promise-versus-conditions conflict, requiring review of timing, location and whether the promised safety includes freedom from pressure.",
       "review_status": "AI-assisted proposed claim relation; human review pending",
-      "directed": false,
-      "direction": "undirected",
+      "directed": true,
+      "direction": "source_to_target",
       "confirmation_status": "proposed",
-      "direction_reason": "This comparison flags a possible conflict symmetrically. Neither exact passage explicitly rebuts the other."
+      "direction_reason": "Analyst-assigned comparison: CNN04 is proposed to contradict FT02. The arrow follows this source-to-target order."
     },
     {
       "id": "E07",
@@ -2520,10 +2522,10 @@
       "reason": "The FT says the methods fall far short of normal democratic standards. Matviyenko praises the preparations and says everything was done for transparency and openness. These are opposing assessments of the quality of the same voting exercise.",
       "caveat": "Administrative preparation and democratic fairness are different criteria. Matviyenko partly relays colleagues’ views. Review whether the positive statement covers the specific flaws criticized by the FT.",
       "review_status": "AI-assisted proposed claim relation; human review pending",
-      "directed": false,
-      "direction": "undirected",
+      "directed": true,
+      "direction": "source_to_target",
       "confirmation_status": "proposed",
-      "direction_reason": "This comparison flags a possible conflict symmetrically. Neither exact passage explicitly rebuts the other."
+      "direction_reason": "Analyst-assigned comparison: FT09 is proposed to contradict T03. The arrow follows this source-to-target order."
     },
     {
       "id": "E09",
@@ -2539,10 +2541,10 @@
       "reason": "The FT says Donetsk and Luhansk polling stations open only on the last day after four days of ballot-box visits. Izvestia says Donetsk in-person voting lasts during the first day. This is an apparent conflict in the reported voting schedule.",
       "caveat": "In-person voting may include mobile teams and may differ from voting inside polling stations. Check the original Russian wording, voting formats and timetable before resolving the discrepancy.",
       "review_status": "AI-assisted proposed claim relation; human review pending",
-      "directed": false,
-      "direction": "undirected",
+      "directed": true,
+      "direction": "source_to_target",
       "confirmation_status": "proposed",
-      "direction_reason": "This comparison flags a possible conflict symmetrically. Neither exact passage explicitly rebuts the other."
+      "direction_reason": "Analyst-assigned comparison: FT08 is proposed to contradict I04. The arrow follows this source-to-target order."
     },
     {
       "id": "E10",
@@ -2753,9 +2755,10 @@
       "reason": "CNN describes the voting areas as Russian-occupied Ukrainian territory; Izvestia’s own opening calls the Russian-held Zaporizhzhia areas liberated.",
       "caveat": "Red marks opposing interpretations of Russian control over the overlapping Zaporizhzhia territory. It is a framing clash, not a new factual verdict issued by the graph.",
       "review_status": "AI-assisted proposed comparison; human review pending",
-      "direction_reason": "The named claims oppose each other on the compared issue. Neither passage explicitly rebuts the other.",
-      "directed": false,
-      "direction": "undirected"
+      "direction_reason": "Analyst-assigned comparison: CNN08 is proposed to contradict I07. The arrow follows this source-to-target order.",
+      "directed": true,
+      "direction": "source_to_target",
+      "confirmation_status": "proposed"
     },
     {
       "id": "E22",
@@ -2771,9 +2774,10 @@
       "reason": "Global Times’s own narration says Russia-occupied Zaporizhzhia, while Izvestia’s own narration says liberated Zaporizhzhia territories.",
       "caveat": "This comparison is between narrator wording, rather than borrowed official quotations. It is an opposed frame, not proof of an outlet-wide policy.",
       "review_status": "AI-assisted proposed comparison; human review pending",
-      "direction_reason": "The named claims oppose each other on the compared issue. Neither passage explicitly rebuts the other.",
-      "directed": false,
-      "direction": "undirected"
+      "direction_reason": "Analyst-assigned comparison: GT07 is proposed to contradict I07. The arrow follows this source-to-target order.",
+      "directed": true,
+      "direction": "source_to_target",
+      "confirmation_status": "proposed"
     },
     {
       "id": "E23",
@@ -2855,7 +2859,7 @@
   "method": {
     "country_note": "Outlet country means origin. A source’s country means stated office, institution or residence; citizenship is not guessed. Russia-appointed offices in Ukrainian cities are identified as such.",
     "claim_type_note": "A fact claim is a statement that could be checked, not a fact verified by this graph. Legal interpretations, opinions, promises and framing are separate types.",
-    "edge_note": "Green arrows identify support for specified parts of claims. Grey comparisons have no assigned support or conflict. Solid red connections flag proposed conflicts in claims, assessments, policies or framing. Each red comparison retains the scope or timing differences that may resolve it during human review.",
+    "edge_note": "Green arrows point from a supporting claim to the claim receiving support. Grey comparisons have no assigned direction. Solid red arrows point from a source claim to a target claim it is proposed to contradict. Red direction follows the analyst-assigned comparison order. Every proposed conflict retains its reasoning and scope limits for human review.",
     "attention_note": "Attention is judged from the saved article text and paragraph allocation, not as an outlet-wide bias score.",
     "endorsement_note": "Quoted officials, residents and narrators have separate claim sections. Repeated TASS/Matviyenko statements are marked as shared sources, not independent findings.",
     "annotation_status": "AI-assisted proposed research graph; human review pending.",

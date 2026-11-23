@@ -1409,10 +1409,10 @@
       "reason": "Macron leaves future Western troop deployments open. Pistorius rules out German ground troops. These are contrasting national policy positions in the debate on Western deployments.",
       "caveat": "Macron’s Western-wide possibility and Germany’s refusal of its own participation can coexist. They concern different decision-makers and potentially different future conditions. This is a proposed policy contrast, not proof of an inconsistent deployment plan.",
       "review_status": "AI-assisted proposed claim relation; human review pending",
-      "directed": false,
-      "direction": "undirected",
+      "directed": true,
+      "direction": "source_to_target",
       "confirmation_status": "proposed",
-      "direction_reason": "This comparison flags a possible conflict symmetrically. Neither exact passage explicitly rebuts the other."
+      "direction_reason": "Analyst-assigned comparison: KI01 is proposed to contradict CD01. The arrow follows this source-to-target order."
     },
     {
       "id": "E06",
@@ -1479,10 +1479,10 @@
       "reason": "Väli evaluates the troop discussion as a useful message of support. Tanner calls Macron’s remarks a worrying signal. Their evaluations of the remarks point in different directions.",
       "caveat": "This proposed narrative comparison concerns the speakers’ evaluations. A message could be useful in one respect and worrying in another. Review should compare the reasons and scope before deciding on a contradiction.",
       "review_status": "AI-assisted proposed comparison; human review pending",
-      "directed": false,
-      "direction": "undirected",
+      "directed": true,
+      "direction": "source_to_target",
       "confirmation_status": "proposed",
-      "direction_reason": "The passages present conflicting claims or assessments. Neither explicitly rebuts the matching claim in the other report."
+      "direction_reason": "Analyst-assigned comparison: EP01 is proposed to contradict CD02. The arrow follows this source-to-target order."
     },
     {
       "id": "E10",
@@ -1617,7 +1617,7 @@
   "method": {
     "country_note": "Outlet countries describe origin. Claimant countries describe an office, organization or stated residence, not assumed citizenship.",
     "claim_type_note": "A fact claim is a checkable statement, not a fact verified by this graph. Opinions, predictions, legal positions and promises are marked separately.",
-    "edge_note": "Green arrows identify support for specified parts of claims. Grey comparisons have no assigned support or conflict. Solid red connections flag proposed conflicts in claims, assessments, policies or framing. Each red comparison retains the scope or timing differences that may resolve it during human review.",
+    "edge_note": "Green arrows point from a supporting claim to the claim receiving support. Grey comparisons have no assigned direction. Solid red arrows point from a source claim to a target claim it is proposed to contradict. Red direction follows the analyst-assigned comparison order. Every proposed conflict retains its reasoning and scope limits for human review.",
     "attention_note": "Attention is a qualitative reading of the saved article, with paragraph locators; it is not a measured share of words.",
     "endorsement_note": "A quoted speaker’s view is separate from the article narrator’s view. No outlet-wide position is inferred from one article.",
     "annotation_status": "AI-assisted draft; human review pending",

@@ -1723,10 +1723,10 @@
       "reason": "The FT recommends lasting assistance to protect Ukraine and deter new aggression. Experts quoted by Global Times characterize Western commitments as prolonging bloodshed. These are opposing evaluations of the purpose and effects of Western assistance.",
       "caveat": "The FT discusses protection including after the conflict; the experts discuss the ongoing war. Assistance could prolong present fighting and deter future aggression. Review the time horizon before treating the forecasts as incompatible.",
       "review_status": "AI-assisted proposed claim relation; human review pending",
-      "directed": false,
-      "direction": "undirected",
+      "directed": true,
+      "direction": "source_to_target",
       "confirmation_status": "proposed",
-      "direction_reason": "This comparison flags a possible conflict symmetrically. Neither exact passage explicitly rebuts the other."
+      "direction_reason": "Analyst-assigned comparison: FT03 is proposed to contradict GT03. The arrow follows this source-to-target order."
     },
     {
       "id": "E07",
@@ -1793,10 +1793,10 @@
       "reason": "CNN describes NATO as closer than at any time since the Cold War. Global Times highlights rising divergences behind an outward show of solidarity and the prospect of serious disunity. The passages offer contrasting assessments of alliance cohesion at the summit.",
       "caveat": "Comparatively stronger overall cooperation can coexist with disagreements on particular policies and future risks. Review the baseline, policy areas and distinction between current conditions and forecasts.",
       "review_status": "AI-assisted proposed claim relation; human review pending",
-      "directed": false,
-      "direction": "undirected",
+      "directed": true,
+      "direction": "source_to_target",
       "confirmation_status": "proposed",
-      "direction_reason": "This comparison flags a possible conflict symmetrically. Neither exact passage explicitly rebuts the other."
+      "direction_reason": "Analyst-assigned comparison: CNN04 is proposed to contradict GT01. The arrow follows this source-to-target order."
     },
     {
       "id": "E11",
@@ -1832,10 +1832,10 @@
       "reason": "China Daily’s guest writer says NATO has already persuaded Japan to open a Tokyo office the following year. Global Times reports that NATO would defer its decision until autumn or later. The comparison flags an apparent arranged-versus-pending contrast in the office plan.",
       "caveat": "Japan’s willingness to host and NATO’s unanimous institutional approval are separate decisions. The two accounts can both be accurate if they refer to different approval stages. Review the decision stage meant in each passage.",
       "review_status": "AI-assisted proposed claim relation; human review pending",
-      "directed": false,
-      "direction": "undirected",
+      "directed": true,
+      "direction": "source_to_target",
       "confirmation_status": "proposed",
-      "direction_reason": "This comparison flags a possible conflict symmetrically. Neither exact passage explicitly rebuts the other."
+      "direction_reason": "Analyst-assigned comparison: CD02 is proposed to contradict GT04. The arrow follows this source-to-target order."
     },
     {
       "id": "E13",
@@ -1851,10 +1851,10 @@
       "reason": "The FT editorial welcomes Sweden’s membership progress. The China Daily guest author evaluates Nordic NATO enlargement as harmful to regional stability.",
       "caveat": "This proposed comparison concerns opposing evaluations. Stronger NATO defenses and more confrontation could occur together, so the factual forecasts need separate review. The guest author’s views remain attributed.",
       "review_status": "AI-assisted proposed comparison; human review pending",
-      "directed": false,
-      "direction": "undirected",
+      "directed": true,
+      "direction": "source_to_target",
       "confirmation_status": "proposed",
-      "direction_reason": "The passages present conflicting claims or assessments. Neither explicitly rebuts the matching claim in the other report."
+      "direction_reason": "Analyst-assigned comparison: FT04 is proposed to contradict CD01. The arrow follows this source-to-target order."
     },
     {
       "id": "E14",
@@ -1901,7 +1901,7 @@
   "method": {
     "country_note": "Outlet countries describe origin. Claimant countries describe an office, organization or stated residence, not assumed citizenship.",
     "claim_type_note": "A fact claim is a checkable statement, not a fact verified by this graph. Opinions, predictions, legal positions and promises are marked separately.",
-    "edge_note": "Green arrows identify support for specified parts of claims. Grey comparisons have no assigned support or conflict. Solid red connections flag proposed conflicts in claims, assessments, policies or framing. Each red comparison retains the scope or timing differences that may resolve it during human review.",
+    "edge_note": "Green arrows point from a supporting claim to the claim receiving support. Grey comparisons have no assigned direction. Solid red arrows point from a source claim to a target claim it is proposed to contradict. Red direction follows the analyst-assigned comparison order. Every proposed conflict retains its reasoning and scope limits for human review.",
     "attention_note": "Attention is a qualitative reading of the saved article, with paragraph locators; it is not a measured share of words.",
     "endorsement_note": "A quoted speaker’s view is separate from the article narrator’s view. No outlet-wide position is inferred from one article.",
     "annotation_status": "AI-assisted draft; human review pending",

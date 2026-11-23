@@ -1255,9 +1255,9 @@
       "reason": "The FT reports a remaining 25 km gap before complete encirclement of the Ukrainian-held pocket. Marochko, quoted by Izvestia, says Sievierodonetsk is already operationally encircled. This is annotated as a proposed contradiction over whether encirclement has been achieved.",
       "caveat": "The FT describes the wider pocket and complete encirclement; Marochko describes the city and operational encirclement. These differ in place and definition and can coexist. Human review must decide whether the claims refer to matching battlefield conditions.",
       "review_status": "AI-assisted proposed claim relation; human review pending",
-      "directed": false,
-      "direction": "undirected",
-      "direction_reason": "Neither passage directly rebuts the other. The proposed conflict is compared symmetrically.",
+      "directed": true,
+      "direction": "source_to_target",
+      "direction_reason": "Analyst-assigned comparison: FT01 is proposed to contradict I1. The arrow follows this source-to-target order.",
       "confirmation_status": "proposed"
     },
     {
@@ -1274,9 +1274,9 @@
       "reason": "Butusov describes operational encirclement as a consequence if Russian forces secure a foothold. Marochko describes Sievierodonetsk as already operationally encircled. The passages give an apparent not-yet versus already contrast.",
       "caveat": "Butusov refers to troops around two cities and a condition; Marochko refers to one city. Observation times and operational definitions are not matched. These differences could resolve the proposed conflict.",
       "review_status": "AI-assisted proposed claim relation; human review pending",
-      "directed": false,
-      "direction": "undirected",
-      "direction_reason": "This comparison flags a possible conflict symmetrically. Neither exact passage explicitly rebuts the other.",
+      "directed": true,
+      "direction": "source_to_target",
+      "direction_reason": "Analyst-assigned comparison: C2 is proposed to contradict I1. The arrow follows this source-to-target order.",
       "confirmation_status": "proposed"
     },
     {
@@ -1391,9 +1391,9 @@
       "reason": "Butusov says Ukrainian soldiers do not intend to surrender Luhansk. Izvestia describes soldiers refusing to defend Sievierodonetsk without reinforcements and equipment. These are opposing accounts of willingness to continue defending the area.",
       "caveat": "The reported video was published May 19 and concerns an unidentified group and conditional refusal. It need not represent all Ukrainian soldiers or a decision to surrender. Review the unit, dates and meaning of refusal.",
       "review_status": "AI-assisted proposed claim relation; human review pending",
-      "directed": false,
-      "direction": "undirected",
-      "direction_reason": "This comparison flags a possible conflict symmetrically. Neither exact passage explicitly rebuts the other.",
+      "directed": true,
+      "direction": "source_to_target",
+      "direction_reason": "Analyst-assigned comparison: C5 is proposed to contradict I4. The arrow follows this source-to-target order.",
       "confirmation_status": "proposed"
     },
     {
@@ -1446,9 +1446,9 @@
       "reason": "Censor.NET calls the advancing Russian forces occupiers. Izvestia describes the wider operation as protecting Donbas. The comparison flags opposing occupation and protection narratives about Russia’s role.",
       "caveat": "The first passage describes the local advance and the second gives wider-war background. This is a proposed framing conflict. Human review must align the actor, action and scope before treating it as an incompatible factual claim.",
       "review_status": "AI-assisted proposed claim relation; human review pending",
-      "directed": false,
-      "direction": "undirected",
-      "direction_reason": "This comparison flags a possible conflict symmetrically. Neither exact passage explicitly rebuts the other.",
+      "directed": true,
+      "direction": "source_to_target",
+      "direction_reason": "Analyst-assigned comparison: C7 is proposed to contradict I6. The arrow follows this source-to-target order.",
       "confirmation_status": "proposed"
     },
     {
@@ -1465,9 +1465,9 @@
       "reason": "The FT calls Russian troops occupying forces when discussing encirclement. Izvestia frames the operation as protecting Donbas. These descriptions assign contrasting roles to Russia’s military action.",
       "caveat": "The FT passage concerns the battle, while Izvestia’s passage concerns the wider operation. The red comparison flags an opposing frame for review rather than deciding a legal or battlefield fact.",
       "review_status": "AI-assisted proposed claim relation; human review pending",
-      "directed": false,
-      "direction": "undirected",
-      "direction_reason": "This comparison flags a possible conflict symmetrically. Neither exact passage explicitly rebuts the other.",
+      "directed": true,
+      "direction": "source_to_target",
+      "direction_reason": "Analyst-assigned comparison: FT12 is proposed to contradict I6. The arrow follows this source-to-target order.",
       "confirmation_status": "proposed"
     }
   ],
@@ -1500,7 +1500,7 @@
   "method": {
     "country_note": "Outlet country means origin. Source country means stated institutional/location association, not assumed citizenship. Unknown remains unknown.",
     "claim_type_note": "Fact claim means a checkable assertion, not an independently verified fact. Opinions, predictions, intentions and wording are separate.",
-    "edge_note": "Green arrows identify support for specified parts of claims. Grey comparisons have no assigned support or conflict. Solid red connections flag proposed conflicts in claims, assessments, policies or framing. Each red comparison retains the scope or timing differences that may resolve it during human review.",
+    "edge_note": "Green arrows point from a supporting claim to the claim receiving support. Grey comparisons have no assigned direction. Solid red arrows point from a source claim to a target claim it is proposed to contradict. Red direction follows the analyst-assigned comparison order. Every proposed conflict retains its reasoning and scope limits for human review.",
     "attention_note": "Attention is judged from the saved article body and paragraph allocation; it is not an outlet-wide bias score.",
     "endorsement_note": "Quoting a speaker is not endorsement. Outlet view is stated, inferred from wording, or not stated.",
     "annotation_status": "AI-assisted research example; proposed claim relations need human review.",

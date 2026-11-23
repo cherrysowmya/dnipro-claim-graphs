@@ -1411,10 +1411,10 @@
       "reason": "Borrell holds Russia solely responsible for grain-supply disruption and rising prices. Peskov says Russia fulfilled its obligations, emphasizes unimplemented terms concerning Russia, and criticizes European states while responding to Western blame. The comparison flags competing responsibility narratives for the breakdown.",
       "caveat": "A claimed reason for withdrawal and consequences caused by withdrawal can coexist. Peskov responds to Blinken in the quoted passage, not directly to Borrell. This is a proposed causal-blame conflict, with no one-way rebuttal attributed between these exact claims.",
       "review_status": "AI-assisted proposed claim relation; human review pending",
-      "directed": false,
-      "direction": "undirected",
+      "directed": true,
+      "direction": "source_to_target",
       "confirmation_status": "proposed",
-      "direction_reason": "This comparison flags a possible conflict symmetrically. Neither exact passage explicitly rebuts the other."
+      "direction_reason": "Analyst-assigned comparison: EP02 is proposed to contradict S01. The arrow follows this source-to-target order."
     },
     {
       "id": "E05",
@@ -1582,10 +1582,10 @@
       "review_status": "AI-assisted proposed comparison; human review pending",
       "relation": "contradiction",
       "color": "red",
-      "directed": false,
-      "direction": "undirected",
+      "directed": true,
+      "direction": "source_to_target",
       "confirmation_status": "proposed",
-      "direction_reason": "The passages present conflicting claims or assessments. Neither explicitly rebuts the matching claim in the other report.",
+      "direction_reason": "Analyst-assigned comparison: KI05 is proposed to contradict GT05. The arrow follows this source-to-target order.",
       "label": "July 2022 versus June 2022",
       "reason": "Kyiv Independent says the initiative was brokered in July 2022. Global Times describes the same UN-Turkey-brokered deal as dating from June 2022. The reported month differs.",
       "caveat": "This is historical background to the shared grain-deal event. Human review should establish whether the authors mean the same agreement milestone, or whether one passage refers to earlier negotiations.",
@@ -1652,7 +1652,7 @@
   "method": {
     "country_note": "Outlet countries describe origin. Claimant countries describe an office, organization or stated residence, not assumed citizenship.",
     "claim_type_note": "A fact claim is a checkable statement, not a fact verified by this graph. Opinions, predictions, legal positions and promises are marked separately.",
-    "edge_note": "Green arrows identify support for specified parts of claims. Grey comparisons have no assigned support or conflict. Solid red connections flag proposed conflicts in claims, assessments, policies or framing. Each red comparison retains the scope or timing differences that may resolve it during human review.",
+    "edge_note": "Green arrows point from a supporting claim to the claim receiving support. Grey comparisons have no assigned direction. Solid red arrows point from a source claim to a target claim it is proposed to contradict. Red direction follows the analyst-assigned comparison order. Every proposed conflict retains its reasoning and scope limits for human review.",
     "attention_note": "Attention is a qualitative reading of the saved article, with paragraph locators; it is not a measured share of words.",
     "endorsement_note": "A quoted speaker’s view is separate from the article narrator’s view. No outlet-wide position is inferred from one article.",
     "annotation_status": "AI-assisted draft; human review pending",
