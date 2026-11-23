@@ -5741,10 +5741,36 @@ body { font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Ari
       }
       function drawGraph() {
         const bounds = stage.getBoundingClientRect();
+        if (bounds.width &lt;= 0 || !nodes.length) return;
         const width = Math.max(1, bounds.width);
         const singleColumn = width &lt; 420;
         const rows = singleColumn ? nodes.length : Math.ceil(nodes.length / 2);
-        const height = rows * 112 + 22;
+        const cardWidth = Math.min(170, singleColumn ? width - 100 : width * 0.34);
+        // Measure wrapped labels first; every card then uses the tallest natural height.
+        let cardHeight = 0;
+        nodes.forEach(node =&gt; {
+          const wrapper = nodeElements.get(node.id);
+          wrapper.style.width = cardWidth + &quot;px&quot;;
+          const title = wrapper.querySelector(&quot;.node-title&quot;);
+          const wrapped = !singleColumn &amp;&amp; width &lt; 620 &amp;&amp; node.label.length &gt; 14;
+          if (title.dataset.wrapped !== String(wrapped)) {
+            title.replaceChildren();
+            (wrapped ? node.label.split(&quot; &quot;) : [node.label]).forEach((part, i) =&gt; {
+              if (i) title.append(el(&quot;br&quot;));
+              title.append(document.createTextNode(part));
+            });
+            title.dataset.wrapped = String(wrapped);
+          }
+          const button = wrapper.querySelector(&quot;button&quot;);
+          button.style.minHeight = &quot;0px&quot;;
+          cardHeight = Math.max(cardHeight, button.getBoundingClientRect().height);
+        });
+        // Equal card-edge gaps on both axes leave room for arrowheads and group badges.
+        const gap = Math.max(80, Math.min(128, width / 2 - cardWidth));
+        const columnStep = cardWidth + gap;
+        const rowStep = cardHeight + gap;
+        const padding = 24;
+        const height = padding * 2 + rows * cardHeight + Math.max(0, rows - 1) * gap;
         if (Math.abs(bounds.height - height) &gt; 1) {
           stage.style.height = height + &quot;px&quot;;
           requestAnimationFrame(drawGraph);
@@ -5757,23 +5783,14 @@ body { font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Ari
         nodes.forEach((node, index) =&gt; {
           const column = singleColumn ? 0 : index % 2;
           const row = singleColumn ? index : Math.floor(index / 2);
-          const x = singleColumn ? width / 2 : width * (column ? 0.75 : 0.25);
-          const y = 67 + row * 112;
+          const x = singleColumn ? width / 2 : width / 2 + (column ? 0.5 : -0.5) * columnStep;
+          const y = padding + cardHeight / 2 + row * rowStep;
           const wrapper = nodeElements.get(node.id);
           wrapper.style.left = x + &quot;px&quot;;
           wrapper.style.top = y + &quot;px&quot;;
-          const title = wrapper.querySelector(&quot;.node-title&quot;);
-          wrapper.style.width = Math.min(170, singleColumn ? width - 100 : width * 0.34) + &quot;px&quot;;
-          const wrapped = !singleColumn &amp;&amp; width &lt; 620 &amp;&amp; node.label.length &gt; 14;
-          if (title.dataset.wrapped !== String(wrapped)) {
-            title.replaceChildren();
-            (wrapped ? node.label.split(&quot; &quot;) : [node.label]).forEach((part, i) =&gt; {
-              if (i) title.append(el(&quot;br&quot;));
-              title.append(document.createTextNode(part));
-            });
-            title.dataset.wrapped = String(wrapped);
-          }
-          const b = wrapper.querySelector(&quot;button&quot;).getBoundingClientRect();
+          const button = wrapper.querySelector(&quot;button&quot;);
+          button.style.minHeight = cardHeight + &quot;px&quot;;
+          const b = button.getBoundingClientRect();
           points.set(node.id, {x, y, column, halfWidth: b.width / 2 + 6, halfHeight: b.height / 2 + 6});
         });
         const fragment = document.createDocumentFragment();
