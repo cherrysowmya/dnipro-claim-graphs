@@ -1288,5 +1288,131 @@
     "annotation_status": "AI-assisted draft; human review pending",
     "cleaning_note": "Uses saved recovered text. Kyiv Independent later Most Popular / News Feed material is excluded; original paragraph numbers retained. FT wrapped lines are joined into logical paragraphs. CNN is one long recovered paragraph: exact sentence excerpts are supplied. Sputnik’s missing headline-related Kremlin response is not invented."
   },
-  "within_article_relations": []
+  "within_article_relations": [],
+  "framing_network": {
+    "id": "nuclear_warnings_20220926_framing",
+    "label": "Framing / lensing contradictions",
+    "description": "Contrasting lenses on deterrence, nuclear blackmail and escalation responsibility.",
+    "definition": "A framing comparison examines the labels, value, agency or consequences foregrounded in the selected passages. Different roles, dates and places remain explicit for review.",
+    "topics": [
+      {
+        "id": "lens_escalation_responsibility",
+        "label": "Escalation responsibility",
+        "scope_note": "This comparison concerns the lens applied to the selected passages. Review its shared focus, source attribution and claim-specific limits."
+      },
+      {
+        "id": "lens_nuclear_pressure",
+        "label": "Nuclear pressure",
+        "scope_note": "This comparison concerns the lens applied to the selected passages. Review its shared focus, source attribution and claim-specific limits."
+      },
+      {
+        "id": "lens_role_of_us_messaging",
+        "label": "Role of US messaging",
+        "scope_note": "This comparison concerns the lens applied to the selected passages. Review its shared focus, source attribution and claim-specific limits."
+      },
+      {
+        "id": "lens_how_to_treat_the_threats",
+        "label": "How to treat the threats",
+        "scope_note": "This comparison concerns the lens applied to the selected passages. Review its shared focus, source attribution and claim-specific limits."
+      }
+    ],
+    "edges": [
+      {
+        "id": "F01",
+        "source": "cnn",
+        "target": "tass",
+        "source_claim": "CNN05",
+        "target_claim": "T02",
+        "topic": "lens_escalation_responsibility",
+        "relation": "contradiction",
+        "color": "red",
+        "directed": true,
+        "direction": "source_to_target",
+        "label": "Warnings required by a dangerous war versus Washington’s aggression drives danger",
+        "subtype": "framing_or_lensing_conflict",
+        "framing_dimension": "Escalation responsibility",
+        "source_lens": "Warnings required by a dangerous war",
+        "target_lens": "Washington’s aggression drives danger",
+        "shared_focus": "How the need for US nuclear warnings is interpreted",
+        "reason": "CNN’s analysis treats the need to warn Russia against nuclear use as a sign of how dangerous the war has become. Ryabkov, quoted by TASS, centers Washington’s aggressive course as bringing everyone closer to danger. The emphasis shifts between a necessary warning and US-driven escalation.",
+        "caveat": "CNN does not exclude risk from US policy and Ryabkov addresses a broader course of action. Both causes can coexist. Review the specific conduct and causal scope.",
+        "confirmation_status": "proposed",
+        "direction_reason": "CNN05 is proposed to contradict the framing in T02. Direction follows the analyst-assigned comparison order.",
+        "framing_basis": "Analyst interpretation of the selected source passages.",
+        "review_status": "AI-assisted proposed framing comparison; human review pending"
+      },
+      {
+        "id": "F02",
+        "source": "ft",
+        "target": "izvestia",
+        "source_claim": "FT03",
+        "target_claim": "I04",
+        "topic": "lens_nuclear_pressure",
+        "relation": "contradiction",
+        "color": "red",
+        "directed": true,
+        "direction": "source_to_target",
+        "label": "Russia applies nuclear blackmail versus The West applies nuclear blackmail",
+        "subtype": "framing_or_lensing_conflict",
+        "framing_dimension": "Nuclear pressure",
+        "source_lens": "Russia applies nuclear blackmail",
+        "target_lens": "The West applies nuclear blackmail",
+        "shared_focus": "Which side is cast as applying nuclear coercion",
+        "reason": "The FT describes Western policymakers resisting Russian nuclear blackmail. Izvestia recounts Putin accusing Western states of nuclear blackmail. The same coercion label is assigned to opposing sides.",
+        "caveat": "The FT reports policymakers’ position and Putin’s remarks date from September 21. The statements can concern different threats. The comparison is about attribution of coercive agency, not proof that only one side used threats.",
+        "confirmation_status": "proposed",
+        "direction_reason": "FT03 is proposed to contradict the framing in I04. Direction follows the analyst-assigned comparison order.",
+        "framing_basis": "Analyst interpretation of the selected source passages.",
+        "review_status": "AI-assisted proposed framing comparison; human review pending"
+      },
+      {
+        "id": "F03",
+        "source": "censor",
+        "target": "tass",
+        "source_claim": "C02",
+        "target_claim": "T02",
+        "topic": "lens_role_of_us_messaging",
+        "relation": "contradiction",
+        "color": "red",
+        "directed": true,
+        "direction": "source_to_target",
+        "label": "A demand to stop nuclear threats versus An aggressive course that increases risk",
+        "subtype": "framing_or_lensing_conflict",
+        "framing_dimension": "Role of US messaging",
+        "source_lens": "A demand to stop nuclear threats",
+        "target_lens": "An aggressive course that increases risk",
+        "shared_focus": "The meaning assigned to Washington’s messages to Moscow",
+        "reason": "Censor.NET quotes Blinken describing clear public and private calls for Russia to stop talking about nuclear weapons. TASS quotes Ryabkov condemning Washington’s course as aggressive and dangerous. The US role is framed as restraining nuclear rhetoric and as escalating risk.",
+        "caveat": "Ryabkov’s broader criticism is not an explicit response to this exact Blinken statement. Human review must align the messages and policies being evaluated.",
+        "confirmation_status": "proposed",
+        "direction_reason": "C02 is proposed to contradict the framing in T02. Direction follows the analyst-assigned comparison order.",
+        "framing_basis": "Analyst interpretation of the selected source passages.",
+        "review_status": "AI-assisted proposed framing comparison; human review pending"
+      },
+      {
+        "id": "F04",
+        "source": "cnn",
+        "target": "ft",
+        "source_claim": "CNN04",
+        "target_claim": "FT01",
+        "topic": "lens_how_to_treat_the_threats",
+        "relation": "contradiction",
+        "color": "red",
+        "directed": true,
+        "direction": "source_to_target",
+        "label": "Resist saber-rattling and maintain resolve versus Take the warnings deadly seriously",
+        "subtype": "framing_or_lensing_conflict",
+        "framing_dimension": "How to treat the threats",
+        "source_lens": "Resist saber-rattling and maintain resolve",
+        "target_lens": "Take the warnings deadly seriously",
+        "shared_focus": "The emphasis placed on reacting to Putin’s nuclear rhetoric",
+        "reason": "Truss, quoted by CNN, urges continued support while saying the West does not listen to Putin’s saber-rattling. Sullivan, quoted by the FT, says the warnings must be taken deadly seriously. The lens differs between defiant resolve and grave risk awareness.",
+        "caveat": "Taking a threat seriously can coexist with refusing to change policy because of it. These are different speakers’ emphases, not evidence of incompatible military decisions.",
+        "confirmation_status": "proposed",
+        "direction_reason": "CNN04 is proposed to contradict the framing in FT01. Direction follows the analyst-assigned comparison order.",
+        "framing_basis": "Analyst interpretation of the selected source passages.",
+        "review_status": "AI-assisted proposed framing comparison; human review pending"
+      }
+    ]
+  }
 }

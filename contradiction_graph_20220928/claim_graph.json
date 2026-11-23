@@ -1715,5 +1715,102 @@
       "relation": "different_time_horizons",
       "note": "No immediate interruption of operating flows can coexist with future energy-price and winter risks."
     }
-  ]
+  ],
+  "framing_network": {
+    "id": "nordstream_leaks_20220928_framing",
+    "label": "Framing / lensing contradictions",
+    "description": "Contrasting lenses on sabotage certainty and the scale of Nord Stream’s consequences.",
+    "definition": "A framing comparison examines the labels, value, agency or consequences foregrounded in the selected passages. Different roles, dates and places remain explicit for review.",
+    "topics": [
+      {
+        "id": "lens_certainty_about_sabotage",
+        "label": "Certainty about sabotage",
+        "scope_note": "This comparison concerns the lens applied to the selected passages. Review its shared focus, source attribution and claim-specific limits."
+      },
+      {
+        "id": "lens_scale_of_environmental_harm",
+        "label": "Scale of environmental harm",
+        "scope_note": "This comparison concerns the lens applied to the selected passages. Review its shared focus, source attribution and claim-specific limits."
+      },
+      {
+        "id": "lens_scale_and_timing_of_energy_harm",
+        "label": "Scale and timing of energy harm",
+        "scope_note": "This comparison concerns the lens applied to the selected passages. Review its shared focus, source attribution and claim-specific limits."
+      }
+    ],
+    "edges": [
+      {
+        "id": "F01",
+        "source": "cnn",
+        "target": "china_daily",
+        "source_claim": "CNN01",
+        "target_claim": "CD04",
+        "topic": "lens_certainty_about_sabotage",
+        "relation": "contradiction",
+        "color": "red",
+        "directed": true,
+        "direction": "source_to_target",
+        "label": "Available information points to a deliberate act versus Sabotage described as speculation without evidence",
+        "subtype": "framing_or_lensing_conflict",
+        "framing_dimension": "Certainty about sabotage",
+        "source_lens": "Available information points to a deliberate act",
+        "target_lens": "Sabotage described as speculation without evidence",
+        "shared_focus": "How confidently deliberate damage is presented",
+        "reason": "CNN quotes Borrell saying all available information points to a deliberate act. China Daily describes Die Welt’s sabotage account as speculation for which it gave no evidence. The comparison contrasts an authoritative assessment and an evidence-caution lens.",
+        "caveat": "The caution applies to Die Welt’s report rather than every source available to Borrell. Different information sets can explain the contrast. This is a proposed certainty-frame comparison.",
+        "confirmation_status": "proposed",
+        "direction_reason": "CNN01 is proposed to contradict the framing in CD04. Direction follows the analyst-assigned comparison order.",
+        "framing_basis": "Analyst interpretation of the selected source passages.",
+        "review_status": "AI-assisted proposed framing comparison; human review pending"
+      },
+      {
+        "id": "F02",
+        "source": "cnn",
+        "target": "china_daily",
+        "source_claim": "CNN07",
+        "target_claim": "CD03",
+        "topic": "lens_scale_of_environmental_harm",
+        "relation": "contradiction",
+        "color": "red",
+        "directed": true,
+        "direction": "source_to_target",
+        "label": "Effects bounded to the gas-plume area versus Methane contributes to global warming",
+        "subtype": "framing_or_lensing_conflict",
+        "framing_dimension": "Scale of environmental harm",
+        "source_lens": "Effects bounded to the gas-plume area",
+        "target_lens": "Methane contributes to global warming",
+        "shared_focus": "The environmental consequences selected for attention",
+        "reason": "CNN reports authorities expecting environmental effects only near the gas plumes in a local safety passage. China Daily quotes an environmental campaigner emphasizing methane’s atmospheric warming effect. The lens shifts from a bounded local hazard to a wider climate consequence.",
+        "caveat": "The CNN passage may concern immediate local safety while the campaigner discusses effects over time. Local and global consequences can coexist. Review the intended scope of the local-only wording.",
+        "confirmation_status": "proposed",
+        "direction_reason": "CNN07 is proposed to contradict the framing in CD03. Direction follows the analyst-assigned comparison order.",
+        "framing_basis": "Analyst interpretation of the selected source passages.",
+        "review_status": "AI-assisted proposed framing comparison; human review pending"
+      },
+      {
+        "id": "F03",
+        "source": "cnn",
+        "target": "global_times",
+        "source_claim": "CNN02",
+        "target_claim": "GT07",
+        "topic": "lens_scale_and_timing_of_energy_harm",
+        "relation": "contradiction",
+        "color": "red",
+        "directed": true,
+        "direction": "source_to_target",
+        "label": "No active pipeline flow to interrupt versus Severe future economic and winter hardship",
+        "subtype": "framing_or_lensing_conflict",
+        "framing_dimension": "Scale and timing of energy harm",
+        "source_lens": "No active pipeline flow to interrupt",
+        "target_lens": "Severe future economic and winter hardship",
+        "shared_focus": "The energy-supply consequences foregrounded after the damage",
+        "reason": "CNN centers the fact that neither pipeline was operating when the leaks were found. Global Times quotes Wang predicting higher prices, business failures and winter hardship. The passages foreground limited immediate flow effects and severe later consequences.",
+        "caveat": "The statements concern different time horizons and outcome measures. They are compatible as facts and forecasts. The proposed framing contrast concerns which consequences receive attention.",
+        "confirmation_status": "proposed",
+        "direction_reason": "CNN02 is proposed to contradict the framing in GT07. Direction follows the analyst-assigned comparison order.",
+        "framing_basis": "Analyst interpretation of the selected source passages.",
+        "review_status": "AI-assisted proposed framing comparison; human review pending"
+      }
+    ]
+  }
 }

@@ -967,5 +967,131 @@
       "relation": "opposed_policy_views_with_different_dates",
       "note": "Macron’s September 5 withdrawal recommendation is presented alongside Nebenzya’s older August 11 warning. These are distinct speakers and dates, not one averaged outlet view."
     }
-  ]
+  ],
+  "framing_network": {
+    "id": "zaporizhzhia_safety_20220905_framing",
+    "label": "Framing / lensing contradictions",
+    "description": "Contrasting lenses on nuclear-plant safety, Russian presence and responsibility for danger.",
+    "definition": "A framing comparison examines the labels, value, agency or consequences foregrounded in the selected passages. Different roles, dates and places remain explicit for review.",
+    "topics": [
+      {
+        "id": "lens_route_to_safety",
+        "label": "Route to safety",
+        "scope_note": "This comparison concerns the lens applied to the selected passages. Review its shared focus, source attribution and claim-specific limits."
+      },
+      {
+        "id": "lens_russian_presence",
+        "label": "Russian presence",
+        "scope_note": "This comparison concerns the lens applied to the selected passages. Review its shared focus, source attribution and claim-specific limits."
+      },
+      {
+        "id": "lens_responsibility_for_danger",
+        "label": "Responsibility for danger",
+        "scope_note": "This comparison concerns the lens applied to the selected passages. Review its shared focus, source attribution and claim-specific limits."
+      },
+      {
+        "id": "lens_judgment_of_demilitarization",
+        "label": "Judgment of demilitarization",
+        "scope_note": "This comparison concerns the lens applied to the selected passages. Review its shared focus, source attribution and claim-specific limits."
+      }
+    ],
+    "edges": [
+      {
+        "id": "F01",
+        "source": "kyivpost",
+        "target": "izvestia",
+        "source_claim": "KI03",
+        "target_claim": "I02",
+        "topic": "lens_route_to_safety",
+        "relation": "contradiction",
+        "color": "red",
+        "directed": true,
+        "direction": "source_to_target",
+        "label": "Demilitarization as essential safety versus Withdrawal as a catastrophe risk",
+        "subtype": "framing_or_lensing_conflict",
+        "framing_dimension": "Route to safety",
+        "source_lens": "Demilitarization as essential safety",
+        "target_lens": "Withdrawal as a catastrophe risk",
+        "shared_focus": "Whether Russian withdrawal makes the plant safer",
+        "reason": "Halushchenko, quoted by Kyiv Independent, calls Russian withdrawal and a demilitarized zone the only path to nuclear safety. Nebenzya, recounted by Izvestia, presents withdrawal as risking catastrophe. The same proposed action receives opposite safety frames.",
+        "caveat": "Nebenzya’s warning is from August 11 and assumes possible Ukrainian provocations. The minister’s position is reported September 5 and includes a demilitarized zone. Conditions and dates differ.",
+        "confirmation_status": "proposed",
+        "direction_reason": "KI03 is proposed to contradict the framing in I02. Direction follows the analyst-assigned comparison order.",
+        "framing_basis": "Analyst interpretation of the selected source passages.",
+        "review_status": "AI-assisted proposed framing comparison; human review pending"
+      },
+      {
+        "id": "F02",
+        "source": "kyivpost",
+        "target": "tass",
+        "source_claim": "KI03",
+        "target_claim": "T02",
+        "topic": "lens_russian_presence",
+        "relation": "contradiction",
+        "color": "red",
+        "directed": true,
+        "direction": "source_to_target",
+        "label": "Safety requires deoccupation versus Russian specialists provide safety assistance",
+        "subtype": "framing_or_lensing_conflict",
+        "framing_dimension": "Russian presence",
+        "source_lens": "Safety requires deoccupation",
+        "target_lens": "Russian specialists provide safety assistance",
+        "shared_focus": "The role assigned to Russian presence at the plant",
+        "reason": "Kyiv Independent reports a safety prescription centered on deoccupation. TASS quotes Karchaa describing Russian specialists as helping the plant’s safety. The passages cast Russian presence as something to remove and as a source of assistance.",
+        "caveat": "Troops and technical specialists are different roles. Assistance can exist alongside wider safety risks. This is a proposed lens conflict, with the personnel and institutional scope requiring review.",
+        "confirmation_status": "proposed",
+        "direction_reason": "KI03 is proposed to contradict the framing in T02. Direction follows the analyst-assigned comparison order.",
+        "framing_basis": "Analyst interpretation of the selected source passages.",
+        "review_status": "AI-assisted proposed framing comparison; human review pending"
+      },
+      {
+        "id": "F03",
+        "source": "censor",
+        "target": "izvestia",
+        "source_claim": "C02",
+        "target_claim": "I04",
+        "topic": "lens_responsibility_for_danger",
+        "relation": "contradiction",
+        "color": "red",
+        "directed": true,
+        "direction": "source_to_target",
+        "label": "Russian shelling damages the plant’s connections versus Ukrainian attacks endanger the reactor area",
+        "subtype": "framing_or_lensing_conflict",
+        "framing_dimension": "Responsibility for danger",
+        "source_lens": "Russian shelling damages the plant’s connections",
+        "target_lens": "Ukrainian attacks endanger the reactor area",
+        "shared_focus": "Who is centered as a source of danger around the plant",
+        "reason": "Energoatom, quoted by Censor.NET, attributes damage to Russian shelling. Izvestia describes alleged Ukrainian shells near a reactor during the IAEA visit. The passages build opposing blame narratives around danger to the plant.",
+        "caveat": "Censor.NET discusses the days before September 5, while Izvestia recounts September 1 allegations. These can concern separate attacks. This comparison addresses responsibility framing across the event coverage, not a matched shell-impact claim.",
+        "confirmation_status": "proposed",
+        "direction_reason": "C02 is proposed to contradict the framing in I04. Direction follows the analyst-assigned comparison order.",
+        "framing_basis": "Analyst interpretation of the selected source passages.",
+        "review_status": "AI-assisted proposed framing comparison; human review pending"
+      },
+      {
+        "id": "F04",
+        "source": "kyivpost",
+        "target": "izvestia",
+        "source_claim": "KI03",
+        "target_claim": "I03",
+        "topic": "lens_judgment_of_demilitarization",
+        "relation": "contradiction",
+        "color": "red",
+        "directed": true,
+        "direction": "source_to_target",
+        "label": "An essential safety measure versus An irresponsible demand",
+        "subtype": "framing_or_lensing_conflict",
+        "framing_dimension": "Judgment of demilitarization",
+        "source_lens": "An essential safety measure",
+        "target_lens": "An irresponsible demand",
+        "shared_focus": "How demands to remove troops are evaluated",
+        "reason": "The Ukrainian minister’s safety recommendation treats deoccupation and demilitarization as necessary. Nebenzya’s August 23 statement calls Western demilitarization appeals irresponsible. The proposal is evaluated as responsible protection and as neglect of operating risks.",
+        "caveat": "The statements have different dates and assume different requirements for safe operation. The attributed evaluations remain separate from the outlets’ own views.",
+        "confirmation_status": "proposed",
+        "direction_reason": "KI03 is proposed to contradict the framing in I03. Direction follows the analyst-assigned comparison order.",
+        "framing_basis": "Analyst interpretation of the selected source passages.",
+        "review_status": "AI-assisted proposed framing comparison; human review pending"
+      }
+    ]
+  }
 }
