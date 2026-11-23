@@ -5599,7 +5599,6 @@ body { font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Ari
             addLine(comparison, &quot;Comparison scope&quot;, topic?.scope_note);
             addLine(comparison, &quot;Relation type&quot;, edge.subtype?.replaceAll(&quot;_&quot;, &quot; &quot;));
             addLine(comparison, &quot;Reason&quot;, edge.reason);
-            addLine(comparison, &quot;Supports only&quot;, edge.support_scope);
             addLine(comparison, &quot;Does not establish&quot;, edge.unsupported_parts);
             addLine(comparison, &quot;Limit&quot;, edge.caveat);
             [[edge.source, edge.source_claim], [edge.target, edge.target_claim]].forEach(([nodeId, claimId], index) =&gt; {
