@@ -2088,7 +2088,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Ari
     &lt;/div&gt;
     &lt;div class=&quot;viz-row legend text-small&quot; aria-label=&quot;Comparison legend&quot;&gt;
       &lt;span class=&quot;legend-item&quot;&gt;&lt;span class=&quot;legend-mark supportive&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;Supportive →&lt;/span&gt;
-      &lt;span class=&quot;legend-item&quot;&gt;&lt;span class=&quot;legend-mark contradiction&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;Proposed contradiction →&lt;/span&gt;
+      &lt;span class=&quot;legend-item&quot;&gt;&lt;span class=&quot;legend-mark contradiction&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;Contradiction →&lt;/span&gt;
       &lt;span class=&quot;legend-item&quot;&gt;&lt;span class=&quot;legend-mark neutral&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;Neutral / unresolved&lt;/span&gt;
     &lt;/div&gt;
     &lt;details class=&quot;connections event-disclosure&quot;&gt;
@@ -2166,7 +2166,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Ari
       }
       function relationName(edge) {
         if (edge.relation === &quot;supportive&quot;) return &quot;Supportive&quot;;
-        if (edge.relation === &quot;contradiction&quot;) return &quot;Proposed contradiction&quot;;
+        if (edge.relation === &quot;contradiction&quot;) return &quot;Contradiction&quot;;
         return &quot;Neutral / unresolved&quot;;
       }
       function pairName(edge) {
@@ -2405,7 +2405,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Ari
         const relationshipTypes = [
           [&quot;supportive&quot;, &quot;Supportive&quot;],
           [&quot;neutral&quot;, &quot;Neutral or unresolved&quot;],
-          [&quot;contradiction&quot;, &quot;Proposed contradictions&quot;]
+          [&quot;contradiction&quot;, &quot;Contradiction&quot;]
         ];
         const connected = el(&quot;ul&quot;, null, &quot;claim-index-list&quot;);
         const unconnected = el(&quot;ul&quot;, null, &quot;claim-index-list&quot;);
@@ -2692,7 +2692,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Ari
         [&quot;Claims with a connection&quot;, connectedClaimIds.size],
         [&quot;Directed supportive links&quot;, eventEdges.filter(edge =&gt; edge.relation === &quot;supportive&quot; &amp;&amp; edge.directed === true).length],
         [&quot;Undirected neutral or unresolved comparisons&quot;, eventEdges.filter(edge =&gt; edge.relation === &quot;neutral&quot; &amp;&amp; !edge.directed).length],
-        [&quot;Proposed contradictions&quot;, eventEdges.filter(edge =&gt; edge.relation === &quot;contradiction&quot;).length]
+        [&quot;Contradiction&quot;, eventEdges.filter(edge =&gt; edge.relation === &quot;contradiction&quot;).length]
       ];
       eventCounts.forEach(([label, count]) =&gt; {
         const item = el(&quot;div&quot;, null, &quot;stat-item&quot;);
@@ -5393,7 +5393,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Ari
     &lt;/div&gt;
     &lt;div class=&quot;viz-row legend text-small&quot; aria-label=&quot;Comparison legend&quot;&gt;
       &lt;span class=&quot;legend-item&quot;&gt;&lt;span class=&quot;legend-mark supportive&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;Supportive →&lt;/span&gt;
-      &lt;span class=&quot;legend-item&quot;&gt;&lt;span class=&quot;legend-mark contradiction&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;Proposed contradiction →&lt;/span&gt;
+      &lt;span class=&quot;legend-item&quot;&gt;&lt;span class=&quot;legend-mark contradiction&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;Contradiction →&lt;/span&gt;
     &lt;/div&gt;
     &lt;details class=&quot;connections event-disclosure&quot;&gt;
       &lt;summary class=&quot;cursor-interaction&quot; id=&quot;dnipro-connections-summary&quot;&gt;All claim connections&lt;/summary&gt;
@@ -5472,7 +5472,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Ari
       function relationName(edge) {
         if (edge.relation === &quot;supportive&quot;) return &quot;Supportive&quot;;
         if (edge.relation === &quot;agreement&quot;) return &quot;Agreement&quot;;
-        if (edge.relation === &quot;contradiction&quot;) return &quot;Proposed contradiction&quot;;
+        if (edge.relation === &quot;contradiction&quot;) return &quot;Contradiction&quot;;
         return &quot;Neutral / unresolved&quot;;
       }
       function pairName(edge) {
@@ -5609,7 +5609,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Ari
         const section = find(&quot;dnipro-event-method&quot;);
         section.replaceChildren(el(&quot;h3&quot;, &quot;Scope and attribution&quot;));
         addLine(section, &quot;Selected network&quot;, &quot;Framing / lensing network&quot;);
-        addLine(section, &quot;What is compared&quot;, &quot;The labels, values, agency and consequences that speakers or narrators foreground in the selected event. Green links reinforce a selected frame; red links mark proposed framing contradictions.&quot;);
+        addLine(section, &quot;What is compared&quot;, &quot;The labels, values, agency and consequences that speakers or narrators foreground in the selected event. Green links reinforce a selected frame; red links mark contradictions.&quot;);
         addLine(section, &quot;Selected claims&quot;, &quot;Only the claims used in these framing comparisons appear in this network and its panels.&quot;);
         const selected = state.selection.kind === &quot;edge&quot; ? edgeById.get(state.selection.id) : null;
         const directions = [];
@@ -5703,7 +5703,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Ari
         const relationshipTypes = [
           [&quot;supportive&quot;, &quot;Supportive&quot;],
           [&quot;neutral&quot;, &quot;Neutral or unresolved&quot;],
-          [&quot;contradiction&quot;, &quot;Proposed contradictions&quot;]
+          [&quot;contradiction&quot;, &quot;Contradiction&quot;]
         ];
         const connected = el(&quot;ul&quot;, null, &quot;claim-index-list&quot;);
         nodes.forEach(node =&gt; (node.claims || []).forEach(claim =&gt; {

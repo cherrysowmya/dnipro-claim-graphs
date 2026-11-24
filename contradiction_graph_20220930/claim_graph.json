@@ -1707,7 +1707,7 @@
       "label": "Recovering Ukrainian land versus defending Russia’s claimed territory",
       "subtype": "opposed_territorial_policy_positions",
       "reason": "Kuleba says Ukraine will continue recovering its land and restoring territorial integrity. Putin demands respect for the announced choice and says Russia will defend the territories it claims. Their positions assert opposing territorial objectives over the claimed regions.",
-      "caveat": "Both actors can simultaneously hold these intentions. The proposed contradiction concerns political and territorial positions, rather than whether either speaker made the statement or whether a military outcome occurred.",
+      "caveat": "Both actors can simultaneously hold these intentions. The Contradiction concerns political and territorial positions, rather than whether either speaker made the statement or whether a military outcome occurred.",
       "review_status": "AI-assisted proposed claim relation",
       "directed": true,
       "direction": "source_to_target",
