@@ -1016,8 +1016,7 @@
         "shared_focus": "Whether Russian withdrawal makes the plant safer",
         "reason": "Halushchenko, quoted by Kyiv Independent, calls Russian withdrawal and a demilitarized zone the only path to nuclear safety. Nebenzya, recounted by Izvestia, presents withdrawal as risking catastrophe. The same proposed action receives opposite safety frames.",
         "caveat": "Nebenzya’s warning is from August 11 and assumes possible Ukrainian provocations. The minister’s position is reported September 5 and includes a demilitarized zone. Conditions and dates differ.",
-        "direction_reason": "KI03 is proposed to contradict the framing in I02. Direction follows the analyst-assigned comparison order.",
-        "framing_basis": "Analyst interpretation of the selected source passages."
+        "direction_reason": "KI03 is proposed to contradict the framing in I02. Direction follows the analyst-assigned comparison order."
       },
       {
         "id": "F02",
@@ -1036,8 +1035,7 @@
         "shared_focus": "The role assigned to Russian presence at the plant",
         "reason": "Kyiv Independent reports a safety prescription centered on deoccupation. TASS quotes Karchaa describing Russian specialists as helping the plant’s safety. The passages cast Russian presence as something to remove and as a source of assistance.",
         "caveat": "Troops and technical specialists are different roles. Assistance can exist alongside wider safety risks. This is a proposed lens conflict, with the personnel and institutional scope requiring review.",
-        "direction_reason": "KI03 is proposed to contradict the framing in T02. Direction follows the analyst-assigned comparison order.",
-        "framing_basis": "Analyst interpretation of the selected source passages."
+        "direction_reason": "KI03 is proposed to contradict the framing in T02. Direction follows the analyst-assigned comparison order."
       },
       {
         "id": "F03",
@@ -1056,8 +1054,7 @@
         "shared_focus": "Who is centered as a source of danger around the plant",
         "reason": "Energoatom, quoted by Censor.NET, attributes damage to Russian shelling. Izvestia describes alleged Ukrainian shells near a reactor during the IAEA visit. The passages build opposing blame narratives around danger to the plant.",
         "caveat": "Censor.NET discusses the days before September 5, while Izvestia recounts September 1 allegations. These can concern separate attacks. This comparison addresses responsibility framing across the event coverage, not a matched shell-impact claim.",
-        "direction_reason": "C02 is proposed to contradict the framing in I04. Direction follows the analyst-assigned comparison order.",
-        "framing_basis": "Analyst interpretation of the selected source passages."
+        "direction_reason": "C02 is proposed to contradict the framing in I04. Direction follows the analyst-assigned comparison order."
       },
       {
         "id": "F04",
@@ -1076,8 +1073,7 @@
         "shared_focus": "How demands to remove troops are evaluated",
         "reason": "The Ukrainian minister’s safety recommendation treats deoccupation and demilitarization as necessary. Nebenzya’s August 23 statement calls Western demilitarization appeals irresponsible. The proposal is evaluated as responsible protection and as neglect of operating risks.",
         "caveat": "The statements have different dates and assume different requirements for safe operation. The attributed evaluations remain separate from the outlets’ own views.",
-        "direction_reason": "KI03 is proposed to contradict the framing in I03. Direction follows the analyst-assigned comparison order.",
-        "framing_basis": "Analyst interpretation of the selected source passages."
+        "direction_reason": "KI03 is proposed to contradict the framing in I03. Direction follows the analyst-assigned comparison order."
       },
       {
         "id": "F05",
@@ -1097,8 +1093,7 @@
         "reason": "The Ukrainian energy minister’s statement in Kyiv Independent reinforces Macron’s withdrawal-first safety lens reported by Izvestia. Both present removal of Russian troops as necessary for making the plant safe. The arrow records reinforcement of that shared policy frame.",
         "support_scope": "The withdrawal-first safety recommendation shared by the two named officials.",
         "caveat": "These are policy judgments, not findings that withdrawal alone guarantees safety. Deoccupation and a surrounding demilitarized zone are broader than Macron’s stated withdrawal demand. Reporting Macron does not establish Izvestia’s endorsement. Direction does not imply one official relied on the other.",
-        "direction_reason": "KI03 reinforces the named part of I01’s framing. Direction records the analyst’s proposed support relation, not a response between articles.",
-        "framing_basis": "Analyst interpretation of the selected source passages."
+        "direction_reason": "KI03 reinforces the named part of I01’s framing. Direction records the analyst’s proposed support relation, not a response between articles."
       },
       {
         "id": "F06",
@@ -1118,8 +1113,7 @@
         "reason": "Energoatom’s account in Censor.NET foregrounds Russian shelling and damage to the plant’s power connections. That account supplies a reason for the danger-focused lens behind the energy minister’s removal-and-demilitarization proposal in Kyiv Independent.",
         "support_scope": "The danger rationale and urgency behind KI03, rather than its claim that removal is the only remedy.",
         "caveat": "The source is Energoatom’s allegation, not independently verified attribution. Damage associated with alleged Russian shelling does not prove troop withdrawal is the only sufficient remedy. The passages are attributed Ukrainian institutional positions, not independent findings by both outlets.",
-        "direction_reason": "C02 reinforces the named part of KI03’s framing. Direction records the analyst’s proposed support relation, not a response between articles.",
-        "framing_basis": "Analyst interpretation of the selected source passages."
+        "direction_reason": "C02 reinforces the named part of KI03’s framing. Direction records the analyst’s proposed support relation, not a response between articles."
       },
       {
         "id": "F07",
@@ -1139,8 +1133,7 @@
         "reason": "Grossi’s stated hope in TASS for a permanent IAEA presence reinforces the monitoring-positive lens in the Russian envoy’s welcome reported by Izvestia. Both present continued IAEA involvement as something to pursue rather than reject.",
         "support_scope": "The favorable view of continued IAEA involvement.",
         "caveat": "An IAEA intention and a Russian welcome are different institutional positions, not proof of an implemented permanent presence. This does not support the envoy’s additional claims about speculation or the mission’s authority. It does not establish either outlet’s endorsement.",
-        "direction_reason": "T03 reinforces the named part of I06’s framing. Direction records the analyst’s proposed support relation, not a response between articles.",
-        "framing_basis": "Analyst interpretation of the selected source passages."
+        "direction_reason": "T03 reinforces the named part of I06’s framing. Direction records the analyst’s proposed support relation, not a response between articles."
       }
     ]
   }

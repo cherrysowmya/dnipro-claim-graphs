@@ -3014,8 +3014,7 @@
         "reason": "The Ukrainian mayoral adviser’s account in CNN places armed men alongside door-to-door voting teams and describes coercion. That allegation gives a concrete reason for the restricted-choice lens expressed by the FT narrator.",
         "support_scope": "The framing of constrained voter agency in the reported setting.",
         "caveat": "CNN could not independently verify the adviser’s account, and the adviser was outside Mariupol. This does not establish coercion throughout all four regions or make CNN the author of the allegation.",
-        "direction_reason": "CNN02 reinforces the named part of FT02’s framing. Direction records the analyst’s proposed support relation, not a response between articles.",
-        "framing_basis": "Analyst interpretation of the selected source passages."
+        "direction_reason": "CNN02 reinforces the named part of FT02’s framing. Direction records the analyst’s proposed support relation, not a response between articles."
       },
       {
         "id": "F09",
@@ -3035,8 +3034,7 @@
         "reason": "The Donetsk businessman’s expectation that a vote will be counted even if he does not participate presents the result as detached from his agency. That account reinforces the manufactured-outcome lens in Jean-Pierre’s statement reported by Kyiv Independent.",
         "support_scope": "The interpretation of outcomes as detached from individual voter agency.",
         "caveat": "An unnamed individual’s expectation in Donetsk is not proof of how votes were counted, and cannot verify Jean-Pierre’s broader prediction about every announced outcome. These are attributed views, not endorsements by both outlets.",
-        "direction_reason": "FT04 reinforces the named part of KI02’s framing. Direction records the analyst’s proposed support relation, not a response between articles.",
-        "framing_basis": "Analyst interpretation of the selected source passages."
+        "direction_reason": "FT04 reinforces the named part of KI02’s framing. Direction records the analyst’s proposed support relation, not a response between articles."
       },
       {
         "id": "F10",
@@ -3056,8 +3054,7 @@
         "reason": "Izvestia’s planned-observer account foregrounds observation of the voting. This supplies one procedural feature consistent with Matviyenko’s openness-and-transparency presentation in TASS.",
         "support_scope": "The observation-related part of the procedural presentation, not the entire transparency assessment.",
         "caveat": "The presence or planned presence of observers does not establish their independence, meaningful access, lawful voting, or freedom from coercion. Similar official information may underlie both passages; this is support for a procedural presentation, not independent corroboration of transparency.",
-        "direction_reason": "I08 reinforces the named part of T03’s framing. Direction records the analyst’s proposed support relation, not a response between articles.",
-        "framing_basis": "Analyst interpretation of the selected source passages."
+        "direction_reason": "I08 reinforces the named part of T03’s framing. Direction records the analyst’s proposed support relation, not a response between articles."
       },
       {
         "id": "F11",
@@ -3077,8 +3074,7 @@
         "reason": "Peskov’s statement in CNN supplies the territorial reclassification behind the escalation lens: Russia would regard Ukrainian efforts to retake the regions as attacks on Russian territory. That stated position gives a reason for the Global Times expert’s forecast of a wider range of possible Russian responses.",
         "support_scope": "The escalation mechanism in the conditional forecast, rather than every predicted Russian response.",
         "caveat": "Both statements concern a conditional future after claimed incorporation. Peskov’s classification does not establish legal sovereignty, justify a response, or confirm the expert’s prediction that Russia might use every possible military and political means. Neither quotation establishes an outlet endorsement.",
-        "direction_reason": "CNN07 reinforces the named part of GT04’s framing. Direction records the analyst’s proposed support relation, not a response between articles.",
-        "framing_basis": "Analyst interpretation of the selected source passages."
+        "direction_reason": "CNN07 reinforces the named part of GT04’s framing. Direction records the analyst’s proposed support relation, not a response between articles."
       }
     ],
     "topics": [

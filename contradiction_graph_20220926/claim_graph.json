@@ -1337,8 +1337,7 @@
         "shared_focus": "How the need for US nuclear warnings is interpreted",
         "reason": "CNN’s analysis treats the need to warn Russia against nuclear use as a sign of how dangerous the war has become. Ryabkov, quoted by TASS, centers Washington’s aggressive course as bringing everyone closer to danger. The emphasis shifts between a necessary warning and US-driven escalation.",
         "caveat": "CNN does not exclude risk from US policy and Ryabkov addresses a broader course of action. Both causes can coexist. Review the specific conduct and causal scope.",
-        "direction_reason": "CNN05 is proposed to contradict the framing in T02. Direction follows the analyst-assigned comparison order.",
-        "framing_basis": "Analyst interpretation of the selected source passages."
+        "direction_reason": "CNN05 is proposed to contradict the framing in T02. Direction follows the analyst-assigned comparison order."
       },
       {
         "id": "F02",
@@ -1357,8 +1356,7 @@
         "shared_focus": "Which side is cast as applying nuclear coercion",
         "reason": "The FT describes Western policymakers resisting Russian nuclear blackmail. Izvestia recounts Putin accusing Western states of nuclear blackmail. The same coercion label is assigned to opposing sides.",
         "caveat": "The FT reports policymakers’ position and Putin’s remarks date from September 21. The statements can concern different threats. The comparison is about attribution of coercive agency, not proof that only one side used threats.",
-        "direction_reason": "FT03 is proposed to contradict the framing in I04. Direction follows the analyst-assigned comparison order.",
-        "framing_basis": "Analyst interpretation of the selected source passages."
+        "direction_reason": "FT03 is proposed to contradict the framing in I04. Direction follows the analyst-assigned comparison order."
       },
       {
         "id": "F03",
@@ -1377,8 +1375,7 @@
         "shared_focus": "The meaning assigned to Washington’s messages to Moscow",
         "reason": "Censor.NET quotes Blinken describing clear public and private calls for Russia to stop talking about nuclear weapons. TASS quotes Ryabkov condemning Washington’s course as aggressive and dangerous. The US role is framed as restraining nuclear rhetoric and as escalating risk.",
         "caveat": "Ryabkov’s broader criticism is not an explicit response to this exact Blinken statement. Human review must align the messages and policies being evaluated.",
-        "direction_reason": "C02 is proposed to contradict the framing in T02. Direction follows the analyst-assigned comparison order.",
-        "framing_basis": "Analyst interpretation of the selected source passages."
+        "direction_reason": "C02 is proposed to contradict the framing in T02. Direction follows the analyst-assigned comparison order."
       },
       {
         "id": "F04",
@@ -1397,8 +1394,7 @@
         "shared_focus": "The emphasis placed on reacting to Putin’s nuclear rhetoric",
         "reason": "Truss, quoted by CNN, urges continued support while saying the West does not listen to Putin’s saber-rattling. Sullivan, quoted by the FT, says the warnings must be taken deadly seriously. The lens differs between defiant resolve and grave risk awareness.",
         "caveat": "Taking a threat seriously can coexist with refusing to change policy because of it. These are different speakers’ emphases, not evidence of incompatible military decisions.",
-        "direction_reason": "CNN04 is proposed to contradict the framing in FT01. Direction follows the analyst-assigned comparison order.",
-        "framing_basis": "Analyst interpretation of the selected source passages."
+        "direction_reason": "CNN04 is proposed to contradict the framing in FT01. Direction follows the analyst-assigned comparison order."
       },
       {
         "id": "F05",
@@ -1418,8 +1414,7 @@
         "reason": "Rachman’s conditional scenario—Putin might use a nuclear weapon rather than accept humiliation and defeat—provides a possible mechanism reinforcing CNN’s broader assessment that the war has become dangerously risky.",
         "support_scope": "The danger lens and a possible mechanism behind it.",
         "caveat": "FT02 is a columnist’s prediction, with might and if conditions. This does not establish that Russia has decided to use nuclear weapons or that such use is likely.",
-        "direction_reason": "FT02 reinforces the named part of CNN05’s framing. Direction records the analyst’s proposed support relation, not a response between articles.",
-        "framing_basis": "Analyst interpretation of the selected source passages."
+        "direction_reason": "FT02 reinforces the named part of CNN05’s framing. Direction records the analyst’s proposed support relation, not a response between articles."
       },
       {
         "id": "F06",
@@ -1439,8 +1434,7 @@
         "reason": "CNN’s analysis interprets the need for unusually strong US warnings as a sign of danger. This gives an interpretive reason supporting the seriousness Sullivan urges in the FT passage.",
         "support_scope": "The selected assessment that the warnings deserve serious attention.",
         "caveat": "The source is CNN’s analysis and the target is Sullivan’s quoted judgment. This does not establish nuclear preparations or independent corroboration of US intelligence. Related US warnings inform the passages.",
-        "direction_reason": "CNN05 reinforces the named part of FT01’s framing. Direction records the analyst’s proposed support relation, not a response between articles.",
-        "framing_basis": "Analyst interpretation of the selected source passages."
+        "direction_reason": "CNN05 reinforces the named part of FT01’s framing. Direction records the analyst’s proposed support relation, not a response between articles."
       },
       {
         "id": "F07",
@@ -1460,8 +1454,7 @@
         "reason": "Truss’s stated resolve to keep backing Ukraine despite Putin’s threatening language is a concrete example reinforcing the broader FT portrayal of Western policymakers refusing to let nuclear pressure stop their support.",
         "support_scope": "The shared resolve to continue support despite nuclear pressure.",
         "caveat": "CNN quotes Truss; FT describes Western policymakers collectively. This is not proof that all Western governments hold identical policies. Taking danger seriously can coexist with continuing support. Quoting these positions does not establish either outlet’s endorsement.",
-        "direction_reason": "CNN04 reinforces the named part of FT03’s framing. Direction records the analyst’s proposed support relation, not a response between articles.",
-        "framing_basis": "Analyst interpretation of the selected source passages."
+        "direction_reason": "CNN04 reinforces the named part of FT03’s framing. Direction records the analyst’s proposed support relation, not a response between articles."
       }
     ]
   }
