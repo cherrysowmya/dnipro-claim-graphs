@@ -5260,6 +5260,16 @@ body { font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Ari
 #dnipro-event-graph .network-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 12px 30px; flex-wrap: wrap; margin-top: 40px; }
 #dnipro-event-graph .network-heading h2 { font-family: Georgia, &quot;Times New Roman&quot;, serif; font-size: 28px; font-weight: 400; letter-spacing: -0.5px; margin: 0; }
 #dnipro-event-graph .network-heading p { color: #67655d; font-size: 13px; margin: 0; }
+#dnipro-event-graph .topic-navigation { display: grid; gap: 6px; justify-items: start; margin: 16px 0; }
+#dnipro-event-graph .topic-navigation label { font-size: 13px; font-weight: 500; }
+#dnipro-event-graph .topic-navigation select { max-width: 100%; padding: 8px 10px; color: inherit; background: var(--background); border: 1px solid var(--border); border-radius: 7px; font: inherit; }
+#dnipro-event-graph .topic-navigation select:focus-visible { outline: 2px solid var(--ring); outline-offset: 3px; }
+#dnipro-event-graph .framing-topics { border-top: 1px solid var(--border); }
+#dnipro-event-graph .framing-topic { padding: 20px 0 24px; border-bottom: 1px solid var(--border); scroll-margin-block-start: 12px; }
+#dnipro-event-graph .framing-topic-title { font: 400 22px/1.3 Georgia, &quot;Times New Roman&quot;, serif; margin: 0; }
+#dnipro-event-graph .framing-topic .comparison-list { margin: 8px 0 0; }
+#dnipro-event-graph .framing-topic &gt; .card { margin-top: 16px; }
+#dnipro-event-graph .selection-topic { margin: 0 0 8px; color: var(--muted-foreground); font-size: 13px; }
 #dnipro-event-graph .graph-stage { margin: 8px 0 0; }
 #dnipro-event-graph .btn { appearance: none; font: inherit; color: #24231e; background: #faf9f5; border: 1px solid #d8d5ca; border-radius: 7px; box-shadow: none; padding: 11px 16px; min-height: 44px; line-height: 1.35; white-space: normal; overflow-wrap: anywhere; transition: background-color 120ms ease, border-color 120ms ease; }
 #dnipro-event-graph .btn:hover { background: #eeece3; border-color: #aba79a; }
@@ -5359,7 +5369,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Ari
 
 &lt;/style&gt;
 
-  &lt;section class=&quot;event-pane&quot; aria-label=&quot;Event overview and claim network&quot; tabindex=&quot;0&quot;&gt;
+  &lt;section class=&quot;event-pane&quot; aria-label=&quot;Event overview and framing graphs&quot; tabindex=&quot;0&quot;&gt;
     &lt;header class=&quot;event-hero&quot;&gt;
       &lt;p class=&quot;eyebrow&quot;&gt;An event, across the headlines&lt;/p&gt;
       &lt;h1 class=&quot;claim-heading&quot; id=&quot;dnipro-graph-title&quot;&gt;Votes on joining Russia&lt;/h1&gt;
@@ -5373,21 +5383,20 @@ body { font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Ari
       &lt;dl class=&quot;event-counts&quot; id=&quot;dnipro-event-summary&quot;&gt;&lt;/dl&gt;
     &lt;/section&gt;
     &lt;div class=&quot;network-heading&quot;&gt;
-      &lt;h2&gt;The framing / lensing network&lt;/h2&gt;
-      &lt;p&gt;Select an outlet or edge to read the claims. Edge badges show how many comparisons are grouped.&lt;/p&gt;
+      &lt;h2&gt;Framing topics&lt;/h2&gt;
+      &lt;p&gt;Select an outlet or connection to read its claims.&lt;/p&gt;
     &lt;/div&gt;
-    &lt;div class=&quot;graph-stage&quot; id=&quot;dnipro-graph-stage&quot; role=&quot;group&quot; aria-label=&quot;News outlets and claim connections&quot;&gt;
-      &lt;svg class=&quot;graph-lines&quot; id=&quot;dnipro-graph-lines&quot; aria-hidden=&quot;true&quot;&gt;&lt;/svg&gt;
-      &lt;div id=&quot;dnipro-graph-nodes&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;topic-navigation&quot;&gt;
+      &lt;label for=&quot;dnipro-framing-topic-jump&quot;&gt;Jump to a framing topic&lt;/label&gt;
+      &lt;select id=&quot;dnipro-framing-topic-jump&quot;&gt;
+        &lt;option value=&quot;&quot; disabled selected&gt;Choose a topic&lt;/option&gt;
+      &lt;/select&gt;
     &lt;/div&gt;
     &lt;div class=&quot;viz-row legend text-small&quot; aria-label=&quot;Comparison legend&quot;&gt;
       &lt;span class=&quot;legend-item&quot;&gt;&lt;span class=&quot;legend-mark supportive&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;Supportive →&lt;/span&gt;
       &lt;span class=&quot;legend-item&quot;&gt;&lt;span class=&quot;legend-mark contradiction&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;Contradiction →&lt;/span&gt;
     &lt;/div&gt;
-    &lt;details class=&quot;connections event-disclosure&quot;&gt;
-      &lt;summary class=&quot;cursor-interaction&quot; id=&quot;dnipro-connections-summary&quot;&gt;All claim connections&lt;/summary&gt;
-      &lt;div class=&quot;comparison-list&quot; id=&quot;dnipro-comparison-list&quot; aria-label=&quot;All claim connections for the event&quot;&gt;&lt;/div&gt;
-    &lt;/details&gt;
+    &lt;div class=&quot;framing-topics&quot; id=&quot;dnipro-framing-topics&quot;&gt;&lt;/div&gt;
     &lt;section class=&quot;claim-index&quot; aria-label=&quot;Claims selected for framing comparisons&quot;&gt;
       &lt;div id=&quot;dnipro-claim-index-groups&quot;&gt;&lt;/div&gt;
     &lt;/section&gt;
@@ -5422,31 +5431,49 @@ body { font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Ari
       const framingTopics = Array.isArray(data.framing_topics) ? data.framing_topics : [];
       const edges = Array.isArray(data.edges) ? data.edges : [];
       const nodeById = new Map(nodes.map((node) =&gt; [node.id, node]));
-      const edgeById = new Map(edges.map(edge =&gt; [edge.id, edge]));
-      const groupsByKey = new Map();
-      const groupByEdgeId = new Map();
-      activeEdges().forEach(edge =&gt; {
-        const pair = [edge.source, edge.target];
-        const key = JSON.stringify([edge.relation, ...pair]);
-        if (!groupsByKey.has(key)) groupsByKey.set(key, { ...edge, members: [] });
-        const group = groupsByKey.get(key);
-        group.members.push(edge);
-        groupByEdgeId.set(edge.id, group);
-      });
-      const edgeGroups = [...groupsByKey.values()];
       const topicById = new Map(topics.map((topic) =&gt; [topic.id, topic]));
-      const framingTopicById = new Map(framingTopics.map((topic) =&gt; [topic.framing_dimension_id, topic]));
+      const framingTopicIds = new Set(framingTopics.map(topic =&gt; topic.framing_dimension_id));
+      const eventEdges = edges.filter(edge =&gt;
+        nodeById.has(edge.source) &amp;&amp; nodeById.has(edge.target) &amp;&amp; framingTopicIds.has(edge.framing_dimension_id)
+      );
+      const edgeById = new Map(eventEdges.map(edge =&gt; [edge.id, edge]));
+      const groupByEdgeId = new Map();
+      const topicGraphs = framingTopics.map(topic =&gt; {
+        const id = topic.framing_dimension_id;
+        const topicEdges = eventEdges.filter(edge =&gt; edge.framing_dimension_id === id);
+        const outletIds = new Set(topicEdges.flatMap(edge =&gt; [edge.source, edge.target]));
+        const claimIds = new Set(topicEdges.flatMap(edge =&gt; [edge.source_claim, edge.target_claim]));
+        const groups = new Map();
+        topicEdges.forEach(edge =&gt; {
+          const key = JSON.stringify([edge.relation, edge.source, edge.target]);
+          if (!groups.has(key)) groups.set(key, { ...edge, members: [] });
+          const group = groups.get(key);
+          group.members.push(edge);
+          groupByEdgeId.set(edge.id, group);
+        });
+        return {
+          id, label: topic.framing_dimension_label, edges: topicEdges, outletIds, claimIds,
+          nodes: nodes.filter(node =&gt; outletIds.has(node.id)),
+          edgeGroups: [...groups.values()], nodeElements: new Map()
+        };
+      });
+      const graphByTopicId = new Map(topicGraphs.map(graph =&gt; [graph.id, graph]));
       const claimById = new Map();
       nodes.forEach((node) =&gt; (node.claims || []).forEach((claim) =&gt; claimById.set(claim.id, claim)));
-      const stage = find(&quot;dnipro-graph-stage&quot;);
-      const svg = find(&quot;dnipro-graph-lines&quot;);
-      const nodeLayer = find(&quot;dnipro-graph-nodes&quot;);
-      const comparisons = find(&quot;dnipro-comparison-list&quot;);
+      const topicList = find(&quot;dnipro-framing-topics&quot;);
+      const topicJump = find(&quot;dnipro-framing-topic-jump&quot;);
       const status = find(&quot;dnipro-selection-status&quot;);
-      const nodeElements = new Map();
       const svgNS = &quot;http://www.w3.org/2000/svg&quot;;
-      const defaultNode = nodeById.has(data.event.default_node) ? data.event.default_node : nodes[0]?.id;
-      let state = { selection: { kind: &quot;node&quot;, id: defaultNode } };
+      const narrowLayout = window.matchMedia(&quot;(max-width: 899px)&quot;);
+      const preferredOutlet = data.event.default_node;
+      const initialGraph = topicGraphs.find(graph =&gt; graph.outletIds.has(preferredOutlet))
+        || topicGraphs.find(graph =&gt; graph.nodes.length);
+      const initialSelection = initialGraph ? {
+        kind: &quot;node&quot;,
+        id: initialGraph.outletIds.has(preferredOutlet) ? preferredOutlet : initialGraph.nodes[0].id,
+        topicId: initialGraph.id
+      } : null;
+      let selection = initialSelection;
 
       function text(value, fallback = &quot;Not stated&quot;) {
         if (value === null || value === undefined || value === &quot;&quot;) return fallback;
@@ -5467,9 +5494,6 @@ body { font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Ari
       function pairName(edge) {
         return text(nodeById.get(edge.source)?.label, edge.source) + &quot; → &quot; + text(nodeById.get(edge.target)?.label, edge.target);
       }
-      function activeEdges() {
-        return edges.filter((edge) =&gt; nodeById.has(edge.source) &amp;&amp; nodeById.has(edge.target));
-      }
       function readSaved(raw) {
         if (!raw || typeof raw !== &quot;object&quot;) return null;
         const saved = raw.privateContent || raw;
@@ -5479,30 +5503,33 @@ body { font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Ari
         return candidate;
       }
       function normalize(candidate) {
-        const next = { selection: { ...state.selection } };
-        if (candidate?.selection?.kind === &quot;node&quot; &amp;&amp; nodeById.has(candidate.selection.id)) {
-          next.selection = { kind: &quot;node&quot;, id: candidate.selection.id };
-        } else if (candidate?.selection?.kind === &quot;edge&quot;) {
-          const edge = edgeById.get(candidate.selection.id);
-          if (edge) next.selection = { kind: &quot;edge&quot;, id: edge.id };
+        const saved = candidate?.selection;
+        if (saved?.kind === &quot;edge&quot;) {
+          const edge = edgeById.get(saved.id);
+          if (edge) return { kind: &quot;edge&quot;, id: edge.id, topicId: edge.framing_dimension_id };
         }
-        if (next.selection.kind === &quot;edge&quot;) {
-          const edge = edgeById.get(next.selection.id);
-          if (!edge) next.selection = { kind: &quot;node&quot;, id: defaultNode };
+        if (saved?.kind === &quot;node&quot;) {
+          const savedGraph = graphByTopicId.get(saved.topicId);
+          const graph = savedGraph?.outletIds.has(saved.id)
+            ? savedGraph
+            : topicGraphs.find(graph =&gt; graph.outletIds.has(saved.id));
+          if (graph) return { kind: &quot;node&quot;, id: saved.id, topicId: graph.id };
         }
-        return next;
+        return initialSelection;
       }
       function saveState() {
         const host = window.openai;
-        if (!host || typeof host.setWidgetState !== &quot;function&quot;) return;
-        const selection = state.selection;
+        if (!selection || !host || typeof host.setWidgetState !== &quot;function&quot;) return;
+        const graph = graphByTopicId.get(selection.topicId);
         const selectedNode = selection.kind === &quot;node&quot; ? nodeById.get(selection.id) : null;
         const selectedEdge = selection.kind === &quot;edge&quot; ? edgeById.get(selection.id) : null;
         const snapshot = {
           modelContent: {
             event: text(data.event?.label),
             date: text(data.event?.date),
-            graph_scope: &quot;whole_event&quot;,
+            graph_scope: &quot;framing&quot;,
+            topic_id: graph.id,
+            topic: graph.label,
             selected_outlet: selectedNode ? text(selectedNode.label) : null,
             selected_comparison: selectedEdge ? { id: selectedEdge.id, outlets: pairName(selectedEdge), relation: selectedEdge.relation, source_claim: selectedEdge.source_claim, target_claim: selectedEdge.target_claim } : null
           },
@@ -5510,19 +5537,17 @@ body { font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Ari
         };
         try { Promise.resolve(host.setWidgetState(snapshot)).catch(() =&gt; {}); } catch (error) { /* Optional host state must not interrupt reading. */ }
       }
-      function selectNode(id) {
-        if (!nodeById.has(id)) return;
-        state.selection = { kind: &quot;node&quot;, id };
-        renderSelection();
-        drawGraph();
-        saveState();
+      function selectNode(graph, id) {
+        select({ kind: &quot;node&quot;, id, topicId: graph.id });
       }
       function selectEdge(id) {
         const edge = edgeById.get(id);
         if (!edge) return;
-        state.selection = { kind: &quot;edge&quot;, id };
-        renderSelection();
-        drawGraph();
+        select({ kind: &quot;edge&quot;, id, topicId: edge.framing_dimension_id });
+      }
+      function select(next) {
+        selection = next;
+        renderEvent();
         saveState();
       }
       function addLine(parent, label, value) {
@@ -5600,7 +5625,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Ari
         addLine(section, &quot;Selected network&quot;, &quot;Framing / lensing network&quot;);
         addLine(section, &quot;What is compared&quot;, &quot;The labels, values, agency and consequences that speakers or narrators foreground in the selected event. Green links reinforce a selected frame; red links mark contradictions.&quot;);
         addLine(section, &quot;Selected claims&quot;, &quot;Only the claims used in these framing comparisons appear in this network and its panels.&quot;);
-        const selected = state.selection.kind === &quot;edge&quot; ? edgeById.get(state.selection.id) : null;
+        const selected = selection?.kind === &quot;edge&quot; ? edgeById.get(selection.id) : null;
         const directions = [];
         if (!selected || selected.relation === &quot;supportive&quot;) directions.push(&quot;A green arrow points from a claim that supplies a reason, example or partial support for the target’s framing. It does not mean the articles respond to or endorse each other, verify the claim, or supply independent corroboration. The reverse arrow is not implied.&quot;);
         if (!selected || selected.relation === &quot;contradiction&quot;) directions.push(&quot;A solid red arrow points from the source claim to the target framing it is proposed to contradict. Direction follows the analyst-assigned comparison order; it does not show that one article rebuts the other.&quot;);
@@ -5608,16 +5633,33 @@ body { font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Ari
         addLine(section, &quot;Attribution&quot;, &quot;Each passage identifies its speaker or narrator. Several outlets carry more than one lens. The lens labels describe the selected passages, not an outlet-wide position.&quot;);
         addLine(section, &quot;Scope&quot;, &quot;Each comparison retains differences in place, population, criteria and certainty for review. Support may apply only to the named part of a compound claim; shared framing does not establish shared political approval.&quot;);
       }
+      function placeDetail() {
+        const graph = graphByTopicId.get(selection?.topicId);
+        const parent = narrowLayout.matches &amp;&amp; graph ? graph.section : detailPane;
+        if (detail.parentElement === parent) return;
+        if (parent === detailPane) detailPane.prepend(detail);
+        else parent.append(detail);
+      }
       function renderSelection() {
         renderMethod();
-        nodeElements.forEach((wrapper, id) =&gt; wrapper.querySelector(&quot;button&quot;).setAttribute(&quot;aria-pressed&quot;, String(state.selection.kind === &quot;node&quot; &amp;&amp; state.selection.id === id)));
-        comparisons.querySelectorAll(&quot;button[data-comparison-id]&quot;).forEach((button) =&gt; button.setAttribute(&quot;aria-pressed&quot;, String(state.selection.kind === &quot;edge&quot; &amp;&amp; state.selection.id === button.dataset.comparisonId)));
+        topicGraphs.forEach(graph =&gt; {
+          const active = graph.id === selection?.topicId;
+          graph.nodeElements.forEach((wrapper, id) =&gt; {
+            wrapper.querySelector(&quot;button&quot;).setAttribute(&quot;aria-pressed&quot;, String(active &amp;&amp; selection.kind === &quot;node&quot; &amp;&amp; selection.id === id));
+          });
+          graph.comparisons.querySelectorAll(&quot;button[data-comparison-id]&quot;).forEach(button =&gt; {
+            button.setAttribute(&quot;aria-pressed&quot;, String(active &amp;&amp; selection.kind === &quot;edge&quot; &amp;&amp; selection.id === button.dataset.comparisonId));
+          });
+        });
+        const graph = graphByTopicId.get(selection?.topicId);
+        if (!graph) {
+          detail.replaceChildren(el(&quot;p&quot;, &quot;There are no framing connections for this event.&quot;));
+          return;
+        }
         const fragment = document.createDocumentFragment();
-        if (state.selection.kind === &quot;edge&quot;) {
-          const edge = edgeById.get(state.selection.id);
-          if (!edge) return;
-          const group = groupByEdgeId.get(edge.id);
-          if (!group) return;
+        fragment.append(el(&quot;p&quot;, graph.label, &quot;selection-topic&quot;));
+        if (selection.kind === &quot;edge&quot;) {
+          const group = groupByEdgeId.get(selection.id);
           fragment.append(
             el(&quot;h3&quot;, pairName(group)),
             el(&quot;p&quot;, relationName(group) + &quot; · &quot; + group.members.length + (group.members.length === 1 ? &quot; comparison&quot; : &quot; comparisons&quot;))
@@ -5625,12 +5667,10 @@ body { font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Ari
           group.members.forEach(edge =&gt; {
             const comparison = el(&quot;details&quot;, null, &quot;event-disclosure group-comparison&quot;);
             const claimPair = edge.source_claim + &quot; → &quot; + edge.target_claim;
-            const dimensionLabel = framingTopicById.get(edge.framing_dimension_id)?.framing_dimension_label || edge.label;
-            comparison.append(el(&quot;summary&quot;, edge.id + &quot; · &quot; + claimPair + &quot; · &quot; + dimensionLabel, &quot;cursor-interaction&quot;));
+            comparison.append(el(&quot;summary&quot;, edge.id + &quot; · &quot; + claimPair + &quot; · &quot; + graph.label, &quot;cursor-interaction&quot;));
             addLine(comparison, relationName(edge), edge.label);
             addLine(comparison, &quot;Claims&quot;, edge.source_claim + &quot; → &quot; + edge.target_claim);
-            const dimension = framingTopicById.get(edge.framing_dimension_id);
-            addLine(comparison, &quot;Framing dimension&quot;, dimension?.framing_dimension_label);
+            addLine(comparison, &quot;Framing dimension&quot;, graph.label);
             addLine(comparison, &quot;Shared focus&quot;, edge.shared_focus);
             addLine(comparison, &quot;Source lens&quot;, edge.source_lens);
             addLine(comparison, &quot;Target lens&quot;, edge.target_lens);
@@ -5653,24 +5693,28 @@ body { font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Ari
             });
             fragment.append(comparison);
           });
-          status.textContent = &quot;Selected &quot; + pairName(group) + &quot; with &quot; + group.members.length + (group.members.length === 1 ? &quot; comparison.&quot; : &quot; comparisons.&quot;);
+          status.textContent = &quot;Selected &quot; + pairName(group) + &quot; in &quot; + graph.label + &quot;.&quot;;
         } else {
-          const node = nodeById.get(state.selection.id);
-          if (!node) return;
+          const node = nodeById.get(selection.id);
           fragment.append(el(&quot;h3&quot;, text(node.label) + &quot; · &quot; + text(node.country)), articleLink(node));
-          addLine(fragment, &quot;Lenses in this network&quot;, node.attention);
-          const claims = Array.isArray(node.claims) ? node.claims : [];
+          const lenses = new Set();
+          graph.edges.forEach(edge =&gt; {
+            if (edge.source === node.id &amp;&amp; edge.source_lens) lenses.add(edge.source_lens);
+            if (edge.target === node.id &amp;&amp; edge.target_lens) lenses.add(edge.target_lens);
+          });
+          addLine(fragment, &quot;Lenses in this topic&quot;, [...lenses].join(&quot;; &quot;));
+          const claims = (node.claims || []).filter(claim =&gt; graph.claimIds.has(claim.id));
           claims.forEach(claim =&gt; fragment.append(claimSection(claim, node)));
-          status.textContent = &quot;Selected &quot; + text(node.label) + &quot;. All &quot; + claims.length + &quot; article claims and all event connections remain available.&quot;;
+          status.textContent = &quot;Selected &quot; + text(node.label) + &quot; in &quot; + graph.label + &quot;.&quot;;
         }
         detail.replaceChildren(fragment);
+        placeDetail();
         detailPane.scrollTop = 0;
       }
-      function renderComparisonChoices() {
-        const current = activeEdges();
+      function renderComparisonChoices(graph) {
         const fragment = document.createDocumentFragment();
-        if (!current.length) fragment.append(el(&quot;p&quot;, &quot;No pairwise comparison is established for this event.&quot;, &quot;text-small text-muted&quot;));
-        current.forEach((edge) =&gt; {
+        if (!graph.edges.length) fragment.append(el(&quot;p&quot;, &quot;No connections for this topic.&quot;, &quot;text-small text-muted&quot;));
+        graph.edges.forEach(edge =&gt; {
           const wrapper = el(&quot;div&quot;, null, &quot;comparison-choice&quot;);
           const button = el(&quot;button&quot;, null, &quot;btn btn-block&quot;);
           const buttonLabel = el(&quot;span&quot;);
@@ -5680,12 +5724,66 @@ body { font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Ari
           button.append(buttonLabel);
           button.type = &quot;button&quot;;
           button.dataset.comparisonId = edge.id;
-          button.setAttribute(&quot;aria-pressed&quot;, String(state.selection.kind === &quot;edge&quot; &amp;&amp; state.selection.id === edge.id));
           button.addEventListener(&quot;click&quot;, () =&gt; selectEdge(edge.id));
           wrapper.append(button);
           fragment.append(wrapper);
         });
-        comparisons.replaceChildren(fragment);
+        graph.comparisons.replaceChildren(fragment);
+      }
+      function renderTopicGraphs() {
+        topicGraphs.forEach(graph =&gt; {
+          const option = el(&quot;option&quot;, graph.label);
+          option.value = graph.id;
+          topicJump.append(option);
+
+          const section = el(&quot;section&quot;, null, &quot;framing-topic&quot;);
+          section.dataset.framingTopic = graph.id;
+          const heading = el(&quot;h3&quot;, graph.label, &quot;framing-topic-title&quot;);
+          heading.id = &quot;dnipro-topic-&quot; + graph.id;
+          heading.tabIndex = -1;
+          section.setAttribute(&quot;aria-labelledby&quot;, heading.id);
+          const stage = el(&quot;div&quot;, null, &quot;graph-stage&quot;);
+          stage.setAttribute(&quot;role&quot;, &quot;group&quot;);
+          stage.setAttribute(&quot;aria-label&quot;, graph.label + &quot; graph&quot;);
+          stage.hidden = graph.nodes.length === 0;
+          const svg = document.createElementNS(svgNS, &quot;svg&quot;);
+          svg.setAttribute(&quot;class&quot;, &quot;graph-lines&quot;);
+          svg.setAttribute(&quot;aria-hidden&quot;, &quot;true&quot;);
+          svg.addEventListener(&quot;click&quot;, event =&gt; {
+            const hit = event.target.closest(&quot;[data-edge-id]&quot;);
+            if (hit) selectEdge(hit.getAttribute(&quot;data-edge-id&quot;));
+          });
+          const nodeLayer = el(&quot;div&quot;);
+          graph.nodes.forEach(node =&gt; {
+            const wrapper = el(&quot;div&quot;, null, &quot;graph-node&quot;);
+            const button = el(&quot;button&quot;, null, &quot;btn btn-block&quot;);
+            button.type = &quot;button&quot;;
+            button.setAttribute(&quot;aria-label&quot;, text(node.label) + &quot;, &quot; + text(node.country) + &quot;. Read claims in &quot; + graph.label + &quot;.&quot;);
+            const nodeLabel = el(&quot;span&quot;);
+            nodeLabel.append(el(&quot;span&quot;, text(node.label), &quot;node-title&quot;), el(&quot;br&quot;), el(&quot;span&quot;, text(node.country), &quot;text-small&quot;));
+            button.append(nodeLabel);
+            button.addEventListener(&quot;click&quot;, () =&gt; selectNode(graph, node.id));
+            wrapper.append(button);
+            graph.nodeElements.set(node.id, wrapper);
+            nodeLayer.append(wrapper);
+          });
+          stage.append(svg, nodeLayer);
+
+          const comparisons = el(&quot;div&quot;, null, &quot;comparison-list&quot;);
+          comparisons.setAttribute(&quot;role&quot;, &quot;group&quot;);
+          comparisons.setAttribute(&quot;aria-label&quot;, graph.label + &quot; connections&quot;);
+          section.append(heading, stage, comparisons);
+          topicList.append(section);
+          Object.assign(graph, { section, heading, stage, svg, comparisons });
+          renderComparisonChoices(graph);
+        });
+        topicJump.addEventListener(&quot;change&quot;, () =&gt; {
+          const graph = graphByTopicId.get(topicJump.value);
+          if (!graph) return;
+          topicJump.value = &quot;&quot;;
+          graph.section.scrollIntoView({ block: &quot;start&quot; });
+          graph.heading.focus({ preventScroll: true });
+        });
       }
       function renderClaimIndex(eventEdges) {
         const groupContainer = find(&quot;dnipro-claim-index-groups&quot;);
@@ -5733,7 +5831,8 @@ body { font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Ari
         group.append(connected);
         groupContainer.replaceChildren(group);
       }
-      function drawGraph() {
+      function drawGraph(graph) {
+        const { stage, svg, nodes, nodeElements, edgeGroups } = graph;
         const bounds = stage.getBoundingClientRect();
         if (bounds.width &lt;= 0 || !nodes.length) return;
         const width = Math.max(1, bounds.width);
@@ -5767,8 +5866,6 @@ body { font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Ari
         const height = padding * 2 + rows * cardHeight + Math.max(0, rows - 1) * gap;
         if (Math.abs(bounds.height - height) &gt; 1) {
           stage.style.height = height + &quot;px&quot;;
-          requestAnimationFrame(drawGraph);
-          return;
         }
         svg.setAttribute(&quot;viewBox&quot;, &quot;0 0 &quot; + width + &quot; &quot; + height);
         svg.setAttribute(&quot;width&quot;, String(width));
@@ -5789,11 +5886,12 @@ body { font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Ari
         });
         const fragment = document.createDocumentFragment();
         const defs = document.createElementNS(svgNS, &quot;defs&quot;);
+        const markerPrefix = &quot;dnipro-&quot; + graph.id + &quot;-arrow-&quot;;
         [&quot;supportive&quot;, &quot;contradiction&quot;].forEach(kind =&gt; {
           [false, true].forEach(selected =&gt; {
             const size = selected ? &quot;11&quot; : &quot;8&quot;;
             const marker = document.createElementNS(svgNS, &quot;marker&quot;);
-            marker.id = &quot;dnipro-arrow-&quot; + kind + (selected ? &quot;-selected&quot; : &quot;&quot;);
+            marker.id = markerPrefix + kind + (selected ? &quot;-selected&quot; : &quot;&quot;);
             marker.setAttribute(&quot;viewBox&quot;, &quot;0 0 10 10&quot;);
             // End the shaft inside the triangle so it cannot flatten the tip.
             marker.setAttribute(&quot;refX&quot;, &quot;7&quot;);
@@ -5921,11 +6019,11 @@ body { font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Ari
           }
           const line = document.createElementNS(svgNS, &quot;path&quot;);
           const kind = [&quot;supportive&quot;, &quot;agreement&quot;, &quot;contradiction&quot;].includes(edge.relation) ? edge.relation : &quot;neutral&quot;;
-          const selected = state.selection.kind === &quot;edge&quot; &amp;&amp; groupByEdgeId.get(state.selection.id) === edge;
+          const selected = selection?.kind === &quot;edge&quot; &amp;&amp; groupByEdgeId.get(selection.id) === edge;
           line.setAttribute(&quot;d&quot;, d);
           line.setAttribute(&quot;class&quot;, &quot;edge-line &quot; + kind + (selected ? &quot; selected&quot; : &quot;&quot;));
           line.dataset.edgeId = edge.id;
-          const marker = &quot;url(#dnipro-arrow-&quot; + kind + (selected ? &quot;-selected&quot; : &quot;&quot;) + &quot;)&quot;;
+          const marker = &quot;url(#&quot; + markerPrefix + kind + (selected ? &quot;-selected&quot; : &quot;&quot;) + &quot;)&quot;;
           if (kind !== &quot;neutral&quot;) line.setAttribute(&quot;marker-end&quot;, marker);
           const hit = document.createElementNS(svgNS, &quot;path&quot;);
           hit.setAttribute(&quot;d&quot;, d);
@@ -5956,15 +6054,16 @@ body { font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Ari
           svg.append(badge);
         });
       }
+      function drawGraphs() {
+        topicGraphs.forEach(drawGraph);
+      }
       function renderEvent() {
-        renderComparisonChoices();
         renderSelection();
-        drawGraph();
+        drawGraphs();
       }
 
       find(&quot;dnipro-graph-title&quot;).textContent = text(data.event?.label, &quot;Compare the claims&quot;);
       find(&quot;dnipro-graph-date&quot;).textContent = text(data.event?.date, &quot;Date not stated&quot;);
-      const eventEdges = activeEdges();
       const eventCounts = [
         [&quot;News outlets&quot;, nodes.length],
         [&quot;Claims&quot;, claimById.size],
@@ -5979,46 +6078,28 @@ body { font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Ari
         item.append(el(&quot;dt&quot;, label), el(&quot;dd&quot;, String(count), &quot;tabular-nums&quot;));
         find(&quot;dnipro-event-summary&quot;).append(item);
       });
-      find(&quot;dnipro-connections-summary&quot;).textContent = &quot;All &quot; + edges.length + &quot; framing connections&quot;;
       renderClaimIndex(eventEdges);
-      nodes.forEach((node) =&gt; {
-        const wrapper = el(&quot;div&quot;, null, &quot;graph-node&quot;);
-        const button = el(&quot;button&quot;, null, &quot;btn btn-block&quot;);
-        button.type = &quot;button&quot;;
-        button.setAttribute(&quot;aria-pressed&quot;, &quot;false&quot;);
-        button.setAttribute(&quot;aria-label&quot;, text(node.label) + &quot;, &quot; + text(node.country) + &quot;. Read attributed claims.&quot;);
-        const nodeLabel = el(&quot;span&quot;);
-        const title = el(&quot;span&quot;, text(node.label), &quot;node-title&quot;);
-        nodeLabel.append(title, el(&quot;br&quot;), el(&quot;span&quot;, text(node.country), &quot;text-small&quot;));
-        button.append(nodeLabel);
-        button.addEventListener(&quot;click&quot;, () =&gt; selectNode(node.id));
-        wrapper.append(button);
-        nodeElements.set(node.id, wrapper);
-        nodeLayer.append(wrapper);
-      });
-      state = normalize(readSaved(window.openai?.widgetState));
-      svg.addEventListener(&quot;click&quot;, (event) =&gt; {
-        const hit = event.target.closest(&quot;[data-edge-id]&quot;);
-        if (hit) selectEdge(hit.getAttribute(&quot;data-edge-id&quot;));
-      });
+      renderTopicGraphs();
+      selection = normalize(readSaved(window.openai?.widgetState));
       window.addEventListener(&quot;openai:set_globals&quot;, (event) =&gt; {
         const globals = event.detail?.globals;
         if (!globals || !Object.prototype.hasOwnProperty.call(globals, &quot;widgetState&quot;)) return;
         const restored = readSaved(globals.widgetState);
         if (!restored) return;
-        state = normalize(restored);
+        selection = normalize(restored);
         renderEvent();
       });
       window.addEventListener(&quot;message&quot;, (event) =&gt; {
         if (event.source !== window.parent || event.data?.type !== &quot;dnipro-network-activate&quot;) return;
         root.querySelectorAll(&quot;details&quot;).forEach((section) =&gt; { section.open = false; });
-        renderSelection();
-        drawGraph();
+        renderEvent();
       });
-      renderMethod();
       renderEvent();
-      if (typeof ResizeObserver === &quot;function&quot;) new ResizeObserver(drawGraph).observe(stage);
-      else window.addEventListener(&quot;resize&quot;, drawGraph);
+      narrowLayout.addEventListener(&quot;change&quot;, placeDetail);
+      if (typeof ResizeObserver === &quot;function&quot;) {
+        const observer = new ResizeObserver(drawGraphs);
+        topicGraphs.forEach(graph =&gt; observer.observe(graph.stage));
+      } else window.addEventListener(&quot;resize&quot;, drawGraphs);
     })();
   
 &lt;/script&gt;
