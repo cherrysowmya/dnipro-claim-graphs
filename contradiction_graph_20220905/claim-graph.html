@@ -5331,7 +5331,6 @@ body { font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Ari
     &lt;/header&gt;
     &lt;section class=&quot;event-summary&quot; aria-label=&quot;Counts for the framing network&quot;&gt;
       &lt;dl class=&quot;event-counts&quot; id=&quot;dnipro-event-summary&quot;&gt;&lt;/dl&gt;
-      &lt;p class=&quot;count-note&quot;&gt;Each claim with a connection is counted once, even if it has several connections.&lt;/p&gt;
     &lt;/section&gt;
     &lt;div class=&quot;network-heading&quot;&gt;
       &lt;h2&gt;The framing / lensing network&lt;/h2&gt;
@@ -5926,12 +5925,10 @@ body { font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Ari
       find(&quot;dnipro-graph-title&quot;).textContent = text(data.event?.label, &quot;Compare the claims&quot;);
       find(&quot;dnipro-graph-date&quot;).textContent = text(data.event?.date, &quot;Date not stated&quot;);
       const eventEdges = activeEdges();
-      const connectedClaimIds = new Set(eventEdges.flatMap(edge =&gt; [edge.source_claim, edge.target_claim]).filter(id =&gt; claimById.has(id)));
       const eventCounts = [
         [&quot;News outlets&quot;, nodes.length],
         [&quot;Claims&quot;, claimById.size],
         [&quot;Framing connections&quot;, eventEdges.length],
-        [&quot;Claims with a connection&quot;, connectedClaimIds.size],
         [&quot;Directed supportive framing links&quot;, eventEdges.filter(edge =&gt; edge.relation === &quot;supportive&quot;).length],
         [&quot;Directed proposed framing contradictions&quot;, eventEdges.filter(edge =&gt; edge.relation === &quot;contradiction&quot;).length]
       ];
