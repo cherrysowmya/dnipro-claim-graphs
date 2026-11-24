@@ -1702,9 +1702,7 @@
   ],
   "framing_network": {
     "id": "nordstream_leaks_20220928_framing",
-    "label": "Framing / lensing network",
     "description": "Shared and contrasting lenses within Nord Stream leaks and investigation.",
-    "definition": "A framing comparison examines how selected passages assign meaning, agency, value, certainty or attention. Supportive links reinforce the specified framing; red links mark proposed framing contradictions. Original speakers, evidence and uncertainty remain attached to each claim.",
     "framing_topics": [
       {
         "framing_dimension_id": "lens_certainty_about_sabotage",
@@ -1744,9 +1742,8 @@
         "source_lens": "Available information points to a deliberate act",
         "target_lens": "Sabotage described as speculation without evidence",
         "shared_focus": "How confidently deliberate damage is presented",
-        "reason": "CNN quotes Borrell saying all available information points to a deliberate act. China Daily describes Die Welt’s sabotage account as speculation for which it gave no evidence. The comparison contrasts an authoritative assessment and an evidence-caution lens.",
-        "caveat": "The caution applies to Die Welt’s report rather than every source available to Borrell. Different information sets can explain the contrast. This is a proposed certainty-frame comparison.",
-        "direction_reason": "CNN01 is proposed to contradict the framing in CD04. Direction follows the analyst-assigned comparison order."
+        "reason": "CNN quotes Borrell saying all available information points to a deliberate act. China Daily describes Die Welt’s sabotage account as speculation for which it gave no evidence. The comparison contrasts an authoritative assessment and an evidence-caution lens. CNN01 is proposed to contradict the framing in CD04. Direction follows the analyst-assigned comparison order.",
+        "caveat": "The caution applies to Die Welt’s report rather than every source available to Borrell. Different information sets can explain the contrast. This is a proposed certainty-frame comparison."
       },
       {
         "id": "F02",
@@ -1760,9 +1757,8 @@
         "source_lens": "Effects bounded to the gas-plume area",
         "target_lens": "Methane contributes to global warming",
         "shared_focus": "The environmental consequences selected for attention",
-        "reason": "CNN reports authorities expecting environmental effects only near the gas plumes in a local safety passage. China Daily quotes an environmental campaigner emphasizing methane’s atmospheric warming effect. The lens shifts from a bounded local hazard to a wider climate consequence.",
-        "caveat": "The CNN passage may concern immediate local safety while the campaigner discusses effects over time. Local and global consequences can coexist. Review the intended scope of the local-only wording.",
-        "direction_reason": "CNN07 is proposed to contradict the framing in CD03. Direction follows the analyst-assigned comparison order."
+        "reason": "CNN reports authorities expecting environmental effects only near the gas plumes in a local safety passage. China Daily quotes an environmental campaigner emphasizing methane’s atmospheric warming effect. The lens shifts from a bounded local hazard to a wider climate consequence. CNN07 is proposed to contradict the framing in CD03. Direction follows the analyst-assigned comparison order.",
+        "caveat": "The CNN passage may concern immediate local safety while the campaigner discusses effects over time. Local and global consequences can coexist. Review the intended scope of the local-only wording."
       },
       {
         "id": "F03",
@@ -1776,9 +1772,8 @@
         "source_lens": "No active pipeline flow to interrupt",
         "target_lens": "Severe future economic and winter hardship",
         "shared_focus": "The energy-supply consequences foregrounded after the damage",
-        "reason": "CNN centers the fact that neither pipeline was operating when the leaks were found. Global Times quotes Wang predicting higher prices, business failures and winter hardship. The passages foreground limited immediate flow effects and severe later consequences.",
-        "caveat": "The statements concern different time horizons and outcome measures. They are compatible as facts and forecasts. The proposed framing contrast concerns which consequences receive attention.",
-        "direction_reason": "CNN02 is proposed to contradict the framing in GT07. Direction follows the analyst-assigned comparison order."
+        "reason": "CNN centers the fact that neither pipeline was operating when the leaks were found. Global Times quotes Wang predicting higher prices, business failures and winter hardship. The passages foreground limited immediate flow effects and severe later consequences. CNN02 is proposed to contradict the framing in GT07. Direction follows the analyst-assigned comparison order.",
+        "caveat": "The statements concern different time horizons and outcome measures. They are compatible as facts and forecasts. The proposed framing contrast concerns which consequences receive attention."
       },
       {
         "id": "F04",
@@ -1792,10 +1787,9 @@
         "source_lens": "Keep possible explanations open",
         "target_lens": "Treat sabotage reporting without supplied evidence cautiously",
         "shared_focus": "How firmly sabotage can be presented as the explanation for the leaks",
-        "reason": "The Russian spokesman’s statement that no option could yet be ruled out reinforces a cautious, unresolved-cause lens rather than presenting sabotage as settled. That lens supports China Daily’s evidence caveat about Die Welt’s speculation.",
+        "reason": "The Russian spokesman’s statement that no option could yet be ruled out reinforces a cautious, unresolved-cause lens rather than presenting sabotage as settled. That lens supports China Daily’s evidence caveat about Die Welt’s speculation. CNN05 reinforces the named part of CD04’s framing. Direction records the analyst’s proposed support relation, not a response between articles.",
         "support_scope": "The cautious treatment of an unresolved cause.",
-        "caveat": "CNN reports a Russian spokesman’s Tuesday statement; China Daily comments on the evidence supplied in one German report. The spokesman does not establish whether Die Welt had evidence, and the passages may use different information. This does not deny later sabotage assessments.",
-        "direction_reason": "CNN05 reinforces the named part of CD04’s framing. Direction records the analyst’s proposed support relation, not a response between articles."
+        "caveat": "CNN reports a Russian spokesman’s Tuesday statement; China Daily comments on the evidence supplied in one German report. The spokesman does not establish whether Die Welt had evidence, and the passages may use different information. This does not deny later sabotage assessments."
       },
       {
         "id": "F05",
@@ -1809,10 +1803,9 @@
         "source_lens": "Support investigation of apparent sabotage",
         "target_lens": "Investigate the incident and strengthen energy security",
         "shared_focus": "Institutional investigation as a response to the pipeline damage",
-        "reason": "Sullivan’s reported support for investigation efforts supplies a concrete US response reinforcing the investigation-centered approach Borrell presents in Sputnik.",
+        "reason": "Sullivan’s reported support for investigation efforts supplies a concrete US response reinforcing the investigation-centered approach Borrell presents in Sputnik. CNN06 reinforces the named part of S02’s framing. Direction records the analyst’s proposed support relation, not a response between articles.",
         "support_scope": "The investigation part of S02, rather than its separate promise to improve energy security.",
-        "caveat": "CNN reports the US position and Sputnik reports the EU position. This does not establish agreement about responsibility, a single joint inquiry, or outlet endorsement.",
-        "direction_reason": "CNN06 reinforces the named part of S02’s framing. Direction records the analyst’s proposed support relation, not a response between articles."
+        "caveat": "CNN reports the US position and Sputnik reports the EU position. This does not establish agreement about responsibility, a single joint inquiry, or outlet endorsement."
       },
       {
         "id": "F06",
@@ -1826,10 +1819,9 @@
         "source_lens": "Nord Stream 2 held gas but was not supplying customers",
         "target_lens": "No immediate loss of operating gas supply",
         "shared_focus": "Why a gas-filled damaged pipeline need not mean an immediate interruption of existing deliveries",
-        "reason": "The spokesperson’s statement that Nord Stream 2 never entered service provides a reason for the immediate-flow lens in the New York Times account cited by Global Times: damage to that pipeline did not stop an operating supply.",
+        "reason": "The spokesperson’s statement that Nord Stream 2 never entered service provides a reason for the immediate-flow lens in the New York Times account cited by Global Times: damage to that pipeline did not stop an operating supply. CD06 reinforces the named part of GT06’s framing. Direction records the analyst’s proposed support relation, not a response between articles.",
         "support_scope": "Only the Nord Stream 2 part of GT06’s two-pipeline explanation of immediate supply impact.",
-        "caveat": "CD06 concerns Nord Stream 2 only. This does not imply no climate harm, price effect, future supply loss or wider economic impact. Global Times cites the New York Times; the arrow does not establish independent corroboration or outlet endorsement.",
-        "direction_reason": "CD06 reinforces the named part of GT06’s framing. Direction records the analyst’s proposed support relation, not a response between articles."
+        "caveat": "CD06 concerns Nord Stream 2 only. This does not imply no climate harm, price effect, future supply loss or wider economic impact. Global Times cites the New York Times; the arrow does not establish independent corroboration or outlet endorsement."
       }
     ]
   }

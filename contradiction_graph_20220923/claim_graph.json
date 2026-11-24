@@ -2834,9 +2834,7 @@
   },
   "framing_network": {
     "id": "referendums_framing_20220923",
-    "label": "Framing / lensing network",
     "description": "Shared and contrasting lenses within Votes on joining Russia.",
-    "definition": "A framing comparison examines how selected passages assign meaning, agency, value, certainty or attention. Supportive links reinforce the specified framing; red links mark proposed framing contradictions. Original speakers, evidence and uncertainty remain attached to each claim.",
     "edges": [
       {
         "id": "F01",
@@ -2850,9 +2848,8 @@
         "source_lens": "Occupation",
         "target_lens": "Liberation",
         "shared_focus": "The description of Russian-held Zaporizhzhia",
-        "reason": "CNN’s narrator calls the areas Russian-occupied. Izvestia’s narrator calls the Russian-held Zaporizhzhia areas liberated. The labels give opposing interpretations of Russia’s control.",
-        "caveat": "Compare Zaporizhzhia, which appears in both descriptions. These labels record article narration and require separate legal or territorial verification.",
-        "direction_reason": "CNN08 is proposed to contradict the framing in I07. The arrow follows the analyst-assigned comparison order."
+        "reason": "CNN’s narrator calls the areas Russian-occupied. Izvestia’s narrator calls the Russian-held Zaporizhzhia areas liberated. The labels give opposing interpretations of Russia’s control. CNN08 is proposed to contradict the framing in I07. The arrow follows the analyst-assigned comparison order.",
+        "caveat": "Compare Zaporizhzhia, which appears in both descriptions. These labels record article narration and require separate legal or territorial verification."
       },
       {
         "id": "F02",
@@ -2866,9 +2863,8 @@
         "source_lens": "Occupation",
         "target_lens": "Liberation",
         "shared_focus": "The description of Russian-held Zaporizhzhia",
-        "reason": "Global Times uses Russia-occupied for Kherson and Zaporizhzhia. Izvestia uses liberated for Zaporizhzhia. The frame changes Russian control from occupation to liberation.",
-        "caveat": "The overlap is Zaporizhzhia. Other passages quoted in Global Times can carry different views, so this comparison stays with the narrators’ own wording.",
-        "direction_reason": "GT07 is proposed to contradict the framing in I07. The arrow follows the analyst-assigned comparison order."
+        "reason": "Global Times uses Russia-occupied for Kherson and Zaporizhzhia. Izvestia uses liberated for Zaporizhzhia. The frame changes Russian control from occupation to liberation. GT07 is proposed to contradict the framing in I07. The arrow follows the analyst-assigned comparison order.",
+        "caveat": "The overlap is Zaporizhzhia. Other passages quoted in Global Times can carry different views, so this comparison stays with the narrators’ own wording."
       },
       {
         "id": "F03",
@@ -2882,9 +2878,8 @@
         "source_lens": "Restricted choice under repression",
         "target_lens": "Genuine self-determination",
         "shared_focus": "Whether the voting expresses residents’ own wishes",
-        "reason": "The FT narrator presents the vote through occupation and repression. Putin, quoted by Izvestia, presents Russia as responding to residents’ sincere wish to decide their own lives. The passages assign contrasting agency to residents.",
-        "caveat": "The FT qualifies its assessment as applying to many residents. Putin’s broad account of residents’ wishes is a quoted justification. Human review must align their populations and scope.",
-        "direction_reason": "FT02 is proposed to contradict the framing in I05. The arrow follows the analyst-assigned comparison order."
+        "reason": "The FT narrator presents the vote through occupation and repression. Putin, quoted by Izvestia, presents Russia as responding to residents’ sincere wish to decide their own lives. The passages assign contrasting agency to residents. FT02 is proposed to contradict the framing in I05. The arrow follows the analyst-assigned comparison order.",
+        "caveat": "The FT qualifies its assessment as applying to many residents. Putin’s broad account of residents’ wishes is a quoted justification. Human review must align their populations and scope."
       },
       {
         "id": "F04",
@@ -2898,9 +2893,8 @@
         "source_lens": "Intimidation and coercion",
         "target_lens": "Protection and security",
         "shared_focus": "Armed or police-accompanied door-to-door voting",
-        "reason": "The Ukrainian adviser quoted by CNN describes armed home visits as coercion at gunpoint. The Russia-appointed official quoted by the FT describes police-accompanied visits as protection. The security presence is given opposing meanings.",
-        "caveat": "The CNN allegation concerns Mariupol and was not independently verified. The FT official discusses Zaporizhzhia. This compares the lens on similar practices across places, rather than asserting the same team or incident.",
-        "direction_reason": "CNN02 is proposed to contradict the framing in FT05. The arrow follows the analyst-assigned comparison order."
+        "reason": "The Ukrainian adviser quoted by CNN describes armed home visits as coercion at gunpoint. The Russia-appointed official quoted by the FT describes police-accompanied visits as protection. The security presence is given opposing meanings. CNN02 is proposed to contradict the framing in FT05. The arrow follows the analyst-assigned comparison order.",
+        "caveat": "The CNN allegation concerns Mariupol and was not independently verified. The FT official discusses Zaporizhzhia. This compares the lens on similar practices across places, rather than asserting the same team or incident."
       },
       {
         "id": "F05",
@@ -2914,9 +2908,8 @@
         "source_lens": "Below democratic standards",
         "target_lens": "Open and transparent preparation",
         "shared_focus": "The quality and legitimacy of the voting arrangements",
-        "reason": "The FT narrator judges the methods against democratic standards and finds them deficient. Matviyenko, quoted by TASS, praises organization, transparency and openness. They select different standards to evaluate the voting exercise.",
-        "caveat": "Administrative preparation and democratic fairness can differ. Matviyenko partly relays colleagues’ views. The proposed conflict concerns the evaluative lens.",
-        "direction_reason": "FT09 is proposed to contradict the framing in T03. The arrow follows the analyst-assigned comparison order."
+        "reason": "The FT narrator judges the methods against democratic standards and finds them deficient. Matviyenko, quoted by TASS, praises organization, transparency and openness. They select different standards to evaluate the voting exercise. FT09 is proposed to contradict the framing in T03. The arrow follows the analyst-assigned comparison order.",
+        "caveat": "Administrative preparation and democratic fairness can differ. Matviyenko partly relays colleagues’ views. The proposed conflict concerns the evaluative lens."
       },
       {
         "id": "F06",
@@ -2930,9 +2923,8 @@
         "source_lens": "An imposed exercise run by occupiers and puppets",
         "target_lens": "A historic act of residents’ free will",
         "shared_focus": "The agency and legitimacy assigned to the vote",
-        "reason": "Censor.NET’s narrator uses occupiers, puppets and so-called referendum. Saulenko, quoted by the FT, describes a historic expression of free will and a bright future. The descriptions center imposed control and voluntary choice respectively.",
-        "caveat": "Censor.NET’s lead names Donetsk, Luhansk and Melitopol. Saulenko speaks from Berdyansk. His praise is separate from the FT’s own assessment and concerns a different local setting.",
-        "direction_reason": "CEN05 is proposed to contradict the framing in FT01. The arrow follows the analyst-assigned comparison order."
+        "reason": "Censor.NET’s narrator uses occupiers, puppets and so-called referendum. Saulenko, quoted by the FT, describes a historic expression of free will and a bright future. The descriptions center imposed control and voluntary choice respectively. CEN05 is proposed to contradict the framing in FT01. The arrow follows the analyst-assigned comparison order.",
+        "caveat": "Censor.NET’s lead names Donetsk, Luhansk and Melitopol. Saulenko speaks from Berdyansk. His praise is separate from the FT’s own assessment and concerns a different local setting."
       },
       {
         "id": "F07",
@@ -2946,9 +2938,8 @@
         "source_lens": "Manufactured outcomes",
         "target_lens": "Authentic popular will",
         "shared_focus": "Whether the vote can supply a genuine popular mandate",
-        "reason": "Jean-Pierre, quoted by Kyiv Independent, pre-labels Russia’s announced outcomes fabricated. Putin, quoted by Izvestia, justifies the vote as a response to residents’ sincere wishes. The framing shifts the source of legitimacy from manufactured results to popular agency.",
-        "caveat": "A predicted result and a claim about residents’ wishes are different propositions. This is a proposed legitimacy-frame conflict, requiring review of whose wishes and which results are meant.",
-        "direction_reason": "KI02 is proposed to contradict the framing in I05. The arrow follows the analyst-assigned comparison order."
+        "reason": "Jean-Pierre, quoted by Kyiv Independent, pre-labels Russia’s announced outcomes fabricated. Putin, quoted by Izvestia, justifies the vote as a response to residents’ sincere wishes. The framing shifts the source of legitimacy from manufactured results to popular agency. KI02 is proposed to contradict the framing in I05. The arrow follows the analyst-assigned comparison order.",
+        "caveat": "A predicted result and a claim about residents’ wishes are different propositions. This is a proposed legitimacy-frame conflict, requiring review of whose wishes and which results are meant."
       },
       {
         "id": "F08",
@@ -2962,10 +2953,9 @@
         "source_lens": "Armed pressure limits residents’ choice",
         "target_lens": "Voting under occupation is far from free choice",
         "shared_focus": "Whether residents can freely choose during the September 23–27 votes",
-        "reason": "The Ukrainian mayoral adviser’s account in CNN places armed men alongside door-to-door voting teams and describes coercion. That allegation gives a concrete reason for the restricted-choice lens expressed by the FT narrator.",
+        "reason": "The Ukrainian mayoral adviser’s account in CNN places armed men alongside door-to-door voting teams and describes coercion. That allegation gives a concrete reason for the restricted-choice lens expressed by the FT narrator. CNN02 reinforces the named part of FT02’s framing. Direction records the analyst’s proposed support relation, not a response between articles.",
         "support_scope": "The framing of constrained voter agency in the reported setting.",
-        "caveat": "CNN could not independently verify the adviser’s account, and the adviser was outside Mariupol. This does not establish coercion throughout all four regions or make CNN the author of the allegation.",
-        "direction_reason": "CNN02 reinforces the named part of FT02’s framing. Direction records the analyst’s proposed support relation, not a response between articles."
+        "caveat": "CNN could not independently verify the adviser’s account, and the adviser was outside Mariupol. This does not establish coercion throughout all four regions or make CNN the author of the allegation."
       },
       {
         "id": "F09",
@@ -2979,10 +2969,9 @@
         "source_lens": "An individual voter expects to have no meaningful influence",
         "target_lens": "Announced outcomes will be manufactured",
         "shared_focus": "Whether the announced results will meaningfully depend on residents’ participation and choices",
-        "reason": "The Donetsk businessman’s expectation that a vote will be counted even if he does not participate presents the result as detached from his agency. That account reinforces the manufactured-outcome lens in Jean-Pierre’s statement reported by Kyiv Independent.",
+        "reason": "The Donetsk businessman’s expectation that a vote will be counted even if he does not participate presents the result as detached from his agency. That account reinforces the manufactured-outcome lens in Jean-Pierre’s statement reported by Kyiv Independent. FT04 reinforces the named part of KI02’s framing. Direction records the analyst’s proposed support relation, not a response between articles.",
         "support_scope": "The interpretation of outcomes as detached from individual voter agency.",
-        "caveat": "An unnamed individual’s expectation in Donetsk is not proof of how votes were counted, and cannot verify Jean-Pierre’s broader prediction about every announced outcome. These are attributed views, not endorsements by both outlets.",
-        "direction_reason": "FT04 reinforces the named part of KI02’s framing. Direction records the analyst’s proposed support relation, not a response between articles."
+        "caveat": "An unnamed individual’s expectation in Donetsk is not proof of how votes were counted, and cannot verify Jean-Pierre’s broader prediction about every announced outcome. These are attributed views, not endorsements by both outlets."
       },
       {
         "id": "F10",
@@ -2996,10 +2985,9 @@
         "source_lens": "Observation is foregrounded as part of the voting process",
         "target_lens": "Preparation is presented as open and transparent",
         "shared_focus": "The use of observers to present the votes as an orderly and scrutinized process",
-        "reason": "Izvestia’s planned-observer account foregrounds observation of the voting. This supplies one procedural feature consistent with Matviyenko’s openness-and-transparency presentation in TASS.",
+        "reason": "Izvestia’s planned-observer account foregrounds observation of the voting. This supplies one procedural feature consistent with Matviyenko’s openness-and-transparency presentation in TASS. I08 reinforces the named part of T03’s framing. Direction records the analyst’s proposed support relation, not a response between articles.",
         "support_scope": "The observation-related part of the procedural presentation, not the entire transparency assessment.",
-        "caveat": "The presence or planned presence of observers does not establish their independence, meaningful access, lawful voting, or freedom from coercion. Similar official information may underlie both passages; this is support for a procedural presentation, not independent corroboration of transparency.",
-        "direction_reason": "I08 reinforces the named part of T03’s framing. Direction records the analyst’s proposed support relation, not a response between articles."
+        "caveat": "The presence or planned presence of observers does not establish their independence, meaningful access, lawful voting, or freedom from coercion. Similar official information may underlie both passages; this is support for a procedural presentation, not independent corroboration of transparency."
       },
       {
         "id": "F11",
@@ -3013,10 +3001,9 @@
         "source_lens": "Claimed incorporation would redefine Ukrainian attacks as attacks on Russia",
         "target_lens": "Claimed incorporation could raise Russia’s response stakes",
         "shared_focus": "How the proposed incorporation could change Russia’s treatment of later Ukrainian attacks",
-        "reason": "Peskov’s statement in CNN supplies the territorial reclassification behind the escalation lens: Russia would regard Ukrainian efforts to retake the regions as attacks on Russian territory. That stated position gives a reason for the Global Times expert’s forecast of a wider range of possible Russian responses.",
+        "reason": "Peskov’s statement in CNN supplies the territorial reclassification behind the escalation lens: Russia would regard Ukrainian efforts to retake the regions as attacks on Russian territory. That stated position gives a reason for the Global Times expert’s forecast of a wider range of possible Russian responses. CNN07 reinforces the named part of GT04’s framing. Direction records the analyst’s proposed support relation, not a response between articles.",
         "support_scope": "The escalation mechanism in the conditional forecast, rather than every predicted Russian response.",
-        "caveat": "Both statements concern a conditional future after claimed incorporation. Peskov’s classification does not establish legal sovereignty, justify a response, or confirm the expert’s prediction that Russia might use every possible military and political means. Neither quotation establishes an outlet endorsement.",
-        "direction_reason": "CNN07 reinforces the named part of GT04’s framing. Direction records the analyst’s proposed support relation, not a response between articles."
+        "caveat": "Both statements concern a conditional future after claimed incorporation. Peskov’s classification does not establish legal sovereignty, justify a response, or confirm the expert’s prediction that Russia might use every possible military and political means. Neither quotation establishes an outlet endorsement."
       }
     ],
     "framing_topics": [
