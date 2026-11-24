@@ -5349,6 +5349,9 @@ body { font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Ari
       &lt;summary class=&quot;cursor-interaction&quot; id=&quot;dnipro-connections-summary&quot;&gt;All claim connections&lt;/summary&gt;
       &lt;div class=&quot;comparison-list&quot; id=&quot;dnipro-comparison-list&quot; aria-label=&quot;All claim connections for the event&quot;&gt;&lt;/div&gt;
     &lt;/details&gt;
+    &lt;section class=&quot;claim-index&quot; aria-label=&quot;Claims selected for framing comparisons&quot;&gt;
+      &lt;div id=&quot;dnipro-claim-index-groups&quot;&gt;&lt;/div&gt;
+    &lt;/section&gt;
   &lt;/section&gt;
   &lt;div class=&quot;sr-only&quot; id=&quot;dnipro-selection-status&quot; role=&quot;status&quot; aria-live=&quot;polite&quot; aria-atomic=&quot;true&quot;&gt;&lt;/div&gt;
   &lt;aside class=&quot;detail-pane&quot; id=&quot;dnipro-detail-pane&quot; aria-label=&quot;Selection details and attribution&quot; tabindex=&quot;0&quot;&gt;
@@ -5646,6 +5649,51 @@ body { font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Ari
         });
         comparisons.replaceChildren(fragment);
       }
+      function renderClaimIndex(eventEdges) {
+        const groupContainer = find(&quot;dnipro-claim-index-groups&quot;);
+        const relationshipTypes = [
+          [&quot;supportive&quot;, &quot;Supportive&quot;],
+          [&quot;neutral&quot;, &quot;Neutral or unresolved&quot;],
+          [&quot;contradiction&quot;, &quot;Proposed contradictions&quot;]
+        ];
+        const connected = el(&quot;ul&quot;, null, &quot;claim-index-list&quot;);
+        nodes.forEach(node =&gt; (node.claims || []).forEach(claim =&gt; {
+          const item = el(&quot;li&quot;, null, &quot;claim-index-item&quot;);
+          item.dataset.indexClaimId = claim.id;
+          item.append(el(&quot;h3&quot;, claim.id + &quot; · &quot; + node.label), el(&quot;p&quot;, claim.text));
+          const links = eventEdges.filter(edge =&gt; edge.source_claim === claim.id || edge.target_claim === claim.id);
+          if (!links.length) return;
+          const breakdown = el(&quot;dl&quot;, null, &quot;claim-index-relations&quot;);
+          relationshipTypes.forEach(([relation, label]) =&gt; {
+            const outletIds = new Set();
+            const descriptions = [];
+            links.filter(edge =&gt; edge.relation === relation).forEach(edge =&gt; {
+              const isSource = edge.source_claim === claim.id;
+              const otherOutletId = isSource ? edge.target : edge.source;
+              const otherClaimId = isSource ? edge.target_claim : edge.source_claim;
+              outletIds.add(otherOutletId);
+              let description = nodeById.get(otherOutletId).label + &quot; · &quot; + otherClaimId;
+              if (relation === &quot;supportive&quot;) {
+                description += isSource ? &quot; (receives support)&quot; : &quot; (supports this claim)&quot;;
+              } else if (relation === &quot;contradiction&quot;) {
+                description += isSource ? &quot; (is contradicted by this claim)&quot; : &quot; (contradicts this claim)&quot;;
+              }
+              descriptions.push(description);
+            });
+            const count = outletIds.size;
+            breakdown.append(
+              el(&quot;dt&quot;, label + &quot; · &quot; + count + (count === 1 ? &quot; outlet&quot; : &quot; outlets&quot;)),
+              el(&quot;dd&quot;, descriptions.join(&quot; / &quot;) || &quot;None&quot;)
+            );
+          });
+          item.append(breakdown);
+          connected.append(item);
+        }));
+        const group = el(&quot;details&quot;, null, &quot;event-disclosure&quot;);
+        group.append(el(&quot;summary&quot;, &quot;Claims with a connection (&quot; + connected.childElementCount + &quot;)&quot;, &quot;cursor-interaction&quot;));
+        group.append(connected);
+        groupContainer.replaceChildren(group);
+      }
       function drawGraph() {
         const bounds = stage.getBoundingClientRect();
         if (bounds.width &lt;= 0 || !nodes.length) return;
@@ -5895,6 +5943,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Ari
         find(&quot;dnipro-event-summary&quot;).append(item);
       });
       find(&quot;dnipro-connections-summary&quot;).textContent = &quot;All &quot; + edges.length + &quot; framing connections&quot;;
+      renderClaimIndex(eventEdges);
       nodes.forEach((node) =&gt; {
         const wrapper = el(&quot;div&quot;, null, &quot;graph-node&quot;);
         const button = el(&quot;button&quot;, null, &quot;btn btn-block&quot;);
