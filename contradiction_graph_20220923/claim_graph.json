@@ -2844,7 +2844,7 @@
         "target": "izvestia",
         "source_claim": "CNN08",
         "target_claim": "I07",
-        "topic": "framing",
+        "topic": "lens_territorial_status",
         "relation": "contradiction",
         "label": "Occupation versus Liberation",
         "framing_dimension": "Territorial status",
@@ -2861,7 +2861,7 @@
         "target": "izvestia",
         "source_claim": "GT07",
         "target_claim": "I07",
-        "topic": "framing",
+        "topic": "lens_territorial_status",
         "relation": "contradiction",
         "label": "Occupation versus Liberation",
         "framing_dimension": "Territorial status",
@@ -2878,7 +2878,7 @@
         "target": "izvestia",
         "source_claim": "FT02",
         "target_claim": "I05",
-        "topic": "framing",
+        "topic": "lens_voter_agency",
         "relation": "contradiction",
         "label": "Restricted choice under repression versus Genuine self-determination",
         "framing_dimension": "Voter agency",
@@ -2895,7 +2895,7 @@
         "target": "ft",
         "source_claim": "CNN02",
         "target_claim": "FT05",
-        "topic": "free_choice",
+        "topic": "lens_role_of_armed_escorts",
         "relation": "contradiction",
         "label": "Intimidation and coercion versus Protection and security",
         "framing_dimension": "Role of armed escorts",
@@ -2912,7 +2912,7 @@
         "target": "tass",
         "source_claim": "FT09",
         "target_claim": "T03",
-        "topic": "voting_process",
+        "topic": "lens_procedural_legitimacy",
         "relation": "contradiction",
         "label": "Below democratic standards versus Open and transparent preparation",
         "framing_dimension": "Procedural legitimacy",
@@ -2929,7 +2929,7 @@
         "target": "ft",
         "source_claim": "CEN05",
         "target_claim": "FT01",
-        "topic": "framing",
+        "topic": "lens_who_drives_the_event",
         "relation": "contradiction",
         "label": "An imposed exercise run by occupiers and puppets versus A historic act of residents’ free will",
         "framing_dimension": "Who drives the event",
@@ -2946,7 +2946,7 @@
         "target": "izvestia",
         "source_claim": "KI02",
         "target_claim": "I05",
-        "topic": "framing",
+        "topic": "lens_basis_of_the_claimed_mandate",
         "relation": "contradiction",
         "label": "Manufactured outcomes versus Authentic popular will",
         "framing_dimension": "Basis of the claimed mandate",
@@ -3046,6 +3046,22 @@
       {
         "id": "lens_escalation_stakes",
         "label": "Escalation stakes"
+      },
+      {
+        "id": "lens_territorial_status",
+        "label": "Territorial status"
+      },
+      {
+        "id": "lens_role_of_armed_escorts",
+        "label": "Role of armed escorts"
+      },
+      {
+        "id": "lens_who_drives_the_event",
+        "label": "Who drives the event"
+      },
+      {
+        "id": "lens_basis_of_the_claimed_mandate",
+        "label": "Basis of the claimed mandate"
       }
     ]
   }
