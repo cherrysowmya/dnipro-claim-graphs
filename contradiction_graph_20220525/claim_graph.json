@@ -1497,26 +1497,26 @@
     "label": "Framing / lensing network",
     "description": "Shared and contrasting lenses within Sievierodonetsk offensive.",
     "definition": "A framing comparison examines how selected passages assign meaning, agency, value, certainty or attention. Supportive links reinforce the specified framing; red links mark proposed framing contradictions. Original speakers, evidence and uncertainty remain attached to each claim.",
-    "topics": [
+    "framing_topics": [
       {
-        "id": "lens_military_role",
-        "label": "Military role"
+        "framing_dimension_id": "lens_military_role",
+        "framing_dimension_label": "Military role"
       },
       {
-        "id": "lens_purpose_and_harm",
-        "label": "Purpose and harm"
+        "framing_dimension_id": "lens_purpose_and_harm",
+        "framing_dimension_label": "Purpose and harm"
       },
       {
-        "id": "lens_defenders_resolve",
-        "label": "Defenders’ resolve"
+        "framing_dimension_id": "lens_defenders_resolve",
+        "framing_dimension_label": "Defenders’ resolve"
       },
       {
-        "id": "lens_meaning_of_continued_defense",
-        "label": "Meaning of continued defense"
+        "framing_dimension_id": "lens_meaning_of_continued_defense",
+        "framing_dimension_label": "Meaning of continued defense"
       },
       {
-        "id": "lens_support_needed_for_continued_defense",
-        "label": "Support needed for continued defense"
+        "framing_dimension_id": "lens_support_needed_for_continued_defense",
+        "framing_dimension_label": "Support needed for continued defense"
       }
     ],
     "edges": [
@@ -1526,10 +1526,9 @@
         "target": "izvestia",
         "source_claim": "FT12",
         "target_claim": "I6",
-        "topic": "lens_military_role",
+        "framing_dimension_id": "lens_military_role",
         "relation": "contradiction",
         "label": "Occupation versus Protection of Donbas",
-        "framing_dimension": "Military role",
         "source_lens": "Occupation",
         "target_lens": "Protection of Donbas",
         "shared_focus": "The role assigned to Russia’s military action",
@@ -1543,10 +1542,9 @@
         "target": "izvestia",
         "source_claim": "C7",
         "target_claim": "I6",
-        "topic": "lens_military_role",
+        "framing_dimension_id": "lens_military_role",
         "relation": "contradiction",
         "label": "Advancing occupiers versus A protective operation",
-        "framing_dimension": "Military role",
         "source_lens": "Advancing occupiers",
         "target_lens": "A protective operation",
         "shared_focus": "How the Russian advance is legitimized",
@@ -1560,10 +1558,9 @@
         "target": "izvestia",
         "source_claim": "FT06",
         "target_claim": "I6",
-        "topic": "lens_purpose_and_harm",
+        "framing_dimension_id": "lens_purpose_and_harm",
         "relation": "contradiction",
         "label": "Destruction of the city versus Protection of the region",
-        "framing_dimension": "Purpose and harm",
         "source_lens": "Destruction of the city",
         "target_lens": "Protection of the region",
         "shared_focus": "The purpose and human meaning assigned to Russian military action",
@@ -1577,10 +1574,9 @@
         "target": "izvestia",
         "source_claim": "C5",
         "target_claim": "I4",
-        "topic": "lens_defenders_resolve",
+        "framing_dimension_id": "lens_defenders_resolve",
         "relation": "contradiction",
         "label": "Determination to hold the region versus Conditional refusal to defend the city",
-        "framing_dimension": "Defenders’ resolve",
         "source_lens": "Determination to hold the region",
         "target_lens": "Conditional refusal to defend the city",
         "shared_focus": "How Ukrainian defenders’ willingness is presented",
@@ -1594,10 +1590,9 @@
         "target": "izvestia",
         "source_claim": "FT09",
         "target_claim": "I4",
-        "topic": "lens_meaning_of_continued_defense",
+        "framing_dimension_id": "lens_meaning_of_continued_defense",
         "relation": "contradiction",
         "label": "Buying time for more weapons versus Defense constrained by inadequate support",
-        "framing_dimension": "Meaning of continued defense",
         "source_lens": "Buying time for more weapons",
         "target_lens": "Defense constrained by inadequate support",
         "shared_focus": "The strategic meaning of holding the city while awaiting support",
@@ -1611,10 +1606,9 @@
         "target": "censor",
         "source_claim": "I5",
         "target_claim": "C5",
-        "topic": "lens_defenders_resolve",
+        "framing_dimension_id": "lens_defenders_resolve",
         "relation": "supportive",
         "label": "Willingness to defend despite demands for better support supports Determination not to surrender",
-        "framing_dimension": "Defenders’ resolve",
         "source_lens": "Willingness to defend despite demands for better support",
         "target_lens": "Determination not to surrender",
         "shared_focus": "How Ukrainian soldiers’ willingness to continue defending is presented",
@@ -1629,10 +1623,9 @@
         "target": "censor",
         "source_claim": "I5",
         "target_claim": "C6",
-        "topic": "lens_support_needed_for_continued_defense",
+        "framing_dimension_id": "lens_support_needed_for_continued_defense",
         "relation": "supportive",
         "label": "Soldiers tie continued defense to proper support and command supports Defense requires reinforcement and better decisions",
-        "framing_dimension": "Support needed for continued defense",
         "source_lens": "Soldiers tie continued defense to proper support and command",
         "target_lens": "Defense requires reinforcement and better decisions",
         "shared_focus": "The importance of support and command for continued Ukrainian defense",
@@ -1647,10 +1640,9 @@
         "target": "censor",
         "source_claim": "FT11",
         "target_claim": "C6",
-        "topic": "lens_support_needed_for_continued_defense",
+        "framing_dimension_id": "lens_support_needed_for_continued_defense",
         "relation": "supportive",
         "label": "Military options constrained by shortages of heavy weapons supports Defense requires reinforcement and better decisions",
-        "framing_dimension": "Support needed for continued defense",
         "source_lens": "Military options constrained by shortages of heavy weapons",
         "target_lens": "Defense requires reinforcement and better decisions",
         "shared_focus": "The importance of adequate resources for Ukrainian military action",

@@ -1283,30 +1283,30 @@
     "label": "Framing / lensing network",
     "description": "Shared and contrasting lenses within Nuclear warnings and possible responses.",
     "definition": "A framing comparison examines how selected passages assign meaning, agency, value, certainty or attention. Supportive links reinforce the specified framing; red links mark proposed framing contradictions. Original speakers, evidence and uncertainty remain attached to each claim.",
-    "topics": [
+    "framing_topics": [
       {
-        "id": "lens_escalation_responsibility",
-        "label": "Escalation responsibility"
+        "framing_dimension_id": "lens_escalation_responsibility",
+        "framing_dimension_label": "Escalation responsibility"
       },
       {
-        "id": "lens_nuclear_pressure",
-        "label": "Nuclear pressure"
+        "framing_dimension_id": "lens_nuclear_pressure",
+        "framing_dimension_label": "Nuclear pressure"
       },
       {
-        "id": "lens_role_of_us_messaging",
-        "label": "Role of US messaging"
+        "framing_dimension_id": "lens_role_of_us_messaging",
+        "framing_dimension_label": "Role of US messaging"
       },
       {
-        "id": "lens_how_to_treat_the_threats",
-        "label": "How to treat the threats"
+        "framing_dimension_id": "lens_how_to_treat_the_threats",
+        "framing_dimension_label": "How to treat the threats"
       },
       {
-        "id": "lens_seriousness_of_nuclear_danger",
-        "label": "Seriousness of nuclear danger"
+        "framing_dimension_id": "lens_seriousness_of_nuclear_danger",
+        "framing_dimension_label": "Seriousness of nuclear danger"
       },
       {
-        "id": "lens_resistance_to_nuclear_coercion",
-        "label": "Resistance to nuclear coercion"
+        "framing_dimension_id": "lens_resistance_to_nuclear_coercion",
+        "framing_dimension_label": "Resistance to nuclear coercion"
       }
     ],
     "edges": [
@@ -1316,10 +1316,9 @@
         "target": "tass",
         "source_claim": "CNN05",
         "target_claim": "T02",
-        "topic": "lens_escalation_responsibility",
+        "framing_dimension_id": "lens_escalation_responsibility",
         "relation": "contradiction",
         "label": "Warnings required by a dangerous war versus Washington’s aggression drives danger",
-        "framing_dimension": "Escalation responsibility",
         "source_lens": "Warnings required by a dangerous war",
         "target_lens": "Washington’s aggression drives danger",
         "shared_focus": "How the need for US nuclear warnings is interpreted",
@@ -1333,10 +1332,9 @@
         "target": "izvestia",
         "source_claim": "FT03",
         "target_claim": "I04",
-        "topic": "lens_nuclear_pressure",
+        "framing_dimension_id": "lens_nuclear_pressure",
         "relation": "contradiction",
         "label": "Russia applies nuclear blackmail versus The West applies nuclear blackmail",
-        "framing_dimension": "Nuclear pressure",
         "source_lens": "Russia applies nuclear blackmail",
         "target_lens": "The West applies nuclear blackmail",
         "shared_focus": "Which side is cast as applying nuclear coercion",
@@ -1350,10 +1348,9 @@
         "target": "tass",
         "source_claim": "C02",
         "target_claim": "T02",
-        "topic": "lens_role_of_us_messaging",
+        "framing_dimension_id": "lens_role_of_us_messaging",
         "relation": "contradiction",
         "label": "A demand to stop nuclear threats versus An aggressive course that increases risk",
-        "framing_dimension": "Role of US messaging",
         "source_lens": "A demand to stop nuclear threats",
         "target_lens": "An aggressive course that increases risk",
         "shared_focus": "The meaning assigned to Washington’s messages to Moscow",
@@ -1367,10 +1364,9 @@
         "target": "ft",
         "source_claim": "CNN04",
         "target_claim": "FT01",
-        "topic": "lens_how_to_treat_the_threats",
+        "framing_dimension_id": "lens_how_to_treat_the_threats",
         "relation": "contradiction",
         "label": "Resist saber-rattling and maintain resolve versus Take the warnings deadly seriously",
-        "framing_dimension": "How to treat the threats",
         "source_lens": "Resist saber-rattling and maintain resolve",
         "target_lens": "Take the warnings deadly seriously",
         "shared_focus": "The emphasis placed on reacting to Putin’s nuclear rhetoric",
@@ -1384,10 +1380,9 @@
         "target": "cnn",
         "source_claim": "FT02",
         "target_claim": "CNN05",
-        "topic": "lens_seriousness_of_nuclear_danger",
+        "framing_dimension_id": "lens_seriousness_of_nuclear_danger",
         "relation": "supportive",
         "label": "A possible last-resort nuclear gamble supports A dangerous war with rising nuclear risk",
-        "framing_dimension": "Seriousness of nuclear danger",
         "source_lens": "A possible last-resort nuclear gamble",
         "target_lens": "A dangerous war with rising nuclear risk",
         "shared_focus": "How to understand the danger behind Russia’s nuclear warnings",
@@ -1402,10 +1397,9 @@
         "target": "ft",
         "source_claim": "CNN05",
         "target_claim": "FT01",
-        "topic": "lens_seriousness_of_nuclear_danger",
+        "framing_dimension_id": "lens_seriousness_of_nuclear_danger",
         "relation": "supportive",
         "label": "Public and private warnings signal heightened danger supports Nuclear warnings must be taken very seriously",
-        "framing_dimension": "Seriousness of nuclear danger",
         "source_lens": "Public and private warnings signal heightened danger",
         "target_lens": "Nuclear warnings must be taken very seriously",
         "shared_focus": "The seriousness attached to Russian nuclear warnings",
@@ -1420,10 +1414,9 @@
         "target": "ft",
         "source_claim": "CNN04",
         "target_claim": "FT03",
-        "topic": "lens_resistance_to_nuclear_coercion",
+        "framing_dimension_id": "lens_resistance_to_nuclear_coercion",
         "relation": "supportive",
         "label": "Remain resolute and keep backing Ukraine supports Do not let nuclear blackmail end support for Ukraine",
-        "framing_dimension": "Resistance to nuclear coercion",
         "source_lens": "Remain resolute and keep backing Ukraine",
         "target_lens": "Do not let nuclear blackmail end support for Ukraine",
         "shared_focus": "Whether nuclear threats should change Western support for Ukraine",

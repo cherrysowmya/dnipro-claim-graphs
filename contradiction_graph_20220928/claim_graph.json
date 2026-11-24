@@ -1705,30 +1705,30 @@
     "label": "Framing / lensing network",
     "description": "Shared and contrasting lenses within Nord Stream leaks and investigation.",
     "definition": "A framing comparison examines how selected passages assign meaning, agency, value, certainty or attention. Supportive links reinforce the specified framing; red links mark proposed framing contradictions. Original speakers, evidence and uncertainty remain attached to each claim.",
-    "topics": [
+    "framing_topics": [
       {
-        "id": "lens_certainty_about_sabotage",
-        "label": "Certainty about sabotage"
+        "framing_dimension_id": "lens_certainty_about_sabotage",
+        "framing_dimension_label": "Certainty about sabotage"
       },
       {
-        "id": "lens_scale_of_environmental_harm",
-        "label": "Scale of environmental harm"
+        "framing_dimension_id": "lens_scale_of_environmental_harm",
+        "framing_dimension_label": "Scale of environmental harm"
       },
       {
-        "id": "lens_scale_and_timing_of_energy_harm",
-        "label": "Scale and timing of energy harm"
+        "framing_dimension_id": "lens_scale_and_timing_of_energy_harm",
+        "framing_dimension_label": "Scale and timing of energy harm"
       },
       {
-        "id": "lens_caution_about_cause",
-        "label": "Caution about cause"
+        "framing_dimension_id": "lens_caution_about_cause",
+        "framing_dimension_label": "Caution about cause"
       },
       {
-        "id": "lens_investigation_centered_response",
-        "label": "Investigation-centered response"
+        "framing_dimension_id": "lens_investigation_centered_response",
+        "framing_dimension_label": "Investigation-centered response"
       },
       {
-        "id": "lens_immediate_supply_impact",
-        "label": "Immediate supply impact"
+        "framing_dimension_id": "lens_immediate_supply_impact",
+        "framing_dimension_label": "Immediate supply impact"
       }
     ],
     "edges": [
@@ -1738,10 +1738,9 @@
         "target": "china_daily",
         "source_claim": "CNN01",
         "target_claim": "CD04",
-        "topic": "lens_certainty_about_sabotage",
+        "framing_dimension_id": "lens_certainty_about_sabotage",
         "relation": "contradiction",
         "label": "Available information points to a deliberate act versus Sabotage described as speculation without evidence",
-        "framing_dimension": "Certainty about sabotage",
         "source_lens": "Available information points to a deliberate act",
         "target_lens": "Sabotage described as speculation without evidence",
         "shared_focus": "How confidently deliberate damage is presented",
@@ -1755,10 +1754,9 @@
         "target": "china_daily",
         "source_claim": "CNN07",
         "target_claim": "CD03",
-        "topic": "lens_scale_of_environmental_harm",
+        "framing_dimension_id": "lens_scale_of_environmental_harm",
         "relation": "contradiction",
         "label": "Effects bounded to the gas-plume area versus Methane contributes to global warming",
-        "framing_dimension": "Scale of environmental harm",
         "source_lens": "Effects bounded to the gas-plume area",
         "target_lens": "Methane contributes to global warming",
         "shared_focus": "The environmental consequences selected for attention",
@@ -1772,10 +1770,9 @@
         "target": "global_times",
         "source_claim": "CNN02",
         "target_claim": "GT07",
-        "topic": "lens_scale_and_timing_of_energy_harm",
+        "framing_dimension_id": "lens_scale_and_timing_of_energy_harm",
         "relation": "contradiction",
         "label": "No active pipeline flow to interrupt versus Severe future economic and winter hardship",
-        "framing_dimension": "Scale and timing of energy harm",
         "source_lens": "No active pipeline flow to interrupt",
         "target_lens": "Severe future economic and winter hardship",
         "shared_focus": "The energy-supply consequences foregrounded after the damage",
@@ -1789,10 +1786,9 @@
         "target": "china_daily",
         "source_claim": "CNN05",
         "target_claim": "CD04",
-        "topic": "lens_caution_about_cause",
+        "framing_dimension_id": "lens_caution_about_cause",
         "relation": "supportive",
         "label": "Keep possible explanations open supports Treat sabotage reporting without supplied evidence cautiously",
-        "framing_dimension": "Caution about cause",
         "source_lens": "Keep possible explanations open",
         "target_lens": "Treat sabotage reporting without supplied evidence cautiously",
         "shared_focus": "How firmly sabotage can be presented as the explanation for the leaks",
@@ -1807,10 +1803,9 @@
         "target": "sputnik",
         "source_claim": "CNN06",
         "target_claim": "S02",
-        "topic": "lens_investigation_centered_response",
+        "framing_dimension_id": "lens_investigation_centered_response",
         "relation": "supportive",
         "label": "Support investigation of apparent sabotage supports Investigate the incident and strengthen energy security",
-        "framing_dimension": "Investigation-centered response",
         "source_lens": "Support investigation of apparent sabotage",
         "target_lens": "Investigate the incident and strengthen energy security",
         "shared_focus": "Institutional investigation as a response to the pipeline damage",
@@ -1825,10 +1820,9 @@
         "target": "global_times",
         "source_claim": "CD06",
         "target_claim": "GT06",
-        "topic": "lens_immediate_supply_impact",
+        "framing_dimension_id": "lens_immediate_supply_impact",
         "relation": "supportive",
         "label": "Nord Stream 2 held gas but was not supplying customers supports No immediate loss of operating gas supply",
-        "framing_dimension": "Immediate supply impact",
         "source_lens": "Nord Stream 2 held gas but was not supplying customers",
         "target_lens": "No immediate loss of operating gas supply",
         "shared_focus": "Why a gas-filled damaged pipeline need not mean an immediate interruption of existing deliveries",

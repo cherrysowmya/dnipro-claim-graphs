@@ -2844,10 +2844,9 @@
         "target": "izvestia",
         "source_claim": "CNN08",
         "target_claim": "I07",
-        "topic": "lens_territorial_status",
+        "framing_dimension_id": "lens_territorial_status",
         "relation": "contradiction",
         "label": "Occupation versus Liberation",
-        "framing_dimension": "Territorial status",
         "source_lens": "Occupation",
         "target_lens": "Liberation",
         "shared_focus": "The description of Russian-held Zaporizhzhia",
@@ -2861,10 +2860,9 @@
         "target": "izvestia",
         "source_claim": "GT07",
         "target_claim": "I07",
-        "topic": "lens_territorial_status",
+        "framing_dimension_id": "lens_territorial_status",
         "relation": "contradiction",
         "label": "Occupation versus Liberation",
-        "framing_dimension": "Territorial status",
         "source_lens": "Occupation",
         "target_lens": "Liberation",
         "shared_focus": "The description of Russian-held Zaporizhzhia",
@@ -2878,10 +2876,9 @@
         "target": "izvestia",
         "source_claim": "FT02",
         "target_claim": "I05",
-        "topic": "lens_voter_agency",
+        "framing_dimension_id": "lens_voter_agency",
         "relation": "contradiction",
         "label": "Restricted choice under repression versus Genuine self-determination",
-        "framing_dimension": "Voter agency",
         "source_lens": "Restricted choice under repression",
         "target_lens": "Genuine self-determination",
         "shared_focus": "Whether the voting expresses residents’ own wishes",
@@ -2895,10 +2892,9 @@
         "target": "ft",
         "source_claim": "CNN02",
         "target_claim": "FT05",
-        "topic": "lens_role_of_armed_escorts",
+        "framing_dimension_id": "lens_role_of_armed_escorts",
         "relation": "contradiction",
         "label": "Intimidation and coercion versus Protection and security",
-        "framing_dimension": "Role of armed escorts",
         "source_lens": "Intimidation and coercion",
         "target_lens": "Protection and security",
         "shared_focus": "Armed or police-accompanied door-to-door voting",
@@ -2912,10 +2908,9 @@
         "target": "tass",
         "source_claim": "FT09",
         "target_claim": "T03",
-        "topic": "lens_procedural_legitimacy",
+        "framing_dimension_id": "lens_procedural_legitimacy",
         "relation": "contradiction",
         "label": "Below democratic standards versus Open and transparent preparation",
-        "framing_dimension": "Procedural legitimacy",
         "source_lens": "Below democratic standards",
         "target_lens": "Open and transparent preparation",
         "shared_focus": "The quality and legitimacy of the voting arrangements",
@@ -2929,10 +2924,9 @@
         "target": "ft",
         "source_claim": "CEN05",
         "target_claim": "FT01",
-        "topic": "lens_who_drives_the_event",
+        "framing_dimension_id": "lens_who_drives_the_event",
         "relation": "contradiction",
         "label": "An imposed exercise run by occupiers and puppets versus A historic act of residents’ free will",
-        "framing_dimension": "Who drives the event",
         "source_lens": "An imposed exercise run by occupiers and puppets",
         "target_lens": "A historic act of residents’ free will",
         "shared_focus": "The agency and legitimacy assigned to the vote",
@@ -2946,10 +2940,9 @@
         "target": "izvestia",
         "source_claim": "KI02",
         "target_claim": "I05",
-        "topic": "lens_basis_of_the_claimed_mandate",
+        "framing_dimension_id": "lens_basis_of_the_claimed_mandate",
         "relation": "contradiction",
         "label": "Manufactured outcomes versus Authentic popular will",
-        "framing_dimension": "Basis of the claimed mandate",
         "source_lens": "Manufactured outcomes",
         "target_lens": "Authentic popular will",
         "shared_focus": "Whether the vote can supply a genuine popular mandate",
@@ -2963,10 +2956,9 @@
         "target": "ft",
         "source_claim": "CNN02",
         "target_claim": "FT02",
-        "topic": "lens_voter_agency",
+        "framing_dimension_id": "lens_voter_agency",
         "relation": "supportive",
         "label": "Armed pressure limits residents’ choice supports Voting under occupation is far from free choice",
-        "framing_dimension": "Voter agency",
         "source_lens": "Armed pressure limits residents’ choice",
         "target_lens": "Voting under occupation is far from free choice",
         "shared_focus": "Whether residents can freely choose during the September 23–27 votes",
@@ -2981,10 +2973,9 @@
         "target": "kyivpost",
         "source_claim": "FT04",
         "target_claim": "KI02",
-        "topic": "lens_authenticity_of_the_result",
+        "framing_dimension_id": "lens_authenticity_of_the_result",
         "relation": "supportive",
         "label": "An individual voter expects to have no meaningful influence supports Announced outcomes will be manufactured",
-        "framing_dimension": "Authenticity of the result",
         "source_lens": "An individual voter expects to have no meaningful influence",
         "target_lens": "Announced outcomes will be manufactured",
         "shared_focus": "Whether the announced results will meaningfully depend on residents’ participation and choices",
@@ -2999,10 +2990,9 @@
         "target": "tass",
         "source_claim": "I08",
         "target_claim": "T03",
-        "topic": "lens_procedural_legitimacy",
+        "framing_dimension_id": "lens_procedural_legitimacy",
         "relation": "supportive",
         "label": "Observation is foregrounded as part of the voting process supports Preparation is presented as open and transparent",
-        "framing_dimension": "Procedural legitimacy",
         "source_lens": "Observation is foregrounded as part of the voting process",
         "target_lens": "Preparation is presented as open and transparent",
         "shared_focus": "The use of observers to present the votes as an orderly and scrutinized process",
@@ -3017,10 +3007,9 @@
         "target": "global_times",
         "source_claim": "CNN07",
         "target_claim": "GT04",
-        "topic": "lens_escalation_stakes",
+        "framing_dimension_id": "lens_escalation_stakes",
         "relation": "supportive",
         "label": "Claimed incorporation would redefine Ukrainian attacks as attacks on Russia supports Claimed incorporation could raise Russia’s response stakes",
-        "framing_dimension": "Escalation stakes",
         "source_lens": "Claimed incorporation would redefine Ukrainian attacks as attacks on Russia",
         "target_lens": "Claimed incorporation could raise Russia’s response stakes",
         "shared_focus": "How the proposed incorporation could change Russia’s treatment of later Ukrainian attacks",
@@ -3030,38 +3019,38 @@
         "direction_reason": "CNN07 reinforces the named part of GT04’s framing. Direction records the analyst’s proposed support relation, not a response between articles."
       }
     ],
-    "topics": [
+    "framing_topics": [
       {
-        "id": "lens_voter_agency",
-        "label": "Voter agency"
+        "framing_dimension_id": "lens_voter_agency",
+        "framing_dimension_label": "Voter agency"
       },
       {
-        "id": "lens_authenticity_of_the_result",
-        "label": "Authenticity of the result"
+        "framing_dimension_id": "lens_authenticity_of_the_result",
+        "framing_dimension_label": "Authenticity of the result"
       },
       {
-        "id": "lens_procedural_legitimacy",
-        "label": "Procedural legitimacy"
+        "framing_dimension_id": "lens_procedural_legitimacy",
+        "framing_dimension_label": "Procedural legitimacy"
       },
       {
-        "id": "lens_escalation_stakes",
-        "label": "Escalation stakes"
+        "framing_dimension_id": "lens_escalation_stakes",
+        "framing_dimension_label": "Escalation stakes"
       },
       {
-        "id": "lens_territorial_status",
-        "label": "Territorial status"
+        "framing_dimension_id": "lens_territorial_status",
+        "framing_dimension_label": "Territorial status"
       },
       {
-        "id": "lens_role_of_armed_escorts",
-        "label": "Role of armed escorts"
+        "framing_dimension_id": "lens_role_of_armed_escorts",
+        "framing_dimension_label": "Role of armed escorts"
       },
       {
-        "id": "lens_who_drives_the_event",
-        "label": "Who drives the event"
+        "framing_dimension_id": "lens_who_drives_the_event",
+        "framing_dimension_label": "Who drives the event"
       },
       {
-        "id": "lens_basis_of_the_claimed_mandate",
-        "label": "Basis of the claimed mandate"
+        "framing_dimension_id": "lens_basis_of_the_claimed_mandate",
+        "framing_dimension_label": "Basis of the claimed mandate"
       }
     ]
   }

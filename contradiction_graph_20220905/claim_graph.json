@@ -964,30 +964,30 @@
     "label": "Framing / lensing network",
     "description": "Shared and contrasting lenses within Zaporizhzhia power and safety.",
     "definition": "A framing comparison examines how selected passages assign meaning, agency, value, certainty or attention. Supportive links reinforce the specified framing; red links mark proposed framing contradictions. Original speakers, evidence and uncertainty remain attached to each claim.",
-    "topics": [
+    "framing_topics": [
       {
-        "id": "lens_route_to_safety",
-        "label": "Route to safety"
+        "framing_dimension_id": "lens_route_to_safety",
+        "framing_dimension_label": "Route to safety"
       },
       {
-        "id": "lens_russian_presence",
-        "label": "Russian presence"
+        "framing_dimension_id": "lens_russian_presence",
+        "framing_dimension_label": "Russian presence"
       },
       {
-        "id": "lens_responsibility_for_danger",
-        "label": "Responsibility for danger"
+        "framing_dimension_id": "lens_responsibility_for_danger",
+        "framing_dimension_label": "Responsibility for danger"
       },
       {
-        "id": "lens_judgment_of_demilitarization",
-        "label": "Judgment of demilitarization"
+        "framing_dimension_id": "lens_judgment_of_demilitarization",
+        "framing_dimension_label": "Judgment of demilitarization"
       },
       {
-        "id": "lens_russian_presence_and_nuclear_danger",
-        "label": "Russian presence and nuclear danger"
+        "framing_dimension_id": "lens_russian_presence_and_nuclear_danger",
+        "framing_dimension_label": "Russian presence and nuclear danger"
       },
       {
-        "id": "lens_international_monitoring",
-        "label": "International monitoring"
+        "framing_dimension_id": "lens_international_monitoring",
+        "framing_dimension_label": "International monitoring"
       }
     ],
     "edges": [
@@ -997,10 +997,9 @@
         "target": "izvestia",
         "source_claim": "KI03",
         "target_claim": "I02",
-        "topic": "lens_route_to_safety",
+        "framing_dimension_id": "lens_route_to_safety",
         "relation": "contradiction",
         "label": "Demilitarization as essential safety versus Withdrawal as a catastrophe risk",
-        "framing_dimension": "Route to safety",
         "source_lens": "Demilitarization as essential safety",
         "target_lens": "Withdrawal as a catastrophe risk",
         "shared_focus": "Whether Russian withdrawal makes the plant safer",
@@ -1014,10 +1013,9 @@
         "target": "tass",
         "source_claim": "KI03",
         "target_claim": "T02",
-        "topic": "lens_russian_presence",
+        "framing_dimension_id": "lens_russian_presence",
         "relation": "contradiction",
         "label": "Safety requires deoccupation versus Russian specialists provide safety assistance",
-        "framing_dimension": "Russian presence",
         "source_lens": "Safety requires deoccupation",
         "target_lens": "Russian specialists provide safety assistance",
         "shared_focus": "The role assigned to Russian presence at the plant",
@@ -1031,10 +1029,9 @@
         "target": "izvestia",
         "source_claim": "C02",
         "target_claim": "I04",
-        "topic": "lens_responsibility_for_danger",
+        "framing_dimension_id": "lens_responsibility_for_danger",
         "relation": "contradiction",
         "label": "Russian shelling damages the plant’s connections versus Ukrainian attacks endanger the reactor area",
-        "framing_dimension": "Responsibility for danger",
         "source_lens": "Russian shelling damages the plant’s connections",
         "target_lens": "Ukrainian attacks endanger the reactor area",
         "shared_focus": "Who is centered as a source of danger around the plant",
@@ -1048,10 +1045,9 @@
         "target": "izvestia",
         "source_claim": "KI03",
         "target_claim": "I03",
-        "topic": "lens_judgment_of_demilitarization",
+        "framing_dimension_id": "lens_judgment_of_demilitarization",
         "relation": "contradiction",
         "label": "An essential safety measure versus An irresponsible demand",
-        "framing_dimension": "Judgment of demilitarization",
         "source_lens": "An essential safety measure",
         "target_lens": "An irresponsible demand",
         "shared_focus": "How demands to remove troops are evaluated",
@@ -1065,10 +1061,9 @@
         "target": "izvestia",
         "source_claim": "KI03",
         "target_claim": "I01",
-        "topic": "lens_route_to_safety",
+        "framing_dimension_id": "lens_route_to_safety",
         "relation": "supportive",
         "label": "Deoccupation and demilitarization as the only safe route supports Russian troop withdrawal as the only way to restore safety",
-        "framing_dimension": "Route to safety",
         "source_lens": "Deoccupation and demilitarization as the only safe route",
         "target_lens": "Russian troop withdrawal as the only way to restore safety",
         "shared_focus": "Whether removing Russian troops is necessary for nuclear-plant safety",
@@ -1083,10 +1078,9 @@
         "target": "kyivpost",
         "source_claim": "C02",
         "target_claim": "KI03",
-        "topic": "lens_russian_presence_and_nuclear_danger",
+        "framing_dimension_id": "lens_russian_presence_and_nuclear_danger",
         "relation": "supportive",
         "label": "Russian occupying forces presented as a source of danger supports Removing Russian troops presented as the route to safety",
-        "framing_dimension": "Russian presence and nuclear danger",
         "source_lens": "Russian occupying forces presented as a source of danger",
         "target_lens": "Removing Russian troops presented as the route to safety",
         "shared_focus": "The portrayal of Russian military activity as a nuclear-safety problem",
@@ -1101,10 +1095,9 @@
         "target": "izvestia",
         "source_claim": "T03",
         "target_claim": "I06",
-        "topic": "lens_international_monitoring",
+        "framing_dimension_id": "lens_international_monitoring",
         "relation": "supportive",
         "label": "A permanent IAEA presence presented as an institutional goal supports A permanent IAEA presence welcomed as useful",
-        "framing_dimension": "International monitoring",
         "source_lens": "A permanent IAEA presence presented as an institutional goal",
         "target_lens": "A permanent IAEA presence welcomed as useful",
         "shared_focus": "The value assigned to continued international monitoring at the plant",
