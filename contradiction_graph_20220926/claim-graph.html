@@ -5713,6 +5713,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Ari
               descriptions.push(description);
             });
             const count = outletIds.size;
+            if (relation === &quot;neutral&quot; &amp;&amp; count === 0) return;
             breakdown.append(
               el(&quot;dt&quot;, label + &quot; · &quot; + count + (count === 1 ? &quot; outlet&quot; : &quot; outlets&quot;)),
               el(&quot;dd&quot;, descriptions.join(&quot; / &quot;) || &quot;None&quot;)
