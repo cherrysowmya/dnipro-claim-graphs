@@ -1725,7 +1725,6 @@
       "review_status": "AI-assisted proposed claim relation; human review pending",
       "directed": true,
       "direction": "source_to_target",
-      "confirmation_status": "proposed",
       "direction_reason": "Analyst-assigned comparison: FT03 is proposed to contradict GT03. The arrow follows this source-to-target order."
     },
     {
@@ -1795,7 +1794,6 @@
       "review_status": "AI-assisted proposed claim relation; human review pending",
       "directed": true,
       "direction": "source_to_target",
-      "confirmation_status": "proposed",
       "direction_reason": "Analyst-assigned comparison: CNN04 is proposed to contradict GT01. The arrow follows this source-to-target order."
     },
     {
@@ -1834,7 +1832,6 @@
       "review_status": "AI-assisted proposed claim relation; human review pending",
       "directed": true,
       "direction": "source_to_target",
-      "confirmation_status": "proposed",
       "direction_reason": "Analyst-assigned comparison: CD02 is proposed to contradict GT04. The arrow follows this source-to-target order."
     },
     {
@@ -1853,7 +1850,6 @@
       "review_status": "AI-assisted proposed comparison; human review pending",
       "directed": true,
       "direction": "source_to_target",
-      "confirmation_status": "proposed",
       "direction_reason": "Analyst-assigned comparison: FT04 is proposed to contradict CD01. The arrow follows this source-to-target order."
     },
     {

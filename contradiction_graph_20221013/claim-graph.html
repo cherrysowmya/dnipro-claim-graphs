@@ -2660,7 +2660,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Ari
         [&quot;Claims with a connection&quot;, connectedClaimIds.size],
         [&quot;Directed supportive links&quot;, eventEdges.filter(edge =&gt; edge.relation === &quot;supportive&quot; &amp;&amp; edge.directed === true).length],
         [&quot;Undirected neutral or unresolved comparisons&quot;, eventEdges.filter(edge =&gt; edge.relation === &quot;neutral&quot; &amp;&amp; !edge.directed).length],
-        [&quot;Proposed contradictions&quot;, eventEdges.filter(edge =&gt; edge.relation === &quot;contradiction&quot; &amp;&amp; edge.confirmed !== true &amp;&amp; edge.confirmation_status !== &quot;confirmed&quot;).length]
+        [&quot;Proposed contradictions&quot;, eventEdges.filter(edge =&gt; edge.relation === &quot;contradiction&quot;).length]
       ];
       eventCounts.forEach(([label, count]) =&gt; {
         const item = el(&quot;div&quot;, null, &quot;stat-item&quot;);

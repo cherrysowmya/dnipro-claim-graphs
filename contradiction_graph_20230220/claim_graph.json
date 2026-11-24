@@ -2013,7 +2013,6 @@
       "review_status": "AI-assisted proposed claim relation; human review pending",
       "directed": true,
       "direction": "source_to_target",
-      "confirmation_status": "proposed",
       "direction_reason": "Analyst-assigned comparison: C02 is proposed to contradict CD04. The arrow follows this source-to-target order."
     },
     {

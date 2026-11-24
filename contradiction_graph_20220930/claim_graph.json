@@ -1635,7 +1635,6 @@
       "review_status": "AI-assisted proposed comparison; human review pending",
       "directed": true,
       "direction": "source_to_target",
-      "confirmation_status": "proposed",
       "direction_reason": "Analyst-assigned comparison: CNN02 is proposed to contradict S02. The arrow follows this source-to-target order."
     },
     {
@@ -1654,7 +1653,6 @@
       "review_status": "AI-assisted proposed comparison; human review pending",
       "directed": true,
       "direction": "source_to_target",
-      "confirmation_status": "proposed",
       "direction_reason": "Analyst-assigned comparison: C03 is proposed to contradict EP02. The arrow follows this source-to-target order."
     },
     {
@@ -1673,7 +1671,6 @@
       "review_status": "AI-assisted proposed comparison; human review pending",
       "directed": true,
       "direction": "source_to_target",
-      "confirmation_status": "proposed",
       "direction_reason": "Analyst-assigned comparison: FT02 is proposed to contradict S01. The arrow follows this source-to-target order."
     },
     {
@@ -1726,7 +1723,6 @@
       "review_status": "AI-assisted proposed claim relation; human review pending",
       "directed": true,
       "direction": "source_to_target",
-      "confirmation_status": "proposed",
       "direction_reason": "Analyst-assigned comparison: KI01 is proposed to contradict S03. The arrow follows this source-to-target order."
     },
     {
@@ -1762,7 +1758,6 @@
       "review_status": "AI-assisted proposed claim relation; human review pending",
       "directed": true,
       "direction": "source_to_target",
-      "confirmation_status": "proposed",
       "direction_reason": "Analyst-assigned comparison: CNN06 is proposed to contradict I03. The arrow follows this source-to-target order."
     },
     {

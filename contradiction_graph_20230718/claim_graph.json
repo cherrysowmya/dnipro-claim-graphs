@@ -1413,7 +1413,6 @@
       "review_status": "AI-assisted proposed claim relation; human review pending",
       "directed": true,
       "direction": "source_to_target",
-      "confirmation_status": "proposed",
       "direction_reason": "Analyst-assigned comparison: EP02 is proposed to contradict S01. The arrow follows this source-to-target order."
     },
     {
@@ -1584,7 +1583,6 @@
       "color": "red",
       "directed": true,
       "direction": "source_to_target",
-      "confirmation_status": "proposed",
       "direction_reason": "Analyst-assigned comparison: KI05 is proposed to contradict GT05. The arrow follows this source-to-target order.",
       "label": "July 2022 versus June 2022",
       "reason": "Kyiv Independent says the initiative was brokered in July 2022. Global Times describes the same UN-Turkey-brokered deal as dating from June 2022. The reported month differs.",

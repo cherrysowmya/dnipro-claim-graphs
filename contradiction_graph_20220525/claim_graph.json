@@ -1257,8 +1257,7 @@
       "review_status": "AI-assisted proposed claim relation; human review pending",
       "directed": true,
       "direction": "source_to_target",
-      "direction_reason": "Analyst-assigned comparison: FT01 is proposed to contradict I1. The arrow follows this source-to-target order.",
-      "confirmation_status": "proposed"
+      "direction_reason": "Analyst-assigned comparison: FT01 is proposed to contradict I1. The arrow follows this source-to-target order."
     },
     {
       "id": "E03",
@@ -1276,8 +1275,7 @@
       "review_status": "AI-assisted proposed claim relation; human review pending",
       "directed": true,
       "direction": "source_to_target",
-      "direction_reason": "Analyst-assigned comparison: C2 is proposed to contradict I1. The arrow follows this source-to-target order.",
-      "confirmation_status": "proposed"
+      "direction_reason": "Analyst-assigned comparison: C2 is proposed to contradict I1. The arrow follows this source-to-target order."
     },
     {
       "id": "E04",
@@ -1393,8 +1391,7 @@
       "review_status": "AI-assisted proposed claim relation; human review pending",
       "directed": true,
       "direction": "source_to_target",
-      "direction_reason": "Analyst-assigned comparison: C5 is proposed to contradict I4. The arrow follows this source-to-target order.",
-      "confirmation_status": "proposed"
+      "direction_reason": "Analyst-assigned comparison: C5 is proposed to contradict I4. The arrow follows this source-to-target order."
     },
     {
       "id": "E10",
@@ -1448,8 +1445,7 @@
       "review_status": "AI-assisted proposed claim relation; human review pending",
       "directed": true,
       "direction": "source_to_target",
-      "direction_reason": "Analyst-assigned comparison: C7 is proposed to contradict I6. The arrow follows this source-to-target order.",
-      "confirmation_status": "proposed"
+      "direction_reason": "Analyst-assigned comparison: C7 is proposed to contradict I6. The arrow follows this source-to-target order."
     },
     {
       "id": "E13",
@@ -1467,8 +1463,7 @@
       "review_status": "AI-assisted proposed claim relation; human review pending",
       "directed": true,
       "direction": "source_to_target",
-      "direction_reason": "Analyst-assigned comparison: FT12 is proposed to contradict I6. The arrow follows this source-to-target order.",
-      "confirmation_status": "proposed"
+      "direction_reason": "Analyst-assigned comparison: FT12 is proposed to contradict I6. The arrow follows this source-to-target order."
     }
   ],
   "excluded": [
@@ -1562,7 +1557,6 @@
         "shared_focus": "The role assigned to Russia’s military action",
         "reason": "The FT narrator calls the troops occupying forces. Izvestia describes Russia’s wider operation as protecting Donbas. The same military actor is framed through occupation and protection.",
         "caveat": "The FT passage concerns the city battle and Izvestia’s passage concerns the wider operation. These labels require matching the action and geography before any factual or legal conclusion.",
-        "confirmation_status": "proposed",
         "direction_reason": "FT12 is proposed to contradict the framing in I6. Direction follows the analyst-assigned comparison order.",
         "framing_basis": "Analyst interpretation of the selected source passages.",
         "review_status": "AI-assisted proposed framing comparison; human review pending"
@@ -1586,7 +1580,6 @@
         "shared_focus": "How the Russian advance is legitimized",
         "reason": "Censor.NET labels the advancing forces occupiers. Izvestia uses a protective-purpose description of the operation. The comparison contrasts the hostile-control and protective-purpose lenses.",
         "caveat": "The Censor.NET lead is local to the road advance. Izvestia gives wider-war background. Each label belongs to the selected article passage.",
-        "confirmation_status": "proposed",
         "direction_reason": "C7 is proposed to contradict the framing in I6. Direction follows the analyst-assigned comparison order.",
         "framing_basis": "Analyst interpretation of the selected source passages.",
         "review_status": "AI-assisted proposed framing comparison; human review pending"
@@ -1610,7 +1603,6 @@
         "shared_focus": "The purpose and human meaning assigned to Russian military action",
         "reason": "Haidai, quoted by the FT, describes scorched-earth tactics intended to wipe out Sievierodonetsk. Izvestia describes the operation as protecting Donbas. The passages foreground destruction and protection respectively.",
         "caveat": "Haidai’s accusation concerns the city, while the protective-purpose wording covers Donbas more broadly. The proposed conflict concerns attributed purpose and emphasis rather than a verified account of intent.",
-        "confirmation_status": "proposed",
         "direction_reason": "FT06 is proposed to contradict the framing in I6. Direction follows the analyst-assigned comparison order.",
         "framing_basis": "Analyst interpretation of the selected source passages.",
         "review_status": "AI-assisted proposed framing comparison; human review pending"
@@ -1634,7 +1626,6 @@
         "shared_focus": "How Ukrainian defenders’ willingness is presented",
         "reason": "Butusov, quoted by Censor.NET, says soldiers will not surrender Luhansk. Izvestia foregrounds a video in which some soldiers refuse to defend Sievierodonetsk without better support. The comparison contrasts resolve and reported breakdown in willingness.",
         "caveat": "The video was published May 19 and concerns an unidentified group. Izvestia also quotes the soldiers saying they are not refusing to defend their homeland in I5. Review the dates, units and conditional wording.",
-        "confirmation_status": "proposed",
         "direction_reason": "C5 is proposed to contradict the framing in I4. Direction follows the analyst-assigned comparison order.",
         "framing_basis": "Analyst interpretation of the selected source passages.",
         "review_status": "AI-assisted proposed framing comparison; human review pending"
@@ -1658,7 +1649,6 @@
         "shared_focus": "The strategic meaning of holding the city while awaiting support",
         "reason": "The FT presents continued resistance as buying time for Western weapons. Izvestia presents soldiers’ lack of reinforcements and heavy equipment as grounds for refusal. The lens shifts from purposeful endurance to an unsustainable burden.",
         "caveat": "Both accounts can reflect real equipment shortages, and may describe different troops and dates. This is a proposed contrast in the meaning assigned to continued defense.",
-        "confirmation_status": "proposed",
         "direction_reason": "FT09 is proposed to contradict the framing in I4. Direction follows the analyst-assigned comparison order.",
         "framing_basis": "Analyst interpretation of the selected source passages.",
         "review_status": "AI-assisted proposed framing comparison; human review pending"
@@ -1683,7 +1673,6 @@
         "reason": "The soldiers quoted in Izvestia say they are not refusing to defend their homeland. That statement reinforces the willingness-to-defend part of Butusov’s account in Censor.NET, while adding conditions about support and command.",
         "support_scope": "The limited willingness-to-defend lens, rather than a guarantee that every position will be held.",
         "caveat": "The speakers and units are not established as the same. Defending the homeland is broader than holding every position in Luhansk. This does not establish an unconditional promise to defend Sievierodonetsk or prove that no soldiers withdrew.",
-        "confirmation_status": "proposed",
         "direction_reason": "I5 reinforces the named part of C5’s framing. Direction records the analyst’s proposed support relation, not a response between articles.",
         "framing_basis": "Analyst interpretation of the selected source passages.",
         "review_status": "AI-assisted proposed framing relation; human review pending"
@@ -1708,7 +1697,6 @@
         "reason": "The soldiers’ request for proper support and command in Izvestia supplies a concrete example of needs that reinforce Butusov’s support-and-command lens in Censor.NET.",
         "support_scope": "The need to consider support and command when describing continued defense.",
         "caveat": "The quoted soldiers and Butusov are different speakers, and their units and remedies are not established as identical. The soldiers’ request does not prove Butusov’s particular reinforcements or command changes would succeed. Reporting the request does not establish Izvestia’s endorsement.",
-        "confirmation_status": "proposed",
         "direction_reason": "I5 reinforces the named part of C6’s framing. Direction records the analyst’s proposed support relation, not a response between articles.",
         "framing_basis": "Analyst interpretation of the selected source passages.",
         "review_status": "AI-assisted proposed framing relation; human review pending"
@@ -1733,7 +1721,6 @@
         "reason": "The officials’ warning in FT makes equipment shortages central to Ukraine’s military limits. It supplies a reason for the material-support part of Butusov’s call in Censor.NET for reinforcement, reinforcing a resource-dependent defense lens.",
         "support_scope": "The material-support part of C6, rather than its separate judgment about command decisions.",
         "caveat": "FT11 concerns effective counterattacks; C6 concerns the defense around Sievierodonetsk and Lysychansk. Heavy weapons are only part of reinforcement. This cross-task comparison does not establish the success of any particular remedy.",
-        "confirmation_status": "proposed",
         "direction_reason": "FT11 reinforces the named part of C6’s framing. Direction records the analyst’s proposed support relation, not a response between articles.",
         "framing_basis": "Analyst interpretation of the selected source passages.",
         "review_status": "AI-assisted proposed framing relation; human review pending"

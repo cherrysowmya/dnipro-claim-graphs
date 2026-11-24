@@ -872,7 +872,6 @@
       "review_status": "AI-assisted proposed comparison; human review pending",
       "directed": true,
       "direction": "source_to_target",
-      "confirmation_status": "proposed",
       "direction_reason": "Analyst-assigned comparison: C01 is proposed to contradict EP02. The arrow follows this source-to-target order."
     },
     {
@@ -891,7 +890,6 @@
       "review_status": "AI-assisted proposed comparison; human review pending",
       "directed": true,
       "direction": "source_to_target",
-      "confirmation_status": "proposed",
       "direction_reason": "Analyst-assigned comparison: C01 is proposed to contradict KI03. The arrow follows this source-to-target order."
     },
     {
@@ -910,7 +908,6 @@
       "review_status": "AI-assisted proposed comparison; human review pending",
       "directed": true,
       "direction": "source_to_target",
-      "confirmation_status": "proposed",
       "direction_reason": "Analyst-assigned comparison: I01 is proposed to contradict EP02. The arrow follows this source-to-target order."
     },
     {
@@ -993,7 +990,6 @@
       "color": "red",
       "directed": true,
       "direction": "source_to_target",
-      "confirmation_status": "proposed",
       "direction_reason": "Analyst-assigned comparison: C01 is proposed to contradict I02. The arrow follows this source-to-target order.",
       "label": "Censor’s 60 PT-91s versus Izvestia’s 30",
       "reason": "Censor.NET quotes Morawiecki offering 60 PT-91s. Izvestia quotes the same prime minister specifying 30 PT-91s among 60 tanks.",
@@ -1012,7 +1008,6 @@
       "color": "red",
       "directed": true,
       "direction": "source_to_target",
-      "confirmation_status": "proposed",
       "direction_reason": "Analyst-assigned comparison: I01 is proposed to contradict KI03. The arrow follows this source-to-target order.",
       "label": "Izvestia’s Yermak quotation versus the 30-tank account",
       "reason": "Izvestia quotes Yermak specifying 60 PT-91s. Kyiv Independent reports Morawiecki specifying 30 PT-91s within the same total of 60 tanks.",
