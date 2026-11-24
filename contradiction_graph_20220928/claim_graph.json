@@ -1722,33 +1722,27 @@
     "topics": [
       {
         "id": "lens_certainty_about_sabotage",
-        "label": "Certainty about sabotage",
-        "scope_note": "This comparison concerns the lens applied to the selected passages. Review its shared focus, source attribution and claim-specific limits."
+        "label": "Certainty about sabotage"
       },
       {
         "id": "lens_scale_of_environmental_harm",
-        "label": "Scale of environmental harm",
-        "scope_note": "This comparison concerns the lens applied to the selected passages. Review its shared focus, source attribution and claim-specific limits."
+        "label": "Scale of environmental harm"
       },
       {
         "id": "lens_scale_and_timing_of_energy_harm",
-        "label": "Scale and timing of energy harm",
-        "scope_note": "This comparison concerns the lens applied to the selected passages. Review its shared focus, source attribution and claim-specific limits."
+        "label": "Scale and timing of energy harm"
       },
       {
         "id": "lens_caution_about_cause",
-        "label": "Caution about cause",
-        "scope_note": "Compare the selected passages’ framing only. Preserve their speakers, setting, uncertainty and the limited support named in the connection."
+        "label": "Caution about cause"
       },
       {
         "id": "lens_investigation_centered_response",
-        "label": "Investigation-centered response",
-        "scope_note": "Compare the selected passages’ framing only. Preserve their speakers, setting, uncertainty and the limited support named in the connection."
+        "label": "Investigation-centered response"
       },
       {
         "id": "lens_immediate_supply_impact",
-        "label": "Immediate supply impact",
-        "scope_note": "Compare the selected passages’ framing only. Preserve their speakers, setting, uncertainty and the limited support named in the connection."
+        "label": "Immediate supply impact"
       }
     ],
     "edges": [
@@ -1772,8 +1766,7 @@
         "reason": "CNN quotes Borrell saying all available information points to a deliberate act. China Daily describes Die Welt’s sabotage account as speculation for which it gave no evidence. The comparison contrasts an authoritative assessment and an evidence-caution lens.",
         "caveat": "The caution applies to Die Welt’s report rather than every source available to Borrell. Different information sets can explain the contrast. This is a proposed certainty-frame comparison.",
         "direction_reason": "CNN01 is proposed to contradict the framing in CD04. Direction follows the analyst-assigned comparison order.",
-        "framing_basis": "Analyst interpretation of the selected source passages.",
-        "review_status": "AI-assisted proposed framing comparison; human review pending"
+        "framing_basis": "Analyst interpretation of the selected source passages."
       },
       {
         "id": "F02",
@@ -1795,8 +1788,7 @@
         "reason": "CNN reports authorities expecting environmental effects only near the gas plumes in a local safety passage. China Daily quotes an environmental campaigner emphasizing methane’s atmospheric warming effect. The lens shifts from a bounded local hazard to a wider climate consequence.",
         "caveat": "The CNN passage may concern immediate local safety while the campaigner discusses effects over time. Local and global consequences can coexist. Review the intended scope of the local-only wording.",
         "direction_reason": "CNN07 is proposed to contradict the framing in CD03. Direction follows the analyst-assigned comparison order.",
-        "framing_basis": "Analyst interpretation of the selected source passages.",
-        "review_status": "AI-assisted proposed framing comparison; human review pending"
+        "framing_basis": "Analyst interpretation of the selected source passages."
       },
       {
         "id": "F03",
@@ -1818,8 +1810,7 @@
         "reason": "CNN centers the fact that neither pipeline was operating when the leaks were found. Global Times quotes Wang predicting higher prices, business failures and winter hardship. The passages foreground limited immediate flow effects and severe later consequences.",
         "caveat": "The statements concern different time horizons and outcome measures. They are compatible as facts and forecasts. The proposed framing contrast concerns which consequences receive attention.",
         "direction_reason": "CNN02 is proposed to contradict the framing in GT07. Direction follows the analyst-assigned comparison order.",
-        "framing_basis": "Analyst interpretation of the selected source passages.",
-        "review_status": "AI-assisted proposed framing comparison; human review pending"
+        "framing_basis": "Analyst interpretation of the selected source passages."
       },
       {
         "id": "F04",
@@ -1842,8 +1833,7 @@
         "support_scope": "The cautious treatment of an unresolved cause.",
         "caveat": "CNN reports a Russian spokesman’s Tuesday statement; China Daily comments on the evidence supplied in one German report. The spokesman does not establish whether Die Welt had evidence, and the passages may use different information. This does not deny later sabotage assessments.",
         "direction_reason": "CNN05 reinforces the named part of CD04’s framing. Direction records the analyst’s proposed support relation, not a response between articles.",
-        "framing_basis": "Analyst interpretation of the selected source passages.",
-        "review_status": "AI-assisted proposed framing relation; human review pending"
+        "framing_basis": "Analyst interpretation of the selected source passages."
       },
       {
         "id": "F05",
@@ -1866,8 +1856,7 @@
         "support_scope": "The investigation part of S02, rather than its separate promise to improve energy security.",
         "caveat": "CNN reports the US position and Sputnik reports the EU position. This does not establish agreement about responsibility, a single joint inquiry, or outlet endorsement.",
         "direction_reason": "CNN06 reinforces the named part of S02’s framing. Direction records the analyst’s proposed support relation, not a response between articles.",
-        "framing_basis": "Analyst interpretation of the selected source passages.",
-        "review_status": "AI-assisted proposed framing relation; human review pending"
+        "framing_basis": "Analyst interpretation of the selected source passages."
       },
       {
         "id": "F06",
@@ -1890,8 +1879,7 @@
         "support_scope": "Only the Nord Stream 2 part of GT06’s two-pipeline explanation of immediate supply impact.",
         "caveat": "CD06 concerns Nord Stream 2 only. This does not imply no climate harm, price effect, future supply loss or wider economic impact. Global Times cites the New York Times; the arrow does not establish independent corroboration or outlet endorsement.",
         "direction_reason": "CD06 reinforces the named part of GT06’s framing. Direction records the analyst’s proposed support relation, not a response between articles.",
-        "framing_basis": "Analyst interpretation of the selected source passages.",
-        "review_status": "AI-assisted proposed framing relation; human review pending"
+        "framing_basis": "Analyst interpretation of the selected source passages."
       }
     ]
   }

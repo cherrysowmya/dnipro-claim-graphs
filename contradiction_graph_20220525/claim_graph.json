@@ -1513,28 +1513,23 @@
     "topics": [
       {
         "id": "lens_military_role",
-        "label": "Military role",
-        "scope_note": "This comparison concerns the lens applied to the selected passages. Review its shared focus, source attribution and claim-specific limits."
+        "label": "Military role"
       },
       {
         "id": "lens_purpose_and_harm",
-        "label": "Purpose and harm",
-        "scope_note": "This comparison concerns the lens applied to the selected passages. Review its shared focus, source attribution and claim-specific limits."
+        "label": "Purpose and harm"
       },
       {
         "id": "lens_defenders_resolve",
-        "label": "Defenders’ resolve",
-        "scope_note": "This comparison concerns the lens applied to the selected passages. Review its shared focus, source attribution and claim-specific limits."
+        "label": "Defenders’ resolve"
       },
       {
         "id": "lens_meaning_of_continued_defense",
-        "label": "Meaning of continued defense",
-        "scope_note": "This comparison concerns the lens applied to the selected passages. Review its shared focus, source attribution and claim-specific limits."
+        "label": "Meaning of continued defense"
       },
       {
         "id": "lens_support_needed_for_continued_defense",
-        "label": "Support needed for continued defense",
-        "scope_note": "Compare the selected passages’ framing only. Preserve their speakers, setting, uncertainty and the limited support named in the connection."
+        "label": "Support needed for continued defense"
       }
     ],
     "edges": [
@@ -1558,8 +1553,7 @@
         "reason": "The FT narrator calls the troops occupying forces. Izvestia describes Russia’s wider operation as protecting Donbas. The same military actor is framed through occupation and protection.",
         "caveat": "The FT passage concerns the city battle and Izvestia’s passage concerns the wider operation. These labels require matching the action and geography before any factual or legal conclusion.",
         "direction_reason": "FT12 is proposed to contradict the framing in I6. Direction follows the analyst-assigned comparison order.",
-        "framing_basis": "Analyst interpretation of the selected source passages.",
-        "review_status": "AI-assisted proposed framing comparison; human review pending"
+        "framing_basis": "Analyst interpretation of the selected source passages."
       },
       {
         "id": "F02",
@@ -1581,8 +1575,7 @@
         "reason": "Censor.NET labels the advancing forces occupiers. Izvestia uses a protective-purpose description of the operation. The comparison contrasts the hostile-control and protective-purpose lenses.",
         "caveat": "The Censor.NET lead is local to the road advance. Izvestia gives wider-war background. Each label belongs to the selected article passage.",
         "direction_reason": "C7 is proposed to contradict the framing in I6. Direction follows the analyst-assigned comparison order.",
-        "framing_basis": "Analyst interpretation of the selected source passages.",
-        "review_status": "AI-assisted proposed framing comparison; human review pending"
+        "framing_basis": "Analyst interpretation of the selected source passages."
       },
       {
         "id": "F03",
@@ -1604,8 +1597,7 @@
         "reason": "Haidai, quoted by the FT, describes scorched-earth tactics intended to wipe out Sievierodonetsk. Izvestia describes the operation as protecting Donbas. The passages foreground destruction and protection respectively.",
         "caveat": "Haidai’s accusation concerns the city, while the protective-purpose wording covers Donbas more broadly. The proposed conflict concerns attributed purpose and emphasis rather than a verified account of intent.",
         "direction_reason": "FT06 is proposed to contradict the framing in I6. Direction follows the analyst-assigned comparison order.",
-        "framing_basis": "Analyst interpretation of the selected source passages.",
-        "review_status": "AI-assisted proposed framing comparison; human review pending"
+        "framing_basis": "Analyst interpretation of the selected source passages."
       },
       {
         "id": "F04",
@@ -1627,8 +1619,7 @@
         "reason": "Butusov, quoted by Censor.NET, says soldiers will not surrender Luhansk. Izvestia foregrounds a video in which some soldiers refuse to defend Sievierodonetsk without better support. The comparison contrasts resolve and reported breakdown in willingness.",
         "caveat": "The video was published May 19 and concerns an unidentified group. Izvestia also quotes the soldiers saying they are not refusing to defend their homeland in I5. Review the dates, units and conditional wording.",
         "direction_reason": "C5 is proposed to contradict the framing in I4. Direction follows the analyst-assigned comparison order.",
-        "framing_basis": "Analyst interpretation of the selected source passages.",
-        "review_status": "AI-assisted proposed framing comparison; human review pending"
+        "framing_basis": "Analyst interpretation of the selected source passages."
       },
       {
         "id": "F05",
@@ -1650,8 +1641,7 @@
         "reason": "The FT presents continued resistance as buying time for Western weapons. Izvestia presents soldiers’ lack of reinforcements and heavy equipment as grounds for refusal. The lens shifts from purposeful endurance to an unsustainable burden.",
         "caveat": "Both accounts can reflect real equipment shortages, and may describe different troops and dates. This is a proposed contrast in the meaning assigned to continued defense.",
         "direction_reason": "FT09 is proposed to contradict the framing in I4. Direction follows the analyst-assigned comparison order.",
-        "framing_basis": "Analyst interpretation of the selected source passages.",
-        "review_status": "AI-assisted proposed framing comparison; human review pending"
+        "framing_basis": "Analyst interpretation of the selected source passages."
       },
       {
         "id": "F06",
@@ -1674,8 +1664,7 @@
         "support_scope": "The limited willingness-to-defend lens, rather than a guarantee that every position will be held.",
         "caveat": "The speakers and units are not established as the same. Defending the homeland is broader than holding every position in Luhansk. This does not establish an unconditional promise to defend Sievierodonetsk or prove that no soldiers withdrew.",
         "direction_reason": "I5 reinforces the named part of C5’s framing. Direction records the analyst’s proposed support relation, not a response between articles.",
-        "framing_basis": "Analyst interpretation of the selected source passages.",
-        "review_status": "AI-assisted proposed framing relation; human review pending"
+        "framing_basis": "Analyst interpretation of the selected source passages."
       },
       {
         "id": "F07",
@@ -1698,8 +1687,7 @@
         "support_scope": "The need to consider support and command when describing continued defense.",
         "caveat": "The quoted soldiers and Butusov are different speakers, and their units and remedies are not established as identical. The soldiers’ request does not prove Butusov’s particular reinforcements or command changes would succeed. Reporting the request does not establish Izvestia’s endorsement.",
         "direction_reason": "I5 reinforces the named part of C6’s framing. Direction records the analyst’s proposed support relation, not a response between articles.",
-        "framing_basis": "Analyst interpretation of the selected source passages.",
-        "review_status": "AI-assisted proposed framing relation; human review pending"
+        "framing_basis": "Analyst interpretation of the selected source passages."
       },
       {
         "id": "F08",
@@ -1722,8 +1710,7 @@
         "support_scope": "The material-support part of C6, rather than its separate judgment about command decisions.",
         "caveat": "FT11 concerns effective counterattacks; C6 concerns the defense around Sievierodonetsk and Lysychansk. Heavy weapons are only part of reinforcement. This cross-task comparison does not establish the success of any particular remedy.",
         "direction_reason": "FT11 reinforces the named part of C6’s framing. Direction records the analyst’s proposed support relation, not a response between articles.",
-        "framing_basis": "Analyst interpretation of the selected source passages.",
-        "review_status": "AI-assisted proposed framing relation; human review pending"
+        "framing_basis": "Analyst interpretation of the selected source passages."
       }
     ]
   }
