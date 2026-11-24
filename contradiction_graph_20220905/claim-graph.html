@@ -5929,8 +5929,8 @@ body { font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Ari
         [&quot;News outlets&quot;, nodes.length],
         [&quot;Claims&quot;, claimById.size],
         [&quot;Framing connections&quot;, eventEdges.length],
-        [&quot;Directed supportive framing links&quot;, eventEdges.filter(edge =&gt; edge.relation === &quot;supportive&quot;).length],
-        [&quot;Directed proposed framing contradictions&quot;, eventEdges.filter(edge =&gt; edge.relation === &quot;contradiction&quot;).length]
+        [&quot;Supportive connections&quot;, eventEdges.filter(edge =&gt; edge.relation === &quot;supportive&quot;).length],
+        [&quot;Contradiction connections&quot;, eventEdges.filter(edge =&gt; edge.relation === &quot;contradiction&quot;).length]
       ];
       const agreementCount = eventEdges.filter(edge =&gt; edge.relation === &quot;agreement&quot;).length;
       if (agreementCount) eventCounts.splice(5, 0, [&quot;Agreement connections&quot;, agreementCount]);
