@@ -2290,7 +2290,6 @@ body { font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Ari
         addLine(section, &quot;Supportive connections&quot;, &quot;The arrow points from the claim that supplies a reason to the claim receiving support. It reflects the analyst’s reasoning about the specified part of the claim. Any article response or endorsement would require separate evidence.&quot;);
         addLine(section, &quot;Neutral or unresolved comparisons&quot;, &quot;These comparisons link two claims without assigning a direction of support.&quot;);
         addLine(section, &quot;Contradiction connections&quot;, &quot;A solid red arrow points from the source claim to the target claim it is proposed to contradict. This direction follows the analyst-assigned comparison order. The reason and limits identify the disputed point and any differences in place, time, definitions or scope. Human review is pending.&quot;);
-        addLine(section, &quot;Review for all connections&quot;, &quot;AI-assisted proposed claim relations. Human review pending.&quot;);
         if (Array.isArray(data.excluded) &amp;&amp; data.excluded.length) {
           section.append(el(&quot;p&quot;, &quot;Outside this event&quot;, &quot;detail-label&quot;));
           const list = el(&quot;ul&quot;);
