@@ -104,7 +104,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CNN02",
@@ -148,7 +148,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CNN03",
@@ -192,7 +192,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CNN04",
@@ -236,7 +236,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -296,7 +296,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "FT02",
@@ -340,7 +340,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "FT03",
@@ -384,7 +384,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "FT04",
@@ -428,7 +428,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "FT05",
@@ -473,7 +473,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -533,7 +533,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "KI02",
@@ -577,7 +577,7 @@
           },
           "context_only": false,
           "uncertainty": "A pre-decision forecast is not the text of a final invitation.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "KI03",
@@ -621,7 +621,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -681,7 +681,7 @@
           },
           "context_only": false,
           "uncertainty": "A comment at the summit-side forum about the war; not a specific forecast of the next offensive.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "EP02",
@@ -725,7 +725,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -785,7 +785,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CEN02",
@@ -830,7 +830,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -890,7 +890,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "T02",
@@ -934,7 +934,7 @@
           },
           "context_only": false,
           "uncertainty": "The wording describes the council’s intended role, not Ukraine becoming a NATO member.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "T03",
@@ -979,7 +979,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -1039,7 +1039,7 @@
           },
           "context_only": false,
           "uncertainty": "Only one short paragraph is recovered; a reported draft is not automatically the final statement.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "S02",
@@ -1083,7 +1083,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -1143,7 +1143,7 @@
           },
           "context_only": false,
           "uncertainty": "This paragraph reports a proposal, not the moment a final decision was adopted.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "I02",
@@ -1187,7 +1187,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "I03",
@@ -1231,7 +1231,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -1291,7 +1291,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CD02",
@@ -1335,7 +1335,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CD03",
@@ -1379,7 +1379,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -1439,7 +1439,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "GT02",
@@ -1483,7 +1483,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "GT03",
@@ -1527,7 +1527,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "GT04",
@@ -1571,7 +1571,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "GT05",
@@ -1615,7 +1615,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     }
@@ -1633,7 +1633,7 @@
       "subtype": "parallel_accounts_or_interpretations",
       "reason": "The FT editorial and Zelensky both object to a lack of a clear route and date. The matching content alone supplies no evidential direction.",
       "caveat": "This matches their criticism, not every proposal each speaker supports.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1649,7 +1649,7 @@
       "subtype": "parallel_accounts_or_interpretations",
       "reason": "Both describe an invitation depending on allies’ agreement and conditions being met. The matching content alone supplies no evidential direction.",
       "caveat": "Sputnik describes a reported draft; FT discusses agreed wording. The source document versions and sources differ.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1665,7 +1665,7 @@
       "subtype": "scope_or_certainty_difference",
       "reason": "A Lithuanian ambassador predicts no summit invitation; a reported draft gives no timetable.",
       "caveat": "These compatible claims are not identical: absence of a date does not itself rule out an invitation that day.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1681,7 +1681,7 @@
       "subtype": "specified_partial_support",
       "reason": "TASS reports Stoltenberg announcing adoption of a multiyear assistance program. That is a specific policy commitment supporting the continued-assistance pledge reported by European Pravda.",
       "caveat": "Stoltenberg is the source for both statements, made at different points in the summit day.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": true,
       "direction": "source_to_target",
       "support_scope": "The continued-defense-assistance component of EP02.",
@@ -1700,7 +1700,7 @@
       "subtype": "parallel_accounts_or_interpretations",
       "reason": "Both report Stoltenberg’s long-term support plan. The matching content alone supplies no evidential direction.",
       "caveat": "One emphasizes adoption, the other the intended preparation of forces; the announcements come at different points during the day.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1716,7 +1716,7 @@
       "subtype": "opposed_assistance_effects_frames",
       "reason": "The FT recommends lasting assistance to protect Ukraine and deter new aggression. Experts quoted by Global Times characterize Western commitments as prolonging bloodshed. These are opposing evaluations of the purpose and effects of Western assistance.",
       "caveat": "The FT discusses protection including after the conflict; the experts discuss the ongoing war. Assistance could prolong present fighting and deter future aggression. Review the time horizon before treating the forecasts as incompatible.",
-      "review_status": "AI-assisted proposed claim relation; human review pending",
+      "review_status": "AI-assisted proposed claim relation",
       "directed": true,
       "direction": "source_to_target",
       "direction_reason": "Analyst-assigned comparison: FT03 is proposed to contradict GT03. The arrow follows this source-to-target order."
@@ -1733,7 +1733,7 @@
       "subtype": "parallel_accounts_or_interpretations",
       "reason": "Both report the NATO chief’s schedule for the council meeting. The matching content alone supplies no evidential direction.",
       "caveat": "Same speaker and planned meeting, not two independent observations of an event already completed.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1749,7 +1749,7 @@
       "subtype": "parallel_accounts_or_interpretations",
       "reason": "Both describe the NATO-Ukraine Council as a body for closer political relations. The matching content alone supplies no evidential direction.",
       "caveat": "Stoltenberg is the common original source; the intended role does not confer NATO membership.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1765,7 +1765,7 @@
       "subtype": "parallel_accounts_or_interpretations",
       "reason": "Both say the first council meeting with Zelensky was scheduled for Wednesday. The matching content alone supplies no evidential direction.",
       "caveat": "A schedule is not proof that the subsequent meeting occurred.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1781,7 +1781,7 @@
       "subtype": "opposed_alliance_cohesion_assessments",
       "reason": "CNN describes NATO as closer than at any time since the Cold War. Global Times highlights rising divergences behind an outward show of solidarity and the prospect of serious disunity. The passages offer contrasting assessments of alliance cohesion at the summit.",
       "caveat": "Comparatively stronger overall cooperation can coexist with disagreements on particular policies and future risks. Review the baseline, policy areas and distinction between current conditions and forecasts.",
-      "review_status": "AI-assisted proposed claim relation; human review pending",
+      "review_status": "AI-assisted proposed claim relation",
       "directed": true,
       "direction": "source_to_target",
       "direction_reason": "Analyst-assigned comparison: CNN04 is proposed to contradict GT01. The arrow follows this source-to-target order."
@@ -1798,7 +1798,7 @@
       "subtype": "specified_partial_support",
       "reason": "CNN reports Macron’s opposition to the Tokyo office. That supplies a reason for the difficulty of unanimous approval described in Global Times.",
       "caveat": "CNN cites NHK and Global Times cites Nikkei. Independent source access is not established.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": true,
       "direction": "source_to_target",
       "support_scope": "The French-opposition obstacle in GT05.",
@@ -1817,7 +1817,7 @@
       "subtype": "office_readiness_and_approval_discrepancy",
       "reason": "China Daily’s guest writer says NATO has already persuaded Japan to open a Tokyo office the following year. Global Times reports that NATO would defer its decision until autumn or later. The comparison flags an apparent arranged-versus-pending contrast in the office plan.",
       "caveat": "Japan’s willingness to host and NATO’s unanimous institutional approval are separate decisions. The two accounts can both be accurate if they refer to different approval stages. Review the decision stage meant in each passage.",
-      "review_status": "AI-assisted proposed claim relation; human review pending",
+      "review_status": "AI-assisted proposed claim relation",
       "directed": true,
       "direction": "source_to_target",
       "direction_reason": "Analyst-assigned comparison: CD02 is proposed to contradict GT04. The arrow follows this source-to-target order."
@@ -1834,7 +1834,7 @@
       "subtype": "stance_disagreement",
       "reason": "The FT editorial welcomes Sweden’s membership progress. The China Daily guest author evaluates Nordic NATO enlargement as harmful to regional stability.",
       "caveat": "This proposed comparison concerns opposing evaluations. Stronger NATO defenses and more confrontation could occur together, so the factual forecasts need separate review. The guest author’s views remain attributed.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": true,
       "direction": "source_to_target",
       "direction_reason": "Analyst-assigned comparison: FT04 is proposed to contradict CD01. The arrow follows this source-to-target order."
@@ -1851,7 +1851,7 @@
       "subtype": "specified_partial_support",
       "reason": "Global Times reports Turkey agreeing to clear the way for Sweden’s membership. That supplies a concrete step supporting the FT’s account of progress in breaking the impasse.",
       "caveat": "The arrow supplies an event detail relevant to the editorial’s account.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": true,
       "direction": "source_to_target",
       "support_scope": "The membership-progress component of FT04.",
@@ -1865,7 +1865,7 @@
       "topic": "unity",
       "source_claim": "FT05",
       "target_claim": "GT01",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "relation": "supportive",
       "directed": true,
       "direction": "source_to_target",
@@ -1885,7 +1885,7 @@
     "edge_note": "Green arrows point from a supporting claim to the claim receiving support. Grey comparisons have no assigned direction. Solid red arrows point from a source claim to a target claim it is proposed to contradict. Red direction follows the analyst-assigned comparison order. Every proposed conflict retains its reasoning and scope limits for human review.",
     "attention_note": "Attention is a qualitative reading of the saved article, with paragraph locators; it is not a measured share of words.",
     "endorsement_note": "A quoted speaker’s view is separate from the article narrator’s view. No outlet-wide position is inferred from one article.",
-    "annotation_status": "AI-assisted draft; human review pending",
+    "annotation_status": "AI-assisted draft",
     "cleaning_note": "Uses saved recovered text. Kyiv Independent later Most Popular / News Feed material is excluded; original paragraph numbers retained. FT wrapped lines are joined into logical paragraphs."
   }
 }

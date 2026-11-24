@@ -104,7 +104,7 @@
           },
           "context_only": false,
           "uncertainty": "The task records CNN’s legal assertion; it does not perform an independent legal determination.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CNN02",
@@ -152,7 +152,7 @@
           },
           "context_only": false,
           "uncertainty": "Paragraph 19: Andriushchenko is outside Mariupol; CNN says it cannot independently verify his and other characterizations.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CNN03",
@@ -199,7 +199,7 @@
           },
           "context_only": false,
           "uncertainty": "An allegation/prediction by a Ukrainian official, not an independently checked count. CNN’s paragraph 19 gives a broader caution about unverified Ukrainian officials’ characterizations.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CNN04",
@@ -246,7 +246,7 @@
           },
           "context_only": false,
           "uncertainty": "A promise of safe conditions is not proof that voting was free, nor a direct denial of each later report of coercion.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CNN05",
@@ -293,7 +293,7 @@
           },
           "context_only": false,
           "uncertainty": "No independently verified turnout number is provided. Low turnout is not the same proposition as low support among those who do vote.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CNN06",
@@ -339,7 +339,7 @@
           },
           "context_only": false,
           "uncertainty": "Reports an announced intention, not proof that a particular new package has already taken effect.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CNN07",
@@ -385,7 +385,7 @@
           },
           "context_only": false,
           "uncertainty": "This is Moscow’s proposed treatment of future attacks, not CNN recognizing Russian sovereignty over the regions.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CNN08",
@@ -430,7 +430,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CNN09",
@@ -477,7 +477,7 @@
           },
           "context_only": false,
           "uncertainty": "Reports an announced intention, not proof that a particular new package has already taken effect.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -540,7 +540,7 @@
           },
           "context_only": false,
           "uncertainty": "A broad promotional claim, without independent evidence in this quotation that all residents can choose freely.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "FT02",
@@ -587,7 +587,7 @@
           },
           "context_only": false,
           "uncertainty": "The sentence says many, not every resident. It is an evaluative portrayal, not an independently measured count of coerced voters.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "FT03",
@@ -634,7 +634,7 @@
           },
           "context_only": false,
           "uncertainty": "Predicting an outcome is not by itself proof that ballots are fabricated. A confident pro-Russia prediction can agree on outcome while disagreeing about the process.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "FT04",
@@ -680,7 +680,7 @@
           },
           "context_only": false,
           "uncertainty": "Two complete consecutive sentences are quoted together as printed. This resident’s account cannot automatically represent all voters.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "FT05",
@@ -727,7 +727,7 @@
           },
           "context_only": false,
           "uncertainty": "Police accompaniment can be a shared description even when speakers disagree over whether it protects or pressures voters. Agreement on police presence is not a contradiction.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "FT06",
@@ -773,7 +773,7 @@
           },
           "context_only": false,
           "uncertainty": "The word possible must remain: the teacher expresses fear rather than establishing that this outcome will occur.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "FT07",
@@ -819,7 +819,7 @@
           },
           "context_only": false,
           "uncertainty": "No percentage is given; many is not most, all, or a verified majority. Political sympathy does not establish willingness to vote, free voting, or legality.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "FT08",
@@ -864,7 +864,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "FT09",
@@ -910,7 +910,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -972,7 +972,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "KI02",
@@ -1018,7 +1018,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -1079,7 +1079,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CEN02",
@@ -1124,7 +1124,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CEN03",
@@ -1169,7 +1169,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CEN04",
@@ -1214,7 +1214,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CEN05",
@@ -1259,7 +1259,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -1321,7 +1321,7 @@
           },
           "context_only": false,
           "uncertainty": "Treat this as an attributed legal interpretation, not a verified event fact or a conclusive application of international law.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "T02",
@@ -1366,7 +1366,7 @@
           },
           "context_only": false,
           "uncertainty": "A claim about legal entitlement does not show that every resident freely chose or participated.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "T03",
@@ -1411,7 +1411,7 @@
           },
           "context_only": false,
           "uncertainty": "The exact sentence includes the closing quote and attribution as printed in the article. This is a broad quality assessment; do not translate it into proof that no coercion occurred anywhere. Matviyenko introduces part of the assessment as what her colleagues say.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "T04",
@@ -1456,7 +1456,7 @@
           },
           "context_only": false,
           "uncertainty": "An invitation does not establish who attended, what they observed, independence, or free voting.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "T05",
@@ -1502,7 +1502,7 @@
           },
           "context_only": false,
           "uncertainty": "This is a judgment about motives, not survey evidence about residents or proof of Western intent.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "T06",
@@ -1548,7 +1548,7 @@
           },
           "context_only": false,
           "uncertainty": "The article does not identify or measure the alleged threats or their actual effects.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "T07",
@@ -1593,7 +1593,7 @@
           },
           "context_only": false,
           "uncertainty": "The promise depends on declared results; do not assume those results would measure free popular consent.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -1660,7 +1660,7 @@
           },
           "context_only": false,
           "uncertainty": "No percentages, totals, turnout, sample sizes, final vote figures or survey methods appear in the 365-character recovered text. The claim covers interviewed residents, not all residents or all eligible voters. Reported intent to vote yes does not show that a vote was free or that people actually voted.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -1721,7 +1721,7 @@
           },
           "context_only": false,
           "uncertainty": "The translation preserves the source’s wording \"liberated\"; it is not this analysis’s geographic or legal finding.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "I02",
@@ -1766,7 +1766,7 @@
           },
           "context_only": false,
           "uncertainty": "Support for holding a vote is different from support for joining Russia. A narrator’s broad assertion must not silently become proven opinion of every eligible resident, turnout, or evidence of freedom from pressure.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "I03",
@@ -1811,7 +1811,7 @@
           },
           "context_only": false,
           "uncertainty": "The 94% figure explicitly concerns respondents ready to vote. The wording does not establish identical denominators for all four figures. No sample size, fieldwork date, method, nonresponse data or margin of error is given. These are reported opinions or intentions, not final results, actual turnout, or proof that respondents could speak freely. The 94% Donetsk figure applies to respondents willing to participate. Other regional figures also describe survey respondents, not every resident. Sampling details are not provided.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "I04",
@@ -1856,7 +1856,7 @@
           },
           "context_only": false,
           "uncertainty": "Preserve the source’s surprising \"first day\" wording; do not silently correct it to the final day. The text does not define whether remote means online, off-site, mobile, or another format; do not invent that meaning.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "I05",
@@ -1902,7 +1902,7 @@
           },
           "context_only": false,
           "uncertainty": "A claim of sincere wishes is not a measured level of support or proof that all residents freely participate.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "I06",
@@ -1948,7 +1948,7 @@
           },
           "context_only": false,
           "uncertainty": "The translation retains the article’s \"liberated\" label without endorsing it. Safe conditions as promised are not logically identical to freedom from coercion.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "I07",
@@ -1993,7 +1993,7 @@
           },
           "context_only": false,
           "uncertainty": "The region’s full territory and its Russian-held parts are not interchangeable. Positive wording about control does not independently establish legality or a free voting process.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "I08",
@@ -2038,7 +2038,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -2100,7 +2100,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "GT02",
@@ -2145,7 +2145,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "GT03",
@@ -2190,7 +2190,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "GT04",
@@ -2235,7 +2235,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "GT05",
@@ -2281,7 +2281,7 @@
           },
           "context_only": true,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "GT06",
@@ -2327,7 +2327,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "GT07",
@@ -2372,7 +2372,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     }
@@ -2390,7 +2390,7 @@
       "subtype": "opposed_legal_interpretations",
       "reason": "CNN’s narrator calls the same votes illegal under international law; Matviyenko, quoted by TASS, says they follow international norms and the UN Charter.",
       "caveat": "Red marks incompatible legal positions on holding these votes. It does not establish a court ruling or identify one article as false.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "direction_reason": "Analyst-assigned comparison: CNN01 is proposed to contradict T01. The arrow follows this source-to-target order.",
       "directed": true,
       "direction": "source_to_target"
@@ -2407,7 +2407,7 @@
       "subtype": "opposed_legal_interpretations",
       "reason": "CNN’s own legal statement opposes Matviyenko’s legal statement carried by Global Times.",
       "caveat": "The supportive legal view belongs to Matviyenko, not automatically to Global Times. This is the same Russian statement as in TASS, not a new independent source.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "direction_reason": "Analyst-assigned comparison: CNN01 is proposed to contradict GT03. The arrow follows this source-to-target order.",
       "directed": true,
       "direction": "source_to_target"
@@ -2424,7 +2424,7 @@
       "subtype": "original_source_attribution",
       "reason": "TASS directly attributes the legal position to Matviyenko. Global Times explicitly credits TASS for the same statement, so the original report supports that attribution.",
       "caveat": "Both accounts carry the same speaker’s legal position. The arrow traces the cited source.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "support_scope": "The attribution of the international-norms and UN Charter statement to Matviyenko.",
       "unsupported_parts": "Whether the votes complied with international law.",
       "directed": true,
@@ -2443,7 +2443,7 @@
       "subtype": "different_legal_acts",
       "reason": "CNN01 concerns the legality of holding the votes; the G7 passage in Global Times concerns later annexation of Ukrainian territory.",
       "caveat": "These are related but different legal acts. Do not treat them as an identical proposition just because both mention international law.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -2459,7 +2459,7 @@
       "subtype": "opposed_voting_freedom_accounts",
       "reason": "CNN quotes a Ukrainian adviser alleging armed coercion in door-to-door voting. The FT quotes a Russian-appointed official presenting the votes as an expression of free will. The comparison flags opposing accounts of voters’ freedom.",
       "caveat": "The allegation concerns Mariupol and the official speaks from Berdyansk. CNN could not independently verify the allegation. Human review must decide whether the statements generalize to the same voting process or describe separate local conditions.",
-      "review_status": "AI-assisted proposed claim relation; human review pending",
+      "review_status": "AI-assisted proposed claim relation",
       "directed": true,
       "direction": "source_to_target",
       "direction_reason": "Analyst-assigned comparison: CNN02 is proposed to contradict FT01. The arrow follows this source-to-target order."
@@ -2476,7 +2476,7 @@
       "subtype": "promise_and_conditions_narrative_conflict",
       "reason": "Putin promises safe conditions for people to express their will. The FT says many people under Russian occupation and repression cannot freely choose. The comparison flags the conflict between the promised voting conditions and the reported experience.",
       "caveat": "A promise can coexist with failure to fulfill it. This is a proposed promise-versus-conditions conflict, requiring review of timing, location and whether the promised safety includes freedom from pressure.",
-      "review_status": "AI-assisted proposed claim relation; human review pending",
+      "review_status": "AI-assisted proposed claim relation",
       "directed": true,
       "direction": "source_to_target",
       "direction_reason": "Analyst-assigned comparison: CNN04 is proposed to contradict FT02. The arrow follows this source-to-target order."
@@ -2493,7 +2493,7 @@
       "subtype": "different_properties",
       "reason": "Global Times relays TASS’s calm-first-day account; CNN carries a coercion allegation.",
       "caveat": "A calm scene can still involve pressure. The reports do not establish the same place and moment, and guards alone do not prove either freedom or coercion.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -2509,7 +2509,7 @@
       "subtype": "opposed_voting_quality_assessments",
       "reason": "The FT says the methods fall far short of normal democratic standards. Matviyenko praises the preparations and says everything was done for transparency and openness. These are opposing assessments of the quality of the same voting exercise.",
       "caveat": "Administrative preparation and democratic fairness are different criteria. Matviyenko partly relays colleagues’ views. Review whether the positive statement covers the specific flaws criticized by the FT.",
-      "review_status": "AI-assisted proposed claim relation; human review pending",
+      "review_status": "AI-assisted proposed claim relation",
       "directed": true,
       "direction": "source_to_target",
       "direction_reason": "Analyst-assigned comparison: FT09 is proposed to contradict T03. The arrow follows this source-to-target order."
@@ -2526,7 +2526,7 @@
       "subtype": "proposed_voting_schedule_discrepancy",
       "reason": "The FT says Donetsk and Luhansk polling stations open only on the last day after four days of ballot-box visits. Izvestia says Donetsk in-person voting lasts during the first day. This is an apparent conflict in the reported voting schedule.",
       "caveat": "In-person voting may include mobile teams and may differ from voting inside polling stations. Check the original Russian wording, voting formats and timetable before resolving the discrepancy.",
-      "review_status": "AI-assisted proposed claim relation; human review pending",
+      "review_status": "AI-assisted proposed claim relation",
       "directed": true,
       "direction": "source_to_target",
       "direction_reason": "Analyst-assigned comparison: FT08 is proposed to contradict I04. The arrow follows this source-to-target order."
@@ -2543,7 +2543,7 @@
       "subtype": "compatible_procedure_reports",
       "reason": "Censor.NET reports visits to Melitopol residents; the Zaporizhzhia official quoted by FT describes home teams accompanied by police.",
       "caveat": "Melitopol is within the wider Zaporizhzhia setting, but the exact teams, visits and times are not matched. Censor’s sentence does not itself report threats.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -2559,7 +2559,7 @@
       "subtype": "partial_procedural_support",
       "reason": "Matviyenko’s account in TASS identifies an invitation to international observers. That reported step supports the foreign-observer part of Izvestia’s plan for observing the votes.",
       "caveat": "Inviting observers is evidence of a reported preparation. Attendance and five-day coverage require separate evidence.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "support_scope": "Preparations for possible participation by foreign observers.",
       "unsupported_parts": "Which observers actually attended, how long they watched, their independence, and the fairness of the vote.",
       "directed": true,
@@ -2578,7 +2578,7 @@
       "subtype": "parallel_positions",
       "reason": "Haidai, quoted by CNN, predicts Russia will create a favorable result. The FT narrator says Russia controls the vote and the result is already certain.",
       "caveat": "This is agreement in assessment, not verification that every result was fabricated. The speakers differ: a Ukrainian official versus the FT narrator.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "direction_reason": "The reports express parallel views or positions without supplying evidence for each other.",
       "directed": false,
       "direction": "undirected"
@@ -2595,7 +2595,7 @@
       "subtype": "parallel_positions",
       "reason": "The White House statement in Kyiv Independent and the G7 statement in Global Times reject the votes as genuine and refuse to recognize their results.",
       "caveat": "These are the reported institutions’ positions, not automatically the outlets’ opinions. The United States is part of the G7, so the positions are not fully independent.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "direction_reason": "The reports express parallel views or positions without supplying evidence for each other.",
       "directed": false,
       "direction": "undirected"
@@ -2612,7 +2612,7 @@
       "subtype": "polls_not_sample_matched",
       "reason": "Both articles cite favorable survey intentions toward joining Russia.",
       "caveat": "They cite different named sources, with no matched samples or methods. Sputnik’s saved introduction contains no percentages. Poll intentions are not completed vote counts. The relationship between the differently named poll sources is not established here.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -2628,7 +2628,7 @@
       "subtype": "different_measures",
       "reason": "CNN’s Ukrainian source reports low early turnout in Kherson; Sputnik’s survey reports majority yes intentions across four regions.",
       "caveat": "Early turnout and earlier poll intentions measure different things, with different geographic and population scopes. They can coexist.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -2644,7 +2644,7 @@
       "subtype": "conditional_policy_vs_prediction",
       "reason": "Peskov says Ukrainian retaking attempts would count as attacks on Russia after incorporation; the expert quoted by Global Times predicts wider Russian responses to such attacks.",
       "caveat": "One is a Russian policy warning; the other is an unnamed expert’s prediction. Neither proves what Russia would actually do, and neither is a separate outlet endorsement.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -2660,7 +2660,7 @@
       "subtype": "parallel_positions",
       "reason": "The EU account in CNN and the White House warning in Kyiv Independent both propose further economic pressure on Russia.",
       "caveat": "The US warning is conditional on annexation; the EU is preparing a package. This matches the policy direction, not identical measures or proof that they were imposed.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "direction_reason": "The reports express parallel views or positions without supplying evidence for each other.",
       "directed": false,
       "direction": "undirected"
@@ -2677,7 +2677,7 @@
       "subtype": "different_time_and_policy_scope",
       "reason": "CNN reports preparations for new EU penalties; Global Times’s narrator criticizes the effect of broader, existing EU energy penalties.",
       "caveat": "Planning new restrictions does not contradict criticism of older ones. The sanctions packages, time periods and exact propositions differ.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -2693,7 +2693,7 @@
       "subtype": "parallel_positions",
       "reason": "Both articles’ own narration describes Russian control through occupation language.",
       "caveat": "This matches a frame, not every factual claim or policy position. The code concerns these articles, not all reporting by either outlet.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "direction_reason": "The reports express parallel views or positions without supplying evidence for each other.",
       "directed": false,
       "direction": "undirected"
@@ -2710,7 +2710,7 @@
       "subtype": "parallel_positions",
       "reason": "CNN and Global Times both use occupation wording for the relevant Ukrainian areas, including Kherson and Zaporizhzhia.",
       "caveat": "Global Times also quotes a Russian official supporting the votes. Different voices within one article must not be collapsed into a single national position.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "direction_reason": "The reports express parallel views or positions without supplying evidence for each other.",
       "directed": false,
       "direction": "undirected"
@@ -2727,7 +2727,7 @@
       "subtype": "opposed_territorial_framing",
       "reason": "CNN describes the voting areas as Russian-occupied Ukrainian territory; Izvestia’s own opening calls the Russian-held Zaporizhzhia areas liberated.",
       "caveat": "Red marks opposing interpretations of Russian control over the overlapping Zaporizhzhia territory. It is a framing clash, not a new factual verdict issued by the graph.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "direction_reason": "Analyst-assigned comparison: CNN08 is proposed to contradict I07. The arrow follows this source-to-target order.",
       "directed": true,
       "direction": "source_to_target"
@@ -2744,7 +2744,7 @@
       "subtype": "opposed_territorial_framing",
       "reason": "Global Times’s own narration says Russia-occupied Zaporizhzhia, while Izvestia’s own narration says liberated Zaporizhzhia territories.",
       "caveat": "This comparison is between narrator wording, rather than borrowed official quotations. It is an opposed frame, not proof of an outlet-wide policy.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "direction_reason": "Analyst-assigned comparison: GT07 is proposed to contradict I07. The arrow follows this source-to-target order.",
       "directed": true,
       "direction": "source_to_target"
@@ -2761,7 +2761,7 @@
       "subtype": "parallel_positions",
       "reason": "G7 ministers quoted by Global Times call the votes sham; Censor.NET’s own lead calls them so-called referendums run by occupiers and puppets.",
       "caveat": "The critical frame aligns, but the first speaker is the G7 and the second is the article narrator. Do not label this as Global Times explicitly endorsing the G7.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "direction_reason": "The reports express parallel views or positions without supplying evidence for each other.",
       "directed": false,
       "direction": "undirected"
@@ -2778,7 +2778,7 @@
       "subtype": "parallel_positions",
       "reason": "The EU statement in CNN and the White House statement in Kyiv Independent both refuse to recognize the Russia-organized voting results.",
       "caveat": "This matches the reported institutions’ policies. It does not establish the outlets’ own opinions or independently prove how the votes were counted.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "direction_reason": "The reports express parallel views or positions without supplying evidence for each other.",
       "directed": false,
       "direction": "undirected"
@@ -2800,7 +2800,7 @@
       "directed": true,
       "direction": "source_to_target",
       "direction_reason": "CNN02 supplies a specific part of the support for FT02.",
-      "review_status": "AI-assisted proposed comparison; human review pending"
+      "review_status": "AI-assisted proposed comparison"
     }
   ],
   "within_article_relations": [
@@ -2829,7 +2829,7 @@
     "edge_note": "Green arrows point from a supporting claim to the claim receiving support. Grey comparisons have no assigned direction. Solid red arrows point from a source claim to a target claim it is proposed to contradict. Red direction follows the analyst-assigned comparison order. Every proposed conflict retains its reasoning and scope limits for human review.",
     "attention_note": "Attention is judged from the saved article text and paragraph allocation, not as an outlet-wide bias score.",
     "endorsement_note": "Quoted officials, residents and narrators have separate claim sections. Repeated TASS/Matviyenko statements are marked as shared sources, not independent findings.",
-    "annotation_status": "AI-assisted proposed research graph; human review pending.",
+    "annotation_status": "AI-assisted proposed research graph",
     "cleaning_note": "Only paragraph 1 of the Kyiv Independent saved text belongs to this article; later news-feed paragraphs were excluded. Sputnik’s introduction is not treated as if its missing infographic figures were recovered."
   },
   "framing_network": {

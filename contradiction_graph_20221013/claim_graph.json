@@ -89,7 +89,7 @@
           },
           "context_only": false,
           "uncertainty": "The graph does not verify military capability or a separately agreed EU/US/NATO plan.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "KI02",
@@ -133,7 +133,7 @@
           },
           "context_only": false,
           "uncertainty": "Borrell describes the response; each Western government is not separately quoted agreeing.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "KI03",
@@ -177,7 +177,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -239,7 +239,7 @@
           },
           "context_only": false,
           "uncertainty": "The P3 English quote says \"Any attack\"; P1 and the surrounding nuclear discussion supply the nuclear condition. Do not broaden this into a threat after every conventional attack.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "C02",
@@ -283,7 +283,7 @@
           },
           "context_only": false,
           "uncertainty": "P3’s quote is read in the nuclear-attack context set by P1. It is a reported statement, not proof that a response would occur.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "C03",
@@ -327,7 +327,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -387,7 +387,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "I02",
@@ -432,7 +432,7 @@
           },
           "context_only": false,
           "uncertainty": "This is Borrell’s reported warning, not an independently verified outcome or a new Izvestia policy position.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "I03",
@@ -476,7 +476,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "I04",
@@ -520,7 +520,7 @@
           },
           "context_only": false,
           "uncertainty": "A national position about France; not a promise that all Western responses would be non-nuclear.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "I05",
@@ -564,7 +564,7 @@
           },
           "context_only": true,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     }
@@ -582,7 +582,7 @@
       "subtype": "repeated_source_position",
       "reason": "Both report Borrell warning of a response strong enough to destroy Russia’s army after Russian nuclear use. These reports rely on the same original statement.",
       "caveat": "Both reports repeat Borrell’s warning. Their shared source provides no separate evidence about military capability or a future response.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -598,7 +598,7 @@
       "subtype": "repeated_source_position",
       "reason": "Both carry Borrell’s claim about the power of a future response; Izvestia reports it in Russian. These reports rely on the same original statement.",
       "caveat": "Both reports repeat Borrell’s warning. Their shared source provides no separate evidence about military capability or a future response.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -614,7 +614,7 @@
       "subtype": "repeated_source_position",
       "reason": "Both report Borrell specifying that the response would not use nuclear weapons. These reports rely on the same original statement.",
       "caveat": "Both reports repeat Borrell’s warning. Their shared source provides no separate evidence about military capability or a future response.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -630,7 +630,7 @@
       "subtype": "repeated_source_position",
       "reason": "The articles agree on what Borrell says about non-nuclear means. These reports rely on the same original statement.",
       "caveat": "Both reports repeat Borrell’s warning. Their shared source provides no separate evidence about military capability or a future response.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -646,7 +646,7 @@
       "subtype": "repeated_source_position",
       "reason": "Both attribute the statement that Western supporters are not bluffing to Borrell. These reports rely on the same original statement.",
       "caveat": "Both reports repeat Borrell’s warning. Their shared source provides no separate evidence about military capability or a future response.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -662,7 +662,7 @@
       "subtype": "repeated_source_position",
       "reason": "Censor and Kyiv Independent repeat Borrell’s message that the warning is serious. These reports rely on the same original statement.",
       "caveat": "Both reports repeat Borrell’s warning. Their shared source provides no separate evidence about military capability or a future response.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -678,7 +678,7 @@
       "subtype": "specified_partial_support",
       "reason": "Izvestia quotes Macron saying France would use no nuclear response to a Russian nuclear attack on Ukraine. That supplies one national policy position compatible with the non-nuclear response Borrell describes.",
       "caveat": "Macron speaks for France. This is limited support from a national position within Borrell’s wider institutional description.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": true,
       "direction": "source_to_target",
       "support_scope": "The French component of the broader Western non-nuclear response in KI02.",
@@ -724,7 +724,7 @@
     "edge_note": "Green arrows point from a supporting claim to the claim receiving support. Grey comparisons have no assigned direction. Solid red arrows point from a source claim to a target claim it is proposed to contradict. Red direction follows the analyst-assigned comparison order. Every proposed conflict retains its reasoning and scope limits for human review.",
     "attention_note": "Attention is a qualitative reading of the saved article, with paragraph locators; it is not a measured share of words.",
     "endorsement_note": "A quoted speaker’s view is separate from the article narrator’s view. No outlet-wide position is inferred from one article.",
-    "annotation_status": "AI-assisted draft; human review pending",
+    "annotation_status": "AI-assisted draft",
     "cleaning_note": "Uses saved recovered text. Kyiv Independent later Most Popular / News Feed material is excluded; original paragraph numbers retained. FT wrapped lines are joined into logical paragraphs."
   }
 }

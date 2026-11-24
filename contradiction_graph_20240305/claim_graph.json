@@ -95,7 +95,7 @@
           },
           "context_only": false,
           "uncertainty": "The graph records Ukraine’s account, not an independent confirmation.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CNN02",
@@ -139,7 +139,7 @@
           },
           "context_only": false,
           "uncertainty": "Certainty belongs to the spokesperson, not to this graph.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CNN03",
@@ -183,7 +183,7 @@
           },
           "context_only": false,
           "uncertainty": "Sea drones means unmanned boats carrying explosives. Damage is reported by the attacking side.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CNN04",
@@ -227,7 +227,7 @@
           },
           "context_only": false,
           "uncertainty": "An attributed cost estimate, not a value independently checked for this graph.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -288,7 +288,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "KI02",
@@ -332,7 +332,7 @@
           },
           "context_only": false,
           "uncertainty": "These figures are explicitly preliminary, and 52 evacuations were possible rather than confirmed. Do not add these to infer the full crew size.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "KI03",
@@ -376,7 +376,7 @@
           },
           "context_only": false,
           "uncertainty": "Absence of a comment at this reporting time is not a denial or an admission.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "KI04",
@@ -420,7 +420,7 @@
           },
           "context_only": false,
           "uncertainty": "The preceding alleged intercepted conversation and this anonymous-source report are separate forms of evidence; neither is independently validated here.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "KI05",
@@ -464,7 +464,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "KI06",
@@ -508,7 +508,7 @@
           },
           "context_only": false,
           "uncertainty": "An earlier broad account before the article’s later preliminary numbers; it does not contradict those numbers.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -568,7 +568,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "EP02",
@@ -612,7 +612,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "EP03",
@@ -657,7 +657,7 @@
           },
           "context_only": false,
           "uncertainty": "The article’s verb confirmed refers to Ukraine’s statement, not to independent confirmation by this graph.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "EP04",
@@ -701,7 +701,7 @@
           },
           "context_only": false,
           "uncertainty": "No number is supplied here; it is not a separate final casualty count.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -761,7 +761,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CEN02",
@@ -805,7 +805,7 @@
           },
           "context_only": false,
           "uncertainty": "Unmanned explosive boats and reported damage are described by the attacking side.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CEN03",
@@ -849,7 +849,7 @@
           },
           "context_only": false,
           "uncertainty": "An estimate repeated from Ukraine, not a separately validated financial figure.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CEN04",
@@ -893,7 +893,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -953,7 +953,7 @@
           },
           "context_only": false,
           "uncertainty": "This is the Ukrainian agency’s account, not independent Chinese confirmation.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CD02",
@@ -997,7 +997,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CD03",
@@ -1041,7 +1041,7 @@
           },
           "context_only": false,
           "uncertainty": "No response is not the same as a Russian denial or confirmation of the sinking.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     }
@@ -1059,7 +1059,7 @@
       "subtype": "same_original_Ukrainian_account",
       "reason": "Both report Ukraine’s intelligence agency saying the ship was destroyed. These reports rely on the same original statement.",
       "caveat": "The original agency and spokesperson overlap. Repeating the claim is not independent confirmation.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1075,7 +1075,7 @@
       "subtype": "same_original_Ukrainian_account",
       "reason": "Both relay Ukraine’s statement that its unit destroyed the ship. These reports rely on the same original statement.",
       "caveat": "China Daily explicitly cites the agency’s Telegram account; this is not a separate Chinese investigation.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1091,7 +1091,7 @@
       "subtype": "same_original_Ukrainian_account",
       "reason": "Both carry Ukraine’s agency account of the ship’s destruction. These reports rely on the same original statement.",
       "caveat": "The common Ukrainian source is preserved; neither adds an independent Russian confirmation.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1107,7 +1107,7 @@
       "subtype": "specified_partial_support",
       "reason": "Kyiv Independent carries HUR’s claim that the vessel was hit and destroyed in the overnight operation. That more specific outcome claim supports the occurrence-of-an-attack component reported by Censor.NET.",
       "caveat": "Both reports rely on Ukrainian military intelligence. The arrow records the implication of the stronger reported claim.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": true,
       "direction": "source_to_target",
       "support_scope": "The agency’s account of an overnight attack on the ship in CEN01.",
@@ -1126,7 +1126,7 @@
       "subtype": "same_original_Ukrainian_account",
       "reason": "Both carry the Ukrainian statement about Magura boats damaging the back and both sides. These reports rely on the same original statement.",
       "caveat": "Same original announcement, not independent inspection of the vessel.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1142,7 +1142,7 @@
       "subtype": "same_original_Ukrainian_account",
       "reason": "Both describe sea drones near the Kerch Strait, attributed to Ukrainian intelligence. These reports rely on the same original statement.",
       "caveat": "Common agency source. Similar technical details do not create independent corroboration.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1158,7 +1158,7 @@
       "subtype": "same_original_Ukrainian_account",
       "reason": "Both attribute the use of Magura V5 unmanned boats to Ukrainian intelligence. These reports rely on the same original statement.",
       "caveat": "The source overlap is explicit; the graph does not verify the weapon independently.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1174,7 +1174,7 @@
       "subtype": "specified_partial_support",
       "reason": "Kyiv Independent reports preliminary figures of seven killed and six injured from Ukrainian intelligence. Those figures support the broader claim of several dead and wounded in European Pravda.",
       "caveat": "The accounts come from the same agency at different update times. The later figures remain preliminary.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": true,
       "direction": "source_to_target",
       "support_scope": "The existence of reported fatalities and injuries in EP04.",
@@ -1193,7 +1193,7 @@
       "subtype": "parallel_accounts_or_interpretations",
       "reason": "Both articles record no response to the attack at their reporting times. The matching content alone supplies no evidential direction.",
       "caveat": "Kyiv specifies the Defense Ministry; China Daily says Russia more broadly. This is agreement only on the absence of a reported official answer, not a denial of the sinking.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1209,7 +1209,7 @@
       "subtype": "same_official_statement",
       "reason": "Both repeat Shapps’s statement that Russia’s navy is unsafe in the Black Sea. These reports rely on the same original statement.",
       "caveat": "Same social-media statement, not two separate assessments or automatic outlet approval.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1225,7 +1225,7 @@
       "subtype": "same_original_Ukrainian_account",
       "reason": "Both report a value of roughly $65 million attributed to Ukraine. These reports rely on the same original statement.",
       "caveat": "The shared estimate is not an independent market valuation.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1236,7 +1236,7 @@
       "topic": "impact",
       "source_claim": "KI01",
       "target_claim": "EP01",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "relation": "supportive",
       "directed": true,
       "direction": "source_to_target",
@@ -1282,7 +1282,7 @@
     "edge_note": "Green arrows point from a supporting claim to the claim receiving support. Grey comparisons have no assigned direction. Solid red arrows point from a source claim to a target claim it is proposed to contradict. Red direction follows the analyst-assigned comparison order. Every proposed conflict retains its reasoning and scope limits for human review.",
     "attention_note": "Attention is a qualitative reading of the saved article, with paragraph locators; it is not a measured share of words.",
     "endorsement_note": "A quoted speaker’s view is separate from the article narrator’s view. No outlet-wide position is inferred from one article.",
-    "annotation_status": "AI-assisted draft; human review pending",
+    "annotation_status": "AI-assisted draft",
     "cleaning_note": "Uses saved recovered text. Kyiv Independent later Most Popular / News Feed material is excluded; original paragraph numbers retained. FT wrapped lines are joined into logical paragraphs."
   }
 }

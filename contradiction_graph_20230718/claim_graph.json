@@ -99,7 +99,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CNN02",
@@ -143,7 +143,7 @@
           },
           "context_only": false,
           "uncertainty": "A proposed explanation of motive, not direct evidence of Putin’s private intentions.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CNN03",
@@ -187,7 +187,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CNN04",
@@ -231,7 +231,7 @@
           },
           "context_only": false,
           "uncertainty": "The preceding sentence identifies the rejected option as an attempt to break the blockade; no claim about all other export support is implied.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CNN05",
@@ -275,7 +275,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -335,7 +335,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "KI02",
@@ -379,7 +379,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "KI03",
@@ -423,7 +423,7 @@
           },
           "context_only": false,
           "uncertainty": "The sentence also mentions a 23% fall from peak food prices; it does not independently establish how much of the change was caused by the agreement alone.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "KI04",
@@ -467,7 +467,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "KI05",
@@ -511,7 +511,7 @@
           },
           "context_only": true,
           "uncertainty": "The wording needs review to determine whether both dates refer to the same milestone in negotiations and the agreement.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -571,7 +571,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "EP02",
@@ -615,7 +615,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "EP03",
@@ -659,7 +659,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "EP04",
@@ -703,7 +703,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -763,7 +763,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CEN02",
@@ -807,7 +807,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CEN03",
@@ -851,7 +851,7 @@
           },
           "context_only": false,
           "uncertainty": "The report does not list or evaluate those conditions; this is a conditional promise, not an announcement of return.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -911,7 +911,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "T02",
@@ -955,7 +955,7 @@
           },
           "context_only": false,
           "uncertainty": "The article supplies no supporting evidence for this accusation.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -1015,7 +1015,7 @@
           },
           "context_only": false,
           "uncertainty": "This is Russia’s account of prior obligations, not an independent audit of the agreement or proof that withdrawal caused no harm.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "S02",
@@ -1059,7 +1059,7 @@
           },
           "context_only": false,
           "uncertainty": "No supporting evidence for the allegation is supplied in the recovered paragraph.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "S03",
@@ -1103,7 +1103,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -1163,7 +1163,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "GT02",
@@ -1207,7 +1207,7 @@
           },
           "context_only": false,
           "uncertainty": "A comparison with the earlier shock, not a claim that prices would not rise.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "GT03",
@@ -1251,7 +1251,7 @@
           },
           "context_only": false,
           "uncertainty": "The geographic scope is China, not the world or food-importing African countries.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "GT04",
@@ -1296,7 +1296,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "GT05",
@@ -1340,7 +1340,7 @@
           },
           "context_only": true,
           "uncertainty": "The wording needs review to determine whether both dates refer to the same milestone in negotiations and the agreement.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     }
@@ -1358,7 +1358,7 @@
       "subtype": "same_official_statement",
       "reason": "Both report Borrell’s call for Russia to resume participation. These reports rely on the same original statement.",
       "caveat": "Same EU statement repeated by two outlets; not independent confirmation of Russia’s willingness to return.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1374,7 +1374,7 @@
       "subtype": "same_official_statement",
       "reason": "Both carry Borrell’s accusation that Russia’s action disrupts supplies and raises prices. These reports rely on the same original statement.",
       "caveat": "The same speaker’s causal assessment is repeated; this is not an independently measured price effect.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1390,7 +1390,7 @@
       "subtype": "same_official_statement",
       "reason": "Both repeat Peskov’s accusation about Ukraine’s use of the corridor. These reports rely on the same original statement.",
       "caveat": "Neither article provides evidence for it. Repeated accusations are not corroboration.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1406,7 +1406,7 @@
       "subtype": "opposed_grain_deal_responsibility_frames",
       "reason": "Borrell holds Russia solely responsible for grain-supply disruption and rising prices. Peskov says Russia fulfilled its obligations, emphasizes unimplemented terms concerning Russia, and criticizes European states while responding to Western blame. The comparison flags competing responsibility narratives for the breakdown.",
       "caveat": "A claimed reason for withdrawal and consequences caused by withdrawal can coexist. Peskov responds to Blinken in the quoted passage, not directly to Borrell. This is a proposed causal-blame conflict, with no one-way rebuttal attributed between these exact claims.",
-      "review_status": "AI-assisted proposed claim relation; human review pending",
+      "review_status": "AI-assisted proposed claim relation",
       "directed": true,
       "direction": "source_to_target",
       "direction_reason": "Analyst-assigned comparison: EP02 is proposed to contradict S01. The arrow follows this source-to-target order."
@@ -1423,7 +1423,7 @@
       "subtype": "scope_or_certainty_difference",
       "reason": "A professor thinks a restart is possible; Peskov makes return conditional on Russian demands.",
       "caveat": "Neither claim proves a deal would restart or rules out the other statement.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1439,7 +1439,7 @@
       "subtype": "same_official_statement",
       "reason": "Both carry Peskov’s warning about continuing without Russia. These reports rely on the same original statement.",
       "caveat": "Same original speaker; not a separate maritime-risk assessment.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1455,7 +1455,7 @@
       "subtype": "scope_or_certainty_difference",
       "reason": "Ukraine proposes keeping the corridor; Peskov warns it would be risky.",
       "caveat": "Proposing an action does not deny that the action could be risky.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1471,7 +1471,7 @@
       "subtype": "specified_partial_support",
       "reason": "CNN quotes Ukraine’s grain-association leader saying alternative routes can soften the effects for only two or three weeks and have less capacity than sea transport. That supplies a concrete account supporting the land-capacity limitation described by Zhang in Global Times.",
       "caveat": "The sources give assessments of transport capacity with different detail.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": true,
       "direction": "source_to_target",
       "support_scope": "The limited-capacity component of GT04.",
@@ -1490,7 +1490,7 @@
       "subtype": "parallel_accounts_or_interpretations",
       "reason": "CNN’s analysis and Jiao both expect higher food prices after withdrawal. The matching content alone supplies no evidential direction.",
       "caveat": "Direction of expected prices matches; exact scale, regions and time periods are not identical.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1506,7 +1506,7 @@
       "subtype": "scope_or_certainty_difference",
       "reason": "CNN warns about Africa and wider prices; Zhang expects China’s reserves to soften its own impact.",
       "caveat": "Different countries and measures: China being buffered does not disprove severe harm elsewhere.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1522,7 +1522,7 @@
       "subtype": "scope_or_certainty_difference",
       "reason": "CNN warns of serious harm; Jiao predicts less disruption than in 2022.",
       "caveat": "A shock can still be serious while smaller than a previous one. The comparison baseline differs.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1538,7 +1538,7 @@
       "subtype": "same_official_statement",
       "reason": "Both relay the EU promise to help exports through land connections. These reports rely on the same original statement.",
       "caveat": "Both trace to Borrell’s statement; a promise is not proof of completed shipments.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1554,7 +1554,7 @@
       "subtype": "parallel_accounts_or_interpretations",
       "reason": "The EU and US statements both promise help for Ukrainian exports after withdrawal. The matching content alone supplies no evidential direction.",
       "caveat": "Different institutions and unspecified measures; shared policy direction, not identical operations.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1565,7 +1565,7 @@
       "topic": "agreement_date",
       "source_claim": "KI05",
       "target_claim": "GT05",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "relation": "contradiction",
       "directed": true,
       "direction": "source_to_target",
@@ -1582,7 +1582,7 @@
       "topic": "prices",
       "source_claim": "KI03",
       "target_claim": "CNN01",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "relation": "supportive",
       "directed": true,
       "direction": "source_to_target",
@@ -1601,7 +1601,7 @@
       "topic": "prices",
       "source_claim": "GT04",
       "target_claim": "CNN01",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "relation": "supportive",
       "directed": true,
       "direction": "source_to_target",
@@ -1637,7 +1637,7 @@
     "edge_note": "Green arrows point from a supporting claim to the claim receiving support. Grey comparisons have no assigned direction. Solid red arrows point from a source claim to a target claim it is proposed to contradict. Red direction follows the analyst-assigned comparison order. Every proposed conflict retains its reasoning and scope limits for human review.",
     "attention_note": "Attention is a qualitative reading of the saved article, with paragraph locators; it is not a measured share of words.",
     "endorsement_note": "A quoted speaker’s view is separate from the article narrator’s view. No outlet-wide position is inferred from one article.",
-    "annotation_status": "AI-assisted draft; human review pending",
+    "annotation_status": "AI-assisted draft",
     "cleaning_note": "Uses saved recovered text. Kyiv Independent later Most Popular / News Feed material is excluded; original paragraph numbers retained. FT wrapped lines are joined into logical paragraphs."
   }
 }

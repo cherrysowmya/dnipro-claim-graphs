@@ -109,7 +109,7 @@
           },
           "context_only": false,
           "uncertainty": "The article’s reporting about planning, not an independent security audit.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CNN02",
@@ -153,7 +153,7 @@
           },
           "context_only": false,
           "uncertainty": "The article reports notification, not Russian approval, a safety guarantee or details of Moscow’s response.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CNN03",
@@ -197,7 +197,7 @@
           },
           "context_only": false,
           "uncertainty": "Intended discussion of the war does not prove a particular weapons transfer or attack plan was agreed.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CNN04",
@@ -241,7 +241,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -301,7 +301,7 @@
           },
           "context_only": false,
           "uncertainty": "Promise and reported amount; not a completed transfer.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "KI02",
@@ -345,7 +345,7 @@
           },
           "context_only": false,
           "uncertainty": "A future delivery is promised; the article does not verify arrival of each item.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "KI03",
@@ -389,7 +389,7 @@
           },
           "context_only": false,
           "uncertainty": "P18 says Sullivan did not give details of the message or Russia’s reaction.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "KI04",
@@ -433,7 +433,7 @@
           },
           "context_only": false,
           "uncertainty": "P14–15 do not confirm a specific F-16 agreement or make the discussion a weapons-delivery promise.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "KI05",
@@ -477,7 +477,7 @@
           },
           "context_only": false,
           "uncertainty": "A stated plan for additional sanctions, not evidence that all measures already took effect.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -537,7 +537,7 @@
           },
           "context_only": false,
           "uncertainty": "This is Biden’s political assessment of the war, not an independently calculated military outcome.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "EP02",
@@ -581,7 +581,7 @@
           },
           "context_only": false,
           "uncertainty": "His statement does not establish the views of every American or every country.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "EP03",
@@ -626,7 +626,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -686,7 +686,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "C02",
@@ -730,7 +730,7 @@
           },
           "context_only": false,
           "uncertainty": "The statement promises another delivery, not that every item has arrived.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "C03",
@@ -774,7 +774,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "C04",
@@ -818,7 +818,7 @@
           },
           "context_only": false,
           "uncertainty": "Biden’s judgment about Putin’s expectations, not independently proven access to his thoughts.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -879,7 +879,7 @@
           },
           "context_only": false,
           "uncertainty": "An analyst’s reading of motive, not a confirmed instruction given in private talks.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "T02",
@@ -924,7 +924,7 @@
           },
           "context_only": false,
           "uncertainty": "Identifying a message is not the analyst personally endorsing US aid or proof that aid will continue indefinitely.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "T03",
@@ -968,7 +968,7 @@
           },
           "context_only": false,
           "uncertainty": "The article says \"possible\"; it does not confirm an agreement, shipment, particular missile or official disclosure.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -1028,7 +1028,7 @@
           },
           "context_only": false,
           "uncertainty": "A later trip update can coexist with another article’s earlier plan to travel.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "S02",
@@ -1072,7 +1072,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "S03",
@@ -1116,7 +1116,7 @@
           },
           "context_only": false,
           "uncertainty": "A preview of a future speech is not a transcript proving that exact wording was later used.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -1176,7 +1176,7 @@
           },
           "context_only": false,
           "uncertainty": "No Russian consent or detailed response is established.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "I02",
@@ -1220,7 +1220,7 @@
           },
           "context_only": false,
           "uncertainty": "Announced support, not proof of a completed delivery or final package accounting.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "I03",
@@ -1264,7 +1264,7 @@
           },
           "context_only": false,
           "uncertainty": "This earlier plan does not deny Sputnik’s report that he later departed.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -1324,7 +1324,7 @@
           },
           "context_only": false,
           "uncertainty": "This records the reported announcement. The same paragraph’s claim of escalation is separated in CD02.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CD02",
@@ -1368,7 +1368,7 @@
           },
           "context_only": false,
           "uncertainty": "No method or named source establishes how widespread the belief is; predicting escalation is not the same as a separately stated demand to end aid.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CD03",
@@ -1413,7 +1413,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CD04",
@@ -1457,7 +1457,7 @@
           },
           "context_only": true,
           "uncertainty": "A broader pre-existing protest, not a reaction to the later specific $500 million announcement; no claim that all Americans share this view.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -1517,7 +1517,7 @@
           },
           "context_only": false,
           "uncertainty": "A claimed motive, not an authenticated instruction or direct access to private decision-making.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "GT02",
@@ -1561,7 +1561,7 @@
           },
           "context_only": false,
           "uncertainty": "A forecast, not proof of later Russian attacks or their cause.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "GT03",
@@ -1605,7 +1605,7 @@
           },
           "context_only": false,
           "uncertainty": "Military impact is not defined or measured; this does not deny that the visit occurred or that talks took place.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "GT04",
@@ -1649,7 +1649,7 @@
           },
           "context_only": false,
           "uncertainty": "Questions about future arrival and impact do not deny the announcement or prove later non-delivery.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "GT05",
@@ -1693,7 +1693,7 @@
           },
           "context_only": false,
           "uncertainty": "A reported pledge, not confirmation of deliveries or a final audit.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     }
@@ -1711,7 +1711,7 @@
       "subtype": "specified_partial_support",
       "reason": "Izvestia quotes Sullivan saying Russia was notified hours before departure for deconfliction. That reported official statement supplies specific support for CNN’s general notification account.",
       "caveat": "This uses a reported statement by Sullivan and CNN’s narrative account.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": true,
       "direction": "source_to_target",
       "support_scope": "US officials reporting advance notification of Moscow to reduce the risk of a clash.",
@@ -1730,7 +1730,7 @@
       "subtype": "repeated_source_position",
       "reason": "Both attribute the advance-notification account to Jake Sullivan. These reports rely on the same original statement.",
       "caveat": "One original US official’s account, not two independent confirmations or a Russian acknowledgment.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1746,7 +1746,7 @@
       "subtype": "specified_partial_support",
       "reason": "Kyiv Independent reports Sullivan’s post-visit account of discussions about the coming months and battlefield capabilities. That supplies a named official’s account supporting CNN’s description of the meeting.",
       "caveat": "Sullivan’s post-meeting description is compared with CNN’s account of Biden’s intended discussion.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": true,
       "direction": "source_to_target",
       "support_scope": "Discussion of the coming phase of the war in CNN03.",
@@ -1765,7 +1765,7 @@
       "subtype": "specified_partial_support",
       "reason": "Censor.NET quotes Biden reaffirming an unwavering US commitment to Ukraine. His stated commitment supplies a reason for CNN’s broader description of his support pledge.",
       "caveat": "The arrow concerns the public pledge and its description.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": true,
       "direction": "source_to_target",
       "support_scope": "Biden’s public commitment to continue supporting Ukraine in CNN04.",
@@ -1784,7 +1784,7 @@
       "subtype": "repeated_source_position",
       "reason": "Both quote Biden affirming American support during the visit. These reports rely on the same original statement.",
       "caveat": "The reports repeat Biden’s public commitment or White House statement. They provide no separate evidence of future implementation.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1800,7 +1800,7 @@
       "subtype": "parallel_accounts_or_interpretations",
       "reason": "Suslov and European Pravda’s narrator both describe the trip as signaling lasting US support. The matching content alone supplies no evidential direction.",
       "caveat": "This matches their interpretation of the message, not a shared policy endorsement or proof that future support will be unlimited.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1816,7 +1816,7 @@
       "subtype": "parallel_accounts_or_interpretations",
       "reason": "Both narrators say the visit was intended to demonstrate support for Ukraine. The matching content alone supplies no evidential direction.",
       "caveat": "Identifying a purpose does not mean either article approves all military aid or agrees on likely effects.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1832,7 +1832,7 @@
       "subtype": "compatible_different_statement_times",
       "reason": "Biden’s Kyiv statement promises support; Kirby previews a similar message in a later Poland speech.",
       "caveat": "Different statement times and forms: an existing statement and a future speech preview.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1848,7 +1848,7 @@
       "subtype": "repeated_source_position",
       "reason": "Both carry Biden’s White House statement listing ammunition, anti-tank systems and surveillance radar. These reports rely on the same original statement.",
       "caveat": "The reports repeat Biden’s public commitment or White House statement. They provide no separate evidence of future implementation.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1864,7 +1864,7 @@
       "subtype": "repeated_source_position",
       "reason": "Both report the White House statement promising additional sanctions later that week. These reports rely on the same original statement.",
       "caveat": "These are plans, not a finding that every sanction had already taken effect.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1880,7 +1880,7 @@
       "subtype": "parallel_accounts_or_interpretations",
       "reason": "Both report the same amount announced during the visit. The matching content alone supplies no evidential direction.",
       "caveat": "Kyiv Independent explicitly relies on CNN; sources for every amount are not independently established. Agreement concerns the report, not completed delivery.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1896,7 +1896,7 @@
       "subtype": "parallel_accounts_or_interpretations",
       "reason": "Both report an additional half-billion dollars of aid. The matching content alone supplies no evidential direction.",
       "caveat": "Matching announced amounts do not establish independent sourcing, final accounting or arrival.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1912,7 +1912,7 @@
       "subtype": "announcement_vs_future_assessment",
       "reason": "One report gives the aid pledge; Diao doubts its speed and impact.",
       "caveat": "A pledge can exist while its delivery or effect remains uncertain; this is not a direct factual contradiction.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1928,7 +1928,7 @@
       "subtype": "parallel_accounts_or_interpretations",
       "reason": "Suslov and Li interpret the visit as encouraging earlier or greater Ukrainian military progress. The matching content alone supplies no evidential direction.",
       "caveat": "The proposed motives overlap; neither commentator independently confirms instructions from the private meeting. They differ in emphasis and domestic-political explanation.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1944,7 +1944,7 @@
       "subtype": "compatible_different_emphasis",
       "reason": "CNN describes urgent war discussions; Suslov interprets the visit as pressure for an earlier counterattack.",
       "caveat": "Reporting talks does not deny pressure, and an analyst’s motive claim is not a transcript.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1960,7 +1960,7 @@
       "subtype": "different_forecast_targets",
       "reason": "China Daily links escalation risk to additional aid; Wang links stronger Russian attacks to the visit.",
       "caveat": "Both are negative forecasts, but their immediate triggers and predicted outcomes differ. No red factual dispute or precise causal agreement is established.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1976,7 +1976,7 @@
       "subtype": "chronological_update",
       "reason": "Sputnik reports departure for Warsaw; Izvestia still describes onward travel as planned.",
       "caveat": "Different update times, not a contradiction about whether the trip could happen.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1992,7 +1992,7 @@
       "subtype": "opposed_military_aid_policy_positions",
       "reason": "Biden promises further military equipment and continued support for Ukraine. The rally organizers oppose large US payments to Ukraine and the US role in the conflict. The statements express opposing positions on US military support.",
       "caveat": "The protest occurred February 19, before the February 20 package announcement, and concerns broad policy. This is a proposed policy-position conflict, not evidence that the protest directly responded to the specific package.",
-      "review_status": "AI-assisted proposed claim relation; human review pending",
+      "review_status": "AI-assisted proposed claim relation",
       "directed": true,
       "direction": "source_to_target",
       "direction_reason": "Analyst-assigned comparison: C02 is proposed to contradict CD04. The arrow follows this source-to-target order."
@@ -2009,7 +2009,7 @@
       "subtype": "related_nonidentical_assessments",
       "reason": "One statement says Putin misjudged Ukraine and allies; another calls the war of conquest a failure.",
       "caveat": "Compatible rhetoric, but an assessment of expectations is not identical to a claim about the war’s outcome.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -2020,7 +2020,7 @@
       "topic": "support_message",
       "source_claim": "C01",
       "target_claim": "EP03",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "relation": "supportive",
       "directed": true,
       "direction": "source_to_target",
@@ -2039,7 +2039,7 @@
       "topic": "support_message",
       "source_claim": "C01",
       "target_claim": "CD03",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "relation": "supportive",
       "directed": true,
       "direction": "source_to_target",
@@ -2059,7 +2059,7 @@
     "edge_note": "Green arrows point from a supporting claim to the claim receiving support. Grey comparisons have no assigned direction. Solid red arrows point from a source claim to a target claim it is proposed to contradict. Red direction follows the analyst-assigned comparison order. Every proposed conflict retains its reasoning and scope limits for human review.",
     "attention_note": "Attention is a qualitative reading of the saved article, with paragraph locators; it is not a measured share of words.",
     "endorsement_note": "A quoted speaker’s view is separate from the article narrator’s view. No outlet-wide position is inferred from one article.",
-    "annotation_status": "AI-assisted draft; human review pending",
+    "annotation_status": "AI-assisted draft",
     "cleaning_note": "Uses saved recovered text. Kyiv Independent later Most Popular / News Feed material is excluded; original paragraph numbers retained. FT wrapped lines are joined into logical paragraphs. CNN and Sputnik each have one long extracted paragraph; evidence quotes isolate complete relevant sentences instead of duplicating the whole article for each claim."
   }
 }

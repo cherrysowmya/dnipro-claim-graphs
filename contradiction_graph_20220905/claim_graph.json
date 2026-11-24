@@ -100,7 +100,7 @@
           },
           "context_only": false,
           "uncertainty": "Attribution to Energoatom is recorded; neither cause nor connection status is independently checked here.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "KI02",
@@ -145,7 +145,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "KI03",
@@ -190,7 +190,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -251,7 +251,7 @@
           },
           "context_only": false,
           "uncertainty": "The passage names the last grid connection in the larger nuclear/thermal complex; do not silently equate every named damaged line.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "C02",
@@ -295,7 +295,7 @@
           },
           "context_only": false,
           "uncertainty": "This allegation concerns the days leading up to September 5; a different source’s September 1 allegation is not the same incident.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "C03",
@@ -339,7 +339,7 @@
           },
           "context_only": false,
           "uncertainty": "Disconnected from the national grid does not mean the reactor or plant has no electricity at all.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -399,7 +399,7 @@
           },
           "context_only": false,
           "uncertainty": "This is a claim about staff and operating control, not a denial of Russian military presence.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "T02",
@@ -444,7 +444,7 @@
           },
           "context_only": false,
           "uncertainty": "Saying specialists provide assistance is not the same as proving the plant is safe or explicitly opposing troop withdrawal.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "T03",
@@ -488,7 +488,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -549,7 +549,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "I02",
@@ -594,7 +594,7 @@
           },
           "context_only": true,
           "uncertainty": "An earlier Russian warning, not a verified catastrophe or a fresh September 5 statement.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "I03",
@@ -639,7 +639,7 @@
           },
           "context_only": true,
           "uncertainty": "Historical policy position; not assumed to be a new statement on September 5.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "I04",
@@ -683,7 +683,7 @@
           },
           "context_only": false,
           "uncertainty": "The paragraph says it was reported but does not identify the original source for every allegation. This is September 1, not the September 5 fire described by Energoatom.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "I05",
@@ -728,7 +728,7 @@
           },
           "context_only": false,
           "uncertainty": "Does not attribute the damage to either army.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "I06",
@@ -772,7 +772,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     }
@@ -790,7 +790,7 @@
       "subtype": "shared_source_detail_support",
       "reason": "Censor.NET carries Energoatom’s more specific account. It names the Ferosplavna line and says a fire caused by shelling disconnected it on September 5. This supplies the outage mechanism for Kyiv Independent’s summary.",
       "caveat": "Both reports rely on Energoatom. The added detail is from the same operator and provides no independent corroboration.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": true,
       "direction": "source_to_target",
       "direction_reason": "C01 supplies a specific part of the evidence reported in KI01. Both articles cite Energoatom.",
@@ -809,7 +809,7 @@
       "subtype": "shared_source_detail_support",
       "reason": "Censor.NET quotes Energoatom identifying the disconnected line as the last connection to Ukraine’s grid and reporting that reactor 6 then supplied the plant’s own needs. This supports the last-line part of Kyiv Independent’s summary.",
       "caveat": "This is added detail from the same Energoatom account. Reactor 6 supplying the plant’s needs is consistent with losing the external grid connection.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": true,
       "direction": "source_to_target",
       "direction_reason": "C03 supplies a specific part of the evidence reported in KI01. Both articles cite Energoatom.",
@@ -828,7 +828,7 @@
       "subtype": "aligned_recommendations",
       "reason": "Macron and Halushchenko both recommend Russian troop withdrawal. Their statements give aligned policy positions. Macron’s statement supplies no separate evidence that withdrawal or a demilitarized zone is the only way to ensure safety.",
       "caveat": "The positions belong to the quoted officials. The reports do not show either statement responding to the other.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -844,7 +844,7 @@
       "subtype": "opposed_withdrawal_safety_assessments",
       "reason": "Halushchenko calls Russian withdrawal and a demilitarized zone the only way to ensure nuclear safety. Nebenzya warns that Russian withdrawal could cause a catastrophe. The same proposed action is presented as necessary for safety and as a source of danger.",
       "caveat": "Nebenzya’s statement is dated August 11 and invokes possible Ukrainian provocations; the minister’s recommendation is reported September 5 and includes a demilitarized zone. Different dates and assumed conditions require review.",
-      "review_status": "AI-assisted proposed claim relation; human review pending",
+      "review_status": "AI-assisted proposed claim relation",
       "directed": true,
       "direction": "source_to_target",
       "direction_reason": "Analyst-assigned comparison: KI03 is proposed to contradict I02. The arrow follows this source-to-target order."
@@ -861,7 +861,7 @@
       "subtype": "scope_or_certainty_difference",
       "reason": "Karchaa describes assistance; Halushchenko says troop withdrawal is necessary.",
       "caveat": "Providing some safety help does not assert that the plant is safe enough without withdrawal. Do not force a logical contradiction.",
-      "review_status": "AI-assisted proposed comparison; human review pending"
+      "review_status": "AI-assisted proposed comparison"
     },
     {
       "id": "E06",
@@ -875,7 +875,7 @@
       "subtype": "temporal_scope_difference",
       "reason": "Energoatom blames Russian shelling in the days before September 5; Izvestia recounts allegations of Ukrainian shelling on September 1.",
       "caveat": "Opposite blamed actors do not make these the same incident.",
-      "review_status": "AI-assisted proposed comparison; human review pending"
+      "review_status": "AI-assisted proposed comparison"
     },
     {
       "id": "E07",
@@ -889,7 +889,7 @@
       "subtype": "aligned_inspector_positions",
       "reason": "Grossi expresses the IAEA’s objective of a permanent presence. Ulyanov reports Russia’s welcome for that objective. His statement concerns Moscow’s position and supplies no evidence for what the IAEA intended.",
       "caveat": "Both statements concern a possible permanent presence. They do not establish a completed deployment or plant safety.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -905,7 +905,7 @@
       "subtype": "scope_or_certainty_difference",
       "reason": "One statement concerns repairs being blocked by fighting; the other concerns physical integrity and uncertainty about missing elements.",
       "caveat": "Related risk assessments, not opposing claims.",
-      "review_status": "AI-assisted proposed comparison; human review pending"
+      "review_status": "AI-assisted proposed comparison"
     }
   ],
   "excluded": [
@@ -946,7 +946,7 @@
     "edge_note": "Green arrows point from a supporting claim to the claim receiving support. Grey comparisons have no assigned direction. Solid red arrows point from a source claim to a target claim it is proposed to contradict. Red direction follows the analyst-assigned comparison order. Every proposed conflict retains its reasoning and scope limits for human review.",
     "attention_note": "Attention is a qualitative reading of the saved article, with paragraph locators; it is not a measured share of words.",
     "endorsement_note": "A quoted speaker’s view is separate from the article narrator’s view. No outlet-wide position is inferred from one article.",
-    "annotation_status": "AI-assisted draft; human review pending",
+    "annotation_status": "AI-assisted draft",
     "cleaning_note": "Uses saved recovered text. Kyiv Independent later Most Popular / News Feed material is excluded; original paragraph numbers retained. FT wrapped lines are joined into logical paragraphs."
   },
   "within_article_relations": [

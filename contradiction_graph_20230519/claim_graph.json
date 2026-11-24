@@ -94,7 +94,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CNN02",
@@ -138,7 +138,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CNN03",
@@ -182,7 +182,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CNN04",
@@ -226,7 +226,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CNN05",
@@ -270,7 +270,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CNN06",
@@ -314,7 +314,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -374,7 +374,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "KI02",
@@ -418,7 +418,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "KI03",
@@ -462,7 +462,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "KI04",
@@ -506,7 +506,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -567,7 +567,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "EP02",
@@ -611,7 +611,7 @@
           },
           "context_only": false,
           "uncertainty": "The saved English sentence has awkward translation; it reports US permission, not US aircraft already delivered.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "EP03",
@@ -655,7 +655,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -715,7 +715,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CEN02",
@@ -759,7 +759,7 @@
           },
           "context_only": false,
           "uncertainty": "No formal request is not the same as US refusal or a final decision to send aircraft.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CEN03",
@@ -803,7 +803,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -863,7 +863,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "T02",
@@ -907,7 +907,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "T03",
@@ -951,7 +951,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "T04",
@@ -995,7 +995,7 @@
           },
           "context_only": true,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -1055,7 +1055,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "S02",
@@ -1099,7 +1099,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "S03",
@@ -1143,7 +1143,7 @@
           },
           "context_only": false,
           "uncertainty": "The recovered body does not state the four-month estimate in its headline; it is not imported into this claim.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -1203,7 +1203,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "I02",
@@ -1247,7 +1247,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "I03",
@@ -1291,7 +1291,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "I04",
@@ -1335,7 +1335,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     }
@@ -1353,7 +1353,7 @@
       "subtype": "specified_partial_support",
       "reason": "Kyiv Independent explicitly credits CNN for the training decision. CNN’s selected article carries the official’s statement that Biden supported the training effort.",
       "caveat": "The source chain is shared. This arrow follows the reported attribution.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": true,
       "direction": "source_to_target",
       "support_scope": "The training statement attributed to CNN in KI01.",
@@ -1372,7 +1372,7 @@
       "subtype": "specified_partial_support",
       "reason": "Izvestia credits a CNN source for Biden’s training decision. The selected CNN article reports the same official statement.",
       "caveat": "Izvestia carries a Russian-language account of the CNN report.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": true,
       "direction": "source_to_target",
       "support_scope": "The attribution of the training announcement in I04 to CNN.",
@@ -1391,7 +1391,7 @@
       "subtype": "specified_partial_support",
       "reason": "Kyiv Independent reports that the British and Dutch prime ministers confirmed Washington’s participation. That provides a named-official account supporting the US-participation component of CNN’s report.",
       "caveat": "The confirmations are reported by Kyiv Independent. The articles do not establish how the leaders obtained their information.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": true,
       "direction": "source_to_target",
       "support_scope": "US participation in the joint training effort described by CNN01.",
@@ -1410,7 +1410,7 @@
       "subtype": "specified_partial_support",
       "reason": "Censor.NET credits CNN via Ukrainska Pravda for the reported willingness to permit allied transfers. The selected CNN article recaps that report.",
       "caveat": "The selected CNN article recaps Thursday’s reporting. The arrow follows that reported source chain.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": true,
       "direction": "source_to_target",
       "support_scope": "The CNN-attributed report of US willingness to permit allied F-16 transfers in CEN01.",
@@ -1429,7 +1429,7 @@
       "subtype": "same_original_report",
       "reason": "Censor.NET and TASS both relay CNN’s sources about permitting allied transfers. These reports rely on the same original statement.",
       "caveat": "The original source chain overlaps; this is shared reporting, not proof that transfers occurred.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1445,7 +1445,7 @@
       "subtype": "same_original_report",
       "reason": "Both carry the absence of formal requests or transfer paperwork. These reports rely on the same original statement.",
       "caveat": "Both trace this to CNN, and it describes the situation at reporting time, not a permanent refusal.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1461,7 +1461,7 @@
       "subtype": "parallel_accounts_or_interpretations",
       "reason": "Both accounts leave the aircraft suppliers and delivery date unsettled. The matching content alone supplies no evidential direction.",
       "caveat": "CNN and NBC are different reported source chains. Unsettled details do not mean the policy statements are identical.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1477,7 +1477,7 @@
       "subtype": "different_time_and_actor_scope",
       "reason": "NBC’s May 19 report covers the US and allies collectively; Sullivan’s May 17 statement concerns US supply.",
       "caveat": "An older US-only position need not contradict newer plans for allied deliveries.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1493,7 +1493,7 @@
       "subtype": "training_estimate_discrepancy_over_time",
       "reason": "European Pravda reports a possible four-month F-16 training program. Sputnik recounts an earlier Pentagon estimate of eighteen months while describing a shift in expectations. The reported estimates differ substantially for training Ukrainian F-16 pilots.",
       "caveat": "Sputnik explicitly describes the eighteen-month estimate as an earlier February assessment. A revision over time or a difference in proficiency standards may explain the discrepancy. The red comparison is a proposed temporal-estimate conflict, not a same-time factual denial.",
-      "review_status": "AI-assisted proposed claim relation; human review pending",
+      "review_status": "AI-assisted proposed claim relation",
       "directed": true,
       "direction": "source_to_target",
       "direction_reason": "Analyst-assigned comparison: EP03 is proposed to contradict S03. The arrow follows this source-to-target order."
@@ -1510,7 +1510,7 @@
       "subtype": "opposed_aircraft_value_assessments",
       "reason": "Zelensky says the fighter-jet coalition will greatly enhance Ukraine’s air force. Officials quoted through CNN in TASS question the advisability of F-16 deliveries because of Russian air defenses. The comparison flags opposing assessments of the expected value of the aircraft initiative.",
       "caveat": "One statement welcomes a wider coalition and training decision, while the other assesses aircraft use against air defenses. Improved capability and limited missions can coexist. Review the missions, timeline and degree of improvement meant.",
-      "review_status": "AI-assisted proposed claim relation; human review pending",
+      "review_status": "AI-assisted proposed claim relation",
       "directed": true,
       "direction": "source_to_target",
       "direction_reason": "Analyst-assigned comparison: CNN05 is proposed to contradict T03. The arrow follows this source-to-target order."
@@ -1522,7 +1522,7 @@
       "topic": "approval",
       "source_claim": "CNN06",
       "target_claim": "EP02",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "relation": "supportive",
       "directed": true,
       "direction": "source_to_target",
@@ -1541,7 +1541,7 @@
       "topic": "approval",
       "source_claim": "CNN06",
       "target_claim": "T01",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "relation": "supportive",
       "directed": true,
       "direction": "source_to_target",
@@ -1560,7 +1560,7 @@
       "topic": "training",
       "source_claim": "CNN02",
       "target_claim": "KI02",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "relation": "supportive",
       "directed": true,
       "direction": "source_to_target",
@@ -1579,7 +1579,7 @@
       "topic": "delivery",
       "source_claim": "CNN03",
       "target_claim": "KI03",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "relation": "supportive",
       "directed": true,
       "direction": "source_to_target",
@@ -1615,7 +1615,7 @@
     "edge_note": "Green arrows point from a supporting claim to the claim receiving support. Grey comparisons have no assigned direction. Solid red arrows point from a source claim to a target claim it is proposed to contradict. Red direction follows the analyst-assigned comparison order. Every proposed conflict retains its reasoning and scope limits for human review.",
     "attention_note": "Attention is a qualitative reading of the saved article, with paragraph locators; it is not a measured share of words.",
     "endorsement_note": "A quoted speaker’s view is separate from the article narrator’s view. No outlet-wide position is inferred from one article.",
-    "annotation_status": "AI-assisted draft; human review pending",
+    "annotation_status": "AI-assisted draft",
     "cleaning_note": "Uses saved recovered text. Kyiv Independent later Most Popular / News Feed material is excluded; original paragraph numbers retained. FT wrapped lines are joined into logical paragraphs."
   }
 }

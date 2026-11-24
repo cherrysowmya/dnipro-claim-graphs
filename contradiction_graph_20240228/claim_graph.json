@@ -99,7 +99,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "KI02",
@@ -143,7 +143,7 @@
           },
           "context_only": false,
           "uncertainty": "This is not a direct endorsement of sending foreign troops.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "KI03",
@@ -187,7 +187,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -248,7 +248,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "EP02",
@@ -292,7 +292,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "EP03",
@@ -336,7 +336,7 @@
           },
           "context_only": false,
           "uncertainty": "A clarification about contemplated roles, not proof that troops were deployed.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "EP04",
@@ -380,7 +380,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -440,7 +440,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CEN02",
@@ -485,7 +485,7 @@
           },
           "context_only": false,
           "uncertainty": "No NATO combat-deployment plan does not deny the possible presence of national advisers or special forces.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CEN03",
@@ -529,7 +529,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -590,7 +590,7 @@
           },
           "context_only": false,
           "uncertainty": "A German official’s account of other participants’ responses, not independent testimony from every attendee.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "T02",
@@ -634,7 +634,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "T03",
@@ -678,7 +678,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -738,7 +738,7 @@
           },
           "context_only": false,
           "uncertainty": "This is an unverified anonymous-source claim. Roles, countries, troop numbers and locations are not given.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "S02",
@@ -782,7 +782,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "S03",
@@ -826,7 +826,7 @@
           },
           "context_only": false,
           "uncertainty": "The article gives no independent measure of weapons deliveries’ effects or the debate’s causes.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -886,7 +886,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "I02",
@@ -930,7 +930,7 @@
           },
           "context_only": false,
           "uncertainty": "An attributed Russian claim with no evidence, numbers or precise roles supplied here; do not turn it into confirmation of a NATO combat deployment.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "I03",
@@ -974,7 +974,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -1034,7 +1034,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CD02",
@@ -1078,7 +1078,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CD03",
@@ -1122,7 +1122,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -1182,7 +1182,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "GT02",
@@ -1227,7 +1227,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "GT03",
@@ -1271,7 +1271,7 @@
           },
           "context_only": false,
           "uncertainty": "The source’s term strategic ambiguity is explained as uncertainty about plans; this is not proof that Russia was actually confused.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "GT04",
@@ -1315,7 +1315,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     }
@@ -1333,7 +1333,7 @@
       "subtype": "same_official_position",
       "reason": "Both report Macron leaving future Western deployments open without an agreed plan. These reports rely on the same original statement.",
       "caveat": "Same original speaker; not independent evidence that a deployment was ordered.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1349,7 +1349,7 @@
       "subtype": "same_official_position",
       "reason": "Both describe the option remaining open despite no consensus. These reports rely on the same original statement.",
       "caveat": "The statement is not a commitment by France or all NATO countries to send combat soldiers.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1365,7 +1365,7 @@
       "subtype": "specified_partial_support",
       "reason": "China Daily directly quotes Pistorius ruling out German ground troops. That provides a named national statement supporting the Germany component of Sputnik’s wider list.",
       "caveat": "Sputnik lists several countries. The supporting passage concerns Germany.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": true,
       "direction": "source_to_target",
       "support_scope": "The German national position in S02.",
@@ -1384,7 +1384,7 @@
       "subtype": "specified_partial_support",
       "reason": "Censor.NET quotes Stoltenberg specifying no plans for NATO combat troops. That supports the NATO-chief component of Kyiv Independent’s report of responses to Macron.",
       "caveat": "The direct quotation is narrower than the general deployment wording in KI03.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": true,
       "direction": "source_to_target",
       "support_scope": "The NATO combat-deployment-plan component of KI03.",
@@ -1403,7 +1403,7 @@
       "subtype": "opposed_national_deployment_positions",
       "reason": "Macron leaves future Western troop deployments open. Pistorius rules out German ground troops. These are contrasting national policy positions in the debate on Western deployments.",
       "caveat": "Macron’s Western-wide possibility and Germany’s refusal of its own participation can coexist. They concern different decision-makers and potentially different future conditions. This is a proposed policy contrast, not proof of an inconsistent deployment plan.",
-      "review_status": "AI-assisted proposed claim relation; human review pending",
+      "review_status": "AI-assisted proposed claim relation",
       "directed": true,
       "direction": "source_to_target",
       "direction_reason": "Analyst-assigned comparison: KI01 is proposed to contradict CD01. The arrow follows this source-to-target order."
@@ -1420,7 +1420,7 @@
       "subtype": "scope_or_certainty_difference",
       "reason": "An anonymous source claims special forces are already there; Stoltenberg says NATO has no combat-deployment plan.",
       "caveat": "Different roles, institutions and times; no direct contradiction and no confirmation of the anonymous claim.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1436,7 +1436,7 @@
       "subtype": "scope_or_certainty_difference",
       "reason": "One unnamed official alleges special forces; Zakharova alleges personnel helping operate weapons.",
       "caveat": "The people, countries, roles and dates are not matched. Similar allegations are not independent corroboration of the same unit.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1452,7 +1452,7 @@
       "subtype": "scope_or_certainty_difference",
       "reason": "France discusses a possible future noncombat role; Zakharova claims personnel already help with weapons.",
       "caveat": "Contemplated future deployments and alleged present advisers are different claims.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1468,7 +1468,7 @@
       "subtype": "stance_disagreement",
       "reason": "Väli evaluates the troop discussion as a useful message of support. Tanner calls Macron’s remarks a worrying signal. Their evaluations of the remarks point in different directions.",
       "caveat": "This proposed narrative comparison concerns the speakers’ evaluations. A message could be useful in one respect and worrying in another. Review should compare the reasons and scope before deciding on a contradiction.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": true,
       "direction": "source_to_target",
       "direction_reason": "Analyst-assigned comparison: EP01 is proposed to contradict CD02. The arrow follows this source-to-target order."
@@ -1485,7 +1485,7 @@
       "subtype": "same_official_statement",
       "reason": "Both carry Hebestreit’s description of Scholz’s negative reaction. These reports rely on the same original statement.",
       "caveat": "Same German government source translated by different outlets, not two independent accounts of every attendee.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1501,7 +1501,7 @@
       "subtype": "scope_or_certainty_difference",
       "reason": "Väli sees a useful signal; Cui sees disagreement among governments.",
       "caveat": "A debate can signal commitment while exposing disagreement, so the assessments need not be incompatible.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1517,7 +1517,7 @@
       "subtype": "scope_or_certainty_difference",
       "reason": "Zelensky wants new defense ideas and separately welcomes ideas that strengthen Ukraine.",
       "caveat": "Neither sentence explicitly approves a NATO combat deployment. They describe related but distinct remarks.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1533,7 +1533,7 @@
       "subtype": "scope_or_certainty_difference",
       "reason": "Väli argues weapons are Ukraine’s priority; Lavrov alleges more weapons have brought no visible results.",
       "caveat": "The first is a recommendation about needs; the second is a Russian official’s causal assessment. No matched measurement of the same supplies is given.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1549,7 +1549,7 @@
       "subtype": "same_official_statement",
       "reason": "Both relay Peskov’s prediction of a Russia-NATO confrontation. These reports rely on the same original statement.",
       "caveat": "Same source, not independent proof that war would follow.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1565,7 +1565,7 @@
       "subtype": "parallel_accounts_or_interpretations",
       "reason": "Peskov predicts direct conflict; Zakharova says Western troops in any form worsen the war. The matching content alone supplies no evidential direction.",
       "caveat": "This matches a broad warning, not an identical prediction: the officials specify different outcomes and troop-role scopes.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1576,7 +1576,7 @@
       "topic": "reaction",
       "source_claim": "T02",
       "target_claim": "GT02",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "relation": "supportive",
       "directed": true,
       "direction": "source_to_target",
@@ -1602,7 +1602,7 @@
     "edge_note": "Green arrows point from a supporting claim to the claim receiving support. Grey comparisons have no assigned direction. Solid red arrows point from a source claim to a target claim it is proposed to contradict. Red direction follows the analyst-assigned comparison order. Every proposed conflict retains its reasoning and scope limits for human review.",
     "attention_note": "Attention is a qualitative reading of the saved article, with paragraph locators; it is not a measured share of words.",
     "endorsement_note": "A quoted speaker’s view is separate from the article narrator’s view. No outlet-wide position is inferred from one article.",
-    "annotation_status": "AI-assisted draft; human review pending",
+    "annotation_status": "AI-assisted draft",
     "cleaning_note": "Uses saved recovered text. Kyiv Independent later Most Popular / News Feed material is excluded; original paragraph numbers retained. FT wrapped lines are joined into logical paragraphs."
   }
 }

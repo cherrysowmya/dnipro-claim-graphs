@@ -94,7 +94,7 @@
           },
           "context_only": false,
           "uncertainty": "The number is a promise, not an observation of delivered tanks. This sentence does not say all 60 are PT-91s.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "KI02",
@@ -138,7 +138,7 @@
           },
           "context_only": false,
           "uncertainty": "Narrator explains the relationship between the packages; no actual arrival date is established.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "KI03",
@@ -182,7 +182,7 @@
           },
           "context_only": false,
           "uncertainty": "The article says the rest are understood to be upgraded T-72s; it does not present completed deliveries.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "KI04",
@@ -226,7 +226,7 @@
           },
           "context_only": false,
           "uncertainty": "This is the article’s assessment, not a verified delivery timetable or a recommendation to send every tank model.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -286,7 +286,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "EP02",
@@ -330,7 +330,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "EP03",
@@ -374,7 +374,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "EP04",
@@ -418,7 +418,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -479,7 +479,7 @@
           },
           "context_only": false,
           "uncertainty": "This is incompatible with the 30-PT-91 wording elsewhere if the same pledge is meant. The graph does not independently establish the correct count.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "C02",
@@ -523,7 +523,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "C03",
@@ -567,7 +567,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -629,7 +629,7 @@
           },
           "context_only": false,
           "uncertainty": "Later in this same article Morawiecki is quoted saying only 30 of the 60 are PT-91s. Both are preserved, not averaged.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "I02",
@@ -674,7 +674,7 @@
           },
           "context_only": false,
           "uncertainty": "This differs from the 60-PT-91 claim attributed to Yermak in P2 of the same article.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "I03",
@@ -718,7 +718,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "I04",
@@ -762,7 +762,7 @@
           },
           "context_only": false,
           "uncertainty": "His thanks are not the same as Izvestia taking a policy position or a promise of more support.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     }
@@ -780,7 +780,7 @@
       "subtype": "specified_partial_support",
       "reason": "European Pravda quotes Morawiecki specifying 60 modernised tanks, with 30 PT-91s. That first-person breakdown supports the package described more broadly in Kyiv Independent’s account attributed to Yermak.",
       "caveat": "Both officials discuss the same planned package. The arrow compares the detailed pledge with the broader description.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": true,
       "direction": "source_to_target",
       "support_scope": "The pledged total of 60 and the inclusion of PT-91 models in KI01.",
@@ -799,7 +799,7 @@
       "subtype": "repeated_source_position",
       "reason": "Both quote Morawiecki’s 60-tank total. These reports rely on the same original statement.",
       "caveat": "This repeats a reported Polish promise, not two independent shipment counts.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -815,7 +815,7 @@
       "subtype": "repeated_source_position",
       "reason": "Both report Morawiecki specifying that 30 of the 60 tanks are PT-91s. These reports rely on the same original statement.",
       "caveat": "Both reports use Morawiecki’s statement about the planned package. The comparison provides no separate delivery evidence.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -831,7 +831,7 @@
       "subtype": "repeated_source_position",
       "reason": "The English and Russian articles report the same 30-of-60 model breakdown. These reports rely on the same original statement.",
       "caveat": "Both reports use Morawiecki’s statement about the planned package. The comparison provides no separate delivery evidence.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -847,7 +847,7 @@
       "subtype": "repeated_source_position",
       "reason": "Censor’s Morawiecki quote and Izvestia’s Yermak quote both call all 60 tanks PT-91s. These reports rely on the same original statement.",
       "caveat": "This is agreement in the printed claim, not confirmation that it is correct. Izvestia also carries a different count from Morawiecki.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -863,7 +863,7 @@
       "subtype": "opposed_reported_pledge_figures",
       "reason": "Censor quotes 60 PT-91s; European Pravda quotes Morawiecki saying 30 of the 60 tanks are PT-91s.",
       "caveat": "Both appear to concern the same January 27 pledge. Red marks incompatible reported model counts, not proof of which quote is accurate or what was eventually delivered.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": true,
       "direction": "source_to_target",
       "direction_reason": "Analyst-assigned comparison: C01 is proposed to contradict EP02. The arrow follows this source-to-target order."
@@ -880,7 +880,7 @@
       "subtype": "opposed_reported_pledge_figures",
       "reason": "Censor reports 60 PT-91s while Kyiv Independent reports 30 PT-91s within 60 total tanks.",
       "caveat": "The discrepancy concerns the printed statements, not a verified inventory of delivered tanks.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": true,
       "direction": "source_to_target",
       "direction_reason": "Analyst-assigned comparison: C01 is proposed to contradict KI03. The arrow follows this source-to-target order."
@@ -897,7 +897,7 @@
       "subtype": "opposed_reported_pledge_figures",
       "reason": "Izvestia quotes Yermak saying 60 PT-91s; European Pravda quotes the prime minister specifying 30 PT-91s.",
       "caveat": "Different speakers may be relaying or rendering the package differently. Izvestia itself also quotes the prime minister’s 30-PT-91 figure.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": true,
       "direction": "source_to_target",
       "direction_reason": "Analyst-assigned comparison: I01 is proposed to contradict EP02. The arrow follows this source-to-target order."
@@ -914,7 +914,7 @@
       "subtype": "repeated_source_position",
       "reason": "Both quotes include 14 Leopards alongside the additional tank package. These reports rely on the same original statement.",
       "caveat": "Both reports use Morawiecki’s statement about the planned package. The comparison provides no separate delivery evidence.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -930,7 +930,7 @@
       "subtype": "repeated_source_position",
       "reason": "Both identify 14 Leopards in addition to the other tanks. These reports rely on the same original statement.",
       "caveat": "Matching package structure is not a completed delivery and does not resolve the separate PT-91 count dispute.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -946,7 +946,7 @@
       "subtype": "repeated_source_position",
       "reason": "Both report Morawiecki arguing that allies must keep supporting Ukraine. These reports rely on the same original statement.",
       "caveat": "The supportive view belongs to Morawiecki. It does not make every outlet’s narrator pro-Ukrainian.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -962,7 +962,7 @@
       "subtype": "compatible_different_speech_acts",
       "reason": "Morawiecki urges continued assistance; Yermak thanks allies for help already announced.",
       "caveat": "Both are supportive, but the speaker and action differ: a recommendation is not the same proposition as gratitude.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -973,7 +973,7 @@
       "topic": "pt91_count",
       "source_claim": "C01",
       "target_claim": "I02",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "relation": "contradiction",
       "directed": true,
       "direction": "source_to_target",
@@ -990,7 +990,7 @@
       "topic": "pt91_count",
       "source_claim": "I01",
       "target_claim": "KI03",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "relation": "contradiction",
       "directed": true,
       "direction": "source_to_target",
@@ -1039,7 +1039,7 @@
     "edge_note": "Green arrows point from a supporting claim to the claim receiving support. Grey comparisons have no assigned direction. Solid red arrows point from a source claim to a target claim it is proposed to contradict. Red direction follows the analyst-assigned comparison order. Every proposed conflict retains its reasoning and scope limits for human review.",
     "attention_note": "Attention is a qualitative reading of the saved article, with paragraph locators; it is not a measured share of words.",
     "endorsement_note": "A quoted speaker’s view is separate from the article narrator’s view. No outlet-wide position is inferred from one article.",
-    "annotation_status": "AI-assisted draft; human review pending",
+    "annotation_status": "AI-assisted draft",
     "cleaning_note": "Uses saved recovered text. Kyiv Independent later Most Popular / News Feed material is excluded; original paragraph numbers retained. FT wrapped lines are joined into logical paragraphs."
   },
   "within_article_relations": [

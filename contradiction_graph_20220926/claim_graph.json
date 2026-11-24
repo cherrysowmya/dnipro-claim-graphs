@@ -94,7 +94,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CNN02",
@@ -138,7 +138,7 @@
           },
           "context_only": false,
           "uncertainty": "A statement about public reporting, not an intelligence finding that no preparations exist.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CNN03",
@@ -182,7 +182,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CNN04",
@@ -226,7 +226,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CNN05",
@@ -270,7 +270,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -331,7 +331,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "FT02",
@@ -375,7 +375,7 @@
           },
           "context_only": false,
           "uncertainty": "The preceding sentence says nuclear use is not Putin’s first choice. Preserve might and the if condition.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "FT03",
@@ -419,7 +419,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -479,7 +479,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "KI02",
@@ -523,7 +523,7 @@
           },
           "context_only": false,
           "uncertainty": "The content and future implementation of the plan are not established.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -584,7 +584,7 @@
           },
           "context_only": false,
           "uncertainty": "Paragraph 2 attributes paragraph 1 to Blinken on CBS; this is the same interview carried by other outlets.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "C02",
@@ -628,7 +628,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "C03",
@@ -672,7 +672,7 @@
           },
           "context_only": false,
           "uncertainty": "Uncertainty about internal decision-making, not proof that a launch decision exists.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -732,7 +732,7 @@
           },
           "context_only": false,
           "uncertainty": "An unchanged written policy can coexist with threatening rhetoric or a changing assessment of risk.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "T02",
@@ -777,7 +777,7 @@
           },
           "context_only": false,
           "uncertainty": "The phrase course is broad and does not identify one particular US warning as the sole cause.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -837,7 +837,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "S02",
@@ -881,7 +881,7 @@
           },
           "context_only": false,
           "uncertainty": "The recovered text supplies no plan details and no substantive Kremlin response.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -942,7 +942,7 @@
           },
           "context_only": false,
           "uncertainty": "The Russian quotation has awkward wording about retaliation; the clear stated alternative is conventional military action. These are unnamed sources’ expectations, not a public US decision.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "I02",
@@ -986,7 +986,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "I03",
@@ -1030,7 +1030,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "I04",
@@ -1074,7 +1074,7 @@
           },
           "context_only": false,
           "uncertainty": "This is Putin’s allegation about the West, not an independently established Western nuclear plan.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     }
@@ -1092,7 +1092,7 @@
       "subtype": "repeated_original_source",
       "reason": "Kyiv Independent and Censor.NET both attribute the existence of a plan to Blinken’s CBS interview.",
       "caveat": "Both rely on the same speaker and interview; neither provides separate evidence about the plan.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1108,7 +1108,7 @@
       "subtype": "repeated_original_source",
       "reason": "Kyiv Independent and Sputnik repeat Blinken’s statement to CBS that Washington has a plan.",
       "caveat": "The same interview is the basis for both reports, and neither describes the plan.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1124,7 +1124,7 @@
       "subtype": "repeated_original_source",
       "reason": "Kyiv Independent and Izvestia carry Blinken’s statement that Washington has a plan.",
       "caveat": "Repeating Blinken’s statement adds no separate evidence that the plan exists or what it contains.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1140,7 +1140,7 @@
       "subtype": "parallel_warnings",
       "reason": "CNN quotes Sullivan and Kyiv Independent quotes Blinken. Both warn about the consequences of Russian nuclear use.",
       "caveat": "Each report documents a separate statement. Neither verifies the other statement or establishes what the US would do.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1156,7 +1156,7 @@
       "subtype": "parallel_warnings",
       "reason": "CNN quotes Sullivan’s September 25 warning; Sputnik quotes Biden’s September 17 warning. Both signal serious consequences.",
       "caveat": "Different speakers, dates and wording. Neither warning verifies the other or describes a specific response.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1172,7 +1172,7 @@
       "subtype": "specific_example",
       "reason": "CNN reports that the US privately warned Russia against nuclear use. That gives a specific example of the private warnings from Ukraine’s allies described by officials quoted via the FT in Izvestia.",
       "caveat": "The articles do not establish whether their information came from independent sources.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "support_scope": "The part of I02 that says Ukraine’s allies sent private warnings to Moscow about nuclear use.",
       "unsupported_parts": "The claim about emergency plans, the actions of other allies, or the exact message and timing of every warning.",
       "directed": true,
@@ -1191,7 +1191,7 @@
       "subtype": "specific_example",
       "reason": "CNN quotes UK Prime Minister Liz Truss saying the West should keep backing Ukraine despite Putin’s threats. Her public statement is one concrete example of the position attributed to Western policymakers in the FT.",
       "caveat": "The arrow compares stated policy positions, not the news outlets’ own views.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "support_scope": "The part of FT03 that says Western policymakers want to keep supporting Ukraine despite nuclear threats.",
       "unsupported_parts": "The views of every Western policymaker, the identities of the FT’s sources, or whether aid was delivered.",
       "directed": true,
@@ -1210,7 +1210,7 @@
       "subtype": "scope_or_certainty_difference",
       "reason": "Blinken does not disclose the US plan; unnamed Western officials discuss a possible conventional response.",
       "caveat": "The officials do not identify their forecast as the US plan, and Blinken does not deny that forecast.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1226,7 +1226,7 @@
       "subtype": "opposed_escalation_responsibility_frames",
       "reason": "CNN treats the need for US warnings against Russian nuclear use as a sign of the danger of the war. Ryabkov, quoted by TASS, frames Washington’s course as aggressive and as bringing everyone closer to danger. The red comparison flags contrasting responsibility narratives around the US role in escalation.",
       "caveat": "CNN does not say US policy can never add risk, and Ryabkov discusses Washington’s broader course. These explanations can coexist as causes. This is a proposed blame-framing conflict, not a matched denial of a single cause.",
-      "review_status": "AI-assisted proposed claim relation; human review pending",
+      "review_status": "AI-assisted proposed claim relation",
       "directed": true,
       "direction": "source_to_target",
       "direction_reason": "Analyst-assigned comparison: CNN05 is proposed to contradict T02. The arrow follows this source-to-target order."
@@ -1238,7 +1238,7 @@
       "topic": "us_warning",
       "source_claim": "CNN01",
       "target_claim": "FT01",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "relation": "supportive",
       "label": "Sullivan’s response warning illustrates his stated concern",
       "subtype": "concrete_statement_supports_assessment",
@@ -1274,7 +1274,7 @@
     "edge_note": "Green arrows point from a supporting claim to the claim receiving support. Grey comparisons have no assigned direction. Solid red arrows point from a source claim to a target claim it is proposed to contradict. Red direction follows the analyst-assigned comparison order. Every proposed conflict retains its reasoning and scope limits for human review.",
     "attention_note": "Attention is a qualitative reading of the saved article, with paragraph locators; it is not a measured share of words.",
     "endorsement_note": "A quoted speaker’s view is separate from the article narrator’s view. No outlet-wide position is inferred from one article.",
-    "annotation_status": "AI-assisted draft; human review pending",
+    "annotation_status": "AI-assisted draft",
     "cleaning_note": "Uses saved recovered text. Kyiv Independent later Most Popular / News Feed material is excluded; original paragraph numbers retained. FT wrapped lines are joined into logical paragraphs. CNN is one long recovered paragraph: exact sentence excerpts are supplied. Sputnik’s missing headline-related Kremlin response is not invented."
   },
   "within_article_relations": [],

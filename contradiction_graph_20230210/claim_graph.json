@@ -100,7 +100,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "KI02",
@@ -144,7 +144,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "KI03",
@@ -188,7 +188,7 @@
           },
           "context_only": false,
           "uncertainty": "Integrity means the wider system remained connected; it does not mean no damage or outages.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "KI04",
@@ -232,7 +232,7 @@
           },
           "context_only": false,
           "uncertainty": "P9 repeats the same report; this graph does not add the two mentions into sixteen injuries.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -292,7 +292,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "C02",
@@ -336,7 +336,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "C03",
@@ -380,7 +380,7 @@
           },
           "context_only": false,
           "uncertainty": "This is a system-level claim, not a denial of damaged facilities or emergency outages.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "C04",
@@ -424,7 +424,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -485,7 +485,7 @@
           },
           "context_only": false,
           "uncertainty": "An early-morning local strike; not established as the exact same wave or missile as a later airspace report.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "T02",
@@ -529,7 +529,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "T03",
@@ -574,7 +574,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -634,7 +634,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "I02",
@@ -678,7 +678,7 @@
           },
           "context_only": false,
           "uncertainty": "This statement singles out Kharkiv; it does not deny severe problems in the other regions named by the minister.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "I03",
@@ -722,7 +722,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "I04",
@@ -766,7 +766,7 @@
           },
           "context_only": false,
           "uncertainty": "This reports the absence of confirmation then, not an explicit Russian denial and not a claim that no later statement would follow.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -826,7 +826,7 @@
           },
           "context_only": false,
           "uncertainty": "This is Ukraine’s account of two missiles. Moldova’s separate confirmation speaks of a missile and does not establish the complete count.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "EP02",
@@ -870,7 +870,7 @@
           },
           "context_only": false,
           "uncertainty": "The selected article gives no Romanian confirmation or denial. Moldovan confirmation cannot be extended to Romania.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "EP03",
@@ -914,7 +914,7 @@
           },
           "context_only": false,
           "uncertainty": "Confirms Moldova only, not Romania or every detail in Zaluzhnyi’s account.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "EP04",
@@ -958,7 +958,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -1021,7 +1021,7 @@
           },
           "context_only": false,
           "uncertainty": "A Russian military claim, not independently checked. Statement date differs from the February 10 article label.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "S02",
@@ -1065,7 +1065,7 @@
           },
           "context_only": false,
           "uncertainty": "A Russian military claim, not independently checked. Statement date differs from the February 10 article label.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "S03",
@@ -1109,7 +1109,7 @@
           },
           "context_only": false,
           "uncertainty": "A Russian military claim, not independently checked. Statement date differs from the February 10 article label.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "S04",
@@ -1153,7 +1153,7 @@
           },
           "context_only": false,
           "uncertainty": "Does not confirm Romanian airspace entry or independently establish two missiles. Reported times are preserved, not silently reconciled.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "S05",
@@ -1197,7 +1197,7 @@
           },
           "context_only": false,
           "uncertainty": "An order or announced summons is not evidence of what was discussed at a later diplomatic meeting.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     }
@@ -1215,7 +1215,7 @@
       "subtype": "repeated_source_position",
       "reason": "Both repeat Halushchenko’s statement about power sites hit in six regions. These reports rely on the same original statement.",
       "caveat": "Same Ukrainian minister’s report, not independent counts of six different strikes.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1231,7 +1231,7 @@
       "subtype": "repeated_source_position",
       "reason": "Both attribute the six-region damage claim to Halushchenko. These reports rely on the same original statement.",
       "caveat": "This is repeated source material; neither report independently validates all facilities hit.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1247,7 +1247,7 @@
       "subtype": "repeated_source_position",
       "reason": "Both reproduce the energy minister’s assessment of the three most difficult regions. These reports rely on the same original statement.",
       "caveat": "These reports repeat the same original speaker. They are not independent military findings or separate promises from every Western government.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1263,7 +1263,7 @@
       "subtype": "repeated_source_position",
       "reason": "Both quote the minister crediting air defenses and preventive steps for keeping the overall system intact. These reports rely on the same original statement.",
       "caveat": "This does not mean no damage or outages, and is not independent corroboration.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1279,7 +1279,7 @@
       "subtype": "compatible_different_effects",
       "reason": "Censor reports emergency shutdowns; Izvestia quotes a major electricity shortage.",
       "caveat": "These are compatible, related system effects, not exactly the same measurement or an opposed evaluation.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1295,7 +1295,7 @@
       "subtype": "specified_partial_support",
       "reason": "TASS reports regional authorities describing Kharkiv blackouts after explosions. That supplies a local account supporting the outage component of Ukrenergo’s report carried by Izvestia.",
       "caveat": "The reports use different authorities and may describe different reporting times.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": true,
       "direction": "source_to_target",
       "support_scope": "The occurrence of power cuts in Kharkiv in I02.",
@@ -1314,7 +1314,7 @@
       "subtype": "regional_and_national_scope",
       "reason": "The minister reports six affected regions; TASS quotes a local official about one early-morning site.",
       "caveat": "A local strike is not a competing six-region total or proof that it belongs to the same wave as each later report.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1330,7 +1330,7 @@
       "subtype": "repeated_source_position",
       "reason": "Both relay Moldova’s defense ministry confirming a missile crossing. These reports rely on the same original statement.",
       "caveat": "The same institutional account is repeated. It does not verify the Romanian crossing or Ukraine’s two-missile count.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1346,7 +1346,7 @@
       "subtype": "specified_partial_support",
       "reason": "Sputnik quotes Moldova’s defense ministry reporting a missile in Moldovan airspace at 10:18. That provides a local authority’s account supporting the Moldovan-crossing part of Zaluzhnyi’s report in European Pravda.",
       "caveat": "Moldova confirms a missile. The accounts use different national authorities.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": true,
       "direction": "source_to_target",
       "support_scope": "At least one missile crossing Moldovan airspace at 10:18 on February 10.",
@@ -1365,7 +1365,7 @@
       "subtype": "repeated_source_position",
       "reason": "The defense ministry condemns the violation and the foreign ministry calls it unacceptable. These reports rely on the same original statement.",
       "caveat": "Different Moldovan offices take compatible positions; the diplomatic order is an additional action, not the same quotation.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1381,7 +1381,7 @@
       "subtype": "chronological_update",
       "reason": "Izvestia has no Russian confirmation at its February 10 reporting point; Sputnik carries a February 11 ministry statement.",
       "caveat": "Different reporting times explain the difference. Do not mark an absence of confirmation as a contradictory military denial.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1397,7 +1397,7 @@
       "subtype": "different_scale_military_outcome_conflict",
       "reason": "Ukraine’s minister credits air defenses and preventive measures with preserving the wider energy system. Russia’s defense ministry says all intended energy targets were hit. The comparison flags opposing success narratives about the effects of the February 10 attacks.",
       "caveat": "The minister discusses system integrity; Russia discusses individual intended targets and reports a day later. All selected targets could be hit while the grid remains intact. The proposed conflict requires review of target lists, effects, scale and reporting time.",
-      "review_status": "AI-assisted proposed claim relation; human review pending",
+      "review_status": "AI-assisted proposed claim relation",
       "directed": true,
       "direction": "source_to_target",
       "direction_reason": "Analyst-assigned comparison: KI03 is proposed to contradict S01. The arrow follows this source-to-target order."
@@ -1409,7 +1409,7 @@
       "topic": "damage",
       "source_claim": "T02",
       "target_claim": "KI01",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "relation": "supportive",
       "directed": true,
       "direction": "source_to_target",
@@ -1450,7 +1450,7 @@
     "edge_note": "Green arrows point from a supporting claim to the claim receiving support. Grey comparisons have no assigned direction. Solid red arrows point from a source claim to a target claim it is proposed to contradict. Red direction follows the analyst-assigned comparison order. Every proposed conflict retains its reasoning and scope limits for human review.",
     "attention_note": "Attention is a qualitative reading of the saved article, with paragraph locators; it is not a measured share of words.",
     "endorsement_note": "A quoted speaker’s view is separate from the article narrator’s view. No outlet-wide position is inferred from one article.",
-    "annotation_status": "AI-assisted draft; human review pending",
+    "annotation_status": "AI-assisted draft",
     "cleaning_note": "Uses saved recovered text. Kyiv Independent later Most Popular / News Feed material is excluded; original paragraph numbers retained. FT wrapped lines are joined into logical paragraphs. Sputnik entry timestamps are retained in where_when fields; February 11 military updates are not mislabeled as February 10 statements."
   }
 }

@@ -104,7 +104,7 @@
           },
           "context_only": false,
           "uncertainty": "This records the article’s legal characterization rather than conducting a separate legal determination.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CNN02",
@@ -148,7 +148,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CNN03",
@@ -192,7 +192,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CNN04",
@@ -237,7 +237,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CNN05",
@@ -281,7 +281,7 @@
           },
           "context_only": false,
           "uncertainty": "This is a reported territorial-control estimate for Donetsk, not a percentage for all four regions.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CNN06",
@@ -326,7 +326,7 @@
           },
           "context_only": false,
           "uncertainty": "A stated negotiating position, not this graph recognizing Russia’s territorial claim.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -387,7 +387,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "FT02",
@@ -432,7 +432,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "FT03",
@@ -476,7 +476,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "FT04",
@@ -521,7 +521,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -583,7 +583,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "KI02",
@@ -627,7 +627,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -689,7 +689,7 @@
           },
           "context_only": false,
           "uncertainty": "This is the same Kuleba tweet repeated by Kyiv Independent; paragraphs 3–4 also duplicate it within this article.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "EP02",
@@ -733,7 +733,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "EP03",
@@ -777,7 +777,7 @@
           },
           "context_only": false,
           "uncertainty": "A report of introduced measures, not merely the FT editorial’s recommendation for further measures.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -837,7 +837,7 @@
           },
           "context_only": false,
           "uncertainty": "Reporting document signatures does not recognize their legal effect or say Russia controls every claimed area.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "C02",
@@ -881,7 +881,7 @@
           },
           "context_only": false,
           "uncertainty": "This is about incomplete physical control, not the separate signing event.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "C03",
@@ -926,7 +926,7 @@
           },
           "context_only": false,
           "uncertainty": "Records Putin’s permanence claim, not proof of permanent control or international recognition.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "C04",
@@ -970,7 +970,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -1030,7 +1030,7 @@
           },
           "context_only": false,
           "uncertainty": "The signature event and Russia’s claimed legal effect must stay distinct; the graph does not recognize that claimed effect.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "T02",
@@ -1074,7 +1074,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "T03",
@@ -1119,7 +1119,7 @@
           },
           "context_only": false,
           "uncertainty": "Describes ceremony participants’ reaction, not the views of all residents or the outlet.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -1180,7 +1180,7 @@
           },
           "context_only": false,
           "uncertainty": "Putin’s political claim of consent is not an independently verified finding of free voting.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "S02",
@@ -1224,7 +1224,7 @@
           },
           "context_only": false,
           "uncertainty": "This is Putin’s policy position. Supporting an act does not by itself establish its international legality.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "S03",
@@ -1269,7 +1269,7 @@
           },
           "context_only": false,
           "uncertainty": "This is the Russian president’s territorial claim and intended response, not a finding that the land is legally Russian.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "S04",
@@ -1313,7 +1313,7 @@
           },
           "context_only": false,
           "uncertainty": "These are the article’s reported announced figures, not independently audited support levels or proof of free voting.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "S05",
@@ -1357,7 +1357,7 @@
           },
           "context_only": false,
           "uncertainty": "A promise, not proof that rebuilding has occurred.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -1417,7 +1417,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "I02",
@@ -1461,7 +1461,7 @@
           },
           "context_only": false,
           "uncertainty": "Russia’s account of responsibility for the talks stalling, not an independently determined cause.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "I03",
@@ -1505,7 +1505,7 @@
           },
           "context_only": false,
           "uncertainty": "The article recaps a Ukrainian condition without dating the original statement; do not call it a newly issued September 30 condition.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     }
@@ -1523,7 +1523,7 @@
       "subtype": "parallel_accounts_or_interpretations",
       "reason": "Both report Putin and regional leaders signing incorporation documents on September 30. The matching content alone supplies no evidential direction.",
       "caveat": "Agreement about signatures does not imply agreement about legality or recognition.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1539,7 +1539,7 @@
       "subtype": "shared_original_source",
       "reason": "Both carry Kuleba’s promise to continue recovering Ukrainian land and people. These reports rely on the same original statement.",
       "caveat": "Shared original tweet, not independent evidence.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1555,7 +1555,7 @@
       "subtype": "specified_partial_support",
       "reason": "Censor.NET says Russia lacks full control of every claimed region. That stronger territorial claim supports Kuleba’s broader statement that the claimed territory includes land Russia does not hold.",
       "caveat": "Censor.NET supplies a reported assertion. The comparison records its logical implication.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": true,
       "direction": "source_to_target",
       "support_scope": "The claim in KI02 that the territorial claim extends beyond Russia’s physical control.",
@@ -1574,7 +1574,7 @@
       "subtype": "specified_partial_support",
       "reason": "CNN’s estimate that Ukraine controls about 40 percent of Donetsk supplies a concrete reason for the Donetsk part of Censor.NET’s claim.",
       "caveat": "CNN’s percentage is a reported estimate for Donetsk.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": true,
       "direction": "source_to_target",
       "support_scope": "The Donetsk part of C02 about incomplete Russian control.",
@@ -1593,7 +1593,7 @@
       "subtype": "parallel_accounts_or_interpretations",
       "reason": "CNN’s narrator calls incorporation illegal; the FT editorial calls it an illegal land grab. The matching content alone supplies no evidential direction.",
       "caveat": "A report narrator and an editorial have different genres; this is not a new legal ruling.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1609,7 +1609,7 @@
       "subtype": "shared_original_source",
       "reason": "Both report EU rejection of Russia’s claimed sovereignty/incorporation. These reports rely on the same original statement.",
       "caveat": "Shared institutional position, not separate judicial findings.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1625,7 +1625,7 @@
       "subtype": "opposed_policy_positions",
       "reason": "The G7 and EU reject Russian sovereignty over the four regions. Putin endorses their incorporation into Russia. These are opposing recognition positions on the same claim.",
       "caveat": "The speakers’ recognition positions oppose each other. Reports that each speaker holds that position can both be accurate. Human review should distinguish a narrative or policy conflict from a factual contradiction.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": true,
       "direction": "source_to_target",
       "direction_reason": "Analyst-assigned comparison: CNN02 is proposed to contradict S02. The arrow follows this source-to-target order."
@@ -1642,7 +1642,7 @@
       "subtype": "opposed_territorial_positions",
       "reason": "Putin asserts a permanent Russian territorial claim while EU leaders reject the incorporation. The comparison proposes a conflict over the legitimacy and acceptance of that claim.",
       "caveat": "These are opposing territorial positions attributed to different actors. The comparison requires review as a normative conflict and says nothing about permanent physical control.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": true,
       "direction": "source_to_target",
       "direction_reason": "Analyst-assigned comparison: C03 is proposed to contradict EP02. The arrow follows this source-to-target order."
@@ -1659,7 +1659,7 @@
       "subtype": "opposed_voting_legitimacy_assessments",
       "reason": "The FT editorial rejects the votes as sham; Putin presents the same votes as an unequivocal choice legitimizing joining Russia.",
       "caveat": "The FT’s sham-vote assessment conflicts with Putin’s use of the vote as a public mandate. Human review must compare the intended meaning of free choice and legitimacy in each passage.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": true,
       "direction": "source_to_target",
       "direction_reason": "Analyst-assigned comparison: FT02 is proposed to contradict S01. The arrow follows this source-to-target order."
@@ -1676,7 +1676,7 @@
       "subtype": "parallel_accounts_or_interpretations",
       "reason": "Western governments promise restrictions and the FT editorial recommends stronger pressure and aid. The matching content alone supplies no evidential direction.",
       "caveat": "This matches policy direction; a government intention and editorial recommendation are different kinds of statements.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1692,7 +1692,7 @@
       "subtype": "scope_or_certainty_difference",
       "reason": "One claim reports a promise of restrictions; the other says some measures were introduced.",
       "caveat": "Different temporal status and country lists; do not flatten intentions into completed acts.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1708,7 +1708,7 @@
       "subtype": "opposed_territorial_policy_positions",
       "reason": "Kuleba says Ukraine will continue recovering its land and restoring territorial integrity. Putin demands respect for the announced choice and says Russia will defend the territories it claims. Their positions assert opposing territorial objectives over the claimed regions.",
       "caveat": "Both actors can simultaneously hold these intentions. The proposed contradiction concerns political and territorial positions, rather than whether either speaker made the statement or whether a military outcome occurred.",
-      "review_status": "AI-assisted proposed claim relation; human review pending",
+      "review_status": "AI-assisted proposed claim relation",
       "directed": true,
       "direction": "source_to_target",
       "direction_reason": "Analyst-assigned comparison: KI01 is proposed to contradict S03. The arrow follows this source-to-target order."
@@ -1725,7 +1725,7 @@
       "subtype": "parallel_accounts_or_interpretations",
       "reason": "CNN reports willingness to negotiate and Izvestia reports the ceasefire/talks call at the ceremony. The matching content alone supplies no evidential direction.",
       "caveat": "CNN adds the territorial-sovereignty limitation. A call for talks is not proof of unconditional willingness or agreement.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1741,7 +1741,7 @@
       "subtype": "opposed_negotiation_conditions",
       "reason": "Putin excludes sovereignty over the four regions from negotiations. Zelensky’s position, recounted by Izvestia, requires Russian withdrawal from territory taken since February 24 before talks. The comparison flags potentially incompatible territorial starting positions for negotiations.",
       "caveat": "Izvestia does not date the recounted Ukrainian statement. Withdrawal and legal sovereignty are different propositions. Review their timing and territorial coverage before deciding whether the conditions are mutually incompatible.",
-      "review_status": "AI-assisted proposed claim relation; human review pending",
+      "review_status": "AI-assisted proposed claim relation",
       "directed": true,
       "direction": "source_to_target",
       "direction_reason": "Analyst-assigned comparison: CNN06 is proposed to contradict I03. The arrow follows this source-to-target order."
@@ -1753,7 +1753,7 @@
       "topic": "control",
       "source_claim": "CNN05",
       "target_claim": "KI02",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "relation": "supportive",
       "directed": true,
       "direction": "source_to_target",
@@ -1772,7 +1772,7 @@
       "topic": "legality",
       "source_claim": "EP02",
       "target_claim": "C04",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "relation": "supportive",
       "directed": true,
       "direction": "source_to_target",
@@ -1803,7 +1803,7 @@
     "edge_note": "Green arrows point from a supporting claim to the claim receiving support. Grey comparisons have no assigned direction. Solid red arrows point from a source claim to a target claim it is proposed to contradict. Red direction follows the analyst-assigned comparison order. Every proposed conflict retains its reasoning and scope limits for human review.",
     "attention_note": "Attention is a qualitative reading of the saved article, with paragraph locators; it is not a measured share of words.",
     "endorsement_note": "A quoted speaker’s view is separate from the article narrator’s view. No outlet-wide position is inferred from one article.",
-    "annotation_status": "AI-assisted draft; human review pending",
+    "annotation_status": "AI-assisted draft",
     "cleaning_note": "Uses saved recovered text. Kyiv Independent later Most Popular / News Feed material is excluded; original paragraph numbers retained. FT wrapped lines are joined into logical paragraphs. CNN and Sputnik are single long recovered paragraphs; exact event-matched excerpts are used. FT is an editorial. Sputnik’s historical genocide/coup/pipeline allegations are not promoted into this event graph. The duplicated Kuleba tweet is marked."
   },
   "within_article_relations": []

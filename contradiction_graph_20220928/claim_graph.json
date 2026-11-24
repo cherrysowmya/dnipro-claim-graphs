@@ -99,7 +99,7 @@
           },
           "context_only": false,
           "uncertainty": "An assessment while investigation continues; it does not name the actor responsible.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CNN02",
@@ -143,7 +143,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CNN03",
@@ -187,7 +187,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CNN04",
@@ -231,7 +231,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CNN05",
@@ -275,7 +275,7 @@
           },
           "context_only": false,
           "uncertainty": "The extracted sentence does not name the spokesman; do not silently identify him as Peskov.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CNN06",
@@ -320,7 +320,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CNN07",
@@ -364,7 +364,7 @@
           },
           "context_only": false,
           "uncertainty": "The remark is in a passage about immediate safety. Its intended scope may be local hazards.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -424,7 +424,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "T02",
@@ -468,7 +468,7 @@
           },
           "context_only": false,
           "uncertainty": "Not ruling a possibility out is weaker than establishing it.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "T03",
@@ -512,7 +512,7 @@
           },
           "context_only": false,
           "uncertainty": "Same operator statement as CNN, not an independent damage survey.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "T04",
@@ -556,7 +556,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -616,7 +616,7 @@
           },
           "context_only": false,
           "uncertainty": "Conditional willingness to consider requests is not proof a joint inquiry has been agreed.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "S02",
@@ -660,7 +660,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "S03",
@@ -704,7 +704,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -764,7 +764,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CD02",
@@ -808,7 +808,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CD03",
@@ -852,7 +852,7 @@
           },
           "context_only": false,
           "uncertainty": "",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CD04",
@@ -896,7 +896,7 @@
           },
           "context_only": false,
           "uncertainty": "A report’s lack of evidence is not a denial of every later assessment that sabotage occurred.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CD05",
@@ -940,7 +940,7 @@
           },
           "context_only": false,
           "uncertainty": "This places a visible sign of the leak by Monday evening. The exact start time is unspecified.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "CD06",
@@ -984,7 +984,7 @@
           },
           "context_only": false,
           "uncertainty": "The cited sentence concerns Nord Stream 2 only.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     },
@@ -1044,7 +1044,7 @@
           },
           "context_only": false,
           "uncertainty": "Same European official’s assessment carried in CNN; not a separate investigation.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "GT02",
@@ -1088,7 +1088,7 @@
           },
           "context_only": false,
           "uncertainty": "An accusation quoted via FT, not an independently established perpetrator.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "GT03",
@@ -1132,7 +1132,7 @@
           },
           "context_only": false,
           "uncertainty": "A feasibility opinion, not an established exclusion of Russian involvement.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "GT04",
@@ -1178,7 +1178,7 @@
           },
           "context_only": false,
           "uncertainty": "An argument about potential benefits is not proof that the US caused the damage.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "GT05",
@@ -1222,7 +1222,7 @@
           },
           "context_only": false,
           "uncertainty": "The passage begins if the US is behind the incident; preserve the condition. No evidence establishing responsibility is supplied.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "GT06",
@@ -1266,7 +1266,7 @@
           },
           "context_only": false,
           "uncertainty": "No immediate flow effect does not rule out price changes or future losses.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "GT07",
@@ -1310,7 +1310,7 @@
           },
           "context_only": false,
           "uncertainty": "A forecast, not an observed count of business failures or winter hardship.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "GT08",
@@ -1354,7 +1354,7 @@
           },
           "context_only": false,
           "uncertainty": "The article credits TASS for the attribution. Peskov describes a possibility.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         },
         {
           "id": "GT09",
@@ -1398,7 +1398,7 @@
           },
           "context_only": false,
           "uncertainty": "The article gives a relative date. Its earlier paragraph 5 says two undersea leaks began on Monday, September 26.",
-          "annotation_status": "AI-assisted draft; human review pending"
+          "annotation_status": "AI-assisted draft"
         }
       ]
     }
@@ -1416,7 +1416,7 @@
       "subtype": "shared_original_source",
       "reason": "CNN and Global Times both attribute the deliberate-damage assessment to Borrell.",
       "caveat": "Both reports repeat the same official’s assessment. Neither provides a separate finding about sabotage.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1432,7 +1432,7 @@
       "subtype": "shared_original_source",
       "reason": "CNN and TASS both report Nord Stream AG’s statement about simultaneous damage to three strings and unknown repair timing.",
       "caveat": "The two reports share the pipeline operator’s statement.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1448,7 +1448,7 @@
       "subtype": "specific_example",
       "reason": "China Daily identifies Denmark’s maritime agency and the area it warned ships to avoid. This gives a specific example of the ship exclusion described by CNN.",
       "caveat": "China Daily attributes the Danish warning to The Times.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "support_scope": "The part of CNN04 about authorities telling ships to stay clear.",
       "unsupported_parts": "How the warning was enforced, whether the two articles describe exactly the same boundary, or CNN’s explanation of ignition risk.",
       "directed": true,
@@ -1467,7 +1467,7 @@
       "subtype": "shared_original_source",
       "reason": "TASS and Sputnik both attribute pressure drops in Nord Stream 1 and Nord Stream 2 to Nord Stream AG.",
       "caveat": "A common operator source gives no separate confirmation of the cause.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1483,7 +1483,7 @@
       "subtype": "specific_measurement",
       "reason": "China Daily gives the spokesman’s figures of 105 bars and 7 bars. Those readings add detail to Sputnik’s report of a sharp pressure loss in Nord Stream 2.",
       "caveat": "Both reports draw on the pipeline operator or its spokesman. The arrow represents the added detail.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "support_scope": "The rapid pressure drop in Nord Stream 2, one part of S03.",
       "unsupported_parts": "The pressure losses in Nord Stream 1 or what caused the drop.",
       "directed": true,
@@ -1502,7 +1502,7 @@
       "subtype": "premise_supports_inference",
       "reason": "CNN reports both pipelines were out of operation when the leaks were found. That supplies the premise for the New York Times account cited by Global Times about the lack of an immediate loss of flowing gas.",
       "caveat": "CNN’s account concerns the status of these two pipelines at the time.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "support_scope": "No immediate interruption of active gas flow through these two pipelines.",
       "unsupported_parts": "Later effects on prices, supply from other sources, winter availability or the environment.",
       "directed": true,
@@ -1521,7 +1521,7 @@
       "subtype": "parallel_policy_statements",
       "reason": "Sullivan describes US support for investigation efforts. Borrell describes the EU’s willingness to support an investigation.",
       "caveat": "Different institutions make separate statements. Each account describes its own institution’s commitment.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1537,7 +1537,7 @@
       "subtype": "scope_or_certainty_difference",
       "reason": "Peskov demands a Gazprom role; Grushko would consider future EU requests to Russia.",
       "caveat": "Different participants and conditions. Neither claim says a joint probe is already agreed.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1553,7 +1553,7 @@
       "subtype": "scope_or_certainty_difference",
       "reason": "Borrell points to a deliberate act; the article’s Die Welt account labels sabotage as unproven speculation.",
       "caveat": "A caution about evidence in one report is not an explicit denial of sabotage in all available information.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1569,7 +1569,7 @@
       "subtype": "scope_or_certainty_difference",
       "reason": "One source discusses methane warming; the other predicts economic and winter hardship.",
       "caveat": "Different effects, not opposing claims.",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "directed": false,
       "direction": "undirected"
     },
@@ -1580,7 +1580,7 @@
       "topic": "cause",
       "source_claim": "T02",
       "target_claim": "GT08",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "relation": "supportive",
       "label": "TASS supports the attribution in Global Times",
       "subtype": "original_source_attribution",
@@ -1599,7 +1599,7 @@
       "topic": "impact",
       "source_claim": "CD06",
       "target_claim": "CNN02",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "relation": "supportive",
       "label": "Nord Stream 2’s status supports part of CNN’s account",
       "subtype": "specific_example",
@@ -1618,7 +1618,7 @@
       "topic": "impact",
       "source_claim": "CNN07",
       "target_claim": "CD03",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "relation": "contradiction",
       "label": "Local-only effects versus atmospheric warming",
       "subtype": "environmental_scope_tension",
@@ -1635,7 +1635,7 @@
       "topic": "damage",
       "source_claim": "CD05",
       "target_claim": "GT09",
-      "review_status": "AI-assisted proposed comparison; human review pending",
+      "review_status": "AI-assisted proposed comparison",
       "relation": "contradiction",
       "label": "Monday observation versus Tuesday timing",
       "subtype": "event_timing_discrepancy",
@@ -1679,7 +1679,7 @@
     "edge_note": "Green arrows point from a supporting claim to the claim receiving support. Grey comparisons have no assigned direction. Solid red arrows point from a source claim to a target claim it is proposed to contradict. Red direction follows the analyst-assigned comparison order. Every proposed conflict retains its reasoning and scope limits for human review.",
     "attention_note": "Attention is a qualitative reading of the saved article, with paragraph locators; it is not a measured share of words.",
     "endorsement_note": "A quoted speaker’s view is separate from the article narrator’s view. No outlet-wide position is inferred from one article.",
-    "annotation_status": "AI-assisted draft; human review pending",
+    "annotation_status": "AI-assisted draft",
     "cleaning_note": "Uses saved recovered text. CNN and Sputnik each have one recovered paragraph, so exact excerpts identify their claims. The date attached to Global Times’ final-day reference comes from the September 23 sample’s Izvestia article."
   },
   "within_article_relations": [
